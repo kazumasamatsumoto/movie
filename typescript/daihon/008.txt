@@ -1,0 +1,8 @@
+四国めたん「オプショナルなstring型について学びましょう！」
+ずんだもん「値がないかもしれない文字列ってどう書くの？」
+四国めたん「『string | undefined』または『string?』と書きます。型理論ではOption型やMaybe型と呼ばれ、値の不在を型で表現する重要な概念です。」
+ずんだもん「実際にどう使うの？」
+四国めたん「Optional Chaining『user?.name』やNullish Coalescing『name ?? "Guest"』で安全にアクセスできます。strictNullChecksが有効ならコンパイル時に保護されます。」
+ずんだもん「Angularのフォームバリデーションで使えそうだね！」
+四国めたん「はい！undefinedチェックを強制することで、実行時エラーを防げます。」
+ずんだもん「型安全性が高まって最高だよ！」
