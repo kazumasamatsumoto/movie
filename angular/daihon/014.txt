@@ -1,0 +1,8 @@
+ずんだもん「StandaloneとModule-basedって、どっちを使えばいいの？」
+四国めたん「重要な違いを比較しましょう！」
+四国めたん「Module-basedは複数ファイルが必要で、NgModuleで依存関係を管理します。Standaloneは1ファイルで完結します」
+ずんだもん「具体的にどう違うの？」
+四国めたん「Module-basedは『declarations、imports、exports』の3段階設定が必要です。Standaloneは『standalone: true、imports』だけです」
+ずんだもん「どっちが推奨なの？」
+四国めたん「v20では完全にStandaloneが推奨です！シンプルで理解しやすく、遅延ロードも簡単ですよ」
+ずんだもん「新規プロジェクトはStandaloneで始めよう！」
