@@ -1,8 +1,0 @@
-四国めたん「Angularコンポーネントのクラス構造について学びましょう！」
-ずんだもん「コンポーネントクラスってどう書くの？」
-四国めたん「@Componentデコレーターの下に、export class UserComponentと定義します。TypeScriptのクラスですね」
-ずんだもん「クラスの中身はどうなるの？」
-四国めたん「v20ではSignalでプロパティを定義します。『name = signal("太郎")』のように書きますよ」
-ずんだもん「メソッドも定義できるの？」
-四国めたん「もちろんです！『updateName(newName: string) { this.name.set(newName) }』のように処理を書けます」
-ずんだもん「クラスの基本構造が分かったよ！」

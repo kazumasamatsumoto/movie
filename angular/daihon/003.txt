@@ -1,8 +1,0 @@
-四国めたん「Angular開発の基本、@Componentデコレータについて学びましょう！」
-ずんだもん「@Component？これって何をするものなの？」
-四国めたん「TypeScriptのクラスをAngularのコンポーネントに変換する重要なデコレータです。selector、template、stylesなどの設定を定義します。」
-ずんだもん「具体的にはどんな設定があるの？」
-四国めたん「例えば『@Component({ selector: 'app-user', standalone: true, template: '<div>Hello</div>' })』のように書きます。v20ではstandalone trueが推奨です。」
-ずんだもん「なるほど！コンポーネントの設計図みたいなものだね！」
-四国めたん「その通りです！@Componentなしではコンポーネントは動作しません。」
-ずんだもん「基礎からしっかり理解しよう！」

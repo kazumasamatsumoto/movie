@@ -1,9 +1,0 @@
-ずんだもん「新しいComponentを作ったら、エラーが出て動かないんだ...」
-四国めたん「Angular v20でよくあるエラーですね。NG0304エラーが出ていませんか?」
-ずんだもん「そうなの！'app-user-card' is not a known elementって言われるよ」
-四国めたん「それはimports配列に追加し忘れています。v20のStandalone Componentでは必須です」
-ずんだもん「どうやって直せばいいの?」
-四国めたん「使う側のComponentのimports配列に『UserCardComponent』を追加してください」
-ずんだもん「なるほど！v20ではimportsが必須なんだね」
-四国めたん「その通りです。Standalone Componentでは明示的なimportが必要ですよ」
-ずんだもん「これで解決だ！エラーを理解して対処しよう！」
