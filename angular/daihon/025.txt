@@ -1,0 +1,8 @@
+ずんだもん「似たようなComponentを何度も書くのが面倒なんだけど...」
+四国めたん「v20のSignal inputsで再利用可能なComponentを作りましょう！」
+四国めたん「汎用的なComponentは『input.required()'で必須プロパティを定義します。Standalone設定で単独利用も可能です。」
+ずんだもん「具体的にどう書くの？」
+四国めたん「例えば『user = input.required<User>()'でユーザー情報を受け取り、テンプレートで表示します。呼び出し側は『<app-card [user]="currentUser()" />'です。」
+ずんだもん「Content Projectionも使える？」
+四国めたん「もちろんです。『<ng-content />'で子要素を埋め込めば、さらに柔軟に再利用できます。」
+ずんだもん「これで開発効率が上がるね！」
