@@ -1,0 +1,7 @@
+四国めたん「imports 配列 - 依存関係の宣言について学びましょう！」
+ずんだもん「imports配列って何？」
+四国めたん「Standalone Componentで必要な依存関係を宣言する配列です」
+ずんだもん「どんなものをインポートするの？」
+四国めたん「CommonModule、FormsModule、RouterModuleなどのAngularモジュールや他のComponentです」
+ずんだもん「順番は関係あるの？」
+四国めたん「順番は関係ありませんが、読みやすさのために整理することが推奨されています」
