@@ -1,0 +1,28 @@
+# #182 「toPrecision()メソッド」台本
+
+四国めたん「TypeScript v5.9のtoPrecision()メソッドについて学びましょう！」
+ずんだもん「toPrecision()メソッドって何？」
+四国めたん「数値を指定した有効桁数で文字列に変換するメソッドです」
+ずんだもん「どうやって使うの？」
+四国めたん「number.toPrecision(precision)のように呼び出します」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、数値の精度制御に重要です」
+ずんだもん「精度制御で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// toPrecision()メソッド
+let num: number = 3.14159;
+
+let precision1: string = num.toPrecision(3); // "3.14"
+let precision2: string = num.toPrecision(5); // "3.1416"
+let precision3: string = num.toPrecision(2); // "3.1"
+
+// 実用的な例
+let largeNumber: number = 123456.789;
+let display1: string = largeNumber.toPrecision(4); // "1.235e+5"
+let display2: string = largeNumber.toPrecision(8); // "123456.79"
+```

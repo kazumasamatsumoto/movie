@@ -1,0 +1,33 @@
+# #168 「parseFloat()関数」台本
+
+四国めたん「TypeScript v5.9のparseFloat()関数について学びましょう！」
+ずんだもん「parseFloat()関数って何？」
+四国めたん「文字列を浮動小数点数に変換する関数です」
+ずんだもん「どうやって使うの？」
+四国めたん「parseFloat(string)のように呼び出します」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、小数を含む文字列の数値変換に活用できます」
+ずんだもん「浮動小数点変換で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// parseFloat()関数
+let str1: string = "123.45";
+let str2: string = "123";
+let str3: string = "abc123.45";
+
+// 浮動小数点変換
+let float1: number = parseFloat(str1);      // 123.45
+let float2: number = parseFloat(str2);      // 123
+let float3: number = parseFloat(str3);      // NaN
+
+// 実用的な例
+let userInput: string = "25.5";
+let userAge: number = parseFloat(userInput);
+
+let priceStr: string = "1500.99円";
+let price: number = parseFloat(priceStr); // 1500.99
+```

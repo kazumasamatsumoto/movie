@@ -1,0 +1,33 @@
+# #180 「回避方法(2) - ライブラリ」台本
+
+四国めたん「TypeScript v5.9のライブラリによる回避方法について学びましょう！」
+ずんだもん「ライブラリによる回避って何？」
+四国めたん「decimal.jsやbig.jsなどのライブラリを使用する方法です」
+ずんだもん「どんな利点があるの？」
+四国めたん「正確な小数計算が可能になります」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、金融計算など正確性が重要な場面で重要です」
+ずんだもん「ライブラリ活用で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// ライブラリによる回避（decimal.jsの例）
+// npm install decimal.js
+// import { Decimal } from 'decimal.js';
+
+// const a = new Decimal(0.1);
+// const b = new Decimal(0.2);
+// const sum = a.plus(b);
+
+// console.log(sum.toString()); // "0.3"
+
+// 実用的な例
+// const price1 = new Decimal(100.50);
+// const price2 = new Decimal(200.25);
+// const total = price1.plus(price2);
+
+// console.log(total.toString()); // "300.75"
+```

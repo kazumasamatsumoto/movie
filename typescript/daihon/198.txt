@@ -1,0 +1,34 @@
+# #198 「間違い(3) - 文字列との混同」台本
+
+四国めたん「TypeScript v5.9の文字列との混同について学びましょう！」
+ずんだもん「文字列との混同って何？」
+四国めたん「数値と文字列を混同して使用する間違いです」
+ずんだもん「どんな問題があるの？」
+四国めたん「型の不一致や予期しない動作が発生します」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、型安全性を保つために重要です」
+ずんだもん「型混同回避で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 間違い(3) - 文字列との混同
+let userInput: string = "25";
+let userAge: number = 25;
+
+// ❌ 間違い
+// let total: number = userInput + userAge; // "2525"
+
+// ✅ 正しい方法
+let total: number = Number(userInput) + userAge; // 50
+
+// 実用的な例
+let priceStr: string = "1500";
+let price: number = 1500;
+
+// 型安全な処理
+let totalPrice: number = Number(priceStr) + price;
+console.log(totalPrice); // 3000
+```
