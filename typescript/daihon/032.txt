@@ -1,0 +1,40 @@
+# #032 「テンプレートリテラルのインデント」台本
+
+四国めたん「TypeScript v5.9のテンプレートリテラルインデントについて学びましょう！」
+ずんだもん「インデントってどう扱うの？」
+四国めたん「テンプレートリテラル内のインデントはそのまま保持されます」
+ずんだもん「どうやって調整するの？」
+四国めたん「trim()メソッドや適切なインデント調整で対応できます」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、読みやすいコードの維持に重要です」
+ずんだもん「インデント管理で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// インデントの例
+let userName: string = "Alice";
+
+// インデントが保持される
+let message: string = `
+    Hello, ${userName}!
+    Welcome to our service.
+    Have a great day!
+`;
+
+// trim()で先頭の改行を削除
+let trimmedMessage: string = `
+    Hello, ${userName}!
+    Welcome to our service.
+`.trim();
+
+// 実用的な例
+let htmlTemplate: string = `
+<div class="container">
+    <h1>${userName}</h1>
+    <p>Welcome!</p>
+</div>
+`.trim();
+```

@@ -1,0 +1,38 @@
+# #039 「ベストプラクティス」台本
+
+四国めたん「TypeScript v5.9のテンプレートリテラルベストプラクティスについて学びましょう！」
+ずんだもん「ベストプラクティスって何？」
+四国めたん「テンプレートリテラルを効果的に使うための推奨事項です」
+ずんだもん「どんなポイントがあるの？」
+四国めたん「シンプルな構造、適切な命名、パフォーマンス考慮などがあります」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、保守性の高いコードに活用できます」
+ずんだもん「ベストプラクティスで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// ベストプラクティスの例
+
+// 1. シンプルな構造
+let userName: string = "Alice";
+let userAge: number = 30;
+let greeting: string = `Hello, ${userName}! You are ${userAge} years old.`;
+
+// 2. 適切な命名
+let productName: string = "TypeScript本";
+let productPrice: number = 2980;
+let productInfo: string = `${productName}: ¥${productPrice}`;
+
+// 3. 複雑な場合は分割
+let firstName: string = "Alice";
+let lastName: string = "Smith";
+let fullName: string = `${firstName} ${lastName}`;
+let welcomeMessage: string = `Welcome, ${fullName}!`;
+
+// 4. 型安全性の確保
+let userId: number = 12345;
+let userStatus: string = `User ID: ${userId}`;
+```

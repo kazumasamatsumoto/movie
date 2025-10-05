@@ -1,0 +1,33 @@
+# #063 「includes(searchString)」台本
+
+四国めたん「TypeScript v5.9のincludes()について学びましょう！」
+ずんだもん「includes()って何？」
+四国めたん「指定した文字列が含まれているかを判定するメソッドです」
+ずんだもん「indexOf()と何が違うの？」
+四国めたん「includes()は真偽値を返し、より直感的に使えます」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、文字列の包含チェックに活用できます」
+ずんだもん「包含チェックで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// includes()の使用例
+let message: string = "Hello, World!";
+let text: string = "TypeScript is great";
+
+// 包含チェック
+let hasWorld: boolean = message.includes("World"); // true
+let hasHello: boolean = message.includes("Hello"); // true
+let hasTypeScript: boolean = text.includes("Script"); // true
+
+// 実用的な例
+let userEmail: string = "alice@example.com";
+let hasAtSymbol: boolean = userEmail.includes("@"); // true
+let hasDomain: boolean = userEmail.includes(".com"); // true
+
+let productName: string = "TypeScript Handbook";
+let isBook: boolean = productName.includes("Book"); // false
+```

@@ -1,0 +1,40 @@
+# #040 「テンプレートリテラルまとめ」台本
+
+四国めたん「TypeScript v5.9のテンプレートリテラルまとめについて学びましょう！」
+ずんだもん「テンプレートリテラルの要点は？」
+四国めたん「バッククォートで囲み、${}で変数を埋め込む文字列機能です」
+ずんだもん「どんな機能があるの？」
+四国めたん「変数埋め込み、複数行文字列、式の実行など豊富な機能があります」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、動的な文字列生成の基盤となる重要な機能です」
+ずんだもん「テンプレートリテラルで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// テンプレートリテラルの要点まとめ
+let name: string = "Alice";
+let age: number = 30;
+
+// 1. 基本的な変数埋め込み
+let greeting: string = `Hello, ${name}!`;
+
+// 2. 複数変数の埋め込み
+let info: string = `${name} is ${age} years old`;
+
+// 3. 式の埋め込み
+let calculation: string = `Next year: ${age + 1}`;
+
+// 4. 複数行文字列
+let multiLine: string = `
+Hello, ${name}!
+Age: ${age}
+Welcome!
+`;
+
+// 5. 実用的な例
+let user = { name: "Bob", role: "admin" };
+let userInfo: string = `User: ${user.name} (${user.role})`;
+```

@@ -1,0 +1,35 @@
+# #096 「ベストプラクティス(3)」台本
+
+四国めたん「TypeScript v5.9のベストプラクティス(3)について学びましょう！」
+ずんだもん「ベストプラクティス(3)って何？」
+四国めたん「string型の高度な使用パターンです」
+ずんだもん「どんなパターンがあるの？」
+四国めたん「型ガード、ユニオン型、オプショナル型などがあります」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、複雑なアプリケーション開発に重要です」
+ずんだもん「高度パターンで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// ベストプラクティス(3)
+
+// 1. 型ガード
+function isString(value: unknown): value is string {
+  return typeof value === "string";
+}
+
+// 2. ユニオン型
+let status: "loading" | "success" | "error" = "loading";
+
+// 3. オプショナル型
+let userName: string | undefined = undefined;
+let userEmail: string | null = null;
+
+// 実用的な例
+if (isString(userName)) {
+  console.log(userName.toUpperCase());
+}
+```

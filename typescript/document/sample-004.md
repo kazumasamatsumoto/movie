@@ -1,7 +1,7 @@
 # #004 「string型の初期化 - let name: string = "Alice"」
 
 ## 概要
-TypeScript v5.9のstring型の変数を宣言と同時に初期化する方法を学習します。一行で宣言、型指定、初期値を設定する効率的な方法を理解します。
+TypeScript v5.9のstring型初期化について学習します。宣言と同時に初期値を設定する効率的な方法を理解します。
 
 ## 学習目標
 - 変数の初期化の基本構文を理解する
@@ -11,17 +11,20 @@ TypeScript v5.9のstring型の変数を宣言と同時に初期化する方法�
 ## 画面表示用コード
 
 ```typescript
-// 初期化の基本
+// string型の初期化
 let name: string = "Alice";
 let email: string = "alice@example.com";
-let message: string = "Hello, TypeScript!";
+let description: string = "TypeScript学習中";
+let emptyString: string = "";
 
-// 空文字列の初期化
-let empty: string = "";
+// 実用的な例
+let componentTitle: string = "ユーザー管理";
+let defaultMessage: string = "データを読み込み中...";
+let apiEndpoint: string = "https://api.example.com/users";
 
-// 即座に使用可能
-console.log(name.toUpperCase()); // "ALICE"
-console.log(message.length);     // 17
+// 条件による初期化
+let status: string = "active";
+let displayText: string = status === "active" ? "アクティブ" : "非アクティブ";
 ```
 
 ## 重要なポイント
@@ -30,4 +33,5 @@ console.log(message.length);     // 17
 3. **意図の明確化**: コードの意図が明確になる
 
 ## 次のステップ
-次回は、型推論を使ったより簡潔な書き方について学習します。
+次回は、型推論でstring型について学習します。
+

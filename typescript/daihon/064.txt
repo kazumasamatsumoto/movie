@@ -1,0 +1,34 @@
+# #064 「includes()の型」台本
+
+四国めたん「TypeScript v5.9のincludes()の型について学びましょう！」
+ずんだもん「includes()の型って何？」
+四国めたん「includes()は常にboolean型を返します」
+ずんだもん「どんな値が返されるの？」
+四国めたん「含まれている場合はtrue、含まれていない場合はfalseです」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、型安全性を保ちながら文字列チェックができます」
+ずんだもん「型安全性で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// includes()の型
+let message: string = "Hello, World!";
+let result: boolean = message.includes("World"); // boolean型
+
+// 型推論でもboolean型
+let inferred = "TypeScript".includes("Script"); // boolean型と推論
+
+// 真偽値の例
+let hasHello: boolean = message.includes("Hello"); // true
+let hasTypeScript: boolean = message.includes("TypeScript"); // false
+
+// 実用的な例
+let userInput: string = "alice@example.com";
+let isValidEmail: boolean = userInput.includes("@") && userInput.includes(".");
+
+// 型チェック
+console.log(typeof isValidEmail); // "boolean"
+```

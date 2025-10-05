@@ -1,28 +1,32 @@
 # #004 「string型の初期化 - let name: string = "Alice"」台本
 
 四国めたん「TypeScript v5.9のstring型初期化について学びましょう！」
-ずんだもん「初期化って何が違うの？」
-四国めたん「宣言と代入を同時に行うことです。let name: string = "Alice"のように書きます」
-ずんだもん「一行で完結するんだね！」
-四国めたん「未定義状態を避けられ、コードが簡潔になります」
-ずんだもん「Nest.jsのDTOでも使えそうだよ！」
-四国めたん「型安全性と可読性が両立しますね」
-ずんだもん「実装が楽になって最高だよ！」
+ずんだもん「string型の初期化ってどうするの？」
+四国めたん「let name: string = "Alice"のように宣言と代入を同時に行います」
+ずんだもん「どんな初期値が使えるの？」
+四国めたん「空文字列から長いテキストまで、すべての文字列が使用可能です」
+ずんだもん「Angularのコンポーネントでも使える？」
+四国めたん「はい、プロパティの初期化に活用できます」
+ずんだもん「初期化で最高だよ！」
 
 ---
 
 ## 📺 画面表示用コード
 
 ```typescript
-// 初期化の基本
+// string型の初期化
 let name: string = "Alice";
 let email: string = "alice@example.com";
-let message: string = "Hello, TypeScript!";
+let description: string = "TypeScript学習中";
+let emptyString: string = "";
 
-// 空文字列の初期化
-let empty: string = "";
+// 実用的な例
+let componentTitle: string = "ユーザー管理";
+let defaultMessage: string = "データを読み込み中...";
+let apiEndpoint: string = "https://api.example.com/users";
 
-// 即座に使用可能
-console.log(name.toUpperCase()); // "ALICE"
-console.log(message.length);     // 17
+// 条件による初期化
+let status: string = "active";
+let displayText: string = status === "active" ? "アクティブ" : "非アクティブ";
 ```
+

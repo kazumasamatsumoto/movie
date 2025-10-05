@@ -1,0 +1,34 @@
+# #130 「isFinite()関数」台本
+
+四国めたん「TypeScript v5.9のisFinite()関数について学びましょう！」
+ずんだもん「isFinite()関数って何？」
+四国めたん「値が有限数かどうかを判定する関数です」
+ずんだもん「どうやって使うの？」
+四国めたん「isFinite(value)のように呼び出します」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、数値の有効性チェックに活用できます」
+ずんだもん「有限数判定で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// isFinite()関数
+let normalNumber: number = 100;
+let infinity: number = Infinity;
+let nan: number = NaN;
+
+// 有限数判定
+let isFinite1: boolean = isFinite(normalNumber); // true
+let isFinite2: boolean = isFinite(infinity);     // false
+let isFinite3: boolean = isFinite(nan);          // false
+
+// 実用的な例
+let userInput: number = parseFloat("123.45");
+if (isFinite(userInput)) {
+  console.log("有効な数値です");
+} else {
+  console.log("無効な数値です");
+}
+```

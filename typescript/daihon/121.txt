@@ -1,0 +1,31 @@
+# #121 「Infinityとは」台本
+
+四国めたん「TypeScript v5.9のInfinityについて学びましょう！」
+ずんだもん「Infinityって何？」
+四国めたん「無限大を表す特殊な数値です」
+ずんだもん「どんな場面で使われるの？」
+四国めたん「数値計算で無限大が必要な時に使用されます」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、数値計算やバリデーションに活用できます」
+ずんだもん「無限大で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Infinityとは
+let infinity: number = Infinity;
+let negativeInfinity: number = -Infinity;
+
+// 実用的な例
+let maxValue: number = Infinity;
+let minValue: number = -Infinity;
+
+// 計算で生成される
+let result1: number = 1 / 0; // Infinity
+let result2: number = -1 / 0; // -Infinity
+
+console.log(infinity); // Infinity
+console.log(result1); // Infinity
+```

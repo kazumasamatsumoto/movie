@@ -1,0 +1,32 @@
+# #133 「Number.isSafeInteger()」台本
+
+四国めたん「TypeScript v5.9のNumber.isSafeInteger()について学びましょう！」
+ずんだもん「Number.isSafeInteger()って何？」
+四国めたん「値が安全な整数かどうかを判定する関数です」
+ずんだもん「安全な整数って何？」
+四国めたん「精度を失わずに表現できる整数のことです」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、大きな数値の処理に重要です」
+ずんだもん「安全整数で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Number.isSafeInteger()
+let safeInteger: number = 42;
+let unsafeInteger: number = Number.MAX_SAFE_INTEGER + 1;
+
+// 安全整数判定
+let isSafe1: boolean = Number.isSafeInteger(safeInteger);   // true
+let isSafe2: boolean = Number.isSafeInteger(unsafeInteger); // false
+
+// 実用的な例
+let userId: number = 12345;
+if (Number.isSafeInteger(userId)) {
+  console.log("安全な整数IDです");
+} else {
+  console.log("精度を失う可能性があります");
+}
+```

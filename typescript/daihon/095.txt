@@ -1,0 +1,30 @@
+# #095 「ベストプラクティス(2)」台本
+
+四国めたん「TypeScript v5.9のベストプラクティス(2)について学びましょう！」
+ずんだもん「ベストプラクティス(2)って何？」
+四国めたん「string型の実用的な使用パターンです」
+ずんだもん「どんなパターンがあるの？」
+四国めたん「定数の使用、テンプレートリテラル、配列処理などがあります」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、効率的な開発に重要です」
+ずんだもん「実用パターンで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// ベストプラクティス(2)
+
+// 1. 定数の使用
+const API_BASE_URL: string = "https://api.example.com";
+const DEFAULT_MESSAGE: string = "Loading...";
+
+// 2. テンプレートリテラル
+let userName: string = "Alice";
+let welcomeMessage: string = `Welcome, ${userName}!`;
+
+// 3. 配列処理
+let tags: string[] = ["TypeScript", "JavaScript", "Web"];
+let tagString: string = tags.join(", ");
+```

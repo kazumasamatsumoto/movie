@@ -1,0 +1,30 @@
+# #146 「べき乗演算子 - a ** b」台本
+
+四国めたん「TypeScript v5.9のべき乗演算子について学びましょう！」
+ずんだもん「べき乗演算子って何？」
+四国めたん「数値のべき乗を計算する**演算子です」
+ずんだもん「どうやって使うの？」
+四国めたん「a ** bのように底と指数を指定します」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、数学計算やデータ処理に活用できます」
+ずんだもん「べき乗で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// べき乗演算子
+let base: number = 2;
+let exponent: number = 3;
+let result: number = base ** exponent; // 8
+
+// 実用的な例
+let side: number = 5;
+let area: number = side ** 2; // 25 (正方形の面積)
+
+let rate: number = 1.1;
+let years: number = 3;
+let finalAmount: number = 1000 * (rate ** years); // 複利計算
+```
+

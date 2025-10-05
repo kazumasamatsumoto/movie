@@ -1,0 +1,31 @@
+# #139 「減算の型推論」台本
+
+四国めたん「TypeScript v5.9の減算の型推論について学びましょう！」
+ずんだもん「減算の型推論って何？」
+四国めたん「減算演算の結果の型が自動的に推論される機能です」
+ずんだもん「どんな型になるの？」
+四国めたん「数値同士の減算はnumber型になります」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、型安全性を保ちながら計算ができます」
+ずんだもん「型推論で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 減算の型推論
+let a: number = 30;
+let b: number = 10;
+let difference = a - b; // number型と推論
+
+// 型推論の例
+let totalPrice = 1200;  // number型
+let discount = 200;     // number型
+let finalPrice = totalPrice - discount; // number型と推論
+
+// 実用的な例
+let currentYear = 2024;
+let birthYear = 1990;
+let age = currentYear - birthYear; // number型
+```

@@ -1,34 +1,37 @@
 # #008 「string型の変数宣言 - varは使わない理由」
 
 ## 概要
-TypeScript v5.9でstring型を宣言する際に、varを使わない理由について学習します。letとconstの利点と、varの問題点を理解します。
+TypeScript v5.9のstring型変数宣言について学習します。var、let、constの違いとモダンな宣言方法を理解します。
 
 ## 学習目標
-- varの問題点を理解する
-- letとconstの利点を理解する
-- 適切な変数宣言方法を習得する
+- var、let、constの基本的な違いを理解する
+- スコープの概念を理解する
+- モダンな宣言方法の重要性を理解する
 
 ## 画面表示用コード
 
 ```typescript
-// varの問題（避けるべき）
-var name: string = "Alice";
-if (true) {
-  var name: string = "Bob"; // 同じスコープで再宣言
-}
+// var（非推奨）
+// var oldStyle: string = "古いスタイル";
 
-// letの改善（推奨）
-let message: string = "Hello";
-if (true) {
-  let message: string = "World"; // ブロックスコープ
-}
-console.log(message); // "Hello"
+// let（推奨）- 再代入可能
+let modernStyle: string = "モダンスタイル";
+modernStyle = "更新された値"; // OK
+
+// const（推奨）- 再代入不可
+const constantValue: string = "定数値";
+// constantValue = "新しい値"; // エラー
+
+// 実用的な例
+let userName: string = "初期値";
+const API_ENDPOINT: string = "https://api.example.com";
 ```
 
 ## 重要なポイント
-1. **varの問題**: 関数スコープ、ホイスティング、再宣言可能
-2. **letの利点**: ブロックスコープ、再宣言不可、予測可能な動作
-3. **推奨**: letまたはconstを使用
+1. **var**: 関数スコープ、巻き上げが発生（非推奨）
+2. **let**: ブロックスコープ、再代入可能（推奨）
+3. **const**: ブロックスコープ、再代入不可（推奨）
 
 ## 次のステップ
-次回は、string型とundefinedの関係について学習します。
+次回は、string型とundefinedについて学習します。
+

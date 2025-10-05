@@ -1,0 +1,36 @@
+# #054 「toLowerCase()の実例」台本
+
+四国めたん「TypeScript v5.9のtoLowerCase()実例について学びましょう！」
+ずんだもん「toLowerCase()の実例って何？」
+四国めたん「実際の開発でよく使われる使用例です」
+ずんだもん「どんな場面で使うの？」
+四国めたん「データの正規化、比較、検索などで使用します」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、フォーム処理やデータ検証に活用できます」
+ずんだもん「実例学習で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// toLowerCase()の実例
+
+// 1. データの正規化
+let userInput: string = "  ALICE  ";
+let normalizedInput: string = userInput.trim().toLowerCase(); // "alice"
+
+// 2. 比較処理
+let storedName: string = "alice";
+let inputName: string = "ALICE";
+let isMatch: boolean = storedName === inputName.toLowerCase(); // true
+
+// 3. 検索処理
+let searchTerm: string = "TYPESCRIPT";
+let content: string = "Learn TypeScript programming";
+let isFound: boolean = content.toLowerCase().includes(searchTerm.toLowerCase());
+
+// 実用的な例
+let email: string = "USER@EXAMPLE.COM";
+let normalizedEmail: string = email.toLowerCase(); // "user@example.com"
+```

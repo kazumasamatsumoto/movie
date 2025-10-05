@@ -1,36 +1,43 @@
 # #010 「string型のスコープ - ブロックスコープ」
 
 ## 概要
-TypeScript v5.9のstring型の変数のスコープについて学習します。ブロックスコープ、関数スコープの概念と、適切なスコープでの変数宣言を理解します。
+TypeScript v5.9のstring型スコープについて学習します。ブロックスコープの概念と変数の有効範囲を理解します。
 
 ## 学習目標
-- ブロックスコープの概念を理解する
-- 関数スコープとの違いを理解する
-- 適切なスコープでの変数宣言を習得する
+- ブロックスコープの基本概念を理解する
+- letとconstのスコープを理解する
+- 変数の名前衝突を防ぐ方法を理解する
 
 ## 画面表示用コード
 
 ```typescript
 // ブロックスコープの例
 {
-  let name: string = "Alice";
-  console.log(name); // "Alice"
+  let blockScoped: string = "ブロック内";
+  const blockConstant: string = "ブロック定数";
+  // このブロック内でのみ有効
 }
-// console.log(name); // エラー: 'name' is not defined
 
-// 異なるブロックでの同名変数
-{
-  let message: string = "Hello";
-}
-{
-  let message: string = "World"; // OK
+// console.log(blockScoped); // エラー: Cannot find name 'blockScoped'
+
+// 実用的な例
+function processData() {
+  let localData: string = "ローカルデータ";
+  
+  if (true) {
+    let conditionalData: string = "条件付きデータ";
+    // このブロック内でのみ有効
+  }
+  
+  return localData;
 }
 ```
 
 ## 重要なポイント
-1. **ブロックスコープ**: `{}`で囲まれた範囲でのみ有効
-2. **関数スコープ**: 関数内でのみ有効
-3. **名前の衝突回避**: 異なるスコープでは同名変数を使用可能
+1. **ブロックスコープ**: {}で囲まれた範囲内でのみ有効
+2. **名前衝突回避**: 同じ名前の変数を異なるスコープで使用可能
+3. **実用性**: 関数内や条件分岐での局所的な変数管理
 
 ## 次のステップ
 次回は、ダブルクォート文字列について学習します。
+

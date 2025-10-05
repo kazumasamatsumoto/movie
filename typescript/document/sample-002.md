@@ -1,7 +1,7 @@
 # #002 「string型の宣言 - let name: string」
 
 ## 概要
-TypeScript v5.9でstring型の変数を宣言する基本的な方法を学習します。型注釈を使用して明示的に型を指定する方法を理解します。
+TypeScript v5.9のstring型宣言について学習します。型注釈を使用して明示的に文字列型を指定する方法を理解します。
 
 ## 学習目標
 - string型の変数宣言の基本構文を理解する
@@ -11,18 +11,20 @@ TypeScript v5.9でstring型の変数を宣言する基本的な方法を学習�
 ## 画面表示用コード
 
 ```typescript
-// 型注釈での宣言
+// string型の宣言
 let name: string;
 let email: string;
-let message: string;
+let address: string;
 
 // 後で値を代入
 name = "Alice";
 email = "alice@example.com";
-message = "Hello, TypeScript!";
+address = "東京都渋谷区";
 
-// 型チェックが効く
-// name = 123; // エラー
+// 初期化と同時に宣言
+let userName: string = "Bob";
+let userEmail: string = "bob@example.com";
+let fullName: string = userName + " Smith";
 ```
 
 ## 重要なポイント
@@ -31,4 +33,5 @@ message = "Hello, TypeScript!";
 3. **型安全性**: 宣言時に型を指定することで、後で型チェックが行われる
 
 ## 次のステップ
-次回は、string型への代入について詳しく学習します。
+次回は、string型への代入について学習します。
+

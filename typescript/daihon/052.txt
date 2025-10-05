@@ -1,0 +1,33 @@
+# #052 「toUpperCase()の型」台本
+
+四国めたん「TypeScript v5.9のtoUpperCase()の型について学びましょう！」
+ずんだもん「toUpperCase()の型って何？」
+四国めたん「toUpperCase()は常にstring型を返します」
+ずんだもん「どんな文字列でも大文字化されるの？」
+四国めたん「はい、すべての文字が大文字に変換されます」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、型安全性を保ちながら文字列処理ができます」
+ずんだもん「型安全性で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// toUpperCase()の型
+let name: string = "alice";
+let result: string = name.toUpperCase(); // string型
+
+// 型推論でもstring型
+let inferred = "hello".toUpperCase(); // string型と推論
+
+// 実用的な例
+let userInput: string = "john doe";
+let normalizedInput: string = userInput.toUpperCase(); // "JOHN DOE"
+
+let productName: string = "typescript book";
+let displayName: string = productName.toUpperCase(); // "TYPESCRIPT BOOK"
+
+// 型チェック
+console.log(typeof normalizedInput); // "string"
+```

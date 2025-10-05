@@ -1,0 +1,38 @@
+# #083 「Nest.jsのDTOとstring型」台本
+
+四国めたん「TypeScript v5.9のNest.js DTOとstring型について学びましょう！」
+ずんだもん「Nest.jsのDTOって何？」
+四国めたん「データ転送オブジェクトで、APIの入出力データを定義します」
+ずんだもん「string型はどう使うの？」
+四国めたん「DTOのプロパティでstring型を使用してデータを定義します」
+ずんだもん「Nest.jsの開発でも重要？」
+四国めたん「はい、APIの型安全性を保つ重要な機能です」
+ずんだもん「DTO定義で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Nest.jsのDTOとstring型
+import { IsString, IsEmail } from 'class-validator';
+
+export class CreateUserDto {
+  @IsString()
+  name: string;
+
+  @IsEmail()
+  email: string;
+
+  @IsString()
+  role: string;
+}
+
+export class UpdateUserDto {
+  @IsString()
+  name?: string;
+
+  @IsString()
+  role?: string;
+}
+```

@@ -1,0 +1,33 @@
+# #065 「startsWith(prefix)」台本
+
+四国めたん「TypeScript v5.9のstartsWith()について学びましょう！」
+ずんだもん「startsWith()って何？」
+四国めたん「文字列が指定した文字列で始まるかを判定するメソッドです」
+ずんだもん「どうやって使うの？」
+四国めたん「str.startsWith(prefix)のように接頭辞を指定します」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、URLやファイルパスの判定に活用できます」
+ずんだもん「接頭辞チェックで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// startsWith()の使用例
+let url: string = "https://example.com";
+let filePath: string = "/home/user/documents/file.txt";
+let message: string = "Hello, World!";
+
+// 接頭辞チェック
+let isHttps: boolean = url.startsWith("https://"); // true
+let isAbsolute: boolean = filePath.startsWith("/"); // true
+let startsWithHello: boolean = message.startsWith("Hello"); // true
+
+// 実用的な例
+let userInput: string = "admin@example.com";
+let isAdmin: boolean = userInput.startsWith("admin"); // true
+
+let apiEndpoint: string = "/api/users";
+let isApiRoute: boolean = apiEndpoint.startsWith("/api"); // true
+```

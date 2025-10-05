@@ -1,36 +1,40 @@
 # #009 「string型とundefined - 初期化前のアクセス」
 
 ## 概要
-TypeScript v5.9のstring型の変数が初期化前の状態（undefined）について学習します。未初期化変数の扱い方と安全な初期化方法を理解します。
+TypeScript v5.9のstring型とundefinedについて学習します。初期化前の変数アクセスと安全な初期化方法を理解します。
 
 ## 学習目標
+- 初期化前の変数の状態を理解する
 - undefinedの概念を理解する
-- 未初期化変数の問題を理解する
 - 安全な初期化方法を習得する
 
 ## 画面表示用コード
 
 ```typescript
-// 未初期化の変数
+// 初期化前のアクセス
 let name: string;
-console.log(name); // undefined
+// console.log(name); // undefined
 
-// 安全なアクセス
-if (name !== undefined) {
-  console.log(name.toUpperCase());
-} else {
-  console.log("名前が設定されていません");
+// 安全な初期化
+let userName: string = "初期値";
+console.log(userName); // "初期値"
+
+// undefinedチェック
+let optionalName: string | undefined;
+if (optionalName !== undefined) {
+  console.log(optionalName.toUpperCase());
 }
 
-// 初期化で解決
-let message: string = "Hello";
-console.log(message); // "Hello"
+// 実用的な例
+let componentTitle: string = "";
+let apiResponse: string | undefined;
 ```
 
 ## 重要なポイント
-1. **未初期化状態**: 宣言のみでは値はundefined
-2. **型と値の違い**: 型はstringだが値はundefined
-3. **安全なアクセス**: undefinedチェックまたは初期化が必要
+1. **未初期化**: letで宣言した変数は初期化前はundefined
+2. **安全な初期化**: 宣言と同時に初期値を設定
+3. **undefinedチェック**: オプショナルな値の安全な処理
 
 ## 次のステップ
 次回は、string型のスコープについて学習します。
+

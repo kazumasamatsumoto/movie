@@ -1,0 +1,33 @@
+# #055 「charAt(index) - 文字取得」台本
+
+四国めたん「TypeScript v5.9のcharAt()について学びましょう！」
+ずんだもん「charAt()って何？」
+四国めたん「指定したインデックスの文字を取得するメソッドです」
+ずんだもん「どうやって使うの？」
+四国めたん「str.charAt(index)のようにインデックスを指定します」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、文字列の解析や処理に活用できます」
+ずんだもん「文字取得で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// charAt()の使用例
+let name: string = "Alice";
+let message: string = "Hello, World!";
+
+// 文字の取得
+let firstChar: string = name.charAt(0); // "A"
+let secondChar: string = name.charAt(1); // "l"
+let lastChar: string = name.charAt(name.length - 1); // "e"
+
+// 実用的な例
+let userName: string = "Bob";
+let userInitial: string = userName.charAt(0); // "B"
+
+let productCode: string = "ABC123";
+let category: string = productCode.charAt(0); // "A"
+let subCategory: string = productCode.charAt(1); // "B"
+```

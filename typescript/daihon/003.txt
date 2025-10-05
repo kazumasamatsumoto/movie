@@ -1,31 +1,33 @@
 # #003 「string型への代入 - name = "Hello"」台本
 
 四国めたん「TypeScript v5.9のstring型への代入について学びましょう！」
-ずんだもん「どんな値が代入できるの？」
+ずんだもん「string型にどんな値を代入できるの？」
 四国めたん「文字列リテラルのみです。数値や真偽値は型エラーになります」
 ずんだもん「型チェックが厳しいんだね！」
-四国めたん「let name: string; name = "Hello"のように代入します」
-ずんだもん「再代入もできるの？」
-四国めたん「はい、letで宣言した変数は再代入可能です」
-ずんだもん「型安全性が保たれて最高だよ！」
+四国めたん「はい、TypeScriptが型安全性を保証します」
+ずんだもん「Angularのフォームでも安全？」
+四国めたん「はい、テキスト入力の型チェックに活用できます」
+ずんだもん「型安全性で最高だよ！」
 
 ---
 
 ## 📺 画面表示用コード
 
 ```typescript
-// string型変数の宣言
+// string型への代入
 let message: string;
 
 // 文字列の代入
-message = "Hello";
-message = 'World';
-message = `Template`;
+message = "Hello";        // OK
+message = "World";        // OK
+message = "こんにちは";    // OK
 
 // 型エラーの例
-// message = 123;    // エラー
-// message = true;   // エラー
+// message = 123;         // エラー: Type 'number' is not assignable to type 'string'
+// message = true;        // エラー: Type 'boolean' is not assignable to type 'string'
 
 // 再代入
-message = "TypeScript v5.9";
+message = "Hello";
+message = "Goodbye";
 ```
+

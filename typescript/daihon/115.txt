@@ -1,0 +1,27 @@
+# #115 「16進数リテラル - 0xFF」台本
+
+四国めたん「TypeScript v5.9の16進数リテラルについて学びましょう！」
+ずんだもん「16進数リテラルって何？」
+四国めたん「0xで始まる16進数の記述方法です」
+ずんだもん「どうやって書くの？」
+四国めたん「0xFFのように0xの後に0-9とA-Fを書きます」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、色の値やメモリアドレスに活用できます」
+ずんだもん「16進数で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 16進数リテラル
+let hex1: number = 0xFF;      // 255
+let hex2: number = 0x10;      // 16
+let hex3: number = 0xABCD;    // 43981
+
+// 実用的な例
+let redColor: number = 0xFF0000;    // 赤色
+let greenColor: number = 0x00FF00;  // 緑色
+let blueColor: number = 0x0000FF;   // 青色
+let whiteColor: number = 0xFFFFFF;  // 白色
+```

@@ -1,0 +1,38 @@
+# #097 「実践パターン(1)」台本
+
+四国めたん「TypeScript v5.9の実践パターン(1)について学びましょう！」
+ずんだもん「実践パターン(1)って何？」
+四国めたん「実際の開発でよく使われるstring型のパターンです」
+ずんだもん「どんなパターンがあるの？」
+四国めたん「フォーム処理、API通信、データ変換などがあります」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、実用的なアプリケーション開発に重要です」
+ずんだもん「実践パターンで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 実践パターン(1)
+
+// 1. フォーム処理
+interface UserForm {
+  name: string;
+  email: string;
+  message: string;
+}
+
+let formData: UserForm = {
+  name: "Alice",
+  email: "alice@example.com",
+  message: "Hello, World!"
+};
+
+// 2. API通信
+let apiUrl: string = "https://api.example.com/users";
+let requestBody: string = JSON.stringify(formData);
+
+// 3. データ変換
+let userInfo: string = `${formData.name} (${formData.email})`;
+```
