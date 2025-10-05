@@ -1,0 +1,29 @@
+# #002 「string型の宣言 - let name: string」台本
+
+四国めたん「TypeScript v5.9のstring型宣言について学びましょう！」
+ずんだもん「型注釈ってどう書くの？」
+四国めたん「let name: stringのように、変数名の後に型を指定します」
+ずんだもん「型注釈の意味は？」
+四国めたん「TypeScriptに「この変数はstring型です」と明示的に伝えます」
+ずんだもん「なるほど！型推論と違って明示的だね！」
+四国めたん「型安全性とコードの可読性が向上しますね」
+ずんだもん「Angularのコンポーネントでも使えそうだよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 型注釈での宣言
+let name: string;
+let email: string;
+let message: string;
+
+// 後で値を代入
+name = "Alice";
+email = "alice@example.com";
+message = "Hello, TypeScript!";
+
+// 型チェックが効く
+// name = 123; // エラー
+```

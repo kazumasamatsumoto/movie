@@ -1,0 +1,31 @@
+# #010 「string型のスコープ - ブロックスコープ」台本
+
+四国めたん「TypeScript v5.9のstring型スコープについて学びましょう！」
+ずんだもん「ブロックスコープって何？」
+四国めたん「{}で囲まれた範囲でのみ変数が有効になる仕組みです」
+ずんだもん「let name: string = "Alice" はブロック内だけ？」
+四国めたん「はい、ブロック外からはアクセスできません」
+ずんだもん「Angularのコンポーネントでも同じ？」
+四国めたん「はい、メソッド内の変数はそのメソッド内でのみ有効です」
+ずんだもん「名前の衝突を防げて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// ブロックスコープの例
+{
+  let name: string = "Alice";
+  console.log(name); // "Alice"
+}
+// console.log(name); // エラー: 'name' is not defined
+
+// 異なるブロックでの同名変数
+{
+  let message: string = "Hello";
+}
+{
+  let message: string = "World"; // OK
+}
+```

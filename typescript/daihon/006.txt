@@ -1,0 +1,27 @@
+# #006 「constでstring型 - const name = "Charlie"」台本
+
+四国めたん「TypeScript v5.9のconst宣言について学びましょう！」
+ずんだもん「constって再代入できないんだよね？」
+四国めたん「はい、const name = "Charlie"は再代入不可の定数です」
+ずんだもん「型推論も効くの？」
+四国めたん「はい、初期値からstring型と推論されます」
+ずんだもん「設定値とかで使えそうだね！」
+四国めたん「API URLやアプリ名など、変更されない値に最適です」
+ずんだもん「意図しない変更を防げて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// constでの定数宣言
+const API_URL = "https://api.example.com";
+const APP_NAME = "MyApp";
+const VERSION = "1.0.0";
+
+// 再代入はエラー
+// API_URL = "https://other.com"; // エラー: Cannot assign to 'API_URL'
+
+// 型推論でstring型
+console.log(API_URL.toUpperCase()); // "HTTPS://API.EXAMPLE.COM"
+```

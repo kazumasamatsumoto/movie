@@ -1,0 +1,29 @@
+# #008 「string型の変数宣言 - varは使わない理由」台本
+
+四国めたん「TypeScript v5.9でvarを使わない理由について学びましょう！」
+ずんだもん「varって何が問題なの？」
+四国めたん「関数スコープでホイスティングが発生し、予期しない動作の原因になります」
+ずんだもん「letやconstの方が良いんだね！」
+四国めたん「はい、ブロックスコープで再宣言不可、予測可能な動作を提供します」
+ずんだもん「Angularのコンポーネントでもletを使うべき？」
+四国めたん「はい、型安全性と可読性の観点から推奨されます」
+ずんだもん「モダンな書き方で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// varの問題（避けるべき）
+var name: string = "Alice";
+if (true) {
+  var name: string = "Bob"; // 同じスコープで再宣言
+}
+
+// letの改善（推奨）
+let message: string = "Hello";
+if (true) {
+  let message: string = "World"; // ブロックスコープ
+}
+console.log(message); // "Hello"
+```

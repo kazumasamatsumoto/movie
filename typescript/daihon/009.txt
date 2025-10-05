@@ -1,0 +1,31 @@
+# #009 「string型とundefined - 初期化前のアクセス」台本
+
+四国めたん「TypeScript v5.9のstring型とundefinedについて学びましょう！」
+ずんだもん「未初期化の変数ってどうなるの？」
+四国めたん「let name: string; は型はstringですが、値はundefinedです」
+ずんだもん「undefinedチェックが必要なんだね！」
+四国めたん「if (name !== undefined) で安全にアクセスできます」
+ずんだもん「Nest.jsのDIでも気をつけるべき？」
+四国めたん「はい、依存性注入でも初期化タイミングに注意が必要です」
+ずんだもん「型安全性でバグを防げて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 未初期化の変数
+let name: string;
+console.log(name); // undefined
+
+// 安全なアクセス
+if (name !== undefined) {
+  console.log(name.toUpperCase());
+} else {
+  console.log("名前が設定されていません");
+}
+
+// 初期化で解決
+let message: string = "Hello";
+console.log(message); // "Hello"
+```

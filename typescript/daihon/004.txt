@@ -1,0 +1,28 @@
+# #004 「string型の初期化 - let name: string = "Alice"」台本
+
+四国めたん「TypeScript v5.9のstring型初期化について学びましょう！」
+ずんだもん「初期化って何が違うの？」
+四国めたん「宣言と代入を同時に行うことです。let name: string = "Alice"のように書きます」
+ずんだもん「一行で完結するんだね！」
+四国めたん「未定義状態を避けられ、コードが簡潔になります」
+ずんだもん「Nest.jsのDTOでも使えそうだよ！」
+四国めたん「型安全性と可読性が両立しますね」
+ずんだもん「実装が楽になって最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 初期化の基本
+let name: string = "Alice";
+let email: string = "alice@example.com";
+let message: string = "Hello, TypeScript!";
+
+// 空文字列の初期化
+let empty: string = "";
+
+// 即座に使用可能
+console.log(name.toUpperCase()); // "ALICE"
+console.log(message.length);     // 17
+```

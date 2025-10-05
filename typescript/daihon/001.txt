@@ -1,0 +1,27 @@
+# #001 「string型とは - 文字列を扱う最も基本的な型」台本
+
+四国めたん「TypeScript v5.9のstring型について学びましょう！」
+ずんだもん「string型ってどんな型なの？」
+四国めたん「string型は文字列データを扱うプリミティブ型です。型安全性を提供します」
+ずんだもん「具体的にどう書くの？」
+四国めたん「let name: string = "Alice"のように書きます。型注釈に注目してください」
+ずんだもん「なるほど！型チェックでエラーを防げるんだね！」
+四国めたん「コンパイル時に型エラーを検出できますね」
+ずんだもん「型安全性が向上して最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// string型の基本宣言
+let name: string = "Alice";
+
+// 型安全性の例
+name = "Bob";     // OK
+// name = 123;    // エラー: Type 'number' is not assignable to type 'string'
+
+// 文字列メソッドの型チェック
+console.log(name.toUpperCase()); // "BOB"
+console.log(name.length);        // 3
+```
