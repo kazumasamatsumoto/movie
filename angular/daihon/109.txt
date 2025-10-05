@@ -1,0 +1,8 @@
+# #109 「@Output() エイリアス指定」
+
+ずんだもん「@Output()でもエイリアスを指定できるの？」
+四国めたん「はい！@Output('externalEventName') internalEventNameのようにエイリアスを指定できます」
+ずんだもん「エイリアスを使うとどうなるの？」
+四国めたん「親では(externalEventName)="handler"、子ではinternalEventNameとしてアクセスできます」
+ずんだもん「APIの一貫性を保ちながら内部実装を変更できるんだね！」
+四国めたん「その通り！エイリアスにより外部APIと内部実装を適切に分離できます」

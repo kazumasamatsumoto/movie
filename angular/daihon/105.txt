@@ -1,0 +1,8 @@
+# #105 「@Output() の基本構文」
+
+ずんだもん「@Output()の基本構文を教えて！」
+四国めたん「子で@Output() eventName = new EventEmitter()と定義し、eventName.emit(value)で発火します」
+ずんだもん「親ではどう受け取るの？」
+四国めたん「(eventName)="onEvent($event)"のようにイベントハンドラーを設定します」
+ずんだもん「データも一緒に送れるの？」
+四国めたん「はい！emit(data)でデータを送り、$eventで受け取れます」
