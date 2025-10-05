@@ -1,0 +1,31 @@
+# #204 「falseの代入」台本
+
+四国めたん「TypeScript v5.9のfalseの代入について学びましょう！」
+ずんだもん「falseの代入って何？」
+四国めたん「boolean型の変数にfalse値を代入する方法です」
+ずんだもん「どんな場面で使うの？」
+四国めたん「フラグの無効化、状態の無効化などに使用します」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、コンポーネントの状態管理に重要です」
+ずんだもん「false代入で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// falseの代入
+let isActive: boolean = false;
+let isCompleted: boolean = false;
+let hasPermission: boolean = false;
+
+// 実用的な例
+let userLoggedIn: boolean = false;
+let formValid: boolean = false;
+let dataLoaded: boolean = false;
+
+// 条件分岐での使用
+if (!isActive) {
+  console.log("非アクティブです");
+}
+```

@@ -1,0 +1,31 @@
+# #201 「boolean型とは」台本
+
+四国めたん「TypeScript v5.9のboolean型について学びましょう！」
+ずんだもん「boolean型って何？」
+四国めたん「真偽値を表す型で、trueかfalseの2つの値のみです」
+ずんだもん「どんな場面で使うの？」
+四国めたん「条件分岐、フラグ管理、状態管理などに使用します」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、コンポーネントの状態管理に重要です」
+ずんだもん「boolean型で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// boolean型とは
+let isActive: boolean = true;
+let isCompleted: boolean = false;
+let hasPermission: boolean = true;
+
+// 実用的な例
+let userLoggedIn: boolean = true;
+let formValid: boolean = false;
+let dataLoaded: boolean = true;
+
+// 条件分岐での使用
+if (isActive) {
+  console.log("アクティブです");
+}
+```

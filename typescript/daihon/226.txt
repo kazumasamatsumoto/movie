@@ -1,0 +1,35 @@
+# #226 「論理積AND - &&」台本
+
+四国めたん「TypeScript v5.9の論理積ANDについて学びましょう！」
+ずんだもん「論理積ANDって何？」
+四国めたん「&&演算子で両方の値がtrueの場合にtrueを返す演算子です」
+ずんだもん「どうやって使うの？」
+四国めたん「value1 && value2のように使用します」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、複雑な条件分岐に重要です」
+ずんだもん「論理積ANDで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 論理積AND - &&
+let isActive: boolean = true;
+let hasPermission: boolean = true;
+let isCompleted: boolean = false;
+
+// 基本的な使用
+let canProceed: boolean = isActive && hasPermission; // true
+let canAccess: boolean = isActive && isCompleted;    // false
+
+// 実用的な例
+let userLoggedIn: boolean = true;
+let formValid: boolean = false;
+let canSubmit: boolean = userLoggedIn && formValid; // false
+
+// 条件分岐での使用
+if (isActive && hasPermission) {
+  console.log("アクセス可能です");
+}
+```

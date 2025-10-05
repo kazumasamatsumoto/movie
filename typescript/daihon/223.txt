@@ -1,0 +1,31 @@
+# #223 「型推論 - const使用時」台本
+
+四国めたん「TypeScript v5.9の型推論（const使用時）について学びましょう！」
+ずんだもん「const使用時の型推論って何？」
+四国めたん「constで宣言した時に自動的にリテラル型と推論される機能です」
+ずんだもん「どうやって推論されるの？」
+四国めたん「const flag = trueはtrueリテラル型、const flag = falseはfalseリテラル型と推論されます」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、定数の型安全性に重要です」
+ずんだもん「型推論で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 型推論 - const使用時
+
+// constでの型推論
+const isActive = true;        // trueリテラル型と推論
+const isDisabled = false;     // falseリテラル型と推論
+const hasPermission = true;   // trueリテラル型と推論
+
+// 実用的な例
+const userLoggedIn = true;    // trueリテラル型と推論
+const formValid = false;      // falseリテラル型と推論
+const dataLoaded = true;      // trueリテラル型と推論
+
+// 型の確認
+// isActive = false; // エラー: Cannot assign to 'isActive' because it is a constant
+```

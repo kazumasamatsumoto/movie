@@ -1,0 +1,32 @@
+# #234 「論理否定NOT - !」台本
+
+四国めたん「TypeScript v5.9の論理否定NOTについて学びましょう！」
+ずんだもん「論理否定NOTって何？」
+四国めたん「!演算子でboolean値を反転する演算子です」
+ずんだもん「どうやって使うの？」
+四国めたん「!valueのように使用します」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、条件の反転に重要です」
+ずんだもん「論理否定NOTで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 論理否定NOT - !
+let isActive: boolean = true;
+let hasPermission: boolean = false;
+let isCompleted: boolean = true;
+
+// 基本的な使用
+let isInactive: boolean = !isActive;        // false
+let hasNoPermission: boolean = !hasPermission; // true
+let isNotCompleted: boolean = !isCompleted; // false
+
+// 実用的な例
+let userLoggedIn: boolean = true;
+let formValid: boolean = false;
+let userLoggedOut: boolean = !userLoggedIn; // false
+let formInvalid: boolean = !formValid;      // true
+```

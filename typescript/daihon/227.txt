@@ -1,0 +1,31 @@
+# #227 「ANDの型推論」台本
+
+四国めたん「TypeScript v5.9のANDの型推論について学びましょう！」
+ずんだもん「ANDの型推論って何？」
+四国めたん「&&演算子での型推論の仕組みです」
+ずんだもん「どうやって推論されるの？」
+四国めたん「左側がfalseの場合はfalse、trueの場合は右側の型が推論されます」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、型安全性の向上に重要です」
+ずんだもん「AND型推論で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// ANDの型推論
+let isActive: boolean = true;
+let hasPermission: boolean = false;
+let userName: string = "John";
+
+// 型推論の例
+let result1 = isActive && hasPermission; // boolean型
+let result2 = isActive && userName;      // string型
+let result3 = hasPermission && userName; // boolean型
+
+// 実用的な例
+let userLoggedIn: boolean = true;
+let userData: string = "user123";
+let displayData = userLoggedIn && userData; // string型
+```

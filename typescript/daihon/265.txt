@@ -1,0 +1,29 @@
+# #265 「falsyな値一覧」台本
+
+四国めたん「TypeScript v5.9のfalsyな値一覧について学びましょう！」
+ずんだもん「falsyな値って全部で何個？」
+四国めたん「JavaScriptには6つのfalsy値があります」
+ずんだもん「具体的に教えて！」
+四国めたん「false、0、空文字列''、null、undefined、NaNです」
+ずんだもん「これだけ覚えればいい？」
+四国めたん「はい、これ以外の値は全てtruthyです」
+ずんだもん「6つのfalsy値をしっかり覚えるよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// falsyな値一覧（全6つ）
+
+console.log(Boolean(false));     // false
+console.log(Boolean(0));         // false
+console.log(Boolean(''));        // false
+console.log(Boolean(null));      // false
+console.log(Boolean(undefined)); // false
+console.log(Boolean(NaN));       // false
+
+// 注意: これらはtruthyです
+console.log(Boolean('0'));       // true (文字列)
+console.log(Boolean([]));        // true (空配列)
+console.log(Boolean({}));        // true (空オブジェクト)

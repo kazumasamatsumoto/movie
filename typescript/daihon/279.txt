@@ -1,0 +1,35 @@
+# #279 「ベストプラクティス」台本
+
+四国めたん「TypeScript v5.9のbooleanと比較演算のベストプラクティスについて学びましょう！」
+ずんだもん「ベストプラクティスをまとめて教えて！」
+四国めたん「===の使用、型ガードの活用、strictNullChecksの有効化です」
+ずんだもん「他に気をつけることは？」
+四国めたん「ESLintの設定、明示的な型注釈、文字列とbooleanの混同を避けることです」
+ずんだもん「Angularでは？」
+四国めたん「テンプレートでもTypeScriptの型チェックが効くよう設定します」
+ずんだもん「ベストプラクティスで安全なコードだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// ベストプラクティス
+
+// ✅ 厳密等価演算子の使用
+if (value === null) { }
+
+// ✅ 型ガードの活用
+function isString(val: unknown): val is string {
+  return typeof val === 'string';
+}
+
+// ✅ 明示的な型注釈
+const isActive: boolean = true;
+
+// ✅ strictNullChecksの有効化
+// tsconfig.json
+// "strictNullChecks": true
+
+// ✅ ESLint設定
+// "eqeqeq": ["error", "always"]
