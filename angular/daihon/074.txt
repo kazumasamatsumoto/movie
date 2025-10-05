@@ -1,0 +1,8 @@
+# #074 「Lifecycle の実行順序」
+
+ずんだもん「Lifecycle Hooksの実行順序ってどうなってるの？」
+四国めたん「Angular v20では明確な実行順序があり、適切なタイミングで処理が実行されます」
+ずんだもん「具体的にはどんな順序なの？」
+四国めたん「constructor → ngOnInit → ngAfterContentInit → ngAfterViewInit → ngOnDestroyの順です」
+ずんだもん「実行順序を理解することが重要だね！」
+四国めたん「はい！適切なタイミングで処理を実行することで効率的な開発が可能です」

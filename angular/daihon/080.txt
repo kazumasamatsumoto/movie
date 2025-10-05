@@ -1,0 +1,8 @@
+# #080 「Lifecycle での DOM 操作」
+
+ずんだもん「Lifecycle HooksでDOM操作をする時の注意点は？」
+四国めたん「Angular v20ではngAfterViewInit以降でDOM操作を行うのが安全です」
+ずんだもん「具体的にはどんなタイミングなの？」
+四国めたん「ViewChildで取得した要素やViewChildrenで取得した要素はngAfterViewInit以降です」
+ずんだもん「DOMの準備が整ってから操作するんだね！」
+四国めたん「はい！適切なタイミングでDOM操作することで安全で効率的な実装が可能です」

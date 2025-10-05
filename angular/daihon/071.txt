@@ -1,0 +1,8 @@
+# #071 「ngAfterViewChecked - ビューチェック後」
+
+ずんだもん「ビューの変更チェック後に処理を実行したいよ！」
+四国めたん「Angular v20ではngAfterViewCheckedでビューチェック後に処理を実行できます」
+ずんだもん「ngAfterViewInitとの違いは何なの？」
+四国めたん「ngAfterViewInitは初回のみ、ngAfterViewCheckedは毎回実行されます」
+ずんだもん「パフォーマンスに注意が必要だね！」
+四国めたん「はい！頻繁に実行されるため、軽量で効率的な処理を心がけましょう」

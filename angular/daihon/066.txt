@@ -1,0 +1,8 @@
+# #066 「constructor vs ngOnInit の使い分け」
+
+ずんだもん「constructorとngOnInitはどう使い分けるの？」
+四国めたん「Angular v20ではconstructorで依存性注入、ngOnInitで初期化処理を行います」
+ずんだもん「実行タイミングの違いは何なの？」
+四国めたん「constructorは最初に実行、ngOnInitは入力プロパティ設定後に実行されます」
+ずんだもん「適切な使い分けが重要だね！」
+四国めたん「はい！それぞれの役割を理解して効率的な開発を行いましょう」

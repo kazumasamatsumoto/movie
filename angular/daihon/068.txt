@@ -1,0 +1,8 @@
+# #068 「ngAfterContentInit - コンテンツ投影後」
+
+ずんだもん「ng-contentの投影が完了した後に処理を実行したいよ！」
+四国めたん「Angular v20ではngAfterContentInitでコンテンツ投影後に処理を実行できます」
+ずんだもん「具体的にはどんなタイミングなの？」
+四国めたん「子コンポーネントの初期化後、親のngOnInit後に実行されます」
+ずんだもん「投影されたコンテンツにアクセスできるんだね！」
+四国めたん「はい！ContentChildやContentChildrenで投影コンテンツを取得できます」
