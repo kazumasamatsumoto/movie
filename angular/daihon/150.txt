@@ -1,0 +1,8 @@
+# #150 「ContentChildren QueryList 活用」台本
+
+ずんだもん「ContentChildrenのQueryListを活用したいよ！」
+四国めたん「Angular v20ではContentChildrenのQueryListで投影コンテンツを効率的に管理できます」
+ずんだもん「具体的な活用例は？」
+四国めたん「changesイベントでの監視、forEachでの一括操作、条件分岐での制御が可能です」
+ずんだもん「投影コンテンツの動的制御ができるんだね！」
+四国めたん「その通り！柔軟で再利用可能なコンポーネント設計が実現できます」

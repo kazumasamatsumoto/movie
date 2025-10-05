@@ -1,0 +1,8 @@
+# #154 「ElementRef での直接 DOM アクセス」台本
+
+ずんだもん「ElementRefでDOMに直接アクセスしたいよ！」
+四国めたん「Angular v20ではElementRefのnativeElementプロパティでDOM要素に直接アクセスできます」
+ずんだもん「具体的な使用方法は？」
+四国めたん「ViewChildでElementRefを取得し、nativeElementでDOM操作を行います」
+ずんだもん「直接的なDOM制御ができるんだね！」
+四国めたん「はい！ただしRenderer2の使用を推奨し、プラットフォーム非依存な実装を心がけましょう」

@@ -1,0 +1,8 @@
+# #147 「ContentChild と ng-content」台本
+
+ずんだもん「ng-contentとContentChildを組み合わせたいよ！」
+四国めたん「Angular v20ではng-contentでコンテンツを投影し、ContentChildで参照を取得できます」
+ずんだもん「具体的な実装方法は？」
+四国めたん「親でコンテンツを渡し、子でng-contentとContentChildを使って制御します」
+ずんだもん「柔軟なコンテンツ制御ができるんだね！」
+四国めたん「はい！再利用可能で拡張性の高いコンポーネント設計が実現できます」
