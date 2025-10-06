@@ -2,8 +2,6 @@
 
 # #001 「string型とは - 文字列を扱う最も基本的な型」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -305,7 +303,7 @@ let fullMessage: string = message + " " + description;
 
 # #012 「シングルクォート文字列 - 'hello'」台本
 
-```
+
 
 ## 📺 画面表示用コード
 
@@ -329,7 +327,7 @@ let fullMessage: string = message + ' ' + description;
 
 # #013 「ダブルとシングルの使い分け」台本
 
-```
+
 
 ## 📺 画面表示用コード
 
@@ -356,7 +354,7 @@ let systemMessage: string = 'システムエラー';
 
 # #014 「エスケープシーケンス - \"と\'」台本
 
-```
+
 
 ## 📺 画面表示用コード
 
@@ -379,7 +377,7 @@ let complexMessage: string = "Line 1\nLine 2\tTabbed content";
 
 # #015 「バックスラッシュのエスケープ - \\」台本
 
-```
+
 
 ## 📺 画面表示用コード
 
@@ -403,7 +401,7 @@ let emailPattern: string = "\\w+@\\w+\\.\\w+";
 
 # #016 「改行のエスケープ - \n」台本
 
-```
+
 
 ## 📺 画面表示用コード
 
@@ -425,7 +423,7 @@ console.log(multiLineMessage);
 
 # #017 「タブのエスケープ - \t」台本
 
-```
+
 
 ## 📺 画面表示用コード
 
@@ -448,7 +446,6 @@ console.log(tabbedData);
 
 # #018 「Unicode文字 - \u0041」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -474,7 +471,6 @@ let chinese: string = "\u4E2D\u6587"; // 中文
 
 # #019 「空文字列 - ""と''」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -505,7 +501,6 @@ if (searchQuery.length === 0) {
 
 # #020 「文字列リテラルの型推論」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -531,7 +526,6 @@ const APP_NAME = "TypeScript学習アプリ"; // "TypeScript学習アプリ"型
 
 # #021 「テンプレートリテラルとは - バッククォート`」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -557,7 +551,6 @@ let greeting: string = `こんにちは、${userName}さん！`;
 
 # #022 「基本構文 - `Hello, ${name}`」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -582,7 +575,6 @@ let welcomeMessage: string = `Welcome, ${userName}! Your role is ${userRole}.`;
 
 # #023 「変数の埋め込み - ${variable}」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -607,8 +599,6 @@ let description: string = `${productName} - ¥${price}`;
 ## File: 024.txt
 
 # #024 「式の埋め込み - ${1 + 2}」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -635,8 +625,6 @@ let total: string = `Total: ¥${price * (1 + tax)}`;
 ## File: 025.txt
 
 # #025 「関数呼び出しの埋め込み - ${getName()}」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -671,8 +659,6 @@ let productPrice: string = `Price: ${formatPrice(2980)}`;
 
 # #026 「オブジェクトプロパティ - ${user.name}」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -704,8 +690,6 @@ let productInfo: string = `${product.name} (${product.category}) - ¥${product.p
 
 # #027 「配列要素の埋め込み - ${arr[0]}」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -728,8 +712,6 @@ let allTags: string = `Tags: ${tags.join(", ")}`;
 ## File: 028.txt
 
 # #028 「複数の変数埋め込み - `${first} ${last}`」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -754,8 +736,6 @@ let finalPrice: string = `${productName}: ¥${price} (${discount * 100}% off) = 
 ## File: 029.txt
 
 # #029 「テンプレートリテラルの型 - string型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -782,8 +762,6 @@ let userInfo: string = `User ${userId}: ${userName}`;
 ## File: 030.txt
 
 # #030 「複数行のテンプレートリテラル」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -817,7 +795,6 @@ let htmlTemplate: string = `
 
 # #031 「複数行文字列の実例 - HTMLテンプレート」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -853,7 +830,6 @@ let userProfile: string = `
 
 # #032 「テンプレートリテラルのインデント」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -887,7 +863,6 @@ let htmlTemplate: string = `
 
 # #033 「バッククォートのエスケープ」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -912,7 +887,6 @@ let complexExample: string = `Use \`\${variable}\` for interpolation`;
 
 # #034 「ネストは避ける」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -934,13 +908,12 @@ let description: string = `${productName} - ¥${price}`; // シンプル
 let part1: string = `Product: ${productName}`;
 let part2: string = `Price: ¥${price}`;
 let combined: string = `${part1} - ${part2}`;
-``````
+```
 
 ## File: 035.txt
 
 # #035 「パフォーマンス考慮」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -966,7 +939,6 @@ let productList: string = productNames.map(name => `- ${name}`).join('\n');
 
 # #036 「デバッグのコツ」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -997,7 +969,6 @@ console.log("Product info:", productInfo);
 
 # #037 「よくある間違い(1)」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -1027,7 +998,6 @@ let ageMessage: string = `Age: ${age}`; // 数値も文字列に変換される
 
 # #038 「よくある間違い(2)」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -1056,7 +1026,6 @@ let itemList: string = items.map(item => `- ${item}`).join('\n');
 
 # #039 「ベストプラクティス」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -1088,7 +1057,6 @@ let userStatus: string = `User ID: ${userId}`;
 
 # #040 「テンプレートリテラルまとめ」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -1122,7 +1090,6 @@ let userInfo: string = `User: ${user.name} (${user.role})`;
 
 # #041 「Stringとstringの基本的な違い」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -1148,7 +1115,6 @@ let userInfo: string = `${userName} (${userEmail})`;
 
 # #042 「string型の宣言 - プリミティブ」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -1174,7 +1140,6 @@ console.log(typeof name); // "string"
 
 # #043 「String型の宣言 - 避けるべき」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -1201,7 +1166,6 @@ let userInfo: string = `${userName} (${userRole})`;
 
 # #044 「Stringコンストラクタ - new String()」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -1230,7 +1194,6 @@ console.log(str1 === str2); // true
 
 # #045 「Stringオブジェクトの問題点」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -1262,7 +1225,6 @@ console.log(userName === userInput); // true
 
 # #046 「Stringからstringへ - valueOf()」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -1294,7 +1256,6 @@ let userEmail: string = String(userData.email);
 
 # #047 「自動ボックス化」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -1320,7 +1281,6 @@ let userNameFirst: string = userName.charAt(0);
 
 # #048 「==と===での比較」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -1353,7 +1313,6 @@ if (userName === userInput) {
 
 # #049 「なぜstringを使うべきか」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -1384,7 +1343,6 @@ console.log(str1 === str2); // 常にtrue
 
 # #050 「String型使用禁止ルール」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -1415,8 +1373,6 @@ let pageTitle: string = componentProps.title;
 
 # #051 「toUpperCase() - 大文字化」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -1440,8 +1396,6 @@ let roleDisplay: string = userRole.toUpperCase();
 ## File: 052.txt
 
 # #052 「toUpperCase()の型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1468,8 +1422,6 @@ console.log(typeof normalizedInput); // "string"
 
 # #053 「toLowerCase() - 小文字化」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -1493,8 +1445,6 @@ let normalizedRole: string = userRole.toLowerCase();
 ## File: 054.txt
 
 # #054 「toLowerCase()の実例」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1524,8 +1474,6 @@ let normalizedEmail: string = email.toLowerCase(); // "user@example.com"
 
 # #055 「charAt(index) - 文字取得」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -1550,8 +1498,6 @@ let subCategory: string = productCode.charAt(1); // "B"
 ## File: 056.txt
 
 # #056 「charAt()の型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1579,8 +1525,6 @@ console.log(typeof firstChar); // "string"
 
 # #057 「charAt()範囲外アクセス」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -1604,8 +1548,6 @@ let safeChar: string = userInput.charAt(userInput.length); // ""（安全）
 ## File: 058.txt
 
 # #058 「charCodeAt(index)」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1633,8 +1575,6 @@ let invalidCode: number = name.charCodeAt(10); // NaN
 
 # #059 「indexOf(searchString)」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -1659,8 +1599,6 @@ let bookIndex: number = productName.indexOf("Book"); // -1（見つからない�
 ## File: 060.txt
 
 # #060 「indexOf()の戻り値」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1691,8 +1629,6 @@ if (atIndex !== -1) {
 
 # #061 「indexOf()で存在チェック」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -1720,8 +1656,6 @@ if (userEmail.indexOf("@") !== -1) {
 
 # #062 「lastIndexOf()」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -1747,8 +1681,6 @@ let extension: string = userEmail.substring(lastDot + 1); // "com"
 
 # #063 「includes(searchString)」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -1773,8 +1705,6 @@ let isBook: boolean = productName.includes("Book"); // false
 ## File: 064.txt
 
 # #064 「includes()の型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1802,8 +1732,6 @@ console.log(typeof isValidEmail); // "boolean"
 
 # #065 「startsWith(prefix)」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -1828,8 +1756,6 @@ let isApiRoute: boolean = apiEndpoint.startsWith("/api"); // true
 ## File: 066.txt
 
 # #066 「endsWith(suffix)」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1856,8 +1782,6 @@ let isImage: boolean = imageFile.endsWith(".jpg") || imageFile.endsWith(".png");
 
 # #067 「substring(start, end)」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -1882,8 +1806,6 @@ let fileName: string = filePath.substring(filePath.lastIndexOf("/") + 1); // "fi
 ## File: 068.txt
 
 # #068 「substring()の型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1911,8 +1833,6 @@ console.log(typeof username); // "string"
 
 # #069 「slice(start, end)」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -1933,8 +1853,6 @@ let lastWord: string = message.slice(-6, -1); // "World"
 ## File: 070.txt
 
 # #070 「split(separator)」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1958,8 +1876,6 @@ let emailParts: string[] = email.split("@"); // ["alice", "example.com"]
 
 # #071 「string[]型とは」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -1977,8 +1893,6 @@ let apiEndpoints: string[] = ["/api/users", "/api/products"];
 ## File: 072.txt
 
 # #072 「string配列の宣言」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2002,8 +1916,6 @@ let errorMessages: string[] = [];
 
 # #073 「Array<string>記法」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -2025,8 +1937,6 @@ let productCategories: Array<string> = ["本", "ペン"];
 
 # #074 「string配列の初期化」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -2047,8 +1957,6 @@ let inferred = ["TypeScript", "JavaScript"]; // string[]型と推論
 ## File: 075.txt
 
 # #075 「配列への要素追加」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2076,8 +1984,6 @@ productTags.push("TypeScript");
 
 # #076 「配列の要素アクセス」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -2098,8 +2004,6 @@ let userRole: string = userRoles[1]; // "user"
 ## File: 077.txt
 
 # #077 「配列のループ - for...of」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2128,8 +2032,6 @@ for (let tag of productTags) {
 
 # #078 「配列のmap」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -2152,8 +2054,6 @@ let displayNames: string[] = productNames.map(name => `商品: ${name}`);
 ## File: 079.txt
 
 # #079 「配列のfilter」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2178,8 +2078,6 @@ let bookTags: string[] = productTags.filter(tag => tag.includes("本"));
 ## File: 080.txt
 
 # #080 「配列のjoin」台本
-
-```
 
 ## 📺 画面表示用コード
 
