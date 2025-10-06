@@ -2,8 +2,6 @@
 
 # #281「null型とは」
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -27,13 +25,10 @@ interface User {
   email: string | null; // 明示的null許容
 }
 ```
-```
 
 ## File: 282.txt
 
 # #282「nullの宣言」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -58,13 +53,10 @@ let items: string[] | null = null;
   }
 }
 ```
-```
 
 ## File: 283.txt
 
 # #283「nullの代入」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -90,13 +82,10 @@ interface Config {
   cache: CacheService | null;
 }
 ```
-```
 
 ## File: 284.txt
 
 # #284「nullの使用例」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -128,13 +117,10 @@ class UserService {
   }
 }
 ```
-```
 
 ## File: 285.txt
 
 # #285「nullの型」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -157,13 +143,10 @@ type Result = string | number | null;
 type NonNull = NonNullable<Result>;
 // → string | number
 ```
-```
 
 ## File: 286.txt
 
 # #286「nullとundefinedの違い」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -188,13 +171,10 @@ interface User {
 const value1 = null ?? "default";      // "default"
 const value2 = undefined ?? "default"; // "default"
 ```
-```
 
 ## File: 287.txt
 
 # #287「nullの使い分け」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -219,13 +199,10 @@ function process(data?: string) {}
 JSON.stringify({ value: null });      // {"value":null}
 JSON.stringify({ value: undefined }); // {}
 ```
-```
 
 ## File: 288.txt
 
 # #288「nullチェック」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -250,13 +227,10 @@ const zip = user?.address?.zipCode;
 const displayName = user ?? "Guest";
 const port = config.port ?? 3000;
 ```
-```
 
 ## File: 289.txt
 
 # #289「nullish演算子 - ??」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -277,13 +251,10 @@ const count2 = 0 ?? 10;  // 0  (0はnullでない)
 config.timeout ??= 5000;
 const zip = user?.address?.zipCode ?? "N/A";
 ```
-```
 
 ## File: 290.txt
 
 # #290「nullとfalseの違い」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -305,13 +276,10 @@ const v2 = false ?? "default"; // false
 let flag: boolean = null;  // エラー
 let flag: boolean | null = null;  // OK
 ```
-```
 
 ## File: 291.txt
 
 # #291「nullと0の違い」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -333,13 +301,10 @@ const count2 = 0 ?? 10;     // 0 (0は有効値)
 let num: number = null;  // エラー
 let num: number | null = null;  // OK
 ```
-```
 
 ## File: 292.txt
 
 # #292「nullと空文字列」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -361,13 +326,10 @@ const name2 = "" ?? "Guest";    // "" (空文字列は有効値)
 let str: string = null;  // エラー
 let str: string | null = null;  // OK
 ```
-```
 
 ## File: 293.txt
 
 # #293「nullのJSON表現」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -392,13 +354,10 @@ interface ApiResponse {
 const data = JSON.parse('{"name":null}');
 // → { name: null }
 ```
-```
 
 ## File: 294.txt
 
 # #294「nullのパターン」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -426,13 +385,10 @@ if (user !== null) {
   console.log(user.name);
 }
 ```
-```
 
 ## File: 295.txt
 
 # #295「null型まとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -456,13 +412,10 @@ function findUser(id: number): User | null {
   return users.find(u => u.id === id) ?? null;
 }
 ```
-```
 
 ## File: 296.txt
 
 # #296「undefined型とは」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -485,13 +438,10 @@ interface User {
 let id: number = undefined; // エラー
 let id: number | undefined = undefined; // OK
 ```
-```
 
 ## File: 297.txt
 
 # #297「undefinedの宣言」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -515,13 +465,10 @@ function greet(name?: string): void {
   console.log(name ?? "Guest");
 }
 ```
-```
 
 ## File: 298.txt
 
 # #298「undefinedの代入」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -545,13 +492,10 @@ const user: User = {
   age: undefined  // オプショナルなので省略可能
 };
 ```
-```
 
 ## File: 299.txt
 
 # #299「初期化されていない変数」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -574,13 +518,10 @@ if (value !== undefined) {
   console.log(value.toUpperCase());
 }
 ```
-```
 
 ## File: 300.txt
 
 # #300「関数の戻り値なし」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -606,13 +547,10 @@ function noReturn() {
 }
 const result = noReturn(); // undefined
 ```
-```
 
 ## File: 301.txt
 
 # #301「存在しないプロパティ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -637,13 +575,10 @@ interface User {
 const user: User = { name: "Alice" };
 user.age;  // number | undefined
 ```
-```
 
 ## File: 302.txt
 
 # #302「存在しない配列要素」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -667,13 +602,10 @@ if (arr[10] !== undefined) {
   console.log(arr[10].toFixed());
 }
 ```
-```
 
 ## File: 303.txt
 
 # #303「undefinedの型」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -696,13 +628,10 @@ type Result = string | number | undefined;
 type NonUndef = NonNullable<Result>;
 // → string | number
 ```
-```
 
 ## File: 304.txt
 
 # #304「undefinedチェック」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -727,13 +656,10 @@ const config = settings?.timeout ?? 5000;
 const zip = user?.address?.zipCode;
 // userまたはaddressがundefinedならundefined
 ```
-```
 
 ## File: 305.txt
 
 # #305「typeof undefined」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -755,13 +681,10 @@ if (typeof value === "undefined") {
 typeof undeclaredVar === "undefined"; // true (エラーなし)
 undeclaredVar === undefined; // ReferenceError
 ```
-```
 
 ## File: 306.txt
 
 # #306「undefinedとvoidの違い」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -786,13 +709,10 @@ const user = find(); // undefined
 function noReturn(): void { }
 const result = noReturn(); // undefined (型はvoid)
 ```
-```
 
 ## File: 307.txt
 
 # #307「undefinedのJSON表現」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -819,13 +739,10 @@ interface User {
 JSON.stringify({ name: "Alice" });
 // → '{"name":"Alice"}'
 ```
-```
 
 ## File: 308.txt
 
 # #308「undefinedの自動挿入」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -854,13 +771,10 @@ interface User {
 const user: User = { name: "Alice" };
 // user.age は undefined
 ```
-```
 
 ## File: 309.txt
 
 # #309「undefinedのパターン」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -889,13 +803,10 @@ interface User {
 type PartialUser = Partial<User>;
 // { name?: string; age?: number }
 ```
-```
 
 ## File: 310.txt
 
 # #310「undefined型まとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -923,13 +834,10 @@ function greet(name?: string): void {
 }
 type Option<T> = T | undefined;
 ```
-```
 
 ## File: 311.txt
 
 # #311「strictNullChecksとは」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -953,13 +861,10 @@ let name: string | null = null; // OK
   }
 }
 ```
-```
 
 ## File: 312.txt
 
 # #312「無効時の挙動」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -985,13 +890,10 @@ interface User {
 }
 const user: User = { name: null }; // OK
 ```
-```
 
 ## File: 313.txt
 
 # #313「有効時の挙動」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1018,13 +920,10 @@ interface User {
   age?: number; // number | undefined
 }
 ```
-```
 
 ## File: 314.txt
 
 # #314「設定方法 - tsconfig.json」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1051,13 +950,10 @@ interface User {
 tsc --showConfig
 // strictNullChecksの値を確認
 ```
-```
 
 ## File: 315.txt
 
 # #315「有効にすべき理由」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1084,13 +980,10 @@ function process(data: string) {
 }
 process(null); // コンパイルエラー
 ```
-```
 
 ## File: 316.txt
 
 # #316「null代入エラー」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1111,13 +1004,10 @@ name = "Alice"; // OK
 let name: string = null!; // OK (型チェック回避)
 // 実行時エラーのリスクあり
 ```
-```
 
 ## File: 317.txt
 
 # #317「undefined代入エラー」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1140,13 +1030,10 @@ interface User {
 }
 function greet(name?: string) {}
 ```
-```
 
 ## File: 318.txt
 
 # #318「型安全性の向上」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1172,13 +1059,10 @@ value.toUpperCase(); // string型に絞り込み
 const user: User | null = getUser();
 const name = user?.name; // string | undefined
 ```
-```
 
 ## File: 319.txt
 
 # #319「段階的導入」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1203,13 +1087,10 @@ const name = user?.name; // string | undefined
 tsc --noEmit
 // エラーをリスト化して優先順位付け
 ```
-```
 
 ## File: 320.txt
 
 # #320「レガシーコード対応」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1232,13 +1113,10 @@ function legacyFunc(value: any) {
   return value.toString();
 }
 ```
-```
 
 ## File: 321.txt
 
 # #321「マイグレーション」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1268,13 +1146,10 @@ function getUser(id: number): User | null {
   return user;
 }
 ```
-```
 
 ## File: 322.txt
 
 # #322「サードパーティライブラリ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1301,13 +1176,10 @@ declare module 'legacy-lib' {
 import { getData } from 'legacy-lib';
 const data = getData() as string | null;
 ```
-```
 
 ## File: 323.txt
 
 # #323「デバッグ方法」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1330,13 +1202,10 @@ if (value !== null) {
 tsc --noEmit
 // コンパイルせず型エラーだけ確認
 ```
-```
 
 ## File: 324.txt
 
 # #324「ベストプラクティス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1359,13 +1228,10 @@ if (user !== null) {
 const name = user?.name ?? "Guest";
 const port = config.port ?? 3000;
 ```
-```
 
 ## File: 325.txt
 
 # #325「strictNullChecksまとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1394,13 +1260,10 @@ if (user !== null) {
   console.log(user.email);
 }
 ```
-```
 
 ## File: 326.txt
 
 # #326「nullable型とは - T | null」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1425,13 +1288,10 @@ interface Config {
   logger: Logger | null;
 }
 ```
-```
 
 ## File: 327.txt
 
 # #327「nullable型の宣言」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1455,13 +1315,10 @@ interface ApiResponse<T> {
   error: string | null;
 }
 ```
-```
 
 ## File: 328.txt
 
 # #328「値の代入」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1484,13 +1341,10 @@ let items: string[] | null = ["a", "b"];
 items = null; // OK
 items = ["c", "d"]; // OK
 ```
-```
 
 ## File: 329.txt
 
 # #329「nullの代入」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1515,13 +1369,10 @@ function logout() {
   currentUser = null;
 }
 ```
-```
 
 ## File: 330.txt
 
 # #330「nullableチェック」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1548,13 +1399,10 @@ if (isNotNull(user)) {
 const name = user ?? createGuestUser();
 const port = config ?? 3000;
 ```
-```
 
 ## File: 331.txt
 
 # #331「Optional Chaining - x?.property」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1575,13 +1423,10 @@ const zip = user?.address?.zipCode ?? "N/A";
 const firstItem = array?.[0];
 const result = obj?.method?.();
 ```
-```
 
 ## File: 332.txt
 
 # #332「Nullish Coalescing - x ?? default」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1602,13 +1447,10 @@ const count2 = 0 ?? 10;  // 0  (0は有効値)
 const city = user?.address?.city ?? "Unknown";
 const age = user?.age ?? 18;
 ```
-```
 
 ## File: 333.txt
 
 # #333「nullable配列」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1630,13 +1472,10 @@ const validUsers = users.filter(isNotNull);
 // map処理
 const userNames = users.map(u => u?.name ?? "Unknown");
 ```
-```
 
 ## File: 334.txt
 
 # #334「配列がnullable」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1658,13 +1497,10 @@ if (items !== null) {
 const length = items?.length ?? 0;
 const first = items?.[0];
 ```
-```
 
 ## File: 335.txt
 
 # #335「nullableオブジェクト」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1689,13 +1525,10 @@ if (user !== null) {
   console.log(user.age);
 }
 ```
-```
 
 ## File: 336.txt
 
 # #336「関数引数のnullable」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1725,13 +1558,10 @@ function log(message: string | null = null) {
   console.log(message ?? "No message");
 }
 ```
-```
 
 ## File: 337.txt
 
 # #337「関数戻り値のnullable」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1756,13 +1586,10 @@ if (user !== null) {
 const user = findUser(1) ?? createGuestUser();
 const name = findUser(1)?.name ?? "Unknown";
 ```
-```
 
 ## File: 338.txt
 
 # #338「nullable型の型ガード」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1786,13 +1613,10 @@ if (isNotNull(user)) {
 const users: (User | null)[] = [user1, null, user2];
 const validUsers: User[] = users.filter(isNotNull);
 ```
-```
 
 ## File: 339.txt
 
 # #339「ベストプラクティス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1816,13 +1640,10 @@ if (user !== null) {
 const name = user?.name ?? "Guest";
 const city = user?.address?.city;
 ```
-```
 
 ## File: 340.txt
 
 # #340「nullable型まとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1849,13 +1670,10 @@ const users = getUsers();
 const validUsers = users.filter(isNotNull);
 const names = validUsers.map(u => u.name);
 ```
-```
 
 ## File: 341.txt
 
 # #341「undefinedable型 - T | undefined」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1884,13 +1702,10 @@ interface User {
   email?: string;           // オプショナル(= string | undefined)
 }
 ```
-```
 
 ## File: 342.txt
 
 # #342「undefinedable型の宣言」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1916,13 +1731,10 @@ interface Config {
   callback: ((data: string) => void) | undefined;
 }
 ```
-```
 
 ## File: 343.txt
 
 # #343「オプショナルプロパティ - prop?」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1949,13 +1761,10 @@ type Config = {
   ssl?: boolean;
 };
 ```
-```
 
 ## File: 344.txt
 
 # #344「オプショナルプロパティの型」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -1982,13 +1791,10 @@ if (user.age !== undefined) {
 const age = user.age?.toString();
 const doubled = user.age ? user.age * 2 : 0;
 ```
-```
 
 ## File: 345.txt
 
 # #345「オプショナル引数」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2015,13 +1821,10 @@ function createUser(name: string, role: string = "user") {
   return { name, role };
 }
 ```
-```
 
 ## File: 346.txt
 
 # #346「オプショナル引数の型」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2049,13 +1852,10 @@ function process(data: number, options?: { verbose: boolean }) {
   }
 }
 ```
-```
 
 ## File: 347.txt
 
 # #347「undefinedableチェック」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2080,13 +1880,10 @@ if (typeof value === "string") {
 const length = value?.length ?? 0;
 const upper = value?.toUpperCase();
 ```
-```
 
 ## File: 348.txt
 
 # #348「Optional Chainingの活用」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2108,13 +1905,10 @@ callback?.();
 const city = user?.address?.city ?? "Unknown";
 const phone = user?.contact?.phone?.trim();
 ```
-```
 
 ## File: 349.txt
 
 # #349「ベストプラクティス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2139,13 +1933,10 @@ function connect(config: Config) {
 // ベストプラクティス3: Optional Chaining
 const result = data?.process()?.value ?? defaultValue;
 ```
-```
 
 ## File: 350.txt
 
 # #350「undefinedable型まとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2174,13 +1965,10 @@ const config: Config = {
   timeout: options?.timeout ?? 3000,
 };
 ```
-```
 
 ## File: 351.txt
 
 # #351「nullish型 - T | null | undefined」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2210,13 +1998,10 @@ function findUser(id: number): User | null | undefined {
   return user ?? null;           // 見つからない場合
 }
 ```
-```
 
 ## File: 352.txt
 
 # #352「nullish型の宣言」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2242,13 +2027,10 @@ interface ApiResponse {
   timestamp: number;
 }
 ```
-```
 
 ## File: 353.txt
 
 # #353「nullish型の使用例」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2280,13 +2062,10 @@ interface FormData {
   phone: string | null | undefined;
 }
 ```
-```
 
 ## File: 354.txt
 
 # #354「nullishチェック - x != null」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2317,13 +2096,10 @@ if (data != null) {
   const doubled = data * 2;  // number型として扱える
 }
 ```
-```
 
 ## File: 355.txt
 
 # #355「Nullish Coalescing - ??」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2350,13 +2126,10 @@ const config = {
   retries: options?.retries ?? 3,
 };
 ```
-```
 
 ## File: 356.txt
 
 # #356「??と||の違い」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2382,13 +2155,10 @@ function setVolume(volume: number | null | undefined) {
 const enabled = config.enabled ?? true;  // falseも有効
 const verbose = options.verbose ?? false;
 ```
-```
 
 ## File: 357.txt
 
 # #357「??の使用例」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2418,13 +2188,10 @@ function createUser(name: string, age?: number | null) {
   };
 }
 ```
-```
 
 ## File: 358.txt
 
 # #358「Optional Chaining - ?.」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2447,13 +2214,10 @@ const firstItem = array?.[0];
 const city = user?.address?.city;
 const phone = user?.contacts?.[0]?.phone;
 ```
-```
 
 ## File: 359.txt
 
 # #359「?.の使用例」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2476,13 +2240,10 @@ element?.addEventListener("click", () => {
 const price = product?.variants?.[0]?.pricing?.amount ?? 0;
 const rating = reviews?.[0]?.rating?.average?.toFixed(1);
 ```
-```
 
 ## File: 360.txt
 
 # #360「nullish型まとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2509,13 +2270,10 @@ const config = {
   data: response?.data ?? [],
 };
 ```
-```
 
 ## File: 361.txt
 
 # #361「Non-null Assertionとは - !」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2540,13 +2298,10 @@ console.log(user.name);
 let value: string | undefined = "hello";
 const length = value!.length;  // stringとして扱う
 ```
-```
 
 ## File: 362.txt
 
 # #362「!演算子の構文」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2568,13 +2323,10 @@ const element = document.getElementById("app")!;
 const firstChild = element.firstChild!;
 const data = array.find(x => x.id === 1)!;
 ```
-```
 
 ## File: 363.txt
 
 # #363「!演算子の意味」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2598,13 +2350,10 @@ const length = value.length;
 const data: number | null | undefined = getData();
 const doubled = data! * 2;  // number型として扱う
 ```
-```
 
 ## File: 364.txt
 
 # #364「!演算子の危険性」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2627,13 +2376,10 @@ if (element !== null) {
   element.innerHTML = "Hello";  // 安全
 }
 ```
-```
 
 ## File: 365.txt
 
 # #365「代替手段」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2659,13 +2405,10 @@ function isNotNull<T>(value: T | null): value is T {
 }
 const validUsers = users.filter(isNotNull);
 ```
-```
 
 ## File: 366.txt
 
 # #366「間違い(1) - 混同」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2692,13 +2435,10 @@ if (!user) {  // truthyチェック
   // ...
 }
 ```
-```
 
 ## File: 367.txt
 
 # #367「間違い(2) - チェック漏れ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2730,13 +2470,10 @@ function processUser(id: number) {
   console.log(name);
 }
 ```
-```
 
 ## File: 368.txt
 
 # #368「間違い(3) - !演算子乱用」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2765,13 +2502,10 @@ if (response.data?.users) {
   }
 }
 ```
-```
 
 ## File: 369.txt
 
 # #369「ベストプラクティス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2795,13 +2529,10 @@ const result = data?.process()?.value;
 const rootElement = document.getElementById("root")!;
 ReactDOM.render(<App />, rootElement);
 ```
-```
 
 ## File: 370.txt
 
 # #370「マスターチェック」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2825,13 +2556,10 @@ const name = user?.name ?? "Unknown";
 const user = findUser(id)!;  // 危険
 const data = response.data!.items!;  // 乱用
 ```
-```
 
 ## File: 371.txt
 
 # #371「void型とは」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2859,13 +2587,10 @@ function addEventListener(callback: () => void): void {
   // イベントリスナーの登録
 }
 ```
-```
 
 ## File: 372.txt
 
 # #372「使用場面」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2890,13 +2615,10 @@ async function saveData(data: Data): Promise<void> {
   console.log("Saved");
 }
 ```
-```
 
 ## File: 373.txt
 
 # #373「void型の宣言」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2920,13 +2642,10 @@ type VoidFunction = () => void;
 type Callback = (data: string) => void;
 const handler: Callback = (data) => console.log(data);
 ```
-```
 
 ## File: 374.txt
 
 # #374「void型を返す関数」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2952,13 +2671,10 @@ function log3(msg: string): void {
   return undefined;
 }
 ```
-```
 
 ## File: 375.txt
 
 # #375「return文」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2985,13 +2701,10 @@ function allowed(): void {
   return;            // OK (推奨)
 }
 ```
-```
 
 ## File: 376.txt
 
 # #376「undefinedとの違い」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3016,13 +2729,10 @@ const result2 = findItem(1);  // Item | undefined型
 type Logger = (msg: string) => void;      // 副作用
 type Finder = (id: number) => Item | undefined;  // 検索
 ```
-```
 
 ## File: 377.txt
 
 # #377「void型変数」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3047,13 +2757,10 @@ type VoidCallback = () => void;
 const callbacks: VoidCallback[] = [];
 callbacks.push(() => console.log("Done"));
 ```
-```
 
 ## File: 378.txt
 
 # #378「変数への代入」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3078,13 +2785,10 @@ function doSomething(): void {
 }
 const result: void = doSomething();  // undefined
 ```
-```
 
 ## File: 379.txt
 
 # #379「void型の意味」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3115,13 +2819,10 @@ element.addEventListener("click", (e): void => {
   console.log("Clicked", e);
 });
 ```
-```
 
 ## File: 380.txt
 
 # #380「設計思想」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3147,13 +2848,10 @@ interface DataService {
   deleteData(id: number): void;  // 副作用のみ
 }
 ```
-```
 
 ## File: 381.txt
 
 # #381「型推論」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3179,13 +2877,10 @@ const handler = (e: Event) => {
   console.log(e);
 };  // (e: Event) => void と推論
 ```
-```
 
 ## File: 382.txt
 
 # #382「明示的宣言」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3215,13 +2910,10 @@ const logError = (err: Error) => {
   }
 }
 ```
-```
 
 ## File: 383.txt
 
 # #383「ユースケース」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3247,13 +2939,10 @@ type Middleware = (
   next: () => void
 ) => void;
 ```
-```
 
 ## File: 384.txt
 
 # #384「Promise<void>」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3281,13 +2970,10 @@ async function processAll(items: Item[]): Promise<void> {
   console.log("All items processed");
 }
 ```
-```
 
 ## File: 385.txt
 
 # #385「基本まとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3312,13 +2998,10 @@ const handler: Callback = (data) => {
   console.log(data);
 };
 ```
-```
 
 ## File: 386.txt
 
 # #386「戻り値なし関数」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3344,13 +3027,10 @@ function updateCounter(): void {
   render();
 }
 ```
-```
 
 ## File: 387.txt
 
 # #387「console.logの戻り値」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3375,13 +3055,10 @@ function process(data: Data): void {
   // 副作用のみ
 }
 ```
-```
 
 ## File: 388.txt
 
 # #388「return undefined」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3412,13 +3089,10 @@ function validate(value: string): void {
   console.log(value);
 }
 ```
-```
 
 ## File: 389.txt
 
 # #389「明示的return」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3445,13 +3119,10 @@ function invalid(): void {
   return "value";  // エラー: Type 'string' is not assignable to type 'void'
 }
 ```
-```
 
 ## File: 390.txt
 
 # #390「エラーハンドリング」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3485,13 +3156,10 @@ function process(data: Data | null): void {
   console.log(data);
 }
 ```
-```
 
 ## File: 391.txt
 
 # #391「throw文」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3522,13 +3190,10 @@ function process(): void {
   throwError("Error");  // OK: neverはvoidに代入可能
 }
 ```
-```
 
 ## File: 392.txt
 
 # #392「コールバック関数」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3554,13 +3219,10 @@ button.addEventListener("click", (e: Event): void => {
   console.log("Clicked");
 });
 ```
-```
 
 ## File: 393.txt
 
 # #393「イベントハンドラ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3588,13 +3250,10 @@ const handleClick = (e: React.MouseEvent): void => {
 };
 <button onClick={handleClick}>Click</button>
 ```
-```
 
 ## File: 394.txt
 
 # #394「forEach()の戻り値」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3618,13 +3277,10 @@ items.forEach((item): void => {
 const doubled = items.map(x => x * 2);  // 新しい配列を返す
 items.forEach(x => console.log(x * 2));  // void、何も返さない
 ```
-```
 
 ## File: 395.txt
 
 # #395「メソッド定義」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3656,13 +3312,10 @@ type Logger = {
   warn(message: string): void;
 };
 ```
-```
 
 ## File: 396.txt
 
 # #396「クラスメソッド」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3702,13 +3355,10 @@ class EventEmitter {
   }
 }
 ```
-```
 
 ## File: 397.txt
 
 # #397「インターフェースのメソッド」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3740,13 +3390,10 @@ interface EventListener {
   handleKeyPress(event: KeyboardEvent): void;
 }
 ```
-```
 
 ## File: 398.txt
 
 # #398「オーバーロード」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3781,13 +3428,10 @@ function forEach(startOrCb: any, callback?: any): void {
   // 実装
 }
 ```
-```
 
 ## File: 399.txt
 
 # #399「アロー関数」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3813,13 +3457,10 @@ items.forEach((item): void => {
   console.log(item);
 });
 ```
-```
 
 ## File: 400.txt
 
 # #400「関数まとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3849,13 +3490,10 @@ async function saveData(data: Data): Promise<void> {
 }
 type Callback = (result: string) => void;
 ```
-```
 
 ## File: 401.txt
 
 # #401「概念的違い」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3880,13 +3518,10 @@ function findItem(id: number): Item | undefined {
 type Logger = () => void;          // 副作用のみ
 type Finder = () => Item | undefined;  // 検索結果
 ```
-```
 
 ## File: 402.txt
 
 # #402「voidは「値を気にしない」」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3913,13 +3548,10 @@ const handler: Callback = (data) => {
   console.log(data);  // 処理のみ
 };
 ```
-```
 
 ## File: 403.txt
 
 # #403「undefinedは「未定義の値」」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3947,13 +3579,10 @@ interface Config {
 const config: Config = {};
 console.log(config.timeout);  // undefined
 ```
-```
 
 ## File: 404.txt
 
 # #404「変数にundefined代入」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3979,13 +3608,10 @@ function doSomething(): void {
 }
 const result: void = doSomething();  // undefined
 ```
-```
 
 ## File: 405.txt
 
 # #405「undefined型の変数に代入」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4013,13 +3639,10 @@ function getValue(): string | undefined {
   return undefined;
 }
 ```
-```
 
 ## File: 406.txt
 
 # #406「実際の戻り値」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4046,13 +3669,10 @@ function f1(): void { }
 // JavaScript (トランスパイル後)
 function f1() { }  // undefinedを返す
 ```
-```
 
 ## File: 407.txt
 
 # #407「戻り値型がundefined」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4084,13 +3704,10 @@ function undefFunc(): undefined {
   return undefined;  // 値として返す
 }
 ```
-```
 
 ## File: 408.txt
 
 # #408「strictNullChecks」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4121,13 +3738,10 @@ function f2(): undefined {
   return undefined;
 }
 ```
-```
 
 ## File: 409.txt
 
 # #409「互換性」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4155,13 +3769,10 @@ function returnsUndefined(): undefined {
 const f1: () => void = (): undefined => undefined;  // OK
 const f2: () => undefined = (): void => {};  // エラー (場合による)
 ```
-```
 
 ## File: 410.txt
 
 # #410「戻り値を使用」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4188,13 +3799,10 @@ const value = process();
 console.log(value);  // undefined (実行時)
 // しかし型はvoidなので誤用を防げる
 ```
-```
 
 ## File: 411.txt
 
 # #411「undefined戻り値使用」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4218,13 +3826,10 @@ if (user !== undefined) {
 const name = findUser(2)?.name ?? "Unknown";
 const email = findUser(3)?.email;
 ```
-```
 
 ## File: 412.txt
 
 # #412「使い分け」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4252,13 +3857,10 @@ interface UserService {
   saveUser(user: User): void;             // 保存
 }
 ```
-```
 
 ## File: 413.txt
 
 # #413「パフォーマンス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4288,13 +3890,10 @@ console.log(voidFunc());    // undefined
 console.log(undefFunc());   // undefined
 // パフォーマンス差はなし
 ```
-```
 
 ## File: 414.txt
 
 # #414「コンパイル結果」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4323,13 +3922,10 @@ function f2() {
 // TypeScript: function log(msg: string): void
 // JavaScript: function log(msg)
 ```
-```
 
 ## File: 415.txt
 
 # #415「比較まとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4354,13 +3950,10 @@ console.log(logMessage("test"));  // undefined
 console.log(findItem(1));         // Item | undefined
 // 両方undefinedだが意図が異なる
 ```
-```
 
 ## File: 416.txt
 
 # #416「Promise<void>とは」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4388,13 +3981,10 @@ async function main(): Promise<void> {
   console.log("Complete");
 }
 ```
-```
 
 ## File: 417.txt
 
 # #417「async関数のvoid型」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4420,13 +4010,10 @@ async function load() {
   // Promise<void>と推論される
 }
 ```
-```
 
 ## File: 418.txt
 
 # #418「return文なし」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4453,13 +4040,10 @@ async function log(msg: string): Promise<void> {
   return undefined;  // OK だが不要
 }
 ```
-```
 
 ## File: 419.txt
 
 # #419「使用例」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4489,13 +4073,10 @@ async function cleanup(): Promise<void> {
   console.log("Cleanup complete");
 }
 ```
-```
 
 ## File: 420.txt
 
 # #420「then() - 引数なし」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4522,13 +4103,10 @@ async function main() {
   console.log("Save complete");
 }
 ```
-```
 
 ## File: 421.txt
 
 # #421「await」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4557,13 +4135,10 @@ async function sequence(): Promise<void> {
   await step3();
 }
 ```
-```
 
 ## File: 422.txt
 
 # #422「await式の型」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4590,13 +4165,10 @@ async function invalid(): Promise<void> {
   // const str: string = result;  // エラー
 }
 ```
-```
 
 ## File: 423.txt
 
 # #423「Promise<void>の連鎖」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4623,13 +4195,10 @@ const promise: Promise<void> = initialize()
   .then(() => loadData())
   .then(() => render());
 ```
-```
 
 ## File: 424.txt
 
 # #424「エラーハンドリング」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4666,13 +4235,10 @@ async function withCleanup(): Promise<void> {
   }
 }
 ```
-```
 
 ## File: 425.txt
 
 # #425「finally()」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4710,13 +4276,10 @@ async function loadData(): Promise<void> {
   }
 }
 ```
-```
 
 ## File: 426.txt
 
 # #426「並行実行」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4753,13 +4316,10 @@ async function processWithError(): Promise<void> {
   }
 }
 ```
-```
 
 ## File: 427.txt
 
 # #427「Promise.all()」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4800,13 +4360,10 @@ async function timeout(): Promise<void> {
   ]);
 }
 ```
-```
 
 ## File: 428.txt
 
 # #428「実践例」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4840,13 +4397,10 @@ async function initializeApp(): Promise<void> {
   console.log("App initialized");
 }
 ```
-```
 
 ## File: 429.txt
 
 # #429「ベストプラクティス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4877,13 +4431,10 @@ async function processAll(items: Item[]): Promise<void> {
   await Promise.all(items.map(item => saveItem(item)));
 }
 ```
-```
 
 ## File: 430.txt
 
 # #430「非同期voidまとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4910,13 +4461,10 @@ async function processAll(): Promise<void> {
   console.log("All complete");
 }
 ```
-```
 
 ## File: 431.txt
 
 # #431「ジェネリクスのvoid型」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4942,13 +4490,10 @@ const userHandler: Handler<User> = (user) => {
   console.log(user.name);
 };
 ```
-```
 
 ## File: 432.txt
 
 # #432「デフォルト型パラメータ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4975,13 +4520,10 @@ const logger: Handler = () => {
   console.log("Log");
 };
 ```
-```
 
 ## File: 433.txt
 
 # #433「Callback<void>」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5009,13 +4551,10 @@ const saveCallback: AsyncCallback<User> = async (user) => {
   await database.save(user);
 };
 ```
-```
 
 ## File: 434.txt
 
 # #434「条件付き型」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5042,13 +4581,10 @@ async function fetch1(): AsyncResult<void> {
   return;
 }
 ```
-```
 
 ## File: 435.txt
 
 # #435「Mapped Types」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5077,13 +4613,10 @@ type ToHandlers<T> = {
 };
 type UserHandlers = ToHandlers<User>;
 ```
-```
 
 ## File: 436.txt
 
 # #436「Utility Types」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5110,13 +4643,10 @@ const events: EventMap = {
   hover: () => console.log("Hover")
 };
 ```
-```
 
 ## File: 437.txt
 
 # #437「型推論」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5144,13 +4674,10 @@ const result2 = execute<void>(() => {
   console.log("Done");
 });
 ```
-```
 
 ## File: 438.txt
 
 # #438「エッジケース」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5175,13 +4702,10 @@ function log(): void {
   return x * 2;  // OK (戻り値は無視される)
 });
 ```
-```
 
 ## File: 439.txt
 
 # #439「実例」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5213,13 +4737,10 @@ const voidEmitter = new EventEmitter();
 voidEmitter.on(() => console.log("Event"));
 voidEmitter.emit();
 ```
-```
 
 ## File: 440.txt
 
 # #440「ジェネリクスまとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5247,13 +4768,10 @@ class EventEmitter<T = void> {
   }
 }
 ```
-```
 
 ## File: 441.txt
 
 # #441「Angularイベントハンドラ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5290,13 +4808,10 @@ onInput(event: Event): void {
   console.log('Input:', value);
 }
 ```
-```
 
 ## File: 442.txt
 
 # #442「(click)="onClick()"」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5336,13 +4851,10 @@ export class UserListComponent {
   }
 }
 ```
-```
 
 ## File: 443.txt
 
 # #443「Observableとvoid型」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5379,13 +4891,10 @@ data$.pipe(
   })
 ).subscribe();
 ```
-```
 
 ## File: 444.txt
 
 # #444「Observable<void>」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5419,13 +4928,10 @@ operation$.pipe(
   })
 ).subscribe();
 ```
-```
 
 ## File: 445.txt
 
 # #445「RxJSオペレータ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5461,13 +4967,10 @@ users$.forEach((user): void => {
   console.log('User:', user.name);
 });
 ```
-```
 
 ## File: 446.txt
 
 # #446「Nest.jsコントローラ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5505,13 +5008,10 @@ async update(@Param('id') id: string, @Body() dto: UpdateDto): Promise<void> {
   await this.service.update(id, dto);
 }
 ```
-```
 
 ## File: 447.txt
 
 # #447「ミドルウェア」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5551,13 +5051,10 @@ export class CorsMiddleware implements NestMiddleware {
   }
 }
 ```
-```
 
 ## File: 448.txt
 
 # #448「API設計」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5596,13 +5093,10 @@ export class BatchController {
   }
 }
 ```
-```
 
 ## File: 449.txt
 
 # #449「レスポンス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5632,13 +5126,10 @@ async update(@Param('id') id: string, @Body() dto: UpdateDto): Promise<void> {
   // 200 OK、空のレスポンスボディ
 }
 ```
-```
 
 ## File: 450.txt
 
 # #450「ベストプラクティス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5672,13 +5163,10 @@ ngOnDestroy(): void {
   this.destroy$.complete();
 }
 ```
-```
 
 ## File: 451.txt
 
 # #451「間違い(1) - 戻り値使用」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5706,13 +5194,10 @@ function process(): void {
 process();  // 戻り値を使わない
 console.log("Done");
 ```
-```
 
 ## File: 452.txt
 
 # #452「間違い(2) - undefined混同」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5742,13 +5227,10 @@ function logMessage(msg: string): void {
 }
 logMessage("Hello");  // 戻り値を使わない
 ```
-```
 
 ## File: 453.txt
 
 # #453「間違い(3) - return値」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5780,13 +5262,10 @@ function process(data: string): void {
   console.log(data);
 }
 ```
-```
 
 ## File: 454.txt
 
 # #454「デバッグ(1)」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5829,13 +5308,10 @@ function save(data: Data): void {
   database.save(data);
 }
 ```
-```
 
 ## File: 455.txt
 
 # #455「デバッグ(2)」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5873,13 +5349,10 @@ function process(): void {
 process();
 expect(mockLogger.log).toHaveBeenCalledWith('Processing');
 ```
-```
 
 ## File: 456.txt
 
 # #456「リファクタリング」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5917,13 +5390,10 @@ function logUserActivity(user: User): void {
   logActivity(`User ${user.id} processed`);
 }
 ```
-```
 
 ## File: 457.txt
 
 # #457「テスト」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5957,13 +5427,10 @@ test('validate throws error for invalid data', () => {
   }).toThrow('Invalid data');
 });
 ```
-```
 
 ## File: 458.txt
 
 # #458「ドキュメント」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6004,13 +5471,10 @@ function addEventListener(event: string, handler: () => void): void {
   listeners.push({ event, handler });
 }
 ```
-```
 
 ## File: 459.txt
 
 # #459「ベストプラクティス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6043,13 +5507,10 @@ function processUser(user: User): void {
   notify(user);
 }
 ```
-```
 
 ## File: 460.txt
 
 # #460「マスターチェック」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6080,13 +5541,10 @@ class UserComponent {
   }
 }
 ```
-```
 
 ## File: 461.txt
 
 # #461「never型とは」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6117,13 +5575,10 @@ function neverFunc(): never {
   // 制御が戻らない
 }
 ```
-```
 
 ## File: 462.txt
 
 # #462「never型の意味」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6154,13 +5609,10 @@ function process(value: string | number): string {
   return fail("Unreachable");  // never型なので型エラーなし
 }
 ```
-```
 
 ## File: 463.txt
 
 # #463「例外を投げる関数」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6189,13 +5641,10 @@ function divide(a: number, b: number): number {
   return a / b;
 }
 ```
-```
 
 ## File: 464.txt
 
 # #464「無限ループ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6227,13 +5676,10 @@ function eventLoop(): never {
   }
 }
 ```
-```
 
 ## File: 465.txt
 
 # #465「never型の宣言」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6257,13 +5703,10 @@ function fail(msg: string) {
   // never型と推論される
 }
 ```
-```
 
 ## File: 466.txt
 
 # #466「関数の実装」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6290,13 +5733,10 @@ function invalid(): never {
   // return;  // エラー: Type 'void' is not assignable to type 'never'
 }
 ```
-```
 
 ## File: 467.txt
 
 # #467「return文 - 到達しない」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6325,13 +5765,10 @@ function abort(message: string): never {
   throw new Error(message);
 }
 ```
-```
 
 ## File: 468.txt
 
 # #468「変数宣言」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6354,13 +5791,10 @@ type Result = NonNullable<string | null>;  // string
 type Exclude<T, U> = T extends U ? never : T;
 type Numbers = Exclude<string | number, string>;  // number
 ```
-```
 
 ## File: 469.txt
 
 # #469「何も代入できない」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6394,13 +5828,10 @@ function check(value: string | number): string {
   return exhaustive;
 }
 ```
-```
 
 ## File: 470.txt
 
 # #470「void型との違い」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6432,13 +5863,10 @@ function fail(): void {
   console.log("Never reached");  // 到達不可能
 }
 ```
-```
 
 ## File: 471.txt
 
 # #471「型階層」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6465,13 +5893,10 @@ let value: never;
 type Result = string | never;  // string (neverは消える)
 type Empty = never | never;    // never
 ```
-```
 
 ## File: 472.txt
 
 # #472「特殊な性質」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6501,13 +5926,10 @@ function getColor(color: Color): string {
   return exhaustiveCheck(color);  // 型エラーで漏れを検出
 }
 ```
-```
 
 ## File: 473.txt
 
 # #473「型推論」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6538,13 +5960,10 @@ function process(value: string | number) {
   // ここは到達不可能 (never型と推論)
 }
 ```
-```
 
 ## File: 474.txt
 
 # #474「ユースケース」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6578,13 +5997,10 @@ function assertNonNull<T>(value: T | null): asserts value is T {
 // 条件付き型
 type NonNullable<T> = T extends null | undefined ? never : T;
 ```
-```
 
 ## File: 475.txt
 
 # #475「基本まとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6611,13 +6027,10 @@ function neverFunc(): never {
   throw new Error("Error");  // 制御が戻らない
 }
 ```
-```
 
 ## File: 476.txt
 
 # #476「throw文を含む関数」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6647,13 +6060,10 @@ function validate(value: unknown): never {
   throw new Error("Invalid type");
 }
 ```
-```
 
 ## File: 477.txt
 
 # #477「型注釈」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6678,13 +6088,10 @@ export function assertNever(value: never): never {
   throw new Error(`Unexpected value: ${value}`);
 }
 ```
-```
 
 ## File: 478.txt
 
 # #478「Error型」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6714,13 +6121,10 @@ function validate(data: unknown): never {
   throw error;
 }
 ```
-```
 
 ## File: 479.txt
 
 # #479「カスタムエラー」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6754,13 +6158,10 @@ function findUser(id: string): never {
   throw new NotFoundError(id);
 }
 ```
-```
 
 ## File: 480.txt
 
 # #480「assertNever関数」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6802,13 +6203,10 @@ function getColor(color: Color): string {
   }
 }
 ```
-```
 
 ## File: 481.txt
 
 # #481「使用例」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6841,13 +6239,10 @@ function handleError(error: unknown): never {
   process.exit(1);
 }
 ```
-```
 
 ## File: 482.txt
 
 # #482「型安全なエラーハンドリング」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6888,13 +6283,10 @@ function ensure<T>(value: T | null, message: string): T {
   return value;  // T型として返せる
 }
 ```
-```
 
 ## File: 483.txt
 
 # #483「try-catch」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6939,13 +6331,10 @@ try {
   }
 }
 ```
-```
 
 ## File: 484.txt
 
 # #484「スタックトレース」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6983,13 +6372,10 @@ try {
   }
 }
 ```
-```
 
 ## File: 485.txt
 
 # #485「デバッグ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7023,13 +6409,10 @@ function throwError(message: string): never {
   throw new Error(message);
 }
 ```
-```
 
 ## File: 486.txt
 
 # #486「エラー関数設計」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7065,13 +6448,10 @@ function validateUser(user: unknown): void {
   }
 }
 ```
-```
 
 ## File: 487.txt
 
 # #487「パターン」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7105,13 +6485,10 @@ function notImplemented(feature: string): never {
   throw new Error(`${feature} is not implemented`);
 }
 ```
-```
 
 ## File: 488.txt
 
 # #488「エラーバウンダリ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7153,13 +6530,10 @@ class ErrorBoundary extends React.Component {
   }
 }
 ```
-```
 
 ## File: 489.txt
 
 # #489「ベストプラクティス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7200,13 +6574,10 @@ function handleStatus(status: Status): void {
   }
 }
 ```
-```
 
 ## File: 490.txt
 
 # #490「例外まとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7245,13 +6616,10 @@ try {
   }
 }
 ```
-```
 
 ## File: 491.txt
 
 # #491「無限ループ関数」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7286,13 +6654,10 @@ function eventLoop(): never {
   }
 }
 ```
-```
 
 ## File: 492.txt
 
 # #492「while(true)」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7330,13 +6695,10 @@ function monitor(): never {
   }
 }
 ```
-```
 
 ## File: 493.txt
 
 # #493「型注釈」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7368,13 +6730,10 @@ export function runEventLoop(): never {
   }
 }
 ```
-```
 
 ## File: 494.txt
 
 # #494「使用例」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7415,13 +6774,10 @@ function watchFiles(): never {
   }
 }
 ```
-```
 
 ## File: 495.txt
 
 # #495「イベントループ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7460,13 +6816,10 @@ function priorityLoop(): never {
   }
 }
 ```
-```
 
 ## File: 496.txt
 
 # #496「サーバープロセス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7506,13 +6859,10 @@ function workerProcess(): never {
   }
 }
 ```
-```
 
 ## File: 497.txt
 
 # #497「型推論」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7549,13 +6899,10 @@ function loop3(forever: boolean) {
   // void型 (条件付き終了)
 }
 ```
-```
 
 ## File: 498.txt
 
 # #498「リスク」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7587,13 +6934,10 @@ async function asyncLoop(): never {
   }
 }
 ```
-```
 
 ## File: 499.txt
 
 # #499「ベストプラクティス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7633,13 +6977,10 @@ function gracefulLoop(): void {
 }
 process.on('SIGTERM', () => { shouldRun = false; });
 ```
-```
 
 ## File: 500.txt
 
 # #500「無限ループまとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7676,13 +7017,10 @@ function safeLoop(): never {
   }
 }
 ```
-```
 
 ## File: 501.txt
 
 # #501「網羅性チェックとは」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7733,13 +7071,10 @@ function getHex(color: Color): string {
   }
 }
 ```
-```
 
 ## File: 502.txt
 
 # #502「switch文の網羅性」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7792,13 +7127,10 @@ function handle(status: Status): void {
   }
 }
 ```
-```
 
 ## File: 503.txt
 
 # #503「exhaustive check関数」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7831,13 +7163,10 @@ function exhaustiveCheck(value: never, message?: string): never {
   );
 }
 ```
-```
 
 ## File: 504.txt
 
 # #504「Union型の網羅性」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7886,13 +7215,10 @@ function move(direction: Direction): void {
   assertNever(direction);
 }
 ```
-```
 
 ## File: 505.txt
 
 # #505「判別Union型」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7953,13 +7279,10 @@ function handleEvent(event: Event): void {
   }
 }
 ```
-```
 
 ## File: 506.txt
 
 # #506 「if-else文の網羅性」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7989,13 +7312,10 @@ function handle(status: Status) {
   else return exhaustiveCheck(status); // エラー！
 }
 ```
-```
 
 ## File: 507.txt
 
 # #507 「到達不可能コード検出」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8030,13 +7350,10 @@ function example() {
   console.log('到達不可能'); // エラー検出
 }
 ```
-```
 
 ## File: 508.txt
 
 # #508 「never型での型エラー」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8070,13 +7387,10 @@ function handleAll(action: Action) {
   const check: never = action; // OK
 }
 ```
-```
 
 ## File: 509.txt
 
 # #509 「実践例(1)」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8105,13 +7419,10 @@ type Action =
 
 // reducerで型エラーが発生し、実装漏れを検出
 ```
-```
 
 ## File: 510.txt
 
 # #510 「実践例(2)」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8149,13 +7460,10 @@ function process<T>(res: ApiResponse<T>) {
   const check: never = res;
 }
 ```
-```
 
 ## File: 511.txt
 
 # #511 「型ガード」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8191,13 +7499,10 @@ function process(shape: Shape) {
   // 残りの型で処理
 }
 ```
-```
 
 ## File: 512.txt
 
 # #512 「型の絞り込み」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8233,13 +7538,10 @@ function process(value: string | number | boolean) {
   }
 }
 ```
-```
 
 ## File: 513.txt
 
 # #513 「else節」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8283,13 +7585,10 @@ function getLabel(state: State): string {
   }
 }
 ```
-```
 
 ## File: 514.txt
 
 # #514 「default節」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8337,13 +7636,10 @@ function move(dir: Direction) {
   }
 }
 ```
-```
 
 ## File: 515.txt
 
 # #515 「コンパイラ最適化」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8388,13 +7684,10 @@ function not(b: Bool): boolean {
   throw new Error(); // 削除可能
 }
 ```
-```
 
 ## File: 516.txt
 
 # #516 「静的解析」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8431,13 +7724,10 @@ function greet(user: User): string {
   return user.name; // ageはundefinedと解析
 }
 ```
-```
 
 ## File: 517.txt
 
 # #517 「型安全性向上」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8485,13 +7775,10 @@ function navigate(route: Route): void {
   }
 }
 ```
-```
 
 ## File: 518.txt
 
 # #518 「ベストプラクティス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8532,13 +7819,10 @@ function execute(action: Action): void {
   }
 }
 ```
-```
 
 ## File: 519.txt
 
 # #519 「パターン集」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8594,13 +7878,10 @@ function getLabel(state: ConnectionState): string {
   }
 }
 ```
-```
 
 ## File: 520.txt
 
 # #520 「網羅性まとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8652,13 +7933,10 @@ class EventHandler {
   }
 }
 ```
-```
 
 ## File: 521.txt
 
 # #521 「Union型 - 消える」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8688,13 +7966,10 @@ type Complex =
   | never
   | boolean;  // string | number | boolean
 ```
-```
 
 ## File: 522.txt
 
 # #522 「string | never = string」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8729,13 +8004,10 @@ type ReturnTypeFilter<T> =
 type A = ReturnTypeFilter<() => string>;  // string
 type B = ReturnTypeFilter<() => void>;    // never
 ```
-```
 
 ## File: 523.txt
 
 # #523 「Intersection型」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8766,13 +8038,10 @@ type Admin = User & { role: 'admin' };
 type InvalidRole = User & { role: 'guest' };
 // = never（存在しない組み合わせ）
 ```
-```
 
 ## File: 524.txt
 
 # #524 「string & never = never」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8805,13 +8074,10 @@ type Result = Extract<string | number, number>;
 type Keys = Extract<'a' | 'b' | 'c', 'a' | 'b'>;
 // = 'a' | 'b'
 ```
-```
 
 ## File: 525.txt
 
 # #525 「分配法則」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8844,13 +8110,10 @@ type Result1 = NoDistribute<string | number>;
 type Result2 = ToArray<string | number>;
 // = string[] | number[]（分配される）
 ```
-```
 
 ## File: 526.txt
 
 # #526 「条件付き型」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8885,13 +8148,10 @@ type Methods = FunctionKeys<{
   age: number;
 }>;  // = 'getName'
 ```
-```
 
 ## File: 527.txt
 
 # #527 「フィルタリング」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8923,13 +8183,10 @@ type NonNullable<T> = T extends null | undefined ? never : T;
 type Clean = NonNullable<string | null | number | undefined>;
 // = string | number
 ```
-```
 
 ## File: 528.txt
 
 # #528 「Exclude<T, never>」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -8959,13 +8216,10 @@ type RemoveNever<T> = T extends never ? never : T;
 type Original = string | number | never;  // string | number
 type Filtered = RemoveNever<Original>;    // string | number
 ```
-```
 
 ## File: 529.txt
 
 # #529 「Mapped Types」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9006,13 +8260,10 @@ type Clean = OmitMethods<{
 }>;
 // = { name: string }
 ```
-```
 
 ## File: 530.txt
 
 # #530 「Key Remapping」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9054,13 +8305,10 @@ type Clean = RemovePrefix<{
 }, '_'>;
 // = { name: string }
 ```
-```
 
 ## File: 531.txt
 
 # #531 「型レベルプログラミング」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9096,13 +8344,10 @@ type FilterNever<T extends any[]> =
 type Clean = FilterNever<[string, never, number, never]>;
 // = [string, number]
 ```
-```
 
 ## File: 532.txt
 
 # #532 「型演算パターン」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9137,13 +8382,10 @@ type A = Match<'hello'>;  // 'String'
 type B = Match<42>;       // 'Number'
 type C = Match<object>;   // 'Unknown'
 ```
-```
 
 ## File: 533.txt
 
 # #533 「型変換」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9182,13 +8424,10 @@ type Clean = DeepOmit<{
 }, '_id'>;
 // = { user: { name: string } }
 ```
-```
 
 ## File: 534.txt
 
 # #534 「型推論の関係」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9227,13 +8466,10 @@ type InferReturnType<T> =
 type A = InferReturnType<() => string>;  // string
 type B = InferReturnType<string>;        // never
 ```
-```
 
 ## File: 535.txt
 
 # #535 「型演算まとめ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9268,13 +8504,10 @@ type Result<T, E> =
   | { ok: true; value: T }
   | { ok: false; error: E };
 ```
-```
 
 ## File: 536.txt
 
 # #536 「Angularガード」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9316,13 +8549,10 @@ function checkAccess(role: string): RedirectResult {
   return { allow: false, redirect: '/forbidden' };
 }
 ```
-```
 
 ## File: 537.txt
 
 # #537 「ルートガード」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9369,13 +8599,10 @@ export const authGuard: CanActivateFn = (route, state) => {
   return false;
 };
 ```
-```
 
 ## File: 538.txt
 
 # #538 「Nest.js例外フィルタ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9425,13 +8652,10 @@ function handleException(ex: DomainException): HttpException {
   throw new InternalServerErrorException();
 }
 ```
-```
 
 ## File: 539.txt
 
 # #539 「ミドルウェア」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9478,13 +8702,10 @@ function logRequest(level: LogLevel, message: string) {
   const check: never = level;
 }
 ```
-```
 
 ## File: 540.txt
 
 # #540 「API設計」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9534,13 +8755,10 @@ function executeGql(op: GqlOperation): Promise<any> {
   const check: never = op;
 }
 ```
-```
 
 ## File: 541.txt
 
 # #541 「型安全なエラーハンドリング」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9592,13 +8810,10 @@ function handleError(error: AppError): string {
   return 'Unknown error';
 }
 ```
-```
 
 ## File: 542.txt
 
 # #542 「DTOバリデーション」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9650,13 +8865,10 @@ function applyRule(rule: ValidationRule, value: any): boolean {
   return false;
 }
 ```
-```
 
 ## File: 543.txt
 
 # #543 「レスポンス型」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9710,13 +8922,10 @@ function handle<T>(res: HttpResponse<T>): T | null {
   const check: never = res;
 }
 ```
-```
 
 ## File: 544.txt
 
 # #544 「実践パターン」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9763,13 +8972,10 @@ async function executeService<T>(result: ServiceResult<T>): Promise<T> {
   const check: never = result;
 }
 ```
-```
 
 ## File: 545.txt
 
 # #545 「ベストプラクティス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9819,13 +9025,10 @@ export class UserController {
   }
 }
 ```
-```
 
 ## File: 546.txt
 
 # #546 「間違い(1) - void混同」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9864,13 +9067,10 @@ const b: never = throwError('Error');    // 実行されない（例外が発生
 const c: void = undefined;  // OK
 const d: never = undefined; // エラー！
 ```
-```
 
 ## File: 547.txt
 
 # #547 「間違い(2) - 到達可能コード」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9913,13 +9113,10 @@ function process(v: Value): string {
   return '';
 }
 ```
-```
 
 ## File: 548.txt
 
 # #548 「デバッグ」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -9959,13 +9156,10 @@ function process(action: Action): string {
   return debugNever(action, 'process');  // ランタイムでデバッグ情報を出力
 }
 ```
-```
 
 ## File: 549.txt
 
 # #549 「ベストプラクティス」
-
-```
 
 ## 📺 画面表示用コード
 
@@ -10010,13 +9204,10 @@ function handleEvent(event: DomainEvent): void {
   }
 }
 ```
-```
 
 ## File: 550.txt
 
 # #550 「マスターチェック」
-
-```
 
 ## 📺 画面表示用コード
 
