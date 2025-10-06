@@ -19,13 +19,9 @@ let userName: string = "ずんだもん";
 let greeting: string = `こんにちは、${userName}さん！`;
 ```
 
-```
-
 ## File: 002.txt
 
 # #002 「string型の宣言 - let name: string」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -46,13 +42,9 @@ let userEmail: string = "bob@example.com";
 let fullName: string = userName + " Smith";
 ```
 
-```
-
 ## File: 003.txt
 
 # #003 「string型への代入 - name = "Hello"」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -74,13 +66,9 @@ message = "Hello";
 message = "Goodbye";
 ```
 
-```
-
 ## File: 004.txt
 
 # #004 「string型の初期化 - let name: string = "Alice"」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -101,13 +89,9 @@ let status: string = "active";
 let displayText: string = status === "active" ? "アクティブ" : "非アクティブ";
 ```
 
-```
-
 ## File: 005.txt
 
 # #005 「型推論でstring型 - let name = "Bob"」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -129,13 +113,9 @@ let userName = "ずんだもん";
 let greeting = `こんにちは、${userName}さん！`;
 ```
 
-```
-
 ## File: 006.txt
 
 # #006 「constでstring型 - const name = "Charlie"」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -157,13 +137,9 @@ const ERROR_MESSAGE = "エラーが発生しました";
 const SUCCESS_MESSAGE = "処理が完了しました";
 ```
 
-```
-
 ## File: 007.txt
 
 # #007 「string型とリテラル型の違い - "hello" vs string」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -183,13 +159,9 @@ let language: "ja" | "en" = "ja";
 let userRole: "admin" | "user" | "guest" = "user";
 ```
 
-```
-
 ## File: 008.txt
 
 # #008 「string型の変数宣言 - varは使わない理由」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -210,13 +182,9 @@ let userName: string = "初期値";
 const API_ENDPOINT: string = "https://api.example.com";
 ```
 
-```
-
 ## File: 009.txt
 
 # #009 「string型とundefined - 初期化前のアクセス」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -240,13 +208,9 @@ let componentTitle: string = "";
 let apiResponse: string | undefined;
 ```
 
-```
-
 ## File: 010.txt
 
 # #010 「string型のスコープ - ブロックスコープ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -273,13 +237,9 @@ function processData() {
 }
 ```
 
-```
-
 ## File: 011.txt
 
 # #011 「ダブルクォート文字列 - "hello"」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3269,8 +3229,6 @@ if (Number.isNaN(userInput)) {
 
 # #130 「isFinite()関数」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -3296,8 +3254,6 @@ if (isFinite(userInput)) {
 ## File: 131.txt
 
 # #131 「Number.isFinite()」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3325,8 +3281,6 @@ if (Number.isFinite(userInput)) {
 
 # #132 「Number.isInteger()」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -3353,8 +3307,6 @@ if (Number.isInteger(userAge)) {
 
 # #133 「Number.isSafeInteger()」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -3378,8 +3330,6 @@ if (Number.isSafeInteger(userId)) {
 ## File: 134.txt
 
 # #134 「特殊な数値のベストプラクティス」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3411,8 +3361,6 @@ if (Number.isSafeInteger(largeNumber)) {
 
 # #135 「特殊な数値まとめ」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -3440,8 +3388,6 @@ if (Number.isFinite(userInput) && Number.isSafeInteger(userInput)) {
 
 # #136 「加算演算子 - a + b」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -3463,8 +3409,6 @@ let futureAge: number = userAge + yearsToAdd; // 30
 ## File: 137.txt
 
 # #137 「加算の型推論」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3489,8 +3433,6 @@ let futureAge = userAge + yearsToAdd; // number型
 
 # #138 「減算演算子」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -3512,8 +3454,6 @@ let age: number = currentYear - birthYear; // 34
 ## File: 139.txt
 
 # #139 「減算の型推論」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3538,8 +3478,6 @@ let age = currentYear - birthYear; // number型
 
 # #140 「乗算演算子」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -3558,13 +3496,9 @@ let amount: number = 5000;
 let tax: number = amount * rate; // 500
 ```
 
-```
-
 ## File: 141.txt
 
 # #141 「乗算の型推論」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3585,13 +3519,9 @@ let amount = 5000;
 let tax = amount * rate; // number型
 ```
 
-```
-
 ## File: 142.txt
 
 # #142 「除算演算子」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3611,13 +3541,9 @@ let discountRate: number = 0.2;
 let discountAmount: number = price * discountRate; // 200
 ```
 
-```
-
 ## File: 143.txt
 
 # #143 「除算の型推論」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3638,13 +3564,9 @@ let discountRate = 0.2;
 let discountAmount = price * discountRate; // number型
 ```
 
-```
-
 ## File: 144.txt
 
 # #144 「剰余演算子」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3663,13 +3585,9 @@ let minutes: number = Math.floor(seconds / 60);
 let remainingSeconds: number = seconds % 60; // 5
 ```
 
-```
-
 ## File: 145.txt
 
 # #145 「剰余の型推論」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3689,13 +3607,9 @@ let minutes = Math.floor(seconds / 60);
 let remainingSeconds = seconds % 60; // number型
 ```
 
-```
-
 ## File: 146.txt
 
 # #146 「べき乗演算子 - a ** b」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3714,13 +3628,9 @@ let years: number = 3;
 let finalAmount: number = 1000 * (rate ** years); // 複利計算
 ```
 
-```
-
 ## File: 147.txt
 
 # #147 「べき乗の型推論」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3740,13 +3650,9 @@ let years = 3;
 let finalAmount = 1000 * (rate ** years); // number型
 ```
 
-```
-
 ## File: 148.txt
 
 # #148 「インクリメント - ++i」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3769,13 +3675,9 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-```
-
 ## File: 149.txt
 
 # #149 「デクリメント - --i」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3798,13 +3700,9 @@ for (let i = 5; i > 0; i--) {
 }
 ```
 
-```
-
 ## File: 150.txt
 
 # #150 「単項プラス - +x」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3824,13 +3722,9 @@ let numericValue: number = +userInput; // 42
 let absoluteValue: number = +Math.abs(-10); // 10
 ```
 
-```
-
 ## File: 151.txt
 
 # #151 「単項マイナス - -x」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3850,13 +3744,9 @@ let temperature: number = 25;
 let negativeTemp: number = -temperature; // -25
 ```
 
-```
-
 ## File: 152.txt
 
 # #152 「複合代入演算子」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3877,13 +3767,9 @@ total += 200; // 300
 total += 50;  // 350
 ```
 
-```
-
 ## File: 153.txt
 
 # #153 「ビット演算子」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3903,13 +3789,9 @@ let flag2: number = 0b0010;
 let combined: number = flag1 | flag2; // 0b0011
 ```
 
-```
-
 ## File: 154.txt
 
 # #154 「シフト演算子」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3927,13 +3809,9 @@ let doubled: number = number << 1;    // 8 (2倍)
 let halved: number = number >> 1;     // 2 (1/2倍)
 ```
 
-```
-
 ## File: 155.txt
 
 # #155 「数値演算まとめ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3962,13 +3840,9 @@ let value: number = 10;
 value += 5; // 15
 ```
 
-```
-
 ## File: 156.txt
 
 # #156 「Numberとnumberの違い」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3989,13 +3863,10 @@ let userAge: number = 25;
 let productPrice: number = 1500;
 let totalPrice: number = userAge + productPrice;
 ```
-```
 
 ## File: 157.txt
 
 # #157 「number型の宣言」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4015,13 +3886,10 @@ let userAge: number = 25;
 let productPrice: number = 1500;
 let itemCount: number = 10;
 ```
-```
 
 ## File: 158.txt
 
 # #158 「Number型の宣言」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4043,13 +3911,10 @@ let userAge: number = 25;
 let productPrice: number = 1500;
 let totalPrice: number = userAge + productPrice;
 ```
-```
 
 ## File: 159.txt
 
 # #159 「Numberコンストラクタ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4073,13 +3938,10 @@ console.log(num1 === num2); // true
 // let obj2 = new Number(30);
 // console.log(obj1 === obj2); // false
 ```
-```
 
 ## File: 160.txt
 
 # #160 「Numberオブジェクトの問題」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4106,13 +3968,10 @@ let userAge: number = 25;
 let productPrice: number = 1500;
 console.log(userAge === 25); // true
 ```
-```
 
 ## File: 161.txt
 
 # #161 「Numberからnumberへ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4139,13 +3998,10 @@ let userData = {
 let userAge: number = Number(userData.age);
 let productPrice: number = Number(userData.price);
 ```
-```
 
 ## File: 162.txt
 
 # #162 「自動ボックス化」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4165,13 +4021,10 @@ let userAge: number = 25;
 let ageStr: string = userAge.toString();
 let ageFixed: string = userAge.toFixed(0);
 ```
-```
 
 ## File: 163.txt
 
 # #163 「==と===での比較」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4199,13 +4052,10 @@ if (userAge === expectedAge) {
   console.log("年齢が一致します");
 }
 ```
-```
 
 ## File: 164.txt
 
 # #164 「なぜnumberを使うべきか」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4231,13 +4081,10 @@ let num1: number = 30;
 let num2: number = 30;
 console.log(num1 === num2); // 常にtrue
 ```
-```
 
 ## File: 165.txt
 
 # #165 「Number型使用禁止」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4263,13 +4110,10 @@ let componentProps = {
 };
 let userAge: number = componentProps.age;
 ```
-```
 
 ## File: 166.txt
 
 # #166 「Number()関数」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4291,13 +4135,10 @@ let userAge: number = Number(userInput);
 let isActive: boolean = true;
 let activeValue: number = Number(isActive); // 1
 ```
-```
 
 ## File: 167.txt
 
 # #167 「parseInt()関数」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4319,13 +4160,10 @@ let userAge: number = parseInt(userInput);
 let priceStr: string = "1500円";
 let price: number = parseInt(priceStr); // 1500
 ```
-```
 
 ## File: 168.txt
 
 # #168 「parseFloat()関数」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4347,13 +4185,10 @@ let userAge: number = parseFloat(userInput);
 let priceStr: string = "1500.99円";
 let price: number = parseFloat(priceStr); // 1500.99
 ```
-```
 
 ## File: 169.txt
 
 # #169 「暗黙的な型変換」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4375,13 +4210,10 @@ let price: number = 1000;
 let discount: string = "100";
 let finalPrice: number = price - discount; // 900
 ```
-```
 
 ## File: 170.txt
 
 # #170 「明示的な型変換」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4402,13 +4234,10 @@ let userAge: number = Number(userInput); // 明示的に変換
 let isActive: boolean = true;
 let activeValue: number = Number(isActive); // 明示的に変換
 ```
-```
 
 ## File: 171.txt
 
 # #171 「変換失敗時 - NaN」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4432,13 +4261,10 @@ if (Number.isNaN(userAge)) {
   console.log("有効な数値です");
 }
 ```
-```
 
 ## File: 172.txt
 
 # #172 「エラーハンドリング」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4467,13 +4293,10 @@ if (userAge === null) {
   console.log(`年齢: ${userAge}`);
 }
 ```
-```
 
 ## File: 173.txt
 
 # #173 「数値バリデーション」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4499,13 +4322,10 @@ if (validateInteger(productPrice)) {
   console.log("有効な整数価格です");
 }
 ```
-```
 
 ## File: 174.txt
 
 # #174 「型安全な変換」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4536,13 +4356,10 @@ if (userAge !== null) {
   console.log(`年齢: ${userAge}`);
 }
 ```
-```
 
 ## File: 175.txt
 
 # #175 「数値変換まとめ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4566,13 +4383,10 @@ if (Number.isNaN(converted)) {
   console.log("変換に失敗しました");
 }
 ```
-```
 
 ## File: 176.txt
 
 # #176 「IEEE 754とは」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4592,13 +4406,10 @@ let notANumber: number = NaN;
 console.log(Number.isFinite(infinity)); // false
 console.log(Number.isNaN(notANumber)); // true
 ```
-```
 
 ## File: 177.txt
 
 # #177 「精度問題 - 0.1 + 0.2」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4619,13 +4430,10 @@ let total: number = price1 + price2;
 console.log(total); // 0.30000000000000004
 console.log(total === 0.3); // false
 ```
-```
 
 ## File: 178.txt
 
 # #178 「丸め誤差」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4645,13 +4453,10 @@ let total: number = userAge + productPrice;
 console.log(total); // 1526.4899999999998
 console.log(total.toFixed(2)); // "1526.49"
 ```
-```
 
 ## File: 179.txt
 
 # #179 「回避方法(1) - 整数演算」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4675,13 +4480,10 @@ let yen1: number = 100.50;
 let yen2: number = 200.25;
 let totalYen: number = addDecimals(yen1, yen2);
 ```
-```
 
 ## File: 180.txt
 
 # #180 「回避方法(2) - ライブラリ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4703,13 +4505,10 @@ let totalYen: number = addDecimals(yen1, yen2);
 
 // console.log(total.toString()); // "300.75"
 ```
-```
 
 ## File: 181.txt
 
 # #181 「toFixed()メソッド」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4728,13 +4527,10 @@ let displayPrice: string = price.toFixed(2); // "1500.99"
 let userAge: number = 25.5;
 let displayAge: string = userAge.toFixed(0); // "26"
 ```
-```
 
 ## File: 182.txt
 
 # #182 「toPrecision()メソッド」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4751,13 +4547,10 @@ let largeNumber: number = 123456.789;
 let display1: string = largeNumber.toPrecision(4); // "1.235e+5"
 let display2: string = largeNumber.toPrecision(8); // "123456.79"
 ```
-```
 
 ## File: 183.txt
 
 # #183 「イプシロン比較」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4779,13 +4572,10 @@ let price1: number = 100.50;
 let price2: number = 100.50;
 console.log(epsilonEqual(price1, price2)); // true
 ```
-```
 
 ## File: 184.txt
 
 # #184 「Math.absを使った比較」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4807,13 +4597,10 @@ let price1: number = 100.50;
 let price2: number = 100.50;
 console.log(isEqual(price1, price2)); // true
 ```
-```
 
 ## File: 185.txt
 
 # #185 「金銭計算の注意点」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4837,13 +4624,10 @@ let total: number = calculatePrice(productPrice, tax);
 console.log(total); // 108.75
 console.log(total.toFixed(2)); // "108.75"
 ```
-```
 
 ## File: 186.txt
 
 # #186 「BigIntの紹介」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4863,13 +4647,10 @@ let userId: bigint = BigInt("9876543210987654321");
 console.log(largeId.toString());
 console.log(userId.toString());
 ```
-```
 
 ## File: 187.txt
 
 # #187 「BigIntとnumberの違い」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4890,13 +4671,10 @@ console.log(typeof bigIntValue); // "bigint"
 let userId: bigint = 1234567890123456789n;
 let userAge: number = 25;
 ```
-```
 
 ## File: 188.txt
 
 # #188 「BigIntの使用例」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4917,13 +4695,10 @@ function generateId(): bigint {
 let newUserId: bigint = generateId();
 console.log(newUserId.toString());
 ```
-```
 
 ## File: 189.txt
 
 # #189 「浮動小数点のベストプラクティス」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4949,13 +4724,10 @@ let displayPrice: string = price.toFixed(2);
 let total: number = addDecimals(0.1, 0.2);
 console.log(isEqual(total, 0.3)); // true
 ```
-```
 
 ## File: 190.txt
 
 # #190 「数値計算まとめ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -4980,13 +4752,10 @@ function isEqual(a: number, b: number): boolean {
 // 4. BigIntの活用
 let largeId: bigint = 1234567890123456789n;
 ```
-```
 
 ## File: 191.txt
 
 # #191 「Angularフォームでのnumber型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5010,13 +4779,10 @@ let productForm = new FormGroup({
   quantity: new FormControl<number>(1)
 });
 ```
-```
 
 ## File: 192.txt
 
 # #192 「数値バリデーション」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5048,13 +4814,10 @@ let productForm = new FormGroup({
   ])
 });
 ```
-```
 
 ## File: 193.txt
 
 # #193 「Nest.jsのDTOとnumber型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5087,13 +4850,10 @@ export class UpdateUserDto {
   age: number;
 }
 ```
-```
 
 ## File: 194.txt
 
 # #194 「@IsNumber()デコレータ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5126,13 +4886,10 @@ export class UserDto {
   bonus?: number;
 }
 ```
-```
 
 ## File: 195.txt
 
 # #195 「数値範囲のバリデーション」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5168,13 +4925,10 @@ export class UserDto {
   salary: number;
 }
 ```
-```
 
 ## File: 196.txt
 
 # #196 「間違い(1) - 浮動小数点比較」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5198,13 +4952,10 @@ let price1: number = 100.50;
 let price2: number = 100.50;
 console.log(isEqual(price1, price2)); // true
 ```
-```
 
 ## File: 197.txt
 
 # #197 「間違い(2) - NaNチェック」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5230,13 +4981,10 @@ let userInput: unknown = "abc";
 let converted: number = Number(userInput);
 console.log(validateNumber(converted)); // false
 ```
-```
 
 ## File: 198.txt
 
 # #198 「間違い(3) - 文字列との混同」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5259,13 +5007,10 @@ let price: number = 1500;
 let totalPrice: number = Number(priceStr) + price;
 console.log(totalPrice); // 3000
 ```
-```
 
 ## File: 199.txt
 
 # #199 「ベストプラクティス」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5292,13 +5037,10 @@ function isEqual(a: number, b: number): boolean {
   return Math.abs(a - b) < 1e-10;
 }
 ```
-```
 
 ## File: 200.txt
 
 # #200 「マスターチェック」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5328,13 +5070,10 @@ let userAge: number = 25;
 let productPrice: number = 1500;
 let total: number = userAge + productPrice;
 ```
-```
 
 ## File: 201.txt
 
 # #201 「boolean型とは」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5354,13 +5093,10 @@ if (isActive) {
   console.log("アクティブです");
 }
 ```
-```
 
 ## File: 202.txt
 
 # #202 「boolean型の宣言」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5380,13 +5116,10 @@ let userLoggedIn: boolean = true;
 let formValid: boolean = false;
 let dataLoaded: boolean = true;
 ```
-```
 
 ## File: 203.txt
 
 # #203 「trueの代入」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5406,13 +5139,10 @@ if (isActive) {
   console.log("アクティブです");
 }
 ```
-```
 
 ## File: 204.txt
 
 # #204 「falseの代入」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5432,13 +5162,10 @@ if (!isActive) {
   console.log("非アクティブです");
 }
 ```
-```
 
 ## File: 205.txt
 
 # #205 「型推論でboolean型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5456,13 +5183,10 @@ let dataLoaded = true;      // boolean型と推論
 // 型注釈なしでも型安全
 // isActive = "true"; // エラー: Type 'string' is not assignable to type 'boolean'
 ```
-```
 
 ## File: 206.txt
 
 # #206 「constでboolean型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5480,13 +5204,10 @@ const dataLoaded = true;      // boolean型と推論、変更不可
 // 変更不可
 // isActive = false; // エラー: Cannot assign to 'isActive' because it is a constant
 ```
-```
 
 ## File: 207.txt
 
 # #207 「if文での使用」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5510,13 +5231,10 @@ if (userLoggedIn) {
   console.log("ユーザーがログインしています");
 }
 ```
-```
 
 ## File: 208.txt
 
 # #208 「while文での使用」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5538,13 +5256,10 @@ while (dataLoading) {
   dataLoading = false; // ループを終了
 }
 ```
-```
 
 ## File: 209.txt
 
 # #209 「三項演算子」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5565,13 +5280,10 @@ console.log(status);    // "アクティブ"
 console.log(message);   // "未完了"
 console.log(displayText); // "ログイン中"
 ```
-```
 
 ## File: 210.txt
 
 # #210 「boolean配列」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5592,13 +5304,10 @@ let formValidations: boolean[] = [true, true, false];
 console.log(userPermissions[0]); // true
 console.log(formValidations[2]); // false
 ```
-```
 
 ## File: 211.txt
 
 # #211 「booleanリテラル型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5615,13 +5324,10 @@ let formValid: false = false;     // falseのみ許可
 // isActive = false; // エラー: Type 'false' is not assignable to type 'true'
 // isCompleted = true; // エラー: Type 'true' is not assignable to type 'false'
 ```
-```
 
 ## File: 212.txt
 
 # #212 「デフォルト値」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5641,13 +5347,10 @@ if (isActive) {
   console.log("アクティブです");
 }
 ```
-```
 
 ## File: 213.txt
 
 # #213 「初期化のベストプラクティス」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5667,13 +5370,10 @@ const hasPermission = true;     // 変更不可の定数
 let userLoggedIn = false;       // 型推論でboolean型
 const isProduction = true;      // 変更不可の定数
 ```
-```
 
 ## File: 214.txt
 
 # #214 「boolean型の用途」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5698,13 +5398,10 @@ let formValid: boolean = false;
 let isEmailValid: boolean = true;
 let isPasswordValid: boolean = false;
 ```
-```
 
 ## File: 215.txt
 
 # #215 「基本まとめ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5730,13 +5427,10 @@ let flags: boolean[] = [true, false, true];
 // 5. 実用的な例
 let userPermissions: boolean[] = [true, false, true];
 ```
-```
 
 ## File: 216.txt
 
 # #216 「trueリテラル型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5754,13 +5448,10 @@ let dataLoaded: true = true;      // trueのみ許可
 // 型の制限
 // isActive = false; // エラー: Type 'false' is not assignable to type 'true'
 ```
-```
 
 ## File: 217.txt
 
 # #217 「trueリテラル型の宣言」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5779,13 +5470,10 @@ hasPermission = true;      // OK
 let userLoggedIn: true = true;    // 宣言時に初期化
 let formValid: true = true;       // 宣言時に初期化
 ```
-```
 
 ## File: 218.txt
 
 # #218 「trueリテラル型の使用例」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5809,13 +5497,10 @@ if (isProduction) {
   console.log("本番環境です");
 }
 ```
-```
 
 ## File: 219.txt
 
 # #219 「falseリテラル型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5833,13 +5518,10 @@ let dataNotLoaded: false = false; // falseのみ許可
 // 型の制限
 // isInactive = true; // エラー: Type 'true' is not assignable to type 'false'
 ```
-```
 
 ## File: 220.txt
 
 # #220 「falseリテラル型の宣言」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5858,13 +5540,10 @@ hasNoPermission = false;      // OK
 let userLoggedOut: false = false; // 宣言時に初期化
 let formInvalid: false = false;   // 宣言時に初期化
 ```
-```
 
 ## File: 221.txt
 
 # #221 「falseリテラル型の使用例」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5888,13 +5567,10 @@ if (!isInactive) {
   console.log("アクティブです");
 }
 ```
-```
 
 ## File: 222.txt
 
 # #222 「リテラル型とboolean型の違い」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5917,13 +5593,10 @@ let flag5: false = false;    // OK
 let userLoggedIn: boolean = true;    // 変更可能
 const isProduction: true = true;     // 変更不可、trueのみ
 ```
-```
 
 ## File: 223.txt
 
 # #223 「型推論 - const使用時」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5943,13 +5616,10 @@ const dataLoaded = true;      // trueリテラル型と推論
 // 型の確認
 // isActive = false; // エラー: Cannot assign to 'isActive' because it is a constant
 ```
-```
 
 ## File: 224.txt
 
 # #224 「ユースケース」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -5974,13 +5644,10 @@ const config = {
   enableLogging: false as const
 };
 ```
-```
 
 ## File: 225.txt
 
 # #225 「リテラル型まとめ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6003,13 +5670,10 @@ const config = {
   enableLogging: false as const
 };
 ```
-```
 
 ## File: 226.txt
 
 # #226 「論理積AND - &&」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6033,13 +5697,10 @@ if (isActive && hasPermission) {
   console.log("アクセス可能です");
 }
 ```
-```
 
 ## File: 227.txt
 
 # #227 「ANDの型推論」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6059,13 +5720,10 @@ let userLoggedIn: boolean = true;
 let userData: string = "user123";
 let displayData = userLoggedIn && userData; // string型
 ```
-```
 
 ## File: 228.txt
 
 # #228 「ANDの短絡評価」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6085,13 +5743,10 @@ let userData: string = "user123";
 // 短絡評価を活用
 let displayData = userLoggedIn && userData; // false（userDataは評価されない）
 ```
-```
 
 ## File: 229.txt
 
 # #229 「ANDと型の関係」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6112,13 +5767,10 @@ let userLoggedIn: boolean = true;
 let userData: string = "user123";
 let displayData: string = userLoggedIn && userData; // string型
 ```
-```
 
 ## File: 230.txt
 
 # #230 「論理和OR - ||」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6142,13 +5794,10 @@ if (isActive || hasPermission) {
   console.log("アクセス可能です");
 }
 ```
-```
 
 ## File: 231.txt
 
 # #231 「ORの型推論」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6169,13 +5818,10 @@ let userLoggedIn: boolean = true;
 let userData: string = "user123";
 let displayData = userLoggedIn || userData; // boolean型
 ```
-```
 
 ## File: 232.txt
 
 # #232 「ORの短絡評価」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6195,13 +5841,10 @@ let defaultUser: string = "Guest";
 // 短絡評価を活用
 let displayUser = userLoggedIn || defaultUser; // true（defaultUserは評価されない）
 ```
-```
 
 ## File: 233.txt
 
 # #233 「ORとデフォルト値」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6221,13 +5864,10 @@ let userInput: string = "";
 let defaultText: string = "デフォルトテキスト";
 let result: string = userInput || defaultText; // "デフォルトテキスト"
 ```
-```
 
 ## File: 234.txt
 
 # #234 「論理否定NOT - !」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6248,13 +5888,10 @@ let formValid: boolean = false;
 let userLoggedOut: boolean = !userLoggedIn; // false
 let formInvalid: boolean = !formValid;      // true
 ```
-```
 
 ## File: 235.txt
 
 # #235 「NOTの型推論」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6276,13 +5913,10 @@ let userLoggedIn: boolean = true;
 let formValid: boolean = false;
 let userLoggedOut: boolean = !userLoggedIn; // boolean型
 ```
-```
 
 ## File: 236.txt
 
 # #236 「二重否定 - !!」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6303,13 +5937,10 @@ let hasValue: boolean = !!nullValue;      // false
 let userInput: string = "test";
 let hasInput: boolean = !!userInput;      // true
 ```
-```
 
 ## File: 237.txt
 
 # #237 「二重否定での型変換」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6334,13 +5965,10 @@ let bool6: boolean = !!undefinedVal;  // false
 let userInput: string = "test";
 let hasInput: boolean = !!userInput;  // true
 ```
-```
 
 ## File: 238.txt
 
 # #238 「論理演算子の優先順位」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6362,13 +5990,10 @@ let hasData: boolean = true;
 // 優先順位を考慮した条件
 let canSubmit = userLoggedIn && formValid || hasData; // (userLoggedIn && formValid) || hasData
 ```
-```
 
 ## File: 239.txt
 
 # #239 「論理演算子の組み合わせ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6390,13 +6015,10 @@ let formValid: boolean = false;
 let hasPermission: boolean = true;
 let canSubmit = userLoggedIn && (formValid || hasPermission); // 複雑な条件
 ```
-```
 
 ## File: 240.txt
 
 # #240 「論理演算まとめ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6423,13 +6045,10 @@ let userLoggedIn: boolean = true;
 let formValid: boolean = false;
 let canSubmit: boolean = userLoggedIn && formValid; // false
 ```
-```
 
 ## File: 241.txt
 
 # #241 「等価演算子 - ==と===」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6454,8 +6073,6 @@ if (value === 42) {  // 型安全
 ## File: 242.txt
 
 # #242 「==の型強制」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6482,8 +6099,6 @@ console.log('0' == false); // true
 
 # #243 「===の厳密比較」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -6508,8 +6123,6 @@ function isEqual<T>(a: T, b: T): boolean {
 ## File: 244.txt
 
 # #244 「===を使うべき理由」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6539,8 +6152,6 @@ function compareValues<T>(a: T, b: T): boolean {
 
 # #245 「不等価演算子 - !=と!==」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -6565,8 +6176,6 @@ function isNotEqual(a: number, b: number): boolean {
 ## File: 246.txt
 
 # #246 「大なり演算子 - >」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6594,8 +6203,6 @@ if (age > 18) {
 
 # #247 「大なり演算子の型」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -6620,8 +6227,6 @@ console.log(date1 > date2); // true
 ## File: 248.txt
 
 # #248 「小なり演算子 - <」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6649,8 +6254,6 @@ if (score < 80) {
 
 # #249 「以上演算子 - >=」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -6676,8 +6279,6 @@ if (age >= 18) {
 ## File: 250.txt
 
 # #250 「以下演算子 - <=」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6705,8 +6306,6 @@ if (score <= 100) {
 
 # #251 「文字列の比較」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -6733,8 +6332,6 @@ function compareStrings(a: string, b: string): number {
 
 # #252 「数値の比較」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -6759,8 +6356,6 @@ console.log(isClose(0.1 + 0.2, 0.3)); // true
 
 # #253 「booleanの比較」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -6784,8 +6379,6 @@ function isSameBoolean(a: boolean, b: boolean): boolean {
 ## File: 254.txt
 
 # #254 「null/undefinedの比較」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6814,8 +6407,6 @@ function isUndefined(value: unknown): value is undefined {
 
 # #255 「比較演算まとめ」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -6840,8 +6431,6 @@ if (score >= 60 && score <= 100) { }
 ## File: 256.txt
 
 # #256 「型ガードとは」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6871,8 +6460,6 @@ function isUser(obj: unknown): obj is User {
 
 # #257 「typeof型ガード」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -6901,8 +6488,6 @@ function double(value: unknown): number | undefined {
 
 # #258 「typeof型ガードの戻り値」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -6926,8 +6511,6 @@ function isNull(value: unknown): value is null {
 ## File: 259.txt
 
 # #259 「instanceof型ガード」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6958,8 +6541,6 @@ function processEntity(entity: User | Admin) {
 ## File: 260.txt
 
 # #260 「in型ガード」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -6992,8 +6573,6 @@ function handle(result: Success | Error) {
 
 # #261 「Array.isArray()」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -7018,8 +6597,6 @@ console.log(Array.isArray(null));     // false
 ## File: 262.txt
 
 # #262 「null/undefinedチェック」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7050,8 +6627,6 @@ function handle(value: string | null | undefined) {
 
 # #263 「truthyチェック」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -7075,8 +6650,6 @@ console.log(Boolean(true));     // true
 ## File: 264.txt
 
 # #264 「falsyチェック」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7103,8 +6676,6 @@ console.log(Boolean(NaN));      // false
 
 # #265 「falsyな値一覧」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -7127,8 +6698,6 @@ console.log(Boolean({}));        // true (空オブジェクト)
 
 # #266 「truthyな値」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -7148,8 +6717,6 @@ console.log(Boolean(function(){})); // true
 ## File: 267.txt
 
 # #267 「明示的なboolean変換」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7176,8 +6743,6 @@ const isValid = Boolean(userInput);
 ## File: 268.txt
 
 # #268 「型述語関数 - x is Type」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7206,8 +6771,6 @@ function process(value: unknown) {
 
 # #269 「型ガードのベストプラクティス」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -7235,8 +6798,6 @@ if (value !== null && value !== undefined) {
 
 # #270 「型ガードまとめ」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -7263,8 +6824,6 @@ function isUser(obj: unknown): obj is User {
 ## File: 271.txt
 
 # #271 「Angularテンプレートでのboolean」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7295,8 +6854,6 @@ export class UserComponent {
 
 # #272 「*ngIfディレクティブ」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -7325,8 +6882,6 @@ export class ExampleComponent {
 
 # #273 「[disabled]属性」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -7353,8 +6908,6 @@ export class FormComponent {
 ## File: 274.txt
 
 # #274 「Nest.jsのDTOとboolean」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7387,8 +6940,6 @@ export class UsersController {
 
 # #275 「@IsBoolean()デコレータ」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -7415,8 +6966,6 @@ const invalid = { emailNotification: 'true' }; // エラー
 ## File: 276.txt
 
 # #276 「間違い(1) - ==使用」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7445,8 +6994,6 @@ if (value === null) {  // nullのみ
 ## File: 277.txt
 
 # #277 「間違い(2) - truthyとの混同」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7477,8 +7024,6 @@ if (count != null) {
 
 # #278 「間違い(3) - 文字列"true"」台本
 
-```
-
 ## 📺 画面表示用コード
 
 ```typescript
@@ -7504,8 +7049,6 @@ if (boolValue === true) {  // 正しく動作
 ## File: 279.txt
 
 # #279 「ベストプラクティス」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -7534,8 +7077,6 @@ const isActive: boolean = true;
 ## File: 280.txt
 
 # #280 「マスターチェック」台本
-
-```
 
 ## 📺 画面表示用コード
 
