@@ -1,0 +1,9 @@
+# #257 「Stateful vs Stateless Component」台本
+
+ずんだもん「Stateful と Stateless の違いって何?」
+四国めたん「Statefulは内部状態を持ち、Statelessは状態を持たないコンポーネントです」
+ずんだもん「どう使い分けるの?」
+四国めたん「データ管理が必要ならStateful、純粋な表示だけならStatelessを選びます」
+ずんだもん「それぞれのメリットは?」
+四国めたん「Statefulは柔軟性があり、Statelessはテストが容易で予測可能です」
+ずんだもん「状態の有無で設計が変わるんだね!」
