@@ -1,0 +1,49 @@
+# #492「while(true)」
+
+四国めたん「while(true)パターンについて学びましょう！」
+ずんだもん「while(true)ってどう使うの？」
+四国めたん「無限ループの基本パターンです。条件が常に真なので終了しませんね」
+ずんだもん「本当に終わらないの？」
+四国めたん「はい、break や return がない限り終了しません。never 型になりますね」
+ずんだもん「なるほど！永久に回るんだね！」
+四国めたん「実際にはイベント待機やポーリングで使います。TypeScript v5.9でも認識されますね」
+ずんだもん「システムプログラミングで使うんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// while(true)の基本
+function loop(): never {
+  while (true) {
+    doWork();
+  }
+}
+```
+
+```typescript
+// ポーリングループ
+function poll(): never {
+  while (true) {
+    const data = fetchData();
+    if (data) {
+      process(data);
+    }
+    sleep(1000);
+  }
+}
+```
+
+```typescript
+// 条件付き処理
+function monitor(): never {
+  while (true) {
+    const status = checkStatus();
+    if (status === "error") {
+      handleError();
+    }
+    await delay(5000);
+  }
+}
+```

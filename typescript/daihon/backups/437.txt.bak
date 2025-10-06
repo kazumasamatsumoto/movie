@@ -1,0 +1,39 @@
+# #437「型推論」
+
+四国めたん「ジェネリクスでのvoid型推論について学びましょう！」
+ずんだもん「voidって自動で推論されるの？」
+四国めたん「はい、戻り値がない関数を渡すと void が推論されます。型引数を省略できますね」
+ずんだもん「どういう時に推論されるの？」
+四国めたん「コールバック関数、Promise、ジェネリック関数などで自動推論が働きます」
+ずんだもん「なるほど！書く必要ないんだね！」
+四国めたん「明示的に書くこともできます。意図を明確にする場合に有効ですね」
+ずんだもん「状況に応じて使い分けるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 型推論でvoid
+function execute<T>(fn: () => T): T {
+  return fn();
+}
+const result = execute(() => {
+  console.log("Done");
+});  // void と推論
+```
+
+```typescript
+// Promiseの型推論
+async function process() {
+  await doSomething();
+  // Promise<void>と推論される
+}
+```
+
+```typescript
+// 明示的な型指定
+const result2 = execute<void>(() => {
+  console.log("Done");
+});
+```

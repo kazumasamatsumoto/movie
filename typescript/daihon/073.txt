@@ -1,4 +1,3 @@
-# #073 「Array<string>記法」台本
 
 四国めたん「TypeScript v5.9のArray<string>記法について学びましょう！」
 ずんだもん「Array<string>記法って何？」
@@ -9,21 +8,3 @@
 四国めたん「はい、どちらの記法でも使用できます」
 ずんだもん「配列記法で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// Array<string>記法
-let names: Array<string> = ["Alice", "Bob", "Charlie"];
-let emails: Array<string> = ["alice@example.com", "bob@example.com"];
-let tags: Array<string> = ["TypeScript", "JavaScript"];
-
-// string[]記法との比較
-let names1: string[] = ["Alice", "Bob"];
-let names2: Array<string> = ["Alice", "Bob"];
-
-// 実用的な例
-let userRoles: Array<string> = ["admin", "user"];
-let productCategories: Array<string> = ["本", "ペン"];
-```

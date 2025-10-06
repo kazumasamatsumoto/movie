@@ -1,0 +1,52 @@
+# #529 「Mapped Types」
+
+四国めたん「Mapped Typesとnever型について学びましょう！」
+ずんだもん「Mapped Typesってどう使うの？」
+四国めたん「オブジェクト型の各プロパティを変換する機能です。[K in keyof T]の形式で使いますね」
+ずんだもん「never型はどう関係するの？」
+四国めたん「プロパティの型をneverにすると、そのキーを除外できます」
+ずんだもん「なるほど！条件付きでプロパティを削除できるんだね！」
+四国めたん「Pick、Omit、Readonlyなどの実装に使われていますね」
+ずんだもん「型レベルでのオブジェクト操作が強力だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Mapped Typesの基本
+type Readonly<T> = {
+  readonly [K in keyof T]: T[K];
+};
+
+type Partial<T> = {
+  [K in keyof T]?: T[K];
+};
+```
+
+```typescript
+// never型での除外
+type RemoveMethods<T> = {
+  [K in keyof T]: T[K] extends Function ? never : T[K]
+};
+
+type Data = RemoveMethods<{
+  name: string;
+  age: number;
+  getName(): string;
+}>;
+// = { name: string; age: number; getName: never }
+```
+
+```typescript
+// Key Remappingでneverキーを削除
+type OmitMethods<T> = {
+  [K in keyof T as T[K] extends Function ? never : K]: T[K]
+};
+
+type Clean = OmitMethods<{
+  name: string;
+  getName(): string;
+}>;
+// = { name: string }
+```

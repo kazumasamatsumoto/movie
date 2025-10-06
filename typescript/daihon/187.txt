@@ -1,4 +1,3 @@
-# #187 「BigIntとnumberの違い」台本
 
 四国めたん「TypeScript v5.9のBigIntとnumberの違いについて学びましょう！」
 ずんだもん「BigIntとnumberの違いって何？」
@@ -9,24 +8,3 @@
 四国めたん「はい、適切な型選択に重要です」
 ずんだもん「型選択で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// BigIntとnumberの違い
-let numberValue: number = 1234567890123456789;
-let bigIntValue: bigint = 1234567890123456789n;
-
-// 精度の違い
-console.log(numberValue); // 1234567890123456800 (精度が失われる)
-console.log(bigIntValue); // 1234567890123456789n (精度が保たれる)
-
-// 型の違い
-console.log(typeof numberValue); // "number"
-console.log(typeof bigIntValue); // "bigint"
-
-// 実用的な例
-let userId: bigint = 1234567890123456789n;
-let userAge: number = 25;
-```

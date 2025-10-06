@@ -1,0 +1,47 @@
+# #195 「数値範囲のバリデーション」台本
+
+四国めたん「TypeScript v5.9の数値範囲のバリデーションについて学びましょう！」
+ずんだもん「数値範囲のバリデーションって何？」
+四国めたん「数値が指定した範囲内かどうかを検証する方法です」
+ずんだもん「どうやって実装するの？」
+四国めたん「@Min()、@Max()、@Range()デコレータを使用します」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、データの整合性に重要です」
+ずんだもん「範囲バリデーションで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 数値範囲のバリデーション
+import { IsNumber, Min, Max, Range } from 'class-validator';
+
+export class ProductDto {
+  @IsNumber()
+  @Min(0)
+  @Max(1000000)
+  price: number;
+
+  @IsNumber()
+  @Min(1)
+  @Max(1000)
+  quantity: number;
+
+  @IsNumber()
+  @Range(0, 100)
+  discount: number;
+}
+
+// 実用的な例
+export class UserDto {
+  @IsNumber()
+  @Min(0)
+  @Max(120)
+  age: number;
+
+  @IsNumber()
+  @Min(0)
+  salary: number;
+}
+```

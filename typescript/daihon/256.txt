@@ -1,4 +1,3 @@
-# #256 「型ガードとは」台本
 
 四国めたん「TypeScript v5.9の型ガードについて学びましょう！」
 ずんだもん「型ガードって何？」
@@ -9,27 +8,3 @@
 四国めたん「コンパイラが型を理解し、型安全なコードが書けます」
 ずんだもん「型の安全性が向上するね！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 型ガードとは
-
-// Union型の例
-function processValue(value: string | number) {
-  if (typeof value === 'string') {
-    // この中ではstring型として扱われる
-    console.log(value.toUpperCase());
-  } else {
-    // この中ではnumber型として扱われる
-    console.log(value.toFixed(2));
-  }
-}
-
-// 型ガードの効果
-type User = { name: string; age: number };
-function isUser(obj: unknown): obj is User {
-  return typeof obj === 'object' && obj !== null && 
-    'name' in obj && 'age' in obj;
-}

@@ -1,4 +1,3 @@
-# #128 「isNaN()関数」台本
 
 四国めたん「TypeScript v5.9のisNaN()関数について学びましょう！」
 ずんだもん「isNaN()関数って何？」
@@ -9,26 +8,3 @@
 四国めたん「はい、数値の検証に活用できます」
 ずんだもん「NaN判定で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// isNaN()関数
-let nan: number = NaN;
-let normalNumber: number = 100;
-let stringValue: string = "abc";
-
-// NaN判定
-let isNan1: boolean = isNaN(nan);        // true
-let isNan2: boolean = isNaN(normalNumber); // false
-let isNan3: boolean = isNaN(stringValue);  // true
-
-// 実用的な例
-let userInput: number = parseInt("123");
-if (isNaN(userInput)) {
-  console.log("無効な数値です");
-} else {
-  console.log("有効な数値です");
-}
-```

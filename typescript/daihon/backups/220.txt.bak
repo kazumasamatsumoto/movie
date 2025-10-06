@@ -1,0 +1,30 @@
+# #220 「falseリテラル型の宣言」台本
+
+四国めたん「TypeScript v5.9のfalseリテラル型の宣言について学びましょう！」
+ずんだもん「falseリテラル型の宣言ってどうするの？」
+四国めたん「let flag: falseのようにfalseを型として指定します」
+ずんだもん「どんな特徴があるの？」
+四国めたん「false値のみ代入可能で、trueは代入できません」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、定数の型安全性に重要です」
+ずんだもん「false宣言で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// falseリテラル型の宣言
+let isInactive: false;        // falseのみ許可
+let isDisabled: false;        // falseのみ許可
+let hasNoPermission: false;   // falseのみ許可
+
+// 後で値を代入
+isInactive = false;           // OK
+isDisabled = false;           // OK
+hasNoPermission = false;      // OK
+
+// 実用的な例
+let userLoggedOut: false = false; // 宣言時に初期化
+let formInvalid: false = false;   // 宣言時に初期化
+```

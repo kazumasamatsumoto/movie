@@ -1,0 +1,34 @@
+# #068 「substring()の型」台本
+
+四国めたん「TypeScript v5.9のsubstring()の型について学びましょう！」
+ずんだもん「substring()の型って何？」
+四国めたん「substring()は常にstring型を返します」
+ずんだもん「どんな文字列が返されるの？」
+四国めたん「指定した範囲の文字列、または空文字列が返されます」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、型安全性を保ちながら文字列処理ができます」
+ずんだもん「型安全性で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// substring()の型
+let message: string = "Hello, World!";
+let result: string = message.substring(0, 5); // string型
+
+// 型推論でもstring型
+let inferred = "TypeScript".substring(0, 4); // string型と推論
+
+// 戻り値の例
+let hello: string = message.substring(0, 5); // "Hello"
+let empty: string = message.substring(10, 5); // ""（空文字列）
+
+// 実用的な例
+let userInput: string = "alice@example.com";
+let username: string = userInput.substring(0, 5); // "alice"
+
+// 型チェック
+console.log(typeof username); // "string"
+```

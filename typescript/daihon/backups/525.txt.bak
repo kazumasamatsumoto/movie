@@ -1,0 +1,44 @@
+# #525 「分配法則」
+
+四国めたん「条件付き型の分配法則について学びましょう！」
+ずんだもん「分配法則ってどういうこと？」
+四国めたん「Union型に対する条件付き型は、各要素に分配されて適用されます」
+ずんだもん「具体的にどうなるの？」
+四国めたん「T extends U ? X : Y で、T がUnion型の場合、各要素ごとに評価されますね」
+ずんだもん「なるほど！自動的に各型を処理してくれるんだね！」
+四国めたん「この性質により、Exclude や Extract などのUtility Typesが実装できますね」
+ずんだもん「型レベルプログラミングの核心的な機能だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 分配法則の基本
+type ToArray<T> = T extends any ? T[] : never;
+
+type Result = ToArray<string | number>;
+// = ToArray<string> | ToArray<number>
+// = string[] | number[]
+```
+
+```typescript
+// Exclude型での分配
+type Exclude<T, U> = T extends U ? never : T;
+
+type Result = Exclude<'a' | 'b' | 'c', 'a'>;
+// = Exclude<'a', 'a'> | Exclude<'b', 'a'> | Exclude<'c', 'a'>
+// = never | 'b' | 'c'
+// = 'b' | 'c'
+```
+
+```typescript
+// 分配を防ぐ方法
+type NoDistribute<T> = [T] extends [any] ? T[] : never;
+
+type Result1 = NoDistribute<string | number>;
+// = (string | number)[]
+
+type Result2 = ToArray<string | number>;
+// = string[] | number[]（分配される）
+```

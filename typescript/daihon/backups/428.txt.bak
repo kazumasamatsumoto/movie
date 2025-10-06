@@ -1,0 +1,45 @@
+# #428「実践例」
+
+四国めたん「Promise<void>の実践例について学びましょう！」
+ずんだもん「実際にどう使うの？」
+四国めたん「API呼び出し、データベース操作、ファイル書き込みなど、副作用のための非同期処理で使います」
+ずんだもん「具体的にどんなコード？」
+四国めたん「Webアプリの初期化、バッチ処理、クリーンアップタスクなどですね」
+ずんだもん「なるほど！実用的なんだね！」
+四国めたん「React、Vue、Node.jsなどで頻繁に使われます。TypeScript v5.9でも標準パターンですね」
+ずんだもん「いろんなフレームワークで使えるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// API呼び出し
+async function updateProfile(profile: Profile): Promise<void> {
+  await fetch("/api/profile", {
+    method: "PUT",
+    body: JSON.stringify(profile)
+  });
+  console.log("Profile updated");
+}
+```
+
+```typescript
+// バッチ処理
+async function processBatch(items: Item[]): Promise<void> {
+  for (const item of items) {
+    await processItem(item);
+  }
+  console.log("Batch complete");
+}
+```
+
+```typescript
+// アプリケーション初期化
+async function initializeApp(): Promise<void> {
+  await loadConfig();
+  await connectDatabase();
+  await startServices();
+  console.log("App initialized");
+}
+```

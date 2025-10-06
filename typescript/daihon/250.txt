@@ -1,4 +1,3 @@
-# #250 「以下演算子 - <=」台本
 
 四国めたん「TypeScript v5.9の以下演算子について学びましょう！」
 ずんだもん「以下演算子ってどう使うの？」
@@ -9,25 +8,3 @@
 四国めたん「はい、最大値の検証などでよく使用されます」
 ずんだもん「範囲チェックに必須だね！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 以下演算子の使用例
-
-// 数値の比較
-console.log(5 <= 10);   // true
-console.log(5 <= 5);    // true
-console.log(10 <= 5);   // false
-
-// 型安全な比較関数
-function isLessOrEqual(a: number, b: number): boolean {
-  return a <= b;
-}
-
-// 最大値チェック
-const score: number = 100;
-if (score <= 100) {
-  console.log('有効なスコアです');
-}

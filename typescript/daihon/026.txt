@@ -1,4 +1,3 @@
-# #026 「オブジェクトプロパティ - ${user.name}」台本
 
 四国めたん「TypeScript v5.9のオブジェクトプロパティ埋め込みについて学びましょう！」
 ずんだもん「オブジェクトプロパティの埋め込みって何？」
@@ -9,31 +8,3 @@
 四国めたん「はい、ユーザー情報やデータオブジェクトの表示に活用できます」
 ずんだもん「オブジェクト埋め込みで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// オブジェクトプロパティ埋め込みの例
-let user = {
-  name: "Alice",
-  age: 30,
-  email: "alice@example.com",
-  isActive: true
-};
-
-// プロパティの埋め込み
-let userInfo: string = `Name: ${user.name}`;
-let userAge: string = `Age: ${user.age}`;
-let userEmail: string = `Email: ${user.email}`;
-let userStatus: string = `Status: ${user.isActive ? "Active" : "Inactive"}`;
-
-// 実用的な例
-let product = {
-  name: "TypeScript学習本",
-  price: 2980,
-  category: "技術書"
-};
-
-let productInfo: string = `${product.name} (${product.category}) - ¥${product.price}`;
-```

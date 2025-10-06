@@ -1,4 +1,3 @@
-# #015 「バックスラッシュのエスケープ - \\」台本
 
 四国めたん「TypeScript v5.9のバックスラッシュエスケープについて学びましょう！」
 ずんだもん「バックスラッシュのエスケープって何？」
@@ -9,22 +8,3 @@
 四国めたん「はい、アセットパスや設定ファイルに活用できます」
 ずんだもん「パス処理で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// バックスラッシュのエスケープ
-let windowsPath: string = "C:\\Users\\Documents\\file.txt";
-let unixPath: string = "/home/user/documents/file.txt";
-let regexPattern: string = "\\d+\\s+\\w+";
-
-// 実用的な例
-let configPath: string = "C:\\Program Files\\MyApp\\config.json";
-let logPath: string = "D:\\Logs\\application.log";
-let assetPath: string = "assets\\images\\logo.png";
-
-// 正規表現での使用
-let phonePattern: string = "\\d{3}-\\d{4}-\\d{4}";
-let emailPattern: string = "\\w+@\\w+\\.\\w+";
-```

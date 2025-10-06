@@ -1,0 +1,50 @@
+# #448「API設計」
+
+四国めたん「void型を使ったAPI設計について学びましょう！」
+ずんだもん「APIでvoid型はどう使うの？」
+四国めたん「レスポンスボディが不要な操作で Promise<void> を使います。RESTfulな設計ですね」
+ずんだもん「どんな操作？」
+四国めたん「DELETE、一部のPOST/PUT、通知送信などです。204 No Contentを返しますね」
+ずんだもん「なるほど！成功だけ知らせるんだね！」
+四国めたん「クライアントは戻り値を期待しません。TypeScript v5.9でも推奨される設計ですね」
+ずんだもん「RESTful APIの基本なんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// DELETE API
+@Controller('posts')
+export class PostsController {
+  @Delete(':id')
+  @HttpCode(204)
+  async delete(@Param('id') id: string): Promise<void> {
+    await this.postsService.delete(id);
+  }
+}
+```
+
+```typescript
+// 通知送信API
+@Controller('notifications')
+export class NotificationsController {
+  @Post('send')
+  @HttpCode(204)
+  async send(@Body() dto: NotificationDto): Promise<void> {
+    await this.notificationService.send(dto);
+  }
+}
+```
+
+```typescript
+// バッチ処理API
+@Controller('batch')
+export class BatchController {
+  @Post('process')
+  @HttpCode(202)
+  async process(@Body() dto: BatchDto): Promise<void> {
+    await this.batchService.enqueue(dto);
+  }
+}
+```

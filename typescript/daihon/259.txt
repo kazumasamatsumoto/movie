@@ -1,4 +1,3 @@
-# #259 「instanceof型ガード」台本
 
 四国めたん「TypeScript v5.9のinstanceof型ガードについて学びましょう！」
 ずんだもん「instanceofって何？」
@@ -9,29 +8,3 @@
 四国めたん「はい、プロトタイプチェーンを利用した判定方法です」
 ずんだもん「クラスの型チェックに最適だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// instanceof型ガード
-
-function processValue(value: Date | string) {
-  if (value instanceof Date) {
-    console.log(value.getFullYear());
-  } else {
-    console.log(value.toUpperCase());
-  }
-}
-
-// 複数のクラス
-class User { name: string = ''; }
-class Admin { role: string = ''; }
-
-function processEntity(entity: User | Admin) {
-  if (entity instanceof Admin) {
-    console.log(entity.role);
-  } else {
-    console.log(entity.name);
-  }
-}

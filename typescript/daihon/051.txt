@@ -1,4 +1,3 @@
-# #051 「toUpperCase() - 大文字化」台本
 
 四国めたん「TypeScript v5.9のtoUpperCase()について学びましょう！」
 ずんだもん「toUpperCase()って何？」
@@ -9,24 +8,3 @@
 四国めたん「はい、データの正規化や表示に活用できます」
 ずんだもん「大文字化で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// toUpperCase()の使用例
-let name: string = "alice";
-let email: string = "alice@example.com";
-let message: string = "hello, world!";
-
-// 大文字化
-let upperName: string = name.toUpperCase(); // "ALICE"
-let upperEmail: string = email.toUpperCase(); // "ALICE@EXAMPLE.COM"
-let upperMessage: string = message.toUpperCase(); // "HELLO, WORLD!"
-
-// 実用的な例
-let userName: string = "bob";
-let userRole: string = "admin";
-let displayName: string = userName.toUpperCase();
-let roleDisplay: string = userRole.toUpperCase();
-```

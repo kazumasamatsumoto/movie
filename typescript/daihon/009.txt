@@ -1,4 +1,3 @@
-# #009 「string型とundefined - 初期化前のアクセス」台本
 
 四国めたん「TypeScript v5.9のstring型とundefinedについて学びましょう！」
 ずんだもん「初期化前のアクセスってどうなるの？」
@@ -8,28 +7,4 @@
 ずんだもん「Angularの開発でも注意が必要？」
 四国めたん「はい、プロパティの初期化で注意が必要です」
 ずんだもん「安全な初期化で最高だよ！」
-
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 初期化前のアクセス
-let name: string;
-// console.log(name); // undefined
-
-// 安全な初期化
-let userName: string = "初期値";
-console.log(userName); // "初期値"
-
-// undefinedチェック
-let optionalName: string | undefined;
-if (optionalName !== undefined) {
-  console.log(optionalName.toUpperCase());
-}
-
-// 実用的な例
-let componentTitle: string = "";
-let apiResponse: string | undefined;
-```
 

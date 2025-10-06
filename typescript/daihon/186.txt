@@ -1,4 +1,3 @@
-# #186 「BigIntの紹介」台本
 
 四国めたん「TypeScript v5.9のBigIntについて学びましょう！」
 ずんだもん「BigIntって何？」
@@ -9,23 +8,3 @@
 四国めたん「はい、大きな数値の計算に重要です」
 ずんだもん「BigIntで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// BigIntの紹介
-let bigInt1: bigint = 123456789012345678901234567890n;
-let bigInt2: bigint = BigInt("123456789012345678901234567890");
-
-// 演算
-let sum: bigint = bigInt1 + bigInt2;
-let product: bigint = bigInt1 * bigInt2;
-
-// 実用的な例
-let largeId: bigint = 1234567890123456789n;
-let userId: bigint = BigInt("9876543210987654321");
-
-console.log(largeId.toString());
-console.log(userId.toString());
-```

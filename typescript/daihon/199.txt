@@ -1,4 +1,3 @@
-# #199 「ベストプラクティス」台本
 
 四国めたん「TypeScript v5.9の数値のベストプラクティスについて学びましょう！」
 ずんだもん「数値のベストプラクティスって何？」
@@ -9,30 +8,3 @@
 四国めたん「はい、安定したアプリケーション開発に重要です」
 ずんだもん「ベストプラクティスで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 数値のベストプラクティス
-
-// 1. 型安全性
-let userAge: number = 25;
-// userAge = "25"; // エラー
-
-// 2. 精度問題の回避
-function addDecimals(a: number, b: number): number {
-  const factor = 100;
-  return (Math.round(a * factor) + Math.round(b * factor)) / factor;
-}
-
-// 3. 適切なバリデーション
-function validateNumber(value: unknown): value is number {
-  return typeof value === "number" && Number.isFinite(value);
-}
-
-// 4. 適切な比較
-function isEqual(a: number, b: number): boolean {
-  return Math.abs(a - b) < 1e-10;
-}
-```

@@ -1,0 +1,52 @@
+# #482「型安全なエラーハンドリング」
+
+四国めたん「型安全なエラーハンドリングについて学びましょう！」
+ずんだもん「never型でエラー処理はどう安全になるの？」
+四国めたん「エラー関数の型を明示することで、到達不可能性が保証されます」
+ずんだもん「具体的には？」
+四国めたん「never型の関数の後のコードは実行されません。型チェックで確認できますね」
+ずんだもん「なるほど！デッドコードを防げるんだね！」
+四国めたん「カスタムエラーと組み合わせると強力です。TypeScript v5.9でも推奨されますね」
+ずんだもん「型で安全性を保証できるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 型安全なエラー処理
+function processData(data: string | null): string {
+  if (data === null) {
+    throwError("Data is null");
+    // この後のコードは実行されない
+  }
+  return data.toUpperCase();  // data: string
+}
+
+function throwError(message: string): never {
+  throw new Error(message);
+}
+```
+
+```typescript
+// カスタムエラーとの組み合わせ
+class InvalidDataError extends Error {
+  constructor(public data: unknown) {
+    super("Invalid data");
+  }
+}
+
+function validateData(data: unknown): never {
+  throw new InvalidDataError(data);
+}
+```
+
+```typescript
+// 型の絞り込み
+function ensure<T>(value: T | null, message: string): T {
+  if (value === null) {
+    throwError(message);
+  }
+  return value;  // T型として返せる
+}
+```

@@ -1,4 +1,3 @@
-# #082 「テンプレートバインディング」台本
 
 四国めたん「TypeScript v5.9のテンプレートバインディングについて学びましょう！」
 ずんだもん「テンプレートバインディングって何？」
@@ -9,27 +8,3 @@
 四国めたん「はい、データの表示の基本となる重要な機能です」
 ずんだもん「バインディングで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// テンプレートバインディング
-import { Component } from '@angular/core';
-
-@Component({
-  selector: 'app-product',
-  template: `
-    <h2>{{productName}}</h2>
-    <p>{{description}}</p>
-    <span>{{price}}</span>
-    <div>{{status}}</div>
-  `
-})
-export class ProductComponent {
-  productName: string = "TypeScript学習本";
-  description: string = "TypeScriptの基礎から応用まで";
-  price: string = "¥2,980";
-  status: string = "在庫あり";
-}
-```

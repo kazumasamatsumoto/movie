@@ -1,0 +1,41 @@
+# #506 「if-else文の網羅性」
+
+四国めたん「TypeScriptのif-else文の網羅性チェックについて学びましょう！」
+ずんだもん「網羅性チェックってどういうこと？」
+四国めたん「Union型のすべてのケースを処理しているか、コンパイラが検証する機能です」
+ずんだもん「具体的にどう書くの？」
+四国めたん「never型を使って、未処理のケースを検出できます。exhaustiveCheckに値が渡せたら漏れがあります」
+ずんだもん「なるほど！コンパイル時にバグを防げるんだね！」
+四国めたん「型安全性が大幅に向上し、リファクタリング時も安心ですね」
+ずんだもん「新しいケース追加時も型エラーで気づけるよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+type Status = 'pending' | 'success' | 'error';
+
+function exhaustiveCheck(value: never): never {
+  throw new Error(`Unhandled: ${value}`);
+}
+```
+
+```typescript
+function handleStatus(status: Status): string {
+  if (status === 'pending') return '処理中';
+  else if (status === 'success') return '成功';
+  else if (status === 'error') return 'エラー';
+  else return exhaustiveCheck(status); // never型でチェック
+}
+```
+
+```typescript
+// ケース漏れ時は型エラー
+type Status = 'pending' | 'success' | 'error' | 'timeout';
+
+function handle(status: Status) {
+  if (status === 'pending') return '処理中';
+  else return exhaustiveCheck(status); // エラー！
+}
+```

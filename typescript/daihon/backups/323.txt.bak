@@ -1,0 +1,34 @@
+# #323「デバッグ方法」
+
+四国めたん「strictNullChecks有効時のデバッグ方法について学びましょう！」
+ずんだもん「型エラーが出たらどうすればいいの？」
+四国めたん「エラーメッセージを読み、型定義を確認します。制御フロー分析を活用しましょう」
+ずんだもん「具体的なデバッグ方法は？」
+四国めたん「型ガードでnullチェックし、エディタのホバー表示で型を確認します。TypeScript Playgroundも便利ですね」
+ずんだもん「なるほど！ツールを活用するんだね！」
+四国めたん「--noEmit オプションで型チェックのみ実行できます。CI/CDにも組み込めますね」
+ずんだもん「効率的にデバッグできて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// エラーメッセージを読む
+let name: string = getValue();
+// Error: Type 'string | null' is not assignable to type 'string'
+```
+
+```typescript
+// 型ガードで修正
+const value = getValue();
+if (value !== null) {
+  const name: string = value; // OK
+}
+```
+
+```typescript
+// 型チェックのみ実行
+tsc --noEmit
+// コンパイルせず型エラーだけ確認
+```

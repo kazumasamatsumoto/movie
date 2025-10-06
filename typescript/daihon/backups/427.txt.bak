@@ -1,0 +1,52 @@
+# #427「Promise.all()」
+
+四国めたん「Promise.all()とPromise<void>について学びましょう！」
+ずんだもん「Promise.all()の戻り値はどうなるの？」
+四国めたん「Promise<void[]>になります。しかし配列の要素はすべてundefinedですね」
+ずんだもん「使えないの？」
+四国めたん「戻り値自体は使いませんが、すべての処理が完了したことが分かります。完了待ちに使いますね」
+ずんだもん「なるほど！完了の確認なんだね！」
+四国めたん「Promise.allSettled()やPromise.race()も使えます。TypeScript v5.9でも便利な機能ですね」
+ずんだもん「状況に応じて使い分けるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Promise.all()の戻り値型
+async function saveAll(): Promise<void> {
+  const results: void[] = await Promise.all([
+    saveData(data1),
+    saveData(data2),
+    saveData(data3)
+  ]);
+  // resultsは使わない (すべてundefined)
+}
+```
+
+```typescript
+// Promise.allSettled()
+async function processAllSettled(): Promise<void> {
+  const results = await Promise.allSettled([
+    task1(),
+    task2(),
+    task3()
+  ]);
+  results.forEach((result) => {
+    if (result.status === "rejected") {
+      console.error(result.reason);
+    }
+  });
+}
+```
+
+```typescript
+// Promise.race()
+async function timeout(): Promise<void> {
+  await Promise.race([
+    longTask(),
+    delay(5000).then(() => { throw new Error("Timeout"); })
+  ]);
+}
+```

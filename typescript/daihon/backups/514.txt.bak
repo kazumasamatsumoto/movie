@@ -1,0 +1,59 @@
+# #514 「default節」
+
+四国めたん「switch文のdefault節での網羅性チェックについて学びましょう！」
+ずんだもん「default節でどうチェックするの？」
+四国めたん「すべてのcaseを処理した後のdefault節では、型がnever型になります」
+ずんだもん「具体的にどう書くの？」
+四国めたん「default節でexhaustiveCheck関数を呼び出し、never型で網羅性を保証します」
+ずんだもん「なるほど！switch文でも型安全なんだね！」
+四国めたん「新しいケース追加時に必ずコンパイルエラーになりますね」
+ずんだもん「大規模な列挙型の処理も安心だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+type Direction = 'north' | 'south' | 'east' | 'west';
+
+function move(dir: Direction): [number, number] {
+  switch (dir) {
+    case 'north': return [0, 1];
+    case 'south': return [0, -1];
+    case 'east': return [1, 0];
+    case 'west': return [-1, 0];
+    default:
+      const check: never = dir; // never型
+      throw new Error(`Invalid: ${check}`);
+  }
+}
+```
+
+```typescript
+// ケース漏れの検出
+type Direction = 'north' | 'south' | 'east' | 'west' | 'center';
+
+function move(dir: Direction) {
+  switch (dir) {
+    case 'north': return [0, 1];
+    case 'south': return [0, -1];
+    default:
+      const check: never = dir; // 型エラー！
+      throw new Error();
+  }
+}
+```
+
+```typescript
+// exhaustiveCheck関数の利用
+function exhaustiveCheck(value: never): never {
+  throw new Error(`Unhandled: ${value}`);
+}
+
+function move(dir: Direction) {
+  switch (dir) {
+    case 'north': return [0, 1];
+    default: return exhaustiveCheck(dir);
+  }
+}
+```

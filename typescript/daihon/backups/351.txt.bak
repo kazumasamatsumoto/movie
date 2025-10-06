@@ -1,0 +1,41 @@
+# #351「nullish型 - T | null | undefined」
+
+四国めたん「nullish型について学びましょう！」
+ずんだもん「nullish型ってどんな型なの？」
+四国めたん「T | null | undefined で、値が存在しない両方のケースを許容する型です。nullとundefinedの両方を含みますね」
+ずんだもん「どういう時に使うの？」
+四国めたん「APIレスポンス、データベースの値、オプショナル引数など、値がない可能性がある場面で使います」
+ずんだもん「なるほど！両方に対応できるんだね！」
+四国めたん「Nullish Coalescing演算子やOptional Chainingと相性が良いです。TypeScript v5.9でも頻繁に使われますね」
+ずんだもん「柔軟に値の不在を扱えて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// nullish型の基本
+type Nullish<T> = T | null | undefined;
+let value: string | null | undefined;
+value = "hello";
+value = null;
+value = undefined;
+```
+
+```typescript
+// 実践的な使用例
+interface User {
+  name: string;
+  email: string | null | undefined;
+  age?: number | null;
+}
+```
+
+```typescript
+// 関数の戻り値
+function findUser(id: number): User | null | undefined {
+  if (id < 0) return undefined;  // 無効なID
+  const user = database.find(id);
+  return user ?? null;           // 見つからない場合
+}
+```

@@ -1,0 +1,36 @@
+# #224 「ユースケース」台本
+
+四国めたん「TypeScript v5.9のリテラル型のユースケースについて学びましょう！」
+ずんだもん「リテラル型のユースケースって何？」
+四国めたん「リテラル型が活用される具体的な場面です」
+ずんだもん「どんな場面で使うの？」
+四国めたん「定数フラグ、設定値、状態管理などで使用します」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、アプリケーションの設定管理に重要です」
+ずんだもん「ユースケースで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// リテラル型のユースケース
+
+// 1. 定数フラグ
+const isProduction: true = true;
+const isDebugMode: false = false;
+
+// 2. 設定値
+const enableLogging: true = true;
+const disableCaching: false = false;
+
+// 3. 状態管理
+const userLoggedIn: true = true;
+const formValid: false = false;
+
+// 4. 実用的な例
+const config = {
+  isProduction: true as const,
+  enableLogging: false as const
+};
+```

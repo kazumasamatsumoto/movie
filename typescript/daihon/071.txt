@@ -1,4 +1,3 @@
-# #071 「string[]型とは」台本
 
 四国めたん「TypeScript v5.9のstring[]型について学びましょう！」
 ずんだもん「string[]型って何？」
@@ -9,18 +8,3 @@
 四国めたん「はい、リスト表示やデータ管理に活用できます」
 ずんだもん「配列型で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// string[]型の例
-let names: string[] = ["Alice", "Bob", "Charlie"];
-let emails: string[] = ["alice@example.com", "bob@example.com"];
-let tags: string[] = ["TypeScript", "JavaScript", "Web開発"];
-
-// 実用的な例
-let userRoles: string[] = ["admin", "user", "guest"];
-let productCategories: string[] = ["本", "ペン", "ノート"];
-let apiEndpoints: string[] = ["/api/users", "/api/products"];
-```

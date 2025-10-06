@@ -1,0 +1,50 @@
+# #495「イベントループ」
+
+四国めたん「イベントループについて学びましょう！」
+ずんだもん「イベントループってどんなパターン？」
+四国めたん「イベントを待ち続け、発生したら処理するパターンです。GUIやサーバーで使われますね」
+ずんだもん「どう実装するの？」
+四国めたん「無限ループでイベントをポーリングし、処理します。Node.jsの内部でも使われていますね」
+ずんだもん「なるほど！イベント駆動なんだね！」
+四国めたん「非同期処理の基盤です。TypeScript v5.9でも重要なパターンですね」
+ずんだもん「プログラミングの基本なんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// イベントループの基本
+function eventLoop(): never {
+  while (true) {
+    const event = waitForEvent();
+    dispatchEvent(event);
+  }
+}
+```
+
+```typescript
+// 複数のイベントソース
+function mainLoop(): never {
+  while (true) {
+    const events = pollEvents();
+    for (const event of events) {
+      handleEvent(event);
+    }
+  }
+}
+```
+
+```typescript
+// 優先度付きイベント処理
+function priorityLoop(): never {
+  while (true) {
+    const event = getHighestPriorityEvent();
+    if (event) {
+      processEvent(event);
+    } else {
+      idle();
+    }
+  }
+}
+```

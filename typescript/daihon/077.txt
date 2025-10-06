@@ -1,4 +1,3 @@
-# #077 「配列のループ - for...of」台本
 
 四国めたん「TypeScript v5.9の配列ループについて学びましょう！」
 ずんだもん「配列のループってどうするの？」
@@ -9,27 +8,3 @@
 四国めたん「はい、リストの表示や処理に活用できます」
 ずんだもん「配列ループで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 配列のループ
-let names: string[] = ["Alice", "Bob", "Charlie"];
-
-// for...of文
-for (let name of names) {
-  console.log(name);
-}
-
-// 実用的な例
-let userRoles: string[] = ["admin", "user", "guest"];
-for (let role of userRoles) {
-  console.log(`Role: ${role}`);
-}
-
-let productTags: string[] = ["本", "ペン", "ノート"];
-for (let tag of productTags) {
-  console.log(`Tag: ${tag}`);
-}
-```

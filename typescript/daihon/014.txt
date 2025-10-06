@@ -1,4 +1,3 @@
-# #014 「エスケープシーケンス - \"と\'」台本
 
 四国めたん「TypeScript v5.9のエスケープシーケンスについて学びましょう！」
 ずんだもん「エスケープシーケンスって何？」
@@ -9,21 +8,3 @@
 四国めたん「はい、テンプレートやメッセージに活用できます」
 ずんだもん「エスケープ処理で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// エスケープシーケンスの例
-let message1: string = "He said \"Hello\" to me";
-let message2: string = 'It\'s a beautiful day';
-let message3: string = "Path: C:\\Users\\Documents";
-
-// 実用的な例
-let jsonString: string = "{\"name\": \"Alice\", \"age\": 30}";
-let htmlContent: string = "<div class=\"container\">Content</div>";
-let filePath: string = "C:\\Program Files\\MyApp\\config.json";
-
-// 複数のエスケープ
-let complexMessage: string = "Line 1\nLine 2\tTabbed content";
-```

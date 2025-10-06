@@ -1,0 +1,30 @@
+# #120 「数値リテラルまとめ」台本
+
+四国めたん「TypeScript v5.9の数値リテラルまとめについて学びましょう！」
+ずんだもん「数値リテラルまとめって何？」
+四国めたん「数値リテラルの要点と重要な機能のまとめです」
+ずんだもん「どんな機能があるの？」
+四国めたん「10進数、2進数、8進数、16進数、科学的記数法などがあります」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、数値処理の基盤となる重要な機能です」
+ずんだもん「数値リテラルで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 数値リテラルまとめ
+let decimal: number = 100;        // 10進数
+let binary: number = 0b1010;      // 2進数
+let octal: number = 0o777;        // 8進数
+let hex: number = 0xFF;           // 16進数
+let scientific: number = 1e6;     // 科学的記数法
+let readable: number = 1_000_000; // アンダースコア区切り
+
+// 実用的な例
+let userAge: number = 25;
+let productPrice: number = 2980.50;
+let maxUsers: number = 10_000;
+let apiTimeout: number = 30_000;
+```

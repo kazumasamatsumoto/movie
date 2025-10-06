@@ -1,0 +1,31 @@
+# #263 「truthyチェック」台本
+
+四国めたん「TypeScript v5.9のtruthyチェックについて学びましょう！」
+ずんだもん「truthyって何？」
+四国めたん「JavaScriptでtrueと評価される値のことです」
+ずんだもん「どんな値がtruthy？」
+四国めたん「0以外の数値、空でない文字列、オブジェクト、配列などです」
+ずんだもん「if文でチェックできる？」
+四国めたん「はい、if (value)でtruthyかチェックできます」
+ずんだもん「シンプルで便利だね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// truthyチェック
+
+function process(value: string | number | null) {
+  if (value) {
+    // truthyな値の場合
+    console.log('値が存在します');
+  }
+}
+
+// truthy値の例
+console.log(Boolean(1));        // true
+console.log(Boolean('hello'));  // true
+console.log(Boolean([]));       // true
+console.log(Boolean({}));       // true
+console.log(Boolean(true));     // true

@@ -1,0 +1,38 @@
+# #375「return文」
+
+四国めたん「void型関数のreturn文について学びましょう！」
+ずんだもん「void型の関数でreturnはどう使うの？」
+四国めたん「早期リターンに使えます。値を指定しない return; だけを書きますね」
+ずんだもん「値を返すとエラー？」
+四国めたん「はい、void型の関数で値を返すとエラーです。undefined は例外的に許可されますね」
+ずんだもん「なるほど！制御フロー用なんだね！」
+四国めたん「条件分岐での早期リターンが典型的な使い方です。TypeScript v5.9でも同じ挙動ですね」
+ずんだもん「処理を中断できて便利だね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 早期リターン
+function validate(value: string): void {
+  if (!value) return;  // 値なし
+  if (value.length < 3) return;
+  console.log(`Valid: ${value}`);
+}
+```
+
+```typescript
+// エラーになる例
+function invalid(): void {
+  return "string";  // エラー: Type 'string' is not assignable to type 'void'
+}
+```
+
+```typescript
+// undefinedは許可される
+function allowed(): void {
+  return undefined;  // OK
+  return;            // OK (推奨)
+}
+```

@@ -1,0 +1,41 @@
+# #200 「マスターチェック」台本
+
+四国めたん「TypeScript v5.9の数値のマスターチェックについて学びましょう！」
+ずんだもん「数値のマスターチェックって何？」
+四国めたん「数値処理の理解度を確認するチェック項目です」
+ずんだもん「どんな項目があるの？」
+四国めたん「型の違い、精度問題、バリデーション、ベストプラクティスなどです」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、数値処理の習得度確認に重要です」
+ずんだもん「マスターチェックで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 数値のマスターチェック
+
+// 1. 型の違い
+let num: number = 30; // プリミティブ型
+// let numObj: Number = new Number(30); // オブジェクト型（非推奨）
+
+// 2. 精度問題
+let sum: number = 0.1 + 0.2;
+console.log(sum === 0.3); // false
+
+// 3. 適切な比較
+function isEqual(a: number, b: number): boolean {
+  return Math.abs(a - b) < 1e-10;
+}
+
+// 4. バリデーション
+function validateNumber(value: unknown): value is number {
+  return typeof value === "number" && Number.isFinite(value);
+}
+
+// 5. 実用的な例
+let userAge: number = 25;
+let productPrice: number = 1500;
+let total: number = userAge + productPrice;
+```

@@ -1,0 +1,44 @@
+# #524 「string & never = never」
+
+四国めたん「string & never = never の等式について学びましょう！」
+ずんだもん「これはどういう意味なの？」
+四国めたん「任意の型とnever型のIntersectionは必ずneverになります。空集合との積集合は空集合ですね」
+ずんだもん「具体的にどう使うの？」
+四国めたん「矛盾する条件を検出したり、到達不可能な型を表現したりできます」
+ずんだもん「なるほど！型レベルでの矛盾検出ができるんだね！」
+四国めたん「Union型とIntersection型の性質は双対的な関係にありますね」
+ずんだもん「型演算の法則を理解すると応用が広がるよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 基本的な等式
+type Test1 = string & never;    // = never
+type Test2 = number & never;    // = never
+type Test3 = boolean & never;   // = never
+type Test4 = unknown & never;   // = never
+type Test5 = any & never;       // = never
+```
+
+```typescript
+// 矛盾する型の検出
+type Contradiction = { type: 'A' } & { type: 'B' };
+// = never（typeは同時にAとBにはなれない）
+
+type Valid = { type: 'A' } & { value: number };
+// = { type: 'A'; value: number }（矛盾なし）
+```
+
+```typescript
+// Extract型の実装原理
+type Extract<T, U> = T extends U ? T : never;
+
+type Result = Extract<string | number, number>;
+// = never | number
+// = number（Union型でneverは消える）
+
+type Keys = Extract<'a' | 'b' | 'c', 'a' | 'b'>;
+// = 'a' | 'b'
+```

@@ -1,0 +1,38 @@
+# #418「return文なし」
+
+四国めたん「Promise<void>関数のreturn文について学びましょう！」
+ずんだもん「Promise<void>の関数でreturnは書くの？」
+四国めたん「return文なし、または return; だけを書きます。値を返す必要はありませんね」
+ずんだもん「return undefinedは？」
+四国めたん「許可されますが、不要です。通常は return; またはreturn文なしが推奨されますね」
+ずんだもん「なるほど！シンプルに書くんだね！」
+四国めたん「早期リターンで return; を使うこともあります。TypeScript v5.9でも同じパターンですね」
+ずんだもん「処理の完了だけを表現するんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// return文なし
+async function saveUser(user: User): Promise<void> {
+  await database.save(user);
+  console.log("User saved");
+}
+```
+
+```typescript
+// 早期リターン
+async function validate(data: Data): Promise<void> {
+  if (!data) return;  // 早期終了
+  await processData(data);
+}
+```
+
+```typescript
+// return undefinedも許可される
+async function log(msg: string): Promise<void> {
+  console.log(msg);
+  return undefined;  // OK だが不要
+}
+```

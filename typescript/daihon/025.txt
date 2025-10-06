@@ -1,4 +1,3 @@
-# #025 「関数呼び出しの埋め込み - ${getName()}」台本
 
 四国めたん「TypeScript v5.9の関数呼び出し埋め込みについて学びましょう！」
 ずんだもん「関数呼び出しの埋め込みって何？」
@@ -9,33 +8,3 @@
 四国めたん「はい、動的なデータ処理結果の表示に活用できます」
 ずんだもん「関数埋め込みで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 関数呼び出し埋め込みの例
-function getName(): string {
-  return "Alice";
-}
-
-function getAge(): number {
-  return 30;
-}
-
-function isAdult(age: number): boolean {
-  return age >= 18;
-}
-
-// 関数呼び出しの埋め込み
-let greeting: string = `Hello, ${getName()}!`;
-let ageInfo: string = `Age: ${getAge()}`;
-let adultStatus: string = `Adult: ${isAdult(getAge())}`;
-
-// 実用的な例
-function formatPrice(price: number): string {
-  return `¥${price.toLocaleString()}`;
-}
-
-let productPrice: string = `Price: ${formatPrice(2980)}`;
-```

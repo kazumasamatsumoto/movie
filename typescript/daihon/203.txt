@@ -1,4 +1,3 @@
-# #203 「trueの代入」台本
 
 四国めたん「TypeScript v5.9のtrueの代入について学びましょう！」
 ずんだもん「trueの代入って何？」
@@ -9,23 +8,3 @@
 四国めたん「はい、コンポーネントの状態管理に重要です」
 ずんだもん「true代入で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// trueの代入
-let isActive: boolean = true;
-let isCompleted: boolean = true;
-let hasPermission: boolean = true;
-
-// 実用的な例
-let userLoggedIn: boolean = true;
-let formValid: boolean = true;
-let dataLoaded: boolean = true;
-
-// 条件分岐での使用
-if (isActive) {
-  console.log("アクティブです");
-}
-```

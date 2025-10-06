@@ -1,0 +1,31 @@
+# #178 「丸め誤差」台本
+
+四国めたん「TypeScript v5.9の丸め誤差について学びましょう！」
+ずんだもん「丸め誤差って何？」
+四国めたん「浮動小数点数の精度制限による誤差です」
+ずんだもん「どんな影響があるの？」
+四国めたん「計算結果が期待値と異なる場合があります」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、正確な数値計算に重要です」
+ずんだもん「丸め誤差で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 丸め誤差の例
+let num1: number = 0.1;
+let num2: number = 0.2;
+let sum: number = num1 + num2;
+
+console.log(sum); // 0.30000000000000004
+
+// 実用的な例
+let userAge: number = 25.5;
+let productPrice: number = 1500.99;
+let total: number = userAge + productPrice;
+
+console.log(total); // 1526.4899999999998
+console.log(total.toFixed(2)); // "1526.49"
+```

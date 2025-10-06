@@ -1,0 +1,35 @@
+# #311「strictNullChecksとは」
+
+四国めたん「strictNullChecksについて学びましょう！」
+ずんだもん「strictNullChecksって何なの？」
+四国めたん「TypeScriptのコンパイラオプションで、nullとundefinedを厳密にチェックする機能です」
+ずんだもん「有効にするとどうなるの？」
+四国めたん「nullやundefinedを通常の型に代入できなくなります。明示的にUnion型を使う必要がありますね」
+ずんだもん「なるほど！型安全性が向上するんだね！」
+四国めたん「実行時エラーを防ぎ、nullポインタ例外を大幅に減らせます。TypeScript v5.9でも推奨されていますね」
+ずんだもん「コンパイル時にnullチェックできて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// strictNullChecks: false (無効)
+let name: string = null; // OK (エラーなし)
+let age: number = undefined; // OK
+```
+
+```typescript
+// strictNullChecks: true (有効)
+let name: string = null; // エラー
+let name: string | null = null; // OK
+```
+
+```typescript
+// tsconfig.json
+{
+  "compilerOptions": {
+    "strictNullChecks": true
+  }
+}
+```

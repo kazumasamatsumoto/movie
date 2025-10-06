@@ -1,4 +1,3 @@
-# #179 「回避方法(1) - 整数演算」台本
 
 四国めたん「TypeScript v5.9の整数演算による回避方法について学びましょう！」
 ずんだもん「整数演算による回避って何？」
@@ -9,27 +8,3 @@
 四国めたん「はい、正確な数値計算に重要です」
 ずんだもん「整数演算で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 整数演算による回避
-function addDecimals(a: number, b: number): number {
-  const factor = 100; // 小数点以下2桁
-  return (Math.round(a * factor) + Math.round(b * factor)) / factor;
-}
-
-// 実用的な例
-let price1: number = 0.1;
-let price2: number = 0.2;
-let total: number = addDecimals(price1, price2);
-
-console.log(total); // 0.3
-console.log(total === 0.3); // true
-
-// 金銭計算の例
-let yen1: number = 100.50;
-let yen2: number = 200.25;
-let totalYen: number = addDecimals(yen1, yen2);
-```

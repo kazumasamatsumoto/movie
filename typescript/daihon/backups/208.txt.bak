@@ -1,0 +1,33 @@
+# #208 「while文での使用」台本
+
+四国めたん「TypeScript v5.9のwhile文でのboolean型使用について学びましょう！」
+ずんだもん「while文でのboolean型使用って何？」
+四国めたん「while文の条件式でboolean型の変数を使用する方法です」
+ずんだもん「どうやって使うの？」
+四国めたん「while (flag)のようにboolean型の変数を条件式に使用します」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、ループ制御に重要です」
+ずんだもん「while文で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// while文での使用
+let isActive: boolean = true;
+let isCompleted: boolean = false;
+
+// 基本的な使用
+while (isActive) {
+  console.log("アクティブです");
+  isActive = false; // ループを終了
+}
+
+// 実用的な例
+let dataLoading: boolean = true;
+while (dataLoading) {
+  console.log("データを読み込み中...");
+  dataLoading = false; // ループを終了
+}
+```

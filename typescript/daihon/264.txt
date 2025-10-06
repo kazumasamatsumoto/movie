@@ -1,4 +1,3 @@
-# #264 「falsyチェック」台本
 
 四国めたん「TypeScript v5.9のfalsyチェックについて学びましょう！」
 ずんだもん「falsyって何？」
@@ -9,24 +8,3 @@
 四国めたん「はい、if (!value)でfalsyかチェックできます」
 ずんだもん「falsy値を覚えておくのが大事だね！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// falsyチェック
-
-function process(value: string | number | null) {
-  if (!value) {
-    // falsyな値の場合
-    console.log('値が存在しないか、falsy値です');
-  }
-}
-
-// falsy値の例
-console.log(Boolean(false));    // false
-console.log(Boolean(0));        // false
-console.log(Boolean(''));       // false
-console.log(Boolean(null));     // false
-console.log(Boolean(undefined));// false
-console.log(Boolean(NaN));      // false

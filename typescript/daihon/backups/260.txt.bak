@@ -1,0 +1,38 @@
+# #260 「in型ガード」台本
+
+四国めたん「TypeScript v5.9のin型ガードについて学びましょう！」
+ずんだもん「in型ガードって何？」
+四国めたん「オブジェクトに特定のプロパティが存在するかを判定します」
+ずんだもん「どう使うの？」
+四国めたん「'propertyName' in objectで判定できます」
+ずんだもん「Union型の判別に便利そう！」
+四国めたん「はい、判別ユニオンパターンでよく使用されます」
+ずんだもん「プロパティの存在チェックに最適だね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// in型ガード
+
+type Dog = { bark: () => void; };
+type Cat = { meow: () => void; };
+
+function makeSound(animal: Dog | Cat) {
+  if ('bark' in animal) {
+    animal.bark();
+  } else {
+    animal.meow();
+  }
+}
+
+// 複雑な型の判別
+type Success = { success: true; data: string };
+type Error = { success: false; error: string };
+
+function handle(result: Success | Error) {
+  if ('data' in result) {
+    console.log(result.data);
+  }
+}

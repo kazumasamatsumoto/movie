@@ -1,4 +1,3 @@
-# #167 「parseInt()関数」台本
 
 四国めたん「TypeScript v5.9のparseInt()関数について学びましょう！」
 ずんだもん「parseInt()関数って何？」
@@ -9,25 +8,3 @@
 四国めたん「はい、文字列入力の数値変換に活用できます」
 ずんだもん「整数変換で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// parseInt()関数
-let str1: string = "123";
-let str2: string = "123.45";
-let str3: string = "abc123";
-
-// 整数変換
-let int1: number = parseInt(str1);      // 123
-let int2: number = parseInt(str2);      // 123
-let int3: number = parseInt(str3);      // NaN
-
-// 実用的な例
-let userInput: string = "25";
-let userAge: number = parseInt(userInput);
-
-let priceStr: string = "1500円";
-let price: number = parseInt(priceStr); // 1500
-```

@@ -1,0 +1,50 @@
+# #546 「間違い(1) - void混同」
+
+四国めたん「never型とvoid型の混同について学びましょう！」
+ずんだもん「never型とvoid型って何が違うの？」
+四国めたん「void型は関数が値を返さない、never型は関数が決して返らないことを表します」
+ずんだもん「具体的にどういうこと？」
+四国めたん「void型の関数は正常終了しますが、never型の関数は例外を投げるか無限ループします」
+ずんだもん「なるほど！voidは終わる、neverは終わらないんだね！」
+四国めたん「この違いを理解しないと、型エラーや誤った実装につながりますね」
+ずんだもん「正しく使い分けることが重要だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// void型：正常終了する
+function logMessage(msg: string): void {
+  console.log(msg);
+  // 関数は正常終了する
+}
+
+// never型：決して返らない
+function throwError(msg: string): never {
+  throw new Error(msg);
+  // この後のコードは実行されない
+}
+```
+
+```typescript
+// 間違った例：voidをneverのように使う
+function process(): void {
+  throw new Error('Error');  // voidなのに例外を投げる
+}
+
+// 正しい例：never型を使う
+function processCorrect(): never {
+  throw new Error('Error');  // never型なので正しい
+}
+```
+
+```typescript
+// 戻り値の代入
+const a: void = logMessage('Hello');     // OK: undefinedが代入される
+const b: never = throwError('Error');    // 実行されない（例外が発生）
+
+// void型はundefinedと互換性がある
+const c: void = undefined;  // OK
+const d: never = undefined; // エラー！
+```

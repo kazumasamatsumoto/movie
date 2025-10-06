@@ -1,4 +1,3 @@
-# #218 「trueリテラル型の使用例」台本
 
 四国めたん「TypeScript v5.9のtrueリテラル型の使用例について学びましょう！」
 ずんだもん「trueリテラル型の使用例って何？」
@@ -9,27 +8,3 @@
 四国めたん「はい、設定値の型安全性に重要です」
 ずんだもん「true使用例で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// trueリテラル型の使用例
-
-// 1. 定数フラグ
-const isProduction: true = true;
-const isDebugMode: true = true;
-
-// 2. 設定値
-const enableLogging: true = true;
-const enableCaching: true = true;
-
-// 3. 実用的な例
-const userLoggedIn: true = true;
-const formValid: true = true;
-
-// 条件分岐での使用
-if (isProduction) {
-  console.log("本番環境です");
-}
-```

@@ -1,0 +1,38 @@
+# #466「関数の実装」
+
+四国めたん「never型関数の実装について学びましょう！」
+ずんだもん「never型の関数はどう実装するの？」
+四国めたん「throw文か無限ループを含む必要があります。正常に終了してはいけませんね」
+ずんだもん「return文は書いちゃダメ？」
+四国めたん「はい、値を返すとエラーです。制御が戻らないことが保証されますね」
+ずんだもん「なるほど！厳密なんだね！」
+四国めたん「型システムが到達不可能性をチェックします。TypeScript v5.9でも同じですね」
+ずんだもん「型で安全性を保証するんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 正しい実装: throw文
+function fail(message: string): never {
+  throw new Error(message);
+}
+```
+
+```typescript
+// 正しい実装: 無限ループ
+function loop(): never {
+  while (true) {
+    doWork();
+  }
+}
+```
+
+```typescript
+// エラーになる実装
+function invalid(): never {
+  console.log("Error");
+  // return;  // エラー: Type 'void' is not assignable to type 'never'
+}
+```

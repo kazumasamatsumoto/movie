@@ -1,4 +1,3 @@
-# #114 「8進数リテラル - 0o777」台本
 
 四国めたん「TypeScript v5.9の8進数リテラルについて学びましょう！」
 ずんだもん「8進数リテラルって何？」
@@ -9,18 +8,3 @@
 四国めたん「はい、ファイルの権限設定などに活用できます」
 ずんだもん「8進数で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 8進数リテラル
-let octal1: number = 0o777;   // 511
-let octal2: number = 0o644;   // 420
-let octal3: number = 0o755;   // 493
-
-// 実用的な例
-let filePermission: number = 0o644;  // ファイル権限
-let dirPermission: number = 0o755;   // ディレクトリ権限
-let scriptPermission: number = 0o755; // スクリプト権限
-```

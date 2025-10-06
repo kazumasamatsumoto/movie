@@ -1,0 +1,35 @@
+# #302「存在しない配列要素」
+
+四国めたん「存在しない配列要素へのアクセスについて学びましょう！」
+ずんだもん「配列の範囲外にアクセスするとどうなるの？」
+四国めたん「JavaScriptではundefinedを返しますが、TypeScriptでは配列型にundefinedが含まれます」
+ずんだもん「型で安全に扱えるの？」
+四国めたん「配列アクセスの結果は T | undefined になります。厳密にはチェックが必要ですね」
+ずんだもん「なるほど！実行時エラーを防げるんだね！」
+四国めたん「noUncheckedIndexedAccessオプションで、より厳密な型チェックが可能ですね」
+ずんだもん「型安全に配列を扱えて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 配列の範囲外アクセス
+const arr = [1, 2, 3];
+const value = arr[10];  // undefined
+```
+
+```typescript
+// noUncheckedIndexedAccess
+// tsconfig: "noUncheckedIndexedAccess": true
+const arr: number[] = [1, 2, 3];
+const value = arr[0];  // number | undefined
+```
+
+```typescript
+// 安全なアクセス
+const arr = [1, 2, 3];
+if (arr[10] !== undefined) {
+  console.log(arr[10].toFixed());
+}
+```

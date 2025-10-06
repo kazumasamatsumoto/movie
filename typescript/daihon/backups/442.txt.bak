@@ -1,0 +1,51 @@
+# #442「(click)="onClick()"」
+
+四国めたん「Angularのクリックイベントについて学びましょう！」
+ずんだもん「(click)はどう定義するの？」
+四国めたん「テンプレートで (click)="メソッド名()" と書きます。メソッドは void 型ですね」
+ずんだもん「引数は渡せるの？」
+四国めたん「はい、$event で Event オブジェクトを渡せます。他の引数も渡せますね」
+ずんだもん「なるほど！柔軟なんだね！」
+四国めたん「戻り値は使われません。必ず void 型にします。TypeScript v5.9でも同じですね」
+ずんだもん「Angularの標準パターンなんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 基本的なクリックハンドラ
+@Component({
+  selector: 'app-button',
+  template: '<button (click)="handleClick()">Click</button>'
+})
+export class ButtonComponent {
+  handleClick(): void {
+    console.log('Clicked');
+  }
+}
+```
+
+```typescript
+// イベントオブジェクトを受け取る
+@Component({
+  template: '<button (click)="onClick($event)">Click</button>'
+})
+export class Component {
+  onClick(event: MouseEvent): void {
+    console.log('Position:', event.clientX, event.clientY);
+  }
+}
+```
+
+```typescript
+// 引数を渡す
+@Component({
+  template: '<button (click)="delete(user.id)">Delete</button>'
+})
+export class UserListComponent {
+  delete(id: number): void {
+    console.log('Deleting user:', id);
+  }
+}
+```

@@ -1,4 +1,3 @@
-# #080 「配列のjoin」台本
 
 四国めたん「TypeScript v5.9の配列joinについて学びましょう！」
 ずんだもん「配列のjoinって何？」
@@ -9,24 +8,3 @@
 四国めたん「はい、リストの表示やデータの出力に活用できます」
 ずんだもん「配列結合で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 配列のjoin
-let names: string[] = ["Alice", "Bob", "Charlie"];
-
-// カンマで結合
-let joined: string = names.join(", "); // "Alice, Bob, Charlie"
-
-// 実用的な例
-let userRoles: string[] = ["admin", "user", "guest"];
-let roleList: string = userRoles.join(" | "); // "admin | user | guest"
-
-let productTags: string[] = ["本", "ペン", "ノート"];
-let tagString: string = productTags.join(", "); // "本, ペン, ノート"
-
-let errorMessages: string[] = ["エラー1", "エラー2"];
-let errorText: string = errorMessages.join("\n"); // 改行で結合
-```

@@ -1,0 +1,46 @@
+# #491「無限ループ関数」
+
+四国めたん「無限ループ関数について学びましょう！」
+ずんだもん「無限ループってnever型なの？」
+四国めたん「はい、終了しないループは never 型です。制御が戻りませんね」
+ずんだもん「どういう時に使うの？」
+四国めたん「サーバーのメインループ、イベント処理、デーモンプロセスで使います」
+ずんだもん「なるほど！ずっと動き続けるプログラムなんだね！」
+四国めたん「実用的には限定的ですが、型システム上重要です。TypeScript v5.9でも同じですね」
+ずんだもん「特殊なユースケースなんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 無限ループ関数
+function runForever(): never {
+  while (true) {
+    console.log("Running...");
+    processTask();
+  }
+}
+```
+
+```typescript
+// サーバーのメインループ
+function startServer(): never {
+  while (true) {
+    const request = waitForRequest();
+    handleRequest(request);
+  }
+}
+```
+
+```typescript
+// イベントループ
+function eventLoop(): never {
+  while (true) {
+    const event = getNextEvent();
+    if (event) {
+      processEvent(event);
+    }
+  }
+}
+```

@@ -1,4 +1,3 @@
-# #273 「[disabled]属性」台本
 
 四国めたん「TypeScript v5.9の[disabled]属性について学びましょう！」
 ずんだもん「[disabled]属性ってどう使うの？」
@@ -9,26 +8,3 @@
 四国めたん「はい、booleanプロパティを変更すれば即座に反映されます」
 ずんだもん「フォーム制御が簡単だね！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// [disabled]属性
-
-@Component({
-  selector: 'app-form',
-  template: `
-    <button [disabled]="isSubmitting">送信</button>
-    <input [disabled]="!isEditable" />
-  `
-})
-export class FormComponent {
-  isSubmitting: boolean = false;
-  isEditable: boolean = true;
-  
-  submit(): void {
-    this.isSubmitting = true;
-    // API呼び出し処理
-  }
-}

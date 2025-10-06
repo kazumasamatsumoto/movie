@@ -1,0 +1,37 @@
+# #173 「数値バリデーション」台本
+
+四国めたん「TypeScript v5.9の数値バリデーションについて学びましょう！」
+ずんだもん「数値バリデーションって何？」
+四国めたん「数値が有効かどうかを検証する方法です」
+ずんだもん「どうやって検証するの？」
+四国めたん「Number.isNaN()やNumber.isFinite()を使用します」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、フォームバリデーションに重要です」
+ずんだもん「バリデーションで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 数値バリデーション
+function validateNumber(value: number): boolean {
+  return Number.isFinite(value) && !Number.isNaN(value);
+}
+
+function validateInteger(value: number): boolean {
+  return Number.isInteger(value) && Number.isFinite(value);
+}
+
+// 実用的な例
+let userAge: number = 25;
+let productPrice: number = 1500;
+
+if (validateNumber(userAge)) {
+  console.log("有効な年齢です");
+}
+
+if (validateInteger(productPrice)) {
+  console.log("有効な整数価格です");
+}
+```

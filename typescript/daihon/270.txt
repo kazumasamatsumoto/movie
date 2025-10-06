@@ -1,4 +1,3 @@
-# #270 「型ガードまとめ」台本
 
 四国めたん「TypeScript v5.9の型ガードのまとめについて学びましょう！」
 ずんだもん「型ガードの重要なポイントは？」
@@ -9,26 +8,3 @@
 四国めたん「複雑な型チェックや再利用可能な型ガードに使用します」
 ずんだもん「型ガードをマスターできたよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 型ガードまとめ
-
-// typeof - プリミティブ型
-if (typeof value === 'string') { }
-
-// instanceof - クラス
-if (value instanceof Date) { }
-
-// in - オブジェクトプロパティ
-if ('name' in obj) { }
-
-// Array.isArray - 配列
-if (Array.isArray(value)) { }
-
-// 型述語関数 - カスタム型ガード
-function isUser(obj: unknown): obj is User {
-  return typeof obj === 'object' && obj !== null && 'name' in obj;
-}

@@ -1,0 +1,35 @@
+# #298「undefinedの代入」
+
+四国めたん「undefinedの代入について学びましょう！」
+ずんだもん「undefinedってどうやって代入するの？」
+四国めたん「Union型やオプショナル型の変数にundefinedを代入できます。strictNullChecksで型安全性が保証されます」
+ずんだもん「型が合わないとエラーになる？」
+四国めたん「はい、string | undefined型にのみundefinedを代入できます。number型には代入できません」
+ずんだもん「なるほど！型チェックで安全に代入できるんだね！」
+四国めたん「明示的に代入することで、値が未設定であることを表現できますね」
+ずんだもん「コンパイル時に型エラーが検出できて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// undefinedの代入
+let name: string | undefined = undefined;
+name = "Alice";  // OK
+name = undefined; // OK
+```
+
+```typescript
+// strictNullChecks有効時
+let id: number = undefined;  // エラー
+let id: number | undefined = undefined;  // OK
+```
+
+```typescript
+// オプショナルプロパティ
+const user: User = {
+  name: "Alice",
+  age: undefined  // オプショナルなので省略可能
+};
+```

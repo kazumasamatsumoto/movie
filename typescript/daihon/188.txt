@@ -1,4 +1,3 @@
-# #188 「BigIntの使用例」台本
 
 四国めたん「TypeScript v5.9のBigIntの使用例について学びましょう！」
 ずんだもん「BigIntの使用例って何？」
@@ -9,24 +8,3 @@
 四国めたん「はい、大きな数値の正確な処理に重要です」
 ずんだもん「BigInt活用で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// BigIntの使用例
-let userId: bigint = 1234567890123456789n;
-let transactionId: bigint = BigInt("9876543210987654321");
-
-// 演算
-let newId: bigint = userId + 1n;
-let multiplied: bigint = userId * 2n;
-
-// 実用的な例
-function generateId(): bigint {
-  return BigInt(Date.now()) * 1000n + BigInt(Math.floor(Math.random() * 1000));
-}
-
-let newUserId: bigint = generateId();
-console.log(newUserId.toString());
-```

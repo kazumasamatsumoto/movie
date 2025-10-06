@@ -1,4 +1,3 @@
-# #206 「constでboolean型」台本
 
 四国めたん「TypeScript v5.9のconstでboolean型について学びましょう！」
 ずんだもん「constでboolean型って何？」
@@ -9,21 +8,3 @@
 四国めたん「はい、定数の管理に重要です」
 ずんだもん「const booleanで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// constでboolean型
-const isActive = true;        // boolean型と推論、変更不可
-const isCompleted = false;    // boolean型と推論、変更不可
-const hasPermission = true;   // boolean型と推論、変更不可
-
-// 実用的な例
-const userLoggedIn = true;    // boolean型と推論、変更不可
-const formValid = false;      // boolean型と推論、変更不可
-const dataLoaded = true;      // boolean型と推論、変更不可
-
-// 変更不可
-// isActive = false; // エラー: Cannot assign to 'isActive' because it is a constant
-```

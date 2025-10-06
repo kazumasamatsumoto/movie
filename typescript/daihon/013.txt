@@ -1,4 +1,3 @@
-# #013 「ダブルとシングルの使い分け」台本
 
 四国めたん「TypeScript v5.9のダブルとシングルの使い分けについて学びましょう！」
 ずんだもん「ダブルとシングルはどう使い分けるの？」
@@ -9,25 +8,3 @@
 四国めたん「はい、一貫性のあるコードスタイルに活用できます」
 ずんだもん「統一スタイルで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// プロジェクト内での統一例
-// シングルクォート統一スタイル
-let message: string = 'Hello, World!';
-let name: string = 'Alice';
-
-// HTML属性内ではダブルクォート
-let htmlTemplate: string = '<div class="container">Hello</div>';
-
-// 実用的な例
-let componentTemplate: string = '<h1>{{title}}</h1>';
-let cssClass: string = 'btn btn-primary';
-let apiEndpoint: string = '/api/users';
-
-// 一貫性の重要性
-let userMessage: string = 'ユーザー登録完了';
-let systemMessage: string = 'システムエラー';
-```

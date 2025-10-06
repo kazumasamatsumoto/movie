@@ -1,0 +1,48 @@
+# #500「無限ループまとめ」
+
+四国めたん「無限ループとnever型についてまとめましょう！」
+ずんだもん「無限ループのポイントを教えて！」
+四国めたん「while(true) で終了しない関数は never 型です。サーバーやイベントループで使われますね」
+ずんだもん「どう使えばいいの？」
+四国めたん「適切に待機してCPUを解放し、エラーハンドリングを実装します。終了シグナルも考慮しますね」
+ずんだもん「なるほど！リソース管理が重要なんだね！」
+四国めたん「型推論で never になりますが、明示的に書くと良いです。実用的にはサーバープロセスやワーカーで使われます。TypeScript v5.9でも同じパターンですね」
+ずんだもん「無限ループを正しく使えるようになったよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 基本的な無限ループ
+function eventLoop(): never {
+  while (true) {
+    const event = getEvent();
+    processEvent(event);
+  }
+}
+```
+
+```typescript
+// 適切な待機
+function serverLoop(): never {
+  while (true) {
+    const request = waitForRequest();
+    handleRequest(request);
+    await delay(100);  // CPU解放
+  }
+}
+```
+
+```typescript
+// エラーハンドリング
+function safeLoop(): never {
+  while (true) {
+    try {
+      processTask();
+    } catch (error) {
+      console.error(error);
+    }
+  }
+}
+```

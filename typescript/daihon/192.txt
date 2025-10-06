@@ -1,4 +1,3 @@
-# #192 「数値バリデーション」台本
 
 四国めたん「TypeScript v5.9の数値バリデーションについて学びましょう！」
 ずんだもん「数値バリデーションって何？」
@@ -9,35 +8,3 @@
 四国めたん「はい、フォームの入力検証に重要です」
 ずんだもん「数値バリデーションで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 数値バリデーション
-import { FormControl, Validators } from '@angular/forms';
-
-// 基本的なバリデーション
-let ageControl = new FormControl(25, [
-  Validators.required,
-  Validators.min(0),
-  Validators.max(120)
-]);
-
-let priceControl = new FormControl(1500, [
-  Validators.required,
-  Validators.min(0)
-]);
-
-// 実用的な例
-let productForm = new FormGroup({
-  price: new FormControl(0, [
-    Validators.required,
-    Validators.min(1)
-  ]),
-  quantity: new FormControl(1, [
-    Validators.required,
-    Validators.min(1)
-  ])
-});
-```

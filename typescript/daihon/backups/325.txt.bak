@@ -1,0 +1,40 @@
+# #325「strictNullChecksまとめ」
+
+四国めたん「strictNullChecksのまとめをしましょう！」
+ずんだもん「strictNullChecksのポイントを教えて！」
+四国めたん「TypeScriptの型安全性を向上させる最重要オプションです。nullとundefinedを厳密にチェックしますね」
+ずんだもん「有効にすべき理由は？」
+四国めたん「実行時エラーを防ぎ、バグを早期発見できます。段階的導入も可能ですね」
+ずんだもん「なるほど！必ず有効にすべきだね！」
+四国めたん「新規プロジェクトではstrictオプションを推奨します。TypeScript v5.9でも標準的な設定ですね」
+ずんだもん「strictNullChecksで型安全な開発ができて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 必須設定
+{
+  "compilerOptions": {
+    "strict": true  // strictNullChecksも有効
+  }
+}
+```
+
+```typescript
+// 型安全なコード
+function process(value: string | null): string {
+  if (value === null) return "default";
+  return value.toUpperCase();
+}
+```
+
+```typescript
+// 実践パターン
+const user = getUser();
+const name = user?.name ?? "Guest";
+if (user !== null) {
+  console.log(user.email);
+}
+```

@@ -1,0 +1,67 @@
+# #519 「パターン集」
+
+四国めたん「網羅性チェックのパターン集について学びましょう！」
+ずんだもん「よく使われるパターンを教えて！」
+四国めたん「Reducer パターン、Command パターン、State パターンなどで活用できます」
+ずんだもん「それぞれどう使うの？」
+四国めたん「各パターンで判別Union型とnever型チェックを組み合わせることで、型安全性を確保します」
+ずんだもん「なるほど！設計パターンと型が融合するんだね！」
+四国めたん「関数型プログラミングとの相性も抜群ですね」
+ずんだもん「実践的なパターンを覚えて使いこなすよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Reducerパターン
+type CounterAction =
+  | { type: 'increment'; by: number }
+  | { type: 'decrement'; by: number }
+  | { type: 'reset' };
+
+function counterReducer(state: number, action: CounterAction): number {
+  switch (action.type) {
+    case 'increment': return state + action.by;
+    case 'decrement': return state - action.by;
+    case 'reset': return 0;
+    default: return exhaustiveCheck(action);
+  }
+}
+```
+
+```typescript
+// Commandパターン
+interface Command<T = void> {
+  execute(): T;
+}
+
+type AppCommand =
+  | { kind: 'save'; data: string }
+  | { kind: 'load'; id: number }
+  | { kind: 'delete'; id: number };
+
+function executeCommand(cmd: AppCommand): void {
+  if (cmd.kind === 'save') save(cmd.data);
+  else if (cmd.kind === 'load') load(cmd.id);
+  else if (cmd.kind === 'delete') remove(cmd.id);
+  else exhaustiveCheck(cmd);
+}
+```
+
+```typescript
+// Stateパターン
+type ConnectionState =
+  | { status: 'disconnected' }
+  | { status: 'connecting'; attempt: number }
+  | { status: 'connected'; sessionId: string };
+
+function getLabel(state: ConnectionState): string {
+  switch (state.status) {
+    case 'disconnected': return '切断';
+    case 'connecting': return `接続中(${state.attempt})`;
+    case 'connected': return `接続済(${state.sessionId})`;
+    default: return exhaustiveCheck(state);
+  }
+}
+```

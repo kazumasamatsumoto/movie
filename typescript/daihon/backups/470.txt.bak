@@ -1,0 +1,43 @@
+# #470「void型との違い」
+
+四国めたん「never型とvoid型の違いについて学びましょう！」
+ずんだもん「neverとvoidってどう違うの？」
+四国めたん「void は制御が戻る、never は戻らないです。概念が異なりますね」
+ずんだもん「具体的には？」
+四国めたん「void関数は正常終了しますが、never関数は例外か無限ループで終わります」
+ずんだもん「なるほど！終了方法が違うんだね！」
+四国めたん「void は undefined を返しますが、never は何も返しません。TypeScript v5.9でも明確に区別されますね」
+ずんだもん「使い分けが重要なんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// void: 正常終了、制御が戻る
+function voidFunc(): void {
+  console.log("Done");
+  // 正常終了
+}
+```
+
+```typescript
+// never: 例外、制御が戻らない
+function neverFunc(): never {
+  throw new Error("Never returns");
+  // 例外で終了
+}
+```
+
+```typescript
+// 使用例での違い
+function process(): void {
+  voidFunc();      // OK: 次の行に進む
+  console.log("After void");
+}
+
+function fail(): void {
+  neverFunc();     // この後のコードは実行されない
+  console.log("Never reached");  // 到達不可能
+}
+```

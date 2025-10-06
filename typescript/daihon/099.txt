@@ -1,4 +1,3 @@
-# #099 「総まとめ」台本
 
 四国めたん「TypeScript v5.9のstring型総まとめについて学びましょう！」
 ずんだもん「総まとめって何？」
@@ -9,26 +8,3 @@
 四国めたん「はい、string型の理解は開発の基礎となります」
 ずんだもん「総まとめで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 総まとめ
-
-// 1. 基本概念
-let name: string = "Alice";
-let message: string = "Hello, World!";
-
-// 2. テンプレートリテラル
-let greeting: string = `Hello, ${name}!`;
-
-// 3. 文字列メソッド
-let upperName: string = name.toUpperCase();
-let lowerName: string = name.toLowerCase();
-let nameLength: number = name.length;
-
-// 4. 配列処理
-let names: string[] = ["Alice", "Bob", "Charlie"];
-let joinedNames: string = names.join(", ");
-```

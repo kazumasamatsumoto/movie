@@ -1,0 +1,56 @@
+# #483「try-catch」
+
+四国めたん「try-catchとnever型について学びましょう！」
+ずんだもん「never型の関数をcatchできるの？」
+四国めたん「はい、try-catchで例外をキャッチできます。呼び出し側で処理しますね」
+ずんだもん「never型の意味は？」
+四国めたん「関数自体は戻りませんが、例外はキャッチできます。制御フローが異なりますね」
+ずんだもん「なるほど！例外は別の流れなんだね！」
+四国めたん「エラーハンドリングの基本パターンです。TypeScript v5.9でも同じですね」
+ずんだもん「安全にエラーを扱えるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// never型関数のtry-catch
+function riskyOperation(): never {
+  throw new Error("Operation failed");
+}
+
+try {
+  riskyOperation();
+  console.log("Never reached");
+} catch (error) {
+  console.error("Caught:", error);
+}
+```
+
+```typescript
+// カスタムエラーのキャッチ
+class ValidationError extends Error {}
+
+function validate(data: unknown): never {
+  throw new ValidationError("Invalid");
+}
+
+try {
+  validate(data);
+} catch (error) {
+  if (error instanceof ValidationError) {
+    console.error("Validation failed");
+  }
+}
+```
+
+```typescript
+// エラーの型チェック
+try {
+  throwError("Error");
+} catch (error) {
+  if (error instanceof Error) {
+    console.error(error.message);
+  }
+}
+```

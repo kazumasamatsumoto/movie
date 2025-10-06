@@ -1,0 +1,63 @@
+# #520 「網羅性まとめ」
+
+四国めたん「網羅性チェックのまとめです！」
+ずんだもん「これまで何を学んだの？」
+四国めたん「never型を使った網羅性チェック、型ガードによる型の絞り込み、実践的なパターンを学びました」
+ずんだもん「どんな効果があるの？」
+四国めたん「コンパイル時の型安全性向上、リファクタリング時の安全性確保、バグの早期発見が実現できます」
+ずんだもん「なるほど！TypeScript開発の必須テクニックだね！」
+四国めたん「型システムを活用することで、実行時エラーをゼロに近づけられますね」
+ずんだもん「これからの開発で積極的に使っていくよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 網羅性チェックの基本形
+type Status = 'pending' | 'success' | 'error';
+
+function exhaustiveCheck(value: never): never {
+  throw new Error(`Unhandled: ${value}`);
+}
+
+function handle(status: Status): string {
+  if (status === 'pending') return '処理中';
+  if (status === 'success') return '成功';
+  if (status === 'error') return 'エラー';
+  return exhaustiveCheck(status);
+}
+```
+
+```typescript
+// 判別Union型での活用
+type Result<T, E> =
+  | { ok: true; value: T }
+  | { ok: false; error: E };
+
+function process<T, E>(result: Result<T, E>): T {
+  if (result.ok) return result.value;
+  if (!result.ok) throw result.error;
+  return exhaustiveCheck(result);
+}
+```
+
+```typescript
+// 実践的なパターン
+type Event =
+  | { type: 'click'; x: number; y: number }
+  | { type: 'keypress'; key: string };
+
+class EventHandler {
+  handle(event: Event): void {
+    switch (event.type) {
+      case 'click':
+        return this.onClick(event.x, event.y);
+      case 'keypress':
+        return this.onKey(event.key);
+      default:
+        return exhaustiveCheck(event);
+    }
+  }
+}
+```

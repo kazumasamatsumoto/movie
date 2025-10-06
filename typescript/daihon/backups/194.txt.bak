@@ -1,0 +1,44 @@
+# #194 「@IsNumber()デコレータ」台本
+
+四国めたん「TypeScript v5.9の@IsNumber()デコレータについて学びましょう！」
+ずんだもん「@IsNumber()デコレータって何？」
+四国めたん「数値型のバリデーションを行うデコレータです」
+ずんだもん「どうやって使うの？」
+四国めたん「@IsNumber()をプロパティに付与します」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、APIの型安全性に重要です」
+ずんだもん「デコレータで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// @IsNumber()デコレータ
+import { IsNumber, IsOptional } from 'class-validator';
+
+export class ProductDto {
+  @IsNumber()
+  id: number;
+
+  @IsNumber()
+  price: number;
+
+  @IsOptional()
+  @IsNumber()
+  discount?: number;
+}
+
+// 実用的な例
+export class UserDto {
+  @IsNumber()
+  age: number;
+
+  @IsNumber()
+  salary: number;
+
+  @IsOptional()
+  @IsNumber()
+  bonus?: number;
+}
+```

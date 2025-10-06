@@ -1,4 +1,3 @@
-# #170 「明示的な型変換」台本
 
 四国めたん「TypeScript v5.9の明示的な型変換について学びましょう！」
 ずんだもん「明示的な型変換って何？」
@@ -9,24 +8,3 @@
 四国めたん「はい、安全で予測可能な型変換に重要です」
 ずんだもん「明示的変換で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 明示的な型変換
-let str: string = "123";
-let bool: boolean = true;
-
-// 明示的な変換
-let num1: number = Number(str);      // 123
-let num2: number = parseInt(str);    // 123
-let num3: number = Number(bool);     // 1
-
-// 実用的な例
-let userInput: string = "25";
-let userAge: number = Number(userInput); // 明示的に変換
-
-let isActive: boolean = true;
-let activeValue: number = Number(isActive); // 明示的に変換
-```

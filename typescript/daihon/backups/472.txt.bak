@@ -1,0 +1,41 @@
+# #472「特殊な性質」
+
+四国めたん「never型の特殊な性質について学びましょう！」
+ずんだもん「neverにはどんな特殊性があるの？」
+四国めたん「ユニオン型で吸収される、到達不可能性を表現できる、型の絞り込みで使われます」
+ずんだもん「吸収されるってどういうこと？」
+四国めたん「T | never は T になります。空集合との和集合だからですね」
+ずんだもん「なるほど！数学的なんだね！」
+四国めたん「型の安全性を高める重要な性質です。TypeScript v5.9でも活用されますね」
+ずんだもん「型システムの要なんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// ユニオン型での吸収
+type Result1 = string | never;     // string
+type Result2 = number | never;     // number
+type Result3 = never | boolean;    // boolean
+```
+
+```typescript
+// インターセクション型
+type Result4 = string & never;     // never
+type Result5 = number & never;     // never
+```
+
+```typescript
+// 到達不可能性のチェック
+function exhaustiveCheck(value: never): never {
+  throw new Error(`Unhandled case: ${value}`);
+}
+
+type Color = "red" | "blue";
+function getColor(color: Color): string {
+  if (color === "red") return "#ff0000";
+  if (color === "blue") return "#0000ff";
+  return exhaustiveCheck(color);  // 型エラーで漏れを検出
+}
+```

@@ -1,4 +1,3 @@
-# #236 「二重否定 - !!」台本
 
 四国めたん「TypeScript v5.9の二重否定について学びましょう！」
 ずんだもん「二重否定って何？」
@@ -9,24 +8,3 @@
 四国めたん「はい、型変換に重要です」
 ずんだもん「二重否定で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 二重否定 - !!
-let userName: string = "John";
-let userAge: number = 25;
-let userData: object = {};
-let nullValue: null = null;
-
-// 二重否定の使用
-let hasName: boolean = !!userName;        // true
-let hasAge: boolean = !!userAge;          // true
-let hasData: boolean = !!userData;        // true
-let hasValue: boolean = !!nullValue;      // false
-
-// 実用的な例
-let userInput: string = "test";
-let hasInput: boolean = !!userInput;      // true
-```

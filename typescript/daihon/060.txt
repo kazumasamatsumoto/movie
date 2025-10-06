@@ -1,4 +1,3 @@
-# #060 「indexOf()の戻り値」台本
 
 四国めたん「TypeScript v5.9のindexOf()の戻り値について学びましょう！」
 ずんだもん「indexOf()の戻り値って何？」
@@ -9,29 +8,3 @@
 四国めたん「はい、検索結果の判定に重要です」
 ずんだもん「戻り値理解で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// indexOf()の戻り値
-let message: string = "Hello, World!";
-
-// 見つかった場合
-let foundIndex: number = message.indexOf("World"); // 7
-let foundIndex2: number = message.indexOf("Hello"); // 0
-
-// 見つからない場合
-let notFoundIndex: number = message.indexOf("TypeScript"); // -1
-
-// 型チェック
-console.log(typeof foundIndex); // "number"
-console.log(typeof notFoundIndex); // "number"
-
-// 実用的な例
-let userInput: string = "alice@example.com";
-let atIndex: number = userInput.indexOf("@");
-if (atIndex !== -1) {
-  console.log("メールアドレス形式です");
-}
-```

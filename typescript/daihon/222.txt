@@ -1,4 +1,3 @@
-# #222 「リテラル型とboolean型の違い」台本
 
 四国めたん「TypeScript v5.9のリテラル型とboolean型の違いについて学びましょう！」
 ずんだもん「リテラル型とboolean型の違いって何？」
@@ -9,26 +8,3 @@
 四国めたん「はい、適切な型選択に重要です」
 ずんだもん「型の違いで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// リテラル型とboolean型の違い
-
-// boolean型 - trueとfalse両方許可
-let flag1: boolean = true;   // OK
-let flag2: boolean = false;  // OK
-
-// trueリテラル型 - trueのみ許可
-let flag3: true = true;      // OK
-// let flag4: true = false;  // エラー
-
-// falseリテラル型 - falseのみ許可
-let flag5: false = false;    // OK
-// let flag6: false = true;  // エラー
-
-// 実用的な例
-let userLoggedIn: boolean = true;    // 変更可能
-const isProduction: true = true;     // 変更不可、trueのみ
-```

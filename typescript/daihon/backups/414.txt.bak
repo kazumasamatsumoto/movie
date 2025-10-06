@@ -1,0 +1,40 @@
+# #414「コンパイル結果」
+
+四国めたん「voidとundefinedのコンパイル結果について学びましょう！」
+ずんだもん「コンパイルするとどうなるの？」
+四国めたん「型情報は削除され、同じJavaScriptコードになります。void と undefined の区別はなくなりますね」
+ずんだもん「型は消えちゃうの？」
+四国めたん「はい、TypeScriptの型はコンパイル時のみです。実行時には存在しませんね」
+ずんだもん「なるほど！開発時だけの機能なんだね！」
+四国めたん「これがTypeScriptの設計思想です。TypeScript v5.9でも同じですね」
+ずんだもん「型安全性を開発時に得られるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// TypeScript
+function f1(): void {
+  console.log("void");
+}
+function f2(): undefined {
+  return undefined;
+}
+```
+
+```typescript
+// JavaScript (コンパイル結果)
+function f1() {
+  console.log("void");
+}
+function f2() {
+  return undefined;
+}
+```
+
+```typescript
+// 型情報は完全に削除される
+// TypeScript: function log(msg: string): void
+// JavaScript: function log(msg)
+```

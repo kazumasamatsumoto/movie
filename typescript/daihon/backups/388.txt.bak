@@ -1,0 +1,42 @@
+# #388「return undefined」
+
+四国めたん「void関数でのreturn undefinedについて学びましょう！」
+ずんだもん「void関数でundefinedを返せるの？」
+四国めたん「はい、return undefined は許可されています。void型と互換性があるためですね」
+ずんだもん「なぜ許可されてるの？」
+四国めたん「void関数は実行時にundefinedを返すため、明示的に書いても矛盾しません。ただし不要ですね」
+ずんだもん「なるほど！でも書かない方がいいの？」
+四国めたん「はい、通常は return; または return文なしが推奨されます。TypeScript v5.9でも同じですね」
+ずんだもん「シンプルに書くのがベストなんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// return undefined は許可される
+function log1(msg: string): void {
+  console.log(msg);
+  return undefined;  // OK
+}
+```
+
+```typescript
+// 推奨される書き方
+function log2(msg: string): void {
+  console.log(msg);
+  return;  // より簡潔
+}
+function log3(msg: string): void {
+  console.log(msg);
+  // return文なし (最も簡潔)
+}
+```
+
+```typescript
+// 早期リターンでの使用
+function validate(value: string): void {
+  if (!value) return;  // 推奨
+  console.log(value);
+}
+```

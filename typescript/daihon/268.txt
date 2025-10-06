@@ -1,4 +1,3 @@
-# #268 「型述語関数 - x is Type」台本
 
 四国めたん「TypeScript v5.9の型述語関数について学びましょう！」
 ずんだもん「型述語関数って何？」
@@ -9,26 +8,3 @@
 四国めたん「function isString(x): x is stringのように定義します」
 ずんだもん「カスタム型ガードが作れるね！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 型述語関数
-
-function isString(value: unknown): value is string {
-  return typeof value === 'string';
-}
-
-function isNumber(value: unknown): value is number {
-  return typeof value === 'number';
-}
-
-// 使用例
-function process(value: unknown) {
-  if (isString(value)) {
-    console.log(value.toUpperCase());
-  } else if (isNumber(value)) {
-    console.log(value.toFixed(2));
-  }
-}

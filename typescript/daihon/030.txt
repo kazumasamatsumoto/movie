@@ -1,4 +1,3 @@
-# #030 「複数行のテンプレートリテラル」台本
 
 四国めたん「TypeScript v5.9の複数行テンプレートリテラルについて学びましょう！」
 ずんだもん「複数行のテンプレートリテラルって何？」
@@ -9,32 +8,3 @@
 四国めたん「はい、HTMLテンプレートや長いメッセージに活用できます」
 ずんだもん「複数行で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 複数行テンプレートリテラル
-let userName: string = "Alice";
-let userEmail: string = "alice@example.com";
-
-// 複数行の文字列
-let multiLineMessage: string = `
-Hello, ${userName}!
-
-Thank you for registering.
-Your email: ${userEmail}
-
-Best regards,
-Support Team
-`;
-
-// 実用的な例
-let htmlTemplate: string = `
-<div class="user-card">
-  <h2>${userName}</h2>
-  <p>Email: ${userEmail}</p>
-  <button>Edit Profile</button>
-</div>
-`;
-```

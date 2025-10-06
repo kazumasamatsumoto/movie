@@ -1,4 +1,3 @@
-# #076 「配列の要素アクセス」台本
 
 四国めたん「TypeScript v5.9の配列要素アクセスについて学びましょう！」
 ずんだもん「配列の要素アクセスってどうするの？」
@@ -9,21 +8,3 @@
 四国めたん「はい、データの表示や処理に活用できます」
 ずんだもん「要素アクセスで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 配列の要素アクセス
-let names: string[] = ["Alice", "Bob", "Charlie"];
-
-// インデックスでアクセス
-let first: string = names[0]; // "Alice"
-let second: string = names[1]; // "Bob"
-let last: string = names[names.length - 1]; // "Charlie"
-
-// 実用的な例
-let userRoles: string[] = ["admin", "user", "guest"];
-let adminRole: string = userRoles[0]; // "admin"
-let userRole: string = userRoles[1]; // "user"
-```

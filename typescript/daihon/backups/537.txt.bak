@@ -1,0 +1,58 @@
+# #537 「ルートガード」
+
+四国めたん「ルートガードでの網羅性チェックについて学びましょう！」
+ずんだもん「ルートガードでどう網羅性をチェックするの？」
+四国めたん「すべてのルート状態を型で定義し、never型で未処理ケースを検出します」
+ずんだもん「具体的にどう実装するの？」
+四国めたん「判別Union型でルート状態を表現し、網羅的にガード処理を実装しますね」
+ずんだもん「なるほど！新しいルート追加時も安全だね！」
+四国めたん「型安全性により、リファクタリング時の見落としも防げますね」
+ずんだもん「大規模アプリケーションで特に重要だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// ルート状態の型定義
+type RouteState =
+  | { type: 'public' }
+  | { type: 'protected'; requiredRole: string }
+  | { type: 'admin' };
+
+function canAccess(state: RouteState, userRole: string): boolean {
+  if (state.type === 'public') return true;
+  if (state.type === 'protected') return userRole === state.requiredRole;
+  if (state.type === 'admin') return userRole === 'admin';
+  const check: never = state;
+  return false;
+}
+```
+
+```typescript
+// 複雑なガードロジック
+type Permission = 'read' | 'write' | 'delete';
+type GuardCheck =
+  | { check: 'role'; role: string }
+  | { check: 'permission'; permission: Permission };
+
+function validateGuard(check: GuardCheck, user: User): boolean {
+  if (check.check === 'role') return user.role === check.role;
+  if (check.check === 'permission') return user.permissions.includes(check.permission);
+  const exhaustive: never = check;
+  return false;
+}
+```
+
+```typescript
+// CanActivateFn with 網羅性
+export const authGuard: CanActivateFn = (route, state) => {
+  const requiredAuth = route.data['auth'] as AuthType;
+
+  if (requiredAuth === 'none') return true;
+  if (requiredAuth === 'user') return checkUser();
+  if (requiredAuth === 'admin') return checkAdmin();
+  const check: never = requiredAuth;
+  return false;
+};
+```

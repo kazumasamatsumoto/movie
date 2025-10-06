@@ -1,0 +1,31 @@
+# #091 「パフォーマンス最適化(1)」台本
+
+四国めたん「TypeScript v5.9のパフォーマンス最適化(1)について学びましょう！」
+ずんだもん「パフォーマンス最適化って何？」
+四国めたん「プログラムの実行速度やメモリ使用量を改善することです」
+ずんだもん「どんな最適化があるの？」
+四国めたん「文字列結合、メモリ管理、型の最適化などがあります」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、ユーザー体験の向上に重要です」
+ずんだもん「パフォーマンス最適化で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// パフォーマンス最適化(1)
+
+// 効率的な文字列結合
+let name: string = "Alice";
+let age: number = 30;
+let message: string = `Name: ${name}, Age: ${age}`; // テンプレートリテラル
+
+// 非効率な結合
+// let message: string = "Name: " + name + ", Age: " + age;
+
+// 実用的な例
+let userInfo: string = `User: ${name}`;
+let productInfo: string = `Product: TypeScript Book`;
+let apiResponse: string = `Status: Success`;
+```

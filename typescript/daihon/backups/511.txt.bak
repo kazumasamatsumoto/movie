@@ -1,0 +1,47 @@
+# #511 「型ガード」
+
+四国めたん「型ガードと網羅性チェックの関係について学びましょう！」
+ずんだもん「型ガードってどう関係するの？」
+四国めたん「型ガードで型を絞り込むことで、残りの型がnever型になり網羅性を検証できます」
+ずんだもん「具体的にどう書くの？」
+四国めたん「typeofやinstanceof、カスタム型ガードで型を絞り込み、最後にnever型でチェックします」
+ずんだもん「なるほど！型ガードが網羅性チェックの基礎なんだね！」
+四国めたん「制御フロー分析により、コンパイラが自動で型を追跡しますね」
+ずんだもん「型推論とガードの組み合わせが強力だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+type Shape =
+  | { kind: 'circle'; radius: number }
+  | { kind: 'square'; size: number }
+  | { kind: 'rectangle'; width: number; height: number };
+```
+
+```typescript
+function area(shape: Shape): number {
+  if (shape.kind === 'circle') {
+    return Math.PI * shape.radius ** 2;
+  } else if (shape.kind === 'square') {
+    return shape.size ** 2;
+  } else if (shape.kind === 'rectangle') {
+    return shape.width * shape.height;
+  }
+  const check: never = shape; // 網羅性チェック
+  return 0;
+}
+```
+
+```typescript
+// カスタム型ガード
+function isCircle(shape: Shape): shape is Extract<Shape, { kind: 'circle' }> {
+  return shape.kind === 'circle';
+}
+
+function process(shape: Shape) {
+  if (isCircle(shape)) return shape.radius;
+  // 残りの型で処理
+}
+```

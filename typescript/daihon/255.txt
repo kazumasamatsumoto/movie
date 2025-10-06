@@ -1,4 +1,3 @@
-# #255 「比較演算まとめ」台本
 
 四国めたん「TypeScript v5.9の比較演算のまとめについて学びましょう！」
 ずんだもん「比較演算のポイントは？」
@@ -9,24 +8,3 @@
 四国めたん「はい、型安全な比較はバグ防止に不可欠です」
 ずんだもん「比較演算をマスターできたよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 比較演算のまとめ
-
-// ✅ 推奨: ===の使用
-if (value === 0) { }
-
-// ✅ 浮動小数点の比較
-function isClose(a: number, b: number): boolean {
-  return Math.abs(a - b) < 1e-10;
-}
-
-// ✅ null/undefinedチェック
-if (value === null) { }
-if (value === undefined) { }
-
-// ✅ 範囲チェック
-if (score >= 60 && score <= 100) { }

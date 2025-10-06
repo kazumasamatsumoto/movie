@@ -1,0 +1,36 @@
+# #277 「間違い(2) - truthyとの混同」台本
+
+四国めたん「TypeScript v5.9のよくある間違い、truthyとの混同について学びましょう！」
+ずんだもん「truthyとの混同ってどういうこと？」
+四国めたん「truthyチェックと明示的なboolean比較を混同することです」
+ずんだもん「具体的な問題は？」
+四国めたん「if (value)は0や空文字列もfalseになり、意図しない挙動になります」
+ずんだもん「どうすればいい？」
+四国めたん「明示的にnullやundefinedをチェックするか、型ガードを使います」
+ずんだもん「明示的なチェックが大事だね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// ❌ 間違い: truthyとの混同
+
+function process(count: number | null) {
+  if (count) {  // 0もfalsyなので問題
+    console.log(count);
+  }
+}
+
+// ✅ 正しい: 明示的なチェック
+
+function processCorrect(count: number | null) {
+  if (count !== null && count !== undefined) {
+    console.log(count);  // 0も正しく処理される
+  }
+}
+
+// または
+if (count != null) {
+  console.log(count);
+}

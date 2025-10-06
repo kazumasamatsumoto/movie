@@ -1,0 +1,36 @@
+# #271 「Angularテンプレートでのboolean」台本
+
+四国めたん「TypeScript v5.9のAngularテンプレートでのbooleanについて学びましょう！」
+ずんだもん「Angularのテンプレートでbooleanはどう使うの？」
+四国めたん「*ngIfや[disabled]などのディレクティブで使用します」
+ずんだもん「どう記述するの？」
+四国めたん「コンポーネントのbooleanプロパティをバインドします」
+ずんだもん「型安全に使える？」
+四国めたん「はい、TypeScriptの型チェックが効きます」
+ずんだもん「Angularでも型安全だね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Angularテンプレートでのboolean
+
+// コンポーネント
+@Component({
+  selector: 'app-user',
+  template: `
+    <div *ngIf="isLoggedIn">ログイン済み</div>
+    <button [disabled]="!isValid">送信</button>
+  `
+})
+export class UserComponent {
+  isLoggedIn: boolean = true;
+  isValid: boolean = false;
+  
+  checkStatus(): void {
+    if (this.isLoggedIn && this.isValid) {
+      console.log('OK');
+    }
+  }
+}

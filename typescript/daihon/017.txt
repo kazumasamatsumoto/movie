@@ -1,4 +1,3 @@
-# #017 「タブのエスケープ - \t」台本
 
 四国めたん「TypeScript v5.9のタブエスケープについて学びましょう！」
 ずんだもん「タブのエスケープって何？」
@@ -9,21 +8,3 @@
 四国めたん「はい、ログ出力やデータ表示に活用できます」
 ずんだもん「タブ処理で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// タブのエスケープ
-let tabbedData: string = "Name\tAge\tCity\nAlice\t30\tTokyo\nBob\t25\tOsaka";
-let indentedText: string = "Level 1\n\tLevel 2\n\t\tLevel 3";
-let logFormat: string = "INFO\t2024-01-01\tUser login successful";
-
-// 実用的な例
-let csvHeader: string = "ID\tName\tEmail\tStatus";
-let csvData: string = "1\tAlice\talice@example.com\tActive\n2\tBob\tbob@example.com\tInactive";
-let debugOutput: string = "Function: processData\n\tInput: userData\n\tOutput: processedData";
-
-// コンソール出力での確認
-console.log(tabbedData);
-```

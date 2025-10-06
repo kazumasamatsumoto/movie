@@ -1,0 +1,35 @@
+# #159 「Numberコンストラクタ」台本
+
+四国めたん「TypeScript v5.9のNumberコンストラクタについて学びましょう！」
+ずんだもん「Numberコンストラクタって何？」
+四国めたん「new Number()でNumberオブジェクトを作成する方法です」
+ずんだもん「どんな問題があるの？」
+四国めたん「オブジェクト型になるため、比較や型チェックで問題が発生します」
+ずんだもん「Angularの開発でも注意が必要？」
+四国めたん「はい、予期しない動作を避けるために重要です」
+ずんだもん「コンストラクタ理解で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Numberコンストラクタ（避けるべき）
+// let numObj = new Number(30); // 非推奨
+
+// 正しい方法：数値リテラル
+let num: number = 30;
+
+// 型の違い
+console.log(typeof num);        // "number"
+// console.log(typeof numObj);  // "object"
+
+// 比較の問題
+let num1: number = 30;
+let num2: number = 30;
+console.log(num1 === num2); // true
+
+// let obj1 = new Number(30);
+// let obj2 = new Number(30);
+// console.log(obj1 === obj2); // false
+```

@@ -1,4 +1,3 @@
-# #272 「*ngIfディレクティブ」台本
 
 四国めたん「TypeScript v5.9の*ngIfディレクティブについて学びましょう！」
 ずんだもん「*ngIfってどう使うの？」
@@ -9,27 +8,3 @@
 四国めたん「はい、*ngIf="条件; else template"の形式で使用できます」
 ずんだもん「条件分岐が簡単にできるね！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// *ngIfディレクティブ
-
-@Component({
-  selector: 'app-example',
-  template: `
-    <div *ngIf="isVisible">表示されます</div>
-    
-    <div *ngIf="isLoggedIn; else loginTemplate">
-      ログイン済み
-    </div>
-    <ng-template #loginTemplate>
-      未ログイン
-    </ng-template>
-  `
-})
-export class ExampleComponent {
-  isVisible: boolean = true;
-  isLoggedIn: boolean = false;
-}

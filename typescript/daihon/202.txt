@@ -1,4 +1,3 @@
-# #202 「boolean型の宣言」台本
 
 四国めたん「TypeScript v5.9のboolean型宣言について学びましょう！」
 ずんだもん「boolean型の宣言ってどうするの？」
@@ -9,23 +8,3 @@
 四国めたん「はい、コンポーネントのプロパティに活用できます」
 ずんだもん「boolean宣言で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// boolean型の宣言
-let isActive: boolean;
-let isCompleted: boolean;
-let hasPermission: boolean;
-
-// 後で値を代入
-isActive = true;
-isCompleted = false;
-hasPermission = true;
-
-// 実用的な例
-let userLoggedIn: boolean = true;
-let formValid: boolean = false;
-let dataLoaded: boolean = true;
-```

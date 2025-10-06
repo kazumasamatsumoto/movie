@@ -1,0 +1,27 @@
+# #266 「truthyな値」台本
+
+四国めたん「TypeScript v5.9のtruthyな値について学びましょう！」
+ずんだもん「truthyな値って何があるの？」
+四国めたん「6つのfalsy値以外は全てtruthyです」
+ずんだもん「具体例を教えて！」
+四国めたん「true、1以上の数値、空でない文字列、オブジェクト、配列などです」
+ずんだもん「空配列や空オブジェクトもtruthy？」
+四国めたん「はい、オブジェクトは中身が空でもtruthyです」
+ずんだもん「falsy以外は全部truthyって覚えやすいね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// truthyな値の例
+
+console.log(Boolean(true));      // true
+console.log(Boolean(1));         // true
+console.log(Boolean(-1));        // true
+console.log(Boolean('hello'));   // true
+console.log(Boolean('0'));       // true (文字列の'0')
+console.log(Boolean([]));        // true (空配列)
+console.log(Boolean({}));        // true (空オブジェクト)
+console.log(Boolean(new Date())); // true
+console.log(Boolean(function(){})); // true

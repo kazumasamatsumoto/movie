@@ -1,0 +1,38 @@
+# #046 「Stringからstringへ - valueOf()」台本
+
+四国めたん「TypeScript v5.9のStringからstringへの変換について学びましょう！」
+ずんだもん「Stringからstringへの変換って何？」
+四国めたん「Stringオブジェクトをプリミティブのstring型に変換する方法です」
+ずんだもん「どうやって変換するの？」
+四国めたん「valueOf()メソッドやString()関数を使用します」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、データ変換や型の統一に活用できます」
+ずんだもん「型変換で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Stringからstringへの変換
+
+// 1. valueOf()メソッド
+// let strObj = new String("Hello");
+// let str: string = strObj.valueOf(); // string型に変換
+
+// 2. String()関数
+// let strObj = new String("Hello");
+// let str: string = String(strObj); // string型に変換
+
+// 3. 文字列リテラル（推奨）
+let str: string = "Hello"; // 最初からstring型
+
+// 実用的な例
+let userData = {
+  name: "Alice",
+  email: "alice@example.com"
+};
+
+let userName: string = String(userData.name);
+let userEmail: string = String(userData.email);
+```

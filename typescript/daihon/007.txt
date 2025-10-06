@@ -1,4 +1,3 @@
-# #007 「string型とリテラル型の違い - "hello" vs string」台本
 
 四国めたん「TypeScript v5.9のstring型とリテラル型の違いについて学びましょう！」
 ずんだもん「string型とリテラル型って何が違うの？」
@@ -8,24 +7,4 @@
 ずんだもん「Angularの開発でも重要？」
 四国めたん「はい、型の精度を高めてバグを防げます」
 ずんだもん「型の精度で最高だよ！」
-
----
-
-## 📺 画面表示用コード
-
-```typescript
-// string型 - 任意の文字列
-let message: string = "Hello";
-message = "World"; // OK
-message = "こんにちは"; // OK
-
-// リテラル型 - 特定の文字列のみ
-let status: "active" | "inactive" = "active";
-// status = "pending"; // エラー: Type '"pending"' is not assignable to type '"active" | "inactive"'
-
-// 実用的な例
-let theme: "light" | "dark" = "light";
-let language: "ja" | "en" = "ja";
-let userRole: "admin" | "user" | "guest" = "user";
-```
 

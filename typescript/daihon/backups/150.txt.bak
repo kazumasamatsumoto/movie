@@ -1,0 +1,31 @@
+# #150 「単項プラス - +x」台本
+
+四国めたん「TypeScript v5.9の単項プラスについて学びましょう！」
+ずんだもん「単項プラスって何？」
+四国めたん「数値を正の値に変換する+演算子です」
+ずんだもん「どうやって使うの？」
+四国めたん「+xのように数値の前に+を付けます」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、数値の正規化や型変換に活用できます」
+ずんだもん「単項プラスで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 単項プラス
+let negative: number = -5;
+let positive: number = +negative; // -5 (符号は変わらない)
+
+// 型変換での使用
+let stringNumber: string = "123";
+let number: number = +stringNumber; // 123
+
+// 実用的な例
+let userInput: string = "42";
+let numericValue: number = +userInput; // 42
+
+let absoluteValue: number = +Math.abs(-10); // 10
+```
+

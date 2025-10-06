@@ -1,0 +1,37 @@
+# #189 「浮動小数点のベストプラクティス」台本
+
+四国めたん「TypeScript v5.9の浮動小数点のベストプラクティスについて学びましょう！」
+ずんだもん「浮動小数点のベストプラクティスって何？」
+四国めたん「精度問題を避けるための推奨事項です」
+ずんだもん「どんなプラクティスがあるの？」
+四国めたん「整数演算、ライブラリ使用、適切な比較などです」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、正確な数値計算に重要です」
+ずんだもん「ベストプラクティスで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 浮動小数点のベストプラクティス
+
+// 1. 整数演算の使用
+function addDecimals(a: number, b: number): number {
+  const factor = 100;
+  return (Math.round(a * factor) + Math.round(b * factor)) / factor;
+}
+
+// 2. 適切な比較
+function isEqual(a: number, b: number): boolean {
+  return Math.abs(a - b) < 1e-10;
+}
+
+// 3. 表示用のフォーマット
+let price: number = 1500.99;
+let displayPrice: string = price.toFixed(2);
+
+// 実用的な例
+let total: number = addDecimals(0.1, 0.2);
+console.log(isEqual(total, 0.3)); // true
+```

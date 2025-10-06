@@ -1,0 +1,34 @@
+# #320「レガシーコード対応」
+
+四国めたん「レガシーコードへの対応について学びましょう！」
+ずんだもん「古いコードはどう扱えばいいの？」
+四国めたん「Non-Null Assertionや型アサーションを一時的に使います。段階的に修正していきますね」
+ずんだもん「どんな方法があるの？」
+四国めたん「! 演算子でnullチェックを回避したり、as で型をキャストします。ただし一時的な措置ですね」
+ずんだもん「なるほど！最終的には修正するんだね！」
+四国めたん「TODOコメントを残し、計画的に型安全なコードに書き換えます。技術的負債を減らしましょう」
+ずんだもん「段階的に改善できて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Non-Null Assertion (一時的)
+const user = getUser()!; // null/undefinedでないと保証
+user.name; // OK
+```
+
+```typescript
+// 型アサーション (一時的)
+const data = response as User;
+// TODO: 適切なnullチェックに修正
+```
+
+```typescript
+// 段階的修正
+function legacyFunc(value: any) {
+  // TODO: strictNullChecks対応
+  return value.toString();
+}
+```

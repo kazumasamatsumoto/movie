@@ -1,0 +1,33 @@
+# #267 「明示的なboolean変換」台本
+
+四国めたん「TypeScript v5.9の明示的なboolean変換について学びましょう！」
+ずんだもん「boolean変換ってどうやるの？」
+四国めたん「Boolean()関数、!!演算子、三項演算子などがあります」
+ずんだもん「!!演算子って何？」
+四国めたん「否定を2回行うことでbooleanに変換する方法です」
+ずんだもん「どっちを使えばいい？」
+四国めたん「Boolean()が明示的で読みやすいですが、!!もよく使われます」
+ずんだもん「明示的な変換で型安全だね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 明示的なboolean変換
+
+// Boolean()関数
+const value1 = Boolean('hello'); // true
+const value2 = Boolean(0);       // false
+
+// !!演算子（二重否定）
+const value3 = !!'hello';  // true
+const value4 = !!0;        // false
+
+// 型安全な変換
+function toBoolean(value: unknown): boolean {
+  return Boolean(value);
+}
+
+// 条件式での使用
+const isValid = Boolean(userInput);

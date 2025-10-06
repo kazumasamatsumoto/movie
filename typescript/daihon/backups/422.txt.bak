@@ -1,0 +1,38 @@
+# #422「await式の型」
+
+四国めたん「await式の型について学びましょう！」
+ずんだもん「await Promise<void>の型は何になるの？」
+四国めたん「void 型になります。Promiseがアンラップされますね」
+ずんだもん「使えるの？」
+四国めたん「型としては void なので、値として使えません。完了を待つだけですね」
+ずんだもん「なるほど！待つだけなんだね！」
+四国めたん「Promise<T>なら await で T 型になります。Promise<void>は void ですね」
+ずんだもん「Promise が外れるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// await式の型
+async function example(): Promise<void> {
+  const result: void = await saveData(data);
+  // resultはvoid型
+}
+```
+
+```typescript
+// Promise<T>との比較
+async function compare(): Promise<void> {
+  const num: number = await Promise.resolve(42);
+  const v: void = await Promise.resolve();
+}
+```
+
+```typescript
+// 値として使えない
+async function invalid(): Promise<void> {
+  const result = await initialize();
+  // const str: string = result;  // エラー
+}
+```

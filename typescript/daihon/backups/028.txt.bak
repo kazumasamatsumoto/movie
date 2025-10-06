@@ -1,0 +1,32 @@
+# #028 「複数の変数埋め込み - `${first} ${last}`」台本
+
+四国めたん「TypeScript v5.9の複数変数埋め込みについて学びましょう！」
+ずんだもん「複数の変数埋め込みって何？」
+四国めたん「一つのテンプレートリテラル内で複数の変数を埋め込む機能です」
+ずんだもん「いくつでも埋め込めるの？」
+四国めたん「はい、必要な数だけ変数を埋め込めます」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、複雑なメッセージや情報の組み合わせに活用できます」
+ずんだもん「複数埋め込みで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 複数変数埋め込みの例
+let firstName: string = "Alice";
+let lastName: string = "Smith";
+let age: number = 30;
+let city: string = "Tokyo";
+
+// 複数の変数埋め込み
+let fullInfo: string = `${firstName} ${lastName}, ${age} years old, from ${city}`;
+let greeting: string = `Hello, ${firstName} ${lastName}! You are ${age} years old.`;
+
+// 実用的な例
+let productName: string = "TypeScript学習本";
+let price: number = 2980;
+let discount: number = 0.1;
+let finalPrice: string = `${productName}: ¥${price} (${discount * 100}% off) = ¥${price * (1 - discount)}`;
+```

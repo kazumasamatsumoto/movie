@@ -1,0 +1,42 @@
+# #461「never型とは」
+
+四国めたん「never型について学びましょう！」
+ずんだもん「never型ってどんな型なの？」
+四国めたん「決して値を返さない関数の戻り値型です。到達不可能なコードを表現しますね」
+ずんだもん「どういう時に使うの？」
+四国めたん「例外を投げる関数、無限ループ、switch文の網羅性チェックなどで使います」
+ずんだもん「なるほど！処理が終わらないんだね！」
+四国めたん「voidと異なり、制御が戻ってこないことを示します。TypeScript v5.9でも重要な型ですね」
+ずんだもん「特殊な型なんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// never型の基本
+function throwError(message: string): never {
+  throw new Error(message);
+}
+```
+
+```typescript
+// 無限ループ
+function infiniteLoop(): never {
+  while (true) {
+    console.log("Running...");
+  }
+}
+```
+
+```typescript
+// voidとの違い
+function voidFunc(): void {
+  console.log("Done");
+  // 制御が戻る
+}
+function neverFunc(): never {
+  throw new Error("Never returns");
+  // 制御が戻らない
+}
+```

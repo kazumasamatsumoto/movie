@@ -1,4 +1,3 @@
-# #023 「変数の埋め込み - ${variable}」台本
 
 四国めたん「TypeScript v5.9の変数埋め込みについて学びましょう！」
 ずんだもん「変数の埋め込みってどうするの？」
@@ -9,24 +8,3 @@
 四国めたん「はい、コンポーネントのプロパティ表示に活用できます」
 ずんだもん「変数埋め込みで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 変数埋め込みの例
-let firstName: string = "Alice";
-let lastName: string = "Smith";
-let age: number = 30;
-let isVip: boolean = true;
-
-// 文字列変数の埋め込み
-let fullName: string = `${firstName} ${lastName}`;
-let ageMessage: string = `Age: ${age}`;
-let vipStatus: string = `VIP: ${isVip}`;
-
-// 実用的な例
-let productName: string = "TypeScript学習本";
-let price: number = 2980;
-let description: string = `${productName} - ¥${price}`;
-```

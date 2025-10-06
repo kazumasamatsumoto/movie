@@ -1,0 +1,34 @@
+# #269 「型ガードのベストプラクティス」台本
+
+四国めたん「TypeScript v5.9の型ガードのベストプラクティスについて学びましょう！」
+ずんだもん「型ガードの使い方のコツは？」
+四国めたん「型述語関数の活用、早期リターン、明示的な型チェックです」
+ずんだもん「型述語関数を使う理由は？」
+四国めたん「再利用性が高く、コードの意図が明確になります」
+ずんだもん「他のポイントは？」
+四国めたん「strictNullChecksを有効にし、nullチェックを徹底することです」
+ずんだもん「型安全なコードが書けるね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 型ガードのベストプラクティス
+
+// ✅ 型述語関数の活用
+function isUser(obj: unknown): obj is { name: string; age: number } {
+  return typeof obj === 'object' && obj !== null &&
+    'name' in obj && 'age' in obj;
+}
+
+// ✅ 早期リターン
+function process(value: string | null) {
+  if (value === null) return;
+  console.log(value.toUpperCase());
+}
+
+// ✅ 明示的なnullチェック
+if (value !== null && value !== undefined) {
+  // 安全に使用
+}

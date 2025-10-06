@@ -1,0 +1,59 @@
+# #517 「型安全性向上」
+
+四国めたん「網羅性チェックによる型安全性向上について学びましょう！」
+ずんだもん「どんな風に安全性が向上するの？」
+四国めたん「すべてのケースを型レベルで保証することで、実行時エラーを事前に防げます」
+ずんだもん「具体的にどんなメリットがあるの？」
+四国めたん「リファクタリング時の安全性、新機能追加時の漏れ防止、バグの早期発見が実現できます」
+ずんだもん「なるほど！開発速度と品質が両立するんだね！」
+四国めたん「型駆動開発により、設計の整合性も保たれますね」
+ずんだもん「エンタープライズ開発で特に重要だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 型安全なステートマシン
+type State = 'idle' | 'loading' | 'success' | 'error';
+type Event = 'start' | 'complete' | 'fail' | 'reset';
+
+function transition(state: State, event: Event): State {
+  if (state === 'idle' && event === 'start') return 'loading';
+  if (state === 'loading' && event === 'complete') return 'success';
+  if (state === 'loading' && event === 'fail') return 'error';
+  if (event === 'reset') return 'idle';
+  return state;
+}
+```
+
+```typescript
+// 型安全なイベントハンドラ
+type AppEvent =
+  | { type: 'click'; x: number; y: number }
+  | { type: 'keypress'; key: string }
+  | { type: 'scroll'; delta: number };
+
+function handle(event: AppEvent): void {
+  if (event.type === 'click') console.log(event.x, event.y);
+  else if (event.type === 'keypress') console.log(event.key);
+  else if (event.type === 'scroll') console.log(event.delta);
+  else {
+    const check: never = event;
+  }
+}
+```
+
+```typescript
+// 型安全なルーティング
+type Route = '/home' | '/about' | '/contact';
+
+function navigate(route: Route): void {
+  if (route === '/home') loadHome();
+  else if (route === '/about') loadAbout();
+  else if (route === '/contact') loadContact();
+  else {
+    const check: never = route;
+  }
+}
+```

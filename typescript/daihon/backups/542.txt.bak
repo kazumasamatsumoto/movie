@@ -1,0 +1,63 @@
+# #542 「DTOバリデーション」
+
+四国めたん「DTOバリデーションとnever型について学びましょう！」
+ずんだもん「DTOバリデーションでどう使うの？」
+四国めたん「バリデーション結果を判別Union型で表現し、すべてのエラーケースを網羅的に処理します」
+ずんだもん「具体的にどう実装するの？」
+四国めたん「class-validatorと組み合わせて、型安全なバリデーションパイプを実装しますね」
+ずんだもん「なるほど！入力値の検証が型安全になるんだね！」
+四国めたん「Nest.jsのDTOパターンと相性が良く、実用的ですね」
+ずんだもん「APIの品質が大幅に向上するよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// バリデーション結果型
+type ValidationResult<T> =
+  | { valid: true; data: T }
+  | { valid: false; errors: ValidationError[] };
+
+function validate<T>(dto: T): ValidationResult<T> {
+  const errors = validateSync(dto);
+  if (errors.length === 0) return { valid: true, data: dto };
+  return { valid: false, errors };
+}
+
+function handleValidation<T>(result: ValidationResult<T>): T {
+  if (result.valid) return result.data;
+  if (!result.valid) throw new BadRequestException(result.errors);
+  const check: never = result;
+}
+```
+
+```typescript
+// 型安全なDTO変換
+type CreateUserDto = { name: string; email: string };
+type UpdateUserDto = { name?: string; email?: string };
+type DtoType = 'create' | 'update';
+
+function transformDto(type: DtoType, data: any): CreateUserDto | UpdateUserDto {
+  if (type === 'create') return plainToClass(CreateUserDto, data);
+  if (type === 'update') return plainToClass(UpdateUserDto, data);
+  const check: never = type;
+  throw new Error('Invalid DTO type');
+}
+```
+
+```typescript
+// カスタムバリデータ
+type ValidationRule =
+  | { type: 'required'; field: string }
+  | { type: 'email'; field: string }
+  | { type: 'minLength'; field: string; min: number };
+
+function applyRule(rule: ValidationRule, value: any): boolean {
+  if (rule.type === 'required') return value != null;
+  if (rule.type === 'email') return /\S+@\S+\.\S+/.test(value);
+  if (rule.type === 'minLength') return value.length >= rule.min;
+  const check: never = rule;
+  return false;
+}
+```

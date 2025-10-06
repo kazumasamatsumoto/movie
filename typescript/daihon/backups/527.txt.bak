@@ -1,0 +1,43 @@
+# #527 「フィルタリング」
+
+四国めたん「型のフィルタリングテクニックについて学びましょう！」
+ずんだもん「型をフィルタリングってどういうこと？」
+四国めたん「条件付き型とnever型を組み合わせて、不要な型を除外する技術です」
+ずんだもん「具体的にどう書くの？」
+四国めたん「T extends 条件 ? T : never のパターンで、条件に合う型だけを残せますね」
+ずんだもん「なるほど！Union型から特定の型を抽出できるんだね！」
+四国めたん「Exclude、Extract、NonNullableなどのUtility Typesの基礎ですね」
+ずんだもん「型レベルでの配列フィルタみたいだよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 文字列型のフィルタリング
+type StringsOnly<T> = T extends string ? T : never;
+
+type Result = StringsOnly<'a' | 'b' | 123 | true | 'c'>;
+// = 'a' | 'b' | 'c'
+```
+
+```typescript
+// 関数型のフィルタリング
+type FunctionsOnly<T> = T extends (...args: any[]) => any ? T : never;
+
+type Functions = FunctionsOnly<
+  | string
+  | ((x: number) => string)
+  | number
+  | ((y: string) => number)
+>;
+// = ((x: number) => string) | ((y: string) => number)
+```
+
+```typescript
+// 実践例：nullableな型の除外
+type NonNullable<T> = T extends null | undefined ? never : T;
+
+type Clean = NonNullable<string | null | number | undefined>;
+// = string | number
+```

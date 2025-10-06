@@ -1,0 +1,51 @@
+# #447「ミドルウェア」
+
+四国めたん「Nest.jsのミドルウェアとvoid型について学びましょう！」
+ずんだもん「ミドルウェアでvoid型はどう使うの？」
+四国めたん「NestMiddleware の use() メソッドは void を返します。next() を呼んで処理を続けますね」
+ずんだもん「どう実装するの？」
+四国めたん「Injectable デコレータとNestMiddleware インターフェースを使います。ロギングや認証で使いますね」
+ずんだもん「なるほど！リクエスト処理の前後なんだね！」
+四国めたん「Express のミドルウェアと同じパターンです。TypeScript v5.9でも同じですね」
+ずんだもん「サーバーサイドの基本パターンなんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Nest.jsミドルウェア
+import { Injectable, NestMiddleware } from '@nestjs/common';
+
+@Injectable()
+export class LoggerMiddleware implements NestMiddleware {
+  use(req: Request, res: Response, next: NextFunction): void {
+    console.log(`${req.method} ${req.url}`);
+    next();
+  }
+}
+```
+
+```typescript
+// 認証ミドルウェア
+@Injectable()
+export class AuthMiddleware implements NestMiddleware {
+  use(req: Request, res: Response, next: NextFunction): void {
+    if (!req.headers.authorization) {
+      throw new UnauthorizedException();
+    }
+    next();
+  }
+}
+```
+
+```typescript
+// 複数の処理
+@Injectable()
+export class CorsMiddleware implements NestMiddleware {
+  use(req: Request, res: Response, next: NextFunction): void {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    next();
+  }
+}
+```

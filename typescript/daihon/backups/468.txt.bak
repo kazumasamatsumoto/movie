@@ -1,0 +1,34 @@
+# #468「変数宣言」
+
+四国めたん「never型の変数宣言について学びましょう！」
+ずんだもん「never型の変数って作れるの？」
+四国めたん「宣言はできますが、何も代入できません。実用的ではないですね」
+ずんだもん「なぜ存在するの？」
+四国めたん「型システムの完全性のためです。条件付き型やジェネリクスで使われますね」
+ずんだもん「なるほど！型レベルの計算なんだね！」
+四国めたん「通常のコードでは使いません。TypeScript v5.9でも特殊な型ですね」
+ずんだもん「高度な型操作用なんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// never型変数の宣言
+let neverValue: never;
+// neverValue = 1;        // エラー
+// neverValue = "text";   // エラー
+// neverValue = null;     // エラー
+```
+
+```typescript
+// 条件付き型での使用
+type NonNullable<T> = T extends null | undefined ? never : T;
+type Result = NonNullable<string | null>;  // string
+```
+
+```typescript
+// ユニオン型からの除外
+type Exclude<T, U> = T extends U ? never : T;
+type Numbers = Exclude<string | number, string>;  // number
+```

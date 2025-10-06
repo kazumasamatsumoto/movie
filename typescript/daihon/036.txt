@@ -1,4 +1,3 @@
-# #036 「デバッグのコツ」台本
 
 四国めたん「TypeScript v5.9のテンプレートリテラルデバッグについて学びましょう！」
 ずんだもん「デバッグのコツって何？」
@@ -9,29 +8,3 @@
 四国めたん「はい、複雑なテンプレートのデバッグに活用できます」
 ずんだもん「デバッグ技術で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// デバッグのコツ
-let userName: string = "Alice";
-let userAge: number = 30;
-
-// 1. 変数の確認
-console.log("userName:", userName);
-console.log("userAge:", userAge);
-
-// 2. 段階的な構築
-let part1: string = `Name: ${userName}`;
-let part2: string = `Age: ${userAge}`;
-let fullMessage: string = `${part1}, ${part2}`;
-
-// 3. コンソール出力で確認
-console.log("Full message:", fullMessage);
-
-// 実用的な例
-let product = { name: "本", price: 1000 };
-let productInfo: string = `${product.name}: ¥${product.price}`;
-console.log("Product info:", productInfo);
-```

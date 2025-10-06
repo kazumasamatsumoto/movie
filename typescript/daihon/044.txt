@@ -1,4 +1,3 @@
-# #044 「Stringコンストラクタ - new String()」台本
 
 四国めたん「TypeScript v5.9のStringコンストラクタについて学びましょう！」
 ずんだもん「Stringコンストラクタって何？」
@@ -9,27 +8,3 @@
 四国めたん「はい、予期しない動作を避けるために重要です」
 ずんだもん「コンストラクタ理解で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// Stringコンストラクタ（避けるべき）
-// let strObj = new String("Hello"); // 非推奨
-
-// 正しい方法：文字列リテラル
-let str: string = "Hello";
-
-// 型の違い
-console.log(typeof str);        // "string"
-// console.log(typeof strObj);  // "object"
-
-// 比較の問題
-let str1: string = "Hello";
-let str2: string = "Hello";
-console.log(str1 === str2); // true
-
-// let obj1 = new String("Hello");
-// let obj2 = new String("Hello");
-// console.log(obj1 === obj2); // false
-```

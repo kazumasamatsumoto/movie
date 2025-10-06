@@ -1,0 +1,29 @@
+# #205 「型推論でboolean型」台本
+
+四国めたん「TypeScript v5.9の型推論でboolean型について学びましょう！」
+ずんだもん「型推論でboolean型って何？」
+四国めたん「型注釈を省略してTypeScriptが自動的にboolean型と推論する機能です」
+ずんだもん「どうやって使うの？」
+四国めたん「let flag = trueのように型注釈を省略します」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、コードの簡潔性に重要です」
+ずんだもん「型推論で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 型推論でboolean型
+let isActive = true;        // boolean型と推論
+let isCompleted = false;    // boolean型と推論
+let hasPermission = true;   // boolean型と推論
+
+// 実用的な例
+let userLoggedIn = true;    // boolean型と推論
+let formValid = false;      // boolean型と推論
+let dataLoaded = true;      // boolean型と推論
+
+// 型注釈なしでも型安全
+// isActive = "true"; // エラー: Type 'string' is not assignable to type 'boolean'
+```

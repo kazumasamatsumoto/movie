@@ -1,4 +1,3 @@
-# #123 「Infinityの生成 - 1/0」台本
 
 四国めたん「TypeScript v5.9のInfinityの生成について学びましょう！」
 ずんだもん「Infinityの生成って何？」
@@ -9,21 +8,3 @@
 四国めたん「はい、数値計算の結果を理解するために重要です」
 ずんだもん「計算結果で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// Infinityの生成
-let result1: number = 1 / 0;        // Infinity
-let result2: number = -1 / 0;       // -Infinity
-let result3: number = Number.MAX_VALUE * 2; // Infinity
-
-// 実用的な例
-let division: number = 100 / 0;     // Infinity
-let multiplication: number = Number.MAX_VALUE * 10; // Infinity
-
-console.log(result1); // Infinity
-console.log(result2); // -Infinity
-console.log(division); // Infinity
-```

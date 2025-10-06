@@ -1,4 +1,3 @@
-# #237 「二重否定での型変換」台本
 
 四国めたん「TypeScript v5.9の二重否定での型変換について学びましょう！」
 ずんだもん「二重否定での型変換って何？」
@@ -9,28 +8,3 @@
 四国めたん「はい、安全な型変換に重要です」
 ずんだもん「二重否定型変換で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 二重否定での型変換
-let str: string = "hello";
-let num: number = 42;
-let obj: object = {};
-let arr: any[] = [];
-let nullVal: null = null;
-let undefinedVal: undefined = undefined;
-
-// 型変換の例
-let bool1: boolean = !!str;           // true
-let bool2: boolean = !!num;           // true
-let bool3: boolean = !!obj;           // true
-let bool4: boolean = !!arr;           // true
-let bool5: boolean = !!nullVal;       // false
-let bool6: boolean = !!undefinedVal;  // false
-
-// 実用的な例
-let userInput: string = "test";
-let hasInput: boolean = !!userInput;  // true
-```

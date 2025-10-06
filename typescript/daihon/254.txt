@@ -1,4 +1,3 @@
-# #254 「null/undefinedの比較」台本
 
 四国めたん「TypeScript v5.9のnullとundefinedの比較について学びましょう！」
 ずんだもん「nullとundefinedって同じ？」
@@ -9,26 +8,3 @@
 四国めたん「===を使用して型レベルで区別します」
 ずんだもん「===で明確に区別できるね！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// null/undefinedの比較
-
-// ==による比較（型変換あり）
-console.log(null == undefined);  // true
-
-// ===による比較（厳密）
-console.log(null === undefined); // false
-console.log(null === null);      // true
-console.log(undefined === undefined); // true
-
-// 型安全なチェック
-function isNull(value: unknown): value is null {
-  return value === null;
-}
-
-function isUndefined(value: unknown): value is undefined {
-  return value === undefined;
-}

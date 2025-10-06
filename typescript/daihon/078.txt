@@ -1,4 +1,3 @@
-# #078 「配列のmap」台本
 
 四国めたん「TypeScript v5.9の配列mapについて学びましょう！」
 ずんだもん「配列のmapって何？」
@@ -9,23 +8,3 @@
 四国めたん「はい、データの変換や表示用の配列作成に活用できます」
 ずんだもん「配列変換で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 配列のmap
-let names: string[] = ["alice", "bob", "charlie"];
-
-// 大文字に変換
-let upperNames: string[] = names.map(name => name.toUpperCase());
-// ["ALICE", "BOB", "CHARLIE"]
-
-// 実用的な例
-let userEmails: string[] = ["alice@example.com", "bob@example.com"];
-let usernames: string[] = userEmails.map(email => email.split("@")[0]);
-// ["alice", "bob"]
-
-let productNames: string[] = ["本", "ペン", "ノート"];
-let displayNames: string[] = productNames.map(name => `商品: ${name}`);
-```

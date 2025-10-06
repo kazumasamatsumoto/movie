@@ -1,0 +1,38 @@
+# #389「明示的return」
+
+四国めたん「void関数での明示的returnについて学びましょう！」
+ずんだもん「void関数でreturnはどう使うの？」
+四国めたん「値を指定しない return; を使います。早期リターンや条件分岐で使いますね」
+ずんだもん「値を返すとエラー？」
+四国めたん「はい、undefinedを除いて値を返すとエラーです。void型は値を期待しませんね」
+ずんだもん「なるほど！制御フロー用なんだね！」
+四国めたん「関数を途中で終了したい時に有効です。TypeScript v5.9でも同じ動作ですね」
+ずんだもん「処理の中断に使えるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 早期リターン
+function processData(data: string | null): void {
+  if (data === null) return;  // 早期終了
+  console.log(data.toUpperCase());
+}
+```
+
+```typescript
+// 条件分岐での使用
+function notify(user: User): void {
+  if (!user.notifications) return;
+  sendEmail(user.email);
+  logNotification(user.id);
+}
+```
+
+```typescript
+// エラーになる例
+function invalid(): void {
+  return "value";  // エラー: Type 'string' is not assignable to type 'void'
+}
+```

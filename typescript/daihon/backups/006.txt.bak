@@ -1,0 +1,33 @@
+# #006 「constでstring型 - const name = "Charlie"」台本
+
+四国めたん「TypeScript v5.9のconstでstring型について学びましょう！」
+ずんだもん「constでstring型も宣言できるの？」
+四国めたん「はい、const name = "Charlie"のように定数として宣言できます」
+ずんだもん「再代入はできないの？」
+四国めたん「はい、constで宣言した文字列は再代入不可です」
+ずんだもん「Angularの設定値でも使える？」
+四国めたん「はい、API URLや定数文字列に活用できます」
+ずんだもん「定数で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// constでの定数宣言
+const API_URL = "https://api.example.com";
+const APP_NAME = "TypeScript学習アプリ";
+const VERSION = "1.0.0";
+
+// 再代入はエラー
+// API_URL = "https://new-api.com"; // エラー: Cannot assign to 'API_URL' because it is a constant
+
+// 型推論でstring型
+console.log(typeof API_URL); // "string"
+
+// 実用的な例
+const DEFAULT_MESSAGE = "データを読み込み中...";
+const ERROR_MESSAGE = "エラーが発生しました";
+const SUCCESS_MESSAGE = "処理が完了しました";
+```
+

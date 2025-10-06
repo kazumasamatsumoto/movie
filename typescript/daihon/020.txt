@@ -1,4 +1,3 @@
-# #020 「文字列リテラルの型推論」台本
 
 四国めたん「TypeScript v5.9の文字列リテラル型推論について学びましょう！」
 ずんだもん「文字列リテラル型推論って何？」
@@ -9,24 +8,3 @@
 四国めたん「はい、型の精度を高めてバグを防げます」
 ずんだもん「型推論で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// letでの型推論 - string型
-let message = "Hello"; // string型と推論
-let name = "Alice";    // string型と推論
-
-// constでの型推論 - リテラル型
-const API_URL = "https://api.example.com"; // "https://api.example.com"型と推論
-const VERSION = "1.0.0"; // "1.0.0"型と推論
-
-// 実用的な例
-let userName = "ずんだもん"; // string型
-const APP_NAME = "TypeScript学習アプリ"; // "TypeScript学習アプリ"型
-
-// 型の違い
-// message = "World"; // OK (string型)
-// API_URL = "https://new-api.com"; // エラー (リテラル型)
-```

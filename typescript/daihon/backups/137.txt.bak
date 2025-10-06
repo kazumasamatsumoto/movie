@@ -1,0 +1,31 @@
+# #137 「加算の型推論」台本
+
+四国めたん「TypeScript v5.9の加算の型推論について学びましょう！」
+ずんだもん「加算の型推論って何？」
+四国めたん「加算演算の結果の型が自動的に推論される機能です」
+ずんだもん「どんな型になるの？」
+四国めたん「数値同士の加算はnumber型になります」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、型安全性を保ちながら計算ができます」
+ずんだもん「型推論で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 加算の型推論
+let a: number = 10;
+let b: number = 20;
+let sum = a + b; // number型と推論
+
+// 型推論の例
+let price = 1000;    // number型
+let tax = 100;       // number型
+let total = price + tax; // number型と推論
+
+// 実用的な例
+let userAge = 25;
+let yearsToAdd = 5;
+let futureAge = userAge + yearsToAdd; // number型
+```

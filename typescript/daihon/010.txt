@@ -1,4 +1,3 @@
-# #010 「string型のスコープ - ブロックスコープ」台本
 
 四国めたん「TypeScript v5.9のstring型スコープについて学びましょう！」
 ずんだもん「ブロックスコープって何？」
@@ -8,31 +7,4 @@
 ずんだもん「Angularの開発でも重要？」
 四国めたん「はい、変数の名前衝突を防げます」
 ずんだもん「スコープ管理で最高だよ！」
-
----
-
-## 📺 画面表示用コード
-
-```typescript
-// ブロックスコープの例
-{
-  let blockScoped: string = "ブロック内";
-  const blockConstant: string = "ブロック定数";
-  // このブロック内でのみ有効
-}
-
-// console.log(blockScoped); // エラー: Cannot find name 'blockScoped'
-
-// 実用的な例
-function processData() {
-  let localData: string = "ローカルデータ";
-  
-  if (true) {
-    let conditionalData: string = "条件付きデータ";
-    // このブロック内でのみ有効
-  }
-  
-  return localData;
-}
-```
 

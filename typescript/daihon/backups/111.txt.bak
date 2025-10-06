@@ -1,0 +1,28 @@
+# #111 「10進数リテラル」台本
+
+四国めたん「TypeScript v5.9の10進数リテラルについて学びましょう！」
+ずんだもん「10進数リテラルって何？」
+四国めたん「通常の数値の書き方で、0-9の数字を使用します」
+ずんだもん「どうやって書くの？」
+四国めたん「100、3.14、-50のように書きます」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、最も一般的な数値の記述方法です」
+ずんだもん「10進数で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 10進数リテラル
+let integer: number = 100;    // 整数
+let decimal: number = 3.14;   // 小数
+let negative: number = -50;   // 負数
+let zero: number = 0;         // ゼロ
+
+// 実用的な例
+let userAge: number = 25;
+let productPrice: number = 2980;
+let discountRate: number = 0.1;
+let taxRate: number = 0.08;
+```

@@ -1,0 +1,46 @@
+# #507 「到達不可能コード検出」
+
+四国めたん「TypeScriptの到達不可能コード検出について学びましょう！」
+ずんだもん「到達不可能コードってどういうこと？」
+四国めたん「型推論により、絶対に実行されないコードをコンパイラが検出する機能です」
+ずんだもん「具体的にどう検出されるの？」
+四国めたん「never型に到達した後のコードは、制御フロー分析で到達不可能と判定されます」
+ずんだもん「なるほど！デッドコードを自動で見つけられるんだね！」
+四国めたん「バグや不要なコードの早期発見に役立ちますね」
+ずんだもん「コードレビューの品質も上がりそうだよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+function process(value: string | number) {
+  if (typeof value === 'string') return value.toUpperCase();
+  else if (typeof value === 'number') return value * 2;
+  else {
+    value; // never型
+    return 0; // 到達不可能コード
+  }
+}
+```
+
+```typescript
+type Status = 'success' | 'error';
+
+function handle(status: Status) {
+  if (status === 'success') return 'OK';
+  if (status === 'error') return 'NG';
+  console.log(status); // 到達不可能（never型）
+}
+```
+
+```typescript
+function neverReturn(): never {
+  throw new Error('Error');
+}
+
+function example() {
+  neverReturn();
+  console.log('到達不可能'); // エラー検出
+}
+```

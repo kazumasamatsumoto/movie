@@ -1,4 +1,3 @@
-# #216 「trueリテラル型」台本
 
 四国めたん「TypeScript v5.9のtrueリテラル型について学びましょう！」
 ずんだもん「trueリテラル型って何？」
@@ -9,21 +8,3 @@
 四国めたん「はい、より厳密な型制御に重要です」
 ずんだもん「trueリテラル型で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// trueリテラル型
-let isActive: true = true;        // trueのみ許可
-let isEnabled: true = true;       // trueのみ許可
-let hasPermission: true = true;   // trueのみ許可
-
-// 実用的な例
-let userLoggedIn: true = true;    // trueのみ許可
-let formValid: true = true;       // trueのみ許可
-let dataLoaded: true = true;      // trueのみ許可
-
-// 型の制限
-// isActive = false; // エラー: Type 'false' is not assignable to type 'true'
-```

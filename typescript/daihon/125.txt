@@ -1,4 +1,3 @@
-# #125 「NaNとは」台本
 
 四国めたん「TypeScript v5.9のNaNについて学びましょう！」
 ずんだもん「NaNって何？」
@@ -9,20 +8,3 @@
 四国めたん「はい、数値計算のエラーハンドリングに重要です」
 ずんだもん「NaNで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// NaNとは
-let nan: number = NaN;
-let invalidResult: number = 0 / 0;
-
-// 実用的な例
-let parseResult: number = parseInt("abc"); // NaN
-let mathResult: number = Math.sqrt(-1); // NaN
-
-console.log(nan); // NaN
-console.log(invalidResult); // NaN
-console.log(parseResult); // NaN
-```

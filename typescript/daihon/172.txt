@@ -1,4 +1,3 @@
-# #172 「エラーハンドリング」台本
 
 四国めたん「TypeScript v5.9のエラーハンドリングについて学びましょう！」
 ずんだもん「エラーハンドリングって何？」
@@ -9,32 +8,3 @@
 四国めたん「はい、安定したアプリケーション開発に重要です」
 ずんだもん「エラー処理で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// エラーハンドリング
-function safeNumberConversion(input: string): number | null {
-  try {
-    let result: number = Number(input);
-    if (Number.isNaN(result)) {
-      return null;
-    }
-    return result;
-  } catch (error) {
-    console.error("変換エラー:", error);
-    return null;
-  }
-}
-
-// 実用的な例
-let userInput: string = "abc";
-let userAge: number | null = safeNumberConversion(userInput);
-
-if (userAge === null) {
-  console.log("数値変換に失敗しました");
-} else {
-  console.log(`年齢: ${userAge}`);
-}
-```

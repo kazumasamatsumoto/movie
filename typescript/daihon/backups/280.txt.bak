@@ -1,0 +1,34 @@
+# #280 「マスターチェック」台本
+
+四国めたん「TypeScript v5.9の比較演算と型ガードのマスターチェックについて学びましょう！」
+ずんだもん「これまでの内容をまとめて確認したい！」
+四国めたん「===の使用、型ガード、truthyとfalsyの理解、Angular/Nest.jsでの実践です」
+ずんだもん「重要なポイントは？」
+四国めたん「型安全性を保つこと、明示的なチェック、適切な型ガードの選択です」
+ずんだもん「実務で使えるようになった？」
+四国めたん「はい、これで型安全な比較と判定ができます」
+ずんだもん「比較演算と型ガードをマスターしたよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// マスターチェック
+
+// ✅ 厳密等価演算子
+if (value === null) { }
+
+// ✅ 型ガード
+function isUser(obj: unknown): obj is User {
+  return typeof obj === 'object' && obj !== null && 'name' in obj;
+}
+
+// ✅ falsy値の理解
+// false, 0, '', null, undefined, NaN
+
+// ✅ Angular/Nest.jsでの実践
+@IsBoolean() isActive: boolean;
+
+// ✅ ベストプラクティス
+// strictNullChecks + ESLint

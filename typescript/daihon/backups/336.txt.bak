@@ -1,0 +1,41 @@
+# #336「関数引数のnullable」
+
+四国めたん「関数引数のnullable型について学びましょう！」
+ずんだもん「関数引数でnullableってどう使うの？」
+四国めたん「引数の型を T | null にすることで、nullも受け取れます。関数内でnullチェックが必要ですね」
+ずんだもん「オプショナル引数との違いは？」
+四国めたん「nullable は null を明示的に渡せますが、オプショナルは省略です。意図が異なりますね」
+ずんだもん「なるほど！使い分けが必要なんだね！」
+四国めたん「型ガードで分岐処理を行います。型安全性が保証されますね」
+ずんだもん「関数を型安全に定義できて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// nullable引数
+function greet(user: User | null): string {
+  if (user === null) {
+    return "Hello, Guest";
+  }
+  return `Hello, ${user.name}`;
+}
+```
+
+```typescript
+// オプショナルとの違い
+function process1(data: string | null) {
+  // nullを明示的に渡す必要あり
+}
+function process2(data?: string) {
+  // 省略可能
+}
+```
+
+```typescript
+// デフォルト値との組み合わせ
+function log(message: string | null = null) {
+  console.log(message ?? "No message");
+}
+```

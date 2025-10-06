@@ -1,4 +1,3 @@
-# #138 「減算演算子」台本
 
 四国めたん「TypeScript v5.9の減算演算子について学びましょう！」
 ずんだもん「減算演算子って何？」
@@ -9,22 +8,3 @@
 四国めたん「はい、計算処理やデータ処理に活用できます」
 ずんだもん「引き算で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 減算演算子
-let a: number = 30;
-let b: number = 10;
-let difference: number = a - b; // 20
-
-// 実用的な例
-let totalPrice: number = 1200;
-let discount: number = 200;
-let finalPrice: number = totalPrice - discount; // 1000
-
-let currentYear: number = 2024;
-let birthYear: number = 1990;
-let age: number = currentYear - birthYear; // 34
-```

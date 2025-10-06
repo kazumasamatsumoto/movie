@@ -1,0 +1,36 @@
+# #477「型注釈」
+
+四国めたん「never型関数の型注釈について学びましょう！」
+ずんだもん「型注釈は必要なの？」
+四国めたん「型推論で never になりますが、明示的に書くと意図が明確です」
+ずんだもん「どっちがいいの？」
+四国めたん「公開APIや重要な関数では明示的に書きます。内部関数は推論でも良いですね」
+ずんだもん「なるほど！使い分けるんだね！」
+四国めたん「ドキュメントとしての価値もあります。TypeScript v5.9でも推奨されますね」
+ずんだもん「可読性が大事なんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 明示的な型注釈 (推奨)
+function throwError(message: string): never {
+  throw new Error(message);
+}
+```
+
+```typescript
+// 型推論に任せる
+function fail(message: string) {
+  throw new Error(message);
+  // never型と推論される
+}
+```
+
+```typescript
+// 公開API: 明示的に書く
+export function assertNever(value: never): never {
+  throw new Error(`Unexpected value: ${value}`);
+}
+```

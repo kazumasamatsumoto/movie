@@ -1,4 +1,3 @@
-# #262 「null/undefinedチェック」台本
 
 四国めたん「TypeScript v5.9のnullとundefinedのチェックについて学びましょう！」
 ずんだもん「どうやってチェックするの？」
@@ -9,28 +8,3 @@
 四国めたん「はい、型安全なコードには不可欠です」
 ずんだもん「nullチェックで安全なコードが書けるね！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// null/undefinedチェック
-
-// 厳密なチェック
-function process(value: string | null | undefined) {
-  if (value === null) {
-    console.log('null');
-  } else if (value === undefined) {
-    console.log('undefined');
-  } else {
-    console.log(value.toUpperCase());
-  }
-}
-
-// 両方をチェック
-function handle(value: string | null | undefined) {
-  if (value != null) {
-    // nullでもundefinedでもない
-    console.log(value.toUpperCase());
-  }
-}

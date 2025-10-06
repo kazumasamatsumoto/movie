@@ -1,0 +1,36 @@
+# #090 「デバッグ(2) - 実行時エラー」台本
+
+四国めたん「TypeScript v5.9のデバッグ(2)について学びましょう！」
+ずんだもん「実行時エラーって何？」
+四国めたん「プログラム実行時に発生するエラーです」
+ずんだもん「どんなエラーがあるの？」
+四国めたん「null参照、未定義プロパティ、型変換エラーなどがあります」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、安定したアプリケーション開発に重要です」
+ずんだもん「実行時デバッグで最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// デバッグ(2) - 実行時エラー
+
+// null参照エラーの回避
+let name: string | null = null;
+if (name !== null) {
+  console.log(name.toUpperCase()); // 安全
+}
+
+// 未定義プロパティの回避
+let user: { name?: string } = {};
+if (user.name) {
+  console.log(user.name.toUpperCase()); // 安全
+}
+
+// 型変換エラーの回避
+let input: unknown = "Hello";
+if (typeof input === "string") {
+  console.log(input.toUpperCase()); // 安全
+}
+```

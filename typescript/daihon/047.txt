@@ -1,4 +1,3 @@
-# #047 「自動ボックス化」台本
 
 四国めたん「TypeScript v5.9の自動ボックス化について学びましょう！」
 ずんだもん「自動ボックス化って何？」
@@ -9,24 +8,3 @@
 四国めたん「はい、型の動作を理解するために重要です」
 ずんだもん「自動変換で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 自動ボックス化の例
-let str: string = "Hello";
-
-// メソッド呼び出し時に自動ボックス化
-let upperStr: string = str.toUpperCase(); // 自動的にStringオブジェクトに変換
-let lowerStr: string = str.toLowerCase(); // 自動的にStringオブジェクトに変換
-
-// プロパティアクセス時も自動ボックス化
-let length: number = str.length; // 自動的にStringオブジェクトに変換
-
-// 実用的な例
-let userName: string = "Alice";
-let userNameUpper: string = userName.toUpperCase();
-let userNameLength: number = userName.length;
-let userNameFirst: string = userName.charAt(0);
-```

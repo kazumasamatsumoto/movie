@@ -1,4 +1,3 @@
-# #050 「String型使用禁止ルール」台本
 
 四国めたん「TypeScript v5.9のString型使用禁止ルールについて学びましょう！」
 ずんだもん「String型使用禁止ルールって何？」
@@ -9,29 +8,3 @@
 四国めたん「はい、チーム開発での一貫性に重要です」
 ずんだもん「ルール遵守で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// String型使用禁止ルール
-
-// ❌ 禁止：String型の使用
-// let name: String = new String("Alice");
-// let message: String = new String("Hello");
-
-// ✅ 推奨：string型の使用
-let name: string = "Alice";
-let message: string = "Hello";
-
-// ✅ 推奨：型推論の活用
-let userName = "Bob"; // string型と推論
-let userEmail = "bob@example.com"; // string型と推論
-
-// 実用的な例
-let componentProps = {
-  title: "ユーザー管理",
-  description: "ユーザー情報の管理画面"
-};
-let pageTitle: string = componentProps.title;
-```

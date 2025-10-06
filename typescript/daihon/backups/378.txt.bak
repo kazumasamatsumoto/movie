@@ -1,0 +1,36 @@
+# #378「変数への代入」
+
+四国めたん「void型変数への代入について学びましょう！」
+ずんだもん「void型の変数に何が代入できるの？」
+四国めたん「undefined のみ代入できます。strictNullChecks有効時は null は代入できませんね」
+ずんだもん「他の値は？」
+四国めたん「数値や文字列などは代入できません。void は undefined のみを受け付ける特殊な型ですね」
+ずんだもん「なるほど！制限が厳しいんだね！」
+四国めたん「そのため変数型としてはほぼ使いません。関数の戻り値型としての利用が中心ですね」
+ずんだもん「用途が限定的なんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 代入可能な値
+let value: void;
+value = undefined;  // OK
+```
+
+```typescript
+// エラーになる代入
+let value: void;
+// value = null;       // strictNullChecks有効時はエラー
+// value = 0;          // エラー
+// value = "string";   // エラー
+```
+
+```typescript
+// void型関数の戻り値
+function doSomething(): void {
+  console.log("Done");
+}
+const result: void = doSomething();  // undefined
+```

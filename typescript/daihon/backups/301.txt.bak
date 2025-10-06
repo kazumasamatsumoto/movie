@@ -1,0 +1,36 @@
+# #301「存在しないプロパティ」
+
+四国めたん「存在しないプロパティへのアクセスについて学びましょう！」
+ずんだもん「ないプロパティにアクセスするとどうなるの？」
+四国めたん「JavaScriptではundefinedを返しますが、TypeScriptでは型エラーになります」
+ずんだもん「型で防げるんだ！」
+四国めたん「はい、オプショナルチェーン?.を使うと安全にアクセスできます。存在しない場合はundefinedです」
+ずんだもん「なるほど！実行時エラーを防げるんだね！」
+四国めたん「型安全性により、プロパティの存在を保証できます。デバッグが容易になりますね」
+ずんだもん「コンパイル時にチェックできて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 存在しないプロパティ
+const user = { name: "Alice" };
+user.age;  // エラー: プロパティ'age'は存在しない
+```
+
+```typescript
+// オプショナルチェーン
+const age = user?.profile?.age;
+// profileが存在しない場合はundefined
+```
+
+```typescript
+// 型定義で安全に
+interface User {
+  name: string;
+  age?: number;  // オプショナル
+}
+const user: User = { name: "Alice" };
+user.age;  // number | undefined
+```

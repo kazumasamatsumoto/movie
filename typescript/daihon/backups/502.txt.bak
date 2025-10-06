@@ -1,0 +1,64 @@
+# #502「switch文の網羅性」
+
+四国めたん「switch文の網羅性チェックについて学びましょう！」
+ずんだもん「switch文でどうチェックするの？」
+四国めたん「default節でnever型を使います。すべてのcaseを処理すると型エラーがなくなりますね」
+ずんだもん「どう書くの？」
+四国めたん「const exhaustive: never = value の形式です。到達不可能なら型が合いますね」
+ずんだもん「なるほど！全部処理したら到達しないんだね！」
+四国めたん「型の追加時に自動検出されます。TypeScript v5.9でも有効ですね」
+ずんだもん「メンテナンスが楽になるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// switch文の網羅性チェック
+type Action = "create" | "update" | "delete";
+
+function handleAction(action: Action): void {
+  switch (action) {
+    case "create":
+      console.log("Creating");
+      break;
+    case "update":
+      console.log("Updating");
+      break;
+    case "delete":
+      console.log("Deleting");
+      break;
+    default:
+      const exhaustive: never = action;
+  }
+}
+```
+
+```typescript
+// 関数で再利用
+function assertNever(value: never): never {
+  throw new Error(`Unhandled case: ${value}`);
+}
+
+function process(action: Action): void {
+  switch (action) {
+    case "create": return;
+    case "update": return;
+    case "delete": return;
+    default: assertNever(action);
+  }
+}
+```
+
+```typescript
+// 型追加時の検出
+type Status = "idle" | "loading" | "success";
+function handle(status: Status): void {
+  switch (status) {
+    case "idle": return;
+    case "loading": return;
+    // successが未処理で型エラー
+    default: assertNever(status);
+  }
+}
+```

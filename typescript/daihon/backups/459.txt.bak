@@ -1,0 +1,44 @@
+# #459「ベストプラクティス」
+
+四国めたん「void型のベストプラクティスについて学びましょう！」
+ずんだもん「void型を使う時のポイントを教えて！」
+四国めたん「明示的に void を書き、副作用を最小限にします。関数を小さく保ちますね」
+ずんだもん「他に注意点は？」
+四国めたん「純粋関数と副作用関数を分離し、テストしやすくします。ドキュメントも充実させますね」
+ずんだもん「なるほど！設計が大事なんだね！」
+四国めたん「async関数は Promise<void> を使います。一貫性のあるコーディング規約を守りましょう。TypeScript v5.9でも重要ですね」
+ずんだもん「チーム全体で統一するんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// ベストプラクティス1: 明示的な型宣言
+function logMessage(msg: string): void {
+  console.log(msg);
+}
+async function saveData(data: Data): Promise<void> {
+  await database.save(data);
+}
+```
+
+```typescript
+// ベストプラクティス2: 副作用の分離
+function calculateTotal(items: Item[]): number {
+  return items.reduce((sum, item) => sum + item.price, 0);
+}
+function displayTotal(items: Item[]): void {
+  const total = calculateTotal(items);
+  console.log(`Total: ${total}`);
+}
+```
+
+```typescript
+// ベストプラクティス3: 小さな関数
+function processUser(user: User): void {
+  validate(user);
+  save(user);
+  notify(user);
+}
+```

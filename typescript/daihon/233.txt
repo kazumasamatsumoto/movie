@@ -1,4 +1,3 @@
-# #233 「ORとデフォルト値」台本
 
 四国めたん「TypeScript v5.9のORとデフォルト値について学びましょう！」
 ずんだもん「ORとデフォルト値って何？」
@@ -9,23 +8,3 @@
 四国めたん「はい、安全なデフォルト値設定に重要です」
 ずんだもん「ORデフォルト値で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// ORとデフォルト値
-let userName: string | null = null;
-let userAge: number | undefined = undefined;
-let isActive: boolean | null = null;
-
-// デフォルト値の設定
-let displayName: string = userName || "Guest";
-let displayAge: number = userAge || 0;
-let displayStatus: boolean = isActive || false;
-
-// 実用的な例
-let userInput: string = "";
-let defaultText: string = "デフォルトテキスト";
-let result: string = userInput || defaultText; // "デフォルトテキスト"
-```

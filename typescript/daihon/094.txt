@@ -1,4 +1,3 @@
-# #094 「ベストプラクティス(1)」台本
 
 四国めたん「TypeScript v5.9のベストプラクティス(1)について学びましょう！」
 ずんだもん「ベストプラクティス(1)って何？」
@@ -9,25 +8,3 @@
 四国めたん「はい、保守性の高いコードに重要です」
 ずんだもん「ベストプラクティスで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// ベストプラクティス(1)
-
-// 1. 型の一貫性
-let userName: string = "Alice";
-let userEmail: string = "alice@example.com";
-let userRole: string = "admin";
-
-// 2. 適切な命名
-let productName: string = "TypeScript Book";
-let productDescription: string = "Learn TypeScript";
-let productPrice: string = "¥2,980";
-
-// 3. 型安全性の確保
-let apiEndpoint: string = "/api/users";
-let errorMessage: string = "An error occurred";
-let successMessage: string = "Operation completed";
-```

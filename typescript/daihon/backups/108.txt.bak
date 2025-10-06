@@ -1,0 +1,31 @@
+# #108 「整数と小数の区別なし」台本
+
+四国めたん「TypeScript v5.9の整数と小数の区別について学びましょう！」
+ずんだもん「整数と小数の区別って何？」
+四国めたん「TypeScriptでは整数と小数を区別せず、すべてnumber型です」
+ずんだもん「JavaScriptと同じなの？」
+四国めたん「はい、JavaScriptの仕様を引き継いでいます」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、数値計算の理解に重要です」
+ずんだもん「数値統一で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 整数と小数の区別なし
+let integer: number = 100;    // 整数
+let decimal: number = 3.14;   // 小数
+let negative: number = -50;   // 負数
+
+// すべて同じnumber型
+console.log(typeof integer);  // "number"
+console.log(typeof decimal);  // "number"
+console.log(typeof negative); // "number"
+
+// 実用的な例
+let userAge: number = 25;     // 整数
+let productPrice: number = 2980.50; // 小数
+let discountRate: number = 0.1;     // 小数
+```

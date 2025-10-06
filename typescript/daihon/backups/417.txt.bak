@@ -1,0 +1,37 @@
+# #417「async関数のvoid型」
+
+四国めたん「async関数のvoid型について学びましょう！」
+ずんだもん「async関数でvoid型はどう書くの？」
+四国めたん「戻り値型を Promise<void> にします。async関数は必ずPromiseを返すためですね」
+ずんだもん「voidだけじゃダメなの？」
+四国めたん「はい、async関数は非同期なので Promise でラップします。void だけではエラーになりますね」
+ずんだもん「なるほど！Promiseが必要なんだね！」
+四国めたん「型推論も働きますが、明示的に書くと意図が明確になります。TypeScript v5.9でも同じですね」
+ずんだもん「非同期処理の基本パターンなんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 正しい書き方
+async function process(): Promise<void> {
+  await doSomething();
+  console.log("Done");
+}
+```
+
+```typescript
+// エラーになる書き方
+// async function process(): void {  // エラー
+//   await doSomething();
+// }
+```
+
+```typescript
+// 型推論を使う
+async function load() {
+  await fetch("/api/data");
+  // Promise<void>と推論される
+}
+```

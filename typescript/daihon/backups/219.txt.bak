@@ -1,0 +1,29 @@
+# #219 「falseリテラル型」台本
+
+四国めたん「TypeScript v5.9のfalseリテラル型について学びましょう！」
+ずんだもん「falseリテラル型って何？」
+四国めたん「false値のみを許可する厳密な型です」
+ずんだもん「boolean型とどう違うの？」
+四国めたん「boolean型はtrueとfalse両方、falseリテラル型はfalseのみです」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、より厳密な型制御に重要です」
+ずんだもん「falseリテラル型で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// falseリテラル型
+let isInactive: false = false;    // falseのみ許可
+let isDisabled: false = false;    // falseのみ許可
+let hasNoPermission: false = false; // falseのみ許可
+
+// 実用的な例
+let userLoggedOut: false = false; // falseのみ許可
+let formInvalid: false = false;   // falseのみ許可
+let dataNotLoaded: false = false; // falseのみ許可
+
+// 型の制限
+// isInactive = true; // エラー: Type 'true' is not assignable to type 'false'
+```

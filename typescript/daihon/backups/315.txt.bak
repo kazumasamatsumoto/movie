@@ -1,0 +1,38 @@
+# #315「有効にすべき理由」
+
+四国めたん「strictNullChecksを有効にすべき理由について学びましょう！」
+ずんだもん「なぜ有効にすべきなの？」
+四国めたん「実行時エラーの大半を占めるnullポインタ例外を防げます。コードの品質が向上しますね」
+ずんだもん「他にもメリットがあるの？」
+四国めたん「型推論が正確になり、エディタの補完も改善されます。バグを早期発見できますね」
+ずんだもん「なるほど！開発効率も上がるんだね！」
+四国めたん「AngularやNest.jsの公式でも推奨されています。型安全性は現代的な開発の必須要件ですね」
+ずんだもん「プロダクション品質のコードが書けて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// nullポインタ例外を防ぐ
+function getLength(str: string | null): number {
+  if (str === null) return 0;
+  return str.length; // 安全
+}
+```
+
+```typescript
+// エディタ補完の改善
+const user: User | null = getUser();
+if (user !== null) {
+  user.name; // 補完が効く
+}
+```
+
+```typescript
+// バグの早期発見
+function process(data: string) {
+  return data.toUpperCase();
+}
+process(null); // コンパイルエラー
+```

@@ -1,0 +1,10 @@
+
+四国めたん「strictNullChecksでのvoidとundefinedについて学びましょう！」
+ずんだもん「strictNullChecksで何が変わるの？」
+四国めたん「void型変数には undefined のみ代入可能になります。null は代入できませんね」
+ずんだもん「undefinedは？」
+四国めたん「undefined型も同様に undefined のみです。型の厳密性が増しますね」
+ずんだもん「なるほど！より安全になるんだね！」
+四国めたん「strictNullChecks は必須の設定です。TypeScript v5.9でも推奨されますね」
+ずんだもん「型安全性が高まるんだね！」
+

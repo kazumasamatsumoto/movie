@@ -1,0 +1,48 @@
+# #426「並行実行」
+
+四国めたん「Promise<void>の並行実行について学びましょう！」
+ずんだもん「複数のPromise<void>を同時に実行できるの？」
+四国めたん「はい、Promise.all()を使います。すべての処理が完了するまで待てますね」
+ずんだもん「どう書くの？」
+四国めたん「Promise<void>の配列を Promise.all() に渡します。並行実行されますね」
+ずんだもん「なるほど！速くなるんだね！」
+四国めたん「順序が重要でない処理に有効です。TypeScript v5.9でも推奨されるパターンですね」
+ずんだもん「効率的に処理できるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Promise.all()で並行実行
+async function processAll(): Promise<void> {
+  await Promise.all([
+    saveUser(user1),
+    saveUser(user2),
+    saveUser(user3)
+  ]);
+  console.log("All saved");
+}
+```
+
+```typescript
+// 複数の初期化を並行実行
+async function initialize(): Promise<void> {
+  await Promise.all([
+    loadConfig(),
+    connectDatabase(),
+    startCache()
+  ]);
+}
+```
+
+```typescript
+// エラーハンドリング
+async function processWithError(): Promise<void> {
+  try {
+    await Promise.all([task1(), task2(), task3()]);
+  } catch (error) {
+    console.error("One of the tasks failed:", error);
+  }
+}
+```

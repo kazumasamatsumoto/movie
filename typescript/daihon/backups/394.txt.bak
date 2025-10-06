@@ -1,0 +1,35 @@
+# #394「forEach()の戻り値」
+
+四国めたん「forEach()の戻り値について学びましょう！」
+ずんだもん「forEach()って戻り値あるの？」
+四国めたん「型定義は void です。配列を変更せず、各要素に対して副作用を実行するだけですね」
+ずんだもん「コールバックの戻り値は？」
+四国めたん「コールバックも void 型です。戻り値は無視されます。処理のみが目的ですね」
+ずんだもん「なるほど！mapとは違うんだね！」
+四国めたん「はい、mapは新しい配列を返しますが、forEachは何も返しません。TypeScript v5.9でも同じですね」
+ずんだもん「用途が違うんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// forEach()の型定義
+// forEach(callback: (value: T, index: number, array: T[]) => void): void
+const items = [1, 2, 3];
+const result = items.forEach(item => console.log(item));
+console.log(result);  // undefined (void型)
+```
+
+```typescript
+// コールバックの戻り値は無視される
+items.forEach((item): void => {
+  console.log(item * 2);
+});
+```
+
+```typescript
+// mapとの違い
+const doubled = items.map(x => x * 2);  // 新しい配列を返す
+items.forEach(x => console.log(x * 2));  // void、何も返さない
+```

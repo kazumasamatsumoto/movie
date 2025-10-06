@@ -1,0 +1,51 @@
+# #496「サーバープロセス」
+
+四国めたん「サーバープロセスでの無限ループについて学びましょう！」
+ずんだもん「サーバーはどう無限ループを使うの？」
+四国めたん「リクエストを待ち続け、到着したら処理します。終了しないのが正常ですね」
+ずんだもん「ずっと動き続けるんだね！」
+四国めたん「はい、シグナルで停止されるまで動作します。Webサーバーやデータベースの基本パターンですね」
+ずんだもん「なるほど！サービスとして動くんだね！」
+四国めたん「リソース管理やエラーハンドリングも重要です。TypeScript v5.9でも同じですね」
+ずんだもん「本番環境で使われるパターンなんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// HTTPサーバーのメインループ
+function startHttpServer(port: number): never {
+  const server = createServer(port);
+  while (true) {
+    const request = server.accept();
+    handleHttpRequest(request);
+  }
+}
+```
+
+```typescript
+// TCPサーバー
+function runTcpServer(): never {
+  const listener = listen(8080);
+  while (true) {
+    const socket = listener.accept();
+    processConnection(socket);
+  }
+}
+```
+
+```typescript
+// ワーカープロセス
+function workerProcess(): never {
+  console.log("Worker started");
+  while (true) {
+    const job = fetchJob();
+    if (job) {
+      executeJob(job);
+    } else {
+      sleep(1000);
+    }
+  }
+}
+```

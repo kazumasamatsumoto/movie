@@ -1,0 +1,35 @@
+# #465「never型の宣言」
+
+四国めたん「never型の宣言方法について学びましょう！」
+ずんだもん「never型はどう宣言するの？」
+四国めたん「関数の戻り値型として : never を書きます。変数の型としても使えますね」
+ずんだもん「変数で使う意味あるの？」
+四国めたん「通常は使いません。型パラメータや条件付き型で使うことがありますね」
+ずんだもん「なるほど！関数がメインなんだね！」
+四国めたん「型推論も働きますが、明示的に書くと意図が明確です。TypeScript v5.9でも同じですね」
+ずんだもん「明示的な宣言が推奨なんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 関数での宣言
+function throwError(message: string): never {
+  throw new Error(message);
+}
+```
+
+```typescript
+// 変数での宣言 (稀)
+let neverValue: never;
+// neverValue = 1;  // エラー: すべての値の代入がエラー
+```
+
+```typescript
+// 型推論
+function fail(msg: string) {
+  throw new Error(msg);
+  // never型と推論される
+}
+```

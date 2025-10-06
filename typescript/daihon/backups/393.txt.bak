@@ -1,0 +1,39 @@
+# #393「イベントハンドラ」
+
+四国めたん「void型のイベントハンドラについて学びましょう！」
+ずんだもん「イベントハンドラってvoid型なの？」
+四国めたん「はい、ほとんどのイベントハンドラは void 型です。戻り値は使われませんね」
+ずんだもん「どう書けばいいの？」
+四国めたん「(event: Event) => void の形式で型定義します。addEventListenerの型もこれですね」
+ずんだもん「なるほど！戻り値を期待しないんだね！」
+四国めたん「React、Vue、Angularなどフレームワークでも同じです。TypeScript v5.9でも標準パターンですね」
+ずんだもん「どこでも使える基本パターンなんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// DOM イベントハンドラ
+const button = document.getElementById("btn");
+button?.addEventListener("click", (e: MouseEvent): void => {
+  console.log("Clicked at:", e.clientX, e.clientY);
+});
+```
+
+```typescript
+// 型定義
+type EventHandler = (event: Event) => void;
+const handler: EventHandler = (e) => {
+  e.preventDefault();
+  console.log("Event handled");
+};
+```
+
+```typescript
+// React イベントハンドラ
+const handleClick = (e: React.MouseEvent): void => {
+  console.log("Button clicked");
+};
+<button onClick={handleClick}>Click</button>
+```

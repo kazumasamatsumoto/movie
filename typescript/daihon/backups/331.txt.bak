@@ -1,0 +1,32 @@
+# #331「Optional Chaining - x?.property」
+
+四国めたん「Optional Chainingについて学びましょう！」
+ずんだもん「?. ってどんな機能なの？」
+四国めたん「nullable型のプロパティに安全にアクセスできる演算子です。nullやundefinedの場合はundefinedを返しますね」
+ずんだもん「どう使うの？」
+四国めたん「user?.name のように書きます。userがnullならundefined、存在すればnameを返しますね」
+ずんだもん「なるほど！安全にアクセスできるんだね！」
+四国めたん「ネストしたプロパティでも使えます。user?.address?.city のように連鎖できますね」
+ずんだもん「実行時エラーを防げて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Optional Chaining
+const user: User | null = getUser();
+const name = user?.name; // string | undefined
+```
+
+```typescript
+// ネストしたプロパティ
+const city = user?.address?.city;
+const zip = user?.address?.zipCode ?? "N/A";
+```
+
+```typescript
+// 配列要素とメソッド
+const firstItem = array?.[0];
+const result = obj?.method?.();
+```

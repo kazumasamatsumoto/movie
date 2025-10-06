@@ -1,4 +1,3 @@
-# #239 「論理演算子の組み合わせ」台本
 
 四国めたん「TypeScript v5.9の論理演算子の組み合わせについて学びましょう！」
 ずんだもん「論理演算子の組み合わせって何？」
@@ -9,25 +8,3 @@
 四国めたん「はい、複雑な条件分岐に重要です」
 ずんだもん「論理演算子組み合わせで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 論理演算子の組み合わせ
-let isActive: boolean = true;
-let hasPermission: boolean = false;
-let isCompleted: boolean = true;
-let hasData: boolean = false;
-
-// 組み合わせの例
-let result1 = (isActive && hasPermission) || isCompleted; // 括弧で優先順位を制御
-let result2 = !(isActive && hasPermission) && hasData;    // 否定と組み合わせ
-let result3 = isActive && (hasPermission || isCompleted); // ORとANDの組み合わせ
-
-// 実用的な例
-let userLoggedIn: boolean = true;
-let formValid: boolean = false;
-let hasPermission: boolean = true;
-let canSubmit = userLoggedIn && (formValid || hasPermission); // 複雑な条件
-```

@@ -1,0 +1,45 @@
+# #508 「never型での型エラー」
+
+四国めたん「never型での型エラーについて学びましょう！」
+ずんだもん「never型でどんな型エラーが出るの？」
+四国めたん「never型は他のどんな型とも互換性がないため、代入時に型エラーが発生します」
+ずんだもん「具体的にどう使うの？」
+四国めたん「網羅性チェックで未処理のケースがあると、never型に値を代入しようとして型エラーになります」
+ずんだもん「なるほど！型エラーで漏れを教えてくれるんだね！」
+四国めたん「コンパイル時に100%の網羅性を保証できますね」
+ずんだもん「ランタイムエラーを事前に防げて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+type Action = 'create' | 'update' | 'delete';
+
+function handleAction(action: Action) {
+  if (action === 'create') return 'Created';
+  if (action === 'update') return 'Updated';
+  // deleteケースがない
+  const check: never = action; // 型エラー！
+}
+```
+
+```typescript
+// ケース追加時の型エラー
+type Action = 'create' | 'update' | 'delete' | 'archive';
+
+function handle(action: Action) {
+  if (action === 'create') return 'Created';
+  const check: never = action; // 型エラー！
+}
+```
+
+```typescript
+// 正しい網羅的な実装
+function handleAll(action: Action) {
+  if (action === 'create') return 'Created';
+  if (action === 'update') return 'Updated';
+  if (action === 'delete') return 'Deleted';
+  const check: never = action; // OK
+}
+```

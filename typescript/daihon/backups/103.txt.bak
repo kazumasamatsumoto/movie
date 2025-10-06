@@ -1,0 +1,29 @@
+# #103 「number型への代入」台本
+
+四国めたん「TypeScript v5.9のnumber型への代入について学びましょう！」
+ずんだもん「number型にどんな値を代入できるの？」
+四国めたん「数値リテラルのみです。文字列や真偽値は型エラーになります」
+ずんだもん「どんな数値でも使えるの？」
+四国めたん「はい、整数、小数、負数、科学的記数法などすべて使用可能です」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、型安全性を保ちながら数値処理ができます」
+ずんだもん「数値代入で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// number型への代入
+let value: number;
+
+// 数値の代入
+value = 100;        // OK
+value = 3.14;       // OK
+value = -50;        // OK
+value = 1e6;        // OK
+
+// 型エラーの例
+// value = "100";   // エラー: Type 'string' is not assignable to type 'number'
+// value = true;    // エラー: Type 'boolean' is not assignable to type 'number'
+```

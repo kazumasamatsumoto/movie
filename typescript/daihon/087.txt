@@ -1,4 +1,3 @@
-# #087 「間違い(2) - nullとの混同」台本
 
 四国めたん「TypeScript v5.9の間違い(2)について学びましょう！」
 ずんだもん「nullとの混同って何？」
@@ -9,26 +8,3 @@
 四国めたん「はい、型安全性を保つために重要です」
 ずんだもん「型混同回避で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 間違い(2) - nullとの混同
-
-// ❌ 間違い：型の混同
-// let name: string = null; // エラー
-
-// ✅ 正しい：null許可型の使用
-let name: string | null = null;
-let message: string | null = "Hello";
-
-// 実用的な例
-let userName: string | null = null;
-let userEmail: string | null = "alice@example.com";
-
-// nullチェック
-if (userName !== null) {
-  console.log(userName.toUpperCase());
-}
-```

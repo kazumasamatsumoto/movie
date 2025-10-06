@@ -1,4 +1,3 @@
-# #034 「ネストは避ける」台本
 
 四国めたん「TypeScript v5.9のテンプレートリテラルネストについて学びましょう！」
 ずんだもん「ネストって何？」
@@ -9,26 +8,3 @@
 四国めたん「はい、保守性の高いコードに重要です」
 ずんだもん「シンプル設計で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// ネスト（非推奨）
-let userName: string = "Alice";
-let userRole: string = "admin";
-// let nested: string = `User: \`${userName}\` with role \`${userRole}\``; // 複雑
-
-// 推奨：シンプルな方法
-let simple: string = `User: ${userName} with role ${userRole}`;
-
-// 実用的な例
-let productName: string = "TypeScript本";
-let price: number = 2980;
-let description: string = `${productName} - ¥${price}`; // シンプル
-
-// 複雑な場合は分割
-let part1: string = `Product: ${productName}`;
-let part2: string = `Price: ¥${price}`;
-let combined: string = `${part1} - ${part2}`;
-```

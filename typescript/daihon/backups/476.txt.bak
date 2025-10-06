@@ -1,0 +1,41 @@
+# #476「throw文を含む関数」
+
+四国めたん「throw文を含む関数について学びましょう！」
+ずんだもん「throw文があればnever型になるの？」
+四国めたん「必ずthrowで終わる場合だけです。条件付きthrowは違いますね」
+ずんだもん「どういう違い？」
+四国めたん「すべてのパスでthrowする場合のみ never 型です。一部だけならvoid型ですね」
+ずんだもん「なるほど！必ず例外が条件なんだね！」
+四国めたん「型推論が正確に判定します。TypeScript v5.9でも同じですね」
+ずんだもん「制御フロー解析が賢いんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// never型: 必ずthrow
+function alwaysThrows(): never {
+  throw new Error("Always fails");
+}
+```
+
+```typescript
+// void型: 条件付きthrow
+function maybeThrows(condition: boolean): void {
+  if (condition) {
+    throw new Error("Failed");
+  }
+  console.log("Success");
+}
+```
+
+```typescript
+// never型: すべてのパスでthrow
+function validate(value: unknown): never {
+  if (typeof value === "string") {
+    throw new Error("String not allowed");
+  }
+  throw new Error("Invalid type");
+}
+```

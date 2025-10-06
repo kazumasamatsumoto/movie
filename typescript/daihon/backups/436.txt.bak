@@ -1,0 +1,38 @@
+# #436「Utility Types」
+
+四国めたん「Utility Typesとvoid型について学びましょう！」
+ずんだもん「Utility Typesでvoidはどう使うの？」
+四国めたん「組み込みのUtility Typesと組み合わせて使えます。型変換が簡単になりますね」
+ずんだもん「具体的にどう使うの？」
+四国めたん「ReturnType、Parameters、Omitなどと組み合わせます。柔軟な型操作ができますね」
+ずんだもん「なるほど！既存の型を変換できるんだね！」
+四国めたん「型の再利用性が高まります。TypeScript v5.9でも標準機能ですね」
+ずんだもん「型システムが強力だね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// ReturnTypeでvoid抽出
+function log(msg: string): void {
+  console.log(msg);
+}
+type LogReturn = ReturnType<typeof log>;  // void
+```
+
+```typescript
+// Parametersとの組み合わせ
+type VoidFunction<T extends any[]> =
+  (...args: T) => void;
+type Handler = VoidFunction<[string, number]>;
+```
+
+```typescript
+// Record<K, void>
+type EventMap = Record<string, () => void>;
+const events: EventMap = {
+  click: () => console.log("Click"),
+  hover: () => console.log("Hover")
+};
+```

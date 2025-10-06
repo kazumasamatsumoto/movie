@@ -1,4 +1,3 @@
-# #074 「string配列の初期化」台本
 
 四国めたん「TypeScript v5.9のstring配列初期化について学びましょう！」
 ずんだもん「string配列の初期化ってどうするの？」
@@ -9,21 +8,3 @@
 四国めたん「はい、コンポーネントの初期状態に活用できます」
 ずんだもん「配列初期化で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// string配列の初期化
-let names: string[] = ["Alice", "Bob", "Charlie"];
-let emails: string[] = ["alice@example.com", "bob@example.com"];
-let emptyArray: string[] = [];
-
-// 実用的な例
-let userRoles: string[] = ["admin", "user", "guest"];
-let productCategories: string[] = ["本", "ペン", "ノート"];
-let errorMessages: string[] = ["エラー1", "エラー2"];
-
-// 型推論でも配列型
-let inferred = ["TypeScript", "JavaScript"]; // string[]型と推論
-```

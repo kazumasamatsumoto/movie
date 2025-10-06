@@ -1,0 +1,51 @@
+# #548 「デバッグ」
+
+四国めたん「never型関連のデバッグ方法について学びましょう！」
+ずんだもん「never型のエラーをどうデバッグするの？」
+四国めたん「型エラーメッセージを読み、どの型が残っているか確認し、型ガードを追加します」
+ずんだもん「具体的にどう進めるの？」
+四国めたん「コンパイラが示す型情報を使い、段階的に型を絞り込んでいきますね」
+ずんだもん「なるほど！型エラーがヒントになるんだね！」
+四国めたん「TypeScriptの型チェッカーは正確なので、エラーを信頼して修正しましょうね」
+ずんだもん「効率的にバグを見つけられるよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// デバッグ手順1: 型エラーを確認
+type Action = 'create' | 'update' | 'delete';
+
+function handle(action: Action): string {
+  if (action === 'create') return 'Created';
+  const check: never = action;
+  // エラー: Type '"update" | "delete"' is not assignable to type 'never'
+  return '';
+}
+```
+
+```typescript
+// デバッグ手順2: 残りの型を確認
+function handleFixed(action: Action): string {
+  if (action === 'create') return 'Created';
+  // VSCodeでactionにホバー → 型は 'update' | 'delete'
+  if (action === 'update') return 'Updated';
+  if (action === 'delete') return 'Deleted';
+  const check: never = action;  // OK
+  return check;
+}
+```
+
+```typescript
+// デバッグ手順3: ヘルパー関数でログ出力
+function debugNever(value: never, context: string): never {
+  console.error(`Unhandled case in ${context}:`, value);
+  throw new Error(`Unhandled: ${JSON.stringify(value)}`);
+}
+
+function process(action: Action): string {
+  if (action === 'create') return 'Created';
+  return debugNever(action, 'process');  // ランタイムでデバッグ情報を出力
+}
+```

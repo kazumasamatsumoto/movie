@@ -1,0 +1,61 @@
+# #545 「ベストプラクティス」
+
+四国めたん「Angular/Nest.jsでのベストプラクティスについて学びましょう！」
+ずんだもん「どう書くのがベストなの？」
+四国めたん「判別Union型の活用、網羅性チェックの徹底、型定義の共有が重要です」
+ずんだもん「具体的なガイドラインを教えて！」
+四国めたん「すべての状態を型で表現し、never型で未処理ケースを検出し、ヘルパー関数を統一しますね」
+ずんだもん「なるほど！チーム全体で統一できるんだね！」
+四国めたん「型駆動開発により、バグの早期発見と開発効率の向上が実現できますね」
+ずんだもん「これからも型安全性を最優先で開発するよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 共通型定義（shared/types.ts）
+export type Result<T, E = Error> =
+  | { ok: true; value: T }
+  | { ok: false; error: E };
+
+export function exhaustiveCheck(value: never): never {
+  throw new Error(`Unhandled case: ${JSON.stringify(value)}`);
+}
+
+export function assertNever(value: never, message?: string): never {
+  throw new Error(message ?? `Unexpected: ${value}`);
+}
+```
+
+```typescript
+// サービス層での活用
+@Injectable()
+export class UserService {
+  async getUser(id: string): Promise<Result<User, UserError>> {
+    try {
+      const user = await this.repository.findById(id);
+      if (!user) return { ok: false, error: { type: 'notfound', id } };
+      return { ok: true, value: user };
+    } catch (e) {
+      return { ok: false, error: { type: 'internal', message: e.message } };
+    }
+  }
+}
+```
+
+```typescript
+// コントローラー層での活用
+@Controller('users')
+export class UserController {
+  @Get(':id')
+  async getUser(@Param('id') id: string): Promise<UserDto> {
+    const result = await this.service.getUser(id);
+
+    if (result.ok) return this.toDto(result.value);
+    if (!result.ok && result.error.type === 'notfound') throw new NotFoundException();
+    if (!result.ok && result.error.type === 'internal') throw new InternalServerErrorException();
+    return exhaustiveCheck(result);
+  }
+}
+```

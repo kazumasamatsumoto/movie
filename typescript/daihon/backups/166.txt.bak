@@ -1,0 +1,33 @@
+# #166 「Number()関数」台本
+
+四国めたん「TypeScript v5.9のNumber()関数について学びましょう！」
+ずんだもん「Number()関数って何？」
+四国めたん「値を数値に変換する関数です」
+ずんだもん「どうやって使うの？」
+四国めたん「Number(value)のように呼び出します」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、データ変換や型変換に活用できます」
+ずんだもん「数値変換で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Number()関数
+let str: string = "123";
+let bool: boolean = true;
+let nullValue: null = null;
+
+// 数値変換
+let num1: number = Number(str);      // 123
+let num2: number = Number(bool);     // 1
+let num3: number = Number(nullValue); // 0
+
+// 実用的な例
+let userInput: string = "25";
+let userAge: number = Number(userInput);
+
+let isActive: boolean = true;
+let activeValue: number = Number(isActive); // 1
+```

@@ -1,0 +1,28 @@
+# #104 「number型の初期化」台本
+
+四国めたん「TypeScript v5.9のnumber型初期化について学びましょう！」
+ずんだもん「number型の初期化ってどうするの？」
+四国めたん「let age: number = 30のように宣言と代入を同時に行います」
+ずんだもん「どんな初期値が使えるの？」
+四国めたん「0から複雑な計算結果まで、すべての数値が使用可能です」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、コンポーネントの初期状態に活用できます」
+ずんだもん「数値初期化で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// number型の初期化
+let age: number = 30;
+let price: number = 2980.50;
+let count: number = 0;
+let result: number = 10 * 5 + 3;
+
+// 実用的な例
+let userAge: number = 25;
+let productPrice: number = 1500;
+let taxRate: number = 0.1;
+let totalPrice: number = productPrice * (1 + taxRate);
+```

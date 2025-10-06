@@ -1,4 +1,3 @@
-# #079 「配列のfilter」台本
 
 四国めたん「TypeScript v5.9の配列filterについて学びましょう！」
 ずんだもん「配列のfilterって何？」
@@ -9,24 +8,3 @@
 四国めたん「はい、データの絞り込みや検索結果に活用できます」
 ずんだもん「配列フィルタで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 配列のfilter
-let names: string[] = ["Alice", "Bob", "Charlie", "David"];
-
-// 長さが4文字以上の名前を抽出
-let longNames: string[] = names.filter(name => name.length >= 4);
-// ["Alice", "Charlie", "David"]
-
-// 実用的な例
-let userRoles: string[] = ["admin", "user", "guest", "moderator"];
-let adminRoles: string[] = userRoles.filter(role => role.includes("admin"));
-// ["admin"]
-
-let productTags: string[] = ["本", "ペン", "ノート", "技術書"];
-let bookTags: string[] = productTags.filter(tag => tag.includes("本"));
-// ["本", "技術書"]
-```

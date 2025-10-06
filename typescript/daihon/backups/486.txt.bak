@@ -1,0 +1,47 @@
+# #486「エラー関数設計」
+
+四国めたん「エラー関数の設計について学びましょう！」
+ずんだもん「エラー関数はどう設計するの？」
+四国めたん「明確な名前、詳細なメッセージ、適切なエラー型を使います」
+ずんだもん「どんな名前がいいの？」
+四国めたん「fail、throwError、assertNeverなど、動作が分かる名前ですね」
+ずんだもん「なるほど！意図を伝えるんだね！」
+四国めたん「コンテキスト情報も含めます。TypeScript v5.9でも推奨されるパターンですね」
+ずんだもん「分かりやすい設計が大事なんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 良い設計: 明確な名前とメッセージ
+function throwValidationError(field: string, reason: string): never {
+  throw new Error(`Validation failed for ${field}: ${reason}`);
+}
+```
+
+```typescript
+// コンテキスト情報を含む
+function assertPositive(value: number, name: string): void {
+  if (value <= 0) {
+    throwError(`${name} must be positive, got ${value}`);
+  }
+}
+
+function throwError(message: string): never {
+  throw new Error(message);
+}
+```
+
+```typescript
+// 再利用可能な設計
+function createError(type: string, message: string): never {
+  throw new Error(`[${type}] ${message}`);
+}
+
+function validateUser(user: unknown): void {
+  if (!user) {
+    createError("VALIDATION", "User is required");
+  }
+}
+```

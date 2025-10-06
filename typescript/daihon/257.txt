@@ -1,4 +1,3 @@
-# #257 「typeof型ガード」台本
 
 四国めたん「TypeScript v5.9のtypeof型ガードについて学びましょう！」
 ずんだもん「typeof型ガードって何？」
@@ -9,27 +8,3 @@
 四国めたん「typeof value === 'string'で文字列かチェックできます」
 ずんだもん「シンプルで使いやすいね！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// typeof型ガード
-
-function processValue(value: string | number | boolean) {
-  if (typeof value === 'string') {
-    console.log(value.toUpperCase());
-  } else if (typeof value === 'number') {
-    console.log(value.toFixed(2));
-  } else {
-    console.log(!value);
-  }
-}
-
-// 型安全な処理
-function double(value: unknown): number | undefined {
-  if (typeof value === 'number') {
-    return value * 2;
-  }
-  return undefined;
-}

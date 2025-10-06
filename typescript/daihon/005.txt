@@ -1,4 +1,3 @@
-# #005 「型推論でstring型 - let name = "Bob"」台本
 
 四国めたん「TypeScript v5.9のstring型推論について学びましょう！」
 ずんだもん「string型も型推論できるの？」
@@ -8,26 +7,4 @@
 ずんだもん「Angularの開発でも使える？」
 四国めたん「はい、コードが簡潔になり、型安全性も保たれます」
 ずんだもん「型推論で最高だよ！」
-
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 型推論の例
-let name = "Bob";           // string型と推論
-let email = "bob@example.com"; // string型と推論
-let message = "Hello";      // string型と推論
-
-// 型安全性は保たれる
-// name = 123; // エラー: Type 'number' is not assignable to type 'string'
-
-// 明示的型注釈との比較
-let explicit: string = "Alice";  // 明示的
-let inferred = "Bob";            // 推論
-
-// 実用的な例
-let userName = "ずんだもん";
-let greeting = `こんにちは、${userName}さん！`;
-```
 

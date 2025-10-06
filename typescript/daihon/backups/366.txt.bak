@@ -1,0 +1,38 @@
+# #366「間違い(1) - 混同」
+
+四国めたん「Non-null Assertionの間違いについて学びましょう！」
+ずんだもん「どんな間違いがあるの？」
+四国めたん「論理否定演算子 ! と混同することです。後置の ! と前置の ! は別物ですね」
+ずんだもん「どう違うの？」
+四国めたん「!value は真偽値の反転、value! は型アサーションです。意味が全く異なりますね」
+ずんだもん「なるほど！位置で意味が変わるんだね！」
+四国めたん「可読性のため、Non-null Assertionは避けることが推奨されます。混同を防げますね」
+ずんだもん「明確な書き方が大事なんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 混同しやすい例
+const value: boolean | null = getValue();
+const result1 = !value;   // 論理否定 (boolean)
+const result2 = value!;   // Non-null Assertion (boolean)
+```
+
+```typescript
+// 間違った使用
+if (!user!) {  // 混乱しやすい
+  // ...
+}
+```
+
+```typescript
+// 正しい書き方
+if (user === null) {  // 明確
+  // ...
+}
+if (!user) {  // truthyチェック
+  // ...
+}
+```

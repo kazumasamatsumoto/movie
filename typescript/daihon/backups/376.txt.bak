@@ -1,0 +1,36 @@
+# #376「undefinedとの違い」
+
+四国めたん「void型とundefined型の違いについて学びましょう！」
+ずんだもん「voidとundefinedってどう違うの？」
+四国めたん「void は戻り値を無視する意図、undefined は undefined という値を返す意図です。設計思想が異なりますね」
+ずんだもん「使い分けはどうするの？」
+四国めたん「副作用のための関数は void、明示的に undefined を返す関数は undefined ですね」
+ずんだもん「なるほど！目的が違うんだね！」
+四国めたん「void の関数は戻り値を使うべきではありません。undefined は値として扱えますね」
+ずんだもん「意図を明確にできるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// void: 戻り値を無視
+function logMessage(msg: string): void {
+  console.log(msg);
+}
+const result1 = logMessage("Hello");  // void型
+```
+
+```typescript
+// undefined: undefined値を返す
+function findItem(id: number): Item | undefined {
+  return items.find(item => item.id === id);
+}
+const result2 = findItem(1);  // Item | undefined型
+```
+
+```typescript
+// 使い分け
+type Logger = (msg: string) => void;      // 副作用
+type Finder = (id: number) => Item | undefined;  // 検索
+```

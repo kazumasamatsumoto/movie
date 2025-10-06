@@ -1,0 +1,35 @@
+# #327「nullable型の宣言」
+
+四国めたん「nullable型の宣言方法について学びましょう！」
+ずんだもん「nullable型ってどう宣言するの？」
+四国めたん「T | null の形式で宣言します。型エイリアスを使うとより明確ですね」
+ずんだもん「具体的にどう書くの？」
+四国めたん「type Nullable<T> = T | null のようにジェネリクスで定義できます。再利用性が高まりますね」
+ずんだもん「なるほど！型で明示的に宣言するんだね！」
+四国めたん「インターフェースのプロパティや関数のシグネチャでも使えます。型安全性が向上しますね」
+ずんだもん「型定義で意図を明確にできて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 直接宣言
+let name: string | null = null;
+let age: number | null = null;
+```
+
+```typescript
+// 型エイリアス
+type Nullable<T> = T | null;
+let user: Nullable<User> = null;
+let config: Nullable<Config> = null;
+```
+
+```typescript
+// インターフェース
+interface ApiResponse<T> {
+  data: T | null;
+  error: string | null;
+}
+```

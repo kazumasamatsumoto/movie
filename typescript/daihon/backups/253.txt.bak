@@ -1,0 +1,31 @@
+# #253 「booleanの比較」台本
+
+四国めたん「TypeScript v5.9のbooleanの比較について学びましょう！」
+ずんだもん「booleanはどう比較するの？」
+四国めたん「===を使って厳密に比較します」
+ずんだもん「trueとfalseの数値変換は？」
+四国めたん「trueは1、falseは0として比較されますが、===では型が異なります」
+ずんだもん「具体例を見せて！」
+四国めたん「true === 1はfalse、true == 1はtrueです」
+ずんだもん「===で型安全に比較するよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// booleanの比較
+
+// 厳密な比較
+console.log(true === true);   // true
+console.log(false === false); // true
+console.log(true === false);  // false
+
+// 型の違い
+console.log(true === 1);  // false
+console.log(true == 1);   // true
+
+// 型安全な比較関数
+function isSameBoolean(a: boolean, b: boolean): boolean {
+  return a === b;
+}

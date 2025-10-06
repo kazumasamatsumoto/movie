@@ -1,0 +1,32 @@
+# #018 「Unicode文字 - \u0041」台本
+
+四国めたん「TypeScript v5.9のUnicode文字について学びましょう！」
+ずんだもん「Unicode文字って何？」
+四国めたん「\uXXXX形式でUnicode文字を表現する方法です」
+ずんだもん「どんな場面で使うの？」
+四国めたん「特殊文字や絵文字、多言語文字で使用します」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、国際化対応や特殊文字表示に活用できます」
+ずんだもん「Unicode処理で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Unicode文字の例
+let unicodeA: string = "\u0041"; // A
+let unicodeHeart: string = "\u2764"; // ❤
+let unicodeStar: string = "\u2605"; // ★
+let unicodeCheck: string = "\u2713"; // ✓
+
+// 実用的な例
+let successIcon: string = "\u2713 成功";
+let errorIcon: string = "\u2717 エラー";
+let warningIcon: string = "\u26A0 警告";
+let infoIcon: string = "\u2139 情報";
+
+// 多言語文字
+let japanese: string = "\u65E5\u672C\u8A9E"; // 日本語
+let chinese: string = "\u4E2D\u6587"; // 中文
+```

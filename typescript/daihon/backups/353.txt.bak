@@ -1,0 +1,43 @@
+# #353「nullish型の使用例」
+
+四国めたん「nullish型の実践的な使用例について学びましょう！」
+ずんだもん「どんな場面で使うの？」
+四国めたん「APIレスポンス、データベースクエリ、フォーム入力など、値が存在しない可能性がある場面で使います」
+ずんだもん「具体的にどう使うの？」
+四国めたん「外部データの型定義、オプショナルな設定値、検索結果などで活用します。型安全性を保ちますね」
+ずんだもん「なるほど！実用的なんだね！」
+四国めたん「エラーハンドリングやデフォルト値の設定にも有効です。TypeScript v5.9でも推奨されるパターンですね」
+ずんだもん「いろんな場面で使えて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// APIレスポンスの型定義
+interface ApiResponse<T> {
+  data: T | null | undefined;
+  error: string | null | undefined;
+  status: number;
+}
+```
+
+```typescript
+// データベースクエリの結果
+async function getUser(id: number): Promise<User | null | undefined> {
+  try {
+    return await db.users.findById(id);
+  } catch {
+    return undefined;
+  }
+}
+```
+
+```typescript
+// フォーム入力の処理
+interface FormData {
+  name: string;
+  email: string | null | undefined;
+  phone: string | null | undefined;
+}
+```

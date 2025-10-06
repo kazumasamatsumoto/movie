@@ -1,4 +1,3 @@
-# #214 「boolean型の用途」台本
 
 四国めたん「TypeScript v5.9のboolean型の用途について学びましょう！」
 ずんだもん「boolean型の用途って何？」
@@ -9,28 +8,3 @@
 四国めたん「はい、アプリケーションの制御に重要です」
 ずんだもん「boolean用途で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// boolean型の用途
-
-// 1. 条件分岐
-let isActive: boolean = true;
-if (isActive) {
-  console.log("アクティブです");
-}
-
-// 2. フラグ管理
-let hasPermission: boolean = true;
-let canEdit: boolean = false;
-
-// 3. 状態管理
-let userLoggedIn: boolean = true;
-let formValid: boolean = false;
-
-// 4. バリデーション
-let isEmailValid: boolean = true;
-let isPasswordValid: boolean = false;
-```

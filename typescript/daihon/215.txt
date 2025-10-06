@@ -1,4 +1,3 @@
-# #215 「基本まとめ」台本
 
 四国めたん「TypeScript v5.9のboolean型基本まとめについて学びましょう！」
 ずんだもん「boolean型基本まとめって何？」
@@ -9,29 +8,3 @@
 四国めたん「はい、boolean型の基盤となる重要な機能です」
 ずんだもん「基本まとめで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// boolean型基本まとめ
-
-// 1. 型宣言
-let isActive: boolean = true;
-let isCompleted: boolean = false;
-
-// 2. 型推論
-let userLoggedIn = true;    // boolean型と推論
-let formValid = false;      // boolean型と推論
-
-// 3. 条件分岐
-if (isActive) {
-  console.log("アクティブです");
-}
-
-// 4. 配列
-let flags: boolean[] = [true, false, true];
-
-// 5. 実用的な例
-let userPermissions: boolean[] = [true, false, true];
-```

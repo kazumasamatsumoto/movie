@@ -1,4 +1,3 @@
-# #275 「@IsBoolean()デコレータ」台本
 
 四国めたん「TypeScript v5.9の@IsBoolean()デコレータについて学びましょう！」
 ずんだもん「@IsBoolean()って何？」
@@ -9,26 +8,3 @@
 四国めたん「はい、厳密にboolean型のみを受け付けます」
 ずんだもん「型安全なバリデーションが実現できるね！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// @IsBoolean()デコレータ
-
-import { IsBoolean, IsOptional } from 'class-validator';
-
-export class UpdateSettingsDto {
-  @IsBoolean()
-  emailNotification: boolean;
-  
-  @IsBoolean()
-  @IsOptional()
-  pushNotification?: boolean;
-}
-
-// バリデーション成功例
-const valid = { emailNotification: true };
-
-// バリデーション失敗例
-const invalid = { emailNotification: 'true' }; // エラー

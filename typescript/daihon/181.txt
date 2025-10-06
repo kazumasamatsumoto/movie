@@ -1,4 +1,3 @@
-# #181 「toFixed()メソッド」台本
 
 四国めたん「TypeScript v5.9のtoFixed()メソッドについて学びましょう！」
 ずんだもん「toFixed()メソッドって何？」
@@ -9,22 +8,3 @@
 四国めたん「はい、数値の表示フォーマットに重要です」
 ずんだもん「数値フォーマットで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// toFixed()メソッド
-let num: number = 3.14159;
-
-let fixed1: string = num.toFixed(2); // "3.14"
-let fixed2: string = num.toFixed(4); // "3.1416"
-let fixed3: string = num.toFixed(0); // "3"
-
-// 実用的な例
-let price: number = 1500.99;
-let displayPrice: string = price.toFixed(2); // "1500.99"
-
-let userAge: number = 25.5;
-let displayAge: string = userAge.toFixed(0); // "26"
-```

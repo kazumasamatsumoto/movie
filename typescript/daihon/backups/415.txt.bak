@@ -1,0 +1,36 @@
+# #415「比較まとめ」
+
+四国めたん「voidとundefinedの比較をまとめましょう！」
+ずんだもん「voidとundefinedの違いをまとめて！」
+四国めたん「void は戻り値を無視する意図、undefined は undefined 値を返す意図です。概念が異なりますね」
+ずんだもん「どう使い分けるの？」
+四国めたん「副作用関数は void、値として扱う場合は undefined です。実行時は両方 undefined ですね」
+ずんだもん「なるほど！意図を型で表現するんだね！」
+四国めたん「型システムで設計の意図を明確にします。コンパイル後は同じJavaScriptです。TypeScript v5.9でも重要な区別ですね」
+ずんだもん「型で意図を伝えられて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// void: 戻り値を無視
+function logMessage(msg: string): void {
+  console.log(msg);
+}
+type Logger = (msg: string) => void;
+```
+
+```typescript
+// undefined: undefined値を返す
+function findItem(id: number): Item | undefined {
+  return items.find(item => item.id === id);
+}
+```
+
+```typescript
+// 実行時の違い
+console.log(logMessage("test"));  // undefined
+console.log(findItem(1));         // Item | undefined
+// 両方undefinedだが意図が異なる
+```

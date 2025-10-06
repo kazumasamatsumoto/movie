@@ -1,4 +1,3 @@
-# #057 「charAt()範囲外アクセス」台本
 
 四国めたん「TypeScript v5.9のcharAt()範囲外アクセスについて学びましょう！」
 ずんだもん「範囲外アクセスって何？」
@@ -9,24 +8,3 @@
 四国めたん「はい、安全な文字列処理のために重要です」
 ずんだもん「安全処理で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// charAt()範囲外アクセス
-let name: string = "Alice"; // 長さ5
-
-// 範囲内アクセス
-let validChar: string = name.charAt(0); // "A"
-let validChar2: string = name.charAt(4); // "e"
-
-// 範囲外アクセス
-let invalidChar: string = name.charAt(5); // ""（空文字列）
-let invalidChar2: string = name.charAt(-1); // ""（空文字列）
-let invalidChar3: string = name.charAt(10); // ""（空文字列）
-
-// 実用的な例
-let userInput: string = "Hello";
-let safeChar: string = userInput.charAt(userInput.length); // ""（安全）
-```

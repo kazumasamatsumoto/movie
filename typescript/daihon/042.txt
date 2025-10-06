@@ -1,4 +1,3 @@
-# #042 「string型の宣言 - プリミティブ」台本
 
 四国めたん「TypeScript v5.9のstring型宣言について学びましょう！」
 ずんだもん「string型の宣言ってどうするの？」
@@ -9,24 +8,3 @@
 四国めたん「はい、コンポーネントのプロパティに活用できます」
 ずんだもん「プリミティブ型で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// string型の宣言（プリミティブ型）
-let name: string = "Alice";
-let email: string = "alice@example.com";
-let description: string = "TypeScript学習中";
-
-// 型推論でもstring型
-let inferred = "Bob"; // string型と推論
-
-// 実用的な例
-let componentTitle: string = "ユーザー管理";
-let apiEndpoint: string = "/api/users";
-let errorMessage: string = "エラーが発生しました";
-
-// プリミティブ型の特徴
-console.log(typeof name); // "string"
-```

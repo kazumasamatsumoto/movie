@@ -1,0 +1,10 @@
+
+四国めたん「nullのJSON表現について学びましょう！」
+ずんだもん「nullってJSONでどう扱われるの？」
+四国めたん「JSONではnullはそのままnullとして表現されます。undefinedと異なり、JSONで正式にサポートされています」
+ずんだもん「undefinedとの違いは？」
+四国めたん「undefinedはJSONでは省略されますが、nullはnullとして保持されます。APIでのデータ交換で重要です」
+ずんだもん「なるほど！nullはJSON互換なんだね！」
+四国めたん「TypeScriptの型定義でもJSON対応を考慮して、string | nullを使う場面が多いですね」
+ずんだもん「APIとの連携で型安全に扱えて最高だよ！」
+

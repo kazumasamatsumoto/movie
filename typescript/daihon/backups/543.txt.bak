@@ -1,0 +1,65 @@
+# #543 「レスポンス型」
+
+四国めたん「レスポンス型の設計とnever型について学びましょう！」
+ずんだもん「レスポンス型ってどう設計するの？」
+四国めたん「成功、エラー、読み込み中などの状態を判別Union型で表現し、型安全性を確保します」
+ずんだもん「具体的にどう使うの？」
+四国めたん「フロントエンドとバックエンドで同じ型定義を共有し、網羅的に処理しますね」
+ずんだもん「なるほど！APIレスポンスの扱いが統一されるんだね！」
+四国めたん「Angular HttpClientやRxJSとの相性も抜群ですね」
+ずんだもん「型安全なAPI通信が実現できるよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 標準レスポンス型
+type ApiResponse<T> =
+  | { status: 'success'; data: T; timestamp: number }
+  | { status: 'error'; error: { code: string; message: string } }
+  | { status: 'loading' };
+
+function handleResponse<T>(res: ApiResponse<T>): T | null {
+  if (res.status === 'success') return res.data;
+  if (res.status === 'error') {
+    console.error(res.error);
+    return null;
+  }
+  if (res.status === 'loading') return null;
+  const check: never = res;
+  return null;
+}
+```
+
+```typescript
+// ページネーション付きレスポンス
+type PagedResponse<T> =
+  | { hasData: true; items: T[]; total: number; page: number }
+  | { hasData: false; reason: 'empty' | 'error' };
+
+function processPage<T>(res: PagedResponse<T>): T[] {
+  if (res.hasData) return res.items;
+  if (!res.hasData && res.reason === 'empty') return [];
+  if (!res.hasData && res.reason === 'error') throw new Error('Failed');
+  const check: never = res;
+  return [];
+}
+```
+
+```typescript
+// HTTPステータス付きレスポンス
+type HttpResponse<T> =
+  | { status: 200; data: T }
+  | { status: 201; data: T; location: string }
+  | { status: 204 }
+  | { status: 400 | 404 | 500; error: string };
+
+function handle<T>(res: HttpResponse<T>): T | null {
+  if (res.status === 200) return res.data;
+  if (res.status === 201) return res.data;
+  if (res.status === 204) return null;
+  if (res.status >= 400) throw new Error(res.error);
+  const check: never = res;
+}
+```

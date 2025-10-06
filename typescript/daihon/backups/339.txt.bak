@@ -1,0 +1,35 @@
+# #339「ベストプラクティス」
+
+四国めたん「nullable型のベストプラクティスについて学びましょう！」
+ずんだもん「どう使うのがベストなの？」
+四国めたん「明示的な型定義、型ガードの活用、Optional Chainingの使用が基本です」
+ずんだもん「他に注意点はあるの？」
+四国めたん「Non-Null Assertionは避け、型エイリアスで再利用性を高めます。一貫性が重要ですね」
+ずんだもん「なるほど！チーム全体で統一するんだね！」
+四国めたん「ESLintルールで強制し、コードレビューで確認します。型安全性を維持しましょう」
+ずんだもん「プロジェクト全体で型安全にできて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// ベストプラクティス1: 型エイリアス
+type Nullable<T> = T | null;
+function findUser(id: number): Nullable<User> {
+  return users.find(u => u.id === id) ?? null;
+}
+```
+
+```typescript
+// ベストプラクティス2: 型ガード
+if (user !== null) {
+  console.log(user.name); // 安全
+}
+```
+
+```typescript
+// ベストプラクティス3: Optional Chaining
+const name = user?.name ?? "Guest";
+const city = user?.address?.city;
+```

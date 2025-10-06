@@ -1,4 +1,3 @@
-# #084 「@IsString()デコレータ」台本
 
 四国めたん「TypeScript v5.9の@IsString()デコレータについて学びましょう！」
 ずんだもん「@IsString()デコレータって何？」
@@ -9,35 +8,3 @@
 四国めたん「はい、APIのバリデーションに重要な機能です」
 ずんだもん「デコレータで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// @IsString()デコレータ
-import { IsString, IsOptional } from 'class-validator';
-
-export class UserDto {
-  @IsString()
-  name: string;
-
-  @IsString()
-  email: string;
-
-  @IsString()
-  @IsOptional()
-  description?: string;
-}
-
-export class ProductDto {
-  @IsString()
-  name: string;
-
-  @IsString()
-  category: string;
-
-  @IsString()
-  @IsOptional()
-  tags?: string;
-}
-```

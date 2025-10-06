@@ -1,0 +1,32 @@
+# #008 「string型の変数宣言 - varは使わない理由」台本
+
+四国めたん「TypeScript v5.9のstring型変数宣言について学びましょう！」
+ずんだもん「varは使わない方がいいの？」
+四国めたん「はい、varは関数スコープで巻き上げが発生するため非推奨です」
+ずんだもん「letとconstの違いは？」
+四国めたん「letは再代入可能、constは再代入不可です」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、モダンなJavaScriptのベストプラクティスです」
+ずんだもん「モダン宣言で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// var（非推奨）
+// var oldStyle: string = "古いスタイル";
+
+// let（推奨）- 再代入可能
+let modernStyle: string = "モダンスタイル";
+modernStyle = "更新された値"; // OK
+
+// const（推奨）- 再代入不可
+const constantValue: string = "定数値";
+// constantValue = "新しい値"; // エラー
+
+// 実用的な例
+let userName: string = "初期値";
+const API_ENDPOINT: string = "https://api.example.com";
+```
+

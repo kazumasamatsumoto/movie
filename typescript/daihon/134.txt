@@ -1,4 +1,3 @@
-# #134 「特殊な数値のベストプラクティス」台本
 
 四国めたん「TypeScript v5.9の特殊な数値のベストプラクティスについて学びましょう！」
 ずんだもん「特殊な数値のベストプラクティスって何？」
@@ -9,30 +8,3 @@
 四国めたん「はい、安定した数値処理に重要です」
 ずんだもん「ベストプラクティスで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 特殊な数値のベストプラクティス
-
-// 1. 適切な判定関数の使用
-let value: number = parseFloat("abc");
-if (Number.isNaN(value)) {
-  console.log("無効な数値です");
-}
-
-// 2. 有限数チェック
-let result: number = 1 / 0;
-if (Number.isFinite(result)) {
-  console.log("有効な数値です");
-} else {
-  console.log("無限大またはNaNです");
-}
-
-// 3. 安全整数チェック
-let largeNumber: number = 9007199254740992;
-if (Number.isSafeInteger(largeNumber)) {
-  console.log("安全な整数です");
-}
-```

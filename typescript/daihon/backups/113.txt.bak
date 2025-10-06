@@ -1,0 +1,32 @@
+# #113 「2進数の型」台本
+
+四国めたん「TypeScript v5.9の2進数の型について学びましょう！」
+ずんだもん「2進数の型って何？」
+四国めたん「2進数リテラルもnumber型として扱われます」
+ずんだもん「どんな型になるの？」
+四国めたん「0b1010も通常の数値と同じnumber型です」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、型の一貫性を理解するために重要です」
+ずんだもん「型統一で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 2進数の型
+let binary: number = 0b1010;  // number型
+let decimal: number = 10;     // number型
+
+// 型は同じ
+console.log(typeof binary);   // "number"
+console.log(typeof decimal);  // "number"
+
+// 値も同じ
+console.log(binary === decimal); // true
+
+// 実用的な例
+let flag: number = 0b0001;
+let value: number = 1;
+console.log(flag === value); // true
+```

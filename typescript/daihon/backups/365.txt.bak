@@ -1,0 +1,37 @@
+# #365「代替手段」
+
+四国めたん「Non-null Assertionの代替手段について学びましょう！」
+ずんだもん「! の代わりに何を使えばいいの？」
+四国めたん「型ガード、Optional Chaining、Nullish Coalescingが推奨されます。型安全性を保てますね」
+ずんだもん「具体的にどう書くの？」
+四国めたん「if文でnullチェック、?. で安全なアクセス、?? でデフォルト値を設定します。実行時エラーを防げますね」
+ずんだもん「なるほど！安全な方法がたくさんあるんだね！」
+四国めたん「型ガード関数も有効です。TypeScript v5.9でこれらが標準的な書き方ですね」
+ずんだもん「型安全に書けて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 型ガードを使う
+const element = document.getElementById("app");
+if (element !== null) {
+  element.innerHTML = "Hello";
+}
+```
+
+```typescript
+// Optional Chainingを使う
+const user = findUser(id);
+const name = user?.name ?? "Unknown";
+user?.greet();
+```
+
+```typescript
+// 型ガード関数を使う
+function isNotNull<T>(value: T | null): value is T {
+  return value !== null;
+}
+const validUsers = users.filter(isNotNull);
+```

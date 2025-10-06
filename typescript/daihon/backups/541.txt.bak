@@ -1,0 +1,63 @@
+# #541 「型安全なエラーハンドリング」
+
+四国めたん「型安全なエラーハンドリングについて学びましょう！」
+ずんだもん「型安全なエラー処理ってどうやるの？」
+四国めたん「Result型やEither型を使い、エラーを値として扱うことで型安全性を確保します」
+ずんだもん「具体的にどう実装するの？」
+四国めたん「成功とエラーを判別Union型で表現し、never型で網羅性をチェックしますね」
+ずんだもん「なるほど！例外を投げずに型で制御できるんだね！」
+四国めたん「関数型プログラミングの考え方で、予測可能なエラー処理が実現できますね」
+ずんだもん「バグが減って保守性も上がるよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Result型の定義
+type Result<T, E> =
+  | { ok: true; value: T }
+  | { ok: false; error: E };
+
+function divide(a: number, b: number): Result<number, string> {
+  if (b === 0) return { ok: false, error: 'Division by zero' };
+  return { ok: true, value: a / b };
+}
+
+function handleResult(result: Result<number, string>): number {
+  if (result.ok) return result.value;
+  if (!result.ok) throw new Error(result.error);
+  const check: never = result;
+}
+```
+
+```typescript
+// Either型の実装
+type Either<L, R> =
+  | { type: 'left'; value: L }
+  | { type: 'right'; value: R };
+
+function parseJson<T>(json: string): Either<Error, T> {
+  try {
+    return { type: 'right', value: JSON.parse(json) };
+  } catch (e) {
+    return { type: 'left', value: e as Error };
+  }
+}
+```
+
+```typescript
+// 複数のエラータイプ
+type AppError =
+  | { type: 'validation'; field: string }
+  | { type: 'network'; code: number }
+  | { type: 'business'; message: string };
+
+function handleError(error: AppError): string {
+  if (error.type === 'validation') return `Invalid: ${error.field}`;
+  if (error.type === 'network') return `HTTP ${error.code}`;
+  if (error.type === 'business') return error.message;
+  const check: never = error;
+  return 'Unknown error';
+}
+```

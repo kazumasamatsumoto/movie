@@ -1,4 +1,3 @@
-# #164 「なぜnumberを使うべきか」台本
 
 四国めたん「TypeScript v5.9のnumber型使用理由について学びましょう！」
 ずんだもん「なぜnumber型を使うべきなの？」
@@ -9,29 +8,3 @@
 四国めたん「はい、安定したアプリケーション開発に重要です」
 ずんだもん「number型で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// number型を使うべき理由
-
-// 1. 型安全性
-let userAge: number = 25;
-// userAge = "25"; // エラー: Type 'string' is not assignable to type 'number'
-
-// 2. パフォーマンス
-let productPrice: number = 1500; // 軽量なプリミティブ型
-
-// 3. 一貫性
-let userData = {
-  age: 25,
-  price: 1500
-};
-let totalValue: number = userData.age + userData.price;
-
-// 4. 予測可能な動作
-let num1: number = 30;
-let num2: number = 30;
-console.log(num1 === num2); // 常にtrue
-```

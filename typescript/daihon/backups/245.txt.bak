@@ -1,0 +1,32 @@
+# #245 「不等価演算子 - !=と!==」台本
+
+四国めたん「TypeScript v5.9の不等価演算子について学びましょう！」
+ずんだもん「!=と!==の違いは？」
+四国めたん「!=は型変換後に不等を判定、!==は型変換なしで厳密に判定します」
+ずんだもん「等価演算子と同じ関係？」
+四国めたん「はい、!==が推奨されます。型と値の両方を比較します」
+ずんだもん「具体例を見せて！」
+四国めたん「5 !== '5'はtrue、5 != '5'はfalseになります」
+ずんだもん「!==で型安全な不等比較ができるね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 不等価演算子の違い
+
+// != (型変換あり)
+console.log(5 != '5');    // false (型変換後に比較)
+console.log(0 != false);  // false
+console.log(null != undefined); // false
+
+// !== (型変換なし、厳密比較)
+console.log(5 !== '5');   // true (型が異なる)
+console.log(0 !== false); // true
+console.log(null !== undefined); // true
+
+// 推奨: !==を使用
+function isNotEqual(a: number, b: number): boolean {
+  return a !== b;
+}

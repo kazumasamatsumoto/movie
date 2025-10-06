@@ -1,0 +1,32 @@
+# #093 「セキュリティ - XSS対策」台本
+
+四国めたん「TypeScript v5.9のセキュリティXSS対策について学びましょう！」
+ずんだもん「XSS対策って何？」
+四国めたん「クロスサイトスクリプティング攻撃を防ぐ対策です」
+ずんだもん「どんな対策があるの？」
+四国めたん「入力値の検証、出力時のエスケープ、サニタイズなどがあります」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、セキュアなアプリケーション開発に重要です」
+ずんだもん「セキュリティ対策で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// セキュリティ - XSS対策
+
+// 入力値の検証
+function sanitizeInput(input: string): string {
+  return input.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+}
+
+// 安全な文字列処理
+let userInput: string = "<script>alert('XSS')</script>";
+let safeInput: string = sanitizeInput(userInput);
+
+// 実用的な例
+let userName: string = "Alice";
+let userMessage: string = "Hello, World!";
+let displayText: string = `${userName}: ${userMessage}`;
+```

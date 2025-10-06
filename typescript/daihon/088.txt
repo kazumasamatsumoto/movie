@@ -1,4 +1,3 @@
-# #088 「間違い(3) - undefinedとの混同」台本
 
 四国めたん「TypeScript v5.9の間違い(3)について学びましょう！」
 ずんだもん「undefinedとの混同って何？」
@@ -9,26 +8,3 @@
 四国めたん「はい、型安全性を保つために重要です」
 ずんだもん「型混同回避で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 間違い(3) - undefinedとの混同
-
-// ❌ 間違い：型の混同
-// let name: string = undefined; // エラー
-
-// ✅ 正しい：undefined許可型の使用
-let name: string | undefined = undefined;
-let message: string | undefined = "Hello";
-
-// 実用的な例
-let userName: string | undefined = undefined;
-let userEmail: string | undefined = "alice@example.com";
-
-// undefinedチェック
-if (userName !== undefined) {
-  console.log(userName.toUpperCase());
-}
-```

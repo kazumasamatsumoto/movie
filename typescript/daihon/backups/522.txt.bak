@@ -1,0 +1,46 @@
+# #522 「string | never = string」
+
+四国めたん「string | never = string の等式について学びましょう！」
+ずんだもん「これはどういう意味なの？」
+四国めたん「集合論では、任意の集合Aと空集合の和集合はAになります。型理論でも同じですね」
+ずんだもん「具体的にどう使うの？」
+四国めたん「条件付き型で不要な型をneverに変換すると、Union型から自動的に除外されます」
+ずんだもん「なるほど！型のフィルタリングができるんだね！」
+四国めたん「TypeScriptの型演算の基礎となる重要な性質ですね」
+ずんだもん「Utility Typesの実装に使われてるよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 基本的な等式
+type Test1 = string | never;           // = string
+type Test2 = number | never;           // = number
+type Test3 = MyType | never;           // = MyType
+type Test4 = (string | number) | never; // = string | number
+```
+
+```typescript
+// Exclude型の実装原理
+type Exclude<T, U> = T extends U ? never : T;
+
+type Result1 = Exclude<'a' | 'b' | 'c', 'a'>;
+// = never | 'b' | 'c'
+// = 'b' | 'c'
+
+type Result2 = Exclude<string | number, string>;
+// = never | number
+// = number
+```
+
+```typescript
+// 実践例：関数の戻り値フィルタリング
+type ReturnTypeFilter<T> =
+  T extends (...args: any[]) => infer R
+    ? R extends void ? never : R
+    : never;
+
+type A = ReturnTypeFilter<() => string>;  // string
+type B = ReturnTypeFilter<() => void>;    // never
+```

@@ -1,4 +1,3 @@
-# #185 「金銭計算の注意点」台本
 
 四国めたん「TypeScript v5.9の金銭計算の注意点について学びましょう！」
 ずんだもん「金銭計算の注意点って何？」
@@ -9,27 +8,3 @@
 四国めたん「はい、正確な金銭計算に重要です」
 ずんだもん「金銭計算で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 金銭計算の注意点
-function calculatePrice(price: number, tax: number): number {
-  // 整数演算で精度を保つ
-  const factor = 100;
-  const priceInt = Math.round(price * factor);
-  const taxInt = Math.round(tax * factor);
-  const totalInt = priceInt + taxInt;
-  
-  return totalInt / factor;
-}
-
-// 実用的な例
-let productPrice: number = 100.50;
-let tax: number = 8.25;
-let total: number = calculatePrice(productPrice, tax);
-
-console.log(total); // 108.75
-console.log(total.toFixed(2)); // "108.75"
-```

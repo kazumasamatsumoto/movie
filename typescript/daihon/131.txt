@@ -1,4 +1,3 @@
-# #131 「Number.isFinite()」台本
 
 四国めたん「TypeScript v5.9のNumber.isFinite()について学びましょう！」
 ずんだもん「Number.isFinite()って何？」
@@ -9,26 +8,3 @@
 四国めたん「はい、正確な数値判定に重要です」
 ずんだもん「厳密判定で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// Number.isFinite()
-let normalNumber: number = 100;
-let stringNumber: string = "123";
-
-// isFinite() - 型変換あり
-let isFinite1: boolean = isFinite(normalNumber); // true
-let isFinite2: boolean = isFinite(stringNumber); // true (型変換される)
-
-// Number.isFinite() - 型変換なし
-let isFinite3: boolean = Number.isFinite(normalNumber); // true
-let isFinite4: boolean = Number.isFinite(stringNumber); // false (型変換されない)
-
-// 実用的な例
-let userInput: number = 42;
-if (Number.isFinite(userInput)) {
-  console.log("有効な数値です");
-}
-```

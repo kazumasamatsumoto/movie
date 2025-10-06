@@ -1,0 +1,41 @@
+# #452「間違い(2) - undefined混同」
+
+四国めたん「voidとundefinedの混同について学びましょう！」
+ずんだもん「どう混同するの？」
+四国めたん「void と undefined を同じものだと思うことです。概念が異なりますね」
+ずんだもん「どう違うの？」
+四国めたん「void は戻り値を無視する意図、undefined は値として扱う意図です。使い分けが重要ですね」
+ずんだもん「なるほど！目的が違うんだね！」
+四国めたん「関数の戻り値型で間違えやすいです。TypeScript v5.9でも正しく使い分けましょうね」
+ずんだもん「意図を明確にすることが大事なんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 間違い: voidとundefinedを混同
+function getValue(): void {  // 間違い
+  return undefined;
+}
+const value = getValue();  // voidなので値として使えない
+```
+
+```typescript
+// 正しい: undefinedを返す
+function findItem(id: number): Item | undefined {
+  return items.find(item => item.id === id);
+}
+const item = findItem(1);
+if (item !== undefined) {
+  console.log(item.name);
+}
+```
+
+```typescript
+// 正しい: voidは副作用用
+function logMessage(msg: string): void {
+  console.log(msg);
+}
+logMessage("Hello");  // 戻り値を使わない
+```

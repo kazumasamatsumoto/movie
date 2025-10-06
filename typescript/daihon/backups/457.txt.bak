@@ -1,0 +1,45 @@
+# #457「テスト」
+
+四国めたん「void関数のテストについて学びましょう！」
+ずんだもん「void関数はどうテストするの？」
+四国めたん「副作用を検証します。スパイやモックで呼び出しを確認しますね」
+ずんだもん「戻り値がないのにテストできるの？」
+四国めたん「はい、状態の変化、関数呼び出し、例外の発生などを検証します」
+ずんだもん「なるほど！副作用を確認するんだね！」
+四国めたん「Jestやvitestなどのテストフレームワークを使います。TypeScript v5.9でも同じですね」
+ずんだもん「しっかりテストできるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 状態変化のテスト
+test('increment increases counter', () => {
+  let count = 0;
+  function increment(): void {
+    count++;
+  }
+  increment();
+  expect(count).toBe(1);
+});
+```
+
+```typescript
+// 関数呼び出しのテスト
+test('saveUser calls database.save', () => {
+  const spy = jest.spyOn(database, 'save');
+  saveUser(mockUser);
+  expect(spy).toHaveBeenCalledWith(mockUser);
+  expect(spy).toHaveBeenCalledTimes(1);
+});
+```
+
+```typescript
+// 例外のテスト
+test('validate throws error for invalid data', () => {
+  expect(() => {
+    validate(invalidData);
+  }).toThrow('Invalid data');
+});
+```

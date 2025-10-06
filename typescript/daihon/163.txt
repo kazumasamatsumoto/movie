@@ -1,4 +1,3 @@
-# #163 「==と===での比較」台本
 
 四国めたん「TypeScript v5.9の==と===での比較について学びましょう！」
 ずんだもん「==と===の違いって何？」
@@ -9,31 +8,3 @@
 四国めたん「はい、予期しない動作を避けるために重要です」
 ずんだもん「比較演算子で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// ==と===での比較
-
-// number型同士の比較
-let num1: number = 30;
-let num2: number = 30;
-console.log(num1 === num2); // true
-console.log(num1 == num2);  // true
-
-// Numberオブジェクトとの比較
-// let numObj = new Number(30);
-// console.log(num1 === numObj); // false（型が異なる）
-// console.log(num1 == numObj);  // true（型変換される）
-
-// 実用的な例
-let userAge: number = 25;
-let expectedAge: number = 25;
-console.log(userAge === expectedAge); // true
-
-// 型安全な比較
-if (userAge === expectedAge) {
-  console.log("年齢が一致します");
-}
-```

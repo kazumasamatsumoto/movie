@@ -1,0 +1,38 @@
+# #274 「Nest.jsのDTOとboolean」台本
+
+四国めたん「TypeScript v5.9のNest.jsのDTOとbooleanについて学びましょう！」
+ずんだもん「Nest.jsでbooleanはどう扱うの？」
+四国めたん「DTOクラスでboolean型を定義し、バリデーションを行います」
+ずんだもん「どう記述するの？」
+四国めたん「@IsBoolean()デコレータで型チェックできます」
+ずんだもん「型安全にバリデーションできる？」
+四国めたん「はい、class-validatorで実行時にも型チェックされます」
+ずんだもん「Nest.jsでも型安全だね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Nest.jsのDTOとboolean
+
+import { IsBoolean, IsString } from 'class-validator';
+
+export class CreateUserDto {
+  @IsString()
+  name: string;
+  
+  @IsBoolean()
+  isActive: boolean;
+  
+  @IsBoolean()
+  isAdmin: boolean;
+}
+
+@Controller('users')
+export class UsersController {
+  @Post()
+  create(@Body() dto: CreateUserDto) {
+    return { success: dto.isActive };
+  }
+}

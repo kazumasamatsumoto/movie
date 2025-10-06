@@ -1,4 +1,3 @@
-# #221 「falseリテラル型の使用例」台本
 
 四国めたん「TypeScript v5.9のfalseリテラル型の使用例について学びましょう！」
 ずんだもん「falseリテラル型の使用例って何？」
@@ -9,27 +8,3 @@
 四国めたん「はい、無効状態の型安全性に重要です」
 ずんだもん「false使用例で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// falseリテラル型の使用例
-
-// 1. 無効状態フラグ
-const isInactive: false = false;
-const isDisabled: false = false;
-
-// 2. 無効設定値
-const disableLogging: false = false;
-const disableCaching: false = false;
-
-// 3. 実用的な例
-const userLoggedOut: false = false;
-const formInvalid: false = false;
-
-// 条件分岐での使用
-if (!isInactive) {
-  console.log("アクティブです");
-}
-```

@@ -1,0 +1,47 @@
+# #512 「型の絞り込み」
+
+四国めたん「型の絞り込みと網羅性について学びましょう！」
+ずんだもん「型の絞り込みってどういうこと？」
+四国めたん「条件分岐で型を段階的に絞り込み、最終的にnever型に到達させる技術です」
+ずんだもん「具体的にどう絞り込むの？」
+四国めたん「判別プロパティを使った型ガードで、Union型から1つずつ型を除外していきます」
+ずんだもん「なるほど！絞り込むほど型が狭くなるんだね！」
+四国めたん「制御フロー分析により、各分岐で正確な型が推論されますね」
+ずんだもん「型推論の精度が開発体験を向上させるよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+type Response =
+  | { status: 200; data: string }
+  | { status: 404; error: string }
+  | { status: 500; error: string };
+```
+
+```typescript
+function handle(res: Response) {
+  if (res.status === 200) {
+    console.log(res.data); // { status: 200; data: string }
+  } else if (res.status === 404) {
+    console.log(res.error); // { status: 404; error: string }
+  } else if (res.status === 500) {
+    console.log(res.error); // { status: 500; error: string }
+  }
+  const check: never = res; // 完全に絞り込まれた
+}
+```
+
+```typescript
+// 段階的な絞り込み
+function process(value: string | number | boolean) {
+  if (typeof value === 'string') {
+    return value.toUpperCase(); // string型
+  } else if (typeof value === 'number') {
+    return value * 2; // number型
+  } else {
+    return !value; // boolean型
+  }
+}
+```

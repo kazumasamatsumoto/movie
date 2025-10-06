@@ -1,0 +1,39 @@
+# #371「void型とは」
+
+四国めたん「void型について学びましょう！」
+ずんだもん「void型ってどんな型なの？」
+四国めたん「値を返さない関数の戻り値型です。何も返さないことを明示的に表現しますね」
+ずんだもん「undefinedとは違うの？」
+四国めたん「はい、void は戻り値を無視する意図、undefined は undefined 値を返す意図です。意味が異なりますね」
+ずんだもん「なるほど！戻り値がないことを表すんだね！」
+四国めたん「関数が副作用のために実行される場合に使います。TypeScript v5.9でも重要な型ですね」
+ずんだもん「関数の役割を明確にできるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// void型の基本
+function logMessage(msg: string): void {
+  console.log(msg);
+  // returnなし、または return; のみ
+}
+```
+
+```typescript
+// undefinedとの違い
+function returnsVoid(): void {
+  console.log("副作用のみ");
+}
+function returnsUndefined(): undefined {
+  return undefined;  // 明示的にundefinedを返す
+}
+```
+
+```typescript
+// 実用例
+function addEventListener(callback: () => void): void {
+  // イベントリスナーの登録
+}
+```

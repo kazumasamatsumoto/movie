@@ -1,0 +1,33 @@
+# #238 「論理演算子の優先順位」台本
+
+四国めたん「TypeScript v5.9の論理演算子の優先順位について学びましょう！」
+ずんだもん「論理演算子の優先順位って何？」
+四国めたん「複数の論理演算子が使われた時の評価順序です」
+ずんだもん「どんな順序なの？」
+四国めたん「! > && > ||の順序で評価されます」
+ずんだもん「Angularの開発でも重要？」
+四国めたん「はい、複雑な条件式の理解に重要です」
+ずんだもん「優先順位で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 論理演算子の優先順位
+let isActive: boolean = true;
+let hasPermission: boolean = false;
+let isCompleted: boolean = true;
+
+// 優先順位の例
+let result1 = !isActive && hasPermission;    // (!isActive) && hasPermission
+let result2 = isActive || hasPermission && isCompleted; // isActive || (hasPermission && isCompleted)
+
+// 実用的な例
+let userLoggedIn: boolean = true;
+let formValid: boolean = false;
+let hasData: boolean = true;
+
+// 優先順位を考慮した条件
+let canSubmit = userLoggedIn && formValid || hasData; // (userLoggedIn && formValid) || hasData
+```

@@ -1,0 +1,32 @@
+# #289「nullish演算子 - ??」
+
+四国めたん「Nullish Coalescing演算子??について学びましょう！」
+ずんだもん「??演算子ってどんな機能なの？」
+四国めたん「nullまたはundefinedの場合のみデフォルト値を返す演算子です。||演算子と異なり、0や空文字列を許容します」
+ずんだもん「||との違いを教えて！」
+四国めたん「||は全てのfalsyな値でデフォルト値を返しますが、??はnullとundefinedのみです」
+ずんだもん「なるほど！厳密にnullチェックできるんだね！」
+四国めたん「??=代入演算子も使えます。TypeScript v5.9で型推論も強化されていますね」
+ずんだもん「型安全にデフォルト値を設定できて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Nullish Coalescing
+const name = userName ?? "Guest";
+const port = config.port ?? 3000;
+```
+
+```typescript
+// ||演算子との違い
+const count1 = 0 || 10;  // 10 (0はfalsy)
+const count2 = 0 ?? 10;  // 0  (0はnullでない)
+```
+
+```typescript
+// ??=代入演算子とオプショナルチェーン
+config.timeout ??= 5000;
+const zip = user?.address?.zipCode ?? "N/A";
+```

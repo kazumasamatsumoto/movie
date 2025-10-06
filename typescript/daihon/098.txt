@@ -1,4 +1,3 @@
-# #098 「実践パターン(2)」台本
 
 四国めたん「TypeScript v5.9の実践パターン(2)について学びましょう！」
 ずんだもん「実践パターン(2)って何？」
@@ -9,30 +8,3 @@
 四国めたん「はい、本格的なアプリケーション開発に重要です」
 ずんだもん「高度パターンで最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// 実践パターン(2)
-
-// 1. バリデーション
-function validateEmail(email: string): boolean {
-  return email.includes("@") && email.includes(".");
-}
-
-// 2. エラーハンドリング
-try {
-  let userInput: string = "invalid input";
-  if (!validateEmail(userInput)) {
-    throw new Error("Invalid email format");
-  }
-} catch (error) {
-  let errorMessage: string = `Error: ${error.message}`;
-  console.log(errorMessage);
-}
-
-// 3. ログ出力
-let logMessage: string = `User action: ${new Date().toISOString()}`;
-console.log(logMessage);
-```

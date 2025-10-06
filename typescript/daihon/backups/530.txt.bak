@@ -1,0 +1,53 @@
+# #530 「Key Remapping」
+
+四国めたん「Key Remappingとnever型について学びましょう！」
+ずんだもん「Key Remappingってどういう機能なの？」
+四国めたん「Mapped Typesで、キーを動的に変更したり削除したりできる機能です」
+ずんだもん「never型はどう使うの？」
+四国めたん「as句でキーをneverにすると、そのプロパティが完全に削除されますね」
+ずんだもん「なるほど！プロパティレベルのフィルタリングだね！」
+四国めたん「TypeScript 4.1で追加された強力な機能ですね」
+ずんだもん「型レベルプログラミングの幅が広がるよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Key Remappingの基本
+type Getters<T> = {
+  [K in keyof T as `get${Capitalize<string & K>}`]: () => T[K]
+};
+
+type User = { name: string; age: number };
+type UserGetters = Getters<User>;
+// = { getName: () => string; getAge: () => number }
+```
+
+```typescript
+// neverでキーを削除
+type OmitByType<T, U> = {
+  [K in keyof T as T[K] extends U ? never : K]: T[K]
+};
+
+type Data = OmitByType<{
+  name: string;
+  age: number;
+  active: boolean;
+}, boolean>;
+// = { name: string; age: number }
+```
+
+```typescript
+// 実践例：プレフィックス付きキーの除外
+type RemovePrefix<T, Prefix extends string> = {
+  [K in keyof T as K extends `${Prefix}${infer _}` ? never : K]: T[K]
+};
+
+type Clean = RemovePrefix<{
+  _id: string;
+  _internal: number;
+  name: string;
+}, '_'>;
+// = { name: string }
+```

@@ -1,0 +1,30 @@
+# #001 「string型とは - 文字列を扱う最も基本的な型」台本
+
+四国めたん「TypeScript v5.9のstring型について学びましょう！」
+ずんだもん「string型って何？」
+四国めたん「文字列を扱う最も基本的なプリミティブ型です」
+ずんだもん「どんな場面で使うの？」
+四国めたん「テキストデータの保存や処理に使用します」
+ずんだもん「Angularの開発でも使える？」
+四国めたん「はい、コンポーネントのテンプレートやデータバインディングに活用できます」
+ずんだもん「文字列処理で最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// string型の基本
+let name: string = "Alice";
+let message: string = "Hello, World!";
+let description: string = "TypeScript学習中";
+
+// 型安全性の例
+let result: string = name + " " + message; // OK
+// let error: number = name + message; // エラー
+
+// 実用的な例
+let userName: string = "ずんだもん";
+let greeting: string = `こんにちは、${userName}さん！`;
+```
+

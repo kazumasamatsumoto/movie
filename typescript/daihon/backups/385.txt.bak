@@ -1,0 +1,36 @@
+# #385「基本まとめ」
+
+四国めたん「void型の基本をまとめましょう！」
+ずんだもん「void型のポイントを教えて！」
+四国めたん「値を返さない関数の戻り値型です。副作用のための関数を表現しますね」
+ずんだもん「どう使えばいいの？」
+四国めたん「return文なし、またはreturn;だけを書きます。undefinedとは意図が異なりますね」
+ずんだもん「なるほど！戻り値を無視する意図なんだね！」
+四国めたん「Promise<void>、イベントハンドラ、コールバックで頻繁に使います。型推論も働きますが、重要な関数では明示的に書きますね」
+ずんだもん「void型で関数の役割を明確にできて最高だよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// void型の基本
+function log(msg: string): void {
+  console.log(msg);
+}
+```
+
+```typescript
+// Promise<void>
+async function saveData(data: Data): Promise<void> {
+  await database.save(data);
+}
+```
+
+```typescript
+// 実践パターン
+type Callback = (data: string) => void;
+const handler: Callback = (data) => {
+  console.log(data);
+};
+```

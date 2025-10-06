@@ -1,4 +1,3 @@
-# #126 「NaNの型」台本
 
 四国めたん「TypeScript v5.9のNaNの型について学びましょう！」
 ずんだもん「NaNの型って何？」
@@ -9,24 +8,3 @@
 四国めたん「はい、型の一貫性を理解するために重要です」
 ずんだもん「型統一で最高だよ！」
 
----
-
-## 📺 画面表示用コード
-
-```typescript
-// NaNの型
-let nan: number = NaN;
-let normalNumber: number = 100;
-
-// 型は同じ
-console.log(typeof nan);        // "number"
-console.log(typeof normalNumber); // "number"
-
-// 実用的な例
-let invalidResult: number = NaN;
-let validResult: number = 42;
-
-// 型チェック
-console.log(typeof invalidResult); // "number"
-console.log(typeof validResult);   // "number"
-```

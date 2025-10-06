@@ -1,0 +1,38 @@
+# #423「Promise<void>の連鎖」
+
+四国めたん「Promise<void>の連鎖について学びましょう！」
+ずんだもん「Promise<void>を連鎖できるの？」
+四国めたん「はい、then()で連鎖できます。各ステップの完了を順次待てますね」
+ずんだもん「どう書くの？」
+四国めたん「then()の戻り値も Promise<void> になります。連鎖が続きますね」
+ずんだもん「なるほど！繋げられるんだね！」
+四国めたん「しかし async/await の方が読みやすいです。TypeScript v5.9でもawaitが推奨されますね」
+ずんだもん「awaitで書く方がいいんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Promise<void>の連鎖
+saveData(data)
+  .then(() => logActivity("Saved"))
+  .then(() => notify("Complete"))
+  .catch((error) => console.error(error));
+```
+
+```typescript
+// async/awaitで書き直し (推奨)
+async function process(): Promise<void> {
+  await saveData(data);
+  await logActivity("Saved");
+  await notify("Complete");
+}
+```
+
+```typescript
+// 連鎖の型
+const promise: Promise<void> = initialize()
+  .then(() => loadData())
+  .then(() => render());
+```

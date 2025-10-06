@@ -1,0 +1,49 @@
+# #456「リファクタリング」
+
+四国めたん「void関数のリファクタリングについて学びましょう！」
+ずんだもん「void関数はどうリファクタするの？」
+四国めたん「副作用を分離し、関数を小さく保ちます。単一責任の原則を守りますね」
+ずんだもん「具体的にどうするの？」
+四国めたん「大きな関数を複数の小さなvoid関数に分割します。可読性が向上しますね」
+ずんだもん「なるほど！シンプルに保つんだね！」
+四国めたん「テストしやすくなります。TypeScript v5.9でも推奨されるパターンですね」
+ずんだもん「保守性が高まるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// リファクタリング前: 大きな関数
+function processUser(user: User): void {
+  validateUser(user);
+  database.save(user);
+  sendEmail(user.email);
+  logActivity('User processed');
+}
+```
+
+```typescript
+// リファクタリング後: 分割
+function processUser(user: User): void {
+  validateAndSave(user);
+  notifyUser(user);
+  logUserActivity(user);
+}
+
+function validateAndSave(user: User): void {
+  validateUser(user);
+  database.save(user);
+}
+
+function notifyUser(user: User): void {
+  sendEmail(user.email);
+}
+```
+
+```typescript
+// 単一責任の原則
+function logUserActivity(user: User): void {
+  logActivity(`User ${user.id} processed`);
+}
+```

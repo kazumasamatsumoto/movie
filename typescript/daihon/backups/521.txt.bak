@@ -1,0 +1,41 @@
+# #521 「Union型 - 消える」
+
+四国めたん「Union型におけるnever型の性質について学びましょう！」
+ずんだもん「never型がUnion型でどうなるの？」
+四国めたん「Union型でnever型は消滅します。これは集合論の空集合の性質に対応しています」
+ずんだもん「具体的にどういうこと？」
+四国めたん「string | never は string になります。空集合との和集合は元の集合と同じですね」
+ずんだもん「なるほど！never型は他の型に影響しないんだね！」
+四国めたん「この性質により、条件付き型でのフィルタリングが可能になりますね」
+ずんだもん「型レベルプログラミングの基礎になるよ！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// Union型でnever型は消える
+type A = string | never;        // string
+type B = number | never;        // number
+type C = boolean | never;       // boolean
+type D = string | number | never;  // string | number
+```
+
+```typescript
+// 実践例：条件付きフィルタリング
+type NonNullable<T> = T extends null | undefined ? never : T;
+
+type A = NonNullable<string | null>;  // string
+type B = NonNullable<number | undefined>;  // number
+type C = NonNullable<boolean | null | undefined>;  // boolean
+```
+
+```typescript
+// 複数のnever型
+type Complex =
+  | string
+  | never
+  | number
+  | never
+  | boolean;  // string | number | boolean
+```
