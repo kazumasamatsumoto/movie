@@ -297,7 +297,7 @@ let successMessage: string = "処理が完了しました";
 // 文字列の結合
 let greeting: string = "こんにちは、" + name + "さん！";
 let fullMessage: string = message + " " + description;
-``````
+```
 
 ## File: 012.txt
 
@@ -321,7 +321,7 @@ let successMessage: string = '処理が完了しました';
 // 文字列の結合
 let greeting: string = 'こんにちは、' + name + 'さん！';
 let fullMessage: string = message + ' ' + description;
-``````
+```
 
 ## File: 013.txt
 
@@ -348,7 +348,7 @@ let apiEndpoint: string = '/api/users';
 // 一貫性の重要性
 let userMessage: string = 'ユーザー登録完了';
 let systemMessage: string = 'システムエラー';
-``````
+```
 
 ## File: 014.txt
 
@@ -371,7 +371,7 @@ let filePath: string = "C:\\Program Files\\MyApp\\config.json";
 
 // 複数のエスケープ
 let complexMessage: string = "Line 1\nLine 2\tTabbed content";
-``````
+```
 
 ## File: 015.txt
 
@@ -395,7 +395,7 @@ let assetPath: string = "assets\\images\\logo.png";
 // 正規表現での使用
 let phonePattern: string = "\\d{3}-\\d{4}-\\d{4}";
 let emailPattern: string = "\\w+@\\w+\\.\\w+";
-``````
+```
 
 ## File: 016.txt
 
@@ -417,7 +417,7 @@ let systemMessage: string = "システムメンテナンス中\n復旧予定: 20
 
 // コンソール出力での確認
 console.log(multiLineMessage);
-``````
+```
 
 ## File: 017.txt
 
@@ -440,7 +440,7 @@ let debugOutput: string = "Function: processData\n\tInput: userData\n\tOutput: p
 
 // コンソール出力での確認
 console.log(tabbedData);
-``````
+```
 
 ## File: 018.txt
 
@@ -465,7 +465,7 @@ let infoIcon: string = "\u2139 情報";
 // 多言語文字
 let japanese: string = "\u65E5\u672C\u8A9E"; // 日本語
 let chinese: string = "\u4E2D\u6587"; // 中文
-``````
+```
 
 ## File: 019.txt
 
@@ -495,7 +495,7 @@ if (userInput === "") {
 if (searchQuery.length === 0) {
   console.log("検索クエリが設定されていません");
 }
-``````
+```
 
 ## File: 020.txt
 
@@ -520,7 +520,7 @@ const APP_NAME = "TypeScript学習アプリ"; // "TypeScript学習アプリ"型
 // 型の違い
 // message = "World"; // OK (string型)
 // API_URL = "https://new-api.com"; // エラー (リテラル型)
-``````
+```
 
 ## File: 021.txt
 
@@ -545,7 +545,7 @@ let newWay: string = `Hello, ${name}!`;
 // 実用的な例
 let userName: string = "ずんだもん";
 let greeting: string = `こんにちは、${userName}さん！`;
-``````
+```
 
 ## File: 022.txt
 
@@ -569,7 +569,7 @@ let status: string = `Status: ${isActive ? "Active" : "Inactive"}`;
 let userName: string = "Bob";
 let userRole: string = "admin";
 let welcomeMessage: string = `Welcome, ${userName}! Your role is ${userRole}.`;
-``````
+```
 
 ## File: 023.txt
 
@@ -594,7 +594,7 @@ let vipStatus: string = `VIP: ${isVip}`;
 let productName: string = "TypeScript学習本";
 let price: number = 2980;
 let description: string = `${productName} - ¥${price}`;
-``````
+```
 
 ## File: 024.txt
 
@@ -620,7 +620,7 @@ let equality: string = `a === b: ${a === b}`;
 let price: number = 1000;
 let tax: number = 0.1;
 let total: string = `Total: ¥${price * (1 + tax)}`;
-``````
+```
 
 ## File: 025.txt
 
@@ -653,7 +653,7 @@ function formatPrice(price: number): string {
 }
 
 let productPrice: string = `Price: ${formatPrice(2980)}`;
-``````
+```
 
 ## File: 026.txt
 
@@ -684,7 +684,7 @@ let product = {
 };
 
 let productInfo: string = `${product.name} (${product.category}) - ¥${product.price}`;
-``````
+```
 
 ## File: 027.txt
 
@@ -707,7 +707,7 @@ let secondUser: string = `Second user: ${users[1]}`;
 let tags: string[] = ["TypeScript", "JavaScript", "Web開発"];
 let firstTag: string = `Primary tag: ${tags[0]}`;
 let allTags: string = `Tags: ${tags.join(", ")}`;
-``````
+```
 
 ## File: 028.txt
 
@@ -731,7 +731,7 @@ let productName: string = "TypeScript学習本";
 let price: number = 2980;
 let discount: number = 0.1;
 let finalPrice: string = `${productName}: ¥${price} (${discount * 100}% off) = ¥${price * (1 - discount)}`;
-``````
+```
 
 ## File: 029.txt
 
@@ -757,7 +757,7 @@ let inferred = `Hello, ${name}!`; // string型と推論
 let userId: number = 12345;
 let userName: string = "Bob";
 let userInfo: string = `User ${userId}: ${userName}`;
-``````
+```
 
 ## File: 030.txt
 
@@ -789,7 +789,7 @@ let htmlTemplate: string = `
   <button>Edit Profile</button>
 </div>
 `;
-``````
+```
 
 ## File: 031.txt
 
@@ -824,7 +824,7 @@ let userProfile: string = `
   <span class="role-badge">${user.role}</span>
 </div>
 `;
-``````
+```
 
 ## File: 032.txt
 
@@ -857,7 +857,7 @@ let htmlTemplate: string = `
     <p>Welcome!</p>
 </div>
 `.trim();
-``````
+```
 
 ## File: 033.txt
 
@@ -881,7 +881,7 @@ const greeting = \`Hello, \${name}!\`;
 
 // 複数のエスケープ
 let complexExample: string = `Use \`\${variable}\` for interpolation`;
-``````
+```
 
 ## File: 034.txt
 
@@ -933,7 +933,7 @@ greetings.forEach(greeting => console.log(greeting));
 // 実用的な例
 let productNames: string[] = ["本", "ペン", "ノート"];
 let productList: string = productNames.map(name => `- ${name}`).join('\n');
-``````
+```
 
 ## File: 036.txt
 
@@ -963,7 +963,7 @@ console.log("Full message:", fullMessage);
 let product = { name: "本", price: 1000 };
 let productInfo: string = `${product.name}: ¥${product.price}`;
 console.log("Product info:", productInfo);
-``````
+```
 
 ## File: 037.txt
 
@@ -992,7 +992,7 @@ let correctMessage: string = `Hello, ${userName}!`;
 // 3. 型の不一致
 let age: number = 30;
 let ageMessage: string = `Age: ${age}`; // 数値も文字列に変換される
-``````
+```
 
 ## File: 038.txt
 
@@ -1020,7 +1020,7 @@ let items: string[] = ["a", "b", "c"];
 // 非効率: ループ内でテンプレートリテラル
 // 効率: 事前に準備
 let itemList: string = items.map(item => `- ${item}`).join('\n');
-``````
+```
 
 ## File: 039.txt
 
@@ -1051,7 +1051,7 @@ let welcomeMessage: string = `Welcome, ${fullName}!`;
 // 4. 型安全性の確保
 let userId: number = 12345;
 let userStatus: string = `User ID: ${userId}`;
-``````
+```
 
 ## File: 040.txt
 
@@ -1084,7 +1084,7 @@ Welcome!
 // 5. 実用的な例
 let user = { name: "Bob", role: "admin" };
 let userInfo: string = `User: ${user.name} (${user.role})`;
-``````
+```
 
 ## File: 041.txt
 
@@ -1109,7 +1109,7 @@ console.log(typeof name);        // "string"
 let userName: string = "Bob";
 let userEmail: string = "bob@example.com";
 let userInfo: string = `${userName} (${userEmail})`;
-``````
+```
 
 ## File: 042.txt
 
@@ -1134,7 +1134,7 @@ let errorMessage: string = "エラーが発生しました";
 
 // プリミティブ型の特徴
 console.log(typeof name); // "string"
-``````
+```
 
 ## File: 043.txt
 
@@ -1160,7 +1160,7 @@ console.log(typeof name);        // "string"
 let userName: string = "Bob";
 let userRole: string = "admin";
 let userInfo: string = `${userName} (${userRole})`;
-``````
+```
 
 ## File: 044.txt
 
@@ -1188,7 +1188,7 @@ console.log(str1 === str2); // true
 // let obj1 = new String("Hello");
 // let obj2 = new String("Hello");
 // console.log(obj1 === obj2); // false
-``````
+```
 
 ## File: 045.txt
 
@@ -1219,7 +1219,7 @@ console.log(str1 === str2); // true
 let userName: string = "Alice";
 let userInput: string = "Alice";
 console.log(userName === userInput); // true
-``````
+```
 
 ## File: 046.txt
 
@@ -1250,7 +1250,7 @@ let userData = {
 
 let userName: string = String(userData.name);
 let userEmail: string = String(userData.email);
-``````
+```
 
 ## File: 047.txt
 
@@ -1275,7 +1275,7 @@ let userName: string = "Alice";
 let userNameUpper: string = userName.toUpperCase();
 let userNameLength: number = userName.length;
 let userNameFirst: string = userName.charAt(0);
-``````
+```
 
 ## File: 048.txt
 
@@ -1307,7 +1307,7 @@ console.log(userName === userInput); // true
 if (userName === userInput) {
   console.log("ユーザー名が一致します");
 }
-``````
+```
 
 ## File: 049.txt
 
@@ -1337,7 +1337,7 @@ let userInfo: string = `${userData.name} (${userData.email})`;
 let str1: string = "Hello";
 let str2: string = "Hello";
 console.log(str1 === str2); // 常にtrue
-``````
+```
 
 ## File: 050.txt
 
@@ -1367,7 +1367,7 @@ let componentProps = {
   description: "ユーザー情報の管理画面"
 };
 let pageTitle: string = componentProps.title;
-``````
+```
 
 ## File: 051.txt
 
@@ -1391,7 +1391,7 @@ let userName: string = "bob";
 let userRole: string = "admin";
 let displayName: string = userName.toUpperCase();
 let roleDisplay: string = userRole.toUpperCase();
-``````
+```
 
 ## File: 052.txt
 
@@ -1416,7 +1416,7 @@ let displayName: string = productName.toUpperCase(); // "TYPESCRIPT BOOK"
 
 // 型チェック
 console.log(typeof normalizedInput); // "string"
-``````
+```
 
 ## File: 053.txt
 
@@ -1440,7 +1440,7 @@ let userName: string = "BOB";
 let userRole: string = "ADMIN";
 let normalizedName: string = userName.toLowerCase();
 let normalizedRole: string = userRole.toLowerCase();
-``````
+```
 
 ## File: 054.txt
 
@@ -1468,7 +1468,7 @@ let isFound: boolean = content.toLowerCase().includes(searchTerm.toLowerCase());
 // 実用的な例
 let email: string = "USER@EXAMPLE.COM";
 let normalizedEmail: string = email.toLowerCase(); // "user@example.com"
-``````
+```
 
 ## File: 055.txt
 
@@ -1493,7 +1493,7 @@ let userInitial: string = userName.charAt(0); // "B"
 let productCode: string = "ABC123";
 let category: string = productCode.charAt(0); // "A"
 let subCategory: string = productCode.charAt(1); // "B"
-``````
+```
 
 ## File: 056.txt
 
@@ -1519,7 +1519,7 @@ let lastChar: string = userInput.charAt(userInput.length - 1); // "t"
 
 // 型チェック
 console.log(typeof firstChar); // "string"
-``````
+```
 
 ## File: 057.txt
 
@@ -1543,7 +1543,7 @@ let invalidChar3: string = name.charAt(10); // ""（空文字列）
 // 実用的な例
 let userInput: string = "Hello";
 let safeChar: string = userInput.charAt(userInput.length); // ""（安全）
-``````
+```
 
 ## File: 058.txt
 
@@ -1569,7 +1569,7 @@ let codeC: number = userInput.charCodeAt(2); // 67
 
 // 範囲外アクセス
 let invalidCode: number = name.charCodeAt(10); // NaN
-``````
+```
 
 ## File: 059.txt
 
@@ -1594,7 +1594,7 @@ let domainStart: number = userEmail.indexOf("example"); // 6
 
 let productName: string = "TypeScript Handbook";
 let bookIndex: number = productName.indexOf("Book"); // -1（見つからない）
-``````
+```
 
 ## File: 060.txt
 
@@ -1623,7 +1623,7 @@ let atIndex: number = userInput.indexOf("@");
 if (atIndex !== -1) {
   console.log("メールアドレス形式です");
 }
-``````
+```
 
 ## File: 061.txt
 
@@ -1650,7 +1650,7 @@ if (userEmail.indexOf("@") !== -1) {
 } else {
   console.log("無効なメールアドレス形式です");
 }
-``````
+```
 
 ## File: 062.txt
 
@@ -1675,7 +1675,7 @@ let fileName: string = filePath.substring(lastSlash + 1); // "file.txt"
 let userEmail: string = "user.name@example.com";
 let lastDot: number = userEmail.lastIndexOf("."); // 18
 let extension: string = userEmail.substring(lastDot + 1); // "com"
-``````
+```
 
 ## File: 063.txt
 
@@ -1700,7 +1700,7 @@ let hasDomain: boolean = userEmail.includes(".com"); // true
 
 let productName: string = "TypeScript Handbook";
 let isBook: boolean = productName.includes("Book"); // false
-``````
+```
 
 ## File: 064.txt
 
@@ -1726,7 +1726,7 @@ let isValidEmail: boolean = userInput.includes("@") && userInput.includes(".");
 
 // 型チェック
 console.log(typeof isValidEmail); // "boolean"
-``````
+```
 
 ## File: 065.txt
 
@@ -1751,7 +1751,7 @@ let isAdmin: boolean = userInput.startsWith("admin"); // true
 
 let apiEndpoint: string = "/api/users";
 let isApiRoute: boolean = apiEndpoint.startsWith("/api"); // true
-``````
+```
 
 ## File: 066.txt
 
@@ -1776,7 +1776,7 @@ let isComDomain: boolean = userEmail.endsWith(".com"); // true
 
 let imageFile: string = "photo.jpg";
 let isImage: boolean = imageFile.endsWith(".jpg") || imageFile.endsWith(".png");
-``````
+```
 
 ## File: 067.txt
 
@@ -1801,7 +1801,7 @@ let domain: string = userEmail.substring(6); // "example.com"
 
 let filePath: string = "/home/user/file.txt";
 let fileName: string = filePath.substring(filePath.lastIndexOf("/") + 1); // "file.txt"
-``````
+```
 
 ## File: 068.txt
 
@@ -1827,7 +1827,7 @@ let username: string = userInput.substring(0, 5); // "alice"
 
 // 型チェック
 console.log(typeof username); // "string"
-``````
+```
 
 ## File: 069.txt
 
@@ -1848,7 +1848,7 @@ let script: string = text.slice(4); // "Script"
 // 負のインデックス
 let lastChar: string = message.slice(-1); // "!"
 let lastWord: string = message.slice(-6, -1); // "World"
-``````
+```
 
 ## File: 070.txt
 
@@ -1870,7 +1870,7 @@ let wordArray: string[] = words.split(" "); // ["Hello", "World", "TypeScript"]
 // 実用的な例
 let email: string = "alice@example.com";
 let emailParts: string[] = email.split("@"); // ["alice", "example.com"]
-``````
+```
 
 ## File: 071.txt
 
@@ -1888,7 +1888,7 @@ let tags: string[] = ["TypeScript", "JavaScript", "Web開発"];
 let userRoles: string[] = ["admin", "user", "guest"];
 let productCategories: string[] = ["本", "ペン", "ノート"];
 let apiEndpoints: string[] = ["/api/users", "/api/products"];
-``````
+```
 
 ## File: 072.txt
 
@@ -1910,7 +1910,7 @@ emails = ["alice@example.com", "bob@example.com"];
 let userList: string[] = [];
 let productNames: string[] = [];
 let errorMessages: string[] = [];
-``````
+```
 
 ## File: 073.txt
 
@@ -1931,7 +1931,7 @@ let names2: Array<string> = ["Alice", "Bob"];
 // 実用的な例
 let userRoles: Array<string> = ["admin", "user"];
 let productCategories: Array<string> = ["本", "ペン"];
-``````
+```
 
 ## File: 074.txt
 
@@ -1952,7 +1952,7 @@ let errorMessages: string[] = ["エラー1", "エラー2"];
 
 // 型推論でも配列型
 let inferred = ["TypeScript", "JavaScript"]; // string[]型と推論
-``````
+```
 
 ## File: 075.txt
 
@@ -1978,7 +1978,7 @@ userList.push("guest");
 let productTags: string[] = ["本"];
 productTags.push("技術書");
 productTags.push("TypeScript");
-``````
+```
 
 ## File: 076.txt
 
@@ -1999,7 +1999,7 @@ let last: string = names[names.length - 1]; // "Charlie"
 let userRoles: string[] = ["admin", "user", "guest"];
 let adminRole: string = userRoles[0]; // "admin"
 let userRole: string = userRoles[1]; // "user"
-``````
+```
 
 ## File: 077.txt
 
@@ -2026,7 +2026,7 @@ let productTags: string[] = ["本", "ペン", "ノート"];
 for (let tag of productTags) {
   console.log(`Tag: ${tag}`);
 }
-``````
+```
 
 ## File: 078.txt
 
@@ -2049,7 +2049,7 @@ let usernames: string[] = userEmails.map(email => email.split("@")[0]);
 
 let productNames: string[] = ["本", "ペン", "ノート"];
 let displayNames: string[] = productNames.map(name => `商品: ${name}`);
-``````
+```
 
 ## File: 079.txt
 
@@ -2073,7 +2073,7 @@ let adminRoles: string[] = userRoles.filter(role => role.includes("admin"));
 let productTags: string[] = ["本", "ペン", "ノート", "技術書"];
 let bookTags: string[] = productTags.filter(tag => tag.includes("本"));
 // ["本", "技術書"]
-``````
+```
 
 ## File: 080.txt
 
@@ -2097,13 +2097,12 @@ let tagString: string = productTags.join(", "); // "本, ペン, ノート"
 
 let errorMessages: string[] = ["エラー1", "エラー2"];
 let errorText: string = errorMessages.join("\n"); // 改行で結合
-``````
+```
 
 ## File: 081.txt
 
 # #081 「Angularコンポーネントのstring型」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -2124,17 +2123,16 @@ export class UserComponent {
   message: string = "ユーザー情報を表示中";
   userName: string = "Alice";
 }
-``````
+```
 
 ## File: 082.txt
 
 # #082 「テンプレートバインディング」台本
 
-```
 
 ## 📺 画面表示用コード
 
-```typescript
+``` typescript
 // テンプレートバインディング
 import { Component } from '@angular/core';
 
@@ -2153,13 +2151,12 @@ export class ProductComponent {
   price: string = "¥2,980";
   status: string = "在庫あり";
 }
-``````
+```
 
 ## File: 083.txt
 
 # #083 「Nest.jsのDTOとstring型」台本
 
-```
 
 ## 📺 画面表示用コード
 
@@ -2185,13 +2182,11 @@ export class UpdateUserDto {
   @IsString()
   role?: string;
 }
-``````
+```
 
 ## File: 084.txt
 
 # #084 「@IsString()デコレータ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2222,13 +2217,11 @@ export class ProductDto {
   @IsOptional()
   tags?: string;
 }
-``````
+```
 
 ## File: 085.txt
 
 # #085 「バリデーション実例」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2258,13 +2251,11 @@ export class UpdateProfileDto {
   @Length(0, 200)
   bio?: string;
 }
-``````
+```
 
 ## File: 086.txt
 
 # #086 「間違い(1) - Stringを使う」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2283,13 +2274,11 @@ let message: string = "Hello";
 let userName: string = "Bob";
 let userEmail: string = "bob@example.com";
 let userInfo: string = `${userName} (${userEmail})`;
-``````
+```
 
 ## File: 087.txt
 
 # #087 「間違い(2) - nullとの混同」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2311,13 +2300,11 @@ let userEmail: string | null = "alice@example.com";
 if (userName !== null) {
   console.log(userName.toUpperCase());
 }
-``````
+```
 
 ## File: 088.txt
 
 # #088 「間違い(3) - undefinedとの混同」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2339,13 +2326,11 @@ let userEmail: string | undefined = "alice@example.com";
 if (userName !== undefined) {
   console.log(userName.toUpperCase());
 }
-``````
+```
 
 ## File: 089.txt
 
 # #089 「デバッグ(1) - 型エラーの読み方」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2364,13 +2349,11 @@ let name: string = "Alice";
 let userName: string = "Bob";
 let userMessage: string = "Hello, " + userName;
 console.log(userMessage);
-``````
+```
 
 ## File: 090.txt
 
 # #090 「デバッグ(2) - 実行時エラー」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2394,13 +2377,11 @@ let input: unknown = "Hello";
 if (typeof input === "string") {
   console.log(input.toUpperCase()); // 安全
 }
-``````
+```
 
 ## File: 091.txt
 
 # #091 「パフォーマンス最適化(1)」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2419,13 +2400,11 @@ let message: string = `Name: ${name}, Age: ${age}`; // テンプレートリテ�
 let userInfo: string = `User: ${name}`;
 let productInfo: string = `Product: TypeScript Book`;
 let apiResponse: string = `Status: Success`;
-``````
+```
 
 ## File: 092.txt
 
 # #092 「パフォーマンス最適化(2)」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2446,13 +2425,11 @@ let upperNames: string[] = names.map(name => name.toUpperCase());
 let userRoles: string[] = ["admin", "user", "guest"];
 let filteredRoles: string[] = userRoles.filter(role => role !== "guest");
 let roleString: string = filteredRoles.join(", ");
-``````
+```
 
 ## File: 093.txt
 
 # #093 「セキュリティ - XSS対策」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2472,13 +2449,11 @@ let safeInput: string = sanitizeInput(userInput);
 let userName: string = "Alice";
 let userMessage: string = "Hello, World!";
 let displayText: string = `${userName}: ${userMessage}`;
-``````
+```
 
 ## File: 094.txt
 
 # #094 「ベストプラクティス(1)」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2499,13 +2474,11 @@ let productPrice: string = "¥2,980";
 let apiEndpoint: string = "/api/users";
 let errorMessage: string = "An error occurred";
 let successMessage: string = "Operation completed";
-``````
+```
 
 ## File: 095.txt
 
 # #095 「ベストプラクティス(2)」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2523,13 +2496,11 @@ let welcomeMessage: string = `Welcome, ${userName}!`;
 // 3. 配列処理
 let tags: string[] = ["TypeScript", "JavaScript", "Web"];
 let tagString: string = tags.join(", ");
-``````
+```
 
 ## File: 096.txt
 
 # #096 「ベストプラクティス(3)」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2552,13 +2523,11 @@ let userEmail: string | null = null;
 if (isString(userName)) {
   console.log(userName.toUpperCase());
 }
-``````
+```
 
 ## File: 097.txt
 
 # #097 「実践パターン(1)」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2584,13 +2553,11 @@ let requestBody: string = JSON.stringify(formData);
 
 // 3. データ変換
 let userInfo: string = `${formData.name} (${formData.email})`;
-``````
+```
 
 ## File: 098.txt
 
 # #098 「実践パターン(2)」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2616,13 +2583,11 @@ try {
 // 3. ログ出力
 let logMessage: string = `User action: ${new Date().toISOString()}`;
 console.log(logMessage);
-``````
+```
 
 ## File: 099.txt
 
 # #099 「総まとめ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2644,13 +2609,11 @@ let nameLength: number = name.length;
 // 4. 配列処理
 let names: string[] = ["Alice", "Bob", "Charlie"];
 let joinedNames: string = names.join(", ");
-``````
+```
 
 ## File: 100.txt
 
 # #100 「マスターチェック」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2672,13 +2635,11 @@ let isValidEmail: boolean = userEmail.includes("@") && userEmail.includes(".");
 // 4. 配列処理
 let userRoles: string[] = ["admin", "user"];
 let roleString: string = userRoles.join(" | ");
-``````
+```
 
 ## File: 101.txt
 
 # #101 「number型とは - 数値を扱う型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2693,13 +2654,11 @@ let userAge: number = 25;
 let productPrice: number = 1500;
 let discountRate: number = 0.1;
 let finalPrice: number = productPrice * (1 - discountRate);
-``````
+```
 
 ## File: 102.txt
 
 # #102 「number型の宣言 - let age: number」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2718,13 +2677,11 @@ count = -5;
 let userAge: number = 25;
 let productPrice: number = 1500;
 let itemCount: number = 10;
-``````
+```
 
 ## File: 103.txt
 
 # #103 「number型への代入」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2741,13 +2698,11 @@ value = 1e6;        // OK
 // 型エラーの例
 // value = "100";   // エラー: Type 'string' is not assignable to type 'number'
 // value = true;    // エラー: Type 'boolean' is not assignable to type 'number'
-``````
+```
 
 ## File: 104.txt
 
 # #104 「number型の初期化」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2763,13 +2718,11 @@ let userAge: number = 25;
 let productPrice: number = 1500;
 let taxRate: number = 0.1;
 let totalPrice: number = productPrice * (1 + taxRate);
-``````
+```
 
 ## File: 105.txt
 
 # #105 「型推論でnumber型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2786,13 +2739,11 @@ let count = -5;         // number型と推論
 let userAge = 25;       // number型
 let productPrice = 1500; // number型
 let discountRate = 0.1;  // number型
-``````
+```
 
 ## File: 106.txt
 
 # #106 「constでnumber型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2809,13 +2760,11 @@ const TAX_RATE = 0.1;
 const API_TIMEOUT = 5000;
 const MAX_RETRY_COUNT = 3;
 const DEFAULT_PAGE_SIZE = 20;
-``````
+```
 
 ## File: 107.txt
 
 # #107 「number型とリテラル型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2832,13 +2781,11 @@ let status: 0 | 1 | 2 = 0;
 // 実用的な例
 let httpStatus: 200 | 404 | 500 = 200;
 let userLevel: 1 | 2 | 3 = 1;
-``````
+```
 
 ## File: 108.txt
 
 # #108 「整数と小数の区別なし」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2857,13 +2804,11 @@ console.log(typeof negative); // "number"
 let userAge: number = 25;     // 整数
 let productPrice: number = 2980.50; // 小数
 let discountRate: number = 0.1;     // 小数
-``````
+```
 
 ## File: 109.txt
 
 # #109 「number型の範囲 - MAX_VALUE」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2883,13 +2828,11 @@ let smallNumber: number = 1e-10;
 if (largeNumber < Number.MAX_VALUE) {
   console.log("安全な範囲内です");
 }
-``````
+```
 
 ## File: 110.txt
 
 # #110 「number型の最小値 - MIN_VALUE」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2909,13 +2852,11 @@ let normalNumber: number = 1e-10;
 if (tinyNumber > Number.MIN_VALUE) {
   console.log("最小値より大きいです");
 }
-``````
+```
 
 ## File: 111.txt
 
 # #111 「10進数リテラル」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2931,13 +2872,11 @@ let userAge: number = 25;
 let productPrice: number = 2980;
 let discountRate: number = 0.1;
 let taxRate: number = 0.08;
-``````
+```
 
 ## File: 112.txt
 
 # #112 「2進数リテラル - 0b1010」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2952,13 +2891,11 @@ let flag1: number = 0b0001;    // フラグ1
 let flag2: number = 0b0010;    // フラグ2
 let flag3: number = 0b0100;    // フラグ3
 let combined: number = flag1 | flag2; // フラグの組み合わせ
-``````
+```
 
 ## File: 113.txt
 
 # #113 「2進数の型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2978,13 +2915,11 @@ console.log(binary === decimal); // true
 let flag: number = 0b0001;
 let value: number = 1;
 console.log(flag === value); // true
-``````
+```
 
 ## File: 114.txt
 
 # #114 「8進数リテラル - 0o777」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -2998,13 +2933,11 @@ let octal3: number = 0o755;   // 493
 let filePermission: number = 0o644;  // ファイル権限
 let dirPermission: number = 0o755;   // ディレクトリ権限
 let scriptPermission: number = 0o755; // スクリプト権限
-``````
+```
 
 ## File: 115.txt
 
 # #115 「16進数リテラル - 0xFF」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3019,13 +2952,11 @@ let redColor: number = 0xFF0000;    // 赤色
 let greenColor: number = 0x00FF00;  // 緑色
 let blueColor: number = 0x0000FF;   // 青色
 let whiteColor: number = 0xFFFFFF;  // 白色
-``````
+```
 
 ## File: 116.txt
 
 # #116 「科学的記数法 - 1e6」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3040,13 +2971,11 @@ let million: number = 1e6;    // 100万
 let billion: number = 1e9;    // 10億
 let microsecond: number = 1e-6; // マイクロ秒
 let nanosecond: number = 1e-9;  // ナノ秒
-``````
+```
 
 ## File: 117.txt
 
 # #117 「アンダースコア区切り - 1_000_000」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3061,13 +2990,11 @@ let maxUsers: number = 10_000;
 let apiTimeout: number = 30_000;  // 30秒
 let fileSize: number = 1_024_000; // 1MB
 let memoryLimit: number = 512_000_000; // 512MB
-``````
+```
 
 ## File: 118.txt
 
 # #118 「数値リテラルの型推論」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3083,13 +3010,11 @@ const PI = 3.14159;     // 3.14159型と推論
 // 実用的な例
 let userAge = 25;       // number型
 const API_TIMEOUT = 5000; // 5000型
-``````
+```
 
 ## File: 119.txt
 
 # #119 「数値リテラルとconst」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3107,13 +3032,11 @@ const constant = 1000;      // 1000型
 const API_TIMEOUT = 5000;   // 5000型
 const MAX_RETRY = 3;        // 3型
 const DEFAULT_SIZE = 20;    // 20型
-``````
+```
 
 ## File: 120.txt
 
 # #120 「数値リテラルまとめ」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3131,13 +3054,11 @@ let userAge: number = 25;
 let productPrice: number = 2980.50;
 let maxUsers: number = 10_000;
 let apiTimeout: number = 30_000;
-``````
+```
 
 ## File: 121.txt
 
 # #121 「Infinityとは」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3156,13 +3077,11 @@ let result2: number = -1 / 0; // -Infinity
 
 console.log(infinity); // Infinity
 console.log(result1); // Infinity
-``````
+```
 
 ## File: 122.txt
 
 # #122 「Infinityの型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3182,13 +3101,11 @@ let userAge: number = 25;
 // 型チェック
 console.log(typeof maxValue); // "number"
 console.log(typeof userAge);  // "number"
-``````
+```
 
 ## File: 123.txt
 
 # #123 「Infinityの生成 - 1/0」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3205,13 +3122,11 @@ let multiplication: number = Number.MAX_VALUE * 10; // Infinity
 console.log(result1); // Infinity
 console.log(result2); // -Infinity
 console.log(division); // Infinity
-``````
+```
 
 ## File: 124.txt
 
 # #124 「-Infinity」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3230,13 +3145,11 @@ let result: number = -1 / 0; // -Infinity
 console.log(negativeInfinity); // -Infinity
 console.log(minValue); // -Infinity
 console.log(result); // -Infinity
-``````
+```
 
 ## File: 125.txt
 
 # #125 「NaNとは」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3252,13 +3165,11 @@ let mathResult: number = Math.sqrt(-1); // NaN
 console.log(nan); // NaN
 console.log(invalidResult); // NaN
 console.log(parseResult); // NaN
-``````
+```
 
 ## File: 126.txt
 
 # #126 「NaNの型」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3278,13 +3189,11 @@ let validResult: number = 42;
 // 型チェック
 console.log(typeof invalidResult); // "number"
 console.log(typeof validResult);   // "number"
-``````
+```
 
 ## File: 127.txt
 
 # #127 「NaNの生成 - 0/0」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3302,13 +3211,11 @@ let invalidMath: number = Math.log(-1); // NaN
 console.log(result1); // NaN
 console.log(division); // NaN
 console.log(parseError); // NaN
-``````
+```
 
 ## File: 128.txt
 
 # #128 「isNaN()関数」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3330,13 +3237,11 @@ if (isNaN(userInput)) {
 } else {
   console.log("有効な数値です");
 }
-``````
+```
 
 ## File: 129.txt
 
 # #129 「Number.isNaN()の違い」台本
-
-```
 
 ## 📺 画面表示用コード
 
@@ -3358,7 +3263,7 @@ let userInput: number = parseInt("abc");
 if (Number.isNaN(userInput)) {
   console.log("数値ではありません");
 }
-``````
+```
 
 ## File: 130.txt
 
@@ -3386,7 +3291,7 @@ if (isFinite(userInput)) {
 } else {
   console.log("無効な数値です");
 }
-``````
+```
 
 ## File: 131.txt
 
@@ -3414,7 +3319,7 @@ let userInput: number = 42;
 if (Number.isFinite(userInput)) {
   console.log("有効な数値です");
 }
-``````
+```
 
 ## File: 132.txt
 
@@ -3442,7 +3347,7 @@ if (Number.isInteger(userAge)) {
 } else {
   console.log("小数の年齢は無効です");
 }
-``````
+```
 
 ## File: 133.txt
 
@@ -3468,7 +3373,7 @@ if (Number.isSafeInteger(userId)) {
 } else {
   console.log("精度を失う可能性があります");
 }
-``````
+```
 
 ## File: 134.txt
 
@@ -3500,7 +3405,7 @@ let largeNumber: number = 9007199254740992;
 if (Number.isSafeInteger(largeNumber)) {
   console.log("安全な整数です");
 }
-``````
+```
 
 ## File: 135.txt
 
@@ -3529,7 +3434,7 @@ let userInput: number = parseFloat("123.45");
 if (Number.isFinite(userInput) && Number.isSafeInteger(userInput)) {
   console.log("有効な整数です");
 }
-``````
+```
 
 ## File: 136.txt
 
@@ -3553,7 +3458,7 @@ let total: number = price + tax; // 1100
 let userAge: number = 25;
 let yearsToAdd: number = 5;
 let futureAge: number = userAge + yearsToAdd; // 30
-``````
+```
 
 ## File: 137.txt
 
@@ -3578,7 +3483,7 @@ let total = price + tax; // number型と推論
 let userAge = 25;
 let yearsToAdd = 5;
 let futureAge = userAge + yearsToAdd; // number型
-``````
+```
 
 ## File: 138.txt
 
@@ -3602,7 +3507,7 @@ let finalPrice: number = totalPrice - discount; // 1000
 let currentYear: number = 2024;
 let birthYear: number = 1990;
 let age: number = currentYear - birthYear; // 34
-``````
+```
 
 ## File: 139.txt
 
@@ -3627,7 +3532,7 @@ let finalPrice = totalPrice - discount; // number型と推論
 let currentYear = 2024;
 let birthYear = 1990;
 let age = currentYear - birthYear; // number型
-``````
+```
 
 ## File: 140.txt
 
