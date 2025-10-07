@@ -1,0 +1,9 @@
+# #020 「Component のデバッグ方法」台本
+
+ずんだもん「Componentのバグを見つけるには？」
+四国めたん「Angular DevTools と console.log が基本です」
+ずんだもん「DevToolsって何ができるの？」
+四国めたん「Component階層、プロパティの値、変更検知の状態が見えます」
+ずんだもん「console.logはどこに書く？」
+四国めたん「ngOnInit や メソッド内で、値の変化を確認します」
+ずんだもん「効率的にデバッグできそうだよ！」

@@ -1,0 +1,9 @@
+# #012 「Component の命名規則」台本
+
+ずんだもん「Componentの名前はどう付けるの？」
+四国めたん「クラス名はPascalCase、ファイル名はケバブケースです」
+ずんだもん「具体例を教えて！」
+四国めたん「UserProfileComponentがクラス名、user-profile.component.tsがファイル名です」
+ずんだもん「selectorは？」
+四国めたん「app-user-profileのようにケバブケースで、プレフィックス付きです」
+ずんだもん「統一された命名が大事だね！」
