@@ -1,7 +1,0 @@
-四国めたん「Angular DevTools で Component 確認について解説します！」
-ずんだもん「Angular DevToolsって何？」
-四国めたん「Angular専用のブラウザ拡張機能で、Componentの状態やパフォーマンスを可視化できます」
-ずんだもん「どんな機能があるの？」
-四国めたん「Component Tree、Profiler、Router Tree、State Inspectorなどがあります」
-ずんだもん「どうやって使うの？」
-四国めたん「Chrome拡張機能をインストールし、開発者ツールでAngularタブを開きます」

@@ -1,8 +1,0 @@
-# #138 「ViewChild とライフサイクル」台本
-
-ずんだもん「ViewChildはいつ使えるようになるの？」
-四国めたん「Angular v20ではViewChildはngAfterViewInitライフサイクル以降に安全に使用できます」
-ずんだもん「ngOnInitでは使えないの？」
-四国めたん「動的要素はngOnInitでは未初期化のため、ngAfterViewInit以降の使用が推奨されます」
-ずんだもん「ライフサイクルを理解することが大切だね！」
-四国めたん「その通り！適切なタイミングでViewChildを使用することで、エラーを回避できます」

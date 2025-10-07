@@ -1,8 +1,0 @@
-# #210 「モーダル Component での活用例」
-
-ずんだもん「モーダルコンポーネントでコンテンツ投影を活用したいよ！」
-四国めたん「Angular v20のモーダルではヘッダー、ボディ、フッターを分離できます」
-ずんだもん「どうやって実装するの？」
-四国めたん「<ng-content select="modal-header"></ng-content><ng-content></ng-content><ng-content select="modal-footer"></ng-content>のように記述します」
-ずんだもん「これで構造化されたモーダル設計ができるんだね！」
-四国めたん「はい！柔軟なモーダルコンポーネント設計が実現できます」

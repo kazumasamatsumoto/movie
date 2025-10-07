@@ -1,8 +1,0 @@
-# #106 「EventEmitter の使い方」
-
-ずんだもん「EventEmitterの使い方を教えて！」
-四国めたん「@Output() eventName = new EventEmitter<DataType>()のように型を指定してEventEmitterを作成します」
-ずんだもん「発火はどうするの？」
-四国めたん「eventName.emit(data)でイベントを発火し、親で$eventとして受け取れます」
-ずんだもん「非同期でも使えるの？」
-四国めたん「はい！Observableとしても使用でき、非同期処理にも対応しています」

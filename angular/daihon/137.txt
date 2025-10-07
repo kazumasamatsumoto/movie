@@ -1,8 +1,0 @@
-# #137 「ViewChild static オプション」台本
-
-ずんだもん「ViewChildのstaticオプションって何？」
-四国めたん「Angular v20ではstaticオプションで要素の検索タイミングを制御できます」
-ずんだもん「具体的な違いは？」
-四国めたん「static:trueならngOnInitで、static:falseならngAfterViewInitで要素を検索します」
-ずんだもん「検索タイミングを制御できるんだね！」
-四国めたん「はい！要素の存在条件に応じて、適切な検索タイミングを選択できます」

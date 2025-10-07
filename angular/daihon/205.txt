@@ -1,8 +1,0 @@
-# #205 「ngTemplateOutlet の活用」
-
-ずんだもん「ngTemplateOutletでコンテンツ投影を制御したいよ！」
-四国めたん「Angular v20ではngTemplateOutletで動的なテンプレート投影が可能です」
-ずんだもん「具体的にはどう書くの？」
-四国めたん「<ng-container [ngTemplateOutlet]="templateRef"></ng-container>のように記述します」
-ずんだもん「これで実行時にテンプレートを切り替えられるんだね！」
-四国めたん「はい！動的なテンプレート投影制御が実現できます」

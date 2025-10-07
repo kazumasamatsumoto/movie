@@ -1,8 +1,0 @@
-# #087 「Lifecycle とSignals の組み合わせ」
-
-ずんだもん「Lifecycle HooksとAngular v20のSignalsを組み合わせる方法は？」
-四国めたん「Angular v20ではSignalベースのリアクティブシステムとLifecycle Hooksを統合できます」
-ずんだもん「具体的にはどう組み合わせるの？」
-四国めたん「ngOnInitでSignalの初期化、ngOnDestroyでSignalのクリーンアップを行います」
-ずんだもん「より効率的な状態管理ができるんだね！」
-四国めたん「はい！SignalとLifecycle Hooksの組み合わせで現代的で効率的な開発が可能です」

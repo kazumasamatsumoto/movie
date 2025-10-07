@@ -1,8 +1,0 @@
-# #213 「レイアウト Component での活用例」
-
-ずんだもん「レイアウトコンポーネントでコンテンツ投影を活用したいよ！」
-四国めたん「Angular v20のレイアウトではヘッダー、サイドバー、メインコンテンツを分離できます」
-ずんだもん「どうやって実装するの？」
-四国めたん「<ng-content select="layout-header"></ng-content><ng-content select="layout-sidebar"></ng-content><ng-content></ng-content>のように記述します」
-ずんだもん「これで柔軟なレイアウト設計ができるんだね！」
-四国めたん「はい！構造化されたレイアウトコンポーネント設計が実現できます」

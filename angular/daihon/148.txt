@@ -1,8 +1,0 @@
-# #148 「ContentChild 複数投影の参照」台本
-
-ずんだもん「複数のng-contentでContentChildを使いたいよ！」
-四国めたん「Angular v20ではContentChildrenデコレータで複数の投影コンテンツを参照できます」
-ずんだもん「具体的な使い方は？」
-四国めたん「@ContentChildren(selector)でQueryListを取得し、複数の投影要素を管理します」
-ずんだもん「複数の投影コンテンツを制御できるんだね！」
-四国めたん「その通り！柔軟なレイアウトとコンテンツ管理が可能です」

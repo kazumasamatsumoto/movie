@@ -1,8 +1,0 @@
-# #203 「ng-container との組み合わせ」
-
-ずんだもん「ng-containerとng-contentを組み合わせたいよ！」
-四国めたん「Angular v20ではng-containerでグループ化してから投影が可能です」
-ずんだもん「具体的にはどう使うの？」
-四国めたん「<ng-container class="group"><ng-content></ng-content></ng-container>のように記述します」
-ずんだもん「これで複数のコンテンツをまとめて投影できるんだね！」
-四国めたん「はい！構造化されたコンテンツ投影が実現できます」

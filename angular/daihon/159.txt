@@ -1,8 +1,0 @@
-# #159 「ViewChild/ContentChild のテスト」台本
-
-ずんだもん「ViewChildやContentChildのテストってどう書くの？」
-四国めたん「Angular v20ではComponentFixtureとDebugElementを使ったテストが標準です」
-ずんだもん「具体的なテスト方法は？」
-四国めたん「query()やqueryAll()で要素を取得し、参照の存在と動作を検証します」
-ずんだもん「参照の動作もテストできるんだね！」
-四国めたん「はい！適切なテストにより、ViewChildとContentChildの動作を確実に検証できます」

@@ -1,8 +1,0 @@
-# #107 「@Output() カスタムイベント発火」
-
-ずんだもん「カスタムイベントを発火する方法を教えて！」
-四国めたん「@Output() customEvent = new EventEmitter<CustomData>()のようにカスタム型を指定します」
-ずんだもん「発火はどうするの？」
-四国めたん「customEvent.emit({type: 'save', data: formData})のようにカスタムデータを送信できます」
-ずんだもん「親ではどう処理するの？」
-四国めたん「(customEvent)="handleCustom($event)"で受け取り、$event.typeや$event.dataでアクセスできます」

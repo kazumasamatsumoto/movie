@@ -1,8 +1,0 @@
-# #052 「[(ngModel)] FormsModule のインポート」
-
-ずんだもん「[(ngModel)]を使おうとしたらエラーが出ちゃったよ！」
-四国めたん「それはFormsModuleをインポートしていないためです」
-ずんだもん「FormsModuleってどこでインポートするの？」
-四国めたん「Angular v20ではstandaloneコンポーネントでimportsに追加します」
-ずんだもん「standaloneで書くとこんな感じだね！」
-四国めたん「はい！従来のNgModule方式よりシンプルで管理しやすくなりました」

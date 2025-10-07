@@ -1,8 +1,0 @@
-# #125 「SignalOutput vs @Output() 比較」台本
-
-ずんだもん「SignalOutputと@Output()の違いは？」
-四国めたん「Angular v20ではSignalOutputがよりリアクティブな通信を提供します」
-ずんだもん「具体的な違いは？」
-四国めたん「SignalOutputはSignalの変更を自動で通知し、computed()との連携が容易です」
-ずんだもん「Signalベースの統一感がいいね！」
-四国めたん「はい！一貫したリアクティブパターンにより、コードの可読性が向上します」

@@ -1,8 +1,0 @@
-# #220 「Web Components との比較」
-
-ずんだもん「Web ComponentsのスロットとAngularの投影の違いを知りたいよ！」
-四国めたん「Angular v20のコンテンツ投影はWeb ComponentsのSlot APIと類似した仕組みです」
-ずんだもん「具体的にはどう違うの？」
-四国めたん「Angularではselect属性でより柔軟な投影制御が可能で、TypeScriptとの統合も優れています」
-ずんだもん「これでWeb Componentsよりも高度な投影制御ができるんだね！」
-四国めたん「はい！モダンなWeb開発に最適化された投影機能です」

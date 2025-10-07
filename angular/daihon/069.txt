@@ -1,8 +1,0 @@
-# #069 「ngAfterContentChecked - コンテンツチェック後」
-
-ずんだもん「コンテンツの変更チェック後に処理を実行したいよ！」
-四国めたん「Angular v20ではngAfterContentCheckedでコンテンツチェック後に処理を実行できます」
-ずんだもん「ngAfterContentInitとの違いは何なの？」
-四国めたん「ngAfterContentInitは初回のみ、ngAfterContentCheckedは毎回実行されます」
-ずんだもん「パフォーマンスに注意が必要だね！」
-四国めたん「はい！頻繁に実行されるため、軽量な処理を心がけましょう」

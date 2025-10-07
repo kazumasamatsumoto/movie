@@ -1,8 +1,0 @@
-# #092 「@Input() の基本構文」
-
-ずんだもん「@Input()の基本構文を教えて！」
-四国めたん「子コンポーネントで@Input() propertyNameと記述し、親で[propertyName]="value"と渡します」
-ずんだもん「型も指定できるの？」
-四国めたん「はい！@Input() propertyName: stringのように型を指定できます」
-ずんだもん「初期値も設定できるかな？」
-四国めたん「できます！@Input() propertyName: string = 'default'のように初期値を設定可能です」

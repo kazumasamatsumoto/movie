@@ -1,7 +1,0 @@
-四国めたん「Standalone Component - standalone: trueについて学びましょう！」
-ずんだもん「Standalone Componentって何？」
-四国めたん「NgModuleに依存せず、独立して動作するComponentです」
-ずんだもん「従来のComponentと何が違うの？」
-四国めたん「NgModuleの宣言が不要で、必要な依存関係を直接インポートできます」
-ずんだもん「どんなメリットがあるの？」
-四国めたん「シンプルな構成、遅延ロードの改善、マイクロフロントエンド対応が可能です」

@@ -1,8 +1,0 @@
-# #110 「@Output() 複数イベントの管理」
-
-ずんだもん「複数のイベントを管理する方法を教えて！」
-四国めたん「複数の@Output()プロパティを定義し、それぞれにEventEmitterを設定します」
-ずんだもん「具体的にはどう書くの？」
-四国めたん「@Output() save = new EventEmitter()、@Output() cancel = new EventEmitter()のように定義します」
-ずんだもん「親ではどう処理するの？」
-四国めたん「(save)="onSave($event)"(cancel)="onCancel($event)"のようにそれぞれのイベントハンドラーを設定します」

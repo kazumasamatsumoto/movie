@@ -1,8 +1,0 @@
-# #142 「ViewChildren QueryList の活用」台本
-
-ずんだもん「QueryListって何？」
-四国めたん「Angular v20ではViewChildrenが返すQueryListで複数要素を効率的に管理できます」
-ずんだもん「QueryListの便利な機能は？」
-四国めたん「forEach、map、filterなどの配列メソッドや変更検知機能が利用できます」
-ずんだもん「配列みたいに操作できるんだね！」
-四国めたん「その通り！リアクティブな変更検知により、動的な要素管理が可能です」
