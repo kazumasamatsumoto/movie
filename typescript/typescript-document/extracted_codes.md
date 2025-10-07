@@ -2714,7 +2714,8 @@ const PI = 3.14159;
 const TAX_RATE = 0.1;
 
 // 再代入はエラー
-// MAX_USERS = 2000; // エラー: Cannot assign to 'MAX_USERS' because it is a constant
+// MAX_USERS = 2000; 
+// エラー: Cannot assign to 'MAX_USERS' because it is a constant
 
 // 実用的な例
 const API_TIMEOUT = 5000;
@@ -2736,7 +2737,9 @@ value = 3.14; // OK
 
 // リテラル型 - 特定の数値のみ
 let status: 0 | 1 | 2 = 0;
-// status = 3; // エラー: Type '3' is not assignable to type '0 | 1 | 2'
+// status = 3; 
+// エラー: Type '3' 
+// is not assignable to type '0 | 1 | 2'
 
 // 実用的な例
 let httpStatus: 200 | 404 | 500 = 200;
