@@ -1,5 +1,3 @@
-# #029 「Component のフォルダ構成戦略」台本
-
 ずんだもん「大規模プロジェクトのフォルダ構成は？」
 四国めたん「Feature-basedとLayer-basedの2つの戦略があります」
 ずんだもん「Feature-basedって何？」

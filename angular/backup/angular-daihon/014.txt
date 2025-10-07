@@ -1,5 +1,3 @@
-# #014 「Standalone vs Module-based 比較」台本
-
 ずんだもん「StandaloneとModule-basedの違いは？」
 四国めたん「Standaloneは依存関係が明確で、シンプルです」
 ずんだもん「Module-basedは古いの？」

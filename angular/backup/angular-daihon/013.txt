@@ -1,5 +1,3 @@
-# #013 「Standalone Component - standalone: true」台本
-
 ずんだもん「Standalone Componentって何？」
 四国めたん「NgModuleなしで使えるComponentです。v20では標準です」
 ずんだもん「どう書くの？」

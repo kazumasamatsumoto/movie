@@ -1,5 +1,3 @@
-# #021 「Angular DevTools で Component 確認」台本
-
 ずんだもん「Angular DevToolsの使い方を教えて！」
 四国めたん「Chrome拡張機能をインストールして、開発者ツールのAngularタブを開きます」
 ずんだもん「何が見えるの？」

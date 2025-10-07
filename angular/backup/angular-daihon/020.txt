@@ -1,5 +1,3 @@
-# #020 「Component のデバッグ方法」台本
-
 ずんだもん「Componentのバグを見つけるには？」
 四国めたん「Angular DevTools と console.log が基本です」
 ずんだもん「DevToolsって何ができるの？」

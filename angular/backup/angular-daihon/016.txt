@@ -1,5 +1,3 @@
-# #016 「Component の export と再利用」台本
-
 ずんだもん「Componentを他の場所で使いたいよ」
 四国めたん「exportして、使いたい場所でimportします」
 ずんだもん「exportって何？」
