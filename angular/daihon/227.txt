@@ -1,0 +1,8 @@
+# #227 「動的 Component のイベント購読」台本
+
+ずんだもん「動的に生成したコンポーネントのイベントをどう受け取るの？」
+四国めたん「ComponentRef.instanceが@OutputのEventEmitterを持っているので、subscribeすればイベントを拾えます」
+ずんだもん「例えばonSubmitを受けたい場合は？」
+四国めたん「componentRef.instance.submit.subscribe(value => { ... })のように購読し、後でdestroyする時にunsubscribeするかtakeUntilを使います」
+ずんだもん「生成も削除も手動だからサブスクも忘れないようにしないとね！」
+四国めたん「その通り、メモリリーク防止が大切です」

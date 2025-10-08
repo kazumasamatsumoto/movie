@@ -1,0 +1,8 @@
+# #159 「ViewChild/ContentChild のテスト」台本
+
+ずんだもん「ViewChildやContentChildを使うコンポーネントをテストするには？」
+四国めたん「TestBedでコンポーネントを生成し、fixture.detectChanges()後に参照が取得できているか検証します」
+ずんだもん「ContentChildの場合はホストテンプレートで投影すればいい？」
+四国めたん「はい、HostComponentを作ってng-contentに渡し、QueryListの長さやメソッドを確認しましょう」
+ずんだもん「ライフサイクルも考慮してテストを書けば安心だね！」
+四国めたん「その通り、ngAfterViewInit後の状態を期待値としてアサートしましょう」

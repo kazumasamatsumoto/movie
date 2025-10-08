@@ -1,0 +1,8 @@
+# #087 「Lifecycle とSignals の組み合わせ」台本
+
+ずんだもん「SignalsをLifecycleと一緒に使うとどんなメリットがある？」
+四国めたん「ngOnInitでSignalを初期化し、ngOnDestroyでeffect cleanupを呼ぶと状態管理がすっきりします」
+ずんだもん「InputをSignalに変換するのもあり？」
+四国めたん「はい、toSignalやinput()デコレータを使って、ngOnChangesでの手動同期を減らせます」
+ずんだもん「最新のAPIと相性抜群だね！」
+四国めたん「ええ、LifecycleとSignalsを組み合わせるとリアクティブに動作します」

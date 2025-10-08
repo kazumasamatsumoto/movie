@@ -1,0 +1,58 @@
+# #511「型ガードと網羅性」
+
+四国めたん「型ガードと網羅性チェックを組み合わせましょう！」
+ずんだもん「型ガードって？」
+四国めたん「実行時に型を絞り込む関数です。is演算子を使いますね」
+ずんだもん「網羅性チェックとどう組み合わせるの？」
+四国めたん「型ガードですべての型を絞り込んだ後、never型で確認します。複雑な条件でも安全ですね」
+ずんだもん「なるほど！実行時チェックと型チェックの両方だね！」
+四国めたん「ユーザー入力の検証で活用されます。TypeScript v5.9でも強力なパターンですね」
+ずんだもん「安全性が高まるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 型ガード関数
+type Shape = Circle | Square | Triangle;
+
+function isCircle(shape: Shape): shape is Circle {
+  return shape.kind === "circle";
+}
+function isSquare(shape: Shape): shape is Square {
+  return shape.kind === "square";
+}
+function isTriangle(shape: Shape): shape is Triangle {
+  return shape.kind === "triangle";
+}
+```
+
+```typescript
+// 型ガードと網羅性
+function getArea(shape: Shape): number {
+  if (isCircle(shape)) {
+    return Math.PI * shape.radius ** 2;
+  }
+  if (isSquare(shape)) {
+    return shape.size ** 2;
+  }
+  if (isTriangle(shape)) {
+    return (shape.base * shape.height) / 2;
+  }
+  return assertNever(shape);  // 網羅性チェック
+}
+```
+
+```typescript
+// 複雑な型ガード
+type Data = string | number | boolean | null;
+
+function process(data: Data): string {
+  if (typeof data === "string") return data;
+  if (typeof data === "number") return String(data);
+  if (typeof data === "boolean") return data ? "T" : "F";
+  if (data === null) return "null";
+  return assertNever(data);
+}
+```

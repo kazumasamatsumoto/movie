@@ -1,0 +1,8 @@
+# #225 「動的 Component の作成」台本
+
+ずんだもん「具体的に動的コンポーネントを作成する手順を教えて！」
+四国めたん「まずViewContainerRefを取得し、viewContainerRef.clear()で既存ビューを整理します。それからcreateComponentでコンポーネントを生成します」
+ずんだもん「生成したらどう扱えばいいの？」
+四国めたん「戻り値のComponentRefからinstanceやhostViewにアクセスできるので、Inputを設定したり、必要に応じてdestroyを呼びます」
+ずんだもん「流れを覚えれば簡単だね！」
+四国めたん「ええ、使いこなすと拡張性が高まります」

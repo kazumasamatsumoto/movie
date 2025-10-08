@@ -1,0 +1,8 @@
+# #187 「Flexbox レイアウト」台本
+
+ずんだもん「Flexboxでレイアウトを組むポイントを教えて！」
+四国めたん「display: flexと、必要に応じてflex-direction, gap, justify-content, align-itemsを設定します。Angular固有の設定は不要です」
+ずんだもん「ネストしたFlexboxでも簡単に調整できる？」
+四国めたん「はい、コンポーネント単位でflex-containerのクラスを用意すると保守性が高まります。Angular Materialのレイアウトコンポーネントを参考にするのも良いですね」
+ずんだもん「CSSだけでかなり柔軟な構成ができるね！」
+四国めたん「ええ、リストやフォームの横並びに特に効果的です」

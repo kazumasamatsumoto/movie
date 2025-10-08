@@ -1,0 +1,9 @@
+# #205 「ngTemplateOutlet の活用」台本
+
+ずんだもん「ngTemplateOutletってどんな時に使うの？」
+四国めたん「TemplateRefを動的に描画したいときに使います。<ng-container [ngTemplateOutlet]=\"template\"></ng-container>のように書きます」
+ずんだもん「投影されたテンプレートを別の場所で再利用することもできる？」
+四国めたん「はい、ContentChildで受け取ったTemplateRefを、複数箇所にngTemplateOutletで描画することが可能です」
+ずんだもん「テンプレートを部品化して柔軟に構成できるんだね！」
+四国めたん「その通り、デザインの再利用性がぐっと高まります」
+

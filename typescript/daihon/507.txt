@@ -1,0 +1,58 @@
+# #507「到達不可能コード検出」
+
+四国めたん「到達不可能コードの検出について学びましょう！」
+ずんだもん「到達不可能コードってなに？」
+四国めたん「絶対に実行されないコードのことです。never型で検出できますね」
+ずんだもん「どうやって検出するの？」
+四国めたん「網羅性チェック後のコードはnever型になり、型エラーになります。コンパイラが警告しますね」
+ずんだもん「なるほど！自動で見つけてくれるんだね！」
+四国めたん「デッドコード削除に役立ちます。TypeScript v5.9では制御フロー解析が強化されていますね」
+ずんだもん「バグ防止になるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 到達不可能コード
+function process(value: string | number): void {
+  if (typeof value === "string") {
+    console.log(value.toUpperCase());
+    return;
+  }
+  if (typeof value === "number") {
+    console.log(value * 2);
+    return;
+  }
+
+  // ここは到達不可能
+  const unreachable: never = value;
+  console.log("Never executed");  // 警告
+}
+```
+
+```typescript
+// switch文での検出
+type Color = "red" | "green" | "blue";
+
+function getHex(color: Color): string {
+  switch (color) {
+    case "red": return "#FF0000";
+    case "green": return "#00FF00";
+    case "blue": return "#0000FF";
+  }
+  // ここは到達不可能
+  const unreachable: never = color;
+}
+```
+
+```typescript
+// 制御フロー解析
+function example(x: string | number): void {
+  if (typeof x === "string") return;
+  if (typeof x === "number") return;
+
+  // TypeScriptが自動検出
+  const _exhaustive: never = x;
+}
+```

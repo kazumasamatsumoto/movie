@@ -1,0 +1,9 @@
+# #204 「ng-template での投影」台本
+
+ずんだもん「ng-templateを投影するってどういうこと？」
+四国めたん「親が<ng-template #header>のようにテンプレートを用意し、子コンポーネント側で<ng-content select=\"[header]\"></ng-content>とするとそのまま描画されます」
+ずんだもん「TemplateRefとして受け取ってカスタム位置に表示することもできる？」
+四国めたん「もちろんです。ContentChildでTemplateRefを取得し、ViewContainerRefで展開すれば任意の場所に挿入できます」
+ずんだもん「テンプレートを渡せば高度な構成が実現できるね！」
+四国めたん「ええ、renderプロセスを柔軟に制御できます」
+

@@ -1,0 +1,64 @@
+# #514「default節での網羅性」
+
+四国めたん「switch文のdefault節での網羅性チェックを学びましょう！」
+ずんだもん「default節はいつも必要？」
+四国めたん「網羅性チェックのためには必須です。assertNeverを呼び出しますね」
+ずんだもん「default節がないとどうなるの？」
+四国めたん「型エラーにならず、ケースの追加漏れに気づけません。必ずdefault節を書きましょうね」
+ずんだもん「なるほど！安全のために必要なんだね！」
+四国めたん「ESLintルールでdefault節を強制できます。TypeScript v5.9でもベストプラクティスですね」
+ずんだもん「チーム開発でも安全だね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// default節での網羅性チェック
+type Action = "create" | "read" | "update" | "delete";
+
+function performAction(action: Action): void {
+  switch (action) {
+    case "create":
+      console.log("Creating...");
+      break;
+    case "read":
+      console.log("Reading...");
+      break;
+    case "update":
+      console.log("Updating...");
+      break;
+    case "delete":
+      console.log("Deleting...");
+      break;
+    default:
+      assertNever(action);  // 必須
+  }
+}
+```
+
+```typescript
+// default節がないと危険
+function badSwitch(action: Action): void {
+  switch (action) {
+    case "create": console.log("Creating..."); break;
+    case "read": console.log("Reading..."); break;
+    case "update": console.log("Updating..."); break;
+    // "delete"を忘れても型エラーにならない！
+  }
+}
+```
+
+```typescript
+// 戻り値がある場合
+function getActionName(action: Action): string {
+  switch (action) {
+    case "create": return "作成";
+    case "read": return "読み取り";
+    case "update": return "更新";
+    case "delete": return "削除";
+    default:
+      return assertNever(action);
+  }
+}
+```

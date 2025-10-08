@@ -1,0 +1,8 @@
+# #052 「[(ngModel)] FormsModule のインポート」台本
+
+ずんだもん「[(ngModel)]を書いたら『known propertyじゃない』って怒られたんだよ」
+四国めたん「Standalone ComponentならFormsModuleをimportsに追加する必要があります」
+ずんだもん「モジュールを使わなくても同じ対応でいいの？」
+四国めたん「はい、コンポーネントの@Componentでimports: [FormsModule]とするか、bootstrap時にprovideForms()を呼びます」
+ずんだもん「依存を明示するとバインディングが使えるようになるんだね！」
+四国めたん「そうです、v20では必要な機能を選択的に登録するのが基本です」

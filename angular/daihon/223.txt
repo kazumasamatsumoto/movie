@@ -1,0 +1,8 @@
+# #223 「ComponentFactoryResolver（旧方式）」台本
+
+ずんだもん「ComponentFactoryResolverってまだ使うの？」
+四国めたん「Angular v13以前はComponentFactoryResolverでコンポーネントファクトリを取得してからcreateComponentしていました」
+ずんだもん「今は別のやり方があるんだよね？」
+四国めたん「はい、v13以降はViewContainerRef.createComponent()がDIを自動解決してくれるのでResolverは不要です。旧式も互換性のために知っておくと良いですよ」
+ずんだもん「レガシーコードの理解に役立つんだね！」
+四国めたん「その通りです」

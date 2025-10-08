@@ -1,0 +1,8 @@
+# #149 「ContentChildren - 複数投影参照」台本
+
+ずんだもん「投影コンテンツが複数ある場合はどうすればいいの？」
+四国めたん「@ContentChildrenでQueryListとしてまとめて取得できます。リスト操作や監視も可能です」
+ずんだもん「ViewChildrenとの違いは？」
+四国めたん「ViewChildrenは自分のテンプレート、ContentChildrenは親から投影されたコンテンツに対して使います」
+ずんだもん「これで投影スロットを一括制御できるね！」
+四国めたん「その通り、QueryListのchangesを活用して動的コンテンツもフォローしましょう」

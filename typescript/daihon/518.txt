@@ -1,0 +1,56 @@
+# #518「ベストプラクティス」
+
+四国めたん「網羅性チェックのベストプラクティスを学びましょう！」
+ずんだもん「どんなルールがあるの？」
+四国めたん「必ずdefault/else節を書く、assertNever関数を使う、判別Union型を活用する、この3つですね」
+ずんだもん「他に注意点は？」
+四国めたん「型注釈を明示的に書き、strictモードを有効にします。ESLintルールも設定しますね」
+ずんだもん「なるほど！チーム全体で統一するんだね！」
+四国めたん「コードレビューでチェックリストに入れます。TypeScript v5.9でも推奨されるパターンですね」
+ずんだもん「品質の高いコードが書けるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// ベストプラクティス例
+// 1. 判別Union型を使う
+type Result<T> =
+  | { status: "success"; data: T }
+  | { status: "error"; error: Error }
+  | { status: "loading" };
+
+// 2. assertNever関数を定義
+function assertNever(value: never): never {
+  throw new Error(`Unexpected value: ${value}`);
+}
+```
+
+```typescript
+// 3. switch文で網羅性チェック
+function handleResult<T>(result: Result<T>): void {
+  switch (result.status) {
+    case "success":
+      console.log("Data:", result.data);
+      break;
+    case "error":
+      console.error("Error:", result.error);
+      break;
+    case "loading":
+      console.log("Loading...");
+      break;
+    default:
+      assertNever(result);  // 必須
+  }
+}
+```
+
+```typescript
+// 4. 型注釈を明示
+type Handler = (result: Result<string>) => void;
+
+const handler: Handler = (result) => {
+  handleResult(result);
+};
+```

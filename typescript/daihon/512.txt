@@ -1,0 +1,64 @@
+# #512「型の絞り込みパターン」
+
+四国めたん「型の絞り込みパターンを学びましょう！」
+ずんだもん「型の絞り込みってどうやるの？」
+四国めたん「typeof、instanceof、in演算子で型を絞り込めます。制御フロー解析が働きますね」
+ずんだもん「どんなパターンがあるの？」
+四国めたん「プリミティブ型、クラス、プロパティ存在確認など。それぞれに適した方法がありますね」
+ずんだもん「なるほど！場面によって使い分けるんだね！」
+四国めたん「網羅性チェックと組み合わせて完全な型安全性を実現します。TypeScript v5.9でも基本パターンですね」
+ずんだもん「型安全なコードが書けるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// typeof による絞り込み
+type Value = string | number | boolean;
+
+function format(value: Value): string {
+  if (typeof value === "string") {
+    return value.toUpperCase();
+  }
+  if (typeof value === "number") {
+    return value.toFixed(2);
+  }
+  if (typeof value === "boolean") {
+    return value ? "YES" : "NO";
+  }
+  return assertNever(value);
+}
+```
+
+```typescript
+// instanceof による絞り込み
+type ErrorType = Error | TypeError | RangeError;
+
+function handleError(error: ErrorType): void {
+  if (error instanceof TypeError) {
+    console.log("Type error:", error.message);
+  } else if (error instanceof RangeError) {
+    console.log("Range error:", error.message);
+  } else if (error instanceof Error) {
+    console.log("General error:", error.message);
+  } else {
+    assertNever(error);
+  }
+}
+```
+
+```typescript
+// in 演算子による絞り込み
+type Response = SuccessResponse | ErrorResponse;
+
+function handle(res: Response): void {
+  if ("data" in res) {
+    console.log("Success:", res.data);
+  } else if ("error" in res) {
+    console.log("Error:", res.error);
+  } else {
+    assertNever(res);
+  }
+}
+```

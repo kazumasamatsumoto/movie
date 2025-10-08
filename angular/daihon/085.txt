@@ -1,0 +1,8 @@
+# #085 「Lifecycle のよくあるエラー」台本
+
+ずんだもん「Lifecycleでどんなエラーが起きやすいの？」
+四国めたん「ExpressionChangedAfterItHasBeenCheckedは初期化フックで同期的に値を変えると出ます」
+ずんだもん「ViewChildがundefinedになるのは？」
+四国めたん「ngAfterViewInitより前にアクセスしている可能性が高いです。タイミングを合わせましょう」
+ずんだもん「原因が分かれば対策しやすいね！」
+四国めたん「ええ、エラーメッセージとフックの順序を照らし合わせるのがコツです」

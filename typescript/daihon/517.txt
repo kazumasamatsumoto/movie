@@ -1,0 +1,56 @@
+# #517「型安全性の向上」
+
+四国めたん「網羅性チェックによる型安全性の向上について学びましょう！」
+ずんだもん「具体的にどう安全になるの？」
+四国めたん「リファクタリング時に修正漏れを防げます。Union型の追加・削除で型エラーが出ますね」
+ずんだもん「どんな場面で役立つの？」
+四国めたん「ステータス追加、イベント追加、アクション追加など。すべての処理箇所が自動検出されますね」
+ずんだもん「なるほど！変更が安全なんだね！」
+四国めたん「大規模リファクタリングでも安心です。TypeScript v5.9では型推論も強化されていますね」
+ずんだもん「保守性が高まるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// 型を追加する前
+type Status = "idle" | "loading" | "success";
+
+function handleStatus(status: Status): void {
+  switch (status) {
+    case "idle": console.log("待機"); break;
+    case "loading": console.log("読み込み"); break;
+    case "success": console.log("完了"); break;
+    default: assertNever(status);  // OK
+  }
+}
+```
+
+```typescript
+// 型を追加した後
+type Status = "idle" | "loading" | "success" | "error";
+
+function handleStatus(status: Status): void {
+  switch (status) {
+    case "idle": console.log("待機"); break;
+    case "loading": console.log("読み込み"); break;
+    case "success": console.log("完了"); break;
+    // "error"がないので型エラー！
+    default: assertNever(status);  // Error!
+  }
+}
+```
+
+```typescript
+// 修正完了
+function handleStatusFixed(status: Status): void {
+  switch (status) {
+    case "idle": console.log("待機"); break;
+    case "loading": console.log("読み込み"); break;
+    case "success": console.log("完了"); break;
+    case "error": console.log("エラー"); break;
+    default: assertNever(status);  // OK
+  }
+}
+```

@@ -1,0 +1,9 @@
+# #220 「Web Components との比較」台本
+
+ずんだもん「Angularのコンテンツ投影とWeb Componentsのslotって似てるの？」
+四国めたん「はい、考え方は同じです。ただしAngularのng-contentはフレームワーク側で管理され、ViewEncapsulation.Emulatedとも組み合わせられます」
+ずんだもん「Shadow DOMを使ったslotの方が完全に隔離されるよね？」
+四国めたん「そうです。AngularでShadowDomを指定すればslot属性も使えますが、通常はng-contentで十分です」
+ずんだもん「両者の違いを理解して選択すればいいんだね！」
+四国めたん「ええ、用途に合わせてAngularコンポーネントかWeb Componentsかを選びましょう」
+

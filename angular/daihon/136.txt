@@ -1,0 +1,8 @@
+# #136 「ViewChild read オプション」台本
+
+ずんだもん「readオプションっていつ使うの？」
+四国めたん「要素から特定の型で取得したいときに使います。例：@ViewChild('input', { read: ElementRef }) field?: ElementRef<HTMLInputElement>; です」
+ずんだもん「ディレクティブをreadして別のAPIを触ることもできる？」
+四国めたん「はい、例えば{ read: MyDirective }で同じ要素に付いたディレクティブを取得できます」
+ずんだもん「取得対象を明示すると意図が伝わりやすいね！」
+四国めたん「その通りです。テンプレート構造が複雑なときほどreadを活用しましょう」

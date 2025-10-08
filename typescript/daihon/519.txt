@@ -1,0 +1,67 @@
+# #519「パターン集」
+
+四国めたん「網羅性チェックのパターン集を見ていきましょう！」
+ずんだもん「よく使うパターンを教えて！」
+四国めたん「Redux reducer、イベントハンドラ、状態遷移、APIレスポンス処理の4つが基本ですね」
+ずんだもん「それぞれの特徴は？」
+四国めたん「判別プロパティで型を分岐します。type、status、kindなどが使われますね」
+ずんだもん「なるほど！共通パターンがあるんだね！」
+四国めたん「テンプレートとして再利用できます。TypeScript v5.9でもこのパターンが推奨されますね」
+ずんだもん「実践で使えるんだね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// パターン1: State Machine
+type State =
+  | { phase: "init" }
+  | { phase: "running"; startTime: number }
+  | { phase: "paused"; elapsed: number }
+  | { phase: "finished"; totalTime: number };
+
+function getStateMessage(state: State): string {
+  switch (state.phase) {
+    case "init": return "初期化完了";
+    case "running": return `実行中 (${Date.now() - state.startTime}ms)`;
+    case "paused": return `一時停止 (${state.elapsed}ms)`;
+    case "finished": return `完了 (${state.totalTime}ms)`;
+    default: return assertNever(state);
+  }
+}
+```
+
+```typescript
+// パターン2: API Response
+type ApiResponse<T> =
+  | { status: 200; data: T }
+  | { status: 404; message: string }
+  | { status: 500; error: Error };
+
+function handleResponse<T>(res: ApiResponse<T>): void {
+  switch (res.status) {
+    case 200: console.log(res.data); break;
+    case 404: console.warn(res.message); break;
+    case 500: console.error(res.error); break;
+    default: assertNever(res);
+  }
+}
+```
+
+```typescript
+// パターン3: Command Pattern
+type Command =
+  | { type: "move"; x: number; y: number }
+  | { type: "rotate"; angle: number }
+  | { type: "scale"; factor: number };
+
+function executeCommand(cmd: Command): void {
+  switch (cmd.type) {
+    case "move": console.log(`Move to ${cmd.x},${cmd.y}`); break;
+    case "rotate": console.log(`Rotate ${cmd.angle}°`); break;
+    case "scale": console.log(`Scale ${cmd.factor}x`); break;
+    default: assertNever(cmd);
+  }
+}
+```
