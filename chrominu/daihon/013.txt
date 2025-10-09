@@ -1,0 +1,8 @@
+# #013 「ChromeOSとChromiumOSの関係」台本
+
+四国めたん「ChromeOSはChromiumOSをベースにGoogleサービスを加えた製品です」
+ずんだもん「ChromiumOSってOSS版のOSなんだね？」
+四国めたん「はい、ChromiumOSはOSSコミュニティで開発され、ChromeOSは管理機能やPlayストアを同梱します」
+ずんだもん「自動更新やデバイス管理はChromeOS限定なんだね」
+四国めたん「ChromiumOSは研究や組み込み向けにカスタム可能で、Chromebook向けはGoogle署名で提供されます」
+ずんだもん「両者の関係を知って活用シナリオを選び分けよう！」
