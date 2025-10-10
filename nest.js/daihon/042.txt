@@ -1,0 +1,8 @@
+# #042 「nest generate module - モジュール生成」
+
+四国めたん「nest generate moduleで機能単位のモジュールが作れます」
+ずんだもん「出力はどんな構造になるの？」
+四国めたん「*.module.tsが作成され、importsやprovidersを設定する準備が整います」
+ずんだもん「Featureを小分けにする土台になるね」
+四国めたん「--moduleオプションでRoot Moduleへ自動登録も可能です」
+ずんだもん「依存関係を整理しながらプロジェクトを拡張できるよ！」

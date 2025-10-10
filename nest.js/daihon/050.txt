@@ -1,0 +1,8 @@
+# #050 「nest generate gateway - WebSocketゲートウェイ生成」
+
+四国めたん「nest generate gatewayでWebSocketゲートウェイを作れます」
+ずんだもん「どんな雛形が出てくるの？」
+四国めたん「@WebSocketGatewayデコレーター付きクラスとハンドラが生成されます」
+ずんだもん「Socket.IOやwsにも対応できるんだね」
+四国めたん「イベント名や名前空間を指定してリアルタイム処理を実装します」
+ずんだもん「CLIでゲートウェイを量産してリアルタイム機能を拡張するよ！」

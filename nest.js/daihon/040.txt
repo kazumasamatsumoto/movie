@@ -1,0 +1,8 @@
+# #040 「nest generate controller - コントローラー生成」
+
+四国めたん「nest generate controllerでコントローラーを自動生成できます」
+ずんだもん「どんなファイルができるの？」
+四国めたん「指定したパスに*.controller.tsと*.controller.spec.tsが追加されます」
+ずんだもん「REST用のテンプレートが用意されているんだね」
+四国めたん「--flatや--no-specで出力内容を調整できます」
+ずんだもん「コマンドで一貫した命名規則を保てるよ！」
