@@ -1,0 +1,8 @@
+# #074 「Resource Timing APIの活用」台本
+
+四国めたん「Resource Timing APIは各リソースの取得時間を把握できます」
+ずんだもん「画像やスクリプトの個別タイミングが取れるんだよね？」
+四国めたん「はい。`performance.getEntriesByType('resource')`で詳細が手に入ります」
+ずんだもん「`clearResourceTimings`でバッファ管理も必要になるのか」
+四国めたん「サブリソースのボトルネックを見つけるのに最適です」
+ずんだもん「リソース毎の改善で全体速度を底上げしよう！」

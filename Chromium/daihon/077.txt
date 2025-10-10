@@ -1,0 +1,8 @@
+# #077 「Long Tasksの検出方法」台本
+
+四国めたん「Long Taskはメインスレッドを50ms以上占有する処理です」
+ずんだもん「`PerformanceObserver`で`longtask`を監視できるんだよね？」
+四国めたん「はい。コンポーネント単位で原因を特定して分割実装します」
+ずんだもん「Web Workerに逃がす戦略も効果的だ」
+四国めたん「DevToolsのPerformanceパネルでもLong Taskは赤で表示されます」
+ずんだもん「長時間タスクを潰して応答性を保とう！」

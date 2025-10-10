@@ -1,0 +1,8 @@
+# #076 「Performance Observerの使い方」台本
+
+四国めたん「PerformanceObserverはWeb Vitalsなどをリアルタイムで監視できます」
+ずんだもん「`new PerformanceObserver(callback)`で登録するんだよね？」
+四国めたん「はい。エントリータイプを指定してLCPやCLSをキャプチャできます」
+ずんだもん「エントリーをログに流したり送信する仕組みを作るのか」
+四国めたん「`buffered: true`で過去分も取得できるので、初期値の取りこぼしが防げます」
+ずんだもん「Observerを使ってユーザー体験を継続的に監視しよう！」
