@@ -80,3 +80,4 @@ export class ShadowCardComponent {}
 - CSSカスタムプロパティによるテーマ共有
 - Angular ElementsでのWeb Componentsエクスポート
 
+

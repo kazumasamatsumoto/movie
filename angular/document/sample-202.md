@@ -87,3 +87,4 @@ export class DynamicContainerComponent {
 - `ContentChild`でTemplateRefを取得
 - `ViewContainerRef.createEmbeddedView`
 
+

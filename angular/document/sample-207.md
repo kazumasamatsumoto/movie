@@ -88,3 +88,4 @@ export class ContentReaderComponent implements AfterContentInit {
 - `TemplateRef`と`ViewContainerRef`
 - `ngTemplateOutlet`によるテンプレート描画
 
+

@@ -87,3 +87,4 @@ export class ShellComponent {
 - Storybook / ドキュメント自動生成
 - テストでのホストコンポーネント利用（#217）
 
+

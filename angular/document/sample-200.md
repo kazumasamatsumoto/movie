@@ -95,3 +95,4 @@ export class EmptyStateComponent implements AfterContentInit {
 - `ng-template`・`ngTemplateOutlet`による条件付きレンダリング
 - Empty Stateデザインパターン
 
+

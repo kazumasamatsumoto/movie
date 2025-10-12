@@ -87,3 +87,4 @@ export class TemplateRendererComponent<T = unknown> {
 - `ViewContainerRef.createEmbeddedView`
 - コンテンツ投影（`ng-content`）との使い分け
 
+

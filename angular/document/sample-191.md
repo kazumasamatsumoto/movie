@@ -93,3 +93,4 @@ export class CardComponent {}
 - `ContentChild` / `ContentChildren` で投影内容を取得
 - `ngTemplateOutlet`で動的にテンプレートを挿入
 
+

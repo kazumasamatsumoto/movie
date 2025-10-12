@@ -123,3 +123,4 @@ export class TabsComponent implements AfterContentInit {
 - `ngTemplateOutlet`によるタブ内容描画
 - Angular Material Tabsとの比較
 
+

@@ -87,3 +87,4 @@ export class PanelComponent {}
 - `ContentChild` / `ContentChildren`で投影コンテンツへのアクセス
 - `ngTemplateOutlet`による動的レンダリング
 
+

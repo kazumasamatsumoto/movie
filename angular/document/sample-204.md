@@ -94,3 +94,4 @@ export class TemplatedCardComponent implements AfterContentInit {
 - `ContentChild` で TemplateRef を取得
 - `ViewContainerRef.createEmbeddedView`
 
+

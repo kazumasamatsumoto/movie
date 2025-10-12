@@ -107,3 +107,4 @@ export class AccordionComponent {
 - `ContentChildren`による複数アコーディオンの管理
 - Angular Animationsでの開閉アニメーション
 
+

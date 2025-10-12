@@ -86,3 +86,4 @@ export class LayoutComponent {}
 - レイアウトコンポーネント設計（#213）
 - `ContentChild`でのTemplateRef取得
 
+

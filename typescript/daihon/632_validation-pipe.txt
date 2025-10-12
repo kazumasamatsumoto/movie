@@ -1,0 +1,8 @@
+#632 「ValidationPipeで型安全に」台本
+
+四国めたん「ValidationPipeを使えばunknownなリクエストも安全に扱えます」
+ずんだもん「class-transformerでDTOに変換したあとclass-validatorで検証するんだね」
+四国めたん「はい。anyではなくunknownからDTOへ段階的に絞り込みます」
+ずんだもん「Nestのグローバルパイプで一括適用できるのが便利だよ」
+四国めたん「pipeで検証すればハンドラは確実な型で受け取れます」
+ずんだもん「ValidationPipeを標準にして型安全なAPIを守ろう！」

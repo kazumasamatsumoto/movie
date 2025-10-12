@@ -86,3 +86,4 @@ export class ModalComponent {}
 - `ContentChild`で特定属性を持つ要素の存在チェック
 - `@Directive`で役割付与用ディレクティブを作成するパターン
 
+

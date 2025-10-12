@@ -1,0 +1,30 @@
+# #571 「unknown制約の理由」
+
+四国めたん「unknownに制約が掛かる理由は実行時エラーを防ぐためです」
+ずんだもん「型がわからないまま操作すると危険だからだね」
+四国めたん「はい。静的解析で危険操作を検出し、型ガードによる証明を促します」
+ずんだもん「コードベースが大きいほどこの仕組みが効いてくるよ」
+四国めたん「制約は不便ではなく安全性のコストと捉えましょう」
+ずんだもん「開発者が証明責任を果たせば制約は味方になるね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+/** Example 1: 危険操作を遮断 */
+const data: unknown = getExternal();
+// data.prop(); // ❌
+
+/** Example 2: 証明してから操作 */
+if (typeof data === "object" && data !== null) {
+  console.log(Object.keys(data));
+}
+
+/** Example 3: 例外の抑止 */
+try {
+  JSON.parse("{");
+} catch (error: unknown) {
+  if (error instanceof Error) console.error(error.message);
+}
+```

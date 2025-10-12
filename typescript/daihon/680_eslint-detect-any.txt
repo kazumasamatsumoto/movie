@@ -1,0 +1,8 @@
+#680 「ESLintでanyを検出」台本
+
+四国めたん「ESLintのno-explicit-anyルールでanyを自動検出できます」
+ずんだもん「@typescript-eslint/no-explicit-anyをerrorにするんだよね」
+四国めたん「はい。--max-warnings 0を付ければCIで必ず失敗させられます」
+ずんだもん「tsconfigとの設定差異も含めてCIのフローに組み込もう」
+四国めたん「ESLintは自動修正提案のメッセージも出せるので学習効果があります」
+ずんだもん「開発時にanyを即座に検知できる環境を整えよう！」*** End Patch

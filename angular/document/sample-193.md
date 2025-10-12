@@ -84,3 +84,4 @@ export class WrapperComponent {}
 - `ContentChild`で投影要素の存在チェック
 - `ngTemplateOutlet`によるテンプレート再描画
 
+

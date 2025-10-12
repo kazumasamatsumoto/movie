@@ -85,3 +85,4 @@ export class CardComponent {}
 - 属性セレクタ / クラスセレクタと組み合わせたAPI設計
 - Angular Materialなどのライブラリでのスロット用ディレクティブ
 
+

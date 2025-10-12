@@ -1,0 +1,8 @@
+#719 「Utility Typesの活用」台本
+
+四国めたん「TypeScriptのUtility Typesを使えばanyの代替が簡単になります」
+ずんだもん「PartialやPickで必要な型だけ組み合わせられるんだよね」
+四国めたん「はい。ReadonlyやRecordも型変換を安全に行えます」
+ずんだもん「既存型を再利用できるから重複定義も減らせるよ」
+四国めたん「Utility Typesを知っておけば柔軟さと安全性を両立できます」
+ずんだもん「anyをUtility Typesで置き換えよう！」*** End Patch

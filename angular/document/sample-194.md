@@ -87,3 +87,4 @@ export class CardComponent {}
 - `ContentChild`/`ContentChildren`
 - `ngTemplateOutlet`でのテンプレート切り替え
 
+

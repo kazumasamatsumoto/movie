@@ -80,3 +80,4 @@ export class AccordionComponent {
 - `ContentChild`で投影判定
 - `ngTemplateOutlet`による描画切り替え
 
+

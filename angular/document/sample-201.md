@@ -101,3 +101,4 @@ export class ConditionalPanelComponent implements AfterContentInit {
 - `@ContentChild`とライフサイクル (`ngAfterContentInit`)
 - Empty Stateパターン（#200）
 
+

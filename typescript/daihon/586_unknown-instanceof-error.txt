@@ -1,0 +1,8 @@
+#586 「x instanceof Error」台本
+
+四国めたん「x instanceof ErrorでunknownをError型に絞れます」
+ずんだもん「try-catchのerrorを安全に扱えるやつだね」
+四国めたん「はい。messageやstackへアクセスする前に必ず判定しましょう」
+ずんだもん「独自エラーも継承すれば同じ判定で使えるよ」
+四国めたん「Error境界の安全性が劇的に向上します」
+ずんだもん「ログも型安全に取れるようになるね！」
