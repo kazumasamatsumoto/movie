@@ -1,0 +1,10 @@
+#790 「Object.keys()」台本
+
+四国めたん「Object.keysは文字列キーだけを返します。」
+ずんだもん「symbolキーはリストに含まれないんだね。」
+四国めたん「はい、列挙したい場合はObject.getOwnPropertySymbolsかReflect.ownKeysを使います。」
+ずんだもん「Object.valuesやObject.entriesも同じ挙動だよ。」
+四国めたん「TypeScriptの型システムでもkeysはstring[]として扱われます。」
+ずんだもん「違いを理解して意図したキーだけを処理しよう！」
+四国めたん「Object.keysの特性を利用して公開プロパティを絞り込めます。」
+ずんだもん「symbolを安全に隠しながらstringキーを操作しよう！」

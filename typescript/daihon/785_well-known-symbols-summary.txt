@@ -1,0 +1,10 @@
+#785 「Well-known Symbolsまとめ」台本
+
+四国めたん「Well-known Symbolsは言語機能のフックでしたね。」
+ずんだもん「iteratorやasyncIteratorで反復処理を拡張できたよ。」
+四国めたん「toStringTagやtoPrimitiveでデバッグや変換もカスタマイズできます。」
+ずんだもん「matchやreplaceを使えば文字列操作も柔軟になったね。」
+四国めたん「強力なので目的とテストをセットで運用しましょう。」
+ずんだもん「TypeScriptの型定義がサポートしてくれるのも心強いよ。」
+四国めたん「次章ではシンボルとオブジェクトの連携を確認します。」
+ずんだもん「Well-known Symbolsを武器に一段上の設計へ進もう！」

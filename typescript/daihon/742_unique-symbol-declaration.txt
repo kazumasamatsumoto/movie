@@ -1,0 +1,10 @@
+#742 「unique symbolの宣言」台本
+
+四国めたん「unique symbolを型注釈に使うにはconstまたはreadonly staticが必要です。」
+ずんだもん「ambient宣言でもdeclare const TOKEN: unique symbolみたいに書けるよ。」
+四国めたん「クラスのreadonly staticフィールドならunique symbolを外部に公開できます。」
+ずんだもん「DIトークンを型として輸出する時に便利だね。」
+四国めたん「interfaceではunique symbolをメンバ名として宣言できます。」
+ずんだもん「型レベルで同一性を保証できるのが魅力だよ。」
+四国めたん「宣言ルールを守ることでコンパイルエラーを防ぎましょう。」
+ずんだもん「定義のパターンを押さえておけば運用が楽になるよ！」

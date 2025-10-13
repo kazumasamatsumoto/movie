@@ -1,0 +1,34 @@
+# #783 「実践例(2)」
+
+四国めたん「今度はtoPrimitiveとmatchを活用した実践例です。」
+ずんだもん「設定オブジェクトを暗黙変換したり、バリデーションに使うんだね。」
+四国めたん「はい、ログ表示とString.prototype.matchの両方で役立ちます。」
+ずんだもん「Well-known Symbolsを組み合わせると柔軟なAPIを作れるよ。」
+四国めたん「TypeScriptの型で挙動を明示するのもポイントです。」
+ずんだもん「実装例を参考に自分のサービスに応用してみよう！」
+四国めたん「次はベストプラクティスとまとめです。」
+ずんだもん「挙動を理解して賢く使おうね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+/** Configオブジェクトの例 */
+const config = {
+  value: { retries: 3, name: "api" },
+  [Symbol.toPrimitive](hint: "default" | "string" | "number") {
+    if (hint === "string") {
+      return JSON.stringify(this.value);
+    }
+    return this.value.retries;
+  },
+  [Symbol.match](text: string): RegExpMatchArray | null {
+    return text.includes(this.value.name) ? [this.value.name] : null;
+  },
+};
+
+console.log(`${config}`); // "{\"retries\":3,\"name\":\"api\"}"
+console.log("deploy api".match(config)); // ["api"]
+console.log(+config); // 3
+```

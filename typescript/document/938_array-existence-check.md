@@ -1,0 +1,32 @@
+# #938 「存在チェック」
+
+四国めたん「配列要素の存在をチェックしてからアクセスするのが安全です。」
+ずんだもん「if (index < arr.length) { ... } みたいに書くんだね。」
+四国めたん「はい、findやsomeを使って存在を確認する方法もあります。」
+ずんだもん「ガードしながらアクセスすると型も絞り込めるよ。」
+四国めたん「存在チェックパターンを覚えて実行時エラーを防ぎましょう。」
+ずんだもん「安全第一でアクセスしてね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+/** Example 1: lengthガード */
+const items = ["a", "b"];
+const index = 5;
+if (index < items.length) {
+  console.log(items[index].toUpperCase());
+}
+
+/** Example 2: find */
+const user = users.find((u) => u.id === targetId);
+if (user) {
+  console.log(user.name);
+}
+
+/** Example 3: some */
+if (items.some((v) => v === "b")) {
+  // 要素が存在する
+}
+```

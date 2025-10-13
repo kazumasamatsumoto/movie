@@ -1,0 +1,10 @@
+#772 「Symbol.isConcatSpreadable」台本
+
+四国めたん「Symbol.isConcatSpreadableはArray.prototype.concatの挙動を制御します。」
+ずんだもん「trueにすると配列風オブジェクトが展開されるんだね。」
+四国めたん「falseにすると配列でも展開されず一括で挿入されます。」
+ずんだもん「可変長の合成処理で役立ちそうだよ。」
+四国めたん「TypeScriptではboolean型として扱います。」
+ずんだもん「挙動を理解してconcatの細かなチューニングに活かそう！」
+四国めたん「テストで結果を確認するのを忘れずに。」
+ずんだもん「isConcatSpreadableで配列操作を柔軟に！」
