@@ -1,0 +1,18 @@
+# #1103 「flat()の型」
+
+四国めたん「Array.prototype.flatは配列のネストを平坦化します。」
+ずんだん「型定義はflat<D extends number = 1>(depth?: D): FlatArray<T, D>[]だね。」
+四国めたん「はい、深さと要素型の関係を条件型で表現しています。」
+ずんだん「デフォルトは1段階で、depthを指定するとさらに深く平坦化できるよ。」
+四国めたん「flatの型を理解して適切な深さを選んでください。」
+ずんだん「ネスト配列を扱いやすくなるね！」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+const nested = [[1], [2, 3]];
+
+const flattened = nested.flat();
+```
