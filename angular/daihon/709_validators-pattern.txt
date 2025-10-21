@@ -1,0 +1,8 @@
+# #709 「Validators.pattern() - 正規表現」台本
+
+ずんだもん「正規表現で入力形式を制限したいんだけど？」
+四国めたん「Validators.pattern(/regex/)を使うと一致しないときにエラーを返します。」
+ずんだもん「requiredと組み合わせて使うんだね。」
+四国めたん「はい。空文字も許容したくないならrequiredを併用します。」
+ずんだもん「エラーキーはpatternになるんだ。」
+四国めたん「errors.pattern.requiredPatternとactualValueで詳細を確認できます。」

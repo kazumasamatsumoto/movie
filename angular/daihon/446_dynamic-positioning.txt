@@ -1,0 +1,6 @@
+# #446 「位置の動的調整」台本
+
+ずんだもん「Tooltipの位置はどう調整するの？」
+四国めたん「要素のBoundingClientRectを取得して、配置オプションに応じてtop/leftを計算します。」
+ずんだもん「スクリーン外に出ないようにするには？」
+四国めたん「IntersectionObserverやviewportサイズを考慮して位置を補正します。」

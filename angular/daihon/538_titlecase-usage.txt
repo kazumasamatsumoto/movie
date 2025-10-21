@@ -1,0 +1,6 @@
+# #538 「{{ text | titlecase }}」台本
+
+ずんだもん「簡単なサンプルは？」
+四国めたん「`{{ 'hello angular world' | titlecase }}`は`Hello Angular World`になります。」
+ずんだもん「読みやすくなるね。」
+四国めたん「はい、タイトル表記に便利です。」

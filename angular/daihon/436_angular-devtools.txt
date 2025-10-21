@@ -1,0 +1,6 @@
+# #436 「Angular DevTools での確認」台本
+
+ずんだもん「Angular DevToolsでDirectiveは確認できる？」
+四国めたん「ElementsパネルでDirective一覧が表示され、HostBindingの値も確認できます。」
+ずんだもん「リアクティブな変化も見られる？」
+四国めたん「はい、SignalsやInputの値も追跡しやすいです。」

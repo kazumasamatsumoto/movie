@@ -1,0 +1,8 @@
+# #686 「FormBuilder のインポート」台本
+
+ずんだもん「FormBuilderを使うには何をインポートすればいいの？」
+四国めたん「@angular/formsのFormBuilderをインポートします。」
+ずんだもん「ReactiveFormsModuleも忘れずに必要だね。」
+四国めたん「はい。モジュールかスタンドアロンコンポーネントで読み込みましょう。」
+ずんだもん「使う場所で依存注入するんだ。」
+四国めたん「inject(FormBuilder)またはコンストラクタDIで取得できます。」

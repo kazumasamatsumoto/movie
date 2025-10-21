@@ -1,0 +1,8 @@
+# #303 「Component Directive - コンポーネント」台本
+
+ずんだもん「UIを持つDirectiveって結局コンポーネントなんだよね？」
+四国めたん「はい、テンプレートとスタイルを備えたDirectiveをComponent Directiveと呼び、画面断片を再利用できます。」
+ずんだもん「Standalone化すると扱いやすいって聞いたよ？」
+四国めたん「v20では最初からstandalone: trueを指定すれば、NgModuleなしで他のテンプレートから使えます。」
+ずんだもん「入力や出力も普通のコンポーネントと同じ？」
+四国めたん「その通りです。InputsとOutputsで契約を定義し、小さなUI部品として組み合わせましょう。」

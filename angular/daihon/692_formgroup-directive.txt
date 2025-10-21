@@ -1,0 +1,8 @@
+# #692 「[formGroup] ディレクティブ」台本
+
+ずんだもん「テンプレートでFormGroupを紐付けるにはどうするの？」
+四国めたん「form要素に[formGroup]を設定してコンポーネントのFormGroupインスタンスを渡します。」
+ずんだもん「内部のフォームコントロールはformControlNameで紐付けるんだよね。」
+四国めたん「はい。Groupが変わったらdetectChangesで再描画されます。」
+ずんだもん「送信時はngSubmitと組み合わせるのが定番か。」
+四国めたん「[formGroup]はテンプレート駆動フォームのngFormに相当する役割です。」

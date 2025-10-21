@@ -1,0 +1,8 @@
+# #698 「valueChanges Observable」台本
+
+ずんだもん「valueChangesってObservableなんだよね。」
+四国めたん「はい、フォームの値が変わるたびに最新値を通知します。」
+ずんだもん「フォーム全体でも使えるのかな？」
+四国めたん「FormGroupやFormArrayでもvalueChangesを購読できます。」
+ずんだもん「複数のフォームをまとめて監視したいな。」
+四国めたん「combineLatestなどを使って複数ストリームを統合しましょう。」

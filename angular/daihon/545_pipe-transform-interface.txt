@@ -1,0 +1,6 @@
+# #545 「PipeTransform インターフェース」台本
+
+ずんだもん「PipeTransformって何？」
+四国めたん「Pipeが実装すべきインターフェースで、必ず`transform(value: unknown, ...args: unknown[]): unknown;`メソッドを持ちます。」
+ずんだもん「型パラメータも指定できる？」
+四国めたん「はい、ジェネリクスで型を絞り込めます。」

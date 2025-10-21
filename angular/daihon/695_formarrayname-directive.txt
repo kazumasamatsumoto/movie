@@ -1,0 +1,8 @@
+# #695 「formArrayName ディレクティブ」台本
+
+ずんだもん「テンプレートでFormArrayを扱うときは？」
+四国めたん「親にformArrayName="キー"を指定し、内部でformControlNameやformGroupNameにインデックスを渡します。」
+ずんだもん「*ngForでloopするのが定番だね。」
+四国めたん「はい。iをformControlNameに渡すと配列と同期します。」
+ずんだもん「要素追加や削除もテンプレートから制御できるね。」
+四国めたん「ボタンにclickイベントを付けて配列操作メソッドを呼び出しましょう。」

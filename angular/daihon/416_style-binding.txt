@@ -1,0 +1,6 @@
+# #416 「style バインディング」台本
+
+ずんだもん「スタイルをHostBindingで変えられる？」
+四国めたん「`@HostBinding('style.backgroundColor') bg = 'transparent';`のようにプロパティへバインドします。」
+ずんだもん「値を動的に変えればスタイル更新できるんだね。」
+四国めたん「はい、Renderer2を使わずに済む簡潔な書き方です。」

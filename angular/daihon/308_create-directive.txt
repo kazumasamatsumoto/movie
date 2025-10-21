@@ -1,0 +1,10 @@
+# #308 「Directive の作成方法」台本
+
+ずんだもん「Directiveを新規作成する手順を教えて！」
+四国めたん「Angular CLIで`ng g directive directives/highlight --standalone`を実行するとひな形ができます。」
+ずんだもん「生成されたクラスは何を直せばいい？」
+四国めたん「selectorや入力プロパティ、HostBindingを用途に合わせて調整しましょう。」
+ずんだもん「テストファイルも付いてくる？」
+四国めたん「はい、生成時にspecが用意されるので、DOM変化の期待値をすぐに書けます。」
+ずんだもん「登録はどうするの？」
+四国めたん「standaloneなら`imports`に追加、従来のモジュールなら`declarations`へ登録します。」

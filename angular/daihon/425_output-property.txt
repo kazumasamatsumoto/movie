@@ -1,0 +1,6 @@
+# #425 「@Output() プロパティ」台本
+
+ずんだもん「@Outputの書き方って？」
+四国めたん「`@Output() toggled = new EventEmitter<boolean>();`のようにイベント型を指定します。」
+ずんだもん「Observableに変換することもできる？」
+四国めたん「はい、`toggled.asObservable()`で外部に公開する設計も可能です。」

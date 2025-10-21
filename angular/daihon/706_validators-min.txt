@@ -1,0 +1,8 @@
+# #706 「Validators.min() - 最小値」台本
+
+ずんだもん「数値の最小値を強制したい。」
+四国めたん「Validators.min(minValue)で指定値未満の場合にエラーを返します。」
+ずんだもん「number型のFormControlと組み合わせるんだね。」
+四国めたん「はい、templateではtype="number"やinputmodeを設定すると親切です。」
+ずんだもん「エラーメッセージにはactualとminが入っているんだ。」
+四国めたん「errors.min.actualとminから不足数を表示できます。」

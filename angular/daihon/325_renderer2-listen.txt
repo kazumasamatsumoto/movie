@@ -1,0 +1,10 @@
+# #325 「listen() でのイベント監視」台本
+
+ずんだもん「Renderer2のlistenでイベントを監視する仕組みを知りたい！」
+四国めたん「`listen(target, eventName, callback)`で購読し、戻り値の解除関数を保持します。」
+ずんだもん「documentやwindowにも付けられる？」
+四国めたん「はい、ターゲットに`'document'`や`'window'`を指定できます。」
+ずんだもん「Signalsと合わせる時は？」
+四国めたん「コールバックでSignalを更新し、ChangeDetectionを適切に走らせるとリアクティブに反応します。」
+ずんだもん「解除漏れを防ぐには？」
+四国めたん「ngOnDestroyで解除関数を呼び出すユーティリティを用意すると安全です。」

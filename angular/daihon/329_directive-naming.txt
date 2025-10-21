@@ -1,0 +1,10 @@
+# #329 「Directive の命名規則」台本
+
+ずんだもん「Directiveの命名規則ってどうしてる？」
+四国めたん「アプリのプレフィックス＋機能名で`appHighlightDirective`のように一貫性を持たせます。」
+ずんだもん「suffixにDirectiveを付けるのは必須？」
+四国めたん「クラス名には付けて識別しやすくし、selectorは短い動詞や形容詞で表現します。」
+ずんだもん「ファイル名は？」
+四国めたん「`highlight.directive.ts`のようにドット区切りで統一しましょう。」
+ずんだもん「テスト名も合わせる？」
+四国めたん「`highlight.directive.spec.ts`にして検索性を高めると保守が楽です。」

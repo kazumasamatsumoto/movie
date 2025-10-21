@@ -1,0 +1,8 @@
+# #607 「ReactiveFormsModule のインポート」台本
+
+ずんだもん「リアクティブフォームでは何をインポートするの？」
+四国めたん「ReactiveFormsModuleを読み込むとformGroupやformControlNameディレクティブが使えます。」
+ずんだもん「FormBuilderとかもここから提供されるんだね。」
+四国めたん「ええ、サービスも同じパッケージから提供されます。」
+ずんだもん「スタンドアロンでもモジュールでも書き方は似てる？」
+四国めたん「はい、imports配列にReactiveFormsModuleを追加するだけです。」

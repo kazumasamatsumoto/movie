@@ -1,0 +1,10 @@
+# #267 「Higher Order Component」台本
+
+ずんだもん「AngularでHigher Order Componentを使うには？」
+四国めたん「ラッパー関数でStandalone Componentを生成し、ProviderやInputを差し替えて再利用します。」
+ずんだもん「型安全に扱える？」
+四国めたん「genericなFactory関数を定義し、渡したComponentのInputを継承させます。」
+ずんだもん「DIやサービス注入はどう対応するの？」
+四国めたん「environmentInjectorやprovideComponentStoreで必要な依存を追加して組み合わせます。」
+ずんだもん「ReactのHOCみたいで面白いね！」
+四国めたん「Angularでも柔軟なラッピングができると覚えておきましょう。」

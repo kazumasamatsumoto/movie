@@ -1,0 +1,8 @@
+# #667 「FormControl.patchValue() メソッド」台本
+
+ずんだもん「FormControlでもpatchValueを使えるの？」
+四国めたん「はい、setValueと同じように使えますが部分更新の恩恵は主にFormGroupで生きてきます。」
+ずんだもん「将来的にFormGroupへ移行するなら覚えておきたいね。」
+四国めたん「そうですね。APIのインターフェースを合わせておくとリファクタリングが楽になります。」
+ずんだもん「オプション引数も同じなんだ。」
+四国めたん「emitEventやonlySelfなどはsetValueと共通です。」

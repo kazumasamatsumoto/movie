@@ -1,0 +1,6 @@
+# #434 「イベントのシミュレーション」台本
+
+ずんだもん「イベントはどうシミュレーションする？」
+四国めたん「`dispatchEvent(new Event('click'))`や`triggerEventHandler`でHostListenerを動かせます。」
+ずんだもん「タイマー系はどうする？」
+四国めたん「fakeAsyncやjest.useFakeTimersで制御すると安定します。」
