@@ -1,8 +1,0 @@
-# #063 「ngOnChanges - SimpleChanges の活用」台本
-
-ずんだもん「ngOnChangesの引数ってどう使えばいいの？」
-四国めたん「SimpleChangesから現在値と前回値、初回かどうかを確認できます」
-ずんだもん「具体的に差分チェックをしたいときに役立つんだね？」
-四国めたん「はい、changes['item']?.previousValueとcurrentValueを比較して最小限の処理にできます」
-ずんだもん「初期化時かどうかも分かれば条件分岐が楽だよ！」
-四国めたん「その通りです、isFirstChange()で初回だけ実行するロジックも安全に書けます」

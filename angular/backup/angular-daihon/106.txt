@@ -1,8 +1,0 @@
-# #106 「EventEmitter の使い方」台本
-
-ずんだもん「EventEmitterって他にどんな機能があるの？」
-四国めたん「Observableを継承しているので、subscribeで直接購読もできます」
-ずんだもん「completeやerrorは使うべき？」
-四国めたん「UIイベントではemitだけで十分です。完了を示したいならcompleteを呼ぶこともできます」
-ずんだもん「イベントの流れがよく分かったよ！」
-四国めたん「ええ、EventEmitterはUI通知専用として使いましょう」

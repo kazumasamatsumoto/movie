@@ -1,8 +1,0 @@
-# #082 「Lifecycle でのイベントリスナー登録」台本
-
-ずんだもん「windowイベントを監視したいときはどのタイミングで登録すればいい？」
-四国めたん「ngOnInitやngAfterViewInitでaddEventListenerし、ngOnDestroyでremoveEventListenerします」
-ずんだもん「@HostListenerを使えば自動で解除されるの？」
-四国めたん「はい、HostListenerは破棄時に処理してくれるので、手動管理が難しい場合に便利です」
-ずんだもん「Lifecycleを意識すればイベント漏れも防げるね！」
-四国めたん「その通り、安全な登録と解除のペアが基本です」

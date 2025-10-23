@@ -1,8 +1,0 @@
-# #103 「@Input() とngOnChanges の連携」台本
-
-ずんだもん「@Input()が変わった瞬間に処理したい場合は？」
-四国めたん「ngOnChangesを実装して、SimpleChangesから差分を受け取ります」
-ずんだもん「currentValueとpreviousValueを比較できるんだね？」
-四国めたん「はい、初回はisFirstChange()で分岐すれば初期化との区別もできます」
-ずんだもん「これで依存するデータの同期が楽になるよ！」
-四国めたん「ええ、@Input()とLifecycleを組み合わせて制御しましょう」

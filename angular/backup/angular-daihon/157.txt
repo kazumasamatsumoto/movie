@@ -1,8 +1,0 @@
-# #157 「QueryList の変更検知」台本
-
-ずんだもん「QueryListって変更を検知してくれるの？」
-四国めたん「changesプロパティがObservableになっていて、要素の追加・削除があると通知されます」
-ずんだもん「ViewChildrenでもContentChildrenでも同じ？」
-四国めたん「はい、どちらもQueryListを返すのでchangesを購読すれば動きを追えます」
-ずんだもん「リアクティブに反応できるのは便利だね！」
-四国めたん「ええ、takeUntilDestroyedなどで購読解除も忘れないようにしましょう」

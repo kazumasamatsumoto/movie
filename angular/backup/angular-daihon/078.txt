@@ -1,8 +1,0 @@
-# #078 「ngOnDestroy での購読解除」台本
-
-ずんだもん「Observableのsubscribeをどこで解除すればいいの？」
-四国めたん「ngOnDestroyでSubscriptionをunsubscribeするか、takeUntil系オペレーターで自動解除しましょう」
-ずんだもん「Signalsに変換しても同じ？」
-四国めたん「Signal.fromObservableならdestroyRef.onDestroyで停止処理を書くと安全です」
-ずんだもん「破棄のタイミングを逃さないのが大事なんだね！」
-四国めたん「ええ、購読解除はリソース管理の基本です」

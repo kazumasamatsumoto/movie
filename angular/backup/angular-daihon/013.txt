@@ -1,7 +1,0 @@
-ずんだもん「Standalone Componentって何？」
-四国めたん「NgModuleなしで使えるComponentです。v20では標準です」
-ずんだもん「どう書くの？」
-四国めたん「standalone: trueを指定するだけです」
-ずんだもん「メリットは？」
-四国めたん「シンプルな構造で、依存関係が明確になります」
-ずんだもん「これからはStandaloneだね！」

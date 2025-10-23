@@ -1,8 +1,0 @@
-# #283 「Textarea Component - テキストエリア」台本
-
-ずんだもん「Textarea Componentを共通化したいんだけど？」
-四国めたん「高さの自動調整や文字数制限をInputで制御し、ControlValueAccessorでフォーム対応しましょう。」
-ずんだもん「自動リサイズはどうやるの？」
-四国めたん「contenteditableのようにresizeイベントで高さを再計算するか、CDKTextareaAutosizeを利用します。」
-ずんだもん「エラーメッセージも必要だよ。」
-四国めたん「Templateで最大文字数を監視してSignalと連動させるとユーザーに優しい表示になります。」

@@ -1,8 +1,0 @@
-# #144 「ViewChildren 変更監視」台本
-
-ずんだもん「ViewChildrenの内容が変わったときに知らせてもらえるの？」
-四国めたん「QueryList.changesはObservableなのでsubscribeすれば追加や削除を検知できます」
-ずんだもん「ngAfterViewInitで購読を始めればいいの？」
-四国めたん「はい、さらにdestroyで購読解除するかtakeUntilDestroyedを使うと安全です」
-ずんだもん「変化を追跡すればインタラクティブなUIが作りやすいね！」
-四国めたん「その通り、リスト更新をトリガに副作用を走らせましょう」

@@ -1,8 +1,0 @@
-# #224 「createComponent() - 新方式（v13+）」台本
-
-ずんだもん「新しいcreateComponentはどう使うの？」
-四国めたん「ViewContainerRef.createComponent(ComponentType, options?)で実行中にコンポーネントを生成できます。DIも自動で解決してくれるのがポイントです」
-ずんだもん「ComponentFactoryResolverはいらないの？」
-四国めたん「はい、必要ありません。createComponentの戻り値ComponentRefからインスタンスやdestroy操作ができます」
-ずんだもん「APIがシンプルになって扱いやすいね！」
-四国めたん「ええ、Angular v13以降はこちらが推奨です」

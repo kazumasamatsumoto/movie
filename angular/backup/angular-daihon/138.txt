@@ -1,8 +1,0 @@
-# #138 「ViewChild とライフサイクル」台本
-
-ずんだもん「ViewChildで取った参照はいつから使えるの？」
-四国めたん「static: falseならngAfterViewInit以降が安全です。static: trueならngOnInitでも参照できます」
-ずんだもん「ビュー更新のたびに値が変わることもある？」
-四国めたん「はい、ngAfterViewCheckedで最新状態を確認したり、ViewChildSetterを使う方法もあります」
-ずんだもん「ライフサイクルを理解しておけば安心だね！」
-四国めたん「その通り、タイミングを間違えるとundefinedになるので注意しましょう」

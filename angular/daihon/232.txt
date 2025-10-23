@@ -1,8 +1,0 @@
-# #232 「ComponentRef の活用」台本
-
-ずんだもん「ComponentRefって具体的に何ができるの？」
-四国めたん「動的に生成したコンポーネントのインスタンス、ChangeDetectorRef、hostViewなどへアクセスできます。Input設定、イベント購読、destroy呼び出しなどを行います」
-ずんだもん「ChangeDetectionを手動で走らせることもできる？」
-四国めたん「はい、componentRef.changeDetectorRef.detectChanges()で更新できます。ViewRefを使って別コンテナへ移動することも可能です」
-ずんだもん「ComponentRefを理解すれば制御がしやすいね！」
-四国めたん「その通り、Dynamic Componentの要にあたるクラスです」

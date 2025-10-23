@@ -1,8 +1,0 @@
-# #131 「ViewChild - 子要素への参照」台本
-
-ずんだもん「テンプレート内の要素をTypeScript側から触りたいんだ」
-四国めたん「そんなときは@ViewChildで子要素への参照を取得できます」
-ずんだもん「例えばCanvas要素を直接扱いたい場合があるよね？」
-四国めたん「はい、@ViewChild('canvas') canvas!: ElementRef<HTMLCanvasElement>; のように宣言します」
-ずんだもん「コンポーネントの振る舞いが広がるね！」
-四国めたん「ええ、ただしDOM操作は慎重に、Renderer2も検討しましょう」

@@ -1,8 +1,0 @@
-# #247 「CDK Portal の実装」台本
-
-ずんだもん「CDK Portalを実装で使うときの流れは？」
-四国めたん「まずPortalModuleをインポートし、TemplatePortalやComponentPortalを用意します。PortalOutletにattachすれば表示されます」
-ずんだもん「ComponentPortalなら動的にコンポーネントを載せられるんだね？」
-四国めたん「はい、OverlayやPortalOutletを使って、ComponentPortal<ComponentType>をattach/detachするだけで切り替えができます」
-ずんだもん「APIが統一されて扱いやすいよ！」
-四国めたん「その通り、CDKを使えば複雑なUIでも簡潔に書けます」

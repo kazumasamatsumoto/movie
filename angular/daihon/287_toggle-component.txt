@@ -1,8 +1,0 @@
-# #287 「Toggle Component - トグルスイッチ」台本
-
-ずんだもん「Toggle Componentをデザインシステムに合わせたい！」
-四国めたん「checkedとdisabledをInput化し、アニメーションはCSS変数で制御しましょう。」
-ずんだもん「状態の変更はどう通知するの？」
-四国めたん「ControlValueAccessorまたはOutputで親に伝え、Signalでリアルタイムに同期します。」
-ずんだもん「アクセシビリティのポイントは？」
-四国めたん「role="switch"とaria-checkedを設定し、キーボード操作で状態遷移できるようにします。」

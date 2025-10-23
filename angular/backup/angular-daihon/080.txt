@@ -1,8 +1,0 @@
-# #080 「Lifecycle での DOM 操作」台本
-
-ずんだもん「直接DOMを触りたいときはどのフックに書けばいいの？」
-四国めたん「ViewChildで要素を取るならngAfterViewInitで初期化し、変更があるときはngAfterViewCheckedで調整します」
-ずんだもん「Renderer2を使う場合も同じ？」
-四国めたん「はい、直接DOM APIを避けてRenderer2やElementRefを組み合わせ、破棄時にクリーンアップしましょう」
-ずんだもん「タイミングを守れば副作用も安全に扱えるね！」
-四国めたん「ええ、Lifecycleと一緒にDOM操作を設計するのがAngular流です」

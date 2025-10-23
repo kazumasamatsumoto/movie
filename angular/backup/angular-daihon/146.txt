@@ -1,8 +1,0 @@
-# #146 「ContentChild の基本構文」台本
-
-ずんだもん「ContentChildってどう書けばいいの？」
-四国めたん「@ContentChild('slotRef') template?: TemplateRef<unknown>; のようにテンプレート参照変数やコンポーネント名で指定します」
-ずんだもん「ng-content側には#slotRefを付けておくんだね？」
-四国めたん「はい、親が投影するテンプレートに参照名を付けてもらいます」
-ずんだもん「これで投影された要素を自在に扱えるよ！」
-四国めたん「その通り、ContentChildはコンポーネントの柔軟性を高めます」

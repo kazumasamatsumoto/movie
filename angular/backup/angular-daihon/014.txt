@@ -1,7 +1,0 @@
-ずんだもん「StandaloneとModule-basedの違いは？」
-四国めたん「Standaloneは依存関係が明確で、シンプルです」
-ずんだもん「Module-basedは古いの？」
-四国めたん「いいえ、既存プロジェクトで使われていますが、v20では Standaloneが推奨です」
-ずんだもん「移行は簡単？」
-四国めたん「はい。standalone: trueを追加し、importsに依存関係を移すだけです」
-ずんだもん「新規ならStandaloneだね！」

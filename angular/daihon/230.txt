@@ -1,8 +1,0 @@
-# #230 「複数の動的 Component 管理」台本
-
-ずんだもん「複数のコンポーネントを動的に配置したいときはどうするの？」
-四国めたん「ViewContainerRef.createComponentを複数回呼び、ComponentRefを配列で保持します。必要に応じてinsertやmoveで順序を制御します」
-ずんだもん「削除するときは個別にdestroyするの？」
-四国めたん「はい。ComponentRef.destroy()を呼ぶか、ViewContainerRef.remove(index)で特定のビューを削除できます」
-ずんだもん「リスト形式のウィジェットに応用できそうだね！」
-四国めたん「ええ、動的ダッシュボードなどでよく使われます」

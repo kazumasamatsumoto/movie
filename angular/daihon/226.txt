@@ -1,8 +1,0 @@
-# #226 「動的 Component への入力渡し」台本
-
-ずんだもん「生成したコンポーネントにInputを渡すには？」
-四国めたん「ComponentRef.instanceから公開プロパティを直接設定できます。生成直後にinstance.title = '...' のように代入します」
-ずんだもん「OnInitはどのタイミングで呼ばれるの？」
-四国めたん「createComponent直後にライフサイクルが走るので、Inputを設定したらChangeDetectorRef.detectChanges()で同期すると安心です」
-ずんだもん「手動DIでも簡単に値が渡せるんだね！」
-四国めたん「その通りです」

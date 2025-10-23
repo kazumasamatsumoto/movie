@@ -1,8 +1,0 @@
-# #231 「ng-template + ViewContainerRef」台本
-
-ずんだもん「ng-templateとViewContainerRefを組み合わせるとどうなるの？」
-四国めたん「TemplateRefをViewContainerRef.createEmbeddedViewで挿入できます。構造ディレクティブと同じ仕組みですね」
-ずんだもん「コンテンツ投影とも関係あるの？」
-四国めたん「はい、親が渡したng-templateをTemplateRefとして受け取り、ViewContainerRefで好きな位置に描画できます」
-ずんだもん「テンプレートを自在に展開できるんだね！」
-四国めたん「動的レイアウトにとても便利です」

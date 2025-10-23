@@ -1,7 +1,0 @@
-ずんだもん「大規模プロジェクトのフォルダ構成は？」
-四国めたん「Feature-basedとLayer-basedの2つの戦略があります」
-ずんだもん「Feature-basedって何？」
-四国めたん「機能ごとにフォルダを分ける方法です。user、productなど」
-ずんだもん「Layer-basedは？」
-四国めたん「役割ごとに分けます。components、services、pipesなど」
-ずんだもん「プロジェクトに合わせて選ぶんだね！」

@@ -1,8 +1,0 @@
-# #285 「Checkbox Component - チェックボックス」台本
-
-ずんだもん「Checkbox Componentを共通化する時はどうするの？」
-四国めたん「checkedとindeterminateをInputで制御し、ControlValueAccessorでフォームに統合します。」
-ずんだもん「ラベル配置は柔軟にしたいな。」
-四国めたん「ng-contentで自由に差し込むか、labelPosition Inputで左右を切り替えましょう。」
-ずんだもん「複数選択は？」
-四国めたん「Listコンポーネントを用意して配列を扱うとUXが揃います。」

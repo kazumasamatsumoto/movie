@@ -1,8 +1,0 @@
-# #074 「Lifecycle の実行順序」台本
-
-ずんだもん「フックってどの順番で呼ばれていくの？」
-四国めたん「OnChanges → OnInit → DoCheck → AfterContent → AfterView → OnDestroyの順で進みます」
-ずんだもん「AfterContentとAfterViewはそれぞれInitとCheckedのペアなんだね？」
-四国めたん「はい、初回と以後で2つずつあります。必要なタイミングを把握すれば迷いません」
-ずんだもん「順序が分かればデバッグもしやすいよ！」
-四国めたん「ええ、イベントの発火順を把握して副作用の配置を決めましょう」

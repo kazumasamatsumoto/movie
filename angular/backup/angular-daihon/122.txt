@@ -1,8 +1,0 @@
-# #122 「SignalInput - signal() ベース入力」台本
-
-ずんだもん「最近のSignalInputってどう使うの？」
-四国めたん「input()関数を使うとSignalとして@Input()値を扱えます。例：name = input<string>();です」
-ずんだもん「name()で参照できるんだね？」
-四国めたん「はい、Signalなのでcomputedやeffectと自然に連携できます」
-ずんだもん「最新APIで開発がさらに楽になるよ！」
-四国めたん「その通り、ライフサイクルコードも減らせます」

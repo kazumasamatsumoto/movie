@@ -1,8 +1,0 @@
-# #222 「ViewContainerRef の基本」台本
-
-ずんだもん「Dynamic Componentを扱うときにViewContainerRefが重要って聞いたよ？」
-四国めたん「はい、ViewContainerRefはビューを挿入・削除できるアンカーです。createComponentやcreateEmbeddedViewで新しいビューを追加します」
-ずんだもん「どこから取得するの？」
-四国めたん「コンポーネントなら@ViewChildのread: ViewContainerRefで取得できますし、ディレクティブからもDIで扱えます」
-ずんだもん「ビューの管理窓口になるんだね！」
-四国めたん「その通り、Dynamic Componentsの基盤となるAPIです」

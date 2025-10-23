@@ -1,8 +1,0 @@
-# #150 「ContentChildren QueryList 活用」台本
-
-ずんだもん「ContentChildrenのQueryListはどんなことに使えるの？」
-四国めたん「投影されたアイテムを順番に処理したり、changesで追加・削除を検知できます」
-ずんだもん「ViewChildrenと同じように配列に展開できる？」
-四国めたん「はい、[...queryList] で簡単に配列化できますし、filterやmapも使えます」
-ずんだもん「投影コンテンツの動きを追跡できるのは心強いね！」
-四国めたん「ええ、Dynamicなコンテンツを扱うときは必須テクニックです」

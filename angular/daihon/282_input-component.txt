@@ -1,8 +1,0 @@
-# #282 「Input Component - 入力フィールド」台本
-
-ずんだもん「共通Input Componentを作る時のポイントは？」
-四国めたん「ControlValueAccessorでフォームAPIに対応させ、labelとエラーメッセージをInput化します。」
-ずんだもん「バリデーション表示はどうする？」
-四国めたん「Templateでinvalid状態を監視して、エラー文をslotやInputで受け取ると柔軟です。」
-ずんだもん「Signalと組み合わせられる？」
-四国めたん「はい、入力値をsignalで保持しvalueChangesに同期させればリアルタイム反映できます。」

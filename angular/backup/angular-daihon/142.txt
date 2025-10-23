@@ -1,8 +1,0 @@
-# #142 「ViewChildren QueryList の活用」台本
-
-ずんだもん「QueryListってどんな操作ができるの？」
-四国めたん「forEachやmap、filterのようなメソッドがあり、changes Observableで追加・削除も監視できます」
-ずんだもん「Array.from(queryList)で配列に変換することもできる？」
-四国めたん「はい、スプレッド構文で [...queryList] にして扱うことが多いです」
-ずんだもん「リストの操作が一気に楽になるね！」
-四国めたん「ええ、テンプレートの状態変化に追従する仕組みを活用しましょう」
