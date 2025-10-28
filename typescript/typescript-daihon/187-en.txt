@@ -1,7 +1,0 @@
-四国めたん「Let's compare BigInt and number in TypeScript v5.9!」
-ずんだもん「How do BigInt and number differ?」
-四国めたん「BigInt offers arbitrary precision, while number has fixed precision.」
-ずんだもん「Any limitations we should know?」
-四国めたん「BigInt handles only integers, whereas number supports decimals too.」
-ずんだもん「Is this difference important for Angular development too?」
-四国めたん「Absolutely—choosing the right numeric type matters.」

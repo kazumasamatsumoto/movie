@@ -1,6 +1,0 @@
-四国めたん「Let's learn about best practices for monetary calculations in TypeScript v5.9!」
-ずんだもん「What should we watch out for when handling money?」
-四国めたん「Avoid floating-point precision issues by following specific guidelines.」
-ずんだもん「What kind of guidelines?」
-四国めたん「Use integer arithmetic, rely on dedicated libraries, and apply proper rounding.」
-四国めたん「Absolutely—accurate financial calculations depend on it.」

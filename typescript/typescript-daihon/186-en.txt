@@ -1,7 +1,0 @@
-四国めたん「Let's learn what BigInt is in TypeScript v5.9!」
-ずんだもん「What exactly is BigInt?」
-四国めたん「It's a type that handles integers of arbitrary size.」
-ずんだもん「What makes it special?」
-四国めたん「It lets you work with integers that exceed the limits of the number type.」
-ずんだもん「Is it important for Angular development too?」
-四国めたん「Absolutely—use it whenever you need to process very large integers.」
