@@ -1,0 +1,7 @@
+四国めたん「Summarize why `any` is dangerous.」
+ずんだもん「Static guarantees vanish and bugs creep in.」
+四国めたん「Refactoring gets scary; runtime errors and security issues grow.」
+ずんだもん「Weigh convenience against long-term costs.」
+四国めたん「Transition to `unknown` or precise types once you grasp the risk.」
+ずんだもん「Treat `any` as a bug magnet!」
+

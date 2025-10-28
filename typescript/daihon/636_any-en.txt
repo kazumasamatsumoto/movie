@@ -1,0 +1,7 @@
+四国めたん「First mistake: using `unknown` without guarding.」
+ずんだもん「`value.id` compiles only if you fall back to `any`.」
+四国めたん「Resist that urge—add the proper guard instead.」
+ずんだもん「Provide shared helpers to make it easy.」
+四国めたん「Ban direct operations; require guards first.」
+ずんだもん「Avoid the mistake and reap `unknown`’s benefits!」
+

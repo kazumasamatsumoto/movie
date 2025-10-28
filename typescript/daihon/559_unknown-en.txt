@@ -1,0 +1,7 @@
+四国めたん「`unknown` sits at the very top of TypeScript’s type hierarchy.」
+ずんだもん「So every type can be assigned to it.」
+四国めたん「Right—and going the other way requires an explicit check.」
+ずんだもん「`never` is the bottom type, `unknown` is the top—easy to remember!」
+四国めたん「It’s straight out of subtype theory.」
+ずんだもん「Knowing the theory helps when you design generics too!」
+

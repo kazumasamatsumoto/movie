@@ -1,0 +1,7 @@
+四国めたん「Prioritize `any` removal by impact and frequency.」
+ずんだもん「Tackle user-facing flows and shared libs first.」
+四国めたん「Focus on I/O boundaries with higher bug risk.」
+ずんだもん「Priority matrices help align decisions.」
+四国めたん「Clear priorities simplify sprint planning.」
+ずんだもん「Target the most valuable areas first!」
+

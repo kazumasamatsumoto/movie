@@ -1,0 +1,9 @@
+四国めたん「BigInts support the `++` operator.」
+ずんだもん「Both prefix and postfix work like `number`.」
+四国めたん「Each increment changes the value by `1n`.」
+ずんだもん「Ideal for large counters.」
+四国めたん「Watch the semantic difference between prefix/postfix.」
+ずんだもん「Preserve precision with BigInt counters!」
+四国めたん「Remember it’s slower than `number`; use when needed.」
+ずんだもん「Apply `++` responsibly!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's cover `void` in Nest.js controllers.」
+ずんだもん「Does Nest.js use `void`?」
+四国めたん「Yes—use `Promise<void>` for endpoints that return nothing, like a `204 No Content`.」
+ずんだもん「How do I declare it?」
+四国めたん「Combine it with `@HttpCode(204)`—great for DELETE endpoints and similar REST calls.」
+ずんだもん「So it's for responses without bodies!」
+四国めたん「State the status code explicitly; it’s still best practice in TypeScript v5.9.」
+ずんだもん「A key API design pattern!」
+

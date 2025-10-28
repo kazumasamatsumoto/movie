@@ -1,0 +1,9 @@
+四国めたん「Let's dig into `Observable<void>` in detail.」
+ずんだもん「How do I create one?」
+四国めたん「Use `Subject<void>`, `fromEvent`, and similar helpers—they emit no values, only completion.」
+ずんだもん「What happens when I subscribe?」
+四国めたん「Your callback runs with no arguments; you just observe completion or errors.」
+ずんだもん「So it really is just an event stream!」
+四国めたん「Combine it with `finalize()` or `complete()`—a practical approach even in TypeScript v5.9.」
+ずんだもん「Great for async event management!」
+

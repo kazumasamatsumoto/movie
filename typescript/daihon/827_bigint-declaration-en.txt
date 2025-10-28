@@ -1,0 +1,9 @@
+四国めたん「Annotate variables explicitly with `bigint`.」
+ずんだもん「`let amount: bigint = 0n;` does the trick.」
+四国めたん「Works with `const` or `let`.」
+ずんだもん「Optional properties can use `bigint` too.」
+四国めたん「Inference handles literals, but annotations help when sharing variables.」
+ずんだもん「Learn the declaration styles to harness bigint!」
+四国めたん「Solid typing smooths integration with ecosystems.」
+ずんだもん「Typed BigInt elevates safety!」
+

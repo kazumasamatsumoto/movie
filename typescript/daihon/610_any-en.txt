@@ -1,0 +1,7 @@
+四国めたん「Another example: improve message events by switching to `unknown`.」
+ずんだもん「Set `event.data: unknown` and guard it.」
+四国めたん「Use `Array.isArray` or `in` operators for safe handling.」
+ずんだもん「Share type guards so other listeners can use them.」
+四国めたん「Runtime errors plummet.」
+ずんだもん「Realtime front-end code gets much safer!」
+

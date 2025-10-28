@@ -1,0 +1,7 @@
+四国めたん「`any` undermines automated refactoring.」
+ずんだもん「IDE rename can’t track references.」
+四国めたん「You must lean on manual checks and tests.」
+ずんだもん「Precise types let static analysis help.」
+四国めたん「Removing `any` boosts refactor resilience.」
+ずんだもん「Protect future development speed with types!」
+

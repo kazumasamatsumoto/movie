@@ -1,0 +1,7 @@
+四国めたん「DefinitelyTyped’s `@types` packages accelerate `any` removal.」
+ずんだもん「Install with `npm install --save-dev @types/...`.」
+四国めたん「Type updates track library updates.」
+ずんだもん「Submit issues or PRs when they’re missing.」
+四国めたん「Official typings reduce in-house maintenance.」
+ずんだもん「Always check `@types` first!」
+

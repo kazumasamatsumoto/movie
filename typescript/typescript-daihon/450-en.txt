@@ -1,0 +1,9 @@
+四国めたん「Let's wrap up `void` best practices in Angular and Nest.js.」
+ずんだもん「What should I remember?」
+四国めたん「Use `void` for event handlers, `Promise<void>` for APIs, and declare those types explicitly.」
+ずんだもん「Any other tips?」
+四国めたん「Represent notifications with `Observable<void>`, set HTTP status codes carefully, and always handle errors.」
+ずんだもん「So consistency in design is key!」
+四国めたん「Aim for RESTful design and document it—still a recommended pattern in TypeScript v5.9.」
+ずんだもん「Frameworks feel safer when the types are solid!」
+

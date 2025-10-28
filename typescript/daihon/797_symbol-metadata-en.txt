@@ -1,0 +1,9 @@
+四国めたん「Symbol keys excel at storing metadata.」
+ずんだもん「No collisions when adding new properties.」
+四国めたん「Decorators and DI containers rely on them heavily.」
+ずんだもん「You can mimic `Reflect.metadata` without extra dependencies.」
+四国めたん「Define types to describe the metadata contents.」
+ずんだもん「Make metadata management a core skill.」
+四国めたん「Agree on operational rules for safe usage.」
+ずんだもん「They’re invaluable for extensible architectures!」
+

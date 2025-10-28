@@ -1,0 +1,9 @@
+四国めたん「Let's talk about `return` statements inside `never` functions.」
+ずんだもん「Can I use `return` there?」
+四国めたん「Only if it’s unreachable—like a `return` after a `throw`.」
+ずんだもん「How does that work?」
+四国めたん「A `return` after `throw` is never executed; the type system spots that.」
+ずんだもん「So it’s just dead code!」
+四国めたん「In practice you leave it out—just end with the `throw`. Same story in TypeScript v5.9.」
+ずんだもん「Keeping it simple is best!」
+

@@ -1,0 +1,9 @@
+四国めたん「`unique symbol` is perfect for branding types.」
+ずんだもん「Think `string & { readonly __brand: unique symbol }`.」
+四国めたん「Only branded values can satisfy such signatures.」
+ずんだもん「Provide factory functions for safe conversion.」
+四国めたん「Raw values without the brand can’t slip in.」
+ずんだもん「Encapsulate domain rules with brand types!」
+四国めたん「The `unique symbol` becomes the compiler-level tag.」
+ずんだもん「Essential for safe ID management!」
+

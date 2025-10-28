@@ -1,0 +1,9 @@
+四国めたん「Symbol properties are excluded from enumeration by default.」
+ずんだもん「`for...in` and `Object.keys` won’t reveal them.」
+四国めたん「This happens regardless of the `enumerable` flag.」
+ずんだもん「Use `Reflect.ownKeys` or `Object.getOwnPropertySymbols` to access them.」
+四国めたん「Leverage non-enumerability to hide internal state.」
+ずんだもん「During debugging, enumerate intentionally to inspect.」
+四国めたん「Understand the behavior for better data design.」
+ずんだもん「Perfect when you need hidden-but-accessible information!」
+

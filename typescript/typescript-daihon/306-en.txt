@@ -1,0 +1,9 @@
+四国めたん「Let's learn the difference between `undefined` and the `void` type!」
+ずんだもん「How are `undefined` and `void` different?」
+四国めたん「`undefined` is a value, while `void` is a return type that says the value is unused.」
+ずんだもん「How should I choose between them?」
+四国めたん「Use `void` when a function doesn't return a value; use `undefined` when you intentionally return `undefined`.」
+ずんだもん「I see! Their intent is different!」
+四国めたん「A `void` function still returns `undefined`, but the type system makes you ignore it.」
+ずんだもん「Types help clarify the intent!」
+

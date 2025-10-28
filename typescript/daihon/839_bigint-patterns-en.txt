@@ -1,0 +1,9 @@
+四国めたん「Remember three core patterns for BigInt.」
+ずんだもん「ID generation, cumulative counters, overflow guards.」
+四国めたん「Group them into shared utilities.」
+ずんだもん「Pair with conversion helpers for type safety.」
+四国めたん「Share the patterns to reduce mistakes.」
+ずんだもん「Reuse them whenever BigInt appears!」
+四国めたん「Let patterns keep your design extensible.」
+ずんだもん「Memorize the go-to recipes!」
+

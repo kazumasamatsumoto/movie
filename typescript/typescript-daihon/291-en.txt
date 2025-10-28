@@ -1,0 +1,9 @@
+四国めたん「Let's learn the difference between `null` and `0`!」
+ずんだもん「How are `null` and `0` different?」
+四国めたん「`null` signals the absence of a value, while `0` is the numeric zero. Their types and meanings are completely different。」
+ずんだもん「They're both falsy, but can you tell them apart?」
+四国めたん「Strict equality `===` tells them apart. Nullish Coalescing treats `0` as a valid value。」
+ずんだもん「Got it! `0` is a legitimate number!」
+四国めたん「Type safety prevents assigning `null` to a `number`; you need a union type。」
+ずんだもん「Love how the type system keeps them distinct!」
+

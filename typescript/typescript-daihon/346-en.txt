@@ -1,0 +1,9 @@
+四国めたん「Let's learn about the type of optional parameters!」
+ずんだもん「What type do optional parameters have?」
+四国めたん「`param?: T` is the same as `param: T | undefined`; inside, it's treated as undefinedable.」
+ずんだもん「Is that different from default parameters?」
+四国めたん「Yes—default parameters assign a value when omitted; optional parameters remain `undefined`.」
+ずんだもん「I see! You need to choose the right one!」
+四国めたん「Type inference still applies—default values can even drive the inferred type.」
+ずんだもん「Defining them flexibly with the type system is the best!」
+

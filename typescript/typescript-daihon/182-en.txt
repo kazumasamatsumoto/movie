@@ -1,0 +1,7 @@
+四国めたん「Let's learn about the toPrecision() method in TypeScript v5.9!」
+ずんだもん「What does the toPrecision() method do?」
+四国めたん「It converts a number to a string with the specified significant digits.」
+ずんだもん「How do we use it?」
+四国めたん「Call it like `number.toPrecision(precision)`.」
+ずんだもん「Is it important for Angular development too?」
+四国めたん「Absolutely—it's essential when you need consistent numeric precision.」

@@ -1,0 +1,7 @@
+四国めたん「ValidationPipe makes `unknown` requests safe automatically.」
+ずんだもん「class-transformer to DTOs, class-validator for checks.」
+四国めたん「Exactly—start with `unknown`, then narrow to DTOs.」
+ずんだもん「Apply it globally in Nest to cover every route.」
+四国めたん「Once validated, handlers receive solid types.」
+ずんだもん「Make ValidationPipe the standard for type-safe APIs!」
+

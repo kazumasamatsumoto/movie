@@ -1,0 +1,9 @@
+四国めたん「Let's learn about the non-null assertion!」
+ずんだもん「What's a non-null assertion?」
+四国めたん「It's the operator that lets you promise a value isn't `null` or `undefined`, written with `!`.」
+ずんだもん「When would you use it?」
+四国めたん「When the type system can't prove the value exists but you know it does—use it sparingly.」
+ずんだもん「Isn't that risky?」
+四国めたん「It is; it can trigger runtime errors, so prefer type guards or optional chaining.」
+ずんだもん「So you have to be cautious!」
+

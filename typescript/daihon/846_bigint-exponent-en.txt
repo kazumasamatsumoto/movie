@@ -1,0 +1,9 @@
+四国めたん「Use `**` for BigInt exponentiation.」
+ずんだもん「The exponent must also be `bigint`.」
+四国めたん「Negative exponents aren’t supported—beware.」
+ずんだもん「Large powers explode in size, so watch performance.」
+四国めたん「Consider modular exponentiation for efficiency.」
+ずんだもん「Learn to wield BigInt exponentiation!」
+四国めたん「It’s foundational for number theory and crypto.」
+ずんだもん「Implement exponentiation safely!」
+

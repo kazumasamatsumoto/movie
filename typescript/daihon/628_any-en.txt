@@ -1,0 +1,7 @@
+四国めたん「Here are three practical examples of using `unknown`.」
+ずんだもん「Form validation, API responses, external events.」
+四国めたん「Yes—receive as `unknown`, then guard and shape the data.」
+ずんだもん「Turn that flow into a template to speed up development.」
+四国めたん「See firsthand how `unknown` improves safety.」
+ずんだもん「Apply the patterns to your own projects!」
+

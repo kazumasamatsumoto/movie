@@ -1,0 +1,9 @@
+四国めたん「Let's learn where to use `void`!」
+ずんだもん「When do you use the `void` type?」
+四国めたん「For side-effect functions, event handlers, and callbacks.」
+ずんだもん「Which functions specifically?」
+四国めたん「Logging, DOM updates, state changes—any task where the return value doesn't matter.」
+ずんだもん「I see! The function exists just for the action!」
+四国めたん「`Promise<void>` is common too, signaling that only completion of async work matters.」
+ずんだもん「So many use cases!」
+

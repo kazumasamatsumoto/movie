@@ -1,0 +1,7 @@
+四国めたん「Let’s summarize `any`.」
+ずんだもん「No checks, anything assigns, last resort.」
+四国めたん「Pair that with `noImplicitAny` and clear usage rules.」
+ずんだもん「Default to `unknown` or precise types.」
+四国めたん「Master the basics to keep TypeScript safe.」
+ずんだもん「Define how we handle `any` once and for all!」
+

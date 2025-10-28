@@ -1,0 +1,9 @@
+四国めたん「Let's look at `void` in `async` functions.」
+ずんだもん「How do I write it in an `async` function?」
+四国めたん「Give the function a return type of `Promise<void>`; every async function returns a promise.」
+ずんだもん「Why not just `void`?」
+四国めたん「Because async functions are asynchronous—they must return a `Promise`, so plain `void` is an error.」
+ずんだもん「I see! The promise wrapper is required!」
+四国めたん「Inference handles it, but stating it explicitly makes your intent clear—same rule in TypeScript v5.9.」
+ずんだもん「It’s the basic async pattern!」
+

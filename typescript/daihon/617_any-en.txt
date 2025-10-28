@@ -1,0 +1,7 @@
+四国めたん「Add a validation step to use `JSON.parse()` safely.」
+ずんだもん「Parse → `unknown` → type guard—that workflow.」
+四国めたん「Schema validation is a powerful option.」
+ずんだもん「On failure, throw or return a fallback.」
+四国めたん「Wrap it for reuse so everything stays safe.」
+ずんだもん「Build a type-safe bridge to JSON!」
+

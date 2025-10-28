@@ -1,0 +1,9 @@
+四国めたん「Let's explore `void` in conditional types.」
+ずんだもん「How do I use `void` there?」
+四国めたん「You can test with `T extends void` to branch based on whether the type is `void`.」
+ずんだもん「When is that useful?」
+四国めたん「When a type definition must change depending on whether a function returns a value—advanced type tricks.」
+ずんだもん「I see! Type-level conditionals!」
+四国めたん「Libraries and frameworks lean on it; it’s still a powerful TypeScript v5.9 feature.」
+ずんだもん「We can model complex types!」
+

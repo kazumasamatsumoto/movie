@@ -1,0 +1,9 @@
+四国めたん「Let's explore the compatibility between `void` and `undefined`.」
+ずんだもん「Are `void` and `undefined` compatible?」
+四国めたん「You can assign `undefined` to `void`, but the reverse depends on context—they aren't fully interchangeable.」
+ずんだもん「When do you get an error?」
+四国めたん「A function declared to return `void` can't return a value, while an `undefined` return type can. The compatibility is one-way.」
+ずんだもん「I see! It only works in one direction!」
+四国めたん「Callbacks have special compatibility rules, so you still need to pay attention in TypeScript v5.9.」
+ずんだもん「Choosing the right type really matters!」
+

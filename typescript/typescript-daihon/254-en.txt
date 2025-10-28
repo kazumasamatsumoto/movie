@@ -1,0 +1,7 @@
+四国めたん「Let's learn how TypeScript v5.9 compares null and undefined!」
+ずんだもん「Are null and undefined the same?」
+四国めたん「`==` treats them as equal, but `===` considers them different.」
+ずんだもん「What does that look like?」
+四国めたん「`null == undefined` is true, yet `null === undefined` is false.」
+ずんだもん「How do we distinguish them strictly?」
+四国めたん「Use `===` so the types remain separate.」

@@ -1,0 +1,9 @@
+四国めたん「`Symbol.split` customizes `String.prototype.split`.」
+ずんだもん「Return an array from your implementation.」
+四国めたん「Signature is `(text: string, limit?: number)`.」
+ずんだもん「Ideal for YAML-style or custom delimiters.」
+四国めたん「It lets you create non-RegExp split rules.」
+ずんだもん「Use `Symbol.split` to tailor string decomposition!」
+四国めたん「Keep the function pure for testability.」
+ずんだもん「Design splits that match your domain!」
+

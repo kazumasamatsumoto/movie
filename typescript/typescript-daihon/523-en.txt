@@ -1,0 +1,9 @@
+四国めたん「Let's relate intersection types and `never`.」
+ずんだもん「How do intersections work again?」
+四国めたん「They’re like set intersections—types that satisfy all constraints at once.」
+ずんだもん「And where does `never` fit in?」
+四国めたん「Intersecting any type with `never` yields `never`, just as any set intersected with the empty set is empty.」
+ずんだもん「So it's the dual property to unions!」
+四国めたん「In type algebra, unions behave like addition and intersections like multiplication.」
+ずんだもん「Type theory really is algebraic!」
+

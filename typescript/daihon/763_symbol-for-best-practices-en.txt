@@ -1,0 +1,9 @@
+四国めたん「Bundle `Symbol.for` with naming conventions and guidelines.」
+ずんだもん「Provide a helper to apply namespaces automatically.」
+四国めたん「Publish shared tokens from a single module and re-export them.」
+ずんだもん「Document the key list for visibility.」
+四国めたん「Lint or test for duplicate keys to stay safe.」
+ずんだもん「Follow the practices and use `Symbol.for` with confidence!」
+四国めたん「Next up: concrete pattern collections.」
+ずんだもん「Let process support the team!」
+

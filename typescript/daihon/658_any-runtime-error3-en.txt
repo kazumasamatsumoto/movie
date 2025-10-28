@@ -1,0 +1,7 @@
+四国めたん「Third risk: arithmetic on `any` yielding `NaN` or exceptions.」
+ずんだもん「`value * 2` when `value` is an object.」
+四国めたん「Without static checks, calculations corrupt results.」
+ずんだもん「Guard with `typeof` or `Number.isFinite`.」
+四国めたん「Always confirm types before you compute.」
+ずんだもん「Keep `any` away from math logic!」
+

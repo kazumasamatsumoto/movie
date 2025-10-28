@@ -1,0 +1,7 @@
+四国めたん「Conditional types prevent `any` in advanced inference.」
+ずんだもん「`T extends U ? X : Y` decides types at compile time.」
+四国めたん「Perfect for generics whose return type depends on input.」
+ずんだもん「Build custom utility types to simplify refactoring.」
+四国めたん「Leverage conditional types to keep flexibility without `any`.」
+ずんだもん「Let type-level `if` do the heavy lifting!」
+

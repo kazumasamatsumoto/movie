@@ -1,0 +1,9 @@
+四国めたん「Let's examine the identity `string & never = never`.」
+ずんだもん「What does that teach us?」
+四国めたん「It means there's no value that's both a `string` and `never`; the intersection is empty.」
+ずんだもん「How is that useful?」
+四国めたん「It lets us detect contradictory constraints or unreachable combinations.」
+ずんだもん「So we can spot contradictions at the type level!」
+四国めたん「Union and intersection rules are duals—understanding both widens what we can model.」
+ずんだもん「Type arithmetic keeps getting more interesting!」
+

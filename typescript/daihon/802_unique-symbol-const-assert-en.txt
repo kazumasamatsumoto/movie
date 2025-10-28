@@ -1,0 +1,9 @@
+四国めたん「Use const assertions to lock symbol properties as `unique symbol`.」
+ずんだもん「`as const` keeps each entry readonly and literal.」
+四国めたん「It stops inference from widening to plain `symbol`.」
+ずんだもん「Perfect for token bundles.」
+四国めたん「Combine with type aliases to generate lists easily.」
+ずんだもん「Distribute `unique symbol` safely with const assertions!」
+四国めたん「Design object literals with this in mind.」
+ずんだもん「Leverage inference to simplify maintenance!」
+

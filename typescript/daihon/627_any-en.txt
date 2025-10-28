@@ -1,0 +1,7 @@
+四国めたん「`unknown` shines in error handling too.」
+ずんだもん「Always type `catch (error: unknown)` first.」
+四国めたん「Confirm it’s an `Error`—or your own type—before processing.」
+ずんだもん「If it’s `any`, logging can crash unexpectedly.」
+四国めたん「Provide a dedicated error wrapper for maintainability.」
+ずんだもん「Safe error handling prevents outages before they happen!」
+

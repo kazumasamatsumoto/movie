@@ -1,0 +1,9 @@
+四国めたん「Let's learn what happens when a function has no return value!」
+ずんだもん「What happens if a function never returns?」
+四国めたん「A function without an explicit `return` yields `undefined`. Its return type is `void` or `undefined`。」
+ずんだもん「What's the difference between `void` and `undefined`?」
+四国めたん「`void` signals that you don't use the return value, while `undefined` says you're returning `undefined` intentionally。」
+ずんだもん「I get it! So you need to choose the right one!」
+四国めたん「Even a `void` function actually returns `undefined`, but the type system ignores it。」
+ずんだもん「It's great how types make the intent clear!」
+

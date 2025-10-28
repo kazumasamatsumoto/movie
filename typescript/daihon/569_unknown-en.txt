@@ -1,0 +1,7 @@
+四国めたん「Operators don’t work on `unknown` either.」
+ずんだもん「`value + 1` gets flagged immediately.」
+四国めたん「Right. Narrow it to a number or string before performing arithmetic.」
+ずんだもん「Operator-heavy code is exactly where verification matters.」
+四国めたん「Confirm safety first, then execute the logic.」
+ずんだもん「Use tooling warnings as a safety net!」
+

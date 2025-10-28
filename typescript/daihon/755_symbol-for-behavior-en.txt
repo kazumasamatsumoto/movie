@@ -1,0 +1,9 @@
+四国めたん「`Symbol.for("key")` returns an existing symbol or registers a new one.」
+ずんだもん「Keys convert to strings, so `1` and `"1"` map identically.」
+四国めたん「The registry treats it purely as a string lookup.」
+ずんだもん「First call registers; subsequent calls reuse.」
+四国めたん「Use `Symbol.keyFor` to reverse lookup the key.」
+ずんだもん「Understanding the behavior simplifies debugging.」
+四国めたん「Misnaming can trigger unexpected sharing, so stay alert.」
+ずんだもん「Know the behavior and use it safely!」
+

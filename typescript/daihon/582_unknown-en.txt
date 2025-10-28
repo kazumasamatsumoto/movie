@@ -1,0 +1,7 @@
+四国めたん「`typeof x === \"string\"` is the go-to for narrowing to a string.」
+ずんだもん「Then we can call `trim` or `toUpperCase` without worry.」
+四国めたん「Exactly—and TypeScript infers `string` inside that block.」
+ずんだもん「Chain it with other conditions to narrow step by step.」
+四国めたん「Just keep all string operations within the guarded scope.」
+ずんだもん「Let’s wield the string guard like pros!」
+

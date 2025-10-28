@@ -1,0 +1,9 @@
+四国めたん「Consider a logging extension shared through `Symbol.for`.」
+ずんだもん「The app exposes a hook; the debugger reads it with the same key.」
+四国めたん「SSR can embed data that the client later reads safely.」
+ずんだもん「Matching keys make hand-offs reliable.」
+四国めたん「Try the State Hydration pattern as practice.」
+ずんだもん「Use `Symbol.for` to master real-world patterns!」
+四国めたん「Hands-on examples drive the point home.」
+ずんだもん「Experience the convenience of shared tokens!」
+

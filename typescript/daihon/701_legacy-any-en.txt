@@ -1,0 +1,7 @@
+四国めたん「Legacy codebases often contain piles of `any`.」
+ずんだもん「Old designs and missing tests make big rewrites hard.」
+四国めたん「Isolate modules and insert `unknown` or DTOs at the boundaries.」
+ずんだもん「Build tests and refactor plans in parallel.」
+四国めたん「With governance you can harden legacy systems step by step.」
+ずんだもん「Respect the history while pushing continual improvements!」
+

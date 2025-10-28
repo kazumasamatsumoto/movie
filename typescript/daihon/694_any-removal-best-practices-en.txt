@@ -1,0 +1,7 @@
+四国めたん「Let’s confirm best practices for removing `any`.」
+ずんだもん「Detect → `unknown` → precise type → validate—make it a template.」
+四国めたん「Block new `any`s via lint and CI, share knowledge aggressively.」
+ずんだもん「Build shared guard and DTO libraries for efficiency.」
+四国めたん「Review progress regularly to refine the approach.」
+ずんだもん「Follow the playbook to keep the codebase `any`-free!」
+

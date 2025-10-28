@@ -1,0 +1,7 @@
+四国めたん「Let’s recap the classic `unknown` use cases.」
+ずんだもん「External APIs, user input, cross-compile boundaries.」
+四国めたん「Also worker messages and message buses become safer when received as `unknown`.」
+ずんだもん「Public library APIs can return `unknown` to stay extensible.」
+四国めたん「It’s handy for mocking unpredictable values in tests too.」
+ずんだもん「Keep boundaries `unknown`, concretize inside—that’s the house rule!」
+

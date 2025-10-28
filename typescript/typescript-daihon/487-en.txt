@@ -1,0 +1,9 @@
+四国めたん「Let's review practical `never` patterns.」
+ずんだもん「What patterns exist?」
+四国めたん「Exhaustive checks, assertions, and shared error helpers.」
+ずんだもん「How do I choose?」
+四国めたん「Use exhaustive checks in `switch`, assertions for preconditions, and helpers for common errors.」
+ずんだもん「So you pick per scenario!」
+四国めたん「They raise type safety and maintainability—standard practice in TypeScript v5.9.」
+ずんだもん「Master the patterns and you master `never`!」
+

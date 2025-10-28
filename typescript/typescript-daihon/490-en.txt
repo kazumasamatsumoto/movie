@@ -1,0 +1,9 @@
+四国めたん「Let's wrap up `never` and exception handling.」
+ずんだもん「Summarize the key points!」
+四国めたん「Functions that throw are `never`; control never returns.」
+ずんだもん「How should I apply that?」
+四国めたん「Use `assertNever` for exhaustive checks, provide detailed custom errors, and handle them with `try`-`catch`.」
+ずんだもん「So it’s all about type-safe errors!」
+四国めたん「Debug with stack traces, localize impact with error boundaries, and write explicit types with rich messages—still core advice in TypeScript v5.9.」
+ずんだもん「`never` helps us build resilient apps!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's learn how to declare nullable types!」
+ずんだもん「How do I declare one?」
+四国めたん「Use the form `T | null`. A type alias makes it clearer.」
+ずんだもん「What does that look like?」
+四国めたん「Define a generic like `type Nullable<T> = T | null`; it boosts reusability.」
+ずんだもん「Got it! You declare it explicitly in the type!」
+四国めたん「You can use it in interface properties or function signatures for better safety.」
+ずんだもん「Clarifying intent in the type definition is the best!」
+

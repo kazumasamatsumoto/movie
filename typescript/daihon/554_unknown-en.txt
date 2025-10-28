@@ -1,0 +1,7 @@
+四国めたん「Safety begins by annotating values as `unknown` explicitly.」
+ずんだもん「Like writing `let value: unknown`, right?」
+四国めたん「Exactly. Use it for function parameters and return types too.」
+ずんだもん「You can even apply it to generic type parameters, which is super handy.」
+四国めたん「The declaration tells everyone the value is unknown at this point.」
+ずんだもん「And it sets the expectation that we’ll guard before using it.」
+

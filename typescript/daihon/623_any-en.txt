@@ -1,0 +1,7 @@
+四国めたん「Zod lets you validate `unknown` declaratively.」
+ずんだもん「Define a schema, call `parse`, and your type is set.」
+四国めたん「Yes—compile-time inference and runtime checks in one step.」
+ずんだもん「The error messages are great for real projects.」
+四国めたん「Zod is a powerful tool for migrating off `any`.」
+ずんだもん「Turn API clients into type-safe powerhouses!」
+

@@ -1,0 +1,9 @@
+四国めたん「Call `Symbol()` inside a `const` and the compiler infers `unique symbol`.」
+ずんだもん「Use `typeof ID` to refer to that literal type later.」
+四国めたん「With `let` or `var` it widens to plain `symbol`.」
+ずんだもん「Ignore the inference and you’ll widen types unexpectedly.」
+四国めたん「Wrap `unique symbol` in a type alias if you plan to share it.」
+ずんだもん「Understand the inference rules and handle tokens safely!」
+四国めたん「Remember: `unique symbol` inference differs from `Symbol.for`.」
+ずんだもん「Get the compiler on your side!」
+

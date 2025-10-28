@@ -1,0 +1,9 @@
+四国めたん「Symbol properties stay out of normal enumeration.」
+ずんだもん「`Object.keys` or `for...in` never list them.」
+四国めたん「Yet `Reflect.ownKeys` reveals them if needed.」
+ずんだもん「`JSON.stringify` also skips them—ideal for hidden data.」
+四国めたん「Adjust descriptors to fine-tune behavior.」
+ずんだもん「Know the traits to control visibility.」
+四国めたん「Next we’ll inspect enumeration in detail.」
+ずんだもん「Understand the characteristics before designing!」
+

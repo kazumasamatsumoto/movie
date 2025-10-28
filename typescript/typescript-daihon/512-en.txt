@@ -1,0 +1,9 @@
+四国めたん「Let's refine types step by step.」
+ずんだもん「What does type refinement mean?」
+四国めたん「Using branches to narrow the union until only `never` remains.」
+ずんだもん「How do we narrow it?」
+四国めたん「Employ discriminant properties and peel off each variant one at a time.」
+ずんだもん「I get it! The type shrinks as we go!」
+四国めたん「Control-flow analysis infers the precise type in each branch.」
+ずんだもん「Accurate inference makes development smoother!」
+

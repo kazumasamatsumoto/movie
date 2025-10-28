@@ -1,0 +1,9 @@
+四国めたん「Let's examine variables of type `never`.」
+ずんだもん「Can I even declare one?」
+四国めたん「You can, but nothing can be assigned—it isn’t practical.」
+ずんだもん「Then why does it exist?」
+四国めたん「For the completeness of the type system—useful in conditional types and generics.」
+ずんだもん「So it’s for type-level computation!」
+四国めたん「You won’t use it in everyday code; it’s a specialized type in TypeScript v5.9.」
+ずんだもん「Reserved for advanced type work!」
+

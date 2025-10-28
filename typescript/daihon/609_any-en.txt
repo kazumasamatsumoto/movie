@@ -1,0 +1,7 @@
+四国めたん「Case study: shift a user API from `any` to `unknown`.」
+ずんだもん「Change `fetchUser` to return `unknown`.」
+四国めたん「Then guard it into a `User` DTO.」
+ずんだもん「Tests confirm the safety.」
+四国めたん「Existing code needs only minor tweaks to become safe.」
+ずんだもん「Try it in real code and feel the difference!」
+

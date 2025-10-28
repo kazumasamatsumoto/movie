@@ -1,0 +1,9 @@
+四国めたん「Let's learn what happens when `strictNullChecks` is disabled!」
+ずんだもん「What happens when it's off?」
+四国めたん「Every type implicitly includes `null` and `undefined`, which is dangerous.」
+ずんだもん「Why is that a problem?」
+四国めたん「Runtime errors crop up when you touch `null` or `undefined`, and the type system can't stop them.」
+ずんだもん「That's risky...」
+四国めたん「The behavior only exists for legacy compatibility—new projects shouldn't rely on it.」
+ずんだもん「We should avoid losing type safety!」
+

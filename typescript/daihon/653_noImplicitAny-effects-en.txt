@@ -1,0 +1,7 @@
+四国めたん「With `noImplicitAny` enabled, implicit `any` is forbidden.」
+ずんだもん「The compiler demands explicit annotations.」
+四国めたん「It’s a foundational setting for high-quality typings.」
+ずんだもん「If legacy code is large, start with warnings.」
+四国めたん「Enforce it in CI to keep `any` out.」
+ずんだもん「One setting massively improves safety!」
+

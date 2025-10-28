@@ -1,0 +1,9 @@
+四国めたん「Let's look at infinite loops in server processes.」
+ずんだもん「How do servers use them?」
+四国めたん「They wait for incoming requests and handle them—running indefinitely is normal.」
+ずんだもん「So they never stop!」
+四国めたん「Right—until a signal stops them. Web servers and databases follow this pattern.」
+ずんだもん「A true service!」
+四国めたん「Resource management and error handling are crucial, just as in TypeScript v5.9.」
+ずんだもん「Essential for production systems!」
+

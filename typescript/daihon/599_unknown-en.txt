@@ -1,0 +1,7 @@
+四国めたん「Time for a best-practice checklist for `unknown`.」
+ずんだもん「Receive at the boundary, guard and assert by rule, right?」
+四国めたん「Yes—centralize validation logic and support it with linting and tests.」
+ずんだもん「Document the agreements so everyone’s on board.」
+四国めたん「Prepare the safeguards and `unknown` really shines.」
+ずんだもん「Follow the playbook and keep development type-safe!」
+

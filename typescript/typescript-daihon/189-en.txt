@@ -1,0 +1,7 @@
+四国めたん「Let's learn best practices for floating-point numbers in TypeScript v5.9!」
+ずんだもん「What are floating-point best practices?」
+四国めたん「They are recommendations to avoid precision issues.」
+ずんだもん「What practices should we follow?」
+四国めたん「Favor integer arithmetic, use dedicated libraries, and compare values carefully.」
+ずんだもん「Is this important for Angular development too?」
+四国めたん「Absolutely—accurate numeric handling depends on it.」

@@ -1,0 +1,9 @@
+四国めたん「Let's talk about utility types and `void`.」
+ずんだもん「How does `void` play with utility types?」
+四国めたん「Mix it with built-in utilities—`ReturnType`, `Parameters`, `Omit`, and friends—to transform types.」
+ずんだもん「Can you give examples?」
+四国めたん「Extract return types, parameter lists, and tweak shapes—all while accounting for `void`.」
+ずんだもん「I see! We can reshape existing types!」
+四国めたん「That boosts reuse, and it’s standard fare in TypeScript v5.9.」
+ずんだもん「The type system really is powerful!」
+

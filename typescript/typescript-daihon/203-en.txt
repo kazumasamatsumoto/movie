@@ -1,0 +1,7 @@
+四国めたん「Let's explore assigning true in TypeScript v5.9!」
+ずんだもん「What does assigning true mean?」
+四国めたん「It's how you store the true value in a boolean variable.」
+ずんだもん「Where would we do that?」
+四国めたん「To enable a flag or mark a state as active.」
+ずんだもん「Is it important for Angular development too?」
+四国めたん「Absolutely—it keeps component state in sync.」

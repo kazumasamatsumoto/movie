@@ -1,0 +1,7 @@
+四国めたん「Let's learn about boolean constants with const in TypeScript v5.9!」
+ずんだもん「What does const with booleans do?」
+四国めたん「It declares a boolean constant using the const keyword.」
+ずんだもん「Any special characteristics?」
+四国めたん「The value can't change, and TypeScript infers the literal type automatically.」
+ずんだもん「Is this important for Angular development too?」
+四国めたん「Absolutely—great for managing immutable settings.」

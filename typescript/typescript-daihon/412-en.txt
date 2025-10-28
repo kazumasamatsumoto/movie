@@ -1,0 +1,9 @@
+四国めたん「Let's learn how to choose between `void` and `undefined`.」
+ずんだもん「How do I decide which one to use?」
+四国めたん「Functions whose return value you ignore should use `void`; when you treat the value, use `undefined`.」
+ずんだもん「Can you give me examples?」
+四国めたん「Side-effect functions and event handlers get `void`; search results and optional values get `undefined`.」
+ずんだもん「I get it! The intent decides!」
+四国めたん「Capturing that intent in the type is crucial—a core principle even in TypeScript v5.9.」
+ずんだもん「So be explicit with the purpose!」
+

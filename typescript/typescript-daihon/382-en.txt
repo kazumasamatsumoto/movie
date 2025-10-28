@@ -1,0 +1,9 @@
+四国めたん「Let's learn about declaring `void` explicitly!」
+ずんだもん「When should I write `void` explicitly?」
+四国めたん「For public APIs, interface definitions, and critical functions—it makes the intent clear.」
+ずんだもん「What if I skip it?」
+四国めたん「Internal helpers or tiny functions can lean on inference to keep code lightweight.」
+ずんだもん「I see! Judge by importance!」
+四国めたん「ESLint can enforce the rule, so follow your team's conventions.」
+ずんだもん「Consistency matters!」
+

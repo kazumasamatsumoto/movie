@@ -1,0 +1,7 @@
+四国めたん「Let's learn about the in type guard in TypeScript v5.9!」
+ずんだもん「What is the in type guard?」
+四国めたん「It checks whether an object contains a specific property.」
+ずんだもん「How do we use it?」
+四国めたん「`'propertyName' in object` performs the test.」
+ずんだもん「Sounds useful for discriminating unions!」
+四国めたん「Exactly—it's common in discriminated union patterns.」

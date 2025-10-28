@@ -1,0 +1,9 @@
+四国めたん「Let's enforce exhaustiveness in an `else` branch.」
+ずんだもん「How does that work?」
+四国めたん「After handling every case, the final `else` should have type `never`.」
+ずんだもん「How do I express it?」
+四国めたん「Assign to a `never` variable inside `else` to prove it can’t be reached.」
+ずんだもん「So the type shows the `else` is unreachable!」
+四国めたん「That gives you 100% exhaustiveness at compile time.」
+ずんだもん「Even default paths become type-safe!」
+

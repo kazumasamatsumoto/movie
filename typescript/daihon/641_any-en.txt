@@ -1,0 +1,7 @@
+四国めたん「What exactly is the `any` type?」
+ずんだもん「It’s TypeScript’s most permissive top-level type.」
+四国めたん「Type checks are disabled and behavior mirrors plain JavaScript.」
+ずんだもん「Handy in prototypes, but easy to abuse.」
+四国めたん「Understand `any` and use it responsibly.」
+ずんだもん「Next, let’s inspect the risks!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's see which RxJS operators pair with `void`.」
+ずんだもん「Which operators use it?」
+四国めたん「`tap()`, `finalize()`, `forEach()`—operators meant for side effects.」
+ずんだもん「How should I write them?」
+四国めたん「Give the callback a `void` return type; it shouldn’t return data.」
+ずんだもん「Right—it’s purely for side effects!」
+四国めたん「Great for debugging and logging—and used constantly in TypeScript v5.9.」
+ずんだもん「A helpful development toolset!」
+

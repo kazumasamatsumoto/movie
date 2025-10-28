@@ -1,0 +1,9 @@
+四国めたん「To annotate `unique symbol`, use `const` or `readonly static`.」
+ずんだもん「Ambient declarations support `declare const TOKEN: unique symbol` too.」
+四国めたん「Classes can expose `unique symbol` via readonly static fields.」
+ずんだもん「Useful when exporting DI tokens as types.」
+四国めたん「Interfaces can declare members with `unique symbol` names.」
+ずんだもん「You get type-level identity guarantees.」
+四国めたん「Follow the declaration rules to avoid compile errors.」
+ずんだもん「Once you know the patterns, it’s easy to manage!」
+

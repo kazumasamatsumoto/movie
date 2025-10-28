@@ -1,0 +1,9 @@
+四国めたん「Let's learn about optional parameters!」
+ずんだもん「Can function parameters be optional too?」
+四国めたん「Yes—declare them as `param?: T`, and callers may omit them.」
+ずんだもん「What happens when you skip it?」
+四国めたん「`undefined` is passed in, so check for it or provide a default inside the function.」
+ずんだもん「I see! That makes flexible functions!」
+四国めたん「Optional parameters must come after required ones—still true in TypeScript v5.9.」
+ずんだもん「Designing handy functions is the best!」
+

@@ -1,0 +1,7 @@
+四国めたん「Type guards are what make `unknown` practical.」
+ずんだもん「We combine `typeof`, `instanceof`, and `in` operators, right?」
+四国めたん「Exactly—inside the guarded block you can use the narrowed type freely.」
+ずんだもん「Package common guards as modules to avoid repetition.」
+四国めたん「Chain multiple guards to handle complex data safely.」
+ずんだもん「With good guard design, `unknown` becomes a powerhouse!」
+

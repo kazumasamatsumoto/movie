@@ -1,0 +1,7 @@
+四国めたん「Let’s catalog best practices for choosing `any` alternatives.」
+ずんだもん「Unknown for unknown data, generics for shared logic, unions when options are finite.」
+四国めたん「Conditional types when you can compute, utilities when you can reuse, assertions as a last resort.」
+ずんだもん「Create cheat sheets so nobody hesitates.」
+四国めたん「Always pair alternatives with guards and tests.」
+ずんだもん「Share the toolbox across the team!」
+

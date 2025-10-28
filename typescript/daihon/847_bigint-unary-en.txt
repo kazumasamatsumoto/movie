@@ -1,0 +1,9 @@
+四国めたん「Unary `+` and `-` work for BigInts.」
+ずんだもん「`+1n` stays the same; `-1n` flips the sign.」
+四国めたん「Unary `+` mainly serves stylistic purposes.」
+ずんだもん「Bitwise `~` is available too.」
+四国めたん「Use unary operators to adjust sign or bits.」
+ずんだもん「Simple yet handy to know.」
+四国めたん「They feel like `number`, but avoid mixing types.」
+ずんだもん「Master unary operations with BigInt!」
+

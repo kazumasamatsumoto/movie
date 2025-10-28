@@ -1,0 +1,9 @@
+四国めたん「`Symbol.for` taps into the global symbol registry.」
+ずんだもん「Call it with the same key and you get the same symbol back.」
+四国めたん「Perfect for identifiers you want to share across the app.」
+ずんだもん「It’s handy when standardizing DI tokens across libraries.」
+四国めたん「Unlike `Symbol()`, you can retrieve the value later.」
+ずんだもん「Use it when sharing is intentional.」
+四国めたん「Because it’s global, naming deserves extra care.」
+ずんだもん「Share safely with `Symbol.for`!」
+

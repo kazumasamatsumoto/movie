@@ -1,0 +1,9 @@
+四国めたん「Well-known symbols act as hooks into language features.」
+ずんだもん「`iterator` and `asyncIterator` extend iteration.」
+四国めたん「`toStringTag` and `toPrimitive` customize debugging or conversion.」
+ずんだもん「`match` and `replace` make string handling flexible.」
+四国めたん「Always pair power with clear purpose and tests.」
+ずんだもん「TypeScript’s typings support you all the way.」
+四国めたん「Next, we’ll look at symbols on objects.」
+ずんだもん「With well-known symbols mastered, you’re ready to move on!」
+

@@ -1,0 +1,9 @@
+四国めたん「`Object.keys` returns only string keys.」
+ずんだもん「Symbol keys never appear in the list.」
+四国めたん「Reach for `Object.getOwnPropertySymbols` or `Reflect.ownKeys` to enumerate them.」
+ずんだもん「`Object.values` and `Object.entries` behave the same way.」
+四国めたん「TypeScript models the keys as `string[]`.」
+ずんだもん「Use the distinction to process just the keys you intend.」
+四国めたん「It helps focus on public properties.」
+ずんだもん「Hide symbols safely while working with strings!」
+

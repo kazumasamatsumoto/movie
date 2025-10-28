@@ -1,0 +1,9 @@
+四国めたん「Let’s learn about the `bigint` type in TypeScript v5.9!」
+ずんだもん「How does it differ from `number`?」
+四国めたん「`bigint` is a primitive for arbitrary-precision integers—write literals with an `n` suffix.」
+ずんだもん「So we can handle huge integers without overflow.」
+四国めたん「Exactly; it’s focused on integer math and ignores floating-point values.」
+ずんだもん「Sounds perfect for IDs or cryptography.」
+四国めたん「TypeScript enforces it statically as the `bigint` type.」
+ずんだもん「Keep it in mind whenever giant integers appear!」
+

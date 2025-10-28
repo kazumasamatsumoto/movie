@@ -1,0 +1,7 @@
+四国めたん「Let’s turn `unknown`’s limits into best practices.」
+ずんだもん「First, don’t ignore those limits.」
+四国めたん「Exactly—combine schema validation, guards, and assertions wisely.」
+ずんだもん「Audit logs and tests covering unknown values help too.」
+四国めたん「Document the constraints so new teammates learn fast.」
+ずんだもん「Respect the limits and `unknown` becomes a safe catch-all!」
+

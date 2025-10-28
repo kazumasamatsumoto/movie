@@ -1,0 +1,9 @@
+四国めたん「Let’s recap the basics of `bigint`.」
+ずんだもん「Arbitrary integers, `n` literals, or the `BigInt` constructor.」
+四国めたん「Not interchangeable with `number`; no `Math` functions.」
+ずんだもん「Use cases and examples shaped our intuition.」
+四国めたん「Master inference and declaration rules to stay safe.」
+ずんだもん「Next we dive into arithmetic patterns!」
+四国めたん「With basics in hand, move on to applications.」
+ずんだもん「Huge integers don’t have to be scary!」
+

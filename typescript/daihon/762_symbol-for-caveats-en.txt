@@ -1,0 +1,9 @@
+四国めたん「`Symbol.for` entries stay in the registry forever.」
+ずんだもん「So never feed raw user input directly into keys.」
+四国めたん「Name collisions are another caveat—shared keys with outsiders cause unintended sharing.」
+ずんだもん「Namespaces and documentation keep that in check.」
+四国めたん「Remember that tests share registry state too.」
+ずんだもん「Use `Symbol.keyFor` before and after tests for peace of mind.」
+四国めたん「Know the caveats so you can use it safely.」
+ずんだもん「Manage the symbol lifecycle carefully!」
+

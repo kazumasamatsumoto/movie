@@ -1,0 +1,7 @@
+四国めたん「Set explicit removal deadlines for every allowed `any`.」
+ずんだもん「Let CI fail once the deadline passes.」
+四国めたん「Escalate overdue `any`s and fix them first.」
+ずんだもん「Sync due dates with Jira for easier management.」
+四国めたん「Expiry-based control ensures closure.」
+ずんだもん「Do future you a favor—honor the deadlines!」
+

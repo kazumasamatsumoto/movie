@@ -1,0 +1,7 @@
+四国めたん「Validate that replacements work safely.」
+ずんだもん「Use type tests, unit tests, and E2E scenarios.」
+四国めたん「Leverage d.ts tests or tsd for extra assurance.」
+ずんだもん「Re-measure metrics to prove `any` shrank.」
+四国めたん「Record findings for future retrospectives.」
+ずんだもん「Validation completes each removal cycle!」
+

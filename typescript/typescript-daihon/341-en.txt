@@ -1,0 +1,9 @@
+四国めたん「Let's learn about undefinedable types!」
+ずんだもん「What is an undefinedable type?」
+四国めたん「It's a union `T | undefined` that allows a value to be absent—the basis of optional properties.」
+ずんだもん「Is that different from nullable types?」
+四国めたん「Yes: `undefined` means “not provided,” while `null` is an explicit empty value. Optional fields default to `undefined`.」
+ずんだもん「I see! Use it for values that may be omitted!」
+四国めたん「It models absence on parameters and properties, and it's important even in TypeScript v5.9.」
+ずんだもん「Designing flexibly with undefinedable types is the best!」
+

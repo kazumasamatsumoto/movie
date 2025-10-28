@@ -1,0 +1,9 @@
+四国めたん「Let's learn about variables of type `void`!」
+ずんだもん「Can you create a `void` variable?」
+四国めたん「You can, but it's rarely useful—only `undefined` fits.」
+ずんだもん「When would you use it?」
+四国めたん「Almost never. `void` is meant for return types; as a variable it's pointless.」
+ずんだもん「I see! Not used much!」
+四国めたん「`strictNullChecks` allows only `undefined`, and TypeScript v5.9 keeps that rule.」
+ずんだもん「So it's mainly for function signatures!」
+

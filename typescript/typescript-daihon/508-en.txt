@@ -1,0 +1,9 @@
+四国めたん「Let's look at type errors involving `never`.」
+ずんだもん「What kind of errors show up?」
+四国めたん「Because `never` is incompatible with everything, assigning to it triggers a type error.」
+ずんだもん「How does that help?」
+四国めたん「In exhaustive checks, missing a case forces a value into `never`, revealing the leak.」
+ずんだもん「So the compiler tells us right away!」
+四国めたん「That guarantees 100% coverage at compile time.」
+ずんだもん「Catching runtime bugs beforehand is the best!」
+

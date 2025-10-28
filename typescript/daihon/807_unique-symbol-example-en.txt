@@ -1,0 +1,9 @@
+四国めたん「Here’s a service resolver built with `unique symbol`.」
+ずんだもん「Map tokens to implementations.」
+四国めたん「Group the tokens with const assertions.」
+ずんだもん「`resolve` accepts `typeof TOKEN`, ensuring safe lookups.」
+四国めたん「Annotate the map with `unique symbol` to prevent mismatches.」
+ずんだもん「Use the example to craft your own container!」
+四国めたん「`unique symbol` underpins type-safe DI.」
+ずんだもん「Read the code and follow the flow!」
+

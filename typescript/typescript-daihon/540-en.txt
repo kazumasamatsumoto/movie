@@ -1,0 +1,9 @@
+四国めたん「Let's leverage `never` in API design.」
+ずんだもん「How does it help APIs?」
+四国めたん「Define response, error, and status patterns as discriminated unions for full type safety.」
+ずんだもん「How do I design that?」
+四国めたん「Capture every endpoint outcome in types so you can handle them exhaustively.」
+ずんだもん「That makes the API spec explicit in code!」
+四国めたん「Share those types between front end and back end to streamline development.」
+ずんだもん「Type-safe API development, here we come!」
+

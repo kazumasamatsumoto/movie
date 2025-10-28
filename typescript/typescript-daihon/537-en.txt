@@ -1,0 +1,9 @@
+四国めたん「Let's enforce exhaustiveness in route guards.」
+ずんだもん「How do we do that?」
+四国めたん「Model every route state as a discriminated union and detect leftovers with `never`.」
+ずんだもん「How is it implemented?」
+四国めたん「Express route states as a union and handle them exhaustively in the guard.」
+ずんだもん「So new routes stay safe too!」
+四国めたん「Type safety prevents oversights during refactors.」
+ずんだもん「Crucial for large apps!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's learn about `void` event handlers!」
+ずんだもん「Are event handlers `void`?」
+四国めたん「Yes—most event handlers are `void`; their return values aren't used.」
+ずんだもん「How do we type them?」
+四国めたん「Use `(event: Event) => void`; that's the same shape `addEventListener` expects.」
+ずんだもん「I see! No return expected!」
+四国めたん「React, Vue, Angular, and others follow the same pattern in TypeScript v5.9.」
+ずんだもん「It's a universal pattern!」
+

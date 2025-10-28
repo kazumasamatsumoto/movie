@@ -1,0 +1,9 @@
+四国めたん「`Symbol.replace` swaps out `String.prototype.replace`.」
+ずんだもん「Define custom replacement logic.」
+四国めたん「Signature: `(text, replacement) => string`.」
+ずんだもん「Useful for template expansions.」
+四国めたん「It enables non-RegExp replacement plugins.」
+ずんだもん「Use `Symbol.replace` for flexible string handling!」
+四国めたん「Keep it pure to avoid surprises.」
+ずんだもん「Back it with thorough tests!」
+

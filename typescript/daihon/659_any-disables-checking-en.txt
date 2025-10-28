@@ -1,0 +1,7 @@
+四国めたん「Disabling checks via `any` destroys static guarantees.」
+ずんだもん「Lint warnings vanish; mistakes slip through.」
+四国めたん「Issues that should be compile errors reach production.」
+ずんだもん「Testing and QA absorb the extra load.」
+四国めたん「To benefit from checking, remove `any`.」
+ずんだもん「Make static guarantees your ally!」
+

@@ -1,0 +1,7 @@
+四国めたん「Find existing `any`s with search plus static analysis.」
+ずんだもん「Use `rg "any"`, compiler diagnostics, or AST tools.」
+四国めたん「`eslint --print-config` reveals `no-explicit-any` targets.」
+ずんだもん「Track findings in a spreadsheet for clarity.」
+四国めたん「Visibility is step one in removal projects.」
+ずんだもん「See the full picture to set priorities!」
+

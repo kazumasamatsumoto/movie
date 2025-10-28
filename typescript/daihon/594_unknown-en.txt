@@ -1,0 +1,7 @@
+四国めたん「Composite guards let us narrow `unknown` in multiple stages.」
+ずんだもん「Chain `typeof` and `in` operators for strict checks.」
+四国めたん「Exactly—even nested objects stay safe.」
+ずんだもん「Wrap them as reusable helpers to simplify tests.」
+四国めたん「Strong composite guards fortify your domain logic.」
+ずんだもん「They’ll steer unknown data into precisely shaped types!」
+

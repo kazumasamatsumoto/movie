@@ -1,0 +1,9 @@
+四国めたん「Runtime `typeof` on a symbol returns `'symbol'`.」
+ずんだもん「In type positions, `typeof` references the `unique symbol` type.」
+四国めたん「Right—`const` symbols plus `typeof` fuel discriminant properties.」
+ずんだもん「Runtime `typeof` checks also guard branches safely.」
+四国めたん「`typeof` is valuable at both type and runtime levels.」
+ずんだもん「Use the right form and your code stays readable.」
+四国めたん「Master `typeof` when working with symbols.」
+ずんだもん「Type-safe guards mean fewer bugs!」
+

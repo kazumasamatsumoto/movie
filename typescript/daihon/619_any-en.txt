@@ -1,0 +1,7 @@
+四国めたん「When external libraries lack types, catch their values as `unknown`.」
+ずんだもん「`any` from third-party code is risky.」
+四国めたん「Wrap it, guard it, and verify with schemas.」
+ずんだもん「A `safeWrapper` makes reuse safer.」
+四国めたん「Align all external boundaries on `unknown` to block bugs.」
+ずんだもん「You’ll also handle library updates more gracefully!」
+

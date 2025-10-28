@@ -1,0 +1,7 @@
+四国めたん「Let’s walk through a practical `unknown` example.」
+ずんだもん「Validate an API response as you map it into a DTO—that flow works great.」
+四国めたん「Combine type guards and assertions to end up with trustworthy data.」
+ずんだもん「You can even keep the raw `unknown` for logging safely.」
+四国めたん「On failure, wrap it as an error before returning.」
+ずんだもん「Build it into the app and your boundaries stay type-safe!」
+

@@ -1,0 +1,9 @@
+四国めたん「Subtract BigInts with `-`.」
+ずんだもん「Great for computing deltas in transaction logs.」
+四国めたん「Signed arithmetic works—balances remain accurate.」
+ずんだもん「Always subtract BigInt from BigInt.」
+四国めたん「Negative results stay precise.」
+ずんだもん「Keep precision intact while subtracting.」
+四国めたん「Check type alignment before processing deltas.」
+ずんだもん「Master BigInt subtraction!」
+

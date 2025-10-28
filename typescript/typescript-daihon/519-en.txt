@@ -1,0 +1,9 @@
+四国めたん「Let's catalog common exhaustiveness patterns.」
+ずんだもん「Which ones are popular?」
+四国めたん「Reducer, Command, State patterns—all benefit from it.」
+ずんだもん「How do they use it?」
+四国めたん「Each pattern mixes discriminated unions with `never` checks to stay type-safe.」
+ずんだもん「So design patterns and types work together!」
+四国めたん「They pair beautifully with functional programming ideas.」
+ずんだもん「I'll learn the patterns and apply them!」
+

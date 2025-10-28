@@ -1,0 +1,7 @@
+四国めたん「As the top type, `unknown` can hold any value.」
+ずんだもん「Strings, numbers, promises—it swallows them all.」
+四国めたん「Right. You don’t need unions just to capture arbitrary input.」
+ずんだもん「But we still have to be careful once we read it back.」
+四国めたん「Remember: flexible assignment paired with cautious usage.」
+ずんだもん「Catch everything first, then narrow with guards—that’s the flow!」
+

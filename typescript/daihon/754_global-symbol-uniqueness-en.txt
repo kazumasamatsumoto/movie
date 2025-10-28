@@ -1,0 +1,9 @@
+四国めたん「Each `Symbol.for` key maps to a unique value—but identical keys share that value.」
+ずんだもん「The global registry prevents duplicates.」
+四国めたん「The same string never registers twice.」
+ずんだもん「Modules can grab the same symbol worry-free.」
+四国めたん「Switch keys to coexist with different symbols.」
+ずんだもん「Use naming conventions to avoid accidental clashes.」
+四国めたん「Understand the sharing mechanism before using global symbols.」
+ずんだもん「Define team-wide rules and stick to them!」
+

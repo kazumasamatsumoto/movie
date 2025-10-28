@@ -1,0 +1,7 @@
+四国めたん「Replace `any` in shared functions with generics.」
+ずんだもん「Type parameters carry caller types through.」
+四国めたん「Add `extends` constraints to marry safety and flexibility.」
+ずんだもん「Use the same trick for interfaces or classes.」
+四国めたん「Generics boost reuse while eliminating `any`.」
+ずんだもん「Bring back TypeScript-style abstraction!」
+

@@ -1,0 +1,9 @@
+四国めたん「Here’s a DI registry pattern using symbol keys.」
+ずんだもん「Register dependencies keyed by symbols.」
+四国めたん「No collisions with string-based APIs.」
+ずんだもん「It feels similar to Angular’s provider tokens.」
+四国めたん「Type definitions tie tokens to implementations.」
+ずんだもん「Use the pattern to manage module dependencies safely!」
+四国めたん「Next we’ll explore another pattern.」
+ずんだもん「Experience symbol-powered design firsthand!」
+

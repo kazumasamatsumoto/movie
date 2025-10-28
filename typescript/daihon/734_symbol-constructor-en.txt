@@ -1,0 +1,9 @@
+四国めたん「Create symbols by calling `Symbol()`, not with `new`.」
+ずんだもん「It looks constructor-like, but `new Symbol()` throws a TypeError.」
+四国めたん「Provide an optional description string—it helps during debugging.」
+ずんだもん「But that text never affects the value itself.」
+四国めたん「Each call yields a brand-new symbol.」
+ずんだもん「Great for factory-style DI tokens.」
+四国めたん「Add a type annotation to treat it as the `symbol` type.」
+ずんだもん「Master the syntax so you can use it safely!」
+

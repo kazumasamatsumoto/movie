@@ -1,0 +1,7 @@
+四国めたん「Example: replacing an `any` API response with a union.」
+ずんだもん「We modeled `success` and `error` as a discriminated union.」
+四国めたん「Front-end branching became safe and completion improved.」
+ずんだもん「Tests now explicitly cover each scenario.」
+四国めたん「The union clarified the contract without `any`.」
+ずんだもん「Pair implementation and tests to lock it in!」
+

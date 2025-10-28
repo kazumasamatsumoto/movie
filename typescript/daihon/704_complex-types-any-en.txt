@@ -1,0 +1,7 @@
+四国めたん「Sometimes types get so complex that maintenance stalls, leading to `any`.」
+ずんだもん「The generics are so tangled nobody understands them.」
+四国めたん「Explore breaking them into smaller representations.」
+ずんだもん「Reduce complexity gradually for maintainability.」
+四国めたん「Weigh complexity cost against safety cost.」
+ずんだもん「Find a sustainable balance that preserves types!」
+

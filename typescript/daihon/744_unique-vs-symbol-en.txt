@@ -1,0 +1,9 @@
+四国めたん「`unique symbol` is the literal version of `symbol`.」
+ずんだもん「So you can assign `unique symbol` to `symbol`, but not the other way around.」
+四国めたん「When you generalize a unique token, it widens to `symbol`.」
+ずんだもん「Keep the literal type when you need discriminant properties.」
+四国めたん「Narrow or widen types based on your design.」
+ずんだもん「Decide how much uniqueness to preserve early.」
+四国めたん「Understand the inheritance to prevent confusion.」
+ずんだもん「Use the symbol family wisely!」
+

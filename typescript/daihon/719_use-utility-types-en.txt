@@ -1,0 +1,7 @@
+四国めたん「Built-in utility types make replacing `any` easy.」
+ずんだもん「`Partial`, `Pick`—compose only what you need.」
+四国めたん「`Readonly`, `Record` safely transform shapes.」
+ずんだもん「Reuse existing types to avoid duplication.」
+四国めたん「Utilities balance flexibility and safety.」
+ずんだもん「Swap `any` out for utility-driven types!」
+

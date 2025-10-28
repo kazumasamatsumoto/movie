@@ -1,0 +1,9 @@
+四国めたん「The syntax is simple—just pass a string key to `Symbol.for`.」
+ずんだもん「`Symbol.for("key")` yields the shared symbol.」
+四国めたん「There are no extra parameters, just the single string.」
+ずんだもん「Define conventions like SCREAMING_SNAKE_CASE for clarity.」
+四国めたん「Template literals work well for namespaces too.」
+ずんだもん「Understand the syntax and define readable keys!」
+四国めたん「Because the API is concise, naming matters even more.」
+ずんだもん「Keep it consistent across the project!」
+

@@ -1,0 +1,7 @@
+四国めたん「Let's learn about short-circuit evaluation with OR in TypeScript v5.9!」
+ずんだもん「What is short-circuit evaluation for OR?」
+四国めたん「If the left operand is truthy, the right operand isn't evaluated.」
+ずんだもん「What advantages does that give us?」
+四国めたん「Better performance and convenient default value assignment.」
+ずんだもん「Is this important for Angular development too?」
+四国めたん「Absolutely—it enables efficient default handling.」

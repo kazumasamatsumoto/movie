@@ -1,0 +1,9 @@
+四国めたん「Let's learn how `never` behaves inside union types.」
+ずんだもん「What happens to `never` in a union?」
+四国めたん「Because it represents the empty set, `never` disappears—it's a subtype of every type.」
+ずんだもん「What does that look like?」
+四国めたん「`string | never` simplifies to `string`; adding the empty set changes nothing.」
+ずんだもん「So `never` has no effect in a union!」
+四国めたん「That algebraic property powers conditional-type filtering in TypeScript v5.9.」
+ずんだもん「A key building block for type-level programming!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's learn about functions built around infinite loops.」
+ずんだもん「Does an infinite loop mean `never`?」
+四国めたん「Yes—if the loop never ends, the function is `never`; control never returns.」
+ずんだもん「When would we write that?」
+四国めたん「In server main loops, event processors, and daemon processes.」
+ずんだもん「So it’s for programs that keep running!」
+四国めたん「They’re niche but important to model; TypeScript v5.9 handles them the same way.」
+ずんだもん「A special use case indeed!」
+

@@ -1,0 +1,7 @@
+四国めたん「Require comments with reasons and deadlines for every `any`.」
+ずんだもん「ESLint can flag uncommented `any`s.」
+四国めたん「Include TODOs and issue numbers for easy tracking.」
+ずんだもん「Reject code lacking those comments.」
+四国めたん「Visibility ensures exceptions stay controlled.」
+ずんだもん「Comment culture keeps `any` in check!」
+

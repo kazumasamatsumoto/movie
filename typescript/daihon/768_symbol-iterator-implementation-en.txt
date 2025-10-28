@@ -1,0 +1,9 @@
+四国めたん「Generators make `Symbol.iterator` implementations concise.」
+ずんだもん「`function*` automatically returns an iterator object.」
+四国めたん「Just `yield` elements in order.」
+ずんだもん「Manual `next` functions work too—return `{ done: true }` when finished.」
+四国めたん「TypeScript infers `IteratorResult`, keeping you safe.」
+ずんだもん「Use the pattern for custom collections.」
+四国めたん「Always test that `for...of` behaves as expected.」
+ずんだもん「Once you know the pattern, the possibilities are endless!」
+

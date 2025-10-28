@@ -1,0 +1,7 @@
+四国めたん「Summarize the immediate risks of `any`.」
+ずんだもん「Runtime errors, disabled checks, propagation, lost IDE support.」
+四国めたん「These degrade development experience right away.」
+ずんだもん「Switching to `unknown` cuts most risks instantly.」
+四国めたん「Start by eliminating visible dangers.」
+ずんだもん「Begin reducing `any` today!」
+

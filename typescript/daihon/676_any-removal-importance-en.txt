@@ -1,0 +1,7 @@
+四国めたん「Removing `any` directly improves quality and safety.」
+ずんだもん「Otherwise bugs and debt multiply.」
+四国めたん「It’s a high-priority task to regain static guarantees.」
+ずんだもん「Align the team and move methodically.」
+四国めたん「The payoff is better DX and lower long-term costs.」
+ずんだもん「Share the importance and build momentum!」
+

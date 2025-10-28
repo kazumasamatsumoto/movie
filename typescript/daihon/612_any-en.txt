@@ -1,0 +1,7 @@
+四国めたん「Enable `strict` mode to ban implicit `any`.」
+ずんだもん「Just flip `strict: true` in tsconfig.」
+四国めたん「It bundles settings like `noImplicitAny` to boost safety.」
+ずんだもん「Migrate gradually if you have a legacy codebase.」
+四国めたん「`strict` lays the foundation for eliminating `any`.」
+ずんだもん「Let the compiler protect your quality!」
+

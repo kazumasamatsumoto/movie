@@ -1,0 +1,9 @@
+四国めたん「Let's see how infinite loops are inferred.」
+ずんだもん「Does TypeScript infer them automatically?」
+四国めたん「Yes—`while (true)` with no exit becomes `never`.」
+ずんだもん「What if there’s a `break`?」
+四国めたん「If an exit is reachable, the function becomes `void`; control-flow analysis decides.」
+ずんだもん「So it decides smartly!」
+四国めたん「The type changes with the conditions—accurately inferred in TypeScript v5.9.」
+ずんだもん「Impressive type inference!」
+

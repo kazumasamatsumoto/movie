@@ -1,0 +1,9 @@
+四国めたん「Let's examine practical uses of `never`.」
+ずんだもん「Where do we use it?」
+四国めたん「In error handling, exhaustive checks, and assertion helpers.」
+ずんだもん「How does that look in code?」
+四国めたん「Call an `exhaustiveCheck` in a `switch` default to catch missing cases.」
+ずんだもん「That really boosts safety!」
+四国めたん「Conditional types use it to exclude cases—an important TypeScript v5.9 pattern.」
+ずんだもん「It shines in many places!」
+

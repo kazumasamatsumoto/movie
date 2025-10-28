@@ -1,0 +1,7 @@
+四国めたん「Use `unknown` proactively at external boundaries and with uncertain data.」
+ずんだもん「API responses, user input, `catch` errors—those cases.」
+四国めたん「Exactly—capture the value, then guard it safely.」
+ずんだもん「Substituting `unknown` lets the compiler protect us.」
+四国めたん「Validation before entering the domain is where `unknown` shines.」
+ずんだもん「Make it a boundary-management staple!」
+

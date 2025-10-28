@@ -1,0 +1,9 @@
+四国めたん「Let's gather best practices for infinite loops.」
+ずんだもん「What should I keep in mind?」
+四国めたん「Annotate them `never`, wait appropriately, and always handle errors.」
+ずんだもん「Anything else?」
+四国めたん「Support shutdown signals, manage resources, and add logging.」
+ずんだもん「So maintainability matters!」
+四国めたん「Testing is hard, so isolate the loop in your design—recommended in TypeScript v5.9.」
+ずんだもん「Thoughtful design is key!」
+

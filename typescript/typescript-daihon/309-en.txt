@@ -1,0 +1,9 @@
+四国めたん「Let's learn practical patterns for `undefined`!」
+ずんだもん「What kinds of patterns use `undefined`?」
+四国めたん「Option types, defaulting, optional chaining, and type guards are all common patterns.」
+ずんだもん「Show me concrete code examples!」
+四国めたん「Typical cases include default values via Nullish Coalescing, type narrowing, and utilities like `Partial`.」
+ずんだもん「I see! There are practical patterns!」
+四国めたん「Angular services, components, and Nest.js DTOs all rely on it frequently.」
+ずんだもん「Implementing design patterns with type safety is the best!」
+

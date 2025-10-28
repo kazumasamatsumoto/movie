@@ -1,0 +1,7 @@
+四国めたん「Let's learn about a common mistake in TypeScript v5.9: confusing truthy checks.」
+ずんだもん「What does confusing truthy checks mean?」
+四国めたん「Mixing implicit truthy checks with explicit boolean comparisons.」
+ずんだもん「What's the practical problem?」
+四国めたん「`if (value)` treats 0 or empty strings as false, causing unexpected behavior.」
+ずんだもん「How should we handle it?」
+四国めたん「Check null or undefined explicitly, or rely on precise type guards.」

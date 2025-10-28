@@ -1,0 +1,7 @@
+四国めたん「Let’s categorize patterns for manipulating `unknown`.」
+ずんだもん「Judging, transforming, and delegating—three buckets.」
+四国めたん「Yes—judge to narrow, transform to concretize, delegate when necessary.」
+ずんだもん「Create helpers per pattern to simplify implementations.」
+四国めたん「Consistent granularity makes reviews easier too.」
+ずんだもん「Pattern-driven design polishes our `unknown` handling!」
+

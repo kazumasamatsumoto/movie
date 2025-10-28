@@ -1,0 +1,7 @@
+四国めたん「Let's look at truthy values in TypeScript v5.9!」
+ずんだもん「Which values count as truthy?」
+四国めたん「Everything except the six falsy values.」
+ずんだもん「Can you give examples?」
+四国めたん「true, any non-zero number, non-empty strings, objects, arrays, and more.」
+ずんだもん「Are empty arrays or objects truthy too?」
+四国めたん「Yes—even empty objects are truthy.」

@@ -1,0 +1,9 @@
+四国めたん「Global symbols bridge multiple modules.」
+ずんだもん「Browser extensions or plugins on one page can coordinate.」
+四国めたん「They sync identifiers between SSR and CSR for hydration.」
+ずんだもん「Monitoring code can inspect app state without key clashes.」
+四国めたん「Libraries can publish protocol keys via `Symbol.for`.」
+ずんだもん「Attaching to `globalThis` feels safer with `Symbol.for`.」
+四国めたん「Learn the use cases to pick the right tool.」
+ずんだもん「Adopt global symbols when sharing is essential!」
+

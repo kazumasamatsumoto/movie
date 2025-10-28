@@ -1,0 +1,9 @@
+四国めたん「Let's explore type-transformation tricks driven by `never`.」
+ずんだもん「What can we transform?」
+四国めたん「Exclude union members, drop object properties, filter array element types—you name it.」
+ずんだもん「How do we code that?」
+四国めたん「Convert unwanted pieces to `never` so the compiler removes them automatically.」
+ずんだもん「So types can be reshaped freely!」
+四国めたん「Use it to adjust DTOs or API response types in real projects.」
+ずんだもん「Practical and powerful!」
+

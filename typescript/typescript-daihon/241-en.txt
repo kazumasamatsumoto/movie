@@ -1,0 +1,7 @@
+四国めたん「Let's learn about equality operators in TypeScript!」
+ずんだもん「There are two: == and ===, right?」
+四国めたん「Yes. `==` is loose equality, `===` is strict equality.」
+ずんだもん「How do they differ?」
+四国めたん「`==` performs type coercion before comparison.」
+ずんだもん「What about `===`?」
+四国めたん「`===` compares both value and type without coercion.」

@@ -1,0 +1,9 @@
+四国めたん「Let's learn how to assign values to nullable types!」
+ずんだもん「What can I assign to a nullable type?」
+四国めたん「Both the original value and `null`, with type safety ensured.」
+ずんだもん「What about reassignment?」
+四国めたん「Switching between a value and `null` is fine—the type checker keeps it safe.」
+ずんだもん「I see! It's flexible!」
+四国めたん「With `strictNullChecks`, any mismatch is caught at compile time.」
+ずんだもん「Type-safe assignments are the best!」
+

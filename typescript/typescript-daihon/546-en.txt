@@ -1,0 +1,9 @@
+四国めたん「Let's avoid confusing `never` with `void`.」
+ずんだもん「How are they different again?」
+四国めたん「`void` means a function finishes without a value; `never` means it never finishes at all.」
+ずんだもん「What does that mean concretely?」
+四国めたん「`void` functions end normally, while `never` ones throw or loop forever.」
+ずんだもん「So `void` ends, `never` doesn’t!」
+四国めたん「Mixing them up causes type errors and bad implementations.」
+ずんだもん「I'll be careful to choose the right one!」
+

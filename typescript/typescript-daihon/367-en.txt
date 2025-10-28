@@ -1,0 +1,9 @@
+四国めたん「Let's learn about missed checks caused by the non-null assertion!」
+ずんだもん「What do you mean by missed checks?」
+四国めたん「Using `!` skips the compiler's safety net, so `null` or `undefined` slip through.」
+ずんだもん「What's the real issue?」
+四国めたん「The build still succeeds even when the value is null, so the crash hits later.」
+ずんだもん「Do tests become the only guard?」
+四国めたん「Exactly—or production. Type guards keep the compiler protecting you.」
+ずんだもん「We should lean on the type system!」
+

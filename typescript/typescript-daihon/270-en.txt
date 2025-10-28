@@ -1,0 +1,7 @@
+四国めたん「Let's summarize type guards in TypeScript v5.9!」
+ずんだもん「What should we remember?」
+四国めたん「Know when to use typeof, instanceof, in, and type predicate functions.」
+ずんだもん「How do we choose among them?」
+四国めたん「Use typeof for primitives, instanceof for classes, and in for objects.」
+ずんだもん「Is this important for Angular development too?」
+四国めたん「Absolutely—it keeps type narrowing precise and safe.」

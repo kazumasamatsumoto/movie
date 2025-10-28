@@ -1,0 +1,9 @@
+四国めたん「Let's summarize our type algebra with `never`.」
+ずんだもん「What did we cover?」
+四国めたん「`never` disappears in unions, dominates intersections, and powers conditional filtering.」
+ずんだもん「What’s the benefit?」
+四国めたん「Type-level programming, rich transformations, and stronger compile-time safety.」
+ずんだもん「So it's the heart of TypeScript's type system!」
+四国めたん「These ideas demystify utility types and help you craft your own helpers.」
+ずんだもん「I'll wield type algebra to keep my code safe!」
+

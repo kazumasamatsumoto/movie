@@ -1,0 +1,9 @@
+四国めたん「`Symbol.for` always returns the same value for the same key.」
+ずんだもん「That’s how libraries and apps share identifiers.」
+四国めたん「Even as map keys, the references match.」
+ずんだもん「Multiple modules can call it without issues.」
+四国めたん「Colliding keys will share unexpectedly, so guard your naming.」
+ずんだもん「Namespace keys to stay safe.」
+四国めたん「Leverage the “same key, same value” rule wisely.」
+ずんだもん「Establish governance for shared keys!」
+

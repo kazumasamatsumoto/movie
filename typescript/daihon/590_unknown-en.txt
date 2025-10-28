@@ -1,0 +1,7 @@
+四国めたん「`Array.isArray()` reveals whether `unknown` is an array.」
+ずんだもん「Because `typeof` only says ‘object’.」
+四国めたん「Right—follow up by checking element types.」
+ずんだもん「If it passes, `map` and `filter` are ready to roll.」
+四国めたん「Always start array boundaries with `Array.isArray()`.」
+ずんだもん「Your data transformations will be much safer!」
+

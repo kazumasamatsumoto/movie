@@ -1,0 +1,7 @@
+四国めたん「Let's learn about the less-than operator in TypeScript v5.9!」
+ずんだもん「How do we use the less-than operator?」
+四国めたん「It checks whether the left operand is smaller than the right operand.」
+ずんだもん「So it's the inverse of greater-than?」
+四国めたん「Exactly—`5 < 10` is true, `10 < 5` is false.」
+ずんだもん「Sounds straightforward!」
+四国めたん「It's handy for range checks and validations.」

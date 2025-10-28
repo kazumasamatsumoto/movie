@@ -1,0 +1,9 @@
+四国めたん「Write bigint literals by appending `n`.」
+ずんだもん「`123n` instantly becomes `bigint`.」
+四国めたん「Use numeric separators for readability.」
+ずんだもん「Type inference tags them as bigint automatically.」
+四国めたん「Decimals are forbidden in literals.」
+ずんだもん「Remember: integers plus `n`.」
+四国めたん「It’s handy for expressing large values inline.」
+ずんだもん「Declare BigInt effortlessly with literal syntax!」
+

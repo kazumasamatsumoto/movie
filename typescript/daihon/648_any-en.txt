@@ -1,0 +1,7 @@
+四国めたん「TypeScript’s type system relies on subtyping to provide safety.」
+ずんだもん「But `any` skips those checks entirely.」
+四国めたん「The compiler’s inference and verification stop working.」
+ずんだもん「To reap the benefits, rely on type-safe alternatives.」
+四国めたん「`any` is effectively a backdoor out of the system.」
+ずんだもん「Stick with designs that respect the type theory!」
+

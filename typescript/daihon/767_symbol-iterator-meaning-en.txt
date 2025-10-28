@@ -1,0 +1,9 @@
+四国めたん「`Symbol.iterator` marks an object as iterable.」
+ずんだもん「It enables `for...of` and spread syntax.」
+四国めたん「Implement the method to return an iterator and you conform to the protocol.」
+ずんだもん「TypeScript lets you annotate the return type with `Iterator`.」
+四国めたん「The benefit: non-array collections behave naturally.」
+ずんだもん「Custom data structures become `for...of` friendly in no time.」
+四国めたん「Start with `Symbol.iterator` to learn the iterator protocol.」
+ずんだもん「It’s useful both on the front end and back end!」
+

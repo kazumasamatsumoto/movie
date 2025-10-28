@@ -1,0 +1,7 @@
+四国めたん「`noImplicitAny` is a key setting that bans implicit `any`.」
+ずんだもん「Parameters and variables without types trigger compile errors.」
+四国めたん「It stops unintended `any` from sneaking into your code.」
+ずんだもん「It also builds the habit of writing annotations.」
+四国めたん「Even if you cherry-pick strict settings, keep `noImplicitAny` on.」
+ずんだもん「Start your `any` purge here!」
+

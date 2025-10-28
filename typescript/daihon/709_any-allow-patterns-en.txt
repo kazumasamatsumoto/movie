@@ -1,0 +1,7 @@
+四国めたん「Catalog the patterns where `any` is permitted.」
+ずんだもん「Third-party boundaries, prototypes, emergencies, etc.」
+四国めたん「Attach comment rules, deadlines, and owners to each pattern.」
+ずんだもん「Detect out-of-pattern `any` automatically for review.」
+四国めたん「A shared glossary keeps decisions consistent.」
+ずんだもん「Update the pattern list regularly!」
+

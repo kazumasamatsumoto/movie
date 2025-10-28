@@ -1,0 +1,7 @@
+四国めたん「`any` also poses security risks.」
+ずんだもん「We might pass unchecked input straight to `eval`.」
+四国めたん「Dangerous values slip through when types are absent.」
+ずんだもん「`unknown` plus validation blocks malicious data.」
+四国めたん「Think of type safety as part of your defense.」
+ずんだもん「Don’t leave `any` unguarded!」
+

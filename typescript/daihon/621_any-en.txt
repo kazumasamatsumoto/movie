@@ -1,0 +1,7 @@
+四国めたん「Handle dynamically generated data by starting with `unknown`.」
+ずんだもん「Things like `eval` output or CMS content.」
+四国めたん「Exactly—data with a runtime-defined shape needs guards.」
+ずんだもん「Define patterns to map it into safe domain types.」
+四国めたん「Even dynamic data can benefit from the type system.」
+ずんだもん「Deal with unknown data confidently and safely!」
+

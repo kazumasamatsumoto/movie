@@ -1,0 +1,9 @@
+四国めたん「Remember three core symbol patterns.」
+ずんだもん「Hidden properties, discriminant properties…」
+四国めたん「And unique identifiers for DI tokens or registries.」
+ずんだもん「Those three cover most practical scenarios.」
+四国めたん「Use TypeScript’s typings to keep them safe.」
+ずんだもん「Patternize usage so refactors stay easy.」
+四国めたん「Combine with `unique symbol` when you need extra guarantees.」
+ずんだもん「Master the basics and apply them in code!」
+

@@ -1,0 +1,7 @@
+四国めたん「Final example: replacing `any` cost far more than expected.」
+ずんだもん「One file’s `any` had spread across the service.」
+四国めたん「We had to update every related function and test.」
+ずんだもん「Migrating early would have been cheap.」
+四国めたん「Delay leads to expensive refactors later.」
+ずんだもん「Address `any` before costs explode!」
+

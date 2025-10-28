@@ -1,0 +1,9 @@
+四国めたん「`unique symbol` lets you represent a specific symbol value in the type system.」
+ずんだもん「Const declarations or const assertions keep inference narrow.」
+四国めたん「It boosts safety for discriminants and brand types.」
+ずんだもん「It’s now essential for token management and DI.」
+四国めたん「Tune your type definitions and interfaces for sharing.」
+ずんだもん「With best practices, collisions vanish.」
+四国めたん「Consolidate your understanding before moving on.」
+ずんだもん「Keep chasing type safety in the next topic too!」
+

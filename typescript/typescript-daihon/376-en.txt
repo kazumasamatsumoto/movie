@@ -1,0 +1,9 @@
+四国めたん「Let's learn the difference between `void` and `undefined`!」
+ずんだもん「How do they differ?」
+四国めたん「`void` signals that the return is ignored, while `undefined` means you're returning that value on purpose.」
+ずんだもん「How should we choose?」
+四国めたん「Use `void` for side-effect functions and `undefined` when you intentionally return it.」
+ずんだもん「I see! Their goals differ!」
+四国めたん「Don't consume results from `void` functions; `undefined` can still be used as data.」
+ずんだもん「It clarifies the intent!」
+

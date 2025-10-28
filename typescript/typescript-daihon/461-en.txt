@@ -1,0 +1,9 @@
+四国めたん「Let's learn about the `never` type!」
+ずんだもん「What kind of type is `never`?」
+四国めたん「It’s the return type for functions that never produce a value—code that can’t be reached.」
+ずんだもん「When would I use it?」
+四国めたん「In functions that always throw, in infinite loops, or in exhaustive `switch` checks.」
+ずんだもん「So the processing never ends!」
+四国めたん「Unlike `void`, control never returns. It’s an important type in TypeScript v5.9.」
+ずんだもん「Definitely a special case!」
+

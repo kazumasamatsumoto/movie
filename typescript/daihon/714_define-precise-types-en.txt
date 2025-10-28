@@ -1,0 +1,7 @@
+四国めたん「Eliminating `any` means crafting domain-rich types.」
+ずんだもん「DTOs or interfaces that spell out data shapes.」
+四国めたん「Base them on specs or API schemas.」
+ずんだもん「Type generators reduce drift from live specs.」
+四国めたん「Once types exist, there’s no reason to revert to `any`.」
+ずんだもん「Invest in type definitions as assets!」
+

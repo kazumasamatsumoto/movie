@@ -1,0 +1,7 @@
+四国めたん「Example: removing `any` from a user service.」
+ずんだもん「We changed `service.getUser(id): any` to `unknown` and mapped it to a DTO.」
+四国めたん「Adding ValidationPipe boosted API type safety.」
+ずんだもん「Tests now rely on the user DTO, preventing regressions.」
+四国めたん「A small change vastly improved the developer experience.」
+ずんだもん「Share field learnings with the team!」
+

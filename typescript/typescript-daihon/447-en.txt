@@ -1,0 +1,9 @@
+四国めたん「Let's look at Nest.js middleware and `void`.」
+ずんだもん「How does middleware use `void`?」
+四国めたん「`NestMiddleware`’s `use()` method returns `void`; it calls `next()` to continue.」
+ずんだもん「How do I implement that?」
+四国めたん「Use the `@Injectable()` decorator and implement `NestMiddleware` for logging, auth, and more.」
+ずんだもん「So it wraps the request before and after!」
+四国めたん「It mirrors Express middleware—the same story in TypeScript v5.9.」
+ずんだもん「A server-side staple!」
+

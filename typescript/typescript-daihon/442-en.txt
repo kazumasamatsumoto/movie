@@ -1,0 +1,9 @@
+四国めたん「Let's focus on Angular's click event.」
+ずんだもん「How do I define `(click)`?」
+四国めたん「In the template write `(click)="method()"`; the method returns `void`.」
+ずんだもん「Can I pass arguments?」
+四国めたん「Sure—`$event` gives you the `Event`, and you can pass other args too.」
+ずんだもん「Nice! It’s flexible!」
+四国めたん「The return value is ignored, so keep it `void`—still the standard in TypeScript v5.9.」
+ずんだもん「Angular's go-to pattern!」
+

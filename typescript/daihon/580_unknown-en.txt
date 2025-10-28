@@ -1,0 +1,7 @@
+四国めたん「Time to consolidate `unknown`’s restrictions.」
+ずんだもん「No properties, methods, operators, or calls—right?」
+四国めたん「Correct—prove safety via guards or assertions first.」
+ずんだもん「Those limits cut runtime errors.」
+四国めたん「Once you accept them, you can adopt the top type confidently.」
+ずんだもん「Keep this summary handy and put it into practice!」
+

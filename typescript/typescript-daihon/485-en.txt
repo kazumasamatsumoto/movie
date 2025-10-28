@@ -1,0 +1,9 @@
+四国めたん「Let's debug `never` functions.」
+ずんだもん「How do I debug something that throws?」
+四国めたん「Use breakpoints, `console.log`, and the stack trace before the exception.」
+ずんだもん「Even though it throws?」
+四国めたん「Yes—log right before the throw or pause in the debugger.」
+ずんだもん「So it’s like any other function!」
+四国めたん「Craft descriptive messages too—it’s still the go-to approach in TypeScript v5.9.」
+ずんだもん「Clear errors matter!」
+

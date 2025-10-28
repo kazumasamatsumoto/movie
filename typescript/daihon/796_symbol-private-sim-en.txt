@@ -1,0 +1,9 @@
+四国めたん「Symbol keys historically mimicked private properties.」
+ずんだもん「External string access doesn’t work—that’s the point.」
+四国めたん「Before `#` fields, this was the go-to approach.」
+ずんだもん「`#` fields exist now, but symbols remain an option for compatibility.」
+四国めたん「Combine with closures for extra secrecy.」
+ずんだもん「Choose the technique that fits your requirements.」
+四国めたん「Remember it’s not absolute secrecy.」
+ずんだもん「Keep it in mind for safe metadata storage!」
+

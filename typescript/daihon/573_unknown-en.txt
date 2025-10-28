@@ -1,0 +1,7 @@
+四国めたん「Try to use `unknown` without a guard and the compiler stops you.」
+ずんだもん「The temptation is to switch to `any`, which is risky.」
+四国めたん「Resist that—add the guard instead and keep type safety intact.」
+ずんだもん「Shared utilities make writing guards easy.」
+四国めたん「Treat bypassing the guard as forbidden.」
+ずんだもん「Maintain discipline and keep the code secure!」
+

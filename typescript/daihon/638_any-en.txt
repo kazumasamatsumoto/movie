@@ -1,0 +1,7 @@
+四国めたん「For debugging `unknown`, log type info to pinpoint issues.」
+ずんだもん「Record `typeof` results to narrow the cause.」
+四国めたん「Create safe logging functions to catch missing guards.」
+ずんだもん「Include expected types in error messages to prevent repeats.」
+四国めたん「Debugging sharpens your guard accuracy.」
+ずんだもん「Observe `unknown` behavior and evolve your protections!」
+

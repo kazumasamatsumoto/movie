@@ -1,0 +1,7 @@
+四国めたん「External libraries sometimes return `any`, so treat that as an exception.」
+ずんだもん「Allow it temporarily until you can build a wrapper.」
+四国めたん「Confine it to a dedicated module.」
+ずんだもん「Add reasons to `eslint-disable` comments and log them for audits.」
+四国めたん「Only use vendor `any`s under guard.」
+ずんだもん「Manage boundaries carefully to control risk!」
+

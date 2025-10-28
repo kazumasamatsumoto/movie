@@ -1,0 +1,9 @@
+四国めたん「`Symbol.species` chooses the constructor returned by derived classes.」
+ずんだもん「Subclass an array and use it to control `map`’s return type.」
+四国めたん「Static getters returning the parent yield plain arrays.」
+ずんだもん「Promises also leverage `species` for chaining.」
+四国めたん「Define `static get [Symbol.species]()` in TypeScript.」
+ずんだもん「It preserves compatibility when extending libraries.」
+四国めたん「Use `Symbol.species` to adjust return types.」
+ずんだもん「It’s a powerful tool for collection extensions!」
+

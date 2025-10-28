@@ -1,0 +1,9 @@
+四国めたん「Divide BigInts with `/`; results truncate to integers.」
+ずんだもん「How about the remainder?」
+四国めたん「Use `%` to obtain it—no decimals are possible.」
+ずんだもん「Great for equitable splits with leftover handling.」
+四国めたん「Division by zero still throws.」
+ずんだもん「Trust BigInt division for safe integer calculations!」
+四国めたん「Bundling quotient and remainder in helpers is handy.」
+ずんだもん「Enjoy error-free division!」
+

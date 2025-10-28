@@ -1,0 +1,9 @@
+四国めたん「Let's finish with a master check on `never`.」
+ずんだもん「What have we covered?」
+四国めたん「Its definition, exhaustiveness, type algebra, and practical patterns—all of it.」
+ずんだもん「So we’ve really mastered it?」
+四国めたん「You now understand the empty set, unreachable flows, union elimination, and safety gains.」
+ずんだもん「These are essential for TypeScript development!」
+四国めたん「Armed with this, you can build type-safe applications confidently.」
+ずんだもん「I’ll apply it in practice for an awesome dev experience!」
+

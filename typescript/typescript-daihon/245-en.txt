@@ -1,0 +1,7 @@
+四国めたん「Let's study the inequality operators in TypeScript v5.9!」
+ずんだもん「What's the difference between != and !==?」
+四国めたん「`!=` compares after coercion, whereas `!==` checks inequality without converting types.」
+ずんだもん「So it's similar to the equality operators?」
+四国めたん「Exactly—`!==` is the recommended option that compares both type and value.」
+ずんだもん「Can you show an example?」
+四国めたん「`5 !== '5'` is true, while `5 != '5'` is false.」

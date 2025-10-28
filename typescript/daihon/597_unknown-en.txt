@@ -1,0 +1,7 @@
+四国めたん「Narrow `unknown` gradually for both safety and clarity.」
+ずんだもん「Start with `typeof`, then move to finer checks.」
+四国めたん「Breaking it into steps makes intent obvious.」
+ずんだもん「Drop logs along the way to aid debugging.」
+四国めたん「Plan fallbacks at each stage in case narrowing fails.」
+ずんだもん「Step-by-step narrowing builds resilient logic!」
+

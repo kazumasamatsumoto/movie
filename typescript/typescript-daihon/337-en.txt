@@ -1,0 +1,9 @@
+四国めたん「Let's learn about nullable return types!」
+ずんだもん「How do you use a nullable return value?」
+四国めたん「Return `T | null` to express “no result,” which is common in search functions.」
+ずんだもん「How should callers handle it?」
+四国めたん「They must check for `null`; optional chaining and Nullish Coalescing make that easy.」
+ずんだもん「I see! The type tells us when nothing was found!」
+四国めたん「Remember to distinguish it from `undefined`; `null` is an explicit “not found.”」
+ずんだもん「Types make the intent crystal clear!」
+

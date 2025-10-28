@@ -1,0 +1,7 @@
+四国めたん「A roadmap turns `any` removal into a long-term plan.」
+ずんだもん「Set quarterly goals and track progress.」
+四国めたん「Map dependencies and required refactors up front.」
+ずんだもん「Hold milestone review meetings for accountability.」
+四国めたん「A roadmap helps explain the effort to leadership and other teams.」
+ずんだもん「Plan ahead to steadily drive `any` down!」
+

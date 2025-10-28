@@ -1,0 +1,7 @@
+四国めたん「Type assertions are another tool for working with `unknown`.」
+ずんだもん「Like writing `value as string`.」
+四国めたん「Yes—but only use it when you have solid evidence.」
+ずんだもん「It’s great after tests or schema validation.」
+四国めたん「Overusing assertions collapses back to `any`, so stay cautious.」
+ずんだもん「Prove it first, then assert sparingly!」
+

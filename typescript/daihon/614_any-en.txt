@@ -1,0 +1,7 @@
+四国めたん「Instead of `any`, use `unknown`, unions, or generics.」
+ずんだもん「Pick meaningful types for each scenario to stay safe.」
+四国めたん「Receive as `unknown`, then narrow with guards and type parameters.」
+ずんだもん「Lean on type utilities whenever you can.」
+四国めたん「The more alternatives you know, the less you need `any`.」
+ずんだもん「Optimal typing lifts your quality across the board!」
+

@@ -1,0 +1,7 @@
+四国めたん「Second mistake: insufficient guards.」
+ずんだもん「Checking the top level but skipping inner properties.」
+四国めたん「Each nested level needs its own proof.」
+ずんだもん「Split guard helpers for clarity.」
+四国めたん「Half-hearted guards undermine safety.」
+ずんだもん「Narrow carefully to handle `unknown` securely!」
+

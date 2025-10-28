@@ -1,0 +1,7 @@
+四国めたん「`JSON.parse()` returns `any`, so watch out.」
+ずんだもん「Anything might come back—you need safeguards.」
+四国めたん「The recommended approach is to treat it as `unknown`.」
+ずんだもん「Write a wrapper so the whole project handles it consistently.」
+四国めたん「Use guards or schemas before using the value.」
+ずんだもん「Make type safety start at the JSON boundary!」
+

@@ -1,0 +1,9 @@
+四国めたん「`Number.MAX_SAFE_INTEGER` is the largest safe integer in JavaScript.」
+ずんだもん「9,007,199,254,740,991.」
+四国めたん「Beyond it, arithmetic breaks down.」
+ずんだもん「BigInt stays accurate past that limit.」
+四国めたん「Check the threshold and switch when needed.」
+ずんだもん「Knowing the limit guides design choices.」
+四国めたん「`MAX_SAFE_INTEGER` is a trigger for BigInt migration.」
+ずんだもん「Respect the boundary to protect precision!」
+

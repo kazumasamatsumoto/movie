@@ -1,0 +1,7 @@
+四国めたん「Step one: enable `noImplicitAny`.」
+ずんだもん「It blocks new implicit `any`s.」
+四国めたん「If you have legacy code, start with warnings.」
+ずんだもん「Enforce it in CI to prevent regressions.」
+四国めたん「This single setting yields big gains.」
+ずんだもん「Check your tsconfig right now!」
+

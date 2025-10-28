@@ -1,0 +1,9 @@
+四国めたん「Let's learn about `void` callback functions!」
+ずんだもん「How do callbacks use `void`?」
+四国めたん「For callbacks that don't return values, use `() => void` to state the intent.」
+ずんだもん「Where is that used?」
+四国めたん「Event handlers, async completion hooks, and `forEach` are classic examples.」
+ずんだもん「I see! They're all about performing work!」
+四国めたん「Even if they return something it's ignored—standard practice in TypeScript v5.9.」
+ずんだもん「The callback type becomes crystal clear!」
+

@@ -1,0 +1,9 @@
+四国めたん「`unique symbol` shines as tokens or discriminant properties.」
+ずんだもん「Great when crafting Angular-style injection tokens.」
+四国めたん「The type system guarantees identity.」
+ずんだもん「Use it for event kinds or state-machine identifiers too.」
+四国めたん「It fits internal identifiers you don’t want to expose.」
+ずんだもん「Learn the use cases and fold them into your design!」
+四国めたん「Let `unique symbol` encode your intent into the type system.」
+ずんだもん「Unique keys support safer architectures!」
+

@@ -1,0 +1,7 @@
+四国めたん「Let's explore practical uses of null!」
+ずんだもん「Where do we use null in real projects?」
+四国めたん「Database lookups, optional settings, API responses—whenever you need to say 'no value'.」
+ずんだもん「Do you have code examples?」
+四国めたん「Return null from find functions or initialize caches with null—combine it with null checks to stay safe.」
+ずんだもん「Makes sense—it clarifies absent data.」
+四国めたん「Angular services and DI layers rely on it frequently.」

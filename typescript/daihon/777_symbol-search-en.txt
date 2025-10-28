@@ -1,0 +1,9 @@
+四国めたん「`Symbol.search` hooks into `String.prototype.search`.」
+ずんだもん「Inject a custom search algorithm.」
+四国めたん「Implement `(text) => number`.」
+ずんだもん「Return `-1` when nothing matches.」
+四国めたん「It’s useful for complex matching like width-sensitive searches.」
+ずんだもん「Express search criteria with TypeScript safely.」
+四国めたん「`Symbol.search` unlocks flexible lookup logic.」
+ずんだもん「Keep it ready for advanced text handling!」
+

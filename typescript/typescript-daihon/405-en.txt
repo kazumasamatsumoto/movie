@@ -1,0 +1,9 @@
+四国めたん「Let's see what you can store in a variable of type `undefined`.」
+ずんだもん「What can you assign to an `undefined` variable?」
+四国めたん「Only `undefined`. It's effectively a literal type.」
+ずんだもん「How is that different from a `void` variable?」
+四国めたん「Conceptually similar, but the intent differs—`undefined` is meant to be used as a value.」
+ずんだもん「I see! But we don't use it alone much?」
+四国めたん「Right—you usually see it in unions like `T | undefined`.」
+ずんだもん「So there's a practical pattern for it!」
+

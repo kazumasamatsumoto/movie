@@ -1,0 +1,9 @@
+四国めたん「`Number.MIN_SAFE_INTEGER` is the smallest safe integer.」
+ずんだもん「-9,007,199,254,740,991.」
+四国めたん「Below that, rounding occurs.」
+ずんだもん「BigInt comfortably handles negative giants.」
+四国めたん「Use the threshold to decide when to switch.」
+ずんだもん「Helpful for negative IDs or balance calculations.」
+四国めたん「`MIN_SAFE_INTEGER` is another BigInt signal.」
+ずんだもん「Mind the lower bound to keep accuracy!」
+

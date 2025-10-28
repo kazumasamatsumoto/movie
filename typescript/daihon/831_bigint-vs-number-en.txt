@@ -1,0 +1,9 @@
+四国めたん「`bigint` handles integers only; `number` follows IEEE 754 double precision.」
+ずんだもん「So `number` covers everything from small ints to floats, but behaves differently.」
+四国めたん「Exactly—`bigint` offers arbitrary precision, yet can’t mix arithmetic with `number`.」
+ずんだもん「`number` has `NaN` and `Infinity`; `bigint` doesn’t.」
+四国めたん「They’re distinct types, so unions require conversions.」
+ずんだもん「Know the differences and choose wisely!」
+四国めたん「Pick precision and features per case.」
+ずんだもん「Distinguishing them safeguards accuracy!」
+

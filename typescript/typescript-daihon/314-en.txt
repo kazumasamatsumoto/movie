@@ -1,0 +1,9 @@
+四国めたん「Let's learn how to configure `strictNullChecks`!」
+ずんだもん「How do I enable it?」
+四国めたん「Set `strictNullChecks` to `true` under `compilerOptions` in `tsconfig.json`.」
+ずんだもん「Do I need any other settings?」
+四国めたん「Turning on the `strict` flag enables it automatically, which is the recommended setup.」
+ずんだもん「I see! `strict` flips it on all at once!」
+四国めたん「For new projects it's best practice to enable `strict`; it maximizes type safety.」
+ずんだもん「It's awesome that a single setting makes things type-safe!」
+

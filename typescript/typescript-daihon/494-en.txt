@@ -1,0 +1,9 @@
+四国めたん「Let's see real examples of infinite loops.」
+ずんだもん「Where do we use them?」
+四国めたん「WebSocket servers, task queues, monitoring processes.」
+ずんだもん「What does the code look like?」
+四国めたん「Waiting for requests, processing messages, watching state—constantly.」
+ずんだもん「So they’re resident programs!」
+四国めたん「You’ll meet them in Node.js and server apps—still common in TypeScript v5.9.」
+ずんだもん「A back-end staple!」
+

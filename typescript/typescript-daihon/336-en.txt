@@ -1,0 +1,9 @@
+四国めたん「Let's learn about nullable function parameters!」
+ずんだもん「How do you use nullable parameters?」
+四国めたん「Give the parameter a type like `T | null` so it can accept `null`, then check inside the function.」
+ずんだもん「How is that different from an optional parameter?」
+四国めたん「Nullable lets callers pass `null`, while optional means the argument can be omitted—a different intent.」
+ずんだもん「I see! We need to choose deliberately!」
+四国めたん「Use a type guard to branch on the value so everything stays safe.」
+ずんだもん「Defining functions type-safely is the best!」
+

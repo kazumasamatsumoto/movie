@@ -1,0 +1,7 @@
+四国めたん「Once `any` shows up, the inferred types quickly become `any` too.」
+ずんだもん「Like when one `any` sneaks into an array and it becomes `any[]`.」
+四国めたん「Exactly—generic constraints fall apart and safety disappears.」
+ずんだもん「The more you rely on inference, the more damage it does.」
+四国めたん「If you want to preserve inference, avoid `any` and catch values as `unknown`.」
+ずんだもん「Design with inference chains in mind!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let’s examine a symbol-based service registry.」
+ずんだもん「Each module registers with its own collision-free key.」
+四国めたん「State-machine flags can use symbols too.」
+ずんだもん「Redux action types implemented with symbols are another tactic.」
+四国めたん「Examples help cement the concept.」
+ずんだもん「Reading code makes the usage click.」
+四国めたん「Expand your repertoire and adopt symbols in your project.」
+ずんだもん「Bring symbol techniques into production!」
+

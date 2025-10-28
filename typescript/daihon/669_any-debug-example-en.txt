@@ -1,0 +1,7 @@
+四国めたん「Another example: debugging time ballooned due to `any`.」
+ずんだもん「A log property was `undefined`; root cause took hours.」
+四国めたん「No type info, so IDE couldn’t trace references.」
+ずんだもん「With `unknown` guards, the error would surface immediately.」
+四国めたん「This proved how much debugging relies on types.」
+ずんだもん「Use incidents to justify removing `any`!」
+

@@ -1,0 +1,7 @@
+四国めたん「Let’s wrap up the migration from `any` to `unknown`.」
+ずんだもん「Boundary `unknown`, guards and validation, strict settings—that trio.」
+四国めたん「Don’t forget gradual migration and tool support.」
+ずんだもん「Use real-world examples to guide your own project.」
+四国めたん「The ultimate goal is cultivating a culture of type safety.」
+ずんだもん「Armed with this summary, we can graduate from `any`!」
+

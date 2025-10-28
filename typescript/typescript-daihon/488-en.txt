@@ -1,0 +1,9 @@
+四国めたん「Let's learn about error boundaries.」
+ずんだもん「What are those?」
+四国めたん「A way to catch errors at defined boundaries so the whole app doesn’t crash.」
+ずんだもん「How do I implement them?」
+四国めたん「Wrap sections in `try`-`catch`; in React you build them as components.」
+ずんだもん「So they isolate failures!」
+四国めたん「They improve user experience—a vital pattern in TypeScript v5.9.」
+ずんだもん「Great for robust apps!」
+

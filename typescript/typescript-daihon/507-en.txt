@@ -1,0 +1,9 @@
+四国めたん「Let's leverage unreachable-code detection.」
+ずんだもん「What is that exactly?」
+四国めたん「The compiler finds code that can never run thanks to type inference.」
+ずんだもん「How is it detected?」
+四国めたん「Once execution hits `never`, anything afterward is marked unreachable.」
+ずんだもん「So dead code is spotted automatically!」
+四国めたん「That helps us remove bugs and cruft earlier.」
+ずんだもん「Code reviews benefit too!」
+

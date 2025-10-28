@@ -1,0 +1,9 @@
+四国めたん「In real code, symbols avoid collisions between plugins.」
+ずんだもん「Nest.js guards or interceptors can stash metadata with them.」
+四国めたん「They make event-handler IDs trivial.」
+ずんだもん「React context keys or Redux markers also leverage symbols.」
+四国めたん「They suit hidden configuration flags as well.」
+ずんだもん「Even test doubles can use symbol identifiers.」
+四国めたん「Memorize patterns and apply them widely.」
+ずんだもん「Try symbol-driven designs in your projects!」
+

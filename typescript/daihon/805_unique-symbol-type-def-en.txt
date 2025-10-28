@@ -1,0 +1,9 @@
+四国めたん「In type definitions, declare literal symbols with `declare const`.」
+ずんだもん「Then reuse them in aliases or interface keys.」
+四国めたん「Reference the value with `typeof`.」
+ずんだもん「Prepare your public typings to handle `unique symbol`.」
+四国めたん「Explicitly marking uniqueness reassures consumers.」
+ずんだもん「Document the role of each key too.」
+四国めたん「Shape your type definitions to share `unique symbol`.」
+ずんだもん「Let the type convey the design intent!」
+

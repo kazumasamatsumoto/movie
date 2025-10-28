@@ -1,0 +1,9 @@
+四国めたん「Let's apply exhaustiveness to union types.」
+ずんだもん「Can we check unions too?」
+四国めたん「Yes—ensure every variant is handled by narrowing the type.」
+ずんだもん「How do we narrow it?」
+四国めたん「Use `typeof`, `instanceof`, or discriminants; when the remainder is `never`, you’re done.」
+ずんだもん「So we eliminate them one by one!」
+四国めたん「Control-flow analysis handles the rest—it’s very powerful in TypeScript v5.9.」
+ずんだもん「The type system is clever!」
+

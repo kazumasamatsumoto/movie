@@ -1,0 +1,9 @@
+四国めたん「Let's see what happens to `void` and `undefined` under `strictNullChecks`.」
+ずんだもん「What changes with `strictNullChecks`?」
+四国めたん「A `void` variable can only hold `undefined`; `null` is rejected.」
+ずんだもん「And for `undefined`?」
+四国めたん「Same story—only `undefined` fits. The types get stricter.」
+ずんだもん「Got it! That makes things safer!」
+四国めたん「`strictNullChecks` is a must-have setting, still recommended in TypeScript v5.9.」
+ずんだもん「It really boosts type safety!」
+

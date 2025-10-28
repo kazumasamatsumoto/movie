@@ -1,0 +1,9 @@
+四国めたん「Let's learn about third-party libraries and `strictNullChecks`!」
+ずんだもん「How do we deal with external libraries?」
+四国めたん「If their `@types` packages support it you're fine; otherwise you provide the missing types yourself.」
+ずんだもん「What if no type definitions exist?」
+四国めたん「Declare them in a `.d.ts` file or temporarily enable `skipLibCheck`—but that's only a stopgap.」
+ずんだもん「Got it! So we write the typings ourselves!」
+四国めたん「You can even contribute them to DefinitelyTyped and help the community.」
+ずんだもん「Making the ecosystem type-safe together is the best!」
+

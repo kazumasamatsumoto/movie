@@ -1,0 +1,9 @@
+四国めたん「Let's learn about assigning `null` to nullable types!」
+ずんだもん「What should I watch for when assigning `null`?」
+四国めたん「You can do it only if the type is declared nullable; ordinary types reject it.」
+ずんだもん「How do I decide which to use?」
+四国めたん「Assign `null` when you need to signal “no data.” Distinguish it from `undefined`.」
+ずんだもん「I see! It clarifies intent!」
+四国めたん「After storing `null`, add a type guard before you access the value again.」
+ずんだもん「Type-safe `null` handling is the best!」
+

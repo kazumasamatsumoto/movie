@@ -1,0 +1,9 @@
+四国めたん「Let's apply `never` to Angular guards.」
+ずんだもん「How do guards use it?」
+四国めたん「In route guard return types you can model impossible states with `never`.」
+ずんだもん「What does that look like?」
+四国めたん「Typing `CanActivate` as `Observable<boolean | UrlTree | never>` ensures error states stay type-safe.」
+ずんだもん「So navigation logic stays safe!」
+四国めたん「Pair it with exhaustiveness checks to cover every scenario.」
+ずんだもん「Routing quality goes up!」
+

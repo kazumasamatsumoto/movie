@@ -1,0 +1,7 @@
+四国めたん「Remember: you can’t operate on `unknown` directly.」
+ずんだもん「Property access and operators are all blocked by the compiler.」
+四国めたん「Exactly—always insert a guard or assertion first.」
+ずんだもん「Those restrictions are what keep us safe.」
+四国めたん「Let the editor’s errors catch any slip-ups.」
+ずんだもん「And share the rule across the team for peace of mind.」
+

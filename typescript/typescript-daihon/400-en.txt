@@ -1,0 +1,9 @@
+四国めたん「Let's wrap up `void` functions!」
+ずんだもん「What are the key points of `void` functions?」
+四国めたん「Use them for functions that return nothing or whose return is ignored—they represent side effects.」
+ずんだもん「How do we write them?」
+四国めたん「Omit the return or write `return;`; `throw` works, and `undefined` is allowed.」
+ずんだもん「I see! Many ways to express it!」
+四国めたん「They power callbacks, event handlers, and class methods; writing `void` explicitly clarifies intent—a staple pattern in TypeScript v5.9.」
+ずんだもん「`void` keeps every function's role crystal clear!」
+

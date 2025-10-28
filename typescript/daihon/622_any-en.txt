@@ -1,0 +1,7 @@
+四国めたん「Validation is indispensable when dealing with `unknown`.」
+ずんだもん「Combine type guards, schemas, and assert helpers.」
+四国めたん「Exactly—and plan clear error handling for failures.」
+ずんだもん「A shared validation layer makes reuse easy.」
+四国めたん「Validation accelerates the escape from `any`.」
+ずんだもん「Build safe boundaries and develop with peace of mind!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's explore practical uses of `Promise<void>`.」
+ずんだもん「Where do we use it?」
+四国めたん「For data saves, initialization, cleanup, logging—any task where completion is all that matters.」
+ずんだもん「How do we write that?」
+四国めたん「Use `async`/`await` to run async work sequentially; you can chain multiple tasks together.」
+ずんだもん「Nice! We can await several tasks!」
+四国めたん「Lifecycle hooks and middleware rely on it too—it’s a standard TypeScript v5.9 pattern.」
+ずんだもん「So many places use it!」
+

@@ -1,0 +1,7 @@
+四国めたん「Runtime checks are essential for safe `unknown`.」
+ずんだもん「Types cover compile time; checks cover runtime.」
+四国めたん「Use guard functions, schemas, and assert helpers.」
+ずんだもん「Even complex data feels manageable with checks.」
+四国めたん「Tie runtime checks into your test suite.」
+ずんだもん「Let compile-time and runtime work together for safety!」
+

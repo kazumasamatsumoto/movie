@@ -1,0 +1,7 @@
+四国めたん「Replace `any` in shared utilities with generics.」
+ずんだもん「Type parameters propagate caller types.」
+四国めたん「Add `extends` constraints for safe abstraction.」
+ずんだもん「Utility functions become far more robust.」
+四国めたん「Generics balance reuse and safety.」
+ずんだもん「Aim for abstractions free of `any`!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's explore real-world patterns in Angular and Nest.js.」
+ずんだもん「How do we apply this in projects?」
+四国めたん「Use exhaustiveness checks in state management, API calls, and error handling.」
+ずんだもん「Show me some patterns!」
+四国めたん「NgRx reducers, HTTP interceptors, and exception filters all benefit from type safety.」
+ずんだもん「So the entire app stays type-safe!」
+四国めたん「Combining design patterns with the type system raises robustness.」
+ずんだもん「Enterprise best practices for sure!」
+

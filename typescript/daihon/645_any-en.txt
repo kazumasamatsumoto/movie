@@ -1,0 +1,7 @@
+四国めたん「`any` accepts every value.」
+ずんだもん「Primitives, objects, promises—anything goes.」
+四国めたん「No constraints mean you can swap values freely.」
+ずんだもん「But that freedom costs you type information.」
+四国めたん「Remember the risk behind the flexibility.」
+ずんだもん「Consider switching to `unknown` for safety!」
+

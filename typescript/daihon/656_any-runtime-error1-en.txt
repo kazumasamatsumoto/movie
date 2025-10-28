@@ -1,0 +1,7 @@
+四国めたん「A classic `any` runtime error is reading missing properties.」
+ずんだもん「`payload.user.name`, but `user` is undefined.」
+四国めたん「The compiler won’t stop it, so production crashes.」
+ずんだもん「`unknown` forces you to guard first.」
+四国めたん「Property access exposes the danger of `any`.」
+ずんだもん「Swap to `unknown` ASAP!」
+

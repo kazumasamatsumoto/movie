@@ -1,0 +1,9 @@
+四国めたん「Let's compare `never` and `void`.」
+ずんだもん「How do they differ?」
+四国めたん「`void` returns control; `never` does not. Completely different ideas.」
+ずんだもん「What does that look like?」
+四国めたん「A `void` function finishes normally; a `never` function throws or loops forever.」
+ずんだもん「So they exit differently!」
+四国めたん「`void` yields `undefined`, while `never` yields nothing—TypeScript v5.9 keeps them distinct.」
+ずんだもん「Using the right one matters!」
+

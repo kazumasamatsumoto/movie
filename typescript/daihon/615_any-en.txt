@@ -1,0 +1,7 @@
+四国めたん「Let’s compare `any` and `unknown`.」
+ずんだもん「`any` is freedom with danger; `unknown` is safety with constraints.」
+四国めたん「Both accept any value, but only `any` lets you operate freely.」
+ずんだもん「Make `unknown` the default and reserve `any` for rare cases.」
+四国めたん「A comparison table helps the team understand the trade-offs.」
+ずんだもん「Know the pros and cons before you choose!」
+

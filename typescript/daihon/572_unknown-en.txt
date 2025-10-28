@@ -1,0 +1,7 @@
+四国めたん「Adopt team rules that require type checks when using `unknown`.」
+ずんだもん「Enable ESLint’s no-unsafe rules to enforce it automatically.」
+四国めたん「During reviews, confirm every guard or assertion is in place.」
+ずんだもん「Provide template helpers so nobody is tempted to skip them.」
+四国めたん「Mandatory checks are the key to leveraging `unknown`.」
+ずんだもん「Institutionalize a safety-first development flow!」
+

@@ -1,0 +1,7 @@
+四国めたん「`any` heavy code is hard to maintain.」
+ずんだもん「Impact is unknown, confidence is low.」
+四国めたん「Reviews become harder and slower.」
+ずんだもん「Strict types make impact tracking easy.」
+四国めたん「Cutting `any` protects maintainability.」
+ずんだもん「Plan for long-term upkeep with type safety!」
+

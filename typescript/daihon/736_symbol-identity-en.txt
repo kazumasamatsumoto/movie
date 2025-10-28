@@ -1,0 +1,9 @@
+四国めたん「A symbol stays unique unless you reassign the variable.」
+ずんだもん「Drop it into a `Set`—you’ll never see duplicates.」
+四国めたん「`Object.is` and `===` behave the same: different creations never match.」
+ずんだもん「Great for safely identifying events or metadata.」
+四国めたん「Even identical descriptions won’t break uniqueness.」
+ずんだもん「It prevents collisions in large, collaborative teams.」
+四国めたん「Combine it with `unique symbol` for static guarantees too.」
+ずんだもん「Guard uniqueness on both the implementation and type fronts!」
+

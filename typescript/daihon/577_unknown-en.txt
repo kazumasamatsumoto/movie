@@ -1,0 +1,7 @@
+四国めたん「Lay out a clear procedure for handling `unknown`.」
+ずんだもん「Receive → validate → transform → use—that flow.」
+四国めたん「Add logging and fallbacks for extra resilience.」
+ずんだもん「Shared helpers reduce mistakes.」
+四国めたん「Document the safe handling steps for the whole team.」
+ずんだもん「Refine it in practice so everyone stays aligned!」
+

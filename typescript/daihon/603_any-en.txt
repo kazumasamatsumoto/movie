@@ -1,0 +1,7 @@
+四国めたん「`unknown` preserves `any`’s flexibility while staying safe.」
+ずんだもん「Because you can’t operate directly—you need guards.」
+四国めたん「Exactly—static checks block risky operations.」
+ずんだもん「Inference also remains intact, which boosts maintainability.」
+四国めたん「Build your codebase around `unknown` to keep type safety strong.」
+ずんだもん「Flexible yet safe—that’s the charm of `unknown`!」
+

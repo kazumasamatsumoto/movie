@@ -1,0 +1,7 @@
+四国めたん「Let's learn about the boolean type in TypeScript v5.9!」
+ずんだもん「What is the boolean type?」
+四国めたん「It's a type that represents truthy values—only true or false.」
+ずんだもん「Where do we use it?」
+四国めたん「It drives conditionals, flag management, and state handling.」
+ずんだもん「Is it important for Angular development too?」
+四国めたん「Absolutely—it is fundamental for managing component state.」

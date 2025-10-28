@@ -1,0 +1,7 @@
+四国めたん「First step: swap `any` for `unknown` and add guards.」
+ずんだもん「Compile errors highlight missing guards.」
+四国めたん「Convert at static boundaries, then narrow safely.」
+ずんだもん「Existing code needs minimal change for big gains.」
+四国めたん「`unknown` is the ideal first phase.」
+ずんだもん「Try it now and edge closer to safety!」
+

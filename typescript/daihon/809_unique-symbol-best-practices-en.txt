@@ -1,0 +1,9 @@
+四国めたん「Manage `unique symbol`s in a single definition file.」
+ずんだもん「Redefining them breaks type equality.」
+四国めたん「Const-asserted lists plus reusable types are the go-to setup.」
+ずんだもん「Expose public APIs through type aliases.」
+四国めたん「Use `never` checks to verify discriminant unions.」
+ずんだもん「Follow best practices to operate `unique symbol` confidently!」
+四国めたん「Pair documentation and tests for every token.」
+ずんだもん「Lock in the rules across the team!」
+

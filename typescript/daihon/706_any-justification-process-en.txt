@@ -1,0 +1,7 @@
+四国めたん「Run a justification process before using `any`.」
+ずんだもん「Spell out reasons, alternatives, deadlines, scope.」
+四国めたん「Seek approval via architecture reviews or tech committees.」
+ずんだもん「Assign responsibility so nothing gets forgotten.」
+四国めたん「Following process keeps exceptions transparent.」
+ずんだもん「If it’s a hassle, you’ll only use it when truly needed!」
+

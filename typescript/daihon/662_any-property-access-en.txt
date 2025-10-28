@@ -1,0 +1,7 @@
+四国めたん「Property access on `any` also slips by, real or not.」
+ずんだもん「A typo leaves you with `undefined` in production.」
+四国めたん「Convert to concrete types before touching properties.」
+ずんだもん「Use guards or schema validation for safety.」
+四国めたん「Guard property access with `unknown`.」
+ずんだもん「Let static checks prevent accidents!」
+

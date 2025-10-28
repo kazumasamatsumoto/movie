@@ -1,0 +1,7 @@
+四国めたん「`x instanceof Error` narrows to the `Error` type.」
+ずんだもん「Perfect for handling `try`/`catch` errors safely.」
+四国めたん「Check before touching `message` or `stack`.」
+ずんだもん「Custom errors that extend `Error` work seamlessly too.」
+四国めたん「It dramatically improves the safety of error boundaries.」
+ずんだもん「Logging stays type-safe as well!」
+

@@ -1,0 +1,7 @@
+四国めたん「Treat user input as `unknown` and validate it.」
+ずんだもん「Forms and URL parameters can contain anything.」
+四国めたん「Check the type—string, number, or otherwise—before use.」
+ずんだもん「Shared validation functions make development easier.」
+四国めたん「Secure input boundaries strengthen the entire app.」
+ずんだもん「Make `unknown` the starting point for input safety!」
+

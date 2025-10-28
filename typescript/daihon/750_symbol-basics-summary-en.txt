@@ -1,0 +1,9 @@
+四国めたん「Let’s recap the essentials of `symbol`.」
+ずんだもん「It’s a unique primitive—same description, different value.」
+四国めたん「As property keys, it keeps members out of enumeration.」
+ずんだもん「`unique symbol` comes from `const` declarations.」
+四国めたん「Understand `typeof` and the hierarchy to predict inference.」
+ずんだもん「Remember the patterns so frameworks can benefit.」
+四国めたん「Next up: shared symbols via `Symbol.for`.」
+ずんだもん「Time to dig even deeper!」
+

@@ -1,0 +1,7 @@
+四国めたん「Lean too heavily on `any` and static guarantees collapse.」
+ずんだもん「Errors only surface at runtime, right?」
+四国めたん「Yes—IDE completion vanishes and typos slip by.」
+ずんだもん「Reviews also miss unintended bugs more easily.」
+四国めたん「In safety-conscious development, keep `any` to a bare minimum.」
+ずんだもん「Know the risks and switch to `unknown` or concrete types!」
+

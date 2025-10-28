@@ -1,0 +1,7 @@
+四国めたん「Second batch of examples: service layers and workers.」
+ずんだもん「Convert services to DTOs, validate worker messages.」
+四国めたん「Use type guards and Zod for resilience.」
+ずんだもん「Log raw `unknown` data to preserve context.」
+四国めたん「Even complex architectures stay safe when anchored in `unknown`.」
+ずんだもん「Picture how it fits in your production systems!」
+

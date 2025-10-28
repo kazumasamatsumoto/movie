@@ -1,0 +1,7 @@
+四国めたん「TypeScript introduced `unknown` to raise the bar on type safety.」
+ずんだもん「Too many bugs were leaking in through `any`, right?」
+四国めたん「Yes—`unknown` keeps the flexibility of a top type while enforcing validation.」
+ずんだもん「If we standardize on `unknown`, teams stay safer.」
+四国めたん「Static-analysis tools also optimize under the assumption of `unknown`.」
+ずんだもん「It’s a safeguard that preserves the culture of strong typing!」
+

@@ -1,0 +1,7 @@
+四国めたん「We can summarize the `unknown` workflow in three steps.」
+ずんだもん「Receive it, guard it, return the narrowed result.」
+四国めたん「Exactly—and add assertions or defaults when needed.」
+ずんだもん「Turn it into a template so implementations go faster.」
+四国めたん「Start by writing guards at the input boundary every time.」
+ずんだもん「A safe pipeline boosts maintainability!」
+

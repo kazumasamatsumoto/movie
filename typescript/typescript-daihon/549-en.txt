@@ -1,0 +1,9 @@
+四国めたん「Let's compile best practices for `never`.」
+ずんだもん「How should we use it?」
+四国めたん「Unify on an `exhaustiveCheck`, use discriminated unions, and apply type guards diligently.」
+ずんだもん「Any concrete advice?」
+四国めたん「Share helper functions project-wide and ensure every branch passes the check.」
+ずんだもん「That keeps the whole team consistent!」
+四国めたん「Pair it with ESLint rules to raise quality even further.」
+ずんだもん「We’ll build a culture of type-safe development!」
+

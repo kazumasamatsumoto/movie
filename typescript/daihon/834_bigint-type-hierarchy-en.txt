@@ -1,0 +1,9 @@
+四国めたん「In TypeScript’s hierarchy, `bigint` is a primitive type.」
+ずんだもん「It’s incompatible with `number`.」
+四国めたん「You can assign it to `unknown` or `any`, but not to `number`.」
+ずんだもん「`never` is still a subtype of `bigint`.」
+四国めたん「Use conversion logic when building `bigint | number` unions.」
+ずんだもん「Grasp the hierarchy and prevent compile errors!」
+四国めたん「Knowing its position eases design.」
+ずんだもん「Keep the hierarchy top of mind!」
+

@@ -1,0 +1,9 @@
+四国めたん「Imagine concrete scenarios in production.」
+ずんだもん「Balances in finance systems, bigint columns in legacy DBs.」
+四国めたん「Carry-over computations and accumulator metrics benefit as well.」
+ずんだもん「APIs returning large IDs as strings need reconversion.」
+四国めたん「It stabilizes log counts or access totals too.」
+ずんだもん「Plan the type design with scenarios in mind.」
+四国めたん「Share adoption points across the team.」
+ずんだもん「Define the usage spots before migrating!」
+

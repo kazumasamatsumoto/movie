@@ -1,0 +1,7 @@
+四国めたん「Switching from `any` to `unknown` raises type safety.」
+ずんだもん「First change the annotation, then add guards, right?」
+四国めたん「Yes—replace, fix compile errors, then run tests.」
+ずんだもん「Lint rules like `no-unsafe` highlight what needs fixing.」
+四国めたん「Even gradual conversion pays off, so start soon.」
+ずんだもん「A shared migration guide keeps the team aligned!」
+

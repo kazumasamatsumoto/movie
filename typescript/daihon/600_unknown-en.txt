@@ -1,0 +1,7 @@
+四国めたん「Let’s wrap up the guards that protect `unknown`.」
+ずんだもん「`typeof`, `instanceof`, `in`, `Array.isArray`, and custom guards.」
+四国めたん「Exactly—mix them as needed to tame any data.」
+ずんだもん「Don’t forget to encode them as type predicates for reuse.」
+四国めたん「Well-designed, well-tested guards raise type safety across the board.」
+ずんだもん「Put the summary into practice and make `unknown` your ally!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's learn about error handling in `void` functions!」
+ずんだもん「How do you handle errors there?」
+四国めたん「Use `throw`—raising an exception aligns with the `void` type.」
+ずんだもん「So we don't rely on `return`?」
+四国めたん「Use `throw` for errors and `return` for normal exits so the flow stays clear.」
+ずんだもん「I see! It separates error and success paths!」
+四国めたん「Wrap it with `try-catch` to manage errors—the same pattern applies in TypeScript v5.9.」
+ずんだもん「We can handle errors safely!」
+

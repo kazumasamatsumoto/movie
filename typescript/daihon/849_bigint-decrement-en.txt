@@ -1,0 +1,9 @@
+四国めたん「Decrement BigInts with `--`.」
+ずんだもん「Prefix and postfix behave just like `number`.」
+四国めたん「Perfect for countdowns or remaining tasks.」
+ずんだもん「Going below `0n` still preserves accuracy.」
+四国めたん「Add lower-bound checks if necessary.」
+ずんだもん「Use `--` to adjust BigInt safely!」
+四国めたん「Keep `number` mixing off the table.」
+ずんだもん「Maintain accuracy while counting down!」
+

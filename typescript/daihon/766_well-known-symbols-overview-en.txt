@@ -1,0 +1,9 @@
+四国めたん「Well-known symbols are reserved identifiers in the spec.」
+ずんだもん「Like `Symbol.iterator` or `Symbol.toStringTag`.」
+四国めたん「They act as hooks to customize language behavior.」
+ずんだもん「TypeScript ships typings for them out of the box.」
+四国めたん「Knowing them clarifies framework internals.」
+ずんだもん「You can align custom collections with standard protocols.」
+四国めたん「Learn them so you can extend the language safely.」
+ずんだもん「Understand the mechanism and dynamic behavior won’t scare you!」
+

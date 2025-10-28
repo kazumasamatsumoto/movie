@@ -1,0 +1,7 @@
+四国めたん「Let's learn about the [disabled] attribute in TypeScript v5.9!」
+ずんだもん「How do we use [disabled]?」
+四国めたん「Bind a boolean value to enable or disable buttons and form controls.」
+ずんだもん「How do we write it in Angular?」
+四国めたん「Use a property binding like `[disabled]="isDisabled"`.」
+ずんだもん「Can we toggle it dynamically?」
+四国めたん「Absolutely—change the boolean property and the UI updates immediately.」

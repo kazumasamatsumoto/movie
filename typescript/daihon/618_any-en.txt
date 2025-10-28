@@ -1,0 +1,7 @@
+四国めたん「Receive API responses as `unknown` and convert them safely.」
+ずんだもん「The server might send anything.」
+四国めたん「Guard or schema-verify, then map to DTOs.」
+ずんだもん「Even error responses become straightforward to handle.」
+四国めたん「A shared pipeline means the whole team benefits.」
+ずんだもん「Commit to `unknown → concrete` at the API layer!」
+

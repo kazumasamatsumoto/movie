@@ -1,0 +1,7 @@
+四国めたん「When built-ins fall short, create custom utilities.」
+ずんだもん「Write type-level functions tailored to your domain.」
+四国めたん「Combine conditional and mapped types for powerful tools.」
+ずんだもん「Achieve flexible transformations without `any`.」
+四国めたん「Shared custom utilities strengthen type culture.」
+ずんだもん「Grow a reusable type toolkit!」
+

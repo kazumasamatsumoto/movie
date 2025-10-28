@@ -1,0 +1,9 @@
+四国めたん「Let’s walk through practical BigInt examples.」
+ずんだもん「Distributed ID generation and huge summations, please!」
+四国めたん「We’ll also handle invoice numbers as BigInt.」
+ずんだもん「TypeScript stops type mixing mistakes.」
+四国めたん「Use the examples to visualize adoption.」
+ずんだもん「Big integers won’t intimidate you anymore!」
+四国めたん「Adapt the code to your codebase.」
+ずんだもん「Bring BigInt into production!」
+

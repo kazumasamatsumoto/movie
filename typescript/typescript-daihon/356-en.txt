@@ -1,0 +1,9 @@
+四国めたん「Let's learn the difference between `??` and `||`!」
+ずんだもん「How do they differ?」
+四国めたん「`||` treats any falsy value—`0`, `''`, `false`, `null`, `undefined`—as missing; `??` only sees `null` and `undefined`.」
+ずんだもん「How should I choose between them?」
+四国めたん「When `0` or empty strings are legitimate, use `??`; it spells out your intent.」
+ずんだもん「I see! That prevents surprises!」
+四国めたん「It's especially crucial for numeric and boolean defaults, and TypeScript v5.9 favors `??`.」
+ずんだもん「Accurate checks are the best!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's catalog `never`-powered type-level patterns.」
+ずんだもん「Which patterns are common?」
+四国めたん「Filtering, mapping, reducing, and pattern matching all have type-level counterparts.」
+ずんだもん「How do we implement them?」
+四国めたん「Combine conditional types with `never` to mimic functional-programming idioms.」
+ずんだもん「So FP ideas work at the type level too!」
+四国めたん「Master these transforms to achieve stronger static safety in TypeScript v5.9.」
+ずんだもん「I'll practice and use them everywhere!」
+

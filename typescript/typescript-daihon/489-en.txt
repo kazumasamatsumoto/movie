@@ -1,0 +1,9 @@
+四国めたん「Let's collect best practices for `never`.」
+ずんだもん「What should I remember?」
+四国めたん「Annotate types explicitly, write detailed error messages, and leverage exhaustive checks.」
+ずんだもん「Anything else?」
+四国めたん「Define custom errors, catch them properly, and include debugging info.」
+ずんだもん「So thoughtful error handling is key!」
+四国めたん「It balances safety and maintainability—a recommended path in TypeScript v5.9.」
+ずんだもん「Best practices keep us safe!」
+

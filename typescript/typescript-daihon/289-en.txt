@@ -1,0 +1,9 @@
+四国めたん「Let's learn about the Nullish Coalescing operator `??`!」
+ずんだもん「What does the `??` operator do?」
+四国めたん「It returns a default value only when the target is `null` or `undefined`. Unlike `||`, it permits `0` and empty strings。」
+ずんだもん「Tell me how it's different from `||`!」
+四国めたん「`||` returns the default for every falsy value, whereas `??` only does so for `null` and `undefined`。」
+ずんだもん「I see! That lets me check for null precisely!」
+四国めたん「You can also use the `??=` assignment operator. Type inference was improved in TypeScript v5.9。」
+ずんだもん「It's awesome to set default values in a type-safe way!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's learn about TypeScript's `undefined` type!」
+ずんだもん「What kind of type is `undefined`?」
+四国めたん「It represents variables that are uninitialized or whose value is undefined. It matches JavaScript's `undefined`。」
+ずんだもん「Is it different from `null`?」
+四国めたん「Yes—`undefined` means not yet defined, while `null` is an explicit empty value. `strictNullChecks` separates them。」
+ずんだもん「I see! So it shows up when something isn't initialized!」
+四国めたん「You encounter it with optional properties, function returns, and when reading missing properties。」
+ずんだもん「Handling `undefined` type-safely is so convenient!」
+

@@ -1,0 +1,7 @@
+四国めたん「Whenever you work with `unknown`, a type check is mandatory.」
+ずんだもん「The compiler stops you if you skip `typeof` or `instanceof`, right?」
+四国めたん「Exactly—only inside a checked block can you use it safely.」
+ずんだもん「Designing reusable type guards boosts maintainability.」
+四国めたん「Make guard-or-assertion a project rule.」
+ずんだもん「And bake guard checks into code reviews so none get missed.」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's cover the risks of infinite loops.」
+ずんだもん「Aren’t they dangerous?」
+四国めたん「They can hog CPU, so you need proper waiting or blocking.」
+ずんだもん「How do we handle that?」
+四国めたん「Use `sleep()` or `await` to yield the CPU and manage resources carefully.」
+ずんだもん「So efficient design matters!」
+四国めたん「Watch for memory leaks and deadlocks—the risks stay the same in TypeScript v5.9.」
+ずんだもん「Implement them with care!」
+

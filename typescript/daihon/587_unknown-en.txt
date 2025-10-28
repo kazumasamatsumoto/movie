@@ -1,0 +1,7 @@
+四国めたん「`x instanceof Date` confirms whether `unknown` is a `Date`.」
+ずんだもん「Useful when API data might be a date string.」
+四国めたん「Permit only `Date` instances, then call the methods freely.」
+ずんだもん「If it’s a string, route it to parsing instead.」
+四国めたん「Make the check routine before running time calculations.」
+ずんだもん「Your time-series logic will thank you!」
+

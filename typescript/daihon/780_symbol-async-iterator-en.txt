@@ -1,0 +1,9 @@
+四国めたん「`Symbol.asyncIterator` exposes asynchronous iteration.」
+ずんだもん「It unlocks `for await...of`.」
+四国めたん「Implement `next()` returning a Promise, or use async generators.」
+ずんだもん「Great for taming polling workflows.」
+四国めたん「Annotate it with `AsyncIterator<T>` in TypeScript.」
+ずんだもん「Perfect for abstracting async streams.」
+四国めたん「Use `Symbol.asyncIterator` to control asynchronous flows.」
+ずんだもん「It even supports reactive programming use cases!」
+

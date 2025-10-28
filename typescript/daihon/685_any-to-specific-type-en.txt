@@ -1,0 +1,7 @@
+四国めたん「Next, map `unknown` to specific domain types.」
+ずんだもん「Define DTOs or interfaces and fix the shape.」
+四国めたん「Typing unlocks completion and easy refactors.」
+ずんだもん「Generate types from schemas or tables when possible.」
+四国めたん「Proper types dramatically improve maintainability.」
+ずんだもん「Reflect domain knowledge in your types!」
+

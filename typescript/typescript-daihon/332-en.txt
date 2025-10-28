@@ -1,0 +1,9 @@
+四国めたん「Let's learn about Nullish Coalescing!」
+ずんだもん「What does `??` do?」
+四国めたん「It returns a default only when the left side is `null` or `undefined`, so `0` and empty strings stay valid.」
+ずんだもん「How is it different from `||`?」
+四国めたん「`||` treats any falsy value as missing, but `??` cares only about `null` and `undefined`.」
+ずんだもん「I see! It checks strictly!」
+四国めたん「It's perfect for nullable types, and TypeScript v5.9 improved the inference around it.」
+ずんだもん「Setting defaults safely is the best!」
+

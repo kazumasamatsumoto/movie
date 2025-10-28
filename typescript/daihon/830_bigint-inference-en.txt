@@ -1,0 +1,9 @@
+四国めたん「Const bigint literals infer literal types; `let` widens to `bigint`.」
+ずんだもん「Same behavior as numbers—reassignment drives widening.」
+四国めたん「`BigInt()` returns infer as `bigint`.」
+ずんだもん「Generics can constrain with `extends bigint`.」
+四国めたん「Knowing the inference rules keeps annotations minimal.」
+ずんだもん「Leverage inference to handle bigint elegantly!」
+四国めたん「Remember it’s distinct from `unique symbol`.」
+ずんだもん「Master the inference patterns!」
+

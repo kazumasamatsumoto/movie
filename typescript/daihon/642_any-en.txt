@@ -1,0 +1,7 @@
+四国めたん「Using `any` disables TypeScript’s type checking.」
+ずんだもん「Editor hints vanish and runtime errors hide until execution.」
+四国めたん「It’s like turning off the safety mechanisms yourself.」
+ずんだもん「If you value static analysis, choose `unknown` or concrete types.」
+四国めたん「Keep in mind that `any` forfeits compiler protection.」
+ずんだもん「Remember it’s a trade-off with safety!」
+

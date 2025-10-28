@@ -1,0 +1,7 @@
+四国めたん「In Nest.js, treat the request body as `unknown` for safety.」
+ずんだもん「`@Body() data: any` turns off checks, right?」
+四国めたん「Exactly—catch it as `unknown` before passing to DTOs or pipes.」
+ずんだもん「Guard and transform it into the expected type first.」
+四国めたん「Frameworks still benefit from type-safe boundaries.」
+ずんだもん「Bring the `unknown` mindset into Nest request handling!」
+

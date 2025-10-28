@@ -1,0 +1,9 @@
+四国めたん「Let's see where `never` sits in the type hierarchy.」
+ずんだもん「Where does it belong?」
+四国めたん「At the very bottom as the bottom type—it's a subtype of every type.」
+ずんだもん「What does that imply?」
+四国めたん「You can assign `never` to any type, but not the other way around.」
+ずんだもん「So it only goes one way!」
+四国めたん「Because it represents the empty set, it lives inside every type—even in TypeScript v5.9.」
+ずんだもん「Foundational type theory!」
+

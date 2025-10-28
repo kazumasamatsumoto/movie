@@ -1,0 +1,9 @@
+四国めたん「`Symbol.hasInstance` lets you customize `instanceof`.」
+ずんだもん「Implement it as a class static method.」
+四国めたん「It receives the value and returns a boolean.」
+ずんだもん「Great for proxies or branded types.」
+四国めたん「Use it sparingly—overuse hurts readability.」
+ずんだもん「Make sure tests cover the behavior thoroughly.」
+四国めたん「`Symbol.hasInstance` delivers flexible `instanceof` checks.」
+ずんだもん「Keep it in mind when you need special logic!」
+

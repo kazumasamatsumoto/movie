@@ -1,0 +1,7 @@
+四国めたん「Use an `isNumber` guard to narrow `unknown` to numbers.」
+ずんだもん「Returning `x is number` makes it reusable.」
+四国めたん「Add logic to exclude `NaN` for extra robustness.」
+ずんだもん「Then pass it straight into `filter` or `reduce`.」
+四国めたん「It’s fundamental for safe numeric domains.」
+ずんだもん「Data processing flows become smooth!」
+

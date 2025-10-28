@@ -1,0 +1,9 @@
+四国めたん「Let's learn how to check undefinedable values!」
+ずんだもん「How do you check them?」
+四国めたん「Use `!== undefined` as a type guard so control-flow analysis narrows the type.」
+ずんだもん「Are there other options?」
+四国めたん「You can use `typeof`, truthy checks, or optional chaining—pick what fits the scenario.」
+ずんだもん「Got it! Plenty of techniques!」
+四国めたん「Reusable type-guard functions help too, and TypeScript v5.9 improved the inference.」
+ずんだもん「Checking safely is the best!」
+

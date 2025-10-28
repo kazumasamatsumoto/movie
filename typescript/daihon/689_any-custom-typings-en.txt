@@ -1,0 +1,7 @@
+四国めたん「When `@types` is absent, write custom typings.」
+ずんだもん「Create ambient d.ts files with minimal signatures.」
+四国めたん「Start with frequently used APIs.」
+ずんだもん「Test to ensure definitions stay accurate.」
+四国めたん「Custom typings are vital for eliminating `any`.」
+ずんだもん「Treat type definitions as assets!」
+

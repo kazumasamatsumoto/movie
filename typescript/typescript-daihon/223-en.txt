@@ -1,0 +1,7 @@
+四国めたん「Let's learn about type inference with const in TypeScript v5.9!」
+ずんだもん「What is const-based type inference?」
+四国めたん「When you declare with const, TypeScript infers the literal type automatically.」
+ずんだもん「How does it work?」
+四国めたん「`const flag = true` becomes a true literal type; `const flag = false` becomes a false literal type.」
+ずんだもん「Is this important for Angular development too?」
+四国めたん「Absolutely—it boosts type safety for constants.」

@@ -1,0 +1,7 @@
+四国めたん「Declare `any` via annotations or inference.」
+ずんだもん「`let value: any` or implicit `any` when `noImplicitAny` is off.」
+四国めたん「Comment why you used it and plan to replace it.」
+ずんだもん「Applying it to parameters spreads risk fast.」
+四国めたん「Every declaration carries immediate debt.」
+ずんだもん「Type debt starts the moment you write `any`!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's learn how to declare `never`.」
+ずんだもん「How do I write it?」
+四国めたん「Annotate the function with `: never`; you can also use it as a variable type.」
+ずんだもん「Does a variable ever need it?」
+四国めたん「Not usually—it’s more helpful in generics or conditional types.」
+ずんだもん「So functions are the main use!」
+四国めたん「Inference will find it, but writing it explicitly clarifies your intent in TypeScript v5.9.」
+ずんだもん「Explicit annotations help!」
+

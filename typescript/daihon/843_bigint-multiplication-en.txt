@@ -1,0 +1,9 @@
+四国めたん「Multiply BigInts with `*`.」
+ずんだもん「Huge factors stay exact.」
+四国めたん「No rounding like you’d see with `number`.」
+ずんだもん「Exponentially growing results impact performance—measure!」
+四国めたん「Estimate digit counts before heavy operations.」
+ずんだもん「Apply multiplication to crypto or ID math.」
+四国めたん「Confirm type compatibility before multiplying.」
+ずんだもん「BigInt multiplication is rock solid!」
+

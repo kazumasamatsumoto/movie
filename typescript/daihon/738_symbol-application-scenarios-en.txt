@@ -1,0 +1,9 @@
+四国めたん「Symbols shine when managing framework metadata.」
+ずんだもん「Angular DI tokens or Nest.js custom keys are perfect examples.」
+四国めたん「They’re great for adding hidden properties to objects.」
+ずんだもん「Use them for unique event names or to avoid plugin collisions.」
+四国めたん「They’re safe identifiers for logging too.」
+ずんだもん「Distributed teams can add modules without clashing.」
+四国めたん「Understand the scenarios and weave them into your design.」
+ずんだもん「Leverage symbols to expose safe extension points!」
+

@@ -1,0 +1,9 @@
+四国めたん「`Symbol.keyFor` reverse-lookups global symbols.」
+ずんだもん「It only works on symbols created via `Symbol.for`.」
+四国めたん「Plain `Symbol()` values return `undefined`.」
+ずんだもん「Still, it’s handy for logs and debugging.」
+四国めたん「Passing an unknown symbol returns `undefined`, not `null`.」
+ずんだもん「Once you know that, error handling gets easier.」
+四国めたん「Use `Symbol.keyFor` to inspect the registry.」
+ずんだもん「Leverage it to manage global symbols cleanly!」
+

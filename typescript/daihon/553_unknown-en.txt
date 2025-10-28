@@ -1,0 +1,7 @@
+四国めたん「`unknown` shines whenever you accept unpredictable input.」
+ずんだもん「Things like REST responses or form submissions, right?」
+四国めたん「Yes—start with `unknown`, then narrow to the type you expect.」
+ずんだもん「That’s safer than immediately casting external data to `any`.」
+四国めたん「It also helps with error handling and event listeners.」
+ずんだもん「Generic handlers stay flexible and maintainable that way.」
+

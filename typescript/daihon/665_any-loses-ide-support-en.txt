@@ -1,0 +1,7 @@
+四国めたん「`any` erodes IDE support.」
+ずんだもん「No completion, no typo detection.」
+四国めたん「Developer experience plummets.」
+ずんだもん「With `unknown` or concrete types, hints return.」
+四国めたん「Reduce `any` to collaborate with your IDE.」
+ずんだもん「Keep the development environment friendly!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's learn about the event loop.」
+ずんだもん「What pattern is that?」
+四国めたん「It waits for events and handles them—a staple for GUIs and servers.」
+ずんだもん「How do we implement it?」
+四国めたん「Use an infinite loop to poll for events and process them; Node.js relies on it under the hood.」
+ずんだもん「So it’s event-driven!」
+四国めたん「It underpins async programming—critical in TypeScript v5.9 too.」
+ずんだもん「A fundamental concept!」
+

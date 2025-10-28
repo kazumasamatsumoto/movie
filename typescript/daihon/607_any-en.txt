@@ -1,0 +1,7 @@
+四国めたん「Phase out `any` gradually to minimize disruption.」
+ずんだもん「Replace module by module with `unknown` or concrete types.」
+四国めたん「Yes—lint to detect usage and manage a TODO list.」
+ずんだもん「Have tests in place before you switch for confidence.」
+四国めたん「Start with high-priority boundaries and share the wins.」
+ずんだもん「Stepwise removal moves you toward a safer codebase!」
+

@@ -1,0 +1,7 @@
+四国めたん「Treat `any` as an absolute last resort.」
+ずんだもん「Use it only when no type info exists.」
+四国めたん「Tag it with a TODO and migrate to `unknown` or accurate types quickly.」
+ずんだもん「Review the rationale and removal plan.」
+四国めたん「Set rules to prevent casual `any` usage.」
+ずんだもん「Guard the culture of type safety!」
+

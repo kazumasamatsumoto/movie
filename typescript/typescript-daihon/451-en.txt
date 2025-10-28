@@ -1,0 +1,9 @@
+四国めたん「Let's look at common mistakes with the `void` type.」
+ずんだもん「What kind of mistakes happen?」
+四国めたん「Trying to use the return value of a `void` function—you’ll get a type error.」
+ずんだもん「What does that look like?」
+四国めたん「Assigning the result to a variable or using it in a calculation fails; there’s no value to use.」
+ずんだもん「Right, there’s nothing to work with!」
+四国めたん「`void` promises that the return value is ignored, and TypeScript v5.9 enforces that.」
+ずんだもん「The type system has our back!」
+

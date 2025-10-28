@@ -1,0 +1,9 @@
+四国めたん「BigInt reached TC39 Stage 4 in 2018 and shipped in ES2020.」
+ずんだもん「TypeScript added support in v3.2, right?」
+四国めたん「Yes—`lib.es2020.bigint.d.ts` brought the standard APIs.」
+ずんだもん「Node.js and modern browsers rolled it out over time.」
+四国めたん「Old runtimes may need polyfills, so check your targets.」
+ずんだもん「Know the history to pick the right build settings!」
+四国めたん「With compatibility confirmed, treat it as a standard feature today.」
+ずんだもん「Embrace BigInt once you grasp its origin!」
+

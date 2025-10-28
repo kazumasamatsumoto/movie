@@ -1,0 +1,9 @@
+四国めたん「`Symbol.for` excels at sharing tokens across modules.」
+ずんだもん「Multiple browser bundles can reuse the same symbol.」
+四国めたん「It also synchronizes identifiers between SSR and the client.」
+ずんだもん「Use it as a global-store key to avoid collisions.」
+四国めたん「Knowing these examples broadens your design choices.」
+ずんだもん「Harness its shared nature to your advantage!」
+四国めたん「`Symbol.keyFor` lets you reverse lookup later.」
+ずんだもん「Master it and wield global symbols!」
+

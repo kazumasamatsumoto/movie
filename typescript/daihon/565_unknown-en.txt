@@ -1,0 +1,7 @@
+四国めたん「Let’s recap the fundamentals of `unknown`.」
+ずんだもん「Top type, free assignment, mandatory checks before use—that trio.」
+四国めたん「Right. Type guards and assertions form the foundation.」
+ずんだもん「Unlike `any`, static analysis still protects us.」
+四国めたん「Use `unknown` at project boundaries as the default choice.」
+ずんだもん「Master the basics so we can dive into the constraints next!」
+

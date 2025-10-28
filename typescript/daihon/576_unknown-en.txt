@@ -1,0 +1,7 @@
+四国めたん「The `as` keyword converts `unknown` into a specific type.」
+ずんだもん「`as string` is easy to write, but overuse is dangerous.」
+四国めたん「Stick to cases where you can justify it.」
+ずんだもん「Validation libraries like zod or io-ts lend that assurance.」
+四国めたん「Avoid stacking assertions whenever possible.」
+ずんだもん「Pair them with tests to stay safe!」
+

@@ -1,0 +1,7 @@
+四国めたん「Let's learn about the *ngIf directive in TypeScript v5.9!」
+ずんだもん「How do we use *ngIf?」
+四国めたん「It toggles element display based on a condition.」
+ずんだもん「Can we pair it with booleans?」
+四国めたん「Yes—control it with a boolean property.」
+ずんだもん「Can we use an else clause?」
+四国めたん「Absolutely—write `*ngIf="condition; else template"`.」

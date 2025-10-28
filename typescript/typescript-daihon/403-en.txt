@@ -1,0 +1,9 @@
+四国めたん「Let's learn what `undefined` means as “an undefined value.”」
+ずんだもん「What does the `undefined` type stand for?」
+四国めたん「It shows that the value is undefined—`undefined` is a real value in JavaScript.」
+ずんだもん「Where do we use it?」
+四国めたん「Search results, optional properties, and variables before initialization—all cases where you treat it as data.」
+ずんだもん「I get it! You use it as a value!」
+四国めたん「You can branch on the return value to act accordingly. It's a practical type even in TypeScript v5.9.」
+ずんだもん「It expresses the absence of data nicely!」
+

@@ -1,0 +1,7 @@
+四国めたん「Turning on `strict` supercharges your checks.」
+ずんだもん「It bundles `noImplicitAny` and `strictNullChecks`.」
+四国めたん「For large codebases, migrate option by option.」
+ずんだもん「Set `strict` as the end goal and plot the path.」
+四国めたん「Broader compiler support is the reward.」
+ずんだもん「Lay the foundation for type-safe development!」
+

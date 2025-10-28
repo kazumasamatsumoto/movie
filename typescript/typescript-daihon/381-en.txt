@@ -1,0 +1,9 @@
+四国めたん「Let's learn about type inference for `void`!」
+ずんだもん「Does TypeScript infer `void` automatically?」
+四国めたん「Yes—functions without a return statement, or that return nothing, are inferred as `void`.」
+ずんだもん「So I don't need to write it?」
+四国めたん「Inference is fine, but writing it explicitly clarifies your intent.」
+ずんだもん「Which do you recommend?」
+四国めたん「Spell it out for public APIs or important functions; helpers can rely on inference.」
+ずんだもん「So you decide case by case!」
+

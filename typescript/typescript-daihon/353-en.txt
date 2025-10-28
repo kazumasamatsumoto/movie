@@ -1,0 +1,9 @@
+四国めたん「Let's learn practical uses for nullish types!」
+ずんだもん「Where do we use them?」
+四国めたん「API responses, database queries, and form inputs—anywhere the value might not exist.」
+ずんだもん「How do we apply it concretely?」
+四国めたん「Model external data, optional settings, or search results with it to stay type-safe.」
+ずんだもん「Got it! That's practical!」
+四国めたん「It's also great for error handling and defaults—a pattern TypeScript v5.9 recommends.」
+ずんだもん「Using it in many places is the best!」
+

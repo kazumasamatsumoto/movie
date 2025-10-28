@@ -1,0 +1,9 @@
+四国めたん「`Object.getOwnPropertySymbols` returns only symbol keys in an array.」
+ずんだもん「Perfect for inspecting hidden properties.」
+四国めたん「It excludes string keys entirely.」
+ずんだもん「Remember how it differs from `Reflect.ownKeys`.」
+四国めたん「The return type is `symbol[]`, so TypeScript handles it safely.」
+ずんだもん「Great for audits and debugging.」
+四国めたん「Learn the usage to keep management simple.」
+ずんだもん「It’s the first step in symbol administration!」
+

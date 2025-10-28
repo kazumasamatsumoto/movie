@@ -1,0 +1,7 @@
+四国めたん「Run a master check to diagnose your `unknown` usage.」
+ずんだもん「Are boundaries using `unknown`? Guards shared? Lint active?」
+四国めたん「Use a checklist before code reviews.」
+ずんだもん「Audit periodically to catch gaps.」
+四国めたん「The master check sustains type-safe culture.」
+ずんだもん「Let’s turn everyone into an `unknown` expert!」
+

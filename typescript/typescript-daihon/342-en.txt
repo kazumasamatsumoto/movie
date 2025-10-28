@@ -1,0 +1,9 @@
+四国めたん「Let's learn how to declare undefinedable types!」
+ずんだもん「How do you declare one?」
+四国めたん「Use a union `T | undefined`; a type alias helps with reuse.」
+ずんだもん「Where do we use that?」
+四国めたん「On variables, properties, function parameters, and return types—even uninitialized variables.」
+ずんだもん「I see! The type accepts “not defined”!」
+四国めたん「With `strictNullChecks` turned on, the compiler enforces safety, so explicit types matter.」
+ずんだもん「Handling “undefined” via the type system is the best!」
+

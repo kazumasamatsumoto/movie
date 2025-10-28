@@ -1,0 +1,7 @@
+四国めたん「`typeof x === \"number\"` narrows `unknown` to numeric values.」
+ずんだもん「Then arithmetic and comparisons open up.」
+四国めたん「Combine it with `Number.isNaN` for extra safety.」
+ずんだもん「Use `Number.isInteger` when you only accept integers.」
+四国めたん「Always validate before you calculate.」
+ずんだもん「A sturdy number guard keeps data logic clean!」
+

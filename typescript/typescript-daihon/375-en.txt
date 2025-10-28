@@ -1,0 +1,9 @@
+四国めたん「Let's learn about `return` statements in `void` functions!」
+ずんだもん「How is `return` used there?」
+四国めたん「For early exits—write `return;` with no value.」
+ずんだもん「Returning a value causes an error?」
+四国めたん「Right; a `void` function can't return a value, apart from the exceptional `undefined`.」
+ずんだもん「I see! It's for control flow!」
+四国めたん「Early returns inside conditionals are the classic pattern, unchanged in TypeScript v5.9.」
+ずんだもん「It's handy for aborting work!」
+

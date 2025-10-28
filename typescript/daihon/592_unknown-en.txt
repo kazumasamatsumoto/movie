@@ -1,0 +1,7 @@
+四国めたん「An `isString` guard narrows `unknown` to strings.」
+ずんだもん「Declare the return type as `x is string` for reuse.」
+四国めたん「Exactly—and it keeps code readable wherever you call it.」
+ずんだもん「It even shines when filtering arrays.」
+四国めたん「Stack small guards to build a safe domain model.」
+ずんだもん「String processing gets so much easier!」
+

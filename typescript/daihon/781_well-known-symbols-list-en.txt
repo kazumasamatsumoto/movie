@@ -1,0 +1,9 @@
+四国めたん「Well-known symbols include `iterator`, `asyncIterator`, `toStringTag`, and more.」
+ずんだもん「Access them via static properties on `Symbol`.」
+四国めたん「`Reflect.ownKeys(Symbol)` even lists them all.」
+ずんだもん「The ones described in the spec are mostly typed in TypeScript’s lib.」
+四国めたん「Knowing the list lets you grab them when needed.」
+ずんだもん「Keep a reference handy.」
+四国めたん「Let’s briefly recap each symbol’s role.」
+ずんだもん「Next, we’ll try real examples!」
+

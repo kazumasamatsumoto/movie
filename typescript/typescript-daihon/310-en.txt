@@ -1,0 +1,9 @@
+四国めたん「Let's wrap up the `undefined` type!」
+ずんだもん「What are the key points of `undefined`?」
+四国めたん「`undefined` is the primitive for “not defined.” It's used in optional properties and parameters.」
+ずんだもん「How do we distinguish it from `null`?」
+四国めたん「`undefined` signals something optional; `null` is an explicit empty value. Handle both with `??` and `?.`.」
+ずんだもん「I see! The type system keeps them strict!」
+四国めたん「JSON drops `undefined`, and knowing when to use `void` instead is important. Type inference improved in TypeScript v5.9 too.」
+ずんだもん「Using `undefined` correctly keeps development type-safe—love it!」
+

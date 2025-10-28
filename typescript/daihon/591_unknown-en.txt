@@ -1,0 +1,7 @@
+四国めたん「Custom type-guard functions let us reuse how we narrow `unknown`.」
+ずんだもん「Those functions that return `value is User`, right?」
+四国めたん「Exactly—bundle multiple checks and share them across the team.」
+ずんだもん「Domain-specific guards make testing easier too.」
+四国めたん「The more reusable they are, the smoother `unknown` handling becomes.」
+ずんだもん「Turn guard functions into a project asset!」
+

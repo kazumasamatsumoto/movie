@@ -1,0 +1,7 @@
+四国めたん「Let's review best practices for type guards in TypeScript v5.9!」
+ずんだもん「What are the key tips?」
+四国めたん「Leverage type predicate functions, return early, and perform explicit checks.」
+ずんだもん「Why rely on type predicates?」
+四国めたん「They boost reuse and make intent clear.」
+ずんだもん「Any other points?」
+四国めたん「Enable strictNullChecks and consistently handle null values.」

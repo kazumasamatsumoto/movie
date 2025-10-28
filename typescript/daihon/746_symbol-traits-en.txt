@@ -1,0 +1,9 @@
+四国めたん「Symbols never convert implicitly to strings.」
+ずんだもん「`+` or template literals throw TypeError.」
+四国めたん「They’re excluded from normal enumeration.」
+ずんだもん「The `description` property gives a human-friendly label.」
+四国めたん「Truthiness checks always yield true.」
+ずんだもん「Stick to symbol-specific APIs.」
+四国めたん「Know the traits to avoid misuse.」
+ずんだもん「TypeScript autocompletion helps, but learn the basics!」
+

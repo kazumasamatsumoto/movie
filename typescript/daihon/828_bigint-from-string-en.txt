@@ -1,0 +1,9 @@
+四国めたん「`BigInt(string)` converts strings to bigint.」
+ずんだもん「Call `BigInt("1234567890")`.」
+四国めたん「Strings must represent integers.」
+ずんだもん「Can it parse other bases?」
+四国めたん「Yes—`0b`, `0o`, `0x` prefixes work.」
+ずんだもん「Perfect for parsing large numeric strings from APIs.」
+四国めたん「Don’t forget exception handling.」
+ずんだもん「Convert safely from string to BigInt!」
+

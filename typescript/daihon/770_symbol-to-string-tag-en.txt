@@ -1,0 +1,9 @@
+四国めたん「`Symbol.toStringTag` customizes the output of `Object.prototype.toString`.」
+ずんだもん「You can show `[object Custom]`, for example.」
+四国めたん「It helps with debugging and identification.」
+ずんだもん「Set it on a class to affect every instance.」
+四国めたん「Because it’s non-enumerable, use it deliberately.」
+ずんだもん「Great for tooling integrations.」
+四国めたん「Use `Symbol.toStringTag` to brand your objects.」
+ずんだもん「Loggers and inspectors will thank you!」
+

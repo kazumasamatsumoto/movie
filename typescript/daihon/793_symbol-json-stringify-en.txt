@@ -1,0 +1,9 @@
+四国めたん「`JSON.stringify` ignores symbol properties.」
+ずんだもん「Only string keys make it into JSON.」
+四国めたん「The spec explicitly skips symbols.」
+ずんだもん「Even replacer functions never see those keys.」
+四国めたん「Add string-based entries yourself if you need them serialized.」
+ずんだもん「Decide on serialization rules before designing.」
+四国めたん「It’s handy when you want to hide data from JSON output.」
+ずんだもん「Understand the behavior for safe data exchange!」
+

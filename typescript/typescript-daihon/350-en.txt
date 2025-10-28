@@ -1,0 +1,9 @@
+四国めたん「Let's wrap up undefinedable types!」
+ずんだもん「Give me the key points!」
+四国めたん「`T | undefined` lets you accept missing values—the basis of optional properties and parameters.」
+ずんだもん「How should we use it?」
+四国めたん「Declare optionals with `?`, access them safely with optional chaining, and apply sensible defaults.」
+ずんだもん「I see! The type system stays flexible!」
+四国めたん「They're used for parameters, properties, and return types everywhere—still vital in TypeScript v5.9.」
+ずんだもん「Undefinedable types keep development type-safe and awesome!」
+

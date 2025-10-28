@@ -1,0 +1,9 @@
+四国めたん「Let's learn the distributive law for conditional types.」
+ずんだもん「What does “distributive” mean here?」
+四国めたん「When the checked type is a union, the conditional runs on each member individually.」
+ずんだもん「How does that behave?」
+四国めたん「`T extends U ? X : Y` is evaluated for each constituent of `T` when `T` is a union.」
+ずんだもん「So the condition applies element by element!」
+四国めたん「That’s how helpers like `Exclude` and `Extract` work in TypeScript v5.9.」
+ずんだもん「The mechanics make perfect sense now!」
+

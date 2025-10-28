@@ -1,0 +1,9 @@
+四国めたん「Let's learn the dangers of the non-null assertion!」
+ずんだもん「What risks does it carry?」
+四国めたん「If the value is actually `null` or `undefined`, you crash at runtime, losing type safety.」
+ずんだもん「When does that happen?」
+四国めたん「With DOM access, external data, or async code—any situation where presence isn't guaranteed.」
+ずんだもん「That's scary! What should we do instead?」
+四国めたん「Reach for type guards, optional chaining, or Nullish Coalescing; `!` is a last resort.」
+ずんだもん「So we prioritize safe approaches!」
+

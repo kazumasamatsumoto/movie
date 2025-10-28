@@ -1,0 +1,5 @@
+四国めたん「Let's look at common uses of the boolean type in TypeScript v5.9!」
+ずんだもん「What are the uses of booleans?」
+四国めたん「They appear in conditionals, flag handling, state management, validation, and more.」
+ずんだもん「Is this relevant for Angular development too?」
+四国めたん「Absolutely—it powers application flow control.」

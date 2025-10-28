@@ -1,0 +1,7 @@
+四国めたん「Limit `any` to a few specific use cases.」
+ずんだもん「External SDKs without types or short prototypes.」
+四国めたん「Right—also for telemetry areas where typings lag.」
+ずんだもん「Leave TODOs and migration plans with every usage.」
+四国めたん「Document acceptable cases to prevent abuse.」
+ずんだもん「Stick to the agreed boundaries!」
+

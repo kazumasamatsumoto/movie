@@ -1,0 +1,7 @@
+四国めたん「Property access on `unknown` isn’t allowed out of the box.」
+ずんだもん「Write `value.id` and it errors instantly.」
+四国めたん「Yup—prove safety with `typeof` or the `in` operator first.」
+ずんだもん「Bundle guards into shared helpers to cut duplication.」
+四国めたん「It’s our job to prove the access is safe before we proceed.」
+ずんだもん「Let’s build processes that ensure we never skip the check!」
+

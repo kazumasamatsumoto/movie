@@ -1,0 +1,9 @@
+四国めたん「Use `unique symbol` for discriminant unions to avoid tag collisions.」
+ずんだもん「Safer than string literals—external input can’t clash.」
+四国めたん「`typeof` tags make narrowing reliable.」
+ずんだもん「`switch` handles them naturally.」
+四国めたん「`unique symbol` guarantees the discriminant won’t overlap other unions.」
+ずんだもん「Set up tagged types and write error-free branches!」
+四国めたん「Design discriminant properties at the type level.」
+ずんだもん「Build robust unions with `unique symbol`!」
+

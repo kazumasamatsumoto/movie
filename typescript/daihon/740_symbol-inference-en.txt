@@ -1,0 +1,9 @@
+四国めたん「TypeScript infers `Symbol()` results based on context.」
+ずんだもん「Declaring with `const` yields `unique symbol`; `let` gives plain `symbol`.」
+四国めたん「Yes—the ability to reassign determines the inferred type.」
+ずんだもん「Function returns also infer to the `symbol` type.」
+四国めたん「Use annotations or `as const` when you need to pin it down.」
+ずんだもん「Understand the inference rules and let the compiler help you!」
+四国めたん「We’ll dive deeper into `unique symbol` shortly.」
+ずんだもん「Master the inference basics first!」
+

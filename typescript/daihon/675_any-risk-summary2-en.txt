@@ -1,0 +1,7 @@
+四国めたん「Now the long-term risks.」
+ずんだもん「Lower maintainability, mounting debt, rising costs, security hits.」
+四国めたん「Protecting future value requires early action.」
+ずんだもん「Plan a roadmap for gradual cleanup.」
+四国めたん「Drive `any` remediation across the organization.」
+ずんだもん「Think long term and nurture type safety!」
+

@@ -1,0 +1,9 @@
+四国めたん「Add BigInts with the `+` operator.」
+ずんだもん「Both operands must be `bigint` or you’ll get a TypeError.」
+四国めたん「`a + b` preserves precision for massive totals.」
+ずんだもん「Convert back to `number` via `Number()` only if you really need to.」
+四国めたん「Wrap addition in utility functions—it’s a common operation.」
+ずんだもん「Rely on BigInt addition for safe totals!」
+四国めたん「Align units and types before you sum.」
+ずんだもん「Enjoy lossless addition!」
+

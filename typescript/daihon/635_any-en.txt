@@ -1,0 +1,7 @@
+四国めたん「Summarize Nest.js best practices for type safety.」
+ずんだもん「The four-part kit: boundary `unknown`, ValidationPipe, DTOs, typed responses.」
+四国めたん「Standardize shared pipes and guards.」
+ずんだもん「Enable `no-explicit-any` lint rules too.」
+四国めたん「Test guards and pipes to ensure they work correctly.」
+ずんだもん「Carry TypeScript’s type culture straight into Nest!」
+

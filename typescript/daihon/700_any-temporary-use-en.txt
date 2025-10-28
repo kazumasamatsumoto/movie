@@ -1,0 +1,7 @@
+四国めたん「Emergency fixes might add temporary `any`.」
+ずんだもん「Restoring service sometimes comes first.」
+四国めたん「Create follow-up issues with deadlines.」
+ずんだもん「Comment in code to explain the choice.」
+四国めたん「Treat temporary use as an exception to remove promptly.」
+ずんだもん「Don’t leave band-aids in place!」
+

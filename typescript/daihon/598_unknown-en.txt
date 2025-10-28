@@ -1,0 +1,7 @@
+四国めたん「Let’s compile a pattern catalog for handling `unknown`.」
+ずんだもん「Mix `typeof`, `instanceof`, `in`, `Array.isArray`, and custom guards.」
+四国めたん「Exactly—template the combos so you never hesitate.」
+ずんだもん「Base everything on shared guard helpers for easy extension.」
+四国めたん「Document the patterns so the whole team can apply them.」
+ずんだもん「Then unknown values will never slow us down!」
+

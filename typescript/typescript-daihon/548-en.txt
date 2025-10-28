@@ -1,0 +1,9 @@
+四国めたん「Let's debug `never`-related errors.」
+ずんだもん「How do we debug them?」
+四国めたん「Inspect the type error, see which type remains, then add the right guard.」
+ずんだもん「What's the workflow?」
+四国めたん「Follow the compiler's clues and narrow the type step by step.」
+ずんだもん「So the error message is our roadmap!」
+四国めたん「Trust TypeScript’s checker—it’s precise.」
+ずんだもん「Fixing bugs becomes faster!」
+

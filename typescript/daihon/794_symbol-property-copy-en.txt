@@ -1,0 +1,9 @@
+四国めたん「`Object.assign` and spread copy enumerable symbol properties.」
+ずんだもん「That surprises people who think they’re hidden.」
+四国めたん「Non-enumerable symbols remain untouched.」
+ずんだもん「You can also copy manually with `Reflect.ownKeys`.」
+四国めたん「Define a copy strategy to prevent metadata leaks.」
+ずんだもん「Test carefully to confirm the outcome.」
+四国めたん「Treat symbol copies deliberately during design.」
+ずんだもん「Learn the safe copy techniques!」
+

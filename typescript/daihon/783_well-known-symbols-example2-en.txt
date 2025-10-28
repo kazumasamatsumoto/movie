@@ -1,0 +1,9 @@
+四国めたん「Next, an example using `toPrimitive` and `match`.」
+ずんだもん「Convert config objects implicitly or run validation.」
+四国めたん「They help with logging and `String.prototype.match`.」
+ずんだもん「Combine well-known symbols to craft flexible APIs.」
+四国めたん「Spell out behaviors in TypeScript types.」
+ずんだもん「Apply the example to your own services!」
+四国めたん「Next up: best practices and the summary.」
+ずんだもん「Understand the behavior and wield it wisely!」
+

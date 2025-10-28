@@ -1,0 +1,9 @@
+四国めたん「Another pattern: use symbols for data caches.」
+ずんだもん「Attach internal caches to objects even if libraries touch them.」
+四国めたん「It’s a symbol-based alternative to `WeakMap` memoization.」
+ずんだもん「Great for lightweight, non-serialized data.」
+四国めたん「Types keep IDE completion working.」
+ずんだもん「Adopt symbol caches to boost performance!」
+四国めたん「Switch to WeakMap when it fits better.」
+ずんだもん「Expand your implementation toolbox!」
+

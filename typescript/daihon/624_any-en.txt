@@ -1,0 +1,7 @@
+四国めたん「io-ts gives you functional-style validation for `unknown`.」
+ずんだもん「Define codecs and `decode` your data.」
+四国めたん「Pair it with fp-ts to handle errors safely.」
+ずんだもん「It’s great for gradual adoption when reducing `any`.」
+四国めたん「One definition manages both types and runtime checks.」
+ずんだもん「A perfect fit for FP-minded teams!」
+

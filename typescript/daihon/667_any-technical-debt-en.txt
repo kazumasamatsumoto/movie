@@ -1,0 +1,7 @@
+四国めたん「Unmanaged `any` becomes technical debt.」
+ずんだもん「It spreads, making cleanup daunting.」
+四国めたん「Track it in a debt log and plan migration.」
+ずんだもん「Allocate sprint capacity to pay it down.」
+四国めたん「Quantify debt to align the team.」
+ずんだもん「Maintain a healthy codebase!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's learn about the type of optional properties!」
+ずんだもん「What type does an optional property get?」
+四国めたん「`prop?: T` is equivalent to `prop: T | undefined`; the `undefined` is added automatically.」
+ずんだもん「How do I choose between them?」
+四国めたん「Use `?` when the property may be omitted and `| undefined` when you want to be explicit—the intent differs.」
+ずんだもん「I see! The type is the same either way!」
+四国めたん「Remember to check for `undefined` when you access it; optional chaining helps too.」
+ずんだもん「Accessing it safely is the best!」
+

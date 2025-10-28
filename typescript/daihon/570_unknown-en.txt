@@ -1,0 +1,7 @@
+四国めたん「You can’t invoke an `unknown` value as a function.」
+ずんだもん「Writing `value()` just makes the compiler complain.」
+四国めたん「Check whether it’s callable—or assert with solid evidence.」
+ずんだもん「`typeof value === \"function\"` is the classic guard.」
+四国めたん「Only execute after you confirm the call signature.」
+ずんだもん「Standardize the safety checks so bugs stay contained!」
+

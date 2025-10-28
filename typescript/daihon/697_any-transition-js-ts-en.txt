@@ -1,0 +1,7 @@
+四国めたん「Early in the JS→TS transition you might rely on `any`.」
+ずんだもん「You need speed before types are ready.」
+四国めたん「Enable strict settings file by file with a roadmap.」
+ずんだもん「Define timelines to keep progress moving.」
+四国めたん「Clarify scope and deadlines for all temporary `any`s.」
+ずんだもん「Aim for a soft landing from JS to TS!」
+

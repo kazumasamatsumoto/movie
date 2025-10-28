@@ -1,0 +1,9 @@
+四国めたん「Let's learn how generics infer `void`.」
+ずんだもん「Does TypeScript infer `void` automatically?」
+四国めたん「Yes—pass a function without a return and the type parameter becomes `void`, so you can skip the annotation.」
+ずんだもん「When does that happen?」
+四国めたん「With callbacks, promises, and other generic functions—TypeScript infers it for you.」
+ずんだもん「Nice! No need to write it!」
+四国めたん「You can still be explicit when clarity matters—it’s about choosing per situation.」
+ずんだもん「So we balance inference and intent!」
+

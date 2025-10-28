@@ -1,0 +1,9 @@
+四国めたん「Every call to `Symbol()` returns a distinct value—no collisions.」
+ずんだもん「Even with the same description, they’re different, which is great.」
+四国めたん「That makes them safe as internal map keys or DI tokens.」
+ずんだもん「When you craft Nest.js inject tokens, symbols guarantee no conflicts.」
+四国めたん「Equality checks always fail between different symbols—that’s the uniqueness proof.」
+ずんだもん「Teams can grow without worrying about naming clashes.」
+四国めたん「You can even manage identifiers across environments with confidence.」
+ずんだもん「Let the uniqueness guarantee protect both typing and design!」
+

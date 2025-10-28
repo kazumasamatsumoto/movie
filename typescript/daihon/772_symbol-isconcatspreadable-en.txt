@@ -1,0 +1,9 @@
+四国めたん「`Symbol.isConcatSpreadable` controls how `Array.prototype.concat` expands values.」
+ずんだもん「Set it to true and array-like objects spread.」
+四国めたん「Set it to false and even arrays get inserted as a single element.」
+ずんだもん「Perfect for customizable concatenation logic.」
+四国めたん「TypeScript treats it as a boolean property.」
+ずんだもん「Understand the behavior to tweak `concat`.」
+四国めたん「Always test to confirm the result.」
+ずんだもん「Make array composition more flexible!」
+

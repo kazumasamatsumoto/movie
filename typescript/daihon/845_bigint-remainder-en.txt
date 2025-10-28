@@ -1,0 +1,9 @@
+四国めたん「Use `%` to compute remainders between BigInts.」
+ずんだもん「Ideal for hash-table indices.」
+四国めたん「Mod arithmetic shines in crypto and number theory.」
+ずんだもん「It works for negatives—watch the sign.」
+四国めたん「Centralize your remainder logic.」
+ずんだもん「Stabilize big-number calculations with mod!」
+四国めたん「Combine with quotient to fully understand divisions.」
+ずんだもん「Keep the modulus foundations strong!」
+

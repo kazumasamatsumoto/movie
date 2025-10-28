@@ -1,0 +1,9 @@
+四国めたん「Use well-known symbols with clear goals.」
+ずんだもん「Stick to compatibility scenarios—don’t overuse them.」
+四国めたん「Define them as non-enumerable for safety.」
+ずんだもん「Type signatures make team adoption easier.」
+四国めたん「Test to confirm the spec-mandated behavior.」
+ずんだもん「Follow best practices to balance extensibility and maintainability!」
+四国めたん「Document intent because these hooks are powerful.」
+ずんだもん「Maintain consensus before rolling them out!」
+

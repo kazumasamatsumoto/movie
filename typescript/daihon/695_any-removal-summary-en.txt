@@ -1,0 +1,7 @@
+四国めたん「Recap the overall strategy for removing `any`.」
+ずんだもん「Detection, stronger settings, `unknown`, type definitions, roadmap.」
+四国めたん「Blend tools and process for sustainable improvement.」
+ずんだもん「Share real-world examples to uplift everyone’s skills.」
+四国めたん「Keep monitoring and updating best practices.」
+ずんだもん「Aim for an `any`-zero codebase and keep moving!」
+

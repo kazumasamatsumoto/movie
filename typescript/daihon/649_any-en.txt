@@ -1,0 +1,7 @@
+四国めたん「In the type hierarchy, `unknown` sits at the top and `never` at the bottom.」
+ずんだもん「`any` lives outside this hierarchy.」
+四国めたん「Any type assigns to `any`, and `any` assigns to every type.」
+ずんだもん「It doesn’t obey normal type-theory rules, so handle with care.」
+四国めたん「Think of it as operating beyond the hierarchy.」
+ずんだもん「Understanding the theory reinforces good design choices!」
+

@@ -1,0 +1,8 @@
+四国めたん「Let's learn about the toFixed() method in TypeScript v5.9!」
+ずんだもん「What does the toFixed() method do?」
+四国めたん「It converts a number to a string with the specified number of decimal places.」
+ずんだもん「How do we use it?」
+四国めたん「Call it like `number.toFixed(digits)`.」
+ずんだもん「Is it important for Angular development too?」
+四国めたん「Absolutely—it's key for formatting numeric output.」
+ずんだもん「Precise number formatting is the best!」

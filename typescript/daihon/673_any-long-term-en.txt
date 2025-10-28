@@ -1,0 +1,7 @@
+四国めたん「Over time, `any` erodes quality and productivity.」
+ずんだもん「New features mix with hidden bugs.」
+四国めたん「Onboarding new members gets tougher.」
+ずんだもん「Strong typings speed up understanding.」
+四国めたん「Phase out `any` to protect long-term velocity.」
+ずんだもん「Invest in your future self with type safety!」
+

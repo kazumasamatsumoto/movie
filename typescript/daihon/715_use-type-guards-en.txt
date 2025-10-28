@@ -1,0 +1,7 @@
+四国めたん「After switching to `unknown`, use type guards for safety.」
+ずんだもん「Custom guards make reuse easy.」
+四国めたん「Functions returning predicates give completion and checks.」
+ずんだもん「Combine guards to protect nested structures.」
+四国めたん「Well-built guards keep you from reverting to `any`.」
+ずんだもん「Turn guard libraries into core assets!」
+

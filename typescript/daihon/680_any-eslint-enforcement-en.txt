@@ -1,0 +1,7 @@
+四国めたん「ESLint can flag `any` automatically via `no-explicit-any`.」
+ずんだもん「Set `@typescript-eslint/no-explicit-any` to `error`.」
+四国めたん「Use `--max-warnings 0` so CI fails immediately.」
+ずんだもん「Integrate with tsconfig to keep configs aligned.」
+四国めたん「ESLint’s suggestions even guide fixes.」
+ずんだもん「Give developers instant feedback on `any`!」
+

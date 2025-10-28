@@ -1,0 +1,7 @@
+四国めたん「Experimental code may keep `any` until specs solidify.」
+ずんだもん「Research teams need flexibility.」
+四国めたん「If results graduate to production, define types then.」
+ずんだもん「Label and document experiments clearly.」
+四国めたん「Record the rationale and end conditions for `any`.」
+ずんだもん「Transition to type-safe code once experiments conclude!」
+

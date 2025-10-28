@@ -1,0 +1,9 @@
+四国めたん「`Symbol.unscopables` marks properties to exclude from `with`.」
+ずんだもん「Since strict mode forbids `with`, it’s rarely used.」
+四国めたん「Still, it’s good to know for compatibility.」
+ずんだもん「Set properties to true to keep them out of scope.」
+四国めたん「TypeScript models it as `Record<string, boolean>`.」
+ずんだもん「Modern code seldom uses it, but understanding the spec helps.」
+四国めたん「You may encounter it while auditing legacy libraries.」
+ずんだもん「Remember it for heritage code analysis!」
+

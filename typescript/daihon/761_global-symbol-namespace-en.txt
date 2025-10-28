@@ -1,0 +1,9 @@
+四国めたん「Namespace your global symbol keys to avoid collisions.」
+ずんだもん「Something like `app:module:token`, separated by colons.」
+四国めたん「Prefix with a project or org name for extra safety.」
+ずんだもん「A helper that auto-adds namespaces makes operations easier.」
+四国めたん「Document the naming rules and share them.」
+ずんだもん「Namespaces keep third-party libraries from clashing.」
+四国めたん「It’s how you unlock the full strength of `Symbol.for`.」
+ずんだもん「Manage everything with namespaced keys!」
+

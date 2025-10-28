@@ -1,0 +1,7 @@
+四国めたん「Let's learn about the null type in TypeScript!」
+ずんだもん「What kind of type is null?」
+四国めたん「It represents an intentionally absent value and corresponds to JavaScript's null literal.」
+ずんだもん「How is it different from undefined?」
+四国めたん「null signals an explicit empty value, whereas undefined means something hasn't been defined. strictNullChecks distinguishes them.」
+ずんだもん「Got it—use it when we explicitly clear a value!」
+四国めたん「Exactly—it's vital when dealing with database NULLs or API responses that return null.」

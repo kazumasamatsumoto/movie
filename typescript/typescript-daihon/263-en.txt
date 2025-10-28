@@ -1,0 +1,7 @@
+四国めたん「Let's learn about truthy checks in TypeScript v5.9!」
+ずんだもん「What does truthy mean?」
+四国めたん「It refers to values that JavaScript evaluates as true.」
+ずんだもん「Which values are truthy?」
+四国めたん「Any number except 0, non-empty strings, objects, arrays, and more.」
+ずんだもん「Can we check it with an if statement?」
+四国めたん「Yes—`if (value)` tests whether the value is truthy.」

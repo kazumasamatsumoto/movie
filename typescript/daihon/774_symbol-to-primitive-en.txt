@@ -1,0 +1,9 @@
+四国めたん「`Symbol.toPrimitive` controls conversions to primitive values.」
+ずんだもん「You receive hints like `number`, `string`, or `default`.」
+四国めたん「Respond with different outputs based on the hint.」
+ずんだもん「Great for currency objects and safe formatting.」
+四国めたん「Implement `(hint) => ...` in TypeScript.」
+ずんだもん「Manage implicit conversions for safer debugging.」
+四国めたん「`Symbol.toPrimitive` enables intuitive APIs.」
+ずんだもん「Study examples to spot the sweet spots!」
+

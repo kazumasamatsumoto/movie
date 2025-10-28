@@ -1,0 +1,7 @@
+四国めたん「`\"property\" in x` is the basic `in`-operator guard.」
+ずんだもん「It tells us the property is present.」
+四国めたん「Combine it with `typeof` guards for full safety.」
+ずんだもん「Once it exists, assert and use it confidently.」
+四国めたん「Account for `undefined` even after confirming presence.」
+ずんだもん「Master this boundary check and you’re golden!」
+

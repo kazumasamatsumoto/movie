@@ -1,0 +1,9 @@
+四国めたん「Symbol properties participate in prototype inheritance.」
+ずんだもん「Define them on a base class to share with subclasses.」
+四国めたん「They flow down the prototype chain.」
+ずんだもん「`Object.getOwnPropertySymbols` sees only own members.」
+四国めたん「Use `Reflect.ownKeys` plus `Object.getPrototypeOf` to traverse everything.」
+ずんだもん「Understand the inheritance model for metadata handling.」
+四国めたん「Symbols make APIs harder to accidentally override.」
+ずんだもん「Blend inheritance and symbols in your design!」
+

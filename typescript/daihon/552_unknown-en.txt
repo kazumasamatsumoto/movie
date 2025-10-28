@@ -1,0 +1,7 @@
+四国めたん「`unknown` is positioned as the type-safe cousin of `any`.」
+ずんだもん「If both accept any value, what makes it safer?」
+四国めたん「Because you can’t operate on it directly—the compiler forces you to prove safety first.」
+ずんだもん「So the compiler blocks risky usage upfront.」
+四国めたん「Exactly. You still get the flexibility of a top type with static guarantees.」
+ずんだもん「It’s practical to receive API responses as `unknown` before we narrow them.」
+

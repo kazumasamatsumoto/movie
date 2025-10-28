@@ -1,0 +1,9 @@
+四国めたん「Let's learn about mistakes with the non-null assertion!」
+ずんだもん「What mistakes occur?」
+四国めたん「People confuse it with the logical NOT operator; postfix `!` differs from prefix `!`.」
+ずんだもん「How are they different?」
+四国めたん「`!value` flips a boolean, while `value!` is a type assertion—totally different meanings.」
+ずんだもん「I see! Position changes the meaning!」
+四国めたん「For readability, it's better to avoid the non-null assertion so you don't mix them up.」
+ずんだもん「Clear code matters!」
+

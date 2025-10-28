@@ -1,0 +1,7 @@
+四国めたん「Let’s organize patterns for converting `unknown`.」
+ずんだもん「Guard → map, schema → parse, assertion → fallback.」
+四国めたん「Exactly—pick the approach that balances safety with readability.」
+ずんだもん「Shared utilities reduce repetition.」
+四国めたん「Codify conversion patterns into a shared library.」
+ずんだもん「Reusable conversions benefit the whole team!」
+

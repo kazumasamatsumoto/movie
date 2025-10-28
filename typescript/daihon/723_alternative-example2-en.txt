@@ -1,0 +1,7 @@
+四国めたん「Next, swapping an `any` utility for generics plus conditional types.」
+ずんだもん「`merge(objA, objB): any` became a typed `Merge<T, U>`.」
+四国めたん「Return types now infer correctly and bugs shrank.」
+ずんだもん「Call-site completion also improved.」
+四国めたん「Just refining the types delivered huge benefits.」
+ずんだもん「Make shared utilities type-safe to boost DX!」
+

@@ -1,0 +1,9 @@
+四国めたん「Symbols are primitives, just like strings or numbers.」
+ずんだもん「`typeof` returns `'symbol'`—that’s the proof.」
+四国めたん「They’re immutable; they carry no internal state.」
+ずんだもん「You can box them, but normally you treat them as values.」
+四国めたん「Wrapper objects are rarely needed.」
+ずんだもん「As primitives, they’re lightweight for comparisons or map keys.」
+四国めたん「TypeScript treats them as fundamental built-in types.」
+ずんだもん「Understand their primitive traits before using them!」
+

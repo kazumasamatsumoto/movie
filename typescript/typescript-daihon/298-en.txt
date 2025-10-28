@@ -1,0 +1,9 @@
+四国めたん「Let's learn how to assign `undefined`!」
+ずんだもん「How do you assign `undefined`?」
+四国めたん「You can assign it to variables typed with unions or optionals. `strictNullChecks` keeps it type-safe。」
+ずんだもん「Do you get errors when the type doesn't match?」
+四国めたん「Right—only `string | undefined` can take `undefined`; you can't assign it to a `number`。」
+ずんだもん「I see! Type checking keeps those assignments safe!」
+四国めたん「Assigning it explicitly lets you express that a value is unset。」
+ずんだもん「Catching type errors at compile time is the best!」
+

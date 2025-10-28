@@ -1,0 +1,7 @@
+四国めたん「`any` is only acceptable in rare scenarios.」
+ずんだもん「Like prototyping or external SDKs with no typings.」
+四国めたん「Right—use it when speed outweighs safety temporarily.」
+ずんだもん「But plan to replace it with `unknown` or precise types.」
+四国めたん「Set expiration dates on `eslint-disable` comments too.」
+ずんだもん「Treat it as an exception, never the norm!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's learn what `Promise<void>` is.」
+ずんだもん「What kind of type is `Promise<void>`?」
+四国めたん「It represents asynchronous work where only completion matters; no value is expected.」
+ずんだもん「When do we use it?」
+四国めたん「For saving data, initialization, cleanup—any async task where you just wait for it to finish.」
+ずんだもん「I see! We only wait for completion!」
+四国めたん「If an `async` function has no return, it automatically becomes `Promise<void>`—still common in TypeScript v5.9.」
+ずんだもん「So it’s the async version of `void`!」
+

@@ -1,0 +1,7 @@
+四国めたん「Use assertions when you must convert `any`.」
+ずんだもん「But only after proper validation.」
+四国めたん「Pair with `unknown` for safe assertions.」
+ずんだもん「Apply `as const` or `as T` to support inference.」
+四国めたん「Document the evidence to avoid turning into `any`.」
+ずんだもん「Treat assertions as a careful final step!」
+

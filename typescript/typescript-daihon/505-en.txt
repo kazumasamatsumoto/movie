@@ -1,0 +1,9 @@
+四国めたん「Let's learn about discriminated unions.」
+ずんだもん「What are those?」
+四国めたん「Union types with a shared property that distinguishes each variant—making exhaustiveness easy.」
+ずんだもん「How do I write one?」
+四国めたん「Add a `type` (or similar) property to tag each variant and switch on it.」
+ずんだもん「So it’s simple to tell them apart!」
+四国めたん「It’s popular for Redux actions and events—still a recommended TypeScript v5.9 pattern.」
+ずんだもん「A super practical approach!」
+

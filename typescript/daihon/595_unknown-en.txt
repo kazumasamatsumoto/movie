@@ -1,0 +1,7 @@
+四国めたん「Nested guards help you safely traverse deep structures.」
+ずんだもん「Check the parent first, then the child.」
+四国めたん「Right—prove safety step by step.」
+ずんだもん「Split helpers for readability.」
+四国めたん「Lean on return-type predicates to describe each level.」
+ずんだもん「Even complex JSON stops being scary!」
+

@@ -1,0 +1,7 @@
+四国めたん「If values fall into limited patterns, use unions.」
+ずんだもん「Like `string | number | null`.」
+四国めたん「Discriminated unions make branching safe.」
+ずんだもん「List real cases and define concrete unions.」
+四国めたん「Union types improve both completion and checking.」
+ずんだもん「Upgrade from `any` to precise unions!」
+

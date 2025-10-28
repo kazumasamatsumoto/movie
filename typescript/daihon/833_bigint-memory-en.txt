@@ -1,0 +1,9 @@
+四国めたん「`bigint` allocates memory proportional to its digits.」
+ずんだもん「`number` stays at 8 bytes; `bigint` grows.」
+四国めたん「Large values cost more memory and CPU.」
+ずんだもん「Watch usage when storing many BigInts.」
+四国めたん「Consider strings or chunks if needed.」
+ずんだもん「Always measure performance!」
+四国めたん「Understand the tradeoff before designing.」
+ずんだもん「Plan for both reach and cost!」
+

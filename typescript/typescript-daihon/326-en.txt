@@ -1,0 +1,9 @@
+四国めたん「Let's learn about nullable types!」
+ずんだもん「What does a nullable type look like?」
+四国めたん「It's a union like `T | null` that makes the possibility of `null` explicit.」
+ずんだもん「Where do we use it?」
+四国めたん「Database NULLs, API search results, and optional values where `null` is meaningful.」
+ずんだもん「I see! Use it when `null` can appear!」
+四国めたん「With `strictNullChecks`, you must handle it with proper checks.」
+ずんだもん「Expressing `null` in the type is the best!」
+

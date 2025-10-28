@@ -1,0 +1,7 @@
+四国めたん「Highly dynamic code, like plugins or metaprogramming, may tempt you to use `any`.」
+ずんだもん「Type shape might not be known until runtime.」
+四国めたん「Convert to `unknown` and provide guards or predicates whenever possible.」
+ずんだもん「Document the rules when `any` truly can’t be avoided.」
+四国めたん「Balance dynamic freedom with type safety.」
+ずんだもん「Revisit designs to pass type info whenever you can!」
+

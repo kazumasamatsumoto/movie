@@ -1,0 +1,7 @@
+四国めたん「`unknown` carries restrictions to prevent runtime errors.」
+ずんだもん「Because operating blindly on unknown values is dangerous.」
+四国めたん「Exactly—static analysis spots risky operations and nudges you to prove safety.」
+ずんだもん「The larger the codebase, the more valuable that safety net becomes.」
+四国めたん「Treat the restriction as the cost of safety, not a nuisance.」
+ずんだもん「When developers supply the proof, `unknown` turns into an ally!」
+

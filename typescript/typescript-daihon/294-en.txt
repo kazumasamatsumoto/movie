@@ -1,0 +1,9 @@
+四国めたん「Let's learn practical patterns for `null`!」
+ずんだもん「What kinds of patterns use `null`?」
+四国めたん「You see it in patterns like Null Object, option types, repository searches, and factory methods。」
+ずんだもん「Show me a concrete code example!」
+四国めたん「Classic ones include null checks with type guards, setting default values, and error handling with a Result type。」
+ずんだもん「Got it! There are practical patterns for it!」
+四国めたん「Angular services and dependency injection, plus Nest.js repositories, rely on it often。」
+ずんだもん「Implementing design patterns with type safety is the best!」
+

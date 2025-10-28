@@ -1,0 +1,9 @@
+四国めたん「Let's talk about annotating `never` functions.」
+ずんだもん「Do I need to annotate them?」
+四国めたん「Inference will mark them `never`, but an explicit annotation clarifies intent.」
+ずんだもん「When should I choose which?」
+四国めたん「Public or critical APIs deserve explicit types; internal helpers can rely on inference.」
+ずんだもん「So we pick per context!」
+四国めたん「It doubles as documentation—still recommended in TypeScript v5.9.」
+ずんだもん「Clarity matters!」
+

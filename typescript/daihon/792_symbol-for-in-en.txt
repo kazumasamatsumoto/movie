@@ -1,0 +1,9 @@
+四国めたん「`for...in` iterates only enumerable string keys.」
+ずんだもん「Symbol keys never appear.」
+四国めたん「Use other APIs when you need to traverse symbol properties.」
+ずんだもん「Combine with `Object.getOwnPropertySymbols` if needed.」
+四国めたん「`Reflect.ownKeys` plus filtering also works.」
+ずんだもん「Know the spec so you avoid mistakes!」
+四国めたん「Pick the right loop for the job.」
+ずんだもん「Loop strategy matters when symbols enter the mix!」
+

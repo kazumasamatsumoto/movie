@@ -1,0 +1,9 @@
+四国めたん「Let's connect infinite loops to `never`.」
+ずんだもん「Do infinite loops also return `never`?」
+四国めたん「Yes—if the loop never ends, control never comes back.」
+ずんだもん「When would that matter?」
+四国めたん「For server main loops, event listeners, or daemon processes that run forever.」
+ずんだもん「So they just keep going!」
+四国めたん「They’re rare but important to model—TypeScript v5.9 handles them the same way.」
+ずんだもん「A special scenario indeed!」
+

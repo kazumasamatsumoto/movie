@@ -1,0 +1,9 @@
+四国めたん「Let's explore type-filtering techniques.」
+ずんだもん「What does filtering mean at the type level?」
+四国めたん「We use conditional types plus `never` to strip away types that don't match a condition.」
+ずんだもん「What pattern should I follow?」
+四国めたん「`T extends Condition ? T : never` keeps only the types that satisfy `Condition`.」
+ずんだもん「So it's like filtering an array, but for types!」
+四国めたん「It's the basis of helpers like `Exclude`, `Extract`, and `NonNullable`.」
+ずんだもん「Type-level filtering unlocks so much reuse!」
+

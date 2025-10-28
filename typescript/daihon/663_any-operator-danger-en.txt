@@ -1,0 +1,7 @@
+四国めたん「Operators on `any` lead to surprising results.」
+ずんだもん「Concatenating an object yields `[object Object]`.」
+四国めたん「Comparisons can silently fail as well.」
+ずんだもん「Narrow with `unknown` before operating.」
+四国めたん「Keep arithmetic under strict type control.」
+ずんだもん「Never bring `any` into numeric logic!」
+

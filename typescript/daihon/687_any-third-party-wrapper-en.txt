@@ -1,0 +1,7 @@
+四国めたん「Wrap third-party libraries that return `any`.」
+ずんだもん「Use the Adapter pattern to convert to `unknown` or DTOs.」
+四国めたん「Contain the impact when libraries change.」
+ずんだもん「Create custom d.ts files if typings are missing.」
+四国めたん「Managing external boundaries is key to removal.」
+ずんだもん「Turn safe wrappers into shared assets!」
+

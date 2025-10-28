@@ -1,0 +1,7 @@
+四国めたん「Let's learn the precedence of logical operators in TypeScript v5.9!」
+ずんだもん「What is operator precedence?」
+四国めたん「It's the order in which logical operators are evaluated.」
+ずんだもん「What's the order?」
+四国めたん「`!` first, then `&&`, then `||`.」
+ずんだもん「Is this important for Angular development too?」
+四国めたん「Absolutely—it helps you reason about complex conditions.」

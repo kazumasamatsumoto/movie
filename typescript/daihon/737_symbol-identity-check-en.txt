@@ -1,0 +1,9 @@
+四国めたん「Two values from `Symbol()` always compare unequal with `===`.」
+ずんだもん「`Object.is` gives the same result.」
+四国めたん「Only the exact same variable reference yields `true`.」
+ずんだもん「`Symbol.for` is an exception—it can return a shared symbol from the global pool.」
+四国めたん「Learn the comparison behavior to debug more easily.」
+ずんだもん「Keep the symbol reference handy if you need to reuse it.」
+四国めたん「Once dropped, you can’t reconstruct the same symbol.」
+ずんだもん「Know the rules so you compare safely!」
+

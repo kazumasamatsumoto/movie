@@ -1,0 +1,9 @@
+四国めたん「Let's wrap up the `null` type!」
+ずんだもん「Tell me the key points of the `null` type!」
+四国めたん「`null` is the primitive that represents an explicit empty value. `strictNullChecks` keeps it type-safe。」
+ずんだもん「How do we differentiate it from `undefined`?」
+四国めたん「Use `null` for intentional emptiness and `undefined` for optional cases. Handle them safely with Nullish Coalescing `??` and optional chaining `?.`。」
+ずんだもん「Got it! The type system manages them strictly!」
+四国めたん「It's vital for API/DB `NULL` support and for design patterns. TypeScript v5.9 even strengthened inference。」
+ずんだもん「Using `null` correctly keeps development type-safe—love it!」
+

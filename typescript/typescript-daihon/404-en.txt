@@ -1,0 +1,9 @@
+四国めたん「Let's learn about assigning `undefined` to a variable of type `void`.」
+ずんだもん「Can a `void` variable hold `undefined`?」
+四国めたん「Yes—it only accepts `undefined`.」
+ずんだもん「What about other values?」
+四国めたん「They won't compile. The `void` type is extremely restrictive.」
+ずんだもん「So it's not very practical as a variable!」
+四国めたん「Right, that's why we almost exclusively use it as a function return type.」
+ずんだもん「So `void` is basically for functions!」
+

@@ -1,0 +1,7 @@
+四国めたん「`unknown` and `any` accept the same values, but they behave very differently.」
+ずんだもん「With `any`, everything compiles and runtime errors slip through.」
+四国めたん「`unknown` forces you to check the type before doing anything, stopping misuse.」
+ずんだもん「So if we prefer safety, we should choose `unknown`.」
+四国めたん「Exactly—reserve `any` for intentional escapes and favor `unknown` otherwise.」
+ずんだもん「Let’s make `unknown` the default in code reviews!」
+

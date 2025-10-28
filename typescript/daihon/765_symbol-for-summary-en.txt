@@ -1,0 +1,9 @@
+四国めたん「`Symbol.for` returns globally shared symbols.」
+ずんだもん「Same key, same value—perfect for inter-module messaging.」
+四国めたん「Keys are single strings—avoid collisions with naming conventions.」
+ずんだもん「`Symbol.keyFor` retrieves the key.」
+四国めたん「Remember: entries can’t be removed from the registry.」
+ずんだもん「Choose between `Symbol()` and `Symbol.for` based on needs.」
+四国めたん「Next: Well-known Symbols.」
+ずんだもん「With global symbols mastered, you’re ready!」
+

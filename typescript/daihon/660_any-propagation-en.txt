@@ -1,0 +1,7 @@
+四国めたん「`any` at one point propagates through inference.」
+ずんだもん「A function returning `any` makes its consumers `any`.」
+四国めたん「Bugs cross boundaries and spread.」
+ずんだもん「Convert to `unknown` or precise types early.」
+四国めたん「Kill `any` at the source before it spreads.」
+ずんだもん「Stop the spiral of type debt!」
+

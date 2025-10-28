@@ -1,0 +1,9 @@
+四国めたん「Let's learn about optional chaining!」
+ずんだもん「What does `?.` do?」
+四国めたん「It lets you access properties on nullable values safely, returning `undefined` when the base is nullish.」
+ずんだもん「How do you use it?」
+四国めたん「Write `user?.name`; if `user` is `null`, it yields `undefined`, otherwise you get the `name`.」
+ずんだもん「Got it! That's safe access!」
+四国めたん「It even works on nested properties—`user?.address?.city` chains naturally.」
+ずんだもん「Preventing runtime errors is the best!」
+

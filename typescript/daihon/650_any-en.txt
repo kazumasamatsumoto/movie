@@ -1,0 +1,7 @@
+四国めたん「`any` has unique traits.」
+ずんだもん「Instead of broadening unions, it swallows everything.」
+四国めたん「Conditional types stall when `any` appears.」
+ずんだもん「Distribution stops once `any` enters the equation.」
+四国めたん「It can wreck generic safety if you’re not careful.」
+ずんだもん「Special properties demand special caution!」
+

@@ -1,0 +1,9 @@
+四国めたん「Declare `symbol` explicitly with type annotations.」
+ずんだもん「`let key: symbol = Symbol("key");` is the pattern, right?」
+四国めたん「Yes—and a `const` keeps that symbol around.」
+ずんだもん「Perfect when you want reusable DI tokens.」
+四国めたん「You can also specify `symbol` as an object’s property-key type.」
+ずんだもん「Knowing the type-level collision can’t happen is reassuring.」
+四国めたん「Choose between `symbol` and `unique symbol` depending on the intent.」
+ずんだもん「Start by locking in the basic declaration styles!」
+

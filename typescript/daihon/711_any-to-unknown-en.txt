@@ -1,0 +1,7 @@
+四国めたん「The easiest `any` replacement is `unknown`.」
+ずんだもん「It forces guards and restores safety.」
+四国めたん「Convert to `unknown`, then add the needed guards or assertions.」
+ずんだもん「Compile errors guide you—perfect for gradual migration.」
+四国めたん「`unknown` is a flexible bucket that keeps static guarantees.」
+ずんだもん「Spot an `any`? Convert it to `unknown` first!」
+

@@ -1,0 +1,7 @@
+四国めたん「When behavior varies by input, use overloads instead of `any`.」
+ずんだもん「Multiple signatures show callers the correct shapes.」
+四国めたん「One implementation, typed overloads as contracts.」
+ずんだもん「Great when unions get unwieldy.」
+四国めたん「Express intent clearly and skip `any`.」
+ずんだもん「Capture each usage pattern precisely!」
+

@@ -1,0 +1,7 @@
+四国めたん「`any` doesn’t hurt performance directly, but it triggers wasteful work.」
+ずんだもん「Skipped checks lead to runtime exceptions and retries.」
+四国めたん「Extra guards and fallbacks raise system load.」
+ずんだもん「`unknown` or strict types prevent errors ahead of time.」
+四国めたん「Removing `any` keeps performance stable.」
+ずんだもん「Type safety and performance go hand in hand!」
+

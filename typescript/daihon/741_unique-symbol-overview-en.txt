@@ -1,0 +1,9 @@
+四国めたん「`unique symbol` is the literal type for a specific symbol value.」
+ずんだもん「`const` plus `Symbol()` infers it automatically.」
+四国めたん「Then `typeof` lets you reuse that value as a property-key type.」
+ずんだもん「It works great as a discriminant property too.」
+四国めたん「`unique symbol` excels when identifiers must never be reassigned.」
+ずんだもん「Perfect for sharing tokens safely.」
+四国めたん「Declare them with `const` or `readonly static`.」
+ずんだもん「Learn where `unique symbol` shines!」
+

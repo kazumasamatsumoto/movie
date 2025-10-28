@@ -1,0 +1,7 @@
+四国めたん「Let's learn about a common mistake in TypeScript v5.9: using ==.」
+ずんだもん「What goes wrong when we use ==?」
+四国めたん「Type coercion can lead to unexpected behavior and bugs.」
+ずんだもん「Can you give an example?」
+四国めたん「`'0' == 0` is true, which often surprises developers.」
+ずんだもん「How do we avoid it?」
+四国めたん「Always use `===` and enable ESLint's eqeqeq rule.」

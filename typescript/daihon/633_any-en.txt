@@ -1,0 +1,7 @@
+四国めたん「Design type-safe APIs with DTOs and guards side by side.」
+ずんだもん「In Nest we can type both input and output.」
+四国めたん「Right—`unknown` boundary → ValidationPipe → DTO → service.」
+ずんだもん「Typed responses give the front end confidence too.」
+四国めたん「Express API contracts via TypeScript types.」
+ずんだもん「Reduce backend–frontend mismatches through type safety!」
+

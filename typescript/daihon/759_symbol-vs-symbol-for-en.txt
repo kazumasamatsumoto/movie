@@ -1,0 +1,9 @@
+四国めたん「Use `Symbol()` for local keys, `Symbol.for` for shared ones.」
+ずんだもん「Metadata that never leaves its scope can stay local.」
+四国めたん「Sharing globally increases management cost—reserve it for true needs.」
+ずんだもん「Expose keys to external plugins via `Symbol.for`.」
+四国めたん「Balance security with visibility.」
+ずんだもん「Purposeful choices keep the design tidy.」
+四国めたん「Pick the right API for your requirements.」
+ずんだもん「Play to the strengths of each symbol API!」
+

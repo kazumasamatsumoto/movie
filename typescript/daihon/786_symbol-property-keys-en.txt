@@ -1,0 +1,9 @@
+四国めたん「Symbols work as object property keys.」
+ずんだもん「Use bracket notation to define them.」
+四国めたん「They’re great for adding hidden properties.」
+ずんだもん「Keep metadata or internal state safely.」
+四国めたん「TypeScript’s computed property names are fully typed.」
+ずんだもん「Symbol keys create collision-free extension points.」
+四国めたん「Review the fundamentals.」
+ずんだもん「Symbol-keyed properties are powerful tools!」
+

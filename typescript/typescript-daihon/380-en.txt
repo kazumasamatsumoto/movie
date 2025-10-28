@@ -1,0 +1,9 @@
+四国めたん「Let's learn the design philosophy of `void`!」
+ずんだもん「Why do we need the `void` type?」
+四国めたん「It's influenced by functional programming to separate side-effectful and pure functions.」
+ずんだもん「What does that mean?」
+四国めたん「It distinguishes value-returning functions from those that just perform work, encoding the intent.」
+ずんだもん「I see! The type shows each function's role!」
+四国めたん「It's the same idea as `void` in Java or C and remains a core design principle in TypeScript v5.9.」
+ずんだもん「We can express design through the type system!」
+

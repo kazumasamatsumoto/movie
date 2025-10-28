@@ -1,0 +1,9 @@
+四国めたん「Assign symbol keys with bracket syntax.」
+ずんだもん「`obj[token] = value` is the idiom.」
+四国めたん「Dot notation doesn’t work—stick to brackets.」
+ずんだもん「`Object.defineProperty` lets you set attributes explicitly.」
+四国めたん「Sometimes a `Map<symbol, T>` is easier to type than `Record`.」
+ずんだもん「Know the assignment pattern to attach metadata safely.」
+四国めたん「It’s invaluable when extending objects.」
+ずんだもん「Learn the notation and keep leveraging symbols!」
+

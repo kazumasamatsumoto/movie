@@ -1,0 +1,7 @@
+四国めたん「Type predicates let a function guarantee a type in its return.」
+ずんだもん「The `value is Type` syntax narrows callers automatically.」
+四国めたん「They’re essential for taming `unknown`.」
+ずんだもん「And you can test them as standalone logic.」
+四国めたん「Push the proof responsibility into well-designed guard functions.」
+ずんだもん「Keep growing that guard library!」
+

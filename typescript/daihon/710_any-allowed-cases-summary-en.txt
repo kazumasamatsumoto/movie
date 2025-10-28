@@ -1,0 +1,7 @@
+四国めたん「Let’s summarize the acceptable scenarios for `any`.」
+ずんだもん「Gradual migrations, prototypes, third-party code, emergencies.」
+四国めたん「Every case requires deadlines, owners, and safeguards.」
+ずんだもん「Use comment policies and pattern catalogs for transparency.」
+四国めたん「Exceptions must run alongside removal plans.」
+ずんだもん「With controlled operations, `any` stops being scary!」
+

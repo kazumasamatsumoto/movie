@@ -1,0 +1,7 @@
+四国めたん「Another risk: calling an `any` as a function.」
+ずんだもん「You do `value()` but it’s actually an object.」
+四国めたん「The compiler stays silent; runtime throws `TypeError`.」
+ずんだもん「Use `typeof value === "function"` to be safe.」
+四国めたん「`unknown` warns you at compile time.」
+ずんだもん「Make pre-call checks second nature!」
+

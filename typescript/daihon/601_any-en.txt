@@ -1,0 +1,7 @@
+四国めたん「TypeScript’s `any` type skips type checking entirely.」
+ずんだもん「It basically accepts plain JavaScript without guardrails.」
+四国めたん「Exactly—any value assigns to it, and you can do anything with it.」
+ずんだもん「Convenient, but type safety drops to zero.」
+四国めたん「Understand the goals and risks before you use it.」
+ずんだもん「Let’s learn the traits first and look for safer alternatives too!」
+

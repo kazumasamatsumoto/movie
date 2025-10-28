@@ -1,0 +1,9 @@
+四国めたん「The iterator protocol expects `next()` to return `{ value, done }`.」
+ずんだもん「When `done` is true, iteration stops.」
+四国めたん「`Symbol.iterator` returns the iterator method itself.」
+ずんだもん「You can call `next` manually for fine-grained control.」
+四国めたん「Generators are protocol-compliant out of the box.」
+ずんだもん「Understanding the protocol reveals how `for...of` works.」
+四国めたん「Use `IteratorResult` typings for extra safety.」
+ずんだもん「Master the protocol and tackle advanced iteration!」
+

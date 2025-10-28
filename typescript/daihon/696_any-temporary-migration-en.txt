@@ -1,0 +1,7 @@
+四国めたん「During gradual migration, you may temporarily allow `any`.」
+ずんだもん「Large codebases can’t fix everything at once.」
+四国めたん「Set roadmaps and deadlines while sandboxing risky areas.」
+ずんだもん「Document each migration step to avoid backsliding.」
+四国めたん「With governance, you can control risk even mid-migration.」
+ずんだもん「Planful allowances lead to smoother transitions!」
+

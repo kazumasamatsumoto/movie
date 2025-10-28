@@ -1,0 +1,9 @@
+四国めたん「Let’s list the core traits of `bigint`.」
+ずんだもん「Integer-only, arbitrary precision, supports arithmetic and comparisons.」
+四国めたん「No `NaN` or `Infinity`; `Math` functions don’t apply.」
+ずんだもん「Bitwise operators still work—handy!」
+四国めたん「You can’t JSON-stringify it directly.」
+ずんだもん「Understand the traits and map them to use cases!」
+四国めたん「Plan with constraints in mind.」
+ずんだもん「Know BigInt’s personality!」
+

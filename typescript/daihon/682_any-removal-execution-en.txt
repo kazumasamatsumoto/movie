@@ -1,0 +1,7 @@
+四国めたん「Execute by replacing `any` in priority order.」
+ずんだもん「Add guards and DTOs while fixing compile errors.」
+四国めたん「Tackle high-impact files first and keep PRs small.」
+ずんだもん「Run automated tests constantly to avoid regressions.」
+四国めたん「Use checklists in reviews to catch missed guards.」
+ずんだもん「Stepwise execution keeps the team’s load manageable!」
+

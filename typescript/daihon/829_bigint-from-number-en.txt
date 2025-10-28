@@ -1,0 +1,9 @@
+四国めたん「`BigInt(number)` converts integers to bigint.」
+ずんだもん「What if the number has a fraction?」
+四国めたん「It throws `RangeError`; only integers are allowed.」
+ずんだもん「Convert before numbers exceed `MAX_SAFE_INTEGER`.」
+四国めたん「Use it when dynamic values can’t be written as literals.」
+ずんだもん「Great for converting pieces of crypto hashes.」
+四国めたん「Validate inputs before converting.」
+ずんだもん「Transform numbers to BigInt smartly!」
+

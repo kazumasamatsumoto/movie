@@ -1,0 +1,7 @@
+四国めたん「DTOs lock down `unknown` input safely.」
+ずんだもん「Define classes or interfaces to shape the data.」
+四国めたん「Convert via ValidationPipe or manual guards.」
+ずんだもん「Response DTOs clarify outgoing contracts.」
+四国めたん「DTO definitions kick off the journey away from `any`.」
+ずんだもん「Let’s run DTO-driven projects across the team!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's talk about stack traces.」
+ずんだもん「What are they?」
+四国めたん「They’re the call history when an error occurs—crucial for debugging.」
+ずんだもん「How do I inspect them?」
+四国めたん「Check `Error.stack` to view the call order.」
+ずんだもん「Great! I can trace the root cause!」
+四国めたん「You can customize them with `Error.captureStackTrace()`; it’s handy in TypeScript v5.9 too.」
+ずんだもん「Debugging gets easier!」
+

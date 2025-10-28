@@ -1,0 +1,7 @@
+四国めたん「Calling methods on `unknown` triggers a compile error.」
+ずんだもん「`value.toUpperCase()` is a no-go until we guard it.」
+四国めたん「Exactly—prove it’s a string first, then call the method.」
+ずんだもん「Custom guards make even complex types approachable.」
+四国めたん「Every call should be backed by a proof of safety.」
+ずんだもん「Lean on editor errors to keep us honest!」
+

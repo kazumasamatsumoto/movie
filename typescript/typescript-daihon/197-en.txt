@@ -1,0 +1,7 @@
+四国めたん「Let's learn about mistakes when checking for NaN in TypeScript v5.9!」
+ずんだもん「What's the common NaN check mistake?」
+四国めたん「Comparing NaN with `===` is incorrect.」
+ずんだもん「Why is that a problem?」
+四国めたん「NaN isn't equal to anything—not even itself.」
+ずんだもん「Is this important for Angular development too?」
+四国めたん「Absolutely—reliable numeric validation depends on it.」

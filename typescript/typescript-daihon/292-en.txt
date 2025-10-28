@@ -1,0 +1,9 @@
+四国めたん「Let's learn the difference between `null` and an empty string!」
+ずんだもん「How are `null` and an empty string different?」
+四国めたん「`null` signals no value, while the empty string `''` is a string of length zero. Their types and meanings differ。」
+ずんだもん「They both look empty though...」
+四国めたん「An empty string is still a valid string value. Nullish Coalescing treats it as a legitimate value。」
+ずんだもん「I see! The empty string really is a value!」
+四国めたん「Type safety stops you from assigning `null` to a `string`; use `string | null`。」
+ずんだもん「Love how the type system keeps them distinct!」
+

@@ -1,0 +1,9 @@
+四国めたん「`bigint` has no built-in range limits.」
+ずんだもん「Memory permitting, it represents enormous integers.」
+四国めたん「True—but operations get more expensive.」
+ずんだもん「Unlike `number`, there’s no `Infinity`.」
+四国めたん「Use it deliberately when huge values are necessary.」
+ずんだもん「Even big-data counts stay precise.」
+四国めたん「Account for resources if you push the range.」
+ずんだもん「Harness BigInt’s limitless scale!」
+

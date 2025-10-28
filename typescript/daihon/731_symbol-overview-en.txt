@@ -1,0 +1,9 @@
+四国めたん「Let’s explore the `symbol` type in TypeScript v5.9!」
+ずんだもん「How is a symbol different from a string key?」
+四国めたん「It’s a primitive for generating unique identifiers—two symbols with the same description are still distinct.」
+ずんだもん「So we can create property keys that never collide.」
+四国めたん「Right, it’s also handy for hiding internal metadata on objects.」
+ずんだもん「Angular and Nest.js could use it for framework-side identifiers too.」
+四国めたん「Because it never converts to a string implicitly, it keeps things safer.」
+ずんだもん「Unique keys make extensibility a lot easier!」
+

@@ -1,0 +1,9 @@
+四国めたん「Here’s a collection example using multiple well-known symbols.」
+ずんだもん「Implement `iterator` and `toStringTag` for easier debugging.」
+四国めたん「Yes—make it iterable so `for...of` just works.」
+ずんだもん「`toStringTag` keeps logs readable.」
+四国めたん「`Symbol.species` lets you tailor return types.」
+ずんだもん「It becomes a template for custom collections.」
+四国めたん「Experience how the symbols cooperate.」
+ずんだもん「It makes the spec feel much more approachable!」
+

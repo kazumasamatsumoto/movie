@@ -1,0 +1,9 @@
+四国めたん「Let's see exhaustiveness in action.」
+ずんだもん「How do real projects use it?」
+四国めたん「In state management or event handling where every case must be handled.」
+ずんだもん「Show me an example!」
+四国めたん「A reducer that handles every action type so new ones trigger a compile-time error.」
+ずんだもん「So we notice missing actions immediately!」
+四国めたん「It raises safety during refactors and maintenance.」
+ずんだもん「Perfect for large projects!」
+

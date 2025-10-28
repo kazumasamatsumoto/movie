@@ -1,0 +1,9 @@
+四国めたん「Let's learn about nullable arrays!」
+ずんだもん「What does it mean when array elements are nullable?」
+四国めたん「A type like `(T | null)[]` means each element can be `null`, while the array itself still exists.」
+ずんだもん「How is that different from a nullable array?」
+四国めたん「`(T | null)[]` keeps the array but allows null elements; `T[] | null` lets the entire array be `null`.」
+ずんだもん「I see! They mean different things!」
+四国めたん「Use type guards when you `filter` or `map` so your processing stays safe.」
+ずんだもん「Handling arrays type-safely is the best!」
+

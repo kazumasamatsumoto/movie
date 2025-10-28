@@ -1,0 +1,9 @@
+四国めたん「Let's learn how to debug `void` functions.」
+ずんだもん「How do I debug them?」
+四国めたん「Use `console.log()` to watch the side effects since there’s no return value.」
+ずんだもん「Where should I log?」
+四国めたん「At the start, at branches, and at the end to trace the flow.」
+ずんだもん「Makes sense—logs show the path!」
+四国めたん「Debugger breakpoints help too—the approach is unchanged in TypeScript v5.9.」
+ずんだもん「Use the tools wisely!」
+

@@ -1,0 +1,9 @@
+四国めたん「Let's capture best practices for exhaustiveness.」
+ずんだもん「What's the best way to write it?」
+四国めたん「Define an `exhaustiveCheck` helper, lean on discriminated unions, and place type guards wisely.」
+ずんだもん「Can I see a pattern?」
+四国めたん「Create shared helpers and run `never` checks in every branch.」
+ずんだもん「So the whole team can stay consistent!」
+四国めたん「Pair it with ESLint rules for even more robustness.」
+ずんだもん「Code reviews get easier too!」
+

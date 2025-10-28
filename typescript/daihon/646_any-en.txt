@@ -1,0 +1,7 @@
+四国めたん「`any` values assign to any other type.」
+ずんだもん「Numbers, strings, functions—no checks stop you.」
+四国めたん「That’s why runtime surprises are so common.」
+ずんだもん「The broader the assignment, the higher the risk.」
+四国めたん「Think carefully before moving an `any` around.」
+ずんだもん「Prefer `unknown` or explicit conversions!」
+

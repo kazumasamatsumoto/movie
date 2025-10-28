@@ -1,0 +1,7 @@
+四国めたん「`instanceof` narrows `unknown` to class instances.」
+ずんだもん「Great for distinguishing `Error` or `Date`.」
+四国めたん「Right—it leverages the prototype chain safely.」
+ずんだもん「It works for custom classes too.」
+四国めたん「Whenever `unknown` crosses a class boundary, reach for `instanceof`.」
+ずんだもん「You’ll always know what kind of object you’re dealing with!」
+

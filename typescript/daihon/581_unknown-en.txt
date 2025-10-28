@@ -1,0 +1,7 @@
+四国めたん「A `typeof` guard is the most basic way to narrow `unknown`.」
+ずんだもん「Like `typeof value === \"string\"`.」
+四国めたん「Exactly—it’s perfect for primitive types.」
+ずんだもん「Inside the branch we can treat it as a string or number safely.」
+四国めたん「Wrap the guard in a function for reuse, too.」
+ずんだもん「Master `typeof` patterns and `unknown` becomes easy to handle!」
+

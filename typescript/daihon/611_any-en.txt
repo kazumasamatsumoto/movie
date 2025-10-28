@@ -1,0 +1,7 @@
+四国めたん「Finally, let’s swap `any` for `unknown` in a config loader.」
+ずんだもん「Change `loadConfig` to return `unknown` and run schema validation.」
+四国めたん「Exactly—convert it to a safe `Config` before use.」
+ずんだもん「That lets you apply defaults type-safely.」
+四国めたん「It also hardens the app against broken config files.」
+ずんだもん「Include validation so `unknown` stays reliable!」
+

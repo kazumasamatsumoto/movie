@@ -1,0 +1,7 @@
+四国めたん「Let's learn about type guards in TypeScript v5.9!」
+ずんだもん「What is a type guard?」
+四国めたん「It's a runtime check that narrows the type of a value.」
+ずんだもん「Where do we use it?」
+四国めたん「When handling union types or unknown values safely.」
+ずんだもん「What's the big advantage?」
+四国めたん「The compiler understands the refined type, so we can write type-safe code.」

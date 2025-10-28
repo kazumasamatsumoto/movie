@@ -1,0 +1,7 @@
+四国めたん「The `in` operator checks whether `unknown` owns a property.」
+ずんだもん「Like writing `'id' in value`.」
+四国めたん「Exactly—it guarantees part of an object’s shape.」
+ずんだもん「Optional properties fit nicely too.」
+四国めたん「After confirming, assert or guard further before accessing.」
+ずんだもん「It’s a staple for safely handling external objects!」
+

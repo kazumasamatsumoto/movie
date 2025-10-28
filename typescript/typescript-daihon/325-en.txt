@@ -1,0 +1,9 @@
+四国めたん「Let's wrap up `strictNullChecks`!」
+ずんだもん「Remind me of the key points!」
+四国めたん「It's the most important option for stronger TypeScript safety—it strictly checks `null` and `undefined`.」
+ずんだもん「Why should we enable it?」
+四国めたん「It prevents runtime bugs and catches issues early, yet you can roll it out gradually.」
+ずんだもん「I see! It's a must-have!」
+四国めたん「New projects should start with the `strict` option; it's the standard in TypeScript v5.9.」
+ずんだもん「`strictNullChecks` lets us build type-safe apps—love it!」
+

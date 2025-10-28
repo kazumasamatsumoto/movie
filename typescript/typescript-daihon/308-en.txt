@@ -1,0 +1,9 @@
+四国めたん「Let's learn about the automatic insertion of `undefined`!」
+ずんだもん「Does `undefined` get inserted automatically?」
+四国めたん「Yes—optional parameters, implicit function returns, and uninitialized variables all become `undefined`.」
+ずんだもん「In what situations does that happen?」
+四国めたん「When you omit function parameters, skip optional object properties, or leave array slots uninitialized.」
+ずんだもん「Got it! The language handles that automatically!」
+四国めたん「TypeScript's type system annotates those cases appropriately, preserving type safety.」
+ずんだもん「Automatic type checks are the best!」
+

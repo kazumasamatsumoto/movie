@@ -1,0 +1,9 @@
+四国めたん「BigInt supports bitwise operators `&`, `|`, `^`, `~`.」
+ずんだもん「Great for flag handling or cryptographic masks.」
+四国めたん「You can operate across wider bit widths than `number`.」
+ずんだもん「Do not mix with `number` values.」
+四国めたん「Keep masks and constants typed as BigInt.」
+ずんだもん「Large flag sets become manageable!」
+四国めたん「Provide utilities to keep code readable.」
+ずんだもん「Let bit operations be your ally!」
+

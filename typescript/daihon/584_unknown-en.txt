@@ -1,0 +1,7 @@
+四国めたん「`typeof x === \"boolean\"` restricts `unknown` to booleans.」
+ずんだもん「That makes flag handling and branching trivial.」
+四国めたん「It also prevents unintended truthy checks.」
+ずんだもん「Package it as a utility for reuse.」
+四国めたん「Manage side effects in a dedicated boolean branch.」
+ずんだもん「Type-safe flag control for the win!」
+

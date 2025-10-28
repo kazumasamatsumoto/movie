@@ -1,0 +1,7 @@
+四国めたん「When `unknown` appears, inference leans toward the safe side.」
+ずんだもん「If a union includes `unknown`, the result tends to lean that way too.」
+四国めたん「Right—generic constraints loosen, so you have to narrow them manually.」
+ずんだもん「Plan to provide guards wherever inference leaves things broad.」
+四国めたん「The key is that the result never collapses to `any`.」
+ずんだもん「Use `unknown` to build a safe inference chain!」
+

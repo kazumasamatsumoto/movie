@@ -1,0 +1,7 @@
+四国めたん「Time to summarize the alternatives to `any`.」
+ずんだもん「`unknown`, generics, unions, strong types, guards, assertions, conditionals, utilities.」
+四国めたん「Mix them per scenario to design without `any`.」
+ずんだもん「Use real cases to inspire your codebase.」
+四国めたん「Share the knowledge so everyone benefits.」
+ずんだもん「Keep pushing for `any`-free TypeScript!」
+

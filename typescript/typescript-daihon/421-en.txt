@@ -1,0 +1,9 @@
+四国めたん「Let's learn what happens when you `await` a `Promise<void>`.」
+ずんだもん「What happens when I await a `Promise<void>`?」
+四国めたん「You simply wait for the work to finish; the result of the `await` expression has type `void`.」
+ずんだもん「So I don't get a value back?」
+四国めたん「Right—there's no value, you just continue once it’s done.」
+ずんだもん「Nice! That lets me run things in sequence!」
+四国めたん「You can await several `Promise<void>` tasks in order—that’s the standard approach in TypeScript v5.9.」
+ずんだもん「A great way to control async flow!」
+

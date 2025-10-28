@@ -1,0 +1,9 @@
+四国めたん「Let's learn about uninitialized variables!」
+ずんだもん「What happens to a variable that's never initialized?」
+四国めたん「In JavaScript it automatically becomes `undefined`, but in TypeScript you need a type annotation。」
+ずんだもん「What if you skip the type?」
+四国めたん「Under `strict` mode you'll get an error; you have to declare `undefined` or a union type explicitly。」
+ずんだもん「I see! The types guarantee safety!」
+四国めたん「Access before initialization is detected too, boosting type safety。」
+ずんだもん「It's the best when the compiler catches it!」
+

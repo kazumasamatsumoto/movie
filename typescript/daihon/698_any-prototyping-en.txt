@@ -1,0 +1,7 @@
+四国めたん「Prototyping sometimes prioritizes speed over safety.」
+ずんだもん「We might use `any` briefly for quick experiments.」
+四国めたん「Create follow-up tasks to add types afterward.」
+ずんだもん「Isolate prototypes so they don’t leak into production.」
+四国めたん「Document the duration and reason for `any`.」
+ずんだもん「Once validated, convert fast to safe types!」
+

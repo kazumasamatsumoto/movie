@@ -1,0 +1,7 @@
+四国めたん「Implicit `any` appears when you omit types and the compiler fills in `any`.」
+ずんだもん「If `noImplicitAny` is false, it happens silently.」
+四国めたん「Right—your safety evaporates without you noticing.」
+ずんだもん「Set `noImplicitAny` to true as your first defense.」
+四国めたん「Implicit `any` is fertile ground for bugs.」
+ずんだもん「Stamp it out across the project!」
+

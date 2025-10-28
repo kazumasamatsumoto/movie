@@ -1,0 +1,9 @@
+四国めたん「Let's learn the special properties of `never`.」
+ずんだもん「What makes it special?」
+四国めたん「It disappears inside union types, expresses unreachable code, and helps with narrowing.」
+ずんだもん「What do you mean by disappears?」
+四国めたん「`T | never` simplifies to `T`—just like a union with the empty set.」
+ずんだもん「So it’s mathematical!」
+四国めたん「Those traits keep our code safe, and we still rely on them in TypeScript v5.9.」
+ずんだもん「It's a pillar of the type system!」
+

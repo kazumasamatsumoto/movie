@@ -1,0 +1,7 @@
+四国めたん「Calling methods on `any` compiles without complaint.」
+ずんだもん「Even nonexistent methods slip through silently.」
+四国めたん「Rename a method and you might never notice.」
+ずんだもん「`unknown` forces you to guard before calling.」
+四国めたん「Method calls are where `any` is most dangerous.」
+ずんだもん「Purge `any` to keep calls safe!」
+

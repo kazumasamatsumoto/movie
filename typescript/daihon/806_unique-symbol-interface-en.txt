@@ -1,0 +1,9 @@
+四国めたん「Embed `unique symbol` keys in interfaces to highlight extension points.」
+ずんだもん「Exported types let implementers reuse the symbol itself.」
+四国めたん「Define the key with `declare const` and wire it into the interface.」
+ずんだもん「Great for sharing contracts across modules.」
+四国めたん「`extends` lets you merge interfaces containing these keys.」
+ずんだもん「Harness interfaces to make `unique symbol` practical!」
+四国めたん「Polish the API types first to ease operations.」
+ずんだもん「Interfaces keep team development smooth!」
+

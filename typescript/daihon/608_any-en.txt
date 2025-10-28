@@ -1,0 +1,7 @@
+四国めたん「Let’s plan a migration strategy for reducing `any`.」
+ずんだもん「Assess → prioritize → write guidelines → roll out gradually.」
+四国めたん「Correct—and enable `noImplicitAny` plus lint in CI.」
+ずんだもん「Utility scripts speed up conversion too.」
+四国めたん「Document changes so the knowledge sticks.」
+ずんだもん「Strategic action makes it workable even in large projects!」
+

@@ -1,0 +1,7 @@
+四国めたん「Example: an `any` API response caused production outages.」
+ずんだもん「Expected `payload.status`, but server sent `status_code`.」
+四国めたん「No compile warning—users saw 500 errors.」
+ずんだもん「`unknown` plus schema validation would have prevented it.」
+四国めたん「Policy shifted to ban `any` at boundaries.」
+ずんだもん「Learn from incidents to stop repeats!」
+

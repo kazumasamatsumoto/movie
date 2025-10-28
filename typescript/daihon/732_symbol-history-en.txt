@@ -1,0 +1,9 @@
+四国めたん「Symbols are a relatively new primitive introduced in ECMAScript 2015.」
+ずんだもん「TypeScript gave us typings for them early on, didn’t it?」
+四国めたん「Yes—once `lib.es2015.symbol.d.ts` landed, the standard APIs became strongly typed.」
+ずんだもん「We used to need polyfills for older browsers.」
+四国めたん「Today’s modern runtimes support symbols out of the box.」
+ずんだもん「I love that v5.9 keeps enhancing the symbol utilities.」
+四国めたん「Knowing the history helps you pick the right transpile targets.」
+ずんだもん「Be mindful of compatibility when introducing symbols!」
+

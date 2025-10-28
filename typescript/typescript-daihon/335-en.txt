@@ -1,0 +1,9 @@
+四国めたん「Let's learn about nullable objects!」
+ずんだもん「How do we handle nullable objects?」
+四国めたん「A type like `User | null` means the entire object might be `null`, which is common in lookups.」
+ずんだもん「How do I access the properties?」
+四国めたん「Use optional chaining for safe access—write `user?.name`.」
+ずんだもん「Got it! That's safe access!」
+四国めたん「After a null check with a type guard you can treat it like a normal object.」
+ずんだもん「Type-safe null handling is the best!」
+

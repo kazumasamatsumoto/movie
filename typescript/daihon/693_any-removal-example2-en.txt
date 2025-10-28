@@ -1,0 +1,7 @@
+四国めたん「Second example: front-end event handlers.」
+ずんだもん「We replaced `message: any` with `MessageEvent<unknown>` and added guards.」
+四国めたん「postMessage communication became safe and bugs plummeted.」
+ずんだもん「Tests align with the typed contract, improving maintenance.」
+四国めたん「Browser APIs benefit from `unknown` just as much.」
+ずんだもん「Adopt a no-`any` policy in the UI too!」
+

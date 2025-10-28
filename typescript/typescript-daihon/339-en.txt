@@ -1,0 +1,9 @@
+四国めたん「Let's learn best practices for nullable types!」
+ずんだもん「What's the best way to use them?」
+四国めたん「Define types explicitly, lean on type guards, and use optional chaining.」
+ずんだもん「Anything else to keep in mind?」
+四国めたん「Avoid non-null assertions and create type aliases for reuse—consistency matters.」
+ずんだもん「I see! The whole team should stay aligned!」
+四国めたん「Enforce the rules with ESLint and confirm them during code reviews to maintain safety.」
+ずんだもん「Keeping the entire project type-safe is the best!」
+

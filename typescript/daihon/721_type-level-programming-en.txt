@@ -1,0 +1,7 @@
+四国めたん「Type-level programming can replace even complex `any` safely.」
+ずんだもん「Use conditional types or template literal types to compute types.」
+四国めたん「Reflect runtime logic in the type system for both completion and validation.」
+ずんだもん「It’s challenging but slashes type debt.」
+四国めたん「Abstracting at the type level helps you escape `any`.」
+ずんだもん「Bridge theory and practice to unleash TypeScript!」
+

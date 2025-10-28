@@ -1,0 +1,9 @@
+四国めたん「`Symbol.match` overrides `String.prototype.match`.」
+ずんだもん「Non-RegExp objects can now supply match behavior.」
+四国めたん「Return the usual match array or null.」
+ずんだもん「Great for wrapping validators.」
+四国めたん「TypeScript uses `(value: string) => RegExpMatchArray | null`.」
+ずんだもん「Employ `Symbol.match` for sophisticated pattern matching!」
+四国めたん「Keep it side-effect free.」
+ずんだもん「Feels like building custom regex engines!」
+

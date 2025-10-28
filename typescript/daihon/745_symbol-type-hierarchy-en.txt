@@ -1,0 +1,9 @@
+四国めたん「`symbol` is a primitive—below `any`, above `never`.」
+ずんだもん「You can assign it to `unknown`, but not to `string`.」
+四国めたん「Exactly—it sits in its own branch of the hierarchy.」
+ずんだもん「Since it’s not serializable, it’s incompatible with strings.」
+四国めたん「`never` fits into every type, including `symbol`.」
+ずんだもん「Hierarchy awareness helps with conversions.」
+四国めたん「Learn its behavior inside unions too.」
+ずんだもん「Use the hierarchy to design safely!」
+

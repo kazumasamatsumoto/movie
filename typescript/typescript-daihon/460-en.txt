@@ -1,0 +1,9 @@
+四国めたん「Let's do a master check on the `void` type.」
+ずんだもん「Give me the big picture!」
+四国めたん「`void` marks functions with no return value—those built for side effects.」
+ずんだもん「How do I use it correctly?」
+四国めたん「Annotate functions with `void`, use `Promise<void>` for async versions, and remember it differs from `undefined`.」
+ずんだもん「Right—knowing the difference is key!」
+四国めたん「Put it to work in generics, `Observable<void>`, and API design—keep side effects contained and testable. It remains a fundamental type in TypeScript v5.9.」
+ずんだもん「Mastering `void` makes type-safe development a breeze!」
+

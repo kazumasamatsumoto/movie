@@ -1,0 +1,9 @@
+四国めたん「Review the go-to `Symbol.for` patterns.」
+ずんだもん「Service locators, plugin handshakes, SSR hydration.」
+四国めたん「Master these and real projects won’t surprise you.」
+ずんだもん「Wrap naming and sharing logic in utilities.」
+四国めたん「Adapt the patterns to match your project.」
+ずんだもん「Use `Symbol.for` to build safe extension points!」
+四国めたん「Next we’ll summarize the key lessons.」
+ずんだもん「Keep the patterns ready for action!」
+

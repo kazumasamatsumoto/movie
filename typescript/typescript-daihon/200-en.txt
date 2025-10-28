@@ -1,0 +1,7 @@
+四国めたん「Let's run a mastery check on numeric handling in TypeScript v5.9!」
+ずんだもん「What is a numeric mastery check?」
+四国めたん「It's a set of review points to confirm your understanding of numeric processing.」
+ずんだもん「What topics are included?」
+四国めたん「Type differences, precision issues, validation, and best practices.」
+ずんだもん「Is this important for Angular development too?」
+四国めたん「Absolutely—it confirms your skills in numeric handling.」

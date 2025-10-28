@@ -1,0 +1,7 @@
+四国めたん「Summarize best practices to avoid mistakes.」
+ずんだもん「Shared guards, lint rules, unit tests—that trio.」
+四国めたん「Review code for forgotten guards.」
+ずんだもん「Shared wrappers cut recurrence.」
+四国めたん「Document and educate to embed the culture.」
+ずんだもん「Build systems that minimize mistakes—and trust `unknown`!」
+

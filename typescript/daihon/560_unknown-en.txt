@@ -1,0 +1,7 @@
+四国めたん「`unknown` balances flexible assignment with strict usage limits.」
+ずんだもん「It catches everything but restricts what we can do until we verify it.」
+四国めたん「Exactly. It even participates in inference to keep unions safe.」
+ずんだもん「It works well as a default type parameter in generic APIs.」
+四国めたん「To go further, you must guard or assert the type.」
+ずんだもん「Let’s make those traits part of our team vocabulary!」
+
