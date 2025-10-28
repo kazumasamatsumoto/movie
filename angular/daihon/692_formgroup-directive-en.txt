@@ -1,0 +1,6 @@
+# #692 「[formGroup] ディレクティブ」台本
+
+ずんだもん「How do we bind a FormGroup in the template?」
+四国めたん「Set `[formGroup]` on the form element and pass the FormGroup instance from the component.」
+ずんだもん「Inside, we tie inputs with formControlName.」
+四国めたん「Exactly-and when the group reference changes, Angular triggers change detection.」

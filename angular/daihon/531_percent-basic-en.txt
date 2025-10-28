@@ -1,0 +1,6 @@
+# #531 「PercentPipe の基本」台本
+
+ずんだもん「How do we use PercentPipe?」
+四国めたん「Write `{{ ratio | percent }}` to show a value like `0.75` as `75%`.」
+ずんだもん「Can we control decimals?」
+四国めたん「Yes-pass digits info like `percent:'1.1-2'`.」

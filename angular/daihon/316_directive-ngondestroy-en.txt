@@ -1,0 +1,10 @@
+# #316 「ngOnDestroy でのクリーンアップ」台本
+
+ずんだもん「What should we tidy up in ngOnDestroy?」
+四国めたん「Always remove event listeners, timers, and Observable subscriptions.」
+ずんだもん「Should we revert classes added through Renderer2?」
+四国めたん「If necessary, call helpers like `removeClass` so no side effects remain.」
+ずんだもん「What if we're using Signals?」
+四国めたん「Call the cleanup functions returned from `effect` and make disposal explicit.」
+ずんだもん「How do we test this?」
+四国めたん「Call ngOnDestroy and use spies to confirm the listeners are removed.」

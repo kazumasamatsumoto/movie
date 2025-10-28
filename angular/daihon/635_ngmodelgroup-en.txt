@@ -1,0 +1,8 @@
+# #635 「ngModelGroup - グループ化」台本
+
+ずんだもん「What is ngModelGroup for?」
+四国めたん「It groups related controls into a nested structure.」
+ずんだもん「So the form value becomes a nested object.」
+四国めたん「Yes—and you can apply validation at the group level.」
+ずんだもん「Great for sections like addresses.」
+四国めたん「Exactly—group related fields to improve maintainability.」

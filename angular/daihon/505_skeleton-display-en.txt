@@ -1,0 +1,6 @@
+# #505 「スケルトン表示」台本
+
+ずんだもん「How do we implement skeleton display?」
+四国めたん「Treat the skeleton as an else template in the structural directive and createEmbeddedView while loading.」
+ずんだもん「Can we animate it?」
+四国めたん「Of course-apply CSS animations in the template.」

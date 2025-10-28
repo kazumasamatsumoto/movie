@@ -1,0 +1,6 @@
+# #698 「valueChanges Observable」台本
+
+ずんだもん「valueChanges is an Observable, right?」
+四国めたん「Yes-it emits the latest value every time the form changes.」
+ずんだもん「Can we use it on the whole form too?」
+四国めたん「Absolutely-FormGroup and FormArray both expose valueChanges.」

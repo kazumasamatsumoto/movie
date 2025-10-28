@@ -1,0 +1,7 @@
+# #392 「ngNonBindable - バインディング無効化」台本
+
+ずんだもん「What do we use ngNonBindable for?」
+四国めたん「It disables Angular bindings inside the element so you can show `{{ }}` literally.」
+ずんだもん「Sounds handy for documentation displays.」
+四国めたん「Definitely—Markdown viewers love it.」
+ずんだもん「Great way to avoid accidental binding execution.」

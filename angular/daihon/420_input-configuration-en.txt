@@ -1,0 +1,6 @@
+# #420 「Input での設定受け取り」台本
+
+ずんだもん「How does a Directive receive configuration values?」
+四国めたん「Declare an `@Input()` property and pass it from the template like `[appX]="value"`.」
+ずんだもん「Can we type the value too?」
+四国めたん「Of course-add type annotations so it's clear what data you accept.」

@@ -1,0 +1,6 @@
+# #547 「引数の受け取り」台本
+
+ずんだもん「How do pipes receive extra arguments?」
+四国めたん「List them after the value parameter in transform, and pass them from the template like `| pipe:arg1:arg2`.」
+ずんだもん「Positional arguments, got it.」
+四国めたん「Yes-process them in the same order they appear.」

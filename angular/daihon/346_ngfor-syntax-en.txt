@@ -1,0 +1,7 @@
+# #346 「*ngFor の基本構文」台本
+
+ずんだもん「I want to remember the basic *ngFor syntax.」
+四国めたん「`*ngFor="let item of items"` is the core, and you can capture extras like `let i = index`.」
+ずんだもん「Can anything iterable go after `of`?」
+四国めたん「Yes. Arrays, arrays returned from Signals, or AsyncPipe results all work.」
+ずんだもん「Once the syntax sticks, it's easy to adapt.」

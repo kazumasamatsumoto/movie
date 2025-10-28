@@ -1,0 +1,6 @@
+# #499 「数値範囲の反復」台本
+
+ずんだもん「How do we iterate over a numeric range?」
+四国めたん「Loop from `from` to `to`, set the current value on `$implicit`, and call createEmbeddedView for each step.」
+ずんだもん「What if `to` is smaller than `from`?」
+四国めたん「Adjust the step's sign or validate the inputs and throw an error.」

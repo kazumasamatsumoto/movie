@@ -1,0 +1,6 @@
+# #544 「name プロパティ」台本
+
+ずんだもん「What's the pipe's name property?」
+四国めたん「It defines how you call the pipe in templates-`name: 'truncate'` lets you write `{{ value | truncate }}`.」
+ずんだもん「Any naming rules?」
+四国めたん「Stick to lowercase and add a prefix if you worry about collisions.」

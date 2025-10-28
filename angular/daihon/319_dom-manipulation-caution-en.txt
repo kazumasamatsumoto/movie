@@ -1,0 +1,10 @@
+# #319 「直接DOM操作の注意点」台本
+
+ずんだもん「Why is direct DOM manipulation considered risky?」
+四国めたん「It brings platform differences and XSS risks, and it might crash under SSR.」
+ずんだもん「So switching everything to Renderer2 keeps us safe?」
+四国めたん「It fixes most issues, but sanitize user input whenever you handle it.」
+ずんだもん「What about performance impact?」
+四国めたん「If you mutate the DOM outside the zone it won't be detected, so combine it with ChangeDetectorRef.」
+ずんだもん「What should we check during audits?」
+四国めたん「Look for heavy use of `nativeElement`, direct access through external libraries, and missing SSR conditionals.」

@@ -1,0 +1,6 @@
+# #586 「SlicePipe - 配列・文字列の切り出し」台本
+
+ずんだもん「What does SlicePipe do?」
+四国めたん「It extracts a start-end range from arrays or strings-`{{ list | slice:0:5 }}` shows the first five items.」
+ずんだもん「That could help with pagination.」
+四国めたん「Yes-great for lightweight view slicing.」

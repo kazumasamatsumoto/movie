@@ -1,0 +1,6 @@
+# #439 「Directive のベストプラクティス」台本
+
+ずんだもん「What are the best practices for custom directives?」
+四国めたん「Keep the responsibility single, operate the DOM with Renderer2, define clear Input/Output contracts, and back it with tests plus docs.」
+ずんだもん「Lifecycle management is vital too.」
+四国めたん「Exactly-clean up every side effect in ngOnDestroy.」

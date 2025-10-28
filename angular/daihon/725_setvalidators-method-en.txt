@@ -1,0 +1,6 @@
+# #725 「setValidators() メソッド」台本
+
+ずんだもん「What does setValidators do?」
+四国めたん「It replaces the existing validators with the new array you provide.」
+ずんだもん「We need to re-evaluate afterward.」
+四国めたん「Yes-call updateValueAndValidity to apply the new rules.」

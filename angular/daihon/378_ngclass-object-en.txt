@@ -1,0 +1,7 @@
+# #378 「オブジェクトでのクラス指定」台本
+
+ずんだもん「What happens when we use an object with ngClass?」
+四国めたん「Treat the keys as class names and the values as booleans—only the true ones are applied.」
+ずんだもん「So we can manage multiple conditions together.」
+四国めたん「Exactly. You pass the state map as-is, which keeps it readable.」
+ずんだもん「Even complex cases stay organized.」

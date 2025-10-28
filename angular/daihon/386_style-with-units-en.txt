@@ -1,0 +1,7 @@
+# #386 「単位付き値の指定」台本
+
+ずんだもん「How do we supply styles that need units?」
+四国めたん「Pass strings like `'16px'` or assemble them with template literals.」
+ずんだもん「What happens if we pass just a number?」
+四国めたん「Some properties auto-append units, but it's safer to specify `px` and friends explicitly.」
+ずんだもん「Readability matters too.」

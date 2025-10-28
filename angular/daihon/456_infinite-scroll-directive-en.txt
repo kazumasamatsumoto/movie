@@ -1,0 +1,6 @@
+# #456 「InfiniteScroll Directive - 無限スクロール」台本
+
+ずんだもん「What is an InfiniteScroll directive like?」
+四国めたん「It packages the logic that loads extra data once you reach the scroll end.」
+ずんだもん「Intersection Observer should help.」
+四国めたん「Yes-it's more efficient than listening to scroll events directly.」

@@ -1,0 +1,6 @@
+# #495 「指定回数の繰り返し表示」台本
+
+ずんだもん「How do we render something a fixed number of times?」
+四国めたん「Receive the count via Input, `clear` the container, and loop `for (let i = 0; i < count; i++)` to create views.」
+ずんだもん「So we wipe old views first.」
+四国めたん「Exactly-remove the existing ones before generating anew.」

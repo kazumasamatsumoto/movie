@@ -1,0 +1,10 @@
+# #305 「Attribute Directive - 属性ディレクティブ」台本
+
+ずんだもん「Remind me what an Attribute Directive does.」
+四国めたん「It's a small piece of logic you attach to an existing element like an attribute to change styles or behavior.」
+ずんだもん「Is using Renderer2 to adjust styles the standard approach?」
+四国めたん「Yes. It lets you control things without touching the DOM directly and keeps it accessible.」
+ずんだもん「Can we attach multiple Attribute Directives to the same element?」
+四国めたん「As long as you organize prefixes and Input names to avoid conflicts, they can coexist safely.」
+ずんだもん「How do we test them?」
+四国めたん「Write unit tests that confirm DOM changes by checking HostBinding and HostListener behavior.」

@@ -1,0 +1,6 @@
+# #501 「条件が真になるまで待機」台本
+
+ずんだもん「How do we wait until a condition becomes true with a Defer directive?」
+四国めたん「Receive a boolean or Observable through an Input and create the view the moment it turns true.」
+ずんだもん「Can it handle Promises too?」
+四国めたん「Yes-await the async result before rendering.」

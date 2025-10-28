@@ -1,0 +1,6 @@
+# #447 「ClickOutside Directive - 外部クリック検知」台本
+
+ずんだもん「What does a ClickOutside directive do?」
+四国めたん「It detects clicks outside the host so you can close modals or perform similar actions.」
+ずんだもん「So we attach the event to document.」
+四国めたん「Yes-monitor `document:click` via HostListener.」

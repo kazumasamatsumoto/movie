@@ -1,0 +1,6 @@
+# #424 「Output でのイベント発火」台本
+
+ずんだもん「How does a Directive notify events?」
+四国めたん「Define an `@Output()` EventEmitter and call `emit()` whenever you need to push data.」
+ずんだもん「Then the component can listen for it.」
+四国めたん「Exactly-use it like `(appToggle)="onToggle($event)"`.」

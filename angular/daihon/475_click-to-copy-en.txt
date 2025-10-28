@@ -1,0 +1,6 @@
+# #475 「クリックでコピー」台本
+
+ずんだもん「How do we copy on click?」
+四国めたん「Listen for the click via HostListener and call `navigator.clipboard.writeText`.」
+ずんだもん「It only works in HTTPS environments, right?」
+四国めたん「Right-localhost is allowed during development.」

@@ -1,0 +1,6 @@
+# #542 「ng generate pipe コマンド」台本
+
+ずんだもん「What's the CLI command to create a pipe?」
+四国めたん「Run `ng g pipe pipes/truncate --standalone`.」
+ずんだもん「What does standalone change?」
+四国めたん「You can use the pipe without declaring it in an NgModule-just import it.」

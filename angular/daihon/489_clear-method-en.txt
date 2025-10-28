@@ -1,0 +1,6 @@
+# #489 「clear() メソッド」台本
+
+ずんだもん「What does the clear() method do?」
+四国めたん「It destroys every view inside the ViewContainer. Use it when the condition changes.」
+ずんだもん「That helps prevent memory leaks.」
+四国めたん「Exactly-always dispose of views you no longer need.」

@@ -1,0 +1,8 @@
+# #301 「Directive とは？DOM拡張の仕組み」台本
+
+ずんだもん「What exactly does a Directive do?」
+四国めたん「In Angular it lets you add behavior or display logic to the DOM without touching the template itself.」
+ずんだもん「How is it different from a component?」
+四国めたん「Components have their own templates and styles, while Directives are slim layers that extend the DOM.」
+ずんだもん「Where does it make sense to use them?」
+四国めたん「Extract reusable DOM logic—like loops or state-driven style switches—into Directives.」

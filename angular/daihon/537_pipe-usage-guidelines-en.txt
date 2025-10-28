@@ -1,0 +1,6 @@
+# #537 「Pipe の利用方針」台本
+
+ずんだもん「Any guidelines for using pipes?」
+四国めたん「Keep pipes simple, pure, and focused on presentation logic. Move heavy or business logic into services or components.」
+ずんだもん「So templates stay clean.」
+四国めたん「Yes-pipes should complement, not replace, proper architecture.」

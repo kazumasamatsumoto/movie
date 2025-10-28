@@ -1,0 +1,7 @@
+# #367 「複数ディレクティブの適用」台本
+
+ずんだもん「Can we attach multiple Structural Directives to one element?」
+四国めたん「Not directly. Split them with `ng-container` and apply them in sequence.」
+ずんだもん「What about Attribute Directives on the same element?」
+四国めたん「Those are fine. Only Structural Directives follow the one-per-element rule.」
+ずんだもん「Good to keep in mind during design.」

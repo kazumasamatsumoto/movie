@@ -1,0 +1,7 @@
+# #353 「trackBy 関数の実装」台本
+
+ずんだもん「How do we write a trackBy function?」
+四国めたん「Return a unique value, like `trackById(index, item) { return item.id; }`.」
+ずんだもん「Is returning the index a bad idea?」
+四国めたん「It breaks when arrays are inserted or reordered, so use stable keys.」
+ずんだもん「Key design really matters.」

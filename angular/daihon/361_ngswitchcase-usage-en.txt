@@ -1,0 +1,7 @@
+# #361 「*ngSwitchCase - ケース分岐」台本
+
+ずんだもん「How do we use *ngSwitchCase again?」
+四国めたん「Specify a value like `*ngSwitchCase="'success'"` and render the template only when it matches.」
+ずんだもん「What if we want to reuse the same template for multiple cases?」
+四国めたん「Share a template reference variable so you can stay DRY.」
+ずんだもん「Feels intuitive, just like working with a switch statement!」

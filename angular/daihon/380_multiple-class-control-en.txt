@@ -1,0 +1,7 @@
+# #380 「複数クラスの動的制御」台本
+
+ずんだもん「How do we control several classes at once?」
+四国めたん「Combine objects and arrays, or generate the class list in the component and hand it to the template.」
+ずんだもん「We should watch out for duplicates, right?」
+四国めたん「Yes—especially with utility classes like Tailwind, avoid unintended clashes.」
+ずんだもん「Definitely a code-review checkpoint!」

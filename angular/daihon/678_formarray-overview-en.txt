@@ -1,0 +1,6 @@
+# #678 「FormArray - 動的配列」台本
+
+ずんだもん「How do we handle a variable-length list of inputs?」
+四国めたん「FormArray lets you manage FormControls or FormGroups as an array.」
+ずんだもん「Perfect for forms where the number of items changes.」
+四国めたん「Exactly-use push and removeAt to add or delete controls dynamically.」

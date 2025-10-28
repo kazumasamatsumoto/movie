@@ -1,0 +1,6 @@
+# #514 「Pipe への引数」台本
+
+ずんだもん「How do we pass arguments to a pipe?」
+四国めたん「After the pipe name write `: arg`, e.g., `value | pipe:arg1:arg2`, and the transform method receives them.」
+ずんだもん「The order matters, right?」
+四国めたん「Yes-match the parameter order in transform.」

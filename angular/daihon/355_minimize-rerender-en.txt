@@ -1,0 +1,7 @@
+# #355 「再描画の最小化」台本
+
+ずんだもん「How do we cut down on re-renders?」
+四国めたん「Use immutable data structures with trackBy to minimize diffs, and pair it with OnPush for maximum effect.」
+ずんだもん「Does it pair well with Signals?」
+四国めたん「Yes. Update array Signals surgically and the DOM cost drops dramatically.」
+ずんだもん「That's the secret to a smooth UI.」

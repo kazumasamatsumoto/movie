@@ -1,0 +1,10 @@
+# #320 「Renderer2 - 安全なDOM操作」台本
+
+ずんだもん「How does Renderer2 work?」
+四国めたん「It's a platform-independent abstraction so you can manipulate without worrying about the DOM, SSR, or Web Workers.」
+ずんだもん「Does it provide many methods?」
+四国めたん「It covers the basics like styles, classes, attributes, and listener control.」
+ずんだもん「How do we inject it?」
+四国めたん「Declare `private readonly renderer: Renderer2` in the constructor.」
+ずんだもん「How is it different from direct DOM access?」
+四国めたん「Renderer2 converts calls to safe APIs internally, giving you compatibility and easier testing.」

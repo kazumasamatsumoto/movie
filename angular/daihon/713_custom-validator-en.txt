@@ -1,0 +1,6 @@
+# #713 「カスタムバリデーター作成」台本
+
+ずんだもん「What if we need a rule that's not built in?」
+四国めたん「Implement a ValidatorFn to create your own validator.」
+ずんだもん「We return ValidationErrors with the details, right?」
+四国めたん「Exactly-include the information your UI needs.」

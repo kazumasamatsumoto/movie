@@ -1,0 +1,7 @@
+# #345 「*ngFor - 繰り返し表示」台本
+
+ずんだもん「What kind of Directive is *ngFor?」
+四国めたん「It's a Structural Directive that expands arrays or iterables and renders elements repeatedly.」
+ずんだもん「What should we keep in mind for simple loops?」
+四国めたん「Use context variables like `trackBy` and `index` to keep control.」
+ずんだもん「List rendering starts here!」

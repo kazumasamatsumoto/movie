@@ -1,0 +1,6 @@
+# #480 「実用 Directive の設計パターン」台本
+
+ずんだもん「Can we summarize design patterns for practical directives?」
+四国めたん「Combine observers with HostListener/HostBinding, receive options via Inputs, and notify with Outputs-that's the core structure.」
+ずんだもん「Service separation and documentation matter too.」
+四国めたん「Yes-those boost reusability and maintainability.」

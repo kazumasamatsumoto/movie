@@ -1,0 +1,6 @@
+# #493 「条件の反転実装」台本
+
+ずんだもん「Anything to watch when we invert conditions?」
+四国めたん「Handle null or undefined safely-write the template like `*appUnless="items?.length"`.」
+ずんだもん「We could also use a setter Input.」
+四国めたん「Yes-name it clearly so the negation stands out.」

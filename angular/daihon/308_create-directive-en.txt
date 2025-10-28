@@ -1,0 +1,10 @@
+# #308 「Directive の作成方法」台本
+
+ずんだもん「Walk me through creating a Directive from scratch!」
+四国めたん「Run `ng g directive directives/highlight --standalone` with the Angular CLI to scaffold it.」
+ずんだもん「What should we adjust in the generated class?」
+四国めたん「Tweak the selector, Input properties, and HostBinding to match the use case.」
+ずんだもん「Do we also get a test file?」
+四国めたん「Yes. The spec comes with it, so you can write the expected DOM changes right away.」
+ずんだもん「How do we register the Directive?」
+四国めたん「If it's standalone, add it to `imports`; with the classic module setup, register it under `declarations`.」

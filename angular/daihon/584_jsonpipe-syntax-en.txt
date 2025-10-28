@@ -1,0 +1,6 @@
+# #584 「{{ object | json }}」台本
+
+ずんだもん「What's the basic syntax?」
+四国めたん「Wrap it in a pre tag: `<pre>{{ data | json }}</pre>` for readable output.」
+ずんだもん「Is the result formatted?」
+四国めたん「Yes-it indents the JSON for clarity.」

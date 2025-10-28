@@ -1,0 +1,6 @@
+# #588 「KeyValuePipe - オブジェクト反復」台本
+
+ずんだもん「When do we use KeyValuePipe?」
+四国めたん「It converts an object or Map into an array of `{ key, value }` entries so you can iterate with *ngFor.」
+ずんだもん「What about ordering?」
+四国めたん「Objects are sorted by key; Maps keep insertion order.」

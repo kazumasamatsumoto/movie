@@ -1,0 +1,6 @@
+# #589 「*ngFor="let item of object | keyvalue"」台本
+
+ずんだもん「How do we use it in a template?」
+四国めたん「Write `<div *ngFor="let entry of object | keyvalue">{{ entry.key }}: {{ entry.value }}</div>`.」
+ずんだもん「That makes handling keys and values easy.」
+四国めたん「Exactly-loop over object properties effortlessly.」

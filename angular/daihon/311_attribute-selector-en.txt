@@ -1,0 +1,10 @@
+# #311 「属性セレクタ [appXxx]」台本
+
+ずんだもん「Can we review how to write attribute selectors?」
+四国めたん「Wrap them in brackets and declare them like `selector: '[appHighlight]'`.」
+ずんだもん「How do we apply one in a template?」
+四国めたん「Attach it as an attribute, for example `<p appHighlight>...</p>`.」
+ずんだもん「What if we want to pass a value?」
+四国めたん「Bind it like `[appHighlight]="color"` and receive it through the Directive's @Input.」
+ずんだもん「Can it coexist with multiple attributes?」
+四国めたん「Angular does not depend on attribute order, so just watch for style conflicts and you'll be fine.」

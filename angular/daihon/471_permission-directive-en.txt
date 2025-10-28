@@ -1,0 +1,6 @@
+# #471 「Permission Directive - 権限制御」台本
+
+ずんだもん「What is a Permission directive?」
+四国めたん「It shows or hides elements depending on the user's role or permissions.」
+ずんだもん「Can it work with SSR?」
+四国めたん「Yes-inject an authorization service and control it there.」

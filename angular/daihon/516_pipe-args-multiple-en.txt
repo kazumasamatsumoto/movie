@@ -1,0 +1,6 @@
+# #516 「複数引数の指定」台本
+
+ずんだもん「How do we specify multiple arguments?」
+四国めたん「Separate them with colons, like `value | pipe:arg1:arg2:arg3`, and transform receives them as positional parameters.」
+ずんだもん「We should keep the order clear.」
+四国めたん「Yes-document the argument meanings.」

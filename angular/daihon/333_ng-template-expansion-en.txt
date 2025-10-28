@@ -1,0 +1,7 @@
+# #333 「<ng-template> への展開」台本
+
+ずんだもん「What does it mean when a Structural Directive expands into `<ng-template>`?」
+四国めたん「The Angular compiler rewrites it behind the scenes into something like `<ng-template [ngIf]="...">`.」
+ずんだもん「Where are the values passed to the template managed?」
+四国めたん「TemplateRef and ViewContainerRef on the Directive receive them and create the views.」
+ずんだもん「Knowing the mechanism helps when building custom Directives.」

@@ -1,0 +1,6 @@
+# #532 「PercentPipe の変換」台本
+
+ずんだもん「What does PercentPipe expect as input?」
+四国めたん「A decimal between 0 and 1 to represent the fraction; multiply first if your data is already in percent.」
+ずんだもん「So `0.42` becomes `42%`.」
+四国めたん「Exactly-adjust the digits info for precision.」

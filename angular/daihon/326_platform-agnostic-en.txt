@@ -1,0 +1,10 @@
+# #326 「プラットフォーム非依存の実装」台本
+
+ずんだもん「How do we make Directives platform-agnostic?」
+四国めたん「Avoid direct DOM APIs and branch with Renderer2 or `inject(PLATFORM_ID)`.」
+ずんだもん「How do we detect SSR?」
+四国めたん「Use `isPlatformBrowser` so DOM operations only run in the browser.」
+ずんだもん「Can it work in Web Workers too?」
+四国めたん「Renderer2 abstracts that, so in many cases it works without code changes.」
+ずんだもん「How do we deal with external libraries?」
+四国めたん「Wrap them in a service and swap implementations per platform.」

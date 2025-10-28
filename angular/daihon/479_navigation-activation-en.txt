@@ -1,0 +1,6 @@
+# #479 「ナビゲーションのアクティブ化」台本
+
+ずんだもん「How do we activate navigation items?」
+四国めたん「ScrollSpy emits the current section ID, and the nav toggles its active class accordingly.」
+ずんだもん「Can we update the URL hash too?」
+四国めたん「Yes-use `Location.replaceState` to reflect it.」

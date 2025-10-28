@@ -1,0 +1,10 @@
+# #306 「Directive の役割と責任」台本
+
+ずんだもん「How far do a Directive's responsibilities reach?」
+四国めたん「Limit them to appearance and small DOM behaviors, and move business logic into services.」
+ずんだもん「Is it okay for a Directive to hold state?」
+四国めたん「Short-lived state can stay in HostBinding, but shared state should go to Signals or services.」
+ずんだもん「How do we notify events?」
+四国めたん「Listen with HostListener and emit via Outputs, or otherwise establish a clear contract.」
+ずんだもん「What do we gain by respecting those boundaries?」
+四国めたん「You raise reusability and make testing much easier.」

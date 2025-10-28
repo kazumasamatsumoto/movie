@@ -1,0 +1,8 @@
+# #604 「Template-driven vs Reactive 比較」台本
+
+ずんだもん「What's the major difference between template-driven and reactive forms?」
+四国めたん「The way you write code, how easy it is to test, and the granularity of state management all change.」
+ずんだもん「The development experience must feel very different.」
+四国めたん「Yes—template-driven is intuitive, reactive offers tighter control.」
+ずんだもん「So the team's skill set matters when choosing.」
+四国めたん「Exactly—evaluate the project size and each member's strengths before deciding.」

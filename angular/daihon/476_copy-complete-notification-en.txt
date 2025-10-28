@@ -1,0 +1,6 @@
+# #476 「コピー完了の通知」台本
+
+ずんだもん「How do we notify users that the copy succeeded?」
+四国めたん「Emit an Output event or show a tooltip/snackbar.」
+ずんだもん「Let's handle failure too.」
+四国めたん「Yes-catch the Promise rejection and report the error.」

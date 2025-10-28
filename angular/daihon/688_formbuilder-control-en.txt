@@ -1,0 +1,6 @@
+# #688 「fb.control() メソッド」台本
+
+ずんだもん「What convenience does fb.control offer?」
+四国めたん「It's FormBuilder's shorthand for `new FormControl`.」
+ずんだもん「Unlike the array syntax, we can pass an options object.」
+四国めたん「Yes-specify nonNullable or validators via that object.」

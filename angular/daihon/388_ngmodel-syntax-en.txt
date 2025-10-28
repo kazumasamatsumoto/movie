@@ -1,0 +1,7 @@
+# #388 「[(ngModel)] の使用」台本
+
+ずんだもん「Can we review how to write [(ngModel)]?」
+四国めたん「`[(ngModel)]="value"` keeps the form element and property in sync.」
+ずんだもん「Does it work in standalone components too?」
+四国めたん「Sure—import `FormsModule` and you're good to go.」
+ずんだもん「Two-way binding made easy.」

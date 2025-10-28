@@ -1,0 +1,6 @@
+# #406 「HostListener - イベント監視」台本
+
+ずんだもん「What does HostListener do for us?」
+四国めたん「With a single decorator you can listen to events on the host element.」
+ずんだもん「So no need to write DOM addEventListener ourselves.」
+四国めたん「Right-it also cleans up automatically with the lifecycle.」

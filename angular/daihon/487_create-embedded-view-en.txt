@@ -1,0 +1,6 @@
+# #487 「createEmbeddedView() メソッド」台本
+
+ずんだもん「How do we use createEmbeddedView?」
+四国めたん「Call `this.viewContainer.createEmbeddedView(this.template, context)` to generate a view from the template.」
+ずんだもん「Context is the data we pass into the template, right?」
+四国めたん「Exactly-you can set `$implicit` and other properties there.」

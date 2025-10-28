@@ -1,0 +1,6 @@
+# #540 「組み込み Pipe の実践活用」台本
+
+ずんだもん「How do we put built-in pipes to practical use?」
+四国めたん「Format dates, currencies, numbers, and strings directly in templates so you avoid reformatting in code.」
+ずんだもん「They keep templates tidy.」
+四国めたん「Yes-and they're essential for locale and internationalization support.」

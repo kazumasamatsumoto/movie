@@ -1,0 +1,6 @@
+# #517 「Pipe 内で Pipe を使う？」台本
+
+ずんだもん「Can we call a pipe from inside another pipe?」
+四国めたん「Pipes are functions, so you can import one and reuse its transform logic, but chaining in the template is usually cleaner.」
+ずんだもん「So composition is possible, but keep it simple.」
+四国めたん「Right-prefer template chaining unless you need shared utilities.」

@@ -1,0 +1,7 @@
+# #365 「ng-container の活用」台本
+
+ずんだもん「What do we use ng-container for?」
+四国めたん「It's a virtual container that lets you apply Structural Directives without adding wrapper elements.」
+ずんだもん「So no extra divs appear in the DOM?」
+四国めたん「Exactly. It's perfect for tidying up conditionals and loops.」
+ずんだもん「I'll remember it as a lightweight wrapper.」

@@ -1,0 +1,6 @@
+# #620 「Valid State - 有効」台本
+
+ずんだもん「When is a control considered valid?」
+四国めたん「When all attached validators pass. For the form, every descendant control must be valid.」
+ずんだもん「We can use it to enable the submit button.」
+四国めたん「Exactly—bind `[disabled]` to `!form.valid` or similar checks.」

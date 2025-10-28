@@ -1,0 +1,6 @@
+# #697 「値の変更監視」台本
+
+ずんだもん「What can we do by watching value changes?」
+四国めたん「Implement real-time validation, suggestions, or save-button toggles.」
+ずんだもん「Just subscribe to valueChanges?」
+四国めたん「Yes-and combine it with debounceTime or distinctUntilChanged for smoother UX.」

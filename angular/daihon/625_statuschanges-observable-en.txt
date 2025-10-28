@@ -1,0 +1,6 @@
+# #625 「statusChanges Observable」台本
+
+ずんだもん「What is the statusChanges Observable?」
+四国めたん「Each control exposes statusChanges so you can react whenever its validation status updates.」
+ずんだもん「We can subscribe to show live feedback?」
+四国めたん「Exactly—log transitions, trigger analytics, or enable features based on status.」

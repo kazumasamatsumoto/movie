@@ -1,0 +1,6 @@
+# #638 「NgForm の活用」台本
+
+ずんだもん「What does NgForm provide for us?」
+四国めたん「It exposes the form's overall value, state, and helper methods like resetForm.」
+ずんだもん「So we can clear the form or inspect validity easily.」
+四国めたん「Exactly—leverage NgForm to simplify submission flows and validation checks.」

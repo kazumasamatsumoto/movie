@@ -1,0 +1,6 @@
+# #563 「実用的なカスタム Pipe」台本
+
+ずんだもん「What are some practical custom pipes?」
+四国めたん「String truncation, array filtering, and sorting are common-collect formatting logic into pipes to keep the view clean.」
+ずんだもん「That boosts readability.」
+四国めたん「Yes, and encourages reuse.」

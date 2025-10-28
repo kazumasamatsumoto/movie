@@ -1,0 +1,6 @@
+# #446 「位置の動的調整」台本
+
+ずんだもん「How do we position the tooltip dynamically?」
+四国めたん「Get the element's BoundingClientRect and compute top/left based on the chosen placement.」
+ずんだもん「How do we keep it on-screen?」
+四国めたん「Correct the position using IntersectionObserver or by checking the viewport size.」

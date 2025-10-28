@@ -1,0 +1,8 @@
+# #303 「Component Directive - コンポーネント」台本
+
+ずんだもん「A Directive that owns a UI is basically a Component, right?」
+四国めたん「Exactly. A Directive with its own template and styles is called a Component Directive, and you can reuse that screen fragment.」
+ずんだもん「I heard it's easier once you make it standalone?」
+四国めたん「In v20 you can set standalone: true from the start and use it from other templates without an NgModule.」
+ずんだもん「Do Inputs and Outputs work the same as a normal Component?」
+四国めたん「Yes. Define the contract with Inputs and Outputs and combine them as small UI pieces.」

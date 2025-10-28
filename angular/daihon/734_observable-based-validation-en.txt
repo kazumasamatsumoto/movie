@@ -1,0 +1,6 @@
+# #734 「Observable ベースの検証」台本
+
+ずんだもん「Can we drive API validation straight from valueChanges?」
+四国めたん「Yes-build an Observable pipeline: startWith to include the initial value, then process the stream.」
+ずんだもん「switchMap keeps only the latest request.」
+四国めたん「Right-and wrap the chain with catchError so failures fall back to safe defaults.」

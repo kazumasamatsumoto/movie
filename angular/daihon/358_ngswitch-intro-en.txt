@@ -1,0 +1,7 @@
+# #358 「*ngSwitch - 多分岐」台本
+
+ずんだもん「What does *ngSwitch do for us?」
+四国めたん「It switches elements across multiple cases and keeps conditional logic tidy.」
+ずんだもん「Is it easier to read than an if chain?」
+四国めたん「Yes. You can split templates per value type, which boosts clarity.」
+ずんだもん「Great when you want to organize branching logic!」

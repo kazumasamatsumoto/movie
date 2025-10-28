@@ -1,0 +1,6 @@
+# #465 「Drop Directive - ドロップ」台本
+
+ずんだもん「What does a Drop directive do?」
+四国めたん「It handles dragover, dragenter, and drop events where dragged items get accepted.」
+ずんだもん「We also need to decide if the drop is allowed.」
+四国めたん「Right-pass the acceptance rules through Inputs.」

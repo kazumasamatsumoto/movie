@@ -1,0 +1,6 @@
+# #409 「マウスイベントの監視」台本
+
+ずんだもん「How do we handle hover and other mouse events?」
+四国めたん「Listen to `mouseenter`, `mouseleave`, or `mousemove` with HostListener and update styles accordingly.」
+ずんだもん「Pairing it with Renderer2 sounds fun.」
+四国めたん「Exactly-directives let you unify mouse interactions.」

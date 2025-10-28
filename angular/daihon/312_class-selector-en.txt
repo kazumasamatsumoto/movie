@@ -1,0 +1,10 @@
+# #312 「クラスセレクタ .xxx」台本
+
+ずんだもん「How do we build a Directive with a class selector?」
+四国めたん「Specify it with a leading dot like `selector: '.appDraggable'`.」
+ずんだもん「Do we just write it together with the class in the template?」
+四国めたん「Yes. Writing `<div class="appDraggable">` applies the Directive.」
+ずんだもん「What if we want to toggle it dynamically?」
+四国めたん「Use `[class.appDraggable]="isActive"` to switch it on or off.」
+ずんだもん「Is it less common than attribute selectors?」
+四国めたん「Name collisions are harder to control, so share prefix rules across the project.」

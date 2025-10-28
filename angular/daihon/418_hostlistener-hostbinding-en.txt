@@ -1,0 +1,6 @@
+# #418 「HostListener + HostBinding」台本
+
+ずんだもん「What do we get by combining HostListener and HostBinding?」
+四国めたん「Handle events to update state, then reflect that state into classes or styles via HostBinding.」
+ずんだもん「So we can build interactive behavior.」
+四国めたん「Exactly-most UI directives rely on this combo.」

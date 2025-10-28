@@ -1,0 +1,6 @@
+# #573 「Observable の自動購読」台本
+
+ずんだもん「How does AsyncPipe handle Observables?」
+四国めたん「It subscribes under the hood and updates the template with each emitted value.」
+ずんだもん「Do we still need to unsubscribe manually?」
+四国めたん「No-the pipe handles cleanup when the view is destroyed.」

@@ -1,0 +1,10 @@
+# #313 「要素セレクタ xxx」台本
+
+ずんだもん「Are there cases where we use Directives with element selectors?」
+四国めたん「You can define them as new element names like `selector: 'app-marquee'`.」
+ずんだもん「Doesn't that make it feel like a Component?」
+四国めたん「If it has no template and only provides thin DOM operations, it's treated as a Directive.」
+ずんだもん「Won't it conflict with browser custom elements?」
+四国めたん「Use prefixes and choose tags that don't exist in HTML standards to avoid conflicts.」
+ずんだもん「Is accessibility still covered?」
+四国めたん「Add the needed `role` and `aria` attributes on the Directive side so screen readers have the right information.」

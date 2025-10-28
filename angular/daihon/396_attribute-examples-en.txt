@@ -1,0 +1,7 @@
+# #396 「Attribute Directive の実用例」台本
+
+ずんだもん「Where do Attribute Directives shine in practice?」
+四国めたん「Think button loading states, tooltips, drag interactions—any localized behavior you want to bundle.」
+ずんだもん「I like that we can reuse small responsibilities.」
+四国めたん「They're also great building blocks for style guides and design systems.」
+ずんだもん「Let's craft directives that feel grounded in real projects!」

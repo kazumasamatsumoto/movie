@@ -1,0 +1,6 @@
+# #664 「FormControl の値取得」台本
+
+ずんだもん「How do we read the current value?」
+四国めたん「Access the `value` property for the latest snapshot.」
+ずんだもん「And if we want real-time updates?」
+四国めたん「Subscribe to `valueChanges` to receive every change as an Observable stream.」

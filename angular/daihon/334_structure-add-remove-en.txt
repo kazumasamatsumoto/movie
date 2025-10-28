@@ -1,0 +1,7 @@
+# #334 「構造の追加・削除」台本
+
+ずんだもん「How do Structural Directives add or remove structure?」
+四国めたん「Call `ViewContainerRef.createEmbeddedView()` to add, and use `clear()` or `remove()` to delete.」
+ずんだもん「Do we generate the reusable template from TemplateRef each time?」
+四国めたん「Yes. Create and destroy it as needed to manage memory and performance.」
+ずんだもん「Diffing the updates is the key!」

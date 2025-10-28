@@ -1,0 +1,6 @@
+# #716 「同期バリデーター実装」台本
+
+ずんだもん「Any pointers for building a synchronous validator?」
+四国めたん「Keep it pure-return ValidationErrors only when the condition fails.」
+ずんだもん「What if we need parameters?」
+四国めたん「Create a factory function that accepts the parameters and returns a ValidatorFn.」

@@ -1,0 +1,6 @@
+# #715 「ValidationErrors の返却」台本
+
+ずんだもん「What shape should ValidationErrors have?」
+四国めたん「Use keys for error names and values for extra info in a dictionary.」
+ずんだもん「What about multiple errors?」
+四国めたん「Add multiple keys to the same object for each failure.」

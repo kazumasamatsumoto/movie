@@ -1,0 +1,6 @@
+# #709 「Validators.pattern() - 正規表現」台本
+
+ずんだもん「How do we restrict input with a regular expression?」
+四国めたん「Use `Validators.pattern(/regex/)`-it errors when the value doesn't match.」
+ずんだもん「We should pair it with required if empty input isn't allowed.」
+四国めたん「Exactly-combine validators to express the full rule set.」

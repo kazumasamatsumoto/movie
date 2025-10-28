@@ -1,0 +1,10 @@
+# #314 「Directive のライフサイクル」台本
+
+ずんだもん「Directives expose lifecycle hooks too, right?」
+四国めたん「Yes. You can implement the same interfaces as Components, like OnInit, OnDestroy, and OnChanges.」
+ずんだもん「Where should we perform the initial DOM setup?」
+四国めたん「ngOnInit is ideal because the host element is ready by then.」
+ずんだもん「How do we clean up resources?」
+四国めたん「Unsubscribe from Observables and stop event listeners in ngOnDestroy.」
+ずんだもん「Anything to watch around change detection?」
+四国めたん「When Inputs change, reflect them in ngOnChanges and avoid extra work.」

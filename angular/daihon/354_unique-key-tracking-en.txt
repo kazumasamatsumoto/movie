@@ -1,0 +1,7 @@
+# #354 「一意キーでの追跡」台本
+
+ずんだもん「Why do we track items with unique keys?」
+四国めたん「So the DOM can be reused even when items are reordered or updated, minimizing re-renders.」
+ずんだもん「Is a UUID okay?」
+四国めたん「If it changes on every render it defeats the purpose, so provide stable keys from the data source.」
+ずんだもん「Coordination with the backend is important too.」

@@ -1,0 +1,7 @@
+# #371 「Attribute Directive とは？」台本
+
+ずんだもん「What exactly is an Attribute Directive?」
+四国めたん「It's a lightweight directive you attach like an attribute to add appearance or behavior to an existing element.」
+ずんだもん「How is it different from a component?」
+四国めたん「It has no template—its job is simply to tweak the host element's state.」
+ずんだもん「So we can encapsulate small behaviors neatly!」

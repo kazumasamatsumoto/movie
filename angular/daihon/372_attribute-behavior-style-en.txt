@@ -1,0 +1,7 @@
+# #372 「要素の振る舞いや見た目の変更」台本
+
+ずんだもん「What exactly can an Attribute Directive change?」
+四国めたん「Through styles, classes, attributes, and event listeners it controls how an element looks and behaves.」
+ずんだもん「Using Renderer2 keeps it safe, right?」
+四国めたん「Yep—no browser coupling, and it's accessible.」
+ずんだもん「That really speeds up UI customization.」

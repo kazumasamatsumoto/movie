@@ -1,0 +1,8 @@
+# #612 「フォーム送信処理」台本
+
+ずんだもん「What's the standard way to process a form submission?」
+四国めたん「Handle ngSubmit, validate the data, call your service, and report the result back to the UI.」
+ずんだもん「We should prevent duplicate submissions too.」
+四国めたん「Right—disable the button or track a loading flag until the operation completes.」
+ずんだもん「And show success or error messages.」
+四国めたん「Exactly—close the loop so users know what happened.」

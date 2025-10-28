@@ -1,0 +1,6 @@
+# #451 「入力イベントの遅延」台本
+
+ずんだもん「How do we delay input events?」
+四国めたん「Capture the input event with HostListener and relay it after a set time using setTimeout or RxJS.」
+ずんだもん「We cancel the previous timer, right?」
+四国めたん「Yes-the whole point of debouncing is to keep only the latest input.」

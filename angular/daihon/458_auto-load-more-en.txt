@@ -1,0 +1,6 @@
+# #458 「追加データの自動読み込み」台本
+
+ずんだもん「How do we auto-load more data?」
+四国めたん「When we reach the bottom, emit an Output event so the service can fetch and append items.」
+ずんだもん「We also need to manage the loading state.」
+四国めたん「Exactly-avoid duplicate requests.」

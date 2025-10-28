@@ -1,0 +1,8 @@
+# #605 「どちらを選ぶべきか？使い分け」台本
+
+ずんだもん「I still struggle to pick between them in real projects.」
+四国めたん「Judge by the number of inputs, validation complexity, and how long you'll maintain the form.」
+ずんだもん「If speed is top priority, maybe template-driven?」
+四国めたん「Right—prototype quickly with template-driven and migrate to reactive for production if needed.」
+ずんだもん「We also have to factor in team experience.」
+四国めたん「Absolutely—document the decision matrix and share it with everyone.」

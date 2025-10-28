@@ -1,0 +1,6 @@
+# #513 「Pipe の連結」台本
+
+ずんだもん「What happens when we chain pipes?」
+四国めたん「Each pipe receives the output of the previous one, so execution flows left to right.」
+ずんだもん「Any performance concerns?」
+四国めたん「Keep the chain reasonable-heavy transformations belong in the component.」

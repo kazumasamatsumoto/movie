@@ -1,0 +1,8 @@
+# #300 「Component 総まとめと実践プロジェクト」台本
+
+ずんだもん「What should we keep in mind to wrap up the component chapter?」
+四国めたん「Center on separation of concerns, state management, and accessibility, and implement everything in line with the design system.」
+ずんだもん「How do we move forward in a project?」
+四国めたん「Stabilize foundational components like buttons and form fields first, then pair smart and dumb components per feature.」
+ずんだもん「How do we ensure quality?」
+四国めたん「Build Storybook, unit tests, and accessibility checks into the workflow, and automate them through CI.」

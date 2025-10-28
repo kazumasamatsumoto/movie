@@ -1,0 +1,6 @@
+# #416 「style バインディング」台本
+
+ずんだもん「Can HostBinding change styles too?」
+四国めたん「Bind to properties like `@HostBinding('style.backgroundColor') bg = 'transparent';`.」
+ずんだもん「Update the value and the style refreshes instantly.」
+四国めたん「Exactly-no need to reach for Renderer2 in simple cases.」

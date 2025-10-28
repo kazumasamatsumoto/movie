@@ -1,0 +1,6 @@
+# #401 「カスタム Directive の作成手順」台本
+
+ずんだもん「What's the overall flow for building a custom Directive?」
+四国めたん「Generate it with the CLI, inject any dependencies, implement the behavior for the host element, then finish by declaring and testing it.」
+ずんだもん「Seeing the steps keeps us from getting lost!」
+四国めたん「Exactly-work through create, register, test, and document in that order.」

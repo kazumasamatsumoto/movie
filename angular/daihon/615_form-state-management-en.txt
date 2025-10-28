@@ -1,0 +1,8 @@
+# #615 「フォーム状態の管理」台本
+
+ずんだもん「How should we manage form state?」
+四国めたん「Track pristine, dirty, touched, and valid flags to control UI feedback and submission rules.」
+ずんだもん「So validation messages depend on those flags.」
+四国めたん「Exactly—show errors only after the user interacts, for example.」
+ずんだもん「We can lift the state into services too?」
+四国めたん「Yes—compose higher-level logic when multiple components share the same form data.」

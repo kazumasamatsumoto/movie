@@ -1,0 +1,6 @@
+# #701 「Validators とは？検証の仕組み」台本
+
+ずんだもん「How does validation work in Reactive Forms?」
+四国めたん「Validators inspect the form value and return ValidationErrors when it fails.」
+ずんだもん「Once attached to a FormControl, it runs automatically.」
+四国めたん「Yes-the results appear in the valid/invalid flags and the errors property.」

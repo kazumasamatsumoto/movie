@@ -1,0 +1,6 @@
+# #411 「event オブジェクトの取得」台本
+
+ずんだもん「How do we receive the event object with HostListener?」
+四国めたん「Add `$event` as an argument and you get the native event.」
+ずんだもん「What about typing it properly?」
+四国めたん「Annotate it as `MouseEvent`, `KeyboardEvent`, and so on to stay safe.」

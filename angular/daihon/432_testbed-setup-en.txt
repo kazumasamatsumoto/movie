@@ -1,0 +1,6 @@
+# #432 「TestBed での設定」台本
+
+ずんだもん「How do we configure TestBed?」
+四国めたん「For a standalone directive, add it to `imports: [DirectiveUnderTest]`, and include the host with a template in `declarations`.」
+ずんだもん「Then we grab the native element from the fixture?」
+四国めたん「That's right.」

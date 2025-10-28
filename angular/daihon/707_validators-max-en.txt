@@ -1,0 +1,6 @@
+# #707 「Validators.max() - 最大値」台本
+
+ずんだもん「How do we prevent values from exceeding a maximum?」
+四国めたん「`Validators.max(maxValue)` flags any value greater than the limit.」
+ずんだもん「Let's keep the control bound to numbers.」
+四国めたん「Right-set type="number" or inputmode to guide user input.」

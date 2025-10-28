@@ -1,0 +1,7 @@
+# #356 「*ngFor のネスト」台本
+
+ずんだもん「Any cautions when nesting *ngFor?」
+四国めたん「Outer context variables are visible inside, so watch for name clashes.」
+ずんだもん「How do we keep it readable?」
+四国めたん「Split the template into child Components before the nesting gets too deep.」
+ずんだもん「Even complex lists can stay tidy that way.」

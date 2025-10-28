@@ -1,0 +1,7 @@
+# #344 「*ngIf での null チェック」台本
+
+ずんだもん「What's the typical pattern for null checks with *ngIf?」
+四国めたん「Use `*ngIf="user; as u"` to show the content when it exists and fall back otherwise.」
+ずんだもん「Does it align with strictNullChecks in TypeScript?」
+四国めたん「Yes. The template guarantees the value is non-null, so you can access properties safely.」
+ずんだもん「Angular makes defensive coding feel natural.」

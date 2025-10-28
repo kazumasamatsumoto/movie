@@ -1,0 +1,7 @@
+# #381 「ngStyle - スタイル制御」台本
+
+ずんだもん「What does the ngStyle directive do?」
+四国めたん「It lets you set inline styles dynamically by passing an object of properties.」
+ずんだもん「So we don't need to reach for Renderer2?」
+四国めたん「Right—ngStyle applies everything safely for you.」
+ずんだもん「Fine-grained styling becomes effortless.」

@@ -1,0 +1,6 @@
+# #506 「Context オブジェクトの提供」台本
+
+ずんだもん「What is the context of a structural directive?」
+四国めたん「It's the object you pass as the second argument to createEmbeddedView so the template receives values.」
+ずんだもん「So it's the source of `let-value="..."`.」
+四国めたん「Exactly-you can expose multiple properties.」

@@ -1,0 +1,6 @@
+# #536 「Pipe の再利用性」台本
+
+ずんだもん「How do pipes improve reusability?」
+四国めたん「Move repeated formatting logic into a pipe and reuse it across templates for consistent output.」
+ずんだもん「So we DRY up the code.」
+四国めたん「Exactly-one place to maintain the transformation.」

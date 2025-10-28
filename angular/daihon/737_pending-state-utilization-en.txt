@@ -1,0 +1,6 @@
+# #737 「pending 状態の活用」台本
+
+ずんだもん「How can we make good use of the pending state?」
+四国めたん「Collect PENDING notifications from statusChanges and expose them as a shared flag.」
+ずんだもん「Disable the submit button while it's pending to prevent double submissions.」
+四国めたん「Exactly-and reuse the same flag for loaders or messages to stay consistent.」

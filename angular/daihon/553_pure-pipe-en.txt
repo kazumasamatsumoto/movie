@@ -1,0 +1,6 @@
+# #553 「Pure Pipe - 純粋パイプ」台本
+
+ずんだもん「What makes a pipe pure?」
+四国めたん「A pure pipe returns the same output for the same input and has no side effects. Angular reruns it only when the input reference changes.」
+ずんだもん「So it's performance friendly.」
+四国めたん「Exactly-that's the default behavior.」

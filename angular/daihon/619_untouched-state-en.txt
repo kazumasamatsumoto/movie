@@ -1,0 +1,6 @@
+# #619 「Untouched State - 未フォーカス」台本
+
+ずんだもん「And untouched means?」
+四国めたん「The control has not received focus yet. Once it gains focus and loses it, untouched turns false.」
+ずんだもん「So untouched is the opposite of touched.」
+四国めたん「Right—use it to keep fields neutral until the user interacts.」

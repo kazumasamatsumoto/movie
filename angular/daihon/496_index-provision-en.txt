@@ -1,0 +1,6 @@
+# #496 「インデックスの提供」台本
+
+ずんだもん「Can we pass the loop index to the template?」
+四国めたん「Set `$implicit` or `index` in the context so the template can use `let i = index`.」
+ずんだもん「That's handy.」
+四国めたん「Yes-something like `{ $implicit: i, index: i }` does the trick.」

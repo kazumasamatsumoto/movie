@@ -1,0 +1,8 @@
+# #609 「form タグの役割」台本
+
+ずんだもん「What role does the form tag play?」
+四国めたん「It groups controls, handles submission, and provides accessibility semantics for assistive technologies.」
+ずんだもん「So omission can confuse screen readers.」
+四国めたん「Exactly—always use a form tag even if you handle submission in code.」
+ずんだもん「We should keep the DOM structure meaningful.」
+四国めたん「Yes—semantic markup reduces accessibility bugs later.」

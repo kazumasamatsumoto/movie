@@ -1,0 +1,6 @@
+# #554 「pure: true - デフォルト」台本
+
+ずんだもん「What does `pure: true` mean?」
+四国めたん「It's the default setting on @Pipe, so the pipe reruns only when the input reference changes.」
+ずんだもん「So we get purity without extra configuration.」
+四国めたん「Exactly.」

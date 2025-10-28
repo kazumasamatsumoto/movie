@@ -1,0 +1,6 @@
+# #472 「ロールベースの表示制御」台本
+
+ずんだもん「How do we control display based on roles?」
+四国めたん「Receive the role requirement via Input, ask the auth service, and decide whether to show the element.」
+ずんだもん「How is this different from ngIf?」
+四国めたん「You centralize the role check-that's the directive's strength.」

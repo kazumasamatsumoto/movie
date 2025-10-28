@@ -1,0 +1,7 @@
+# #374 「ngClass - クラス制御」台本
+
+ずんだもん「What does the ngClass directive do?」
+四国めたん「It dynamically toggles CSS classes on an element.」
+ずんだもん「So switching styles per condition gets easy.」
+四国めたん「Exactly. Arrays and objects give you flexible control.」
+ずんだもん「That should really clean up templates.」

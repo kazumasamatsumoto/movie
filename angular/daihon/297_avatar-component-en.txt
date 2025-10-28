@@ -1,0 +1,8 @@
+# #297 「Avatar Component - アバター表示」台本
+
+ずんだもん「What should an Avatar Component include?」
+四国めたん「Provide fallbacks for an image, initials, and an icon, and let an Input switch the size and shape.」
+ずんだもん「What if the image fails to load?」
+四国めたん「Update a signal in the onerror handler and switch over to the initials.」
+ずんだもん「How about accessibility?」
+四国めたん「Convey the meaning with alt text and aria-label, and if it's purely decorative mark it aria-hidden to avoid narration.」

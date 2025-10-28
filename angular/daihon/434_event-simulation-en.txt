@@ -1,0 +1,6 @@
+# #434 「イベントのシミュレーション」台本
+
+ずんだもん「How do we simulate events?」
+四国めたん「Use `dispatchEvent(new Event('click'))` or `triggerEventHandler` to fire HostListener methods.」
+ずんだもん「What about timers?」
+四国めたん「Control them with fakeAsync or jest.useFakeTimers for stability.」

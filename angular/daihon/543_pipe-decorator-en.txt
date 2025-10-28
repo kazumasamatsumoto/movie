@@ -1,0 +1,6 @@
+# #543 「@Pipe デコレータ」台本
+
+ずんだもん「What do we configure with the @Pipe decorator?」
+四国めたん「Set the name and options like `@Pipe({ name: 'truncate', standalone: true })`, and toggle purity with `pure: false` when needed.」
+ずんだもん「So we switch pure/impure here.」
+四国めたん「Exactly-decide the change detection behavior in the decorator.」

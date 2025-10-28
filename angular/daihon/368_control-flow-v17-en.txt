@@ -1,0 +1,7 @@
+# #368 「Control Flow構文（v17+）」台本
+
+ずんだもん「What changed with the Control Flow syntax introduced in v17?」
+四国めたん「Built-ins like `@if` and `@for` let us write clearer, optimized templates.」
+ずんだもん「How are they different from the classic *ngIf or *ngFor?」
+四国めたん「The compiled output is lighter, and you get new features such as the `track` clause.」
+ずんだもん「Gotta keep up with the latest syntax!」

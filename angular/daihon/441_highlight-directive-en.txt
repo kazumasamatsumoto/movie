@@ -1,0 +1,6 @@
+# #441 「Highlight Directive - ハイライト」台本
+
+ずんだもん「What's a Highlight directive like?」
+四国めたん「It adds background or border styles to the host element so it stands out.」
+ずんだもん「Perfect when we need to grab attention.」
+四国めたん「Yes-use it for input errors or to show the selected state.」

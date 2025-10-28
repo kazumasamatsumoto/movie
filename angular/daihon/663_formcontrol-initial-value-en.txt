@@ -1,0 +1,6 @@
+# #663 「FormControl の初期値設定」台本
+
+ずんだもん「When should we set the initial value?」
+四国めたん「The first constructor argument is the simplest place to supply it.」
+ずんだもん「What if we need to change the default later?」
+四国めたん「Use setValue or reset to reapply it-keeping a constant for defaults helps.」

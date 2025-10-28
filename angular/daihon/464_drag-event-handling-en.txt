@@ -1,0 +1,6 @@
+# #464 「ドラッグイベントの処理」台本
+
+ずんだもん「How do we handle drag events?」
+四国めたん「Watch pointerdown/up/move with HostListener, compute the delta, and emit it via EventEmitter.」
+ずんだもん「Do we need a cancel action?」
+四国めたん「Yes-let users abort with Escape or similar gestures.」

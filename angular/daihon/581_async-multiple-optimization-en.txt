@@ -1,0 +1,6 @@
+# #581 「複数 AsyncPipe の最適化」台本
+
+ずんだもん「What happens if we use AsyncPipe multiple times on the same Observable?」
+四国めたん「Each `| async` creates its own subscription, which is inefficient-capture the value once with the `as` syntax and reuse it.」
+ずんだもん「So we rely on *ngIf to share the result.」
+四国めたん「Exactly-avoid redundant subscriptions.」

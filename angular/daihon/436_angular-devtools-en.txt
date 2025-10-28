@@ -1,0 +1,6 @@
+# #436 「Angular DevTools での確認」台本
+
+ずんだもん「Can Angular DevTools show directives?」
+四国めたん「Yes-the Elements panel lists them and reveals HostBinding values.」
+ずんだもん「Can we watch reactive changes too?」
+四国めたん「Absolutely-Signals and Inputs become easy to trace there.」

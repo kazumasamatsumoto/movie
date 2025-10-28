@@ -1,0 +1,6 @@
+# #739 「バリデーションのベストプラクティス」台本
+
+ずんだもん「I want to revisit our validation design-any tips?」
+四国めたん「Keep validators as pure functions and let the UI merely display results.」
+ずんだもん「Storing error messages in a dictionary helps reuse.」
+四国めたん「Yes-and remember cross-field validation at the FormGroup level.」

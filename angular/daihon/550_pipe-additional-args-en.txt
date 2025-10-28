@@ -1,0 +1,6 @@
+# #550 「追加引数の使用」台本
+
+ずんだもん「Can you give an example of using additional arguments?」
+四国めたん「`{{ text | truncate:20:'...' }}` passes the max length and suffix to the pipe.」
+ずんだもん「Makes templates easy to read.」
+四国めたん「Yes-configure behavior directly from the template.」

@@ -1,0 +1,10 @@
+# #328 「Directive のベストプラクティス」台本
+
+ずんだもん「I want to summarize the best practices for Directives!」
+四国めたん「Keep the responsibilities small and manipulate the DOM safely with Renderer2.」
+ずんだもん「How should we handle state?」
+四国めたん「Delegate to Signals or services so the Directive stays focused on view logic.」
+ずんだもん「What's our testing strategy?」
+四国めたん「Use custom host Components to verify behavior and add unit tests for important branches.」
+ずんだもん「Do we also need documentation?」
+四国めたん「Summarize the usage and constraints in Storybook or a component guide to spread knowledge.」

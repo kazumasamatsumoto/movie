@@ -1,0 +1,8 @@
+# #302 「Directive の3つの種類」台本
+
+ずんだもん「What kinds of Directives are there?」
+四国めたん「They fall into three categories: component, structural, and attribute Directives.」
+ずんだもん「How do we use each one?」
+四国めたん「Structural Directives add or remove parts of the DOM tree, attribute Directives change appearance or behavior, and component Directives have their own UI.」
+ずんだもん「How should we organize them in a project?」
+四国めたん「Separate them by type in directories and share a naming convention so they're easy to grasp.」

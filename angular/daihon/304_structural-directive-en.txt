@@ -1,0 +1,10 @@
+# #304 「Structural Directive - 構造ディレクティブ」台本
+
+ずんだもん「What makes a Structural Directive different?」
+四国めたん「It controls the DOM itself by inserting or removing templates.」
+ずんだもん「Can we build our own versions of @if or @for?」
+四国めたん「Yes, we can manage display with TemplateRef and ViewContainerRef.」
+ずんだもん「Do we still need to add an asterisk when naming them?」
+四国めたん「Angular expands the `*` internally, so authors just write the regular selector.」
+ずんだもん「Any tips for implementing one?」
+四国めたん「Watch the cost of creating templates and always destroy views when they're no longer needed.」

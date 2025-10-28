@@ -1,0 +1,6 @@
+# #687 「inject(FormBuilder) での取得」台本
+
+ずんだもん「Angular now has an inject helper, right?」
+四国めたん「Yes-call `inject(FormBuilder)` inside the component to grab the dependency directly.」
+ずんだもん「That keeps the constructor clean.」
+四国めたん「Exactly-it's especially handy in standalone components.」

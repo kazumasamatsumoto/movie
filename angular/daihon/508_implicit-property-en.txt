@@ -1,0 +1,6 @@
+# #508 「$implicit プロパティ」台本
+
+ずんだもん「What role does $implicit play?」
+四国めたん「It's the implicit property templates receive when you write `let item`; use it for the primary value.」
+ずんだもん「What if we need multiple values?」
+四国めたん「Add explicit keys alongside $implicit.」

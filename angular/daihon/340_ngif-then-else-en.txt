@@ -1,0 +1,7 @@
+# #340 「*ngIf="condition; then/else"」台本
+
+ずんだもん「What's handy about specifying both then and else?」
+四国めたん「With `*ngIf="condition; then success; else failure"`, you declare both templates in one place.」
+ずんだもん「So we need to prepare two template references?」
+四国めたん「Right. Give them readable names and keep the markup organized.」
+ずんだもん「Even as conditions multiply, the visibility stays clear—nice!」

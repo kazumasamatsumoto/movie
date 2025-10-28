@@ -1,0 +1,6 @@
+# #522 「CurrencyPipe - 金額表示」台本
+
+ずんだもん「What does CurrencyPipe do?」
+四国めたん「It formats numbers as currency strings with the chosen currency code and display style.」
+ずんだもん「Great for pricing displays.」
+四国めたん「Yes-no need to handcraft localization logic.」

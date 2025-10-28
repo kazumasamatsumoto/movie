@@ -1,0 +1,6 @@
+# #469 「要素のサイズ変更」台本
+
+ずんだもん「How do we control the size change?」
+四国めたん「Calculate the drag distance and update style.width or style.height.」
+ずんだもん「We should respect box-sizing too.」
+四国めたん「Exactly-check the boundaries carefully.」

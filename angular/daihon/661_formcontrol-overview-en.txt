@@ -1,0 +1,6 @@
+# #661 「FormControl - 単一コントロール」台本
+
+ずんだもん「How do we handle a single input in Reactive Forms?」
+四国めたん「Use a FormControl to manage the value and validation state together.」
+ずんだもん「How do we connect it to the template input?」
+四国めたん「Bind the control instance with `[formControl]` in the template to keep them in sync.」

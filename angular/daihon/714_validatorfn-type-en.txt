@@ -1,0 +1,6 @@
+# #714 「ValidatorFn 型」台本
+
+ずんだもん「What's the signature of ValidatorFn?」
+四国めたん「It takes an AbstractControl and returns ValidationErrors or null.」
+ずんだもん「How do we handle the control's type?」
+四国めたん「Since value is any, write type assertions or guards for safety.」

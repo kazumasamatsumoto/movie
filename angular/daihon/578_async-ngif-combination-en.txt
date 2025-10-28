@@ -1,0 +1,6 @@
+# #578 「AsyncPipe と *ngIf」台本
+
+ずんだもん「What happens when we combine AsyncPipe with *ngIf?」
+四国めたん「Write `*ngIf="data$ | async as data"` to receive the async value and check for null at the same time.」
+ずんだもん「That keeps the template tidy.」
+四国めたん「Yes-it's the most common pattern.」

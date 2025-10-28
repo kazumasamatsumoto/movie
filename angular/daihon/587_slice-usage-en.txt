@@ -1,0 +1,6 @@
+# #587 「{{ array | slice:start:end }}」台本
+
+ずんだもん「How do we write it explicitly?」
+四国めたん「Use it inside *ngFor like `*ngFor="let item of items | slice:start:end"`. Skip the end argument to slice to the end.」
+ずんだもん「Does it work for strings too?」
+四国めたん「Yes-`{{ text | slice:0:10 }}` shows the first ten characters.」

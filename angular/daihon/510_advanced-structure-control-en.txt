@@ -1,0 +1,6 @@
+# #510 「高度な構造制御の実装」台本
+
+ずんだもん「What counts as advanced structural control?」
+四国めたん「Switching among multiple templates or passing functions through the context to alter rendering dynamically.」
+ずんだもん「Complex, but fun.」
+四国めたん「Exactly-design smart control flows.」

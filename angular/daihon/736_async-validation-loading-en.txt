@@ -1,0 +1,6 @@
+# #736 「非同期検証のローディング表示」台本
+
+ずんだもん「How should we indicate that async validation is in progress?」
+四国めたん「Watch for the PENDING state and show an inline loading indicator.」
+ずんだもん「Using `@if` keeps the template tidy.」
+四国めたん「Yes-share the state via AsyncPipe or toSignal when multiple areas depend on it.」

@@ -1,0 +1,6 @@
+# #414 「@HostBinding デコレータ」台本
+
+ずんだもん「Teach me how to write @HostBinding!」
+四国めたん「Something like `@HostBinding('class.is-active') isActive = false;` toggles a class based on the directive state.」
+ずんだもん「How do we name the property?」
+四国めたん「Name it however you like-update it internally and the host reflects it.」

@@ -1,0 +1,6 @@
+# #463 「ドラッグ可能要素の実装」台本
+
+ずんだもん「What changes make an element draggable?」
+四国めたん「Manipulate position: absolute or transform to update the host element's coordinates.」
+ずんだもん「Can we add guidelines or snapping?」
+四国めたん「Yes-pass control points through Inputs for flexibility.」

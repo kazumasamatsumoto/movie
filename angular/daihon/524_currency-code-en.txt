@@ -1,0 +1,6 @@
+# #524 「通貨コードの指定」台本
+
+ずんだもん「How do we specify the currency code?」
+四国めたん「Pass it as the first argument-`currency:'USD'` formats in US dollars, `'EUR'` for euros, and so on.」
+ずんだもん「Locale affects symbols too, right?」
+四国めたん「Exactly-set the app locale to match your target audience.」

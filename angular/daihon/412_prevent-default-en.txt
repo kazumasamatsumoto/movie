@@ -1,0 +1,6 @@
+# #412 「preventDefault() の使用」台本
+
+ずんだもん「When should a Directive call preventDefault?」
+四国めたん「Use it to block link clicks or pause form submission temporarily.」
+ずんだもん「So we just call it after receiving the event via HostListener.」
+四国めたん「Exactly-and pair it with `stopPropagation()` if you need to halt bubbling too.」

@@ -1,0 +1,6 @@
+# #580 「*ngIf="data$ | async as data"」台本
+
+ずんだもん「How do we write it in practice?」
+四国めたん「Use `<ng-container *ngIf="user$ | async as user">{{ user.name }}</ng-container>`.」
+ずんだもん「Nothing renders when the value is null?」
+四国めたん「Correct-the block appears only when data is available.」

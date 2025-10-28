@@ -1,0 +1,6 @@
+# #484 「ViewContainerRef の注入」台本
+
+ずんだもん「What does ViewContainerRef do?」
+四国めたん「It's the container where you insert views created from the template-use `createEmbeddedView` and `clear` to manage them.」
+ずんだもん「So it's the core of structural directives.」
+四国めたん「Exactly.」

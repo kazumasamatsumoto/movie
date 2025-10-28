@@ -1,0 +1,6 @@
+# #448 「要素外クリックの監視」台本
+
+ずんだもん「How do we determine that a click happened outside the element?」
+四国めたん「Check whether `event.target` is contained within the host element-if not, it's outside.」
+ずんだもん「Do we ever need stopPropagation?」
+四国めたん「Design it so controls like the open/close button live inside the host and avoid that need.」

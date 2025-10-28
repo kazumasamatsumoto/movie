@@ -1,0 +1,6 @@
+# #453 「AutoFocus Directive - 自動フォーカス」台本
+
+ずんだもん「What does an AutoFocus directive do?」
+四国めたん「It automatically focuses the element when it appears.」
+ずんだもん「Sounds handy for forms or modals.」
+四国めたん「Yes, and it helps with accessibility too.」

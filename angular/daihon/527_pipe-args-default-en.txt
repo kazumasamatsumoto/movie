@@ -1,0 +1,6 @@
+# #527 「Pipe のデフォルト引数」台本
+
+ずんだもん「Do pipes have default arguments?」
+四国めたん「Yes-if you omit optional parameters, Angular applies sensible defaults like two decimal places for CurrencyPipe.」
+ずんだもん「We can override them only when needed.」
+四国めたん「Right-keep templates concise unless customization is required.」

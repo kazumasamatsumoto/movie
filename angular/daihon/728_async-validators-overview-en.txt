@@ -1,0 +1,6 @@
+# #728 「非同期バリデーター」台本
+
+ずんだもん「How do we run validation that calls the server?」
+四国めたん「Implement an AsyncValidatorFn that returns an Observable or Promise.」
+ずんだもん「When is the result applied?」
+四国めたん「Once the Observable completes, the form status updates accordingly.」

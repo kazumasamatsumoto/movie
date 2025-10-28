@@ -1,0 +1,6 @@
+# #735 「Promise ベースの検証」台本
+
+ずんだもん「Can async validators return Promises instead of Observables?」
+四国めたん「Yes-AsyncValidatorFn accepts `Promise<ValidationErrors | null>`.」
+ずんだもん「async/await keeps sequential logic clean.」
+四国めたん「Just remember to wrap it in try/catch and convert errors into ValidationErrors.」

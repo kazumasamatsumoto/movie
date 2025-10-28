@@ -1,0 +1,6 @@
+# #732 「メールアドレス存在チェック」台本
+
+ずんだもん「We also need to check whether an email is already in use.」
+四国めたん「Normalize the email first, then query the API for duplication.」
+ずんだもん「Trimming and lowercasing are important.」
+四国めたん「Yes-and surface the result in a friendly message so users understand what to do.」

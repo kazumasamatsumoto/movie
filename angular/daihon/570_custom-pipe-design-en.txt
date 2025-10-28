@@ -1,0 +1,6 @@
+# #570 「カスタム Pipe の設計原則」台本
+
+ずんだもん「Share the design principles for custom pipes!」
+四国めたん「Keep them pure, avoid side effects, define arguments clearly, never mutate the input, and watch performance.」
+ずんだもん「So focus the responsibility too?」
+四国めたん「Yes-handle a small transformation so the template stays simple.」

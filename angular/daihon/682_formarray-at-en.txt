@@ -1,0 +1,6 @@
+# #682 「FormArray.at() - 要素取得」台本
+
+ずんだもん「I need to access a specific element.」
+四国めたん「Use `at(index)` to retrieve that AbstractControl.」
+ずんだもん「Typing it upfront saves casts.」
+四国めたん「Exactly-declare generics on the FormArray so TypeScript infers the return type.」

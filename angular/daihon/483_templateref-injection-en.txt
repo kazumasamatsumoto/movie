@@ -1,0 +1,6 @@
+# #483 「TemplateRef の注入」台本
+
+ずんだもん「How do we use TemplateRef?」
+四国めたん「Inject it in the structural directive constructor as `private readonly template: TemplateRef<T>` to capture the template.」
+ずんだもん「The generic T represents the context type.」
+四国めたん「Yes-the default `unknown` works fine if you don't need a custom context.」

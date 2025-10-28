@@ -1,0 +1,6 @@
+# #402 「ng generate directive コマンド」台本
+
+ずんだもん「What's the CLI command to create a Directive?」
+四国めたん「Run something like `ng g directive directives/hover --standalone`.」
+ずんだもん「When it's standalone we just add it to imports, right?」
+四国めたん「Yes, and the spec file is generated automatically so you already have a testing scaffold.」

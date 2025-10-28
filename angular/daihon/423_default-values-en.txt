@@ -1,0 +1,6 @@
+# #423 「デフォルト値の設定」台本
+
+ずんだもん「Where do we define default values in a Directive?」
+四国めたん「Initialize the property with a base value and let Inputs override it when provided.」
+ずんだもん「Can we validate inside ngOnChanges too?」
+四国めたん「Yes-apply fallbacks when it's missing or adjust invalid values there.」

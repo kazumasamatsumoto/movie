@@ -1,0 +1,7 @@
+# #400 「パフォーマンス考慮事項」台本
+
+ずんだもん「What performance concerns should we watch with Attribute Directives?」
+四国めたん「Throttle heavy DOM updates and rely on trackBy or Signals so only diffs rerender.」
+ずんだもん「And we should keep Renderer2 calls minimal, right?」
+四国めたん「Yes-and always remove unused event listeners in ngOnDestroy.」
+ずんだもん「That keeps the UI stable and smooth.」

@@ -1,0 +1,6 @@
+# #592 「検索キーワードの強調表示」台本
+
+ずんだもん「How do we highlight keywords in practice?」
+四国めたん「Use a regex in the pipe to replace matches with `<mark>` tags, and remember to sanitize the output.」
+ずんだもん「Then we can style the highlight easily.」
+四国めたん「Exactly-pair it with CSS for clarity.」

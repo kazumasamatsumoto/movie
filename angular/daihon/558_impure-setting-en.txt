@@ -1,0 +1,6 @@
+# #558 「pure: false の設定」台本
+
+ずんだもん「How do we mark a pipe as impure?」
+四国めたん「Set `pure: false` in the decorator, like `@Pipe({ name: 'filter', pure: false })`.」
+ずんだもん「Is it risky to use casually?」
+四国めたん「Yes-keep the performance cost in mind.」

@@ -1,0 +1,7 @@
+# #351 「even / odd - 偶数/奇数の判定」台本
+
+ずんだもん「How do we check whether an item is even or odd?」
+四国めたん「Receive booleans with `let isEven = even` and `let isOdd = odd`.」
+ずんだもん「Perfect for striped tables.」
+四国めたん「Right—`[class.row-even]="isEven"` boosts expressiveness.」
+ずんだもん「I love not writing extra calculations in the template!」

@@ -1,0 +1,6 @@
+# #425 「@Output() プロパティ」台本
+
+ずんだもん「How do we write an @Output?」
+四国めたん「Declare it like `@Output() toggled = new EventEmitter<boolean>();` and choose the event type.」
+ずんだもん「Can we expose it as an Observable?」
+四国めたん「Sure-publish `toggled.asObservable()` when you want a read-only stream.」

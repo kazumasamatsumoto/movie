@@ -1,0 +1,6 @@
+# #442 「マウスオーバーで色変更」台本
+
+ずんだもん「How do we build a hover highlight that changes color?」
+四国めたん「Listen for `mouseenter` and `mouseleave` with HostListener, then switch colors via HostBinding or Renderer2.」
+ずんだもん「That gives us visual feedback.」
+四国めたん「Right-and remember to support focus for accessibility.」

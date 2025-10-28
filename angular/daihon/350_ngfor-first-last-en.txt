@@ -1,0 +1,7 @@
+# #350 「first / last - 最初/最後の判定」台本
+
+ずんだもん「How do we detect the first or last item in a list?」
+四国めたん「Use `let isFirst = first` and `let isLast = last` to receive booleans.」
+ずんだもん「Great for hiding the divider on the last element.」
+四国めたん「Exactly. Combine it with conditional display to tidy the template.」
+ずんだもん「Fine-grained control feels great.」

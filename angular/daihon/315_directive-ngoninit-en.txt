@@ -1,0 +1,10 @@
+# #315 「ngOnInit での初期化」台本
+
+ずんだもん「What setup do we usually perform in ngOnInit?」
+四国めたん「Use Renderer2 to set styles and read the initial Input values to build the state.」
+ずんだもん「What's the issue with doing it in the constructor?」
+四国めたん「The host element might not be ready, and under SSR it can remain uninitialized.」
+ずんだもん「Do we talk to external services here as well?」
+四国めたん「Yes. Just remember to handle errors and unsubscribe properly.」
+ずんだもん「How do we verify it in tests?」
+四国めたん「Instantiate the Directive with TestBed and assert the DOM differences after calling ngOnInit.」

@@ -1,0 +1,6 @@
+# #426 「EventEmitter の使用」台本
+
+ずんだもん「How should we use EventEmitter?」
+四国めたん「It's ideal for two-way binding and one-off notifications-just call `emit(value)`.」
+ずんだもん「Do we need to worry about memory leaks?」
+四国めたん「It wraps a Subject internally, so standard usage is safe.」

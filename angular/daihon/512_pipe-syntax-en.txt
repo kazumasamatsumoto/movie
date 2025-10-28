@@ -1,0 +1,6 @@
+# #512 「| (パイプ) 構文」台本
+
+ずんだもん「What's the basic pipe syntax?」
+四国めたん「Write `{{ value | pipeName }}` in the template, chaining pipes on the right side of the value.」
+ずんだもん「Can we combine multiple pipes?」
+四国めたん「Yes-`value | pipeA | pipeB` applies them in order.」

@@ -1,0 +1,7 @@
+# #337 「真偽値での表示制御」台本
+
+ずんだもん「Any tips for controlling visibility with booleans?」
+四国めたん「Convert Observables or Signals into booleans and pass them to *ngIf for reactive toggles.」
+ずんだもん「Do all falsy values hide the element?」
+四国めたん「Yes, but 0 or empty strings are also falsy, so make your intent clear in the condition.」
+ずんだもん「Leaning on types keeps it safe—very Angular.」

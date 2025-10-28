@@ -1,0 +1,6 @@
+# #680 「FormArray.push() - 要素追加」台本
+
+ずんだもん「How do we add another input row?」
+四国めたん「Call push to append a FormControl or FormGroup to the array.」
+ずんだもん「We should still enforce limits.」
+四国めたん「Exactly-define a maximum count and block push when it would exceed it.」

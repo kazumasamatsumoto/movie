@@ -1,0 +1,6 @@
+# #676 「FormGroup.patchValue() - 部分更新」台本
+
+ずんだもん「PatchValue looks handy when we only update part of the form.」
+四国めたん「Exactly-it updates only the keys you provide and keeps the rest untouched.」
+ずんだもん「Does it work with nested groups too?」
+四国めたん「Yes-pass nested objects that mirror your structure.」

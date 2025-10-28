@@ -1,0 +1,6 @@
+# #621 「Invalid State - 無効」台本
+
+ずんだもん「And invalid means at least one validator failed?」
+四国めたん「Exactly—the control stays invalid until all rules pass. For forms, any invalid child makes the whole form invalid.」
+ずんだもん「We can target invalid fields for error styling.」
+四国めたん「Yes—use CSS classes or templates to highlight them.」

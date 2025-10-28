@@ -1,0 +1,6 @@
+# #562 「配列・オブジェクトの処理」台本
+
+ずんだもん「Any tips for handling arrays or objects in pipes?」
+四国めたん「Pure pipes rerun only when the reference changes, so mutating an array in place won't update the view.」
+ずんだもん「If we need a rerender, we change the reference?」
+四国めたん「Yes-spread into a new array or consider an impure pipe.」

@@ -1,0 +1,6 @@
+# #574 「自動購読解除」台本
+
+ずんだもん「Is the unsubscribe really automatic?」
+四国めたん「Yes-AsyncPipe disposes the subscription when the component is destroyed, which prevents leaks.」
+ずんだもん「That's convenient!」
+四国めたん「It is-and it's usually the recommended approach.」

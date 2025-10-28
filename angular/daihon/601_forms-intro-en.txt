@@ -1,0 +1,8 @@
+# #601 「Angular Forms とは？2つのアプローチ」台本
+
+ずんだもん「What kinds of forms does Angular provide?」
+四国めたん「There are two approaches: template-driven forms and reactive forms.」
+ずんだもん「Do they handle user input in the same way?」
+四国めたん「They pursue the same goal, but the authoring style and extensibility differ, and each has strengths.」
+ずんだもん「Learning when to use each should broaden our design options.」
+四国めたん「Exactly—pick the right one based on project scale and the team's preferences.」

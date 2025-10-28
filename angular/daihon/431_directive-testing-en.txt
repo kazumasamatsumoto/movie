@@ -1,0 +1,6 @@
+# #431 「Directive のテスト」台本
+
+ずんだもん「How do we approach testing a directive?」
+四国めたん「Create a host component, render it with TestBed, and verify the behavior.」
+ずんだもん「So we assert the DOM changes.」
+四国めたん「Exactly-check emitted events and applied classes.」

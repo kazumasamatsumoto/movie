@@ -1,0 +1,6 @@
+# #518 「Pipe のパフォーマンス」台本
+
+ずんだもん「What about pipe performance?」
+四国めたん「Pure pipes run only when inputs change, so they're fast. Avoid heavy work or expensive computations inside pure pipes.」
+ずんだもん「And impure pipes?」
+四国めたん「They execute on every change detection cycle, so keep them lightweight or reconsider the design.」

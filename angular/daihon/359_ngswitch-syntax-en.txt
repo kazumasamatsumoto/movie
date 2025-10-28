@@ -1,0 +1,7 @@
+# #359 「*ngSwitch の基本構文」台本
+
+ずんだもん「I want to review the *ngSwitch syntax.」
+四国めたん「Assign `[ngSwitch]=value` on a wrapper element and place `*ngSwitchCase` plus `*ngSwitchDefault` inside.」
+ずんだもん「Can we define multiple cases?」
+四国めたん「Yes. When cases share the same value, group them with a template reference variable.」
+ずんだもん「The syntax makes design straightforward.」

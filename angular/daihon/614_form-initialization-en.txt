@@ -1,0 +1,8 @@
+# #614 「フォームの初期化」台本
+
+ずんだもん「What's the best way to initialize a form?」
+四国めたん「Set default values when you create the controls, and patch data once the API response arrives.」
+ずんだもん「Should we show a loading state until data is ready?」
+四国めたん「Yes—disable the form or display a skeleton so users know it's still preparing.」
+ずんだもん「Then sync the model once everything is loaded.」
+四国めたん「Exactly—keep initialization predictable and race-free.」

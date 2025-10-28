@@ -1,0 +1,6 @@
+# #444 「Tooltip Directive - ツールチップ」台本
+
+ずんだもん「What features does a Tooltip directive provide?」
+四国めたん「It shows supplemental info on hover or focus, generating and positioning DOM nodes from the directive.」
+ずんだもん「We have to pass text per element.」
+四国めたん「Exactly-receive the message via Input and create the tooltip element with Renderer2.」

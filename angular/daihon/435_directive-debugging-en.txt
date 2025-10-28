@@ -1,0 +1,6 @@
+# #435 「Directive のデバッグ」台本
+
+ずんだもん「How do we debug when a directive misbehaves?」
+四国めたん「Enable `ngDevMode` for logs, inspect the host state with console.log, and check Angular DevTools for applied directives.」
+ずんだもん「Selector mistakes are common too.」
+四国めたん「Yes-and with standalone directives, forgetting to add them to imports is a frequent issue.」

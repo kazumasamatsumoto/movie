@@ -1,0 +1,6 @@
+# #430 「設定可能な実装」台本
+
+ずんだもん「How do we implement a configurable directive?」
+四国めたん「Accept an options object via Input, merge it with defaults, and switch behavior accordingly.」
+ずんだもん「Where do we validate the options?」
+四国めたん「Use ngOnChanges to check types and warn or error on invalid values.」

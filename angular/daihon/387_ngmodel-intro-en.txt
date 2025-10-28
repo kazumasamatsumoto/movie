@@ -1,0 +1,7 @@
+# #387 「ngModel - 双方向バインディング」台本
+
+ずんだもん「What does ngModel do for us?」
+四国めたん「It synchronizes form elements with component values in both directions.」
+ずんだもん「[(ngModel)] is the syntax, right?」
+四国めたん「Yep, and it's the go-to for template-driven forms.」
+ずんだもん「It's the foundation of input forms.」

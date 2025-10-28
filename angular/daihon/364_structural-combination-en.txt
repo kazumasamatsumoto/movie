@@ -1,0 +1,7 @@
+# #364 「Structural Directive の組み合わせ」台本
+
+ずんだもん「Any tips for combining Structural Directives?」
+四国めたん「Use `ng-container` to organize the nesting, and separate responsibilities in the order of condition → loop → switch.」
+ずんだもん「Should we move complex logic into the component?」
+四国めたん「Yes. If the template gets messy, hand the logic over to TypeScript.」
+ずんだもん「Prioritizing readability really matters.」

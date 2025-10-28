@@ -1,0 +1,6 @@
+# #582 「share() オペレーターの併用」台本
+
+ずんだもん「What if we still need multiple AsyncPipe usages?」
+四国めたん「Share the subscription on the Observable with operators like `share()` or `shareReplay()` so multiple AsyncPipe calls reuse a single stream.」
+ずんだもん「So RxJS handles the optimization.」
+四国めたん「Yes-optimize on both the pipe and Observable sides.」

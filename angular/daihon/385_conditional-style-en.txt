@@ -1,0 +1,7 @@
+# #385 「条件付きスタイル適用」台本
+
+ずんだもん「How do we switch styles conditionally?」
+四国めたん「Use expressions inside the style object to change values, or pass null to clear them.」
+ずんだもん「Can we control it with booleans directly?」
+四国めたん「Styles need strings, so compute the color or size and pass the result.」
+ずんだもん「Perfect for visual feedback.」

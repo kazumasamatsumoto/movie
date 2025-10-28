@@ -1,0 +1,6 @@
+# #690 「fb.array() メソッド」台本
+
+ずんだもん「Can FormBuilder create FormArrays too?」
+四国めたん「Yes-`fb.array([])` initializes one, and you can define elements with the array shorthand or fb.control.」
+ずんだもん「Even dynamic forms stay readable.」
+四国めたん「Set up a factory for new elements and reuse it whenever you push.」

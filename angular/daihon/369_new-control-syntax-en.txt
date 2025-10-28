@@ -1,0 +1,7 @@
+# #369 「@if / @for / @switch 新構文」台本
+
+ずんだもん「How does the new @if/@for/@switch syntax feel to write?」
+四国めたん「You can write it in a TypeScript-like style, such as `@if (condition) { ... } @else { ... }`.」
+ずんだもん「@for now has a built-in track clause, right?」
+四国めたん「Yes, `@for (item of items; track item.id)` gives you concise optimizations.」
+ずんだもん「Templates become so much more readable!」

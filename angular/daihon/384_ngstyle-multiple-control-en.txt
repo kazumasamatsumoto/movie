@@ -1,0 +1,7 @@
+# #384 「複数スタイルの動的制御」台本
+
+ずんだもん「Any tips for changing multiple styles dynamically?」
+四国めたん「Build the style object in the component and hand it to `[ngStyle]` so the logic stays organized.」
+ずんだもん「Is it bad to compute everything in the template?」
+四国めたん「Fine for small pieces, but once it grows, move the logic to TypeScript.」
+ずんだもん「Responsibility separation pays off again.」

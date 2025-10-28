@@ -1,0 +1,6 @@
+# #546 「transform() メソッド」台本
+
+ずんだもん「Where do we implement transform?」
+四国めたん「Inside the pipe class-`transform(value: T, ...args: any[]): R` should return the converted result.」
+ずんだもん「That's where the actual conversion lives.」
+四国めたん「Exactly-keep the logic pure and focused.」

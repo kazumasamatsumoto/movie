@@ -1,0 +1,6 @@
+# #738 「バリデーションのパフォーマンス」台本
+
+ずんだもん「Validation is getting heavy on our large form.」
+四国めたん「Switch `updateOn` to 'blur' to cut unnecessary recalculations.」
+ずんだもん「We can throttle async validation with debounceTime too.」
+四国めたん「Yes-and cache results with shareReplay for more efficiency.」

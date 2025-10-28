@@ -1,0 +1,6 @@
+# #694 「formGroupName ディレクティブ」台本
+
+ずんだもん「How do we handle nested FormGroups?」
+四国めたん「Apply `formGroupName="key"` on the parent container to work with that subgroup.」
+ずんだもん「Feels like using fieldsets to organize sections.」
+四国めたん「Exactly-it keeps nested template structures readable.」

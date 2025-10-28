@@ -1,0 +1,6 @@
+# #429 「汎用的な設計」台本
+
+ずんだもん「Any tips for designing a general-purpose directive?」
+四国めたん「Avoid domain-specific logic-stick to a single responsibility that fits multiple scenarios.」
+ずんだもん「Can we use type parameters too?」
+四国めたん「Yes-Generics or a Strategy pattern let you offer extension points.」

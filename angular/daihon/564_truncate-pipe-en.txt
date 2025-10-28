@@ -1,0 +1,6 @@
+# #564 「Truncate Pipe - 文字列切り詰め」台本
+
+ずんだもん「What does a Truncate pipe do?」
+四国めたん「It shortens a string to a specified length and appends a suffix.」
+ずんだもん「Classic UI behavior.」
+四国めたん「Yes-great for list views.」

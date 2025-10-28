@@ -1,0 +1,7 @@
+# #373 「DOMの構造は変えない」台本
+
+ずんだもん「Can an Attribute Directive change the DOM structure?」
+四国めたん「Nope. The element stays put; we only adjust attributes or styles.」
+ずんだもん「What if we need to change the structure?」
+四国めたん「Reach for a Structural Directive—keeping responsibilities separate is key.」
+ずんだもん「Clear boundaries make all the difference.」

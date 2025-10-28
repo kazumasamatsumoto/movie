@@ -1,0 +1,6 @@
+# #726 「clearValidators() メソッド」台本
+
+ずんだもん「How do we remove all validators?」
+四国めたん「Call clearValidators to wipe the current validator set.」
+ずんだもん「Then trigger a re-evaluation.」
+四国めたん「Right-updateValueAndValidity to refresh the status.」

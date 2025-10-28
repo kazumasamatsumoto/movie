@@ -1,0 +1,6 @@
+# #572 「{{ observable$ | async }}」台本
+
+ずんだもん「What's the basic syntax?」
+四国めたん「Use `{{ observable$ | async }}` to render the latest value. If it emits a string, the string appears directly.」
+ずんだもん「What happens with null?」
+四国めたん「Null or no emissions render as an empty string.」

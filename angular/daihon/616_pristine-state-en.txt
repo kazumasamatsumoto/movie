@@ -1,0 +1,6 @@
+# #616 「Pristine State - 未操作」台本
+
+ずんだもん「What does the pristine state represent?」
+四国めたん「It means the control hasn't been changed since initialization. Once the user edits it, pristine becomes false.」
+ずんだもん「How do we reset it?」
+四国めたん「Call reset on the control or the whole form to mark it pristine again.」

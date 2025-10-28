@@ -1,0 +1,10 @@
+# #325 「listen() でのイベント監視」台本
+
+ずんだもん「How does Renderer2's listen help us observe events?」
+四国めたん「Call `listen(target, eventName, callback)` to subscribe, and keep the returned unsubscribe function.」
+ずんだもん「Can we attach it to document or window?」
+四国めたん「Yes. Specify `'document'` or `'window'` as the target.」
+ずんだもん「What about combining it with Signals?」
+四国めたん「Update the Signal inside the callback and let change detection run so it reacts.」
+ずんだもん「How do we avoid cleanup leaks?」
+四国めたん「Prepare a helper that calls the unsubscribe function inside ngOnDestroy.」

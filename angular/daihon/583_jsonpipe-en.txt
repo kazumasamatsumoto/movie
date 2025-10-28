@@ -1,0 +1,6 @@
+# #583 「JsonPipe - JSON表示」台本
+
+ずんだもん「What is JsonPipe for?」
+四国めたん「It formats objects or arrays as JSON strings-perfect for debugging.」
+ずんだもん「Better than sprinkling console.log everywhere.」
+四国めたん「Right-you can inspect data directly in the template.」

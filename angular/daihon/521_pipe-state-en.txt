@@ -1,0 +1,6 @@
+# #521 「Pipe の状態管理」台本
+
+ずんだもん「Do pipes hold state?」
+四国めたん「Keep them stateless when pure; if you must store state, restrict it to impure pipes and document the behavior.」
+ずんだもん「So we should avoid side effects.」
+四国めたん「Exactly-pipes should focus on deterministic transformations.」

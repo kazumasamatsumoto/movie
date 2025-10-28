@@ -1,0 +1,7 @@
+# #379 「条件付きクラス適用」台本
+
+ずんだもん「What's the best way to write conditional classes?」
+四国めたん「Declare the conditions with objects or arrays so the intent stays clear.」
+ずんだもん「Won't the template fill up with logic?」
+四国めたん「If it starts to, compute the class set in the component and pass it down.」
+ずんだもん「Responsibility separation for the win.」

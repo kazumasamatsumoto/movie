@@ -1,0 +1,6 @@
+# #557 「Impure Pipe - 非純粋パイプ」台本
+
+ずんだもん「How is an impure pipe different?」
+四国めたん「Set `pure: false` and Angular will call transform on every change detection tick, even if the input reference stays the same.」
+ずんだもん「So it recalculates constantly.」
+四国めたん「Yes-use it only when the pipe depends on mutable data or external state.」

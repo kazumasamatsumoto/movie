@@ -1,0 +1,6 @@
+# #459 「LazyLoad Directive - 遅延読み込み」台本
+
+ずんだもん「What does a LazyLoad directive do?」
+四国めたん「It delays loading images or components with IntersectionObserver.」
+ずんだもん「Great for performance gains.」
+四国めたん「Yes-it lightens the initial load.」

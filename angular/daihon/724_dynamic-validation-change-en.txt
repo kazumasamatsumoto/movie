@@ -1,0 +1,6 @@
+# #724 「動的バリデーション変更」台本
+
+ずんだもん「I want to toggle validation as the form state changes.」
+四国めたん「Add or remove validators depending on control state or user choices.」
+ずんだもん「So we combine setValidators and clearValidators.」
+四国めたん「Right-and always call updateValueAndValidity afterward.」

@@ -1,0 +1,7 @@
+# #336 「*ngIf の基本構文」台本
+
+ずんだもん「I want to review the basic *ngIf syntax!」
+四国めたん「Write `*ngIf="condition"`, and the element renders only when the condition is true.」
+ずんだもん「Can we include complex expressions?」
+四国めたん「You can, but compute them in the component to keep the template readable.」
+ずんだもん「Keeping it simple is the trick.」

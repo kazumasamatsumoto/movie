@@ -1,0 +1,10 @@
+# #322 「setStyle() でのスタイル設定」台本
+
+ずんだもん「How should we use Renderer2's setStyle?」
+四国めたん「Specify the property and value like `this.renderer.setStyle(el, 'color', value)`.」
+ずんだもん「Does it have the same priority as inline styles?」
+四国めたん「Yes. Pass `RendererStyleFlags2.Important` as the third argument to treat it as !important.」
+ずんだもん「How do we set multiple styles at once?」
+四国めたん「Call it only for the properties you need, and use `removeStyle` when it no longer applies.」
+ずんだもん「How does it play with animations?」
+四国めたん「Delegating to CSS classes makes it easier to control re-renders.」

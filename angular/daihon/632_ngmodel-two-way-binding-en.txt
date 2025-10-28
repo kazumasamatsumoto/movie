@@ -1,0 +1,6 @@
+# #632 「ngModel の双方向バインディング」台本
+
+ずんだもん「How does ngModel provide two-way binding?」
+四国めたん「The `[(ngModel)]` syntax expands to property binding plus `(ngModelChange)` so updates flow both ways.」
+ずんだもん「Form inputs and the component stay aligned.」
+四国めたん「Exactly—no need to write event handlers for simple cases.」

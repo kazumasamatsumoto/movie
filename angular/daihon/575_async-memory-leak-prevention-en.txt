@@ -1,0 +1,6 @@
+# #575 「メモリリーク防止」台本
+
+ずんだもん「Why does AsyncPipe prevent memory leaks?」
+四国めたん「Manual subscriptions may continue after the component is gone, but AsyncPipe's auto-unsubscribe stops the stream when the view disappears.」
+ずんだもん「Makes management easier.」
+四国めたん「Yes-it saves you from forgetting unsubscribe calls.」

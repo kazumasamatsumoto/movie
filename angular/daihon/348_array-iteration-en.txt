@@ -1,0 +1,7 @@
+# #348 「配列の反復処理」台本
+
+ずんだもん「Share the best practices for iterating over arrays.」
+四国めたん「Favor immutable data and create new arrays only when necessary to minimize re-renders.」
+ずんだもん「That works well with change detection, right?」
+四国めたん「Yes. Combine it with `trackBy` to keep even large lists efficient.」
+ずんだもん「It's the first step in performance tuning.」

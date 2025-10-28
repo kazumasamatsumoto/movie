@@ -1,0 +1,6 @@
+# #473 「権限チェック」台本
+
+ずんだもん「How do we implement permission checks?」
+四国めたん「Keep the user permissions in a service, call `hasPermission()`, and update HostBinding based on the result.」
+ずんだもん「Can we handle async cases?」
+四国めたん「Yes-await an Observable or Promise before toggling visibility.」
