@@ -3,5 +3,5 @@
 四国めたん「Specify the type as false, like `let flag: false`.」
 ずんだもん「Any distinctive traits?」
 四国めたん「Only false can be assigned—true is rejected.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it keeps constant values type-safe.」

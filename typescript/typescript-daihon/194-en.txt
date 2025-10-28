@@ -3,5 +3,5 @@
 四国めたん「It's a decorator that validates numeric properties.」
 ずんだもん「How do we use it?」
 四国めたん「Annotate the property with `@IsNumber()`.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it improves API type safety.」

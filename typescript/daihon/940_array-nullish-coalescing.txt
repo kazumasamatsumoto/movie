@@ -2,7 +2,7 @@
 
 四国めたん「OptionalチェーンとNullish Coalescingを組み合わせるとフォールバックが書きやすくなります。」
 ずんだもん「const value = arr?.[0] ?? defaultValue; みたいにね。」
-四国めたん「はい、undefinedだった場合に安全な値を返せます。」
+四国めたん「undefinedだった場合に安全な値を返せます。」
 ずんだもん「atメソッドと組み合わせても同じように使えるよ。」
 四国めたん「Nullish Coalescingで安全な初期値を提供しましょう。」
 ずんだもん「エラーを起こさずに値を渡せるね！」

@@ -2,7 +2,7 @@
 
 四国めたん「Well-known Symbolsにはiterator、asyncIterator、toStringTagなどが含まれます。」
 ずんだもん「Symbolオブジェクトの静的プロパティとしてアクセスできるんだね。」
-四国めたん「はい、Reflect.ownKeys(Symbol)で一覧も取得できます。」
+四国めたん「Reflect.ownKeys(Symbol)で一覧も取得できます。」
 ずんだもん「仕様書に載っているものはほぼTypeScriptのlibでも定義済みだよ。」
 四国めたん「一覧を把握しておくと必要なときにすぐ使えます。」
 ずんだもん「リファレンスを手元に置いておくと便利だね。」

@@ -2,7 +2,7 @@
 
 四国めたん「ChromeはChromiumをベースにGoogle独自機能を加えたプロダクトです」
 ずんだもん「じゃあChromiumは素のブラウザエンジンってこと？」
-四国めたん「はい、Chromiumはオープンソースで、ChromeはSyncやWidevineなどを同梱します」
+四国めたん「Chromiumはオープンソースで、ChromeはSyncやWidevineなどを同梱します」
 ずんだもん「自動アップデートやクラッシュレポートもChrome専用だよね」
 四国めたん「Chromiumは検証やカスタムビルドに活用され、Chromeはユーザー向け最適化が進んでいます」
 ずんだもん「用途で使い分ければ両方のメリットを享受できるよ！」

@@ -3,6 +3,6 @@
 四国めたん「It's the approach for handling numeric values inside Angular forms.」
 ずんだもん「How do we implement it?」
 四国めたん「Declare FormControl or FormGroup fields as number types.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it's vital for form type safety.」
 ずんだもん「Angular forms are the best!」

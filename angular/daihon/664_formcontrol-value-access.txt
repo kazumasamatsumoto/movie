@@ -5,4 +5,4 @@
 ずんだもん「リアルタイムで監視したいときは？」
 四国めたん「valueChangesを購読すると変化がObservableで流れてきます。」
 ずんだもん「購読解除を忘れないようにしなきゃ。」
-四国めたん「はい、takeUntilやAsyncPipeで確実に解除しましょう。」
+四国めたん「takeUntilやAsyncPipeで確実に解除しましょう。」

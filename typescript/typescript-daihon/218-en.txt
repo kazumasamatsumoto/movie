@@ -3,5 +3,5 @@
 四国めたん「Think of constant flags or configuration values that must remain true.」
 ずんだもん「Where do we apply it?」
 四国めたん「Whenever you want to lock a value that should never flip.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it keeps configuration values type-safe.」

@@ -3,5 +3,5 @@
 四国めたん「They're recommended guidelines and precautions for handling numbers.」
 ずんだもん「What do they cover?」
 四国めたん「Type safety, avoiding precision pitfalls, proper validation, and more.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it leads to stable applications.」

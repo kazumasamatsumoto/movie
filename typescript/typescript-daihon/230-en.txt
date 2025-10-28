@@ -3,5 +3,5 @@
 四国めたん「The `||` operator returns true when either operand is true.」
 ずんだもん「How do we use it?」
 四国めたん「Write expressions like `value1 || value2`.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it enables flexible fallback logic.」

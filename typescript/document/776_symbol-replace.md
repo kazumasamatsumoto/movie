@@ -2,7 +2,7 @@
 
 四国めたん「Symbol.replaceはString.prototype.replaceの処理を差し替えます。」
 ずんだもん「置換ロジックを独自に定義できるんだね。」
-四国めたん「はい、(text, replacement) => stringのシグネチャです。」
+四国めたん「(text, replacement) => stringのシグネチャです。」
 ずんだもん「テンプレートの変数展開を自力で実装する時に使えそうだよ。」
 四国めたん「正規表現以外の置換プラグインを作るときに役立ちます。」
 ずんだもん「Symbol.replaceで柔軟な文字列処理を実現しよう！」

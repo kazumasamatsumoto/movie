@@ -5,4 +5,4 @@
 ずんだもん「FormBuilderとかもここから提供されるんだね。」
 四国めたん「ええ、サービスも同じパッケージから提供されます。」
 ずんだもん「スタンドアロンでもモジュールでも書き方は似てる？」
-四国めたん「はい、imports配列にReactiveFormsModuleを追加するだけです。」
+四国めたん「imports配列にReactiveFormsModuleを追加するだけです。」

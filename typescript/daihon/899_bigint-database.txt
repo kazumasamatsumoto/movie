@@ -2,7 +2,7 @@
 
 四国めたん「データベースのbigint型とTypeScriptのBigIntを連携させましょう。」
 ずんだもん「PostgreSQLやMySQLのBIGINTは文字列で受け取るORMが多いよね。」
-四国めたん「はい、型変換をカスタムしてBigIntに戻す必要があります。」
+四国めたん「型変換をカスタムしてBigIntに戻す必要があります。」
 ずんだもん「PrismaやTypeORMではtransformerを定義すると楽だよ。」
 四国めたん「精度を保ったままシリアライザを通してAPIへ渡しましょう。」
 ずんだもん「DBとの橋渡しでもBigIntを活用してね！」

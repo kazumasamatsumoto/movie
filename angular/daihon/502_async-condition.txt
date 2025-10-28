@@ -3,4 +3,4 @@
 ずんだもん「非同期条件を扱うときの注意点は？」
 四国めたん「Observableをsubscribeして完了後にcreateEmbeddedView、エラーハンドリングも追加しましょう。」
 ずんだもん「キャンセルも考える？」
-四国めたん「はい、`takeUntilDestroyed`などでクリーンに解除します。」
+四国めたん「`takeUntilDestroyed`などでクリーンに解除します。」

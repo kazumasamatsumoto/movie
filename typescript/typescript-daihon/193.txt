@@ -4,7 +4,7 @@
 四国めたん「Nest.jsのDTOでnumber型を定義する方法です」
 ずんだもん「どうやって実装するの？」
 四国めたん「class-validatorとclass-transformerを使用します」
-ずんだもん「Angularの開発でも重要？」
-四国めたん「はい、APIの型安全性に重要です」
+
+四国めたん「APIの型安全性に重要です」
 ずんだもん「Nest.js DTOで最高だよ！」
 

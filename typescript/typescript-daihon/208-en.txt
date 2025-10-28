@@ -3,5 +3,5 @@
 四国めたん「It's when a boolean variable controls the loop's continuation condition.」
 ずんだもん「How is that written?」
 四国めたん「Write `while (flag) { ... }` so the loop runs while the flag is true.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it enables data-driven looping logic.」

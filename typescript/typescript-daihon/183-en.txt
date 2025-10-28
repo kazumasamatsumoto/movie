@@ -1,7 +1,0 @@
-四国めたん「Let's learn about epsilon comparison in TypeScript v5.9!」
-ずんだもん「What is an epsilon comparison?」
-四国めたん「It's a way to determine equality for floating-point numbers.」
-ずんだもん「How do we implement it?」
-四国めたん「Compare values within a tiny tolerance range instead of using strict equality.」
-ずんだもん「Is it important for Angular development too?」
-四国めたん「Absolutely—precise numeric comparisons rely on it.」

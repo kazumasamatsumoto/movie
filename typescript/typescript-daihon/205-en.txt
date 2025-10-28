@@ -3,5 +3,5 @@
 四国めたん「It's when TypeScript infers the boolean type without an explicit annotation.」
 ずんだもん「How do we leverage it?」
 四国めたん「Write `let flag = true` and omit the type annotation.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it keeps the code concise.」

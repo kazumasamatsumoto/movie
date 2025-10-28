@@ -3,5 +3,5 @@
 四国めたん「boolean accepts both true and false, while a literal type allows only a specific value.」
 ずんだもん「How does that affect us?」
 四国めたん「It changes how strict the type is and which values can be assigned.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—choose the right type for each scenario.」

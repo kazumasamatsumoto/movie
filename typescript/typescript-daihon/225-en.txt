@@ -1,5 +1,5 @@
 四国めたん「Let's summarize literal types in TypeScript v5.9!」
 ずんだもん「What does a literal type summary cover?」
 四国めたん「It highlights true/false literal types, inference rules, and practical use cases.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it reinforces the foundations of literal types.」

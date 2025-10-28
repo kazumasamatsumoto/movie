@@ -2,7 +2,7 @@
 
 四国めたん「Symbol.splitはString.prototype.splitをカスタマイズします。」
 ずんだもん「配列を返す関数を実装すればいいんだね。」
-四国めたん「はい、引数は( text: string, limit?: number )です。」
+四国めたん「引数は( text: string, limit?: number )です。」
 ずんだもん「YAML風の区切りとか特殊な分割ロジックに使えそうだよ。」
 四国めたん「正規表現以外の分割条件を作れるのが強みです。」
 ずんだもん「Symbol.splitで柔軟な文字列分解をしよう！」

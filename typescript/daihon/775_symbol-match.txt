@@ -2,7 +2,7 @@
 
 四国めたん「Symbol.matchはString.prototype.matchの挙動をオーバーライドします。」
 ずんだもん「RegExp以外のオブジェクトでもマッチ処理を提供できるんだね。」
-四国めたん「はい、戻り値は通常のmatch結果と同じ配列かnullです。」
+四国めたん「戻り値は通常のmatch結果と同じ配列かnullです。」
 ずんだもん「バリデータをラップするのに便利そうだよ。」
 四国めたん「TypeScriptでは(value: string) => RegExpMatchArray | nullという型になります。」
 ずんだもん「Symbol.matchで高度なパターンマッチを作ろう！」

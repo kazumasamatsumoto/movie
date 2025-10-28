@@ -2,7 +2,7 @@
 
 四国めたん「TypeScriptの型階層ではbigintはプリミティブ型の一つです。」
 ずんだもん「numberとは互換じゃないんだね。」
-四国めたん「はい、bigintはunknownとanyには代入できますがnumberには代入できません。」
+四国めたん「bigintはunknownとanyには代入できますがnumberには代入できません。」
 ずんだもん「neverはbigintのサブタイプとして扱えるよ。」
 四国めたん「Union型でbigint | numberを使う場合は変換ロジックが必要です。」
 ずんだもん「階層を知ってコンパイルエラーを防ごう！」

@@ -3,4 +3,4 @@
 ずんだもん「ロケールを切り替えたいときは？」
 四国めたん「`{ provide: LOCALE_ID, useValue: 'ja-JP' }`のようにアプリで設定するか、DatePipeに第四引数でロケールを渡します。」
 ずんだもん「多言語対応もできそうだね。」
-四国めたん「はい、`registerLocaleData`を呼んでから使います。」
+四国めたん「`registerLocaleData`を呼んでから使います。」

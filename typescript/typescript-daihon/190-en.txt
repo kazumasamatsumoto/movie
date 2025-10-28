@@ -3,5 +3,5 @@
 四国めたん「It gathers key points and important features for dealing with numbers.」
 ずんだもん「Which topics does it include?」
 四国めたん「IEEE 754, precision pitfalls, mitigation techniques, BigInt, and more.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it lays the foundation for reliable numeric processing.」

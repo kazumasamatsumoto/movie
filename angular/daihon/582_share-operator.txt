@@ -3,4 +3,4 @@
 ずんだもん「複数のAsyncPipeをどうしても書きたい場合は？」
 四国めたん「Observable側で`share()`や`shareReplay()`を使って購読を共有すれば、複数AsyncPipeでも1回の購読で済みます。」
 ずんだもん「RxJSの話だね。」
-四国めたん「はい、PipeとObservableの両方で最適化を考えましょう。」
+四国めたん「PipeとObservableの両方で最適化を考えましょう。」

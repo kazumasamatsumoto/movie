@@ -2,7 +2,7 @@
 
 # #281「null型とは」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // null型の基本
@@ -30,7 +30,7 @@ interface User {
 
 # #282「nullの宣言」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // null型の宣言
@@ -58,7 +58,7 @@ let items: string[] | null = null;
 
 # #283「nullの代入」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // nullの代入
@@ -87,7 +87,7 @@ interface Config {
 
 # #284「nullの使用例」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // データ検索とキャッシュ管理
@@ -122,7 +122,7 @@ class UserService {
 
 # #285「nullの型」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // null型とtypeof
@@ -148,7 +148,7 @@ type NonNull = NonNullable<Result>;
 
 # #286「nullとundefinedの違い」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // nullとundefinedの違い
@@ -176,7 +176,7 @@ const value2 = undefined ?? "default"; // "default"
 
 # #287「nullの使い分け」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // null: 明示的な空値
@@ -204,7 +204,7 @@ JSON.stringify({ value: undefined }); // {}
 
 # #288「nullチェック」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 厳密等価演算子と型ガード
@@ -232,7 +232,7 @@ const port = config.port ?? 3000;
 
 # #289「nullish演算子 - ??」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Nullish Coalescing
@@ -256,7 +256,7 @@ const zip = user?.address?.zipCode ?? "N/A";
 
 # #290「nullとfalseの違い」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型の違い
@@ -281,7 +281,7 @@ let flag: boolean | null = null;  // OK
 
 # #291「nullと0の違い」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型の違い
@@ -306,7 +306,7 @@ let num: number | null = null;  // OK
 
 # #292「nullと空文字列」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型の違い
@@ -331,7 +331,7 @@ let str: string | null = null;  // OK
 
 # #293「nullのJSON表現」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // nullのJSON表現
@@ -359,7 +359,7 @@ const data = JSON.parse('{"name":null}');
 
 # #294「nullのパターン」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Repository パターン
@@ -390,7 +390,7 @@ if (user !== null) {
 
 # #295「null型まとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // null型の基本
@@ -417,7 +417,7 @@ function findUser(id: number): User | null {
 
 # #296「undefined型とは」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // undefined型の基本
@@ -443,7 +443,7 @@ let id: number | undefined = undefined; // OK
 
 # #297「undefinedの宣言」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // undefined型の宣言
@@ -470,7 +470,7 @@ function greet(name?: string): void {
 
 # #298「undefinedの代入」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // undefinedの代入
@@ -497,7 +497,7 @@ const user: User = {
 
 # #299「初期化されていない変数」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 初期化されていない変数
@@ -523,7 +523,7 @@ if (value !== undefined) {
 
 # #300「関数の戻り値なし」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // void型: 戻り値を使わない
@@ -552,7 +552,7 @@ const result = noReturn(); // undefined
 
 # #301「存在しないプロパティ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 存在しないプロパティ
@@ -580,7 +580,7 @@ user.age;  // number | undefined
 
 # #302「存在しない配列要素」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 配列の範囲外アクセス
@@ -607,7 +607,7 @@ if (arr[10] !== undefined) {
 
 # #303「undefinedの型」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // undefined型
@@ -633,7 +633,7 @@ type NonUndef = NonNullable<Result>;
 
 # #304「undefinedチェック」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 厳密等価演算子と型ガード
@@ -661,7 +661,7 @@ const zip = user?.address?.zipCode;
 
 # #305「typeof undefined」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // typeof undefined
@@ -686,7 +686,7 @@ undeclaredVar === undefined; // ReferenceError
 
 # #306「undefinedとvoidの違い」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // void型: 戻り値を使わない
@@ -714,7 +714,7 @@ const result = noReturn(); // undefined (型はvoid)
 
 # #307「undefinedのJSON表現」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // undefinedのJSON表現
@@ -744,7 +744,7 @@ JSON.stringify({ name: "Alice" });
 
 # #308「undefinedの自動挿入」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // オプショナルパラメータ
@@ -776,7 +776,7 @@ const user: User = { name: "Alice" };
 
 # #309「undefinedのパターン」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Option型パターン
@@ -808,7 +808,7 @@ type PartialUser = Partial<User>;
 
 # #310「undefined型まとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // undefined型の基本
@@ -839,7 +839,7 @@ type Option<T> = T | undefined;
 
 # #311「strictNullChecksとは」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // strictNullChecks: false (無効)
@@ -866,7 +866,7 @@ let name: string | null = null; // OK
 
 # #312「無効時の挙動」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // strictNullChecks: false
@@ -895,7 +895,7 @@ const user: User = { name: null }; // OK
 
 # #313「有効時の挙動」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // strictNullChecks: true
@@ -925,7 +925,7 @@ interface User {
 
 # #314「設定方法 - tsconfig.json」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // tsconfig.json - 個別設定
@@ -955,7 +955,7 @@ tsc --showConfig
 
 # #315「有効にすべき理由」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // nullポインタ例外を防ぐ
@@ -985,7 +985,7 @@ process(null); // コンパイルエラー
 
 # #316「null代入エラー」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // strictNullChecks: true
@@ -1009,7 +1009,7 @@ let name: string = null!; // OK (型チェック回避)
 
 # #317「undefined代入エラー」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // strictNullChecks: true
@@ -1035,7 +1035,7 @@ function greet(name?: string) {}
 
 # #318「型安全性の向上」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型ガードで安全にアクセス
@@ -1064,7 +1064,7 @@ const name = user?.name; // string | undefined
 
 # #319「段階的導入」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ファイル単位で有効化
@@ -1092,7 +1092,7 @@ tsc --noEmit
 
 # #320「レガシーコード対応」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Non-Null Assertion (一時的)
@@ -1118,7 +1118,7 @@ function legacyFunc(value: any) {
 
 # #321「マイグレーション」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // マイグレーション手順
@@ -1151,7 +1151,7 @@ function getUser(id: number): User | null {
 
 # #322「サードパーティライブラリ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型定義ファイル作成
@@ -1181,7 +1181,7 @@ const data = getData() as string | null;
 
 # #323「デバッグ方法」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // エラーメッセージを読む
@@ -1207,7 +1207,7 @@ tsc --noEmit
 
 # #324「ベストプラクティス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ベストプラクティス1: 明示的な型定義
@@ -1233,7 +1233,7 @@ const port = config.port ?? 3000;
 
 # #325「strictNullChecksまとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 必須設定
@@ -1265,7 +1265,7 @@ if (user !== null) {
 
 # #326「nullable型とは - T | null」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // nullable型の基本
@@ -1293,7 +1293,7 @@ interface Config {
 
 # #327「nullable型の宣言」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 直接宣言
@@ -1320,7 +1320,7 @@ interface ApiResponse<T> {
 
 # #328「値の代入」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 値の代入
@@ -1346,7 +1346,7 @@ items = ["c", "d"]; // OK
 
 # #329「nullの代入」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // null代入
@@ -1374,7 +1374,7 @@ function logout() {
 
 # #330「nullableチェック」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 厳密等価演算子
@@ -1404,7 +1404,7 @@ const port = config ?? 3000;
 
 # #331「Optional Chaining - x?.property」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Optional Chaining
@@ -1428,7 +1428,7 @@ const result = obj?.method?.();
 
 # #332「Nullish Coalescing - x ?? default」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Nullish Coalescing
@@ -1452,7 +1452,7 @@ const age = user?.age ?? 18;
 
 # #333「nullable配列」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 要素がnullable
@@ -1477,7 +1477,7 @@ const userNames = users.map(u => u?.name ?? "Unknown");
 
 # #334「配列がnullable」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 配列がnullable
@@ -1502,7 +1502,7 @@ const first = items?.[0];
 
 # #335「nullableオブジェクト」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // nullableオブジェクト
@@ -1530,7 +1530,7 @@ if (user !== null) {
 
 # #336「関数引数のnullable」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // nullable引数
@@ -1563,7 +1563,7 @@ function log(message: string | null = null) {
 
 # #337「関数戻り値のnullable」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // nullable戻り値
@@ -1591,7 +1591,7 @@ const name = findUser(1)?.name ?? "Unknown";
 
 # #338「nullable型の型ガード」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型ガード関数
@@ -1618,7 +1618,7 @@ const validUsers: User[] = users.filter(isNotNull);
 
 # #339「ベストプラクティス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ベストプラクティス1: 型エイリアス
@@ -1645,7 +1645,7 @@ const city = user?.address?.city;
 
 # #340「nullable型まとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // nullable型の基本
@@ -1675,7 +1675,7 @@ const names = validUsers.map(u => u.name);
 
 # #341「undefinedable型 - T | undefined」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // undefinedable型の基本
@@ -1707,7 +1707,7 @@ interface User {
 
 # #342「undefinedable型の宣言」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 基本的な宣言
@@ -1736,7 +1736,7 @@ interface Config {
 
 # #343「オプショナルプロパティ - prop?」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // オプショナルプロパティの基本
@@ -1766,7 +1766,7 @@ type Config = {
 
 # #344「オプショナルプロパティの型」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // オプショナルとundefinedableの等価性
@@ -1796,7 +1796,7 @@ const doubled = user.age ? user.age * 2 : 0;
 
 # #345「オプショナル引数」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // オプショナル引数の基本
@@ -1826,7 +1826,7 @@ function createUser(name: string, role: string = "user") {
 
 # #346「オプショナル引数の型」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // オプショナル引数とundefinedable
@@ -1857,7 +1857,7 @@ function process(data: number, options?: { verbose: boolean }) {
 
 # #347「undefinedableチェック」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 基本的なチェック
@@ -1885,7 +1885,7 @@ const upper = value?.toUpperCase();
 
 # #348「Optional Chainingの活用」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // プロパティアクセス
@@ -1910,7 +1910,7 @@ const phone = user?.contact?.phone?.trim();
 
 # #349「ベストプラクティス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ベストプラクティス1: オプショナルの活用
@@ -1938,7 +1938,7 @@ const result = data?.process()?.value ?? defaultValue;
 
 # #350「undefinedable型まとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // undefinedable型の基本
@@ -1970,7 +1970,7 @@ const config: Config = {
 
 # #351「nullish型 - T | null | undefined」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // nullish型の基本
@@ -2003,7 +2003,7 @@ function findUser(id: number): User | null | undefined {
 
 # #352「nullish型の宣言」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 基本的な宣言
@@ -2032,7 +2032,7 @@ interface ApiResponse {
 
 # #353「nullish型の使用例」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // APIレスポンスの型定義
@@ -2067,7 +2067,7 @@ interface FormData {
 
 # #354「nullishチェック - x != null」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // nullishチェックの基本
@@ -2101,7 +2101,7 @@ if (data != null) {
 
 # #355「Nullish Coalescing - ??」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Nullish Coalescingの基本
@@ -2131,7 +2131,7 @@ const config = {
 
 # #356「??と||の違い」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ?? と || の違い
@@ -2160,7 +2160,7 @@ const verbose = options.verbose ?? false;
 
 # #357「??の使用例」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 設定値のデフォルト処理
@@ -2193,7 +2193,7 @@ function createUser(name: string, age?: number | null) {
 
 # #358「Optional Chaining - ?.」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // プロパティアクセス
@@ -2219,7 +2219,7 @@ const phone = user?.contacts?.[0]?.phone;
 
 # #359「?.の使用例」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // APIレスポンスの処理
@@ -2245,7 +2245,7 @@ const rating = reviews?.[0]?.rating?.average?.toFixed(1);
 
 # #360「nullish型まとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // nullish型の基本
@@ -2275,7 +2275,7 @@ const config = {
 
 # #361「Non-null Assertionとは - !」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Non-null Assertionの基本
@@ -2303,7 +2303,7 @@ const length = value!.length;  // stringとして扱う
 
 # #362「!演算子の構文」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 変数での使用
@@ -2328,7 +2328,7 @@ const data = array.find(x => x.id === 1)!;
 
 # #363「!演算子の意味」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型の変換
@@ -2355,7 +2355,7 @@ const doubled = data! * 2;  // number型として扱う
 
 # #364「!演算子の危険性」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 危険な使用例
@@ -2381,7 +2381,7 @@ if (element !== null) {
 
 # #365「代替手段」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型ガードを使う
@@ -2410,7 +2410,7 @@ const validUsers = users.filter(isNotNull);
 
 # #366「間違い(1) - 混同」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 混同しやすい例
@@ -2440,7 +2440,7 @@ if (!user) {  // truthyチェック
 
 # #367「間違い(2) - チェック漏れ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // チェック漏れの例
@@ -2475,7 +2475,7 @@ function processUser(id: number) {
 
 # #368「間違い(3) - !演算子乱用」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 乱用の例 (悪い例)
@@ -2507,7 +2507,7 @@ if (response.data?.users) {
 
 # #369「ベストプラクティス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ベストプラクティス1: 型ガードを優先
@@ -2534,7 +2534,7 @@ ReactDOM.render(<App />, rootElement);
 
 # #370「マスターチェック」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Non-null Assertionの基本
@@ -2561,7 +2561,7 @@ const data = response.data!.items!;  // 乱用
 
 # #371「void型とは」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // void型の基本
@@ -2592,7 +2592,7 @@ function addEventListener(callback: () => void): void {
 
 # #372「使用場面」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ログ出力
@@ -2620,7 +2620,7 @@ async function saveData(data: Data): Promise<void> {
 
 # #373「void型の宣言」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 関数宣言
@@ -2647,7 +2647,7 @@ const handler: Callback = (data) => console.log(data);
 
 # #374「void型を返す関数」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // return文なし
@@ -2676,7 +2676,7 @@ function log3(msg: string): void {
 
 # #375「return文」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 早期リターン
@@ -2706,7 +2706,7 @@ function allowed(): void {
 
 # #376「undefinedとの違い」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // void: 戻り値を無視
@@ -2734,7 +2734,7 @@ type Finder = (id: number) => Item | undefined;  // 検索
 
 # #377「void型変数」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // void型変数 (実用性は低い)
@@ -2762,7 +2762,7 @@ callbacks.push(() => console.log("Done"));
 
 # #378「変数への代入」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 代入可能な値
@@ -2790,7 +2790,7 @@ const result: void = doSomething();  // undefined
 
 # #379「void型の意味」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 副作用のための関数
@@ -2824,7 +2824,7 @@ element.addEventListener("click", (e): void => {
 
 # #380「設計思想」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 純粋関数: 値を返す
@@ -2853,7 +2853,7 @@ interface DataService {
 
 # #381「型推論」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型推論されるvoid
@@ -2882,7 +2882,7 @@ const handler = (e: Event) => {
 
 # #382「明示的宣言」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 明示的宣言が推奨される場面
@@ -2915,7 +2915,7 @@ const logError = (err: Error) => {
 
 # #383「ユースケース」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // イベントハンドラ
@@ -2944,7 +2944,7 @@ type Middleware = (
 
 # #384「Promise<void>」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Promise<void>の基本
@@ -2975,7 +2975,7 @@ async function processAll(items: Item[]): Promise<void> {
 
 # #385「基本まとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // void型の基本
@@ -3003,7 +3003,7 @@ const handler: Callback = (data) => {
 
 # #386「戻り値なし関数」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 戻り値なし関数
@@ -3032,7 +3032,7 @@ function updateCounter(): void {
 
 # #387「console.logの戻り値」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // console.logの型定義
@@ -3060,7 +3060,7 @@ function process(data: Data): void {
 
 # #388「return undefined」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // return undefined は許可される
@@ -3094,7 +3094,7 @@ function validate(value: string): void {
 
 # #389「明示的return」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 早期リターン
@@ -3124,7 +3124,7 @@ function invalid(): void {
 
 # #390「エラーハンドリング」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // throw文の使用
@@ -3161,7 +3161,7 @@ function process(data: Data | null): void {
 
 # #391「throw文」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // throw文はvoid関数で使用可能
@@ -3195,7 +3195,7 @@ function process(): void {
 
 # #392「コールバック関数」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // コールバック関数の型定義
@@ -3224,7 +3224,7 @@ button.addEventListener("click", (e: Event): void => {
 
 # #393「イベントハンドラ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // DOM イベントハンドラ
@@ -3255,7 +3255,7 @@ const handleClick = (e: React.MouseEvent): void => {
 
 # #394「forEach()の戻り値」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // forEach()の型定義
@@ -3282,7 +3282,7 @@ items.forEach(x => console.log(x * 2));  // void、何も返さない
 
 # #395「メソッド定義」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // オブジェクトリテラルのメソッド
@@ -3317,7 +3317,7 @@ type Logger = {
 
 # #396「クラスメソッド」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // クラスメソッド
@@ -3360,7 +3360,7 @@ class EventEmitter {
 
 # #397「インターフェースのメソッド」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // インターフェースでのvoid
@@ -3395,7 +3395,7 @@ interface EventListener {
 
 # #398「オーバーロード」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // オーバーロードでvoid
@@ -3433,7 +3433,7 @@ function forEach(startOrCb: any, callback?: any): void {
 
 # #399「アロー関数」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // アロー関数でのvoid
@@ -3462,7 +3462,7 @@ items.forEach((item): void => {
 
 # #400「関数まとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 基本的な使い方
@@ -3495,7 +3495,7 @@ type Callback = (result: string) => void;
 
 # #401「概念的違い」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // void: 戻り値を無視
@@ -3523,7 +3523,7 @@ type Finder = () => Item | undefined;  // 検索結果
 
 # #402「voidは「値を気にしない」」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // void: 値を気にしない
@@ -3553,7 +3553,7 @@ const handler: Callback = (data) => {
 
 # #403「undefinedは「未定義の値」」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // undefined: 未定義の値
@@ -3584,7 +3584,7 @@ console.log(config.timeout);  // undefined
 
 # #404「変数にundefined代入」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // void型変数へのundefined代入
@@ -3613,7 +3613,7 @@ const result: void = doSomething();  // undefined
 
 # #405「undefined型の変数に代入」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // undefined型変数
@@ -3644,7 +3644,7 @@ function getValue(): string | undefined {
 
 # #406「実際の戻り値」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型はvoid、実行時はundefined
@@ -3674,7 +3674,7 @@ function f1() { }  // undefinedを返す
 
 # #407「戻り値型がundefined」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // undefined戻り値型
@@ -3709,7 +3709,7 @@ function undefFunc(): undefined {
 
 # #408「strictNullChecks」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // strictNullChecks: true
@@ -3743,7 +3743,7 @@ function f2(): undefined {
 
 # #409「互換性」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // voidにはundefinedを代入可能
@@ -3774,7 +3774,7 @@ const f2: () => undefined = (): void => {};  // エラー (場合による)
 
 # #410「戻り値を使用」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // void戻り値は使用できない
@@ -3804,7 +3804,7 @@ console.log(value);  // undefined (実行時)
 
 # #411「undefined戻り値使用」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // undefined戻り値は使用可能
@@ -3831,7 +3831,7 @@ const email = findUser(3)?.email;
 
 # #412「使い分け」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // void: 副作用のための関数
@@ -3862,7 +3862,7 @@ interface UserService {
 
 # #413「パフォーマンス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // TypeScript
@@ -3895,7 +3895,7 @@ console.log(undefFunc());   // undefined
 
 # #414「コンパイル結果」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // TypeScript
@@ -3927,7 +3927,7 @@ function f2() {
 
 # #415「比較まとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // void: 戻り値を無視
@@ -3955,7 +3955,7 @@ console.log(findItem(1));         // Item | undefined
 
 # #416「Promise<void>とは」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Promise<void>の基本
@@ -3986,7 +3986,7 @@ async function main(): Promise<void> {
 
 # #417「async関数のvoid型」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 正しい書き方
@@ -4015,7 +4015,7 @@ async function load() {
 
 # #418「return文なし」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // return文なし
@@ -4045,7 +4045,7 @@ async function log(msg: string): Promise<void> {
 
 # #419「使用例」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // データ保存
@@ -4078,7 +4078,7 @@ async function cleanup(): Promise<void> {
 
 # #420「then() - 引数なし」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // then()で完了を待つ
@@ -4108,7 +4108,7 @@ async function main() {
 
 # #421「await」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // awaitで完了を待つ
@@ -4140,7 +4140,7 @@ async function sequence(): Promise<void> {
 
 # #422「await式の型」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // await式の型
@@ -4170,7 +4170,7 @@ async function invalid(): Promise<void> {
 
 # #423「Promise<void>の連鎖」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Promise<void>の連鎖
@@ -4200,7 +4200,7 @@ const promise: Promise<void> = initialize()
 
 # #424「エラーハンドリング」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // try-catchでエラーハンドリング
@@ -4240,7 +4240,7 @@ async function withCleanup(): Promise<void> {
 
 # #425「finally()」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // finally()メソッド
@@ -4281,7 +4281,7 @@ async function loadData(): Promise<void> {
 
 # #426「並行実行」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Promise.all()で並行実行
@@ -4321,7 +4321,7 @@ async function processWithError(): Promise<void> {
 
 # #427「Promise.all()」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Promise.all()の戻り値型
@@ -4365,7 +4365,7 @@ async function timeout(): Promise<void> {
 
 # #428「実践例」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // API呼び出し
@@ -4402,7 +4402,7 @@ async function initializeApp(): Promise<void> {
 
 # #429「ベストプラクティス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ベストプラクティス1: 明示的な型宣言
@@ -4436,7 +4436,7 @@ async function processAll(items: Item[]): Promise<void> {
 
 # #430「非同期voidまとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Promise<void>の基本
@@ -4466,7 +4466,7 @@ async function processAll(): Promise<void> {
 
 # #431「ジェネリクスのvoid型」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ジェネリクスでvoid型
@@ -4495,7 +4495,7 @@ const userHandler: Handler<User> = (user) => {
 
 # #432「デフォルト型パラメータ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // デフォルト型パラメータ
@@ -4525,7 +4525,7 @@ const logger: Handler = () => {
 
 # #433「Callback<void>」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Callback型の定義
@@ -4556,7 +4556,7 @@ const saveCallback: AsyncCallback<User> = async (user) => {
 
 # #434「条件付き型」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 条件付き型でvoid判定
@@ -4586,7 +4586,7 @@ async function fetch1(): AsyncResult<void> {
 
 # #435「Mapped Types」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // すべてのメソッドをvoidにする
@@ -4618,7 +4618,7 @@ type UserHandlers = ToHandlers<User>;
 
 # #436「Utility Types」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ReturnTypeでvoid抽出
@@ -4648,7 +4648,7 @@ const events: EventMap = {
 
 # #437「型推論」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型推論でvoid
@@ -4679,7 +4679,7 @@ const result2 = execute<void>(() => {
 
 # #438「エッジケース」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // コールバックのvoidは柔軟
@@ -4707,7 +4707,7 @@ function log(): void {
 
 # #439「実例」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // イベントエミッター
@@ -4742,7 +4742,7 @@ voidEmitter.emit();
 
 # #440「ジェネリクスまとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 基本的なジェネリクス
@@ -4773,7 +4773,7 @@ class EventEmitter<T = void> {
 
 # #441「Angularイベントハンドラ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Angularコンポーネント
@@ -4813,7 +4813,7 @@ onInput(event: Event): void {
 
 # #442「(click)="onClick()"」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 基本的なクリックハンドラ
@@ -4856,7 +4856,7 @@ export class UserListComponent {
 
 # #443「Observableとvoid型」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Observable<void>の基本
@@ -4896,7 +4896,7 @@ data$.pipe(
 
 # #444「Observable<void>」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Subject<void>の作成
@@ -4933,7 +4933,7 @@ operation$.pipe(
 
 # #445「RxJSオペレータ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // tap()オペレータ
@@ -4972,7 +4972,7 @@ users$.forEach((user): void => {
 
 # #446「Nest.jsコントローラ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Nest.jsコントローラ
@@ -5013,7 +5013,7 @@ async update(@Param('id') id: string, @Body() dto: UpdateDto): Promise<void> {
 
 # #447「ミドルウェア」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Nest.jsミドルウェア
@@ -5056,7 +5056,7 @@ export class CorsMiddleware implements NestMiddleware {
 
 # #448「API設計」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // DELETE API
@@ -5098,7 +5098,7 @@ export class BatchController {
 
 # #449「レスポンス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 204 No Content (推奨)
@@ -5131,7 +5131,7 @@ async update(@Param('id') id: string, @Body() dto: UpdateDto): Promise<void> {
 
 # #450「ベストプラクティス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Angularコンポーネント
@@ -5168,7 +5168,7 @@ ngOnDestroy(): void {
 
 # #451「間違い(1) - 戻り値使用」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 間違い: void戻り値を使用
@@ -5199,7 +5199,7 @@ console.log("Done");
 
 # #452「間違い(2) - undefined混同」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 間違い: voidとundefinedを混同
@@ -5232,7 +5232,7 @@ logMessage("Hello");  // 戻り値を使わない
 
 # #453「間違い(3) - return値」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 間違い: void関数で値を返す
@@ -5267,7 +5267,7 @@ function process(data: string): void {
 
 # #454「デバッグ(1)」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // デバッグログの追加
@@ -5313,7 +5313,7 @@ function save(data: Data): void {
 
 # #455「デバッグ(2)」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // スパイ関数でのテスト
@@ -5354,7 +5354,7 @@ expect(mockLogger.log).toHaveBeenCalledWith('Processing');
 
 # #456「リファクタリング」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // リファクタリング前: 大きな関数
@@ -5395,7 +5395,7 @@ function logUserActivity(user: User): void {
 
 # #457「テスト」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 状態変化のテスト
@@ -5432,7 +5432,7 @@ test('validate throws error for invalid data', () => {
 
 # #458「ドキュメント」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 /**
@@ -5476,7 +5476,7 @@ function addEventListener(event: string, handler: () => void): void {
 
 # #459「ベストプラクティス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ベストプラクティス1: 明示的な型宣言
@@ -5512,7 +5512,7 @@ function processUser(user: User): void {
 
 # #460「マスターチェック」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 基本的な使い方
@@ -5546,7 +5546,7 @@ class UserComponent {
 
 # #461「never型とは」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // never型の基本
@@ -5580,7 +5580,7 @@ function neverFunc(): never {
 
 # #462「never型の意味」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 例外を投げる: 制御が戻らない
@@ -5614,7 +5614,7 @@ function process(value: string | number): string {
 
 # #463「例外を投げる関数」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 例外を投げる関数
@@ -5646,7 +5646,7 @@ function divide(a: number, b: number): number {
 
 # #464「無限ループ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 無限ループ
@@ -5681,7 +5681,7 @@ function eventLoop(): never {
 
 # #465「never型の宣言」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 関数での宣言
@@ -5708,7 +5708,7 @@ function fail(msg: string) {
 
 # #466「関数の実装」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 正しい実装: throw文
@@ -5738,7 +5738,7 @@ function invalid(): never {
 
 # #467「return文 - 到達しない」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 到達不可能なreturn文
@@ -5770,7 +5770,7 @@ function abort(message: string): never {
 
 # #468「変数宣言」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // never型変数の宣言
@@ -5796,7 +5796,7 @@ type Numbers = Exclude<string | number, string>;  // number
 
 # #469「何も代入できない」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 何も代入できない
@@ -5833,7 +5833,7 @@ function check(value: string | number): string {
 
 # #470「void型との違い」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // void: 正常終了、制御が戻る
@@ -5868,7 +5868,7 @@ function fail(): void {
 
 # #471「型階層」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // neverはすべての型に代入可能
@@ -5898,7 +5898,7 @@ type Empty = never | never;    // never
 
 # #472「特殊な性質」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ユニオン型での吸収
@@ -5931,7 +5931,7 @@ function getColor(color: Color): string {
 
 # #473「型推論」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型推論でnever
@@ -5965,7 +5965,7 @@ function process(value: string | number) {
 
 # #474「ユースケース」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 網羅性チェック
@@ -6002,7 +6002,7 @@ type NonNullable<T> = T extends null | undefined ? never : T;
 
 # #475「基本まとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 例外を投げる
@@ -6032,7 +6032,7 @@ function neverFunc(): never {
 
 # #476「throw文を含む関数」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // never型: 必ずthrow
@@ -6065,7 +6065,7 @@ function validate(value: unknown): never {
 
 # #477「型注釈」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 明示的な型注釈 (推奨)
@@ -6093,7 +6093,7 @@ export function assertNever(value: never): never {
 
 # #478「Error型」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Error型の基本
@@ -6126,7 +6126,7 @@ function validate(data: unknown): never {
 
 # #479「カスタムエラー」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // カスタムエラーの定義
@@ -6163,7 +6163,7 @@ function findUser(id: string): never {
 
 # #480「assertNever関数」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // assertNever関数の定義
@@ -6208,7 +6208,7 @@ function getColor(color: Color): string {
 
 # #481「使用例」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // バリデーション
@@ -6244,7 +6244,7 @@ function handleError(error: unknown): never {
 
 # #482「型安全なエラーハンドリング」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型安全なエラー処理
@@ -6288,7 +6288,7 @@ function ensure<T>(value: T | null, message: string): T {
 
 # #483「try-catch」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // never型関数のtry-catch
@@ -6336,7 +6336,7 @@ try {
 
 # #484「スタックトレース」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // スタックトレースの表示
@@ -6377,7 +6377,7 @@ try {
 
 # #485「デバッグ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // デバッグログ付きエラー関数
@@ -6414,7 +6414,7 @@ function throwError(message: string): never {
 
 # #486「エラー関数設計」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 良い設計: 明確な名前とメッセージ
@@ -6453,7 +6453,7 @@ function validateUser(user: unknown): void {
 
 # #487「パターン」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // パターン1: 網羅性チェック
@@ -6490,7 +6490,7 @@ function notImplemented(feature: string): never {
 
 # #488「エラーバウンダリ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // エラーバウンダリの基本
@@ -6535,7 +6535,7 @@ class ErrorBoundary extends React.Component {
 
 # #489「ベストプラクティス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ベストプラクティス1: 明示的な型宣言
@@ -6579,7 +6579,7 @@ function handleStatus(status: Status): void {
 
 # #490「例外まとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 例外を投げる関数
@@ -6621,7 +6621,7 @@ try {
 
 # #491「無限ループ関数」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 無限ループ関数
@@ -6659,7 +6659,7 @@ function eventLoop(): never {
 
 # #492「while(true)」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // while(true)の基本
@@ -6700,7 +6700,7 @@ function monitor(): never {
 
 # #493「型注釈」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 明示的な型注釈 (推奨)
@@ -6735,7 +6735,7 @@ export function runEventLoop(): never {
 
 # #494「使用例」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // WebSocketサーバー
@@ -6779,7 +6779,7 @@ function watchFiles(): never {
 
 # #495「イベントループ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // イベントループの基本
@@ -6821,7 +6821,7 @@ function priorityLoop(): never {
 
 # #496「サーバープロセス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // HTTPサーバーのメインループ
@@ -6864,7 +6864,7 @@ function workerProcess(): never {
 
 # #497「型推論」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // never型と推論される
@@ -6904,7 +6904,7 @@ function loop3(forever: boolean) {
 
 # #498「リスク」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 悪い例: CPU を占有
@@ -6939,7 +6939,7 @@ async function asyncLoop(): never {
 
 # #499「ベストプラクティス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ベストプラクティス1: 明示的な型と待機
@@ -6982,7 +6982,7 @@ process.on('SIGTERM', () => { shouldRun = false; });
 
 # #500「無限ループまとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 基本的な無限ループ
@@ -7022,7 +7022,7 @@ function safeLoop(): never {
 
 # #501「網羅性チェックとは」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 網羅性チェックの基本
@@ -7076,7 +7076,7 @@ function getHex(color: Color): string {
 
 # #502「switch文の網羅性」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // switch文の網羅性チェック
@@ -7132,7 +7132,7 @@ function handle(status: Status): void {
 
 # #503「exhaustive check関数」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // exhaustive check関数の定義
@@ -7168,7 +7168,7 @@ function exhaustiveCheck(value: never, message?: string): never {
 
 # #504「Union型の網羅性」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Union型の網羅性チェック
@@ -7220,7 +7220,7 @@ function move(direction: Direction): void {
 
 # #505「判別Union型」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 判別Union型
@@ -7284,7 +7284,7 @@ function handleEvent(event: Event): void {
 
 # #506 「if-else文の網羅性」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 type Status = 'pending' | 'success' | 'error';
@@ -7317,7 +7317,7 @@ function handle(status: Status) {
 
 # #507 「到達不可能コード検出」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 function process(value: string | number) {
@@ -7355,7 +7355,7 @@ function example() {
 
 # #508 「never型での型エラー」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 type Action = 'create' | 'update' | 'delete';
@@ -7392,7 +7392,7 @@ function handleAll(action: Action) {
 
 # #509 「実践例(1)」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 type Action =
@@ -7424,7 +7424,7 @@ type Action =
 
 # #510 「実践例(2)」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 type DomainEvent =
@@ -7465,7 +7465,7 @@ function process<T>(res: ApiResponse<T>) {
 
 # #511 「型ガード」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 type Shape =
@@ -7504,7 +7504,7 @@ function process(shape: Shape) {
 
 # #512 「型の絞り込み」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 type Response =
@@ -7543,7 +7543,7 @@ function process(value: string | number | boolean) {
 
 # #513 「else節」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 type State = 'idle' | 'loading' | 'success' | 'error';
@@ -7590,7 +7590,7 @@ function getLabel(state: State): string {
 
 # #514 「default節」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 type Direction = 'north' | 'south' | 'east' | 'west';
@@ -7641,7 +7641,7 @@ function move(dir: Direction) {
 
 # #515 「コンパイラ最適化」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // コンパイラが最適化可能
@@ -7689,7 +7689,7 @@ function not(b: Bool): boolean {
 
 # #516 「静的解析」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 静的解析による網羅性検証
@@ -7729,7 +7729,7 @@ function greet(user: User): string {
 
 # #517 「型安全性向上」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型安全なステートマシン
@@ -7780,7 +7780,7 @@ function navigate(route: Route): void {
 
 # #518 「ベストプラクティス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ヘルパー関数の定義
@@ -7824,7 +7824,7 @@ function execute(action: Action): void {
 
 # #519 「パターン集」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Reducerパターン
@@ -7883,7 +7883,7 @@ function getLabel(state: ConnectionState): string {
 
 # #520 「網羅性まとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 網羅性チェックの基本形
@@ -7938,7 +7938,7 @@ class EventHandler {
 
 # #521 「Union型 - 消える」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Union型でnever型は消える
@@ -7971,7 +7971,7 @@ type Complex =
 
 # #522 「string | never = string」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 基本的な等式
@@ -8009,7 +8009,7 @@ type B = ReturnTypeFilter<() => void>;    // never
 
 # #523 「Intersection型」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Intersection型の基本
@@ -8043,7 +8043,7 @@ type InvalidRole = User & { role: 'guest' };
 
 # #524 「string & never = never」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 基本的な等式
@@ -8079,7 +8079,7 @@ type Keys = Extract<'a' | 'b' | 'c', 'a' | 'b'>;
 
 # #525 「分配法則」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 分配法則の基本
@@ -8115,7 +8115,7 @@ type Result2 = ToArray<string | number>;
 
 # #526 「条件付き型」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 条件付き型の基本
@@ -8153,7 +8153,7 @@ type Methods = FunctionKeys<{
 
 # #527 「フィルタリング」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 文字列型のフィルタリング
@@ -8188,7 +8188,7 @@ type Clean = NonNullable<string | null | number | undefined>;
 
 # #528 「Exclude<T, never>」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Exclude<T, never>の挙動
@@ -8221,7 +8221,7 @@ type Filtered = RemoveNever<Original>;    // string | number
 
 # #529 「Mapped Types」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Mapped Typesの基本
@@ -8265,7 +8265,7 @@ type Clean = OmitMethods<{
 
 # #530 「Key Remapping」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Key Remappingの基本
@@ -8310,7 +8310,7 @@ type Clean = RemovePrefix<{
 
 # #531 「型レベルプログラミング」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型レベルの条件分岐
@@ -8349,7 +8349,7 @@ type Clean = FilterNever<[string, never, number, never]>;
 
 # #532 「型演算パターン」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // フィルタリングパターン
@@ -8387,7 +8387,7 @@ type C = Match<object>;   // 'Unknown'
 
 # #533 「型変換」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Union型からの除外
@@ -8429,7 +8429,7 @@ type Clean = DeepOmit<{
 
 # #534 「型推論の関係」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 制御フロー分析による推論
@@ -8471,7 +8471,7 @@ type B = InferReturnType<string>;        // never
 
 # #535 「型演算まとめ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 型演算の基本法則
@@ -8509,7 +8509,7 @@ type Result<T, E> =
 
 # #536 「Angularガード」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Angular Guard with never型
@@ -8554,7 +8554,7 @@ function checkAccess(role: string): RedirectResult {
 
 # #537 「ルートガード」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ルート状態の型定義
@@ -8604,7 +8604,7 @@ export const authGuard: CanActivateFn = (route, state) => {
 
 # #538 「Nest.js例外フィルタ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 例外タイプの定義
@@ -8657,7 +8657,7 @@ function handleException(ex: DomainException): HttpException {
 
 # #539 「ミドルウェア」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ミドルウェアでのリクエストタイプ処理
@@ -8707,7 +8707,7 @@ function logRequest(level: LogLevel, message: string) {
 
 # #540 「API設計」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // API レスポンス型
@@ -8760,7 +8760,7 @@ function executeGql(op: GqlOperation): Promise<any> {
 
 # #541 「型安全なエラーハンドリング」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // Result型の定義
@@ -8815,7 +8815,7 @@ function handleError(error: AppError): string {
 
 # #542 「DTOバリデーション」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // バリデーション結果型
@@ -8870,7 +8870,7 @@ function applyRule(rule: ValidationRule, value: any): boolean {
 
 # #543 「レスポンス型」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 標準レスポンス型
@@ -8927,7 +8927,7 @@ function handle<T>(res: HttpResponse<T>): T | null {
 
 # #544 「実践パターン」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // NgRx Reducerパターン
@@ -8977,7 +8977,7 @@ async function executeService<T>(result: ServiceResult<T>): Promise<T> {
 
 # #545 「ベストプラクティス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 共通型定義（shared/types.ts）
@@ -9030,7 +9030,7 @@ export class UserController {
 
 # #546 「間違い(1) - void混同」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // void型：正常終了する
@@ -9072,7 +9072,7 @@ const d: never = undefined; // エラー！
 
 # #547 「間違い(2) - 到達可能コード」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // 間違い：never型の後にコード
@@ -9118,7 +9118,7 @@ function process(v: Value): string {
 
 # #548 「デバッグ」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // デバッグ手順1: 型エラーを確認
@@ -9161,7 +9161,7 @@ function process(action: Action): string {
 
 # #549 「ベストプラクティス」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // ベストプラクティス1: 共通ヘルパー
@@ -9209,7 +9209,7 @@ function handleEvent(event: DomainEvent): void {
 
 # #550 「マスターチェック」
 
-## 📺 画面表示用コード
+ 
 
 ```typescript
 // never型の基本法則

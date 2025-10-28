@@ -3,5 +3,5 @@
 ずんだもん「新しい@if/@for/@switch構文の書き味はどう？」
 四国めたん「`@if (condition) { ... } @else { ... }`のようにTypeScriptに近い記法で書けます。」
 ずんだもん「@forはtrack句が標準で入ったんだよね？」
-四国めたん「はい、`@for (item of items; track item.id)`で簡潔に最適化できます。」
+四国めたん「`@for (item of items; track item.id)`で簡潔に最適化できます。」
 ずんだもん「テンプレートがかなり読みやすくなるよ！」

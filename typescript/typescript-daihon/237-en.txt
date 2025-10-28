@@ -3,5 +3,5 @@
 四国めたん「`!!` turns truthy values into true and falsy values into false.」
 ずんだもん「How does the conversion happen?」
 四国めたん「The first `!` flips the truthiness; the second `!` flips it back as a boolean.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it ensures safe boolean conversions.」

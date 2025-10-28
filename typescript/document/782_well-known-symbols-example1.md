@@ -2,7 +2,7 @@
 
 四国めたん「Well-known Symbolsを組み合わせたコレクション例を見ましょう。」
 ずんだもん「iteratorとtoStringTagを実装してデバッグしやすくするんだね。」
-四国めたん「はい、Iterableにすればfor...ofで扱えます。」
+四国めたん「Iterableにすればfor...ofで扱えます。」
 ずんだもん「toStringTagがあればログが読みやすくなるよ。」
 四国めたん「specifies speciesを使えば戻り型も調整できます。」
 ずんだもん「カスタムコレクションのテンプレートになるね。」

@@ -3,6 +3,6 @@
 四国めたん「It's how we declare number fields in Nest.js data transfer objects.」
 ずんだもん「How do we implement it?」
 四国めたん「Combine class-validator with class-transformer decorators.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it keeps API contracts type-safe.」
 ずんだもん「Nest.js DTOs are the best!」

@@ -5,6 +5,6 @@
 ずんだもん「どんな値がfalsy？」
 四国めたん「false、0、空文字列、null、undefined、NaNの6つです」
 ずんだもん「if文でチェックできる？」
-四国めたん「はい、if (!value)でfalsyかチェックできます」
+四国めたん「if (!value)でfalsyかチェックできます」
 ずんだもん「falsy値を覚えておくのが大事だね！」
 

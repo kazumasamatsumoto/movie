@@ -3,5 +3,5 @@
 四国めたん「It's how the `||` operator determines the result type.」
 ずんだもん「How does the inference work?」
 四国めたん「If the left side is truthy, its type is returned; if it's falsy, the right-hand type is used.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it strengthens type safety in fallback logic.」

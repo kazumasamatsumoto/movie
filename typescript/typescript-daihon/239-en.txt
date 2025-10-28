@@ -3,5 +3,5 @@
 四国めたん「It means mixing multiple logical operators in a single expression.」
 ずんだもん「How do we combine them safely?」
 四国めたん「Use parentheses to control precedence and craft complex conditions.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it supports intricate branching logic.」

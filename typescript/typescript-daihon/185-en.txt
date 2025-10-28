@@ -3,5 +3,4 @@
 四国めたん「Avoid floating-point precision issues by following specific guidelines.」
 ずんだもん「What kind of guidelines?」
 四国めたん「Use integer arithmetic, rely on dedicated libraries, and apply proper rounding.」
-ずんだもん「Is this important for Angular development too?」
 四国めたん「Absolutely—accurate financial calculations depend on it.」

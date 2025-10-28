@@ -3,4 +3,4 @@
 ずんだもん「Angular DevToolsでDirectiveは確認できる？」
 四国めたん「ElementsパネルでDirective一覧が表示され、HostBindingの値も確認できます。」
 ずんだもん「リアクティブな変化も見られる？」
-四国めたん「はい、SignalsやInputの値も追跡しやすいです。」
+四国めたん「SignalsやInputの値も追跡しやすいです。」

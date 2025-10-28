@@ -2,7 +2,7 @@
 
 四国めたん「reduceの型定義もlib.d.tsで複数のオーバーロードが用意されています。」
 ずんだもん「初期値ありと初期値なしでジェネリックが変わるんだね。」
-四国めたん「はい、初期値ありは<U>(callback: (acc: U, value: T, index: number, array: T[]) => U, initialValue: U): Uです。」
+四国めたん「初期値ありは<U>(callback: (acc: U, value: T, index: number, array: T[]) => U, initialValue: U): Uです。」
 ずんだもん「型定義を読めばアキュムレータ型の決まり方がわかるよ。」
 四国めたん「libを確認して挙動を把握しましょう。」
 ずんだもん「型定義から理解を深めてね！」

@@ -2,7 +2,7 @@
 
 四国めたん「Chromiumをビルドするにはdepot_toolsとgn/ninjaが必須です」
 ずんだもん「環境構築って大変そうだね」
-四国めたん「はい、まずdepot_toolsをPATHに追加し、`fetch chromium`でソースを取得します」
+四国めたん「まずdepot_toolsをPATHに追加し、`fetch chromium`でソースを取得します」
 ずんだもん「その後は`gn gen out/Default`で設定して`ninja -C out/Default chrome`だよね」
 四国めたん「ビルドマシンはメモリ16GB以上推奨、時間もかかるのでccache活用が効果的です」
 ずんだもん「手順を押さえれば手元で最新のChromiumを試せるよ！」

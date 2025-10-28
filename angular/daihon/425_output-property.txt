@@ -3,4 +3,4 @@
 ずんだもん「@Outputの書き方って？」
 四国めたん「`@Output() toggled = new EventEmitter<boolean>();`のようにイベント型を指定します。」
 ずんだもん「Observableに変換することもできる？」
-四国めたん「はい、`toggled.asObservable()`で外部に公開する設計も可能です。」
+四国めたん「`toggled.asObservable()`で外部に公開する設計も可能です。」

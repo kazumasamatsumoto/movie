@@ -3,5 +3,5 @@
 四国めたん「You use a boolean condition to choose between two values.」
 ずんだもん「How is it written?」
 四国めたん「`flag ? value1 : value2`—the boolean decides which value is returned.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it's perfect for conditional assignments.」

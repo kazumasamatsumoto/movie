@@ -3,5 +3,5 @@
 四国めたん「It's an array whose elements are boolean values.」
 ずんだもん「How do we declare one?」
 四国めたん「Use a type annotation like `let flags: boolean[]`.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—great for tracking multiple flag states.」

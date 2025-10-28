@@ -2,7 +2,7 @@
 
 四国めたん「V8はNode.jsが採用しているGoogle製のJavaScriptエンジンです」
 ずんだもん「Chromiumと同じエンジンなんだね？」
-四国めたん「はい、パーサーでASTを作り、IgnitionインタープリタとTurboFan JITで実行します」
+四国めたん「パーサーでASTを作り、IgnitionインタープリタとTurboFan JITで実行します」
 ずんだもん「高速って言われるのはその最適化パイプラインのおかげか」
 四国めたん「さらに最新のECMAScript仕様にも素早く追従します」
 ずんだもん「Node.jsでもブラウザでも同じJSの基盤って安心するよ」

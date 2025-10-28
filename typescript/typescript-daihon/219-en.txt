@@ -3,5 +3,5 @@
 四国めたん「It's a strict type that permits only the value false.」
 ずんだもん「How is it different from boolean?」
 四国めたん「boolean accepts both true and false, whereas the false literal type allows only false.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it supports precise type control.」

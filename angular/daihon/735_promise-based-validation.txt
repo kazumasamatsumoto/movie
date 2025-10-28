@@ -1,7 +1,7 @@
 # #735 「Promise ベースの検証」台本
 
 ずんだもん「ObservableじゃなくてPromiseで書いた非同期バリデーターも使えるの？」
-四国めたん「はい、AsyncValidatorFnはPromise<ValidationErrors | null>を受け取ります。」
+四国めたん「AsyncValidatorFnはPromise<ValidationErrors | null>を受け取ります。」
 ずんだもん「async/awaitなら逐次処理がスッキリ書けて読みやすいね。」
 四国めたん「try/catchでエラーを捕まえてValidationErrorsに変換するのを忘れないでください。」
 ずんだもん「updateOnをblurにすると呼び出し回数も抑えられるんだね。」

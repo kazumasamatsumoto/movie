@@ -3,5 +3,5 @@
 四国めたん「It describes how the `!` operator always yields a boolean result.」
 ずんだもん「How is that inferred?」
 四国めたん「Regardless of the operand, `!` returns a boolean value.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it clarifies type safety for negations.」

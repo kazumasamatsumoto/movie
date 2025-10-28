@@ -3,5 +3,5 @@
 四国めたん「They compare floating-point values directly with `===`.」
 ずんだもん「What's the risk?」
 四国めたん「Precision issues may produce unexpected results.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—accurate comparisons depend on avoiding that mistake.」

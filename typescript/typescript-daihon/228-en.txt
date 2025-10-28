@@ -3,5 +3,5 @@
 四国めたん「If the left operand is false, the right operand is never evaluated.」
 ずんだもん「What are the benefits?」
 四国めたん「You gain performance and avoid unnecessary errors.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it leads to efficient conditional logic.」

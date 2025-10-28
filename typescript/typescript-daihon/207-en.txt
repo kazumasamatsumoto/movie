@@ -3,5 +3,5 @@
 四国めたん「It means plugging a boolean variable into the condition of an if block.」
 ずんだもん「How do we do that?」
 四国めたん「Write `if (flag) { ... }` and let the flag drive the branch.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—conditional rendering depends on it.」

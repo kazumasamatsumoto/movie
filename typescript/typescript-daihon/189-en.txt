@@ -3,5 +3,5 @@
 四国めたん「They are recommendations to avoid precision issues.」
 ずんだもん「What practices should we follow?」
 四国めたん「Favor integer arithmetic, use dedicated libraries, and compare values carefully.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—accurate numeric handling depends on it.」

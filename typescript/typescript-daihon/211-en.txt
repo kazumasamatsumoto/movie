@@ -3,5 +3,5 @@
 四国めたん「It's a type that allows only a specific boolean value, true or false.」
 ずんだもん「How do we use it?」
 四国めたん「Declare something like `let flag: true` to lock the value.」
-ずんだもん「Is this important for Angular development too?」
+
 四国めたん「Absolutely—it enables stricter type control.」
