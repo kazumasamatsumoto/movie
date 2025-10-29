@@ -1,0 +1,8 @@
+#1045 "Initial Value Type" Script
+
+四国めたん「The initial value's type determines the result type.」
+ずんだもん「Provide a string and reduce returns a string.」
+四国めたん「If you omit it, the element type T becomes the starting value.」
+ずんだもん「Specify the initial value to avoid unintended types.」
+四国めたん「Master control over the initial type.」
+ずんだもん「It's a core design skill!」

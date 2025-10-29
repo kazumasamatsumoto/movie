@@ -1,0 +1,8 @@
+#965 "Checking string[] | number[]" Script
+
+四国めたん「When working with string[] | number[], inspect the contents to determine the type.」
+ずんだもん「Check with typeof array[0] === \"string\", for example.」
+四国めたん「If the array is empty, set another rule.」
+ずんだもん「Custom type guards make the detection reusable.」
+四国めたん「Prepare whole-array checks so you can handle it safely.」
+ずんだもん「Remember how to detect union arrays!」

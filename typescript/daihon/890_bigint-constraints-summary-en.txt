@@ -1,0 +1,10 @@
+#890 "Constraints Recap" Script
+
+四国めたん「Let's recap BigInt's limitations.」
+ずんだもん「We noted that Math functions don't work, decimals are out, JSON can't carry them directly, and performance can be heavy.」
+四国めたん「We introduced custom algorithms, stringification, and fixed-point as workarounds.」
+ずんだもん「Utility helpers and solid documentation were the keys.」
+四国めたん「With a clear view of the constraints, it's easier to decide when to adopt BigInt.」
+ずんだもん「Next we'll explore real-world techniques for massive integers!」
+四国めたん「Share the limitations and countermeasures with the team.」
+ずんだもん「Once you're prepared, there's nothing to fear!」

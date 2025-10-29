@@ -1,0 +1,8 @@
+#912 "Array<T> Notation" Script
+
+四国めたん「You can express array types with the generic Array<T> form.」
+ずんだもん「Like writing Array<number>, right?」
+四国めたん「It doesn't conflict with React JSX, so it's safe in .tsx files.」
+ずんだもん「People comfortable with generics find it very readable.」
+四国めたん「Nested arrays work too, such as Array<Array<number>>.」
+ずんだもん「Keep the Array<T> notation in your toolkit!」

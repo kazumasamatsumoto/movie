@@ -1,0 +1,8 @@
+#1052 "Grouping" Script
+
+四国めたん「Reduce also excels at grouping arrays.」
+ずんだもん「Cluster items by category, for example.」
+四国めたん「Distribute them into a Record or Map accumulator.」
+ずんだもん「Great for data aggregation.」
+四国めたん「Learn the grouping pattern.」
+ずんだもん「A staple aggregation technique!」

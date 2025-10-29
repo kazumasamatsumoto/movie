@@ -1,0 +1,8 @@
+#948 "Initializing Mixed Arrays" Script
+
+四国めたん「Fill a mixed array with values that match the union.」
+ずんだもん「For example const tokens: (string | number)[] = [\"GET\", 200].」
+四国めたん「Empty arrays need explicit annotations.」
+ずんだもん「Anything you push later must fit the union members.」
+四国めたん「Stating the type up front keeps things safe.」
+ずんだもん「Learn the initialization rules for mixed arrays!」

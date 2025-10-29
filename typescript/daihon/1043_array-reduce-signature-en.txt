@@ -1,0 +1,8 @@
+#1043 "reduce<U>(callback, initialValue: U): U" Script
+
+四国めたん「With an initial value, reduce looks like reduce<U>(callback, initialValue: U): U.」
+ずんだもん「You can choose the accumulator type U freely.」
+四国めたん「Supplying the initial value yields a U-typed result.」
+ずんだもん「Perfect for building objects or Maps from arrays.」
+四国めたん「Understand the signature so you set the initial value correctly.」
+ずんだもん「It unlocks serious type flexibility!」

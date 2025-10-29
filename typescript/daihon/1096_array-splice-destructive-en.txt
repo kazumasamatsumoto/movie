@@ -1,0 +1,8 @@
+#1096 "Destructive Updates" Script
+
+四国めたん「splice mutates the original array.」
+ずんだもん「Shared references can cause unintended side effects.」
+四国めたん「If you need immutability, copy with spread or slice first.」
+ずんだもん「Check whether you truly need a destructive change.」
+四国めたん「Understand the blast radius before using it.」
+ずんだもん「Use it with care!」

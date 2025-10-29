@@ -1,0 +1,8 @@
+#950 "Type Guards" Script
+
+四国めたん「Type guards are essential for mixed arrays.」
+ずんだもん「Use typeof or user-defined predicates to determine the element type.」
+四国めたん「They also shine inside array method callbacks.」
+ずんだもん「With guards in place, IDE completions stay precise.」
+四国めたん「Make checking the type before processing a habit.」
+ずんだもん「It's the foundation of safe manipulation!」

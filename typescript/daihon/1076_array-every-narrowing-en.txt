@@ -1,0 +1,8 @@
+#1076 "Type Narrowing" Script
+
+四国めたん「With a type predicate, every can narrow the entire array.」
+ずんだもん「Write values.every((value): value is string => ...).」
+四国めたん「When it returns true, the compiler treats the array as string[].」
+ずんだもん「No further type checks needed afterward.」
+四国めたん「Use the narrowing to write safe follow-up logic.」
+ずんだもん「Perfect when you must confirm every element!」

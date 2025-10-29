@@ -1,0 +1,9 @@
+四国めたん「Let’s compare BigInt and number pipelines.」
+ずんだもん「Watch the difference in precision under heavy operations.」
+四国めたん「Implement the same logic with both types.」
+ずんだもん「Observe how number loses accuracy beyond safe bounds.」
+四国めたん「Inspect logs or charts to visualize the divergence.」
+ずんだもん「Ground theory with practical data.」
+四国めたん「Use the example to guide adoption decisions.」
+ずんだもん「Let evidence drive your choice!」
+

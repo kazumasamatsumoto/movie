@@ -1,0 +1,8 @@
+#974 "Relationship" Script
+
+四国めたん「(string | number)[] and string[] | number[] are not subtypes of each other.」
+ずんだもん「You can't assign one to the other.」
+四国めたん「Their structures differ, so they're incompatible.」
+ずんだもん「Convert explicitly with map or guards instead.」
+四国めたん「Understand the relationship to avoid careless assignments.」
+ずんだもん「Keep your types aligned!」

@@ -1,0 +1,8 @@
+#1055 "reduce Recap" Script
+
+四国めたん「Let's recap reduce.」
+ずんだもん「We covered initial values, accumulator types, and use cases like sums, object building, and grouping.」
+四国めたん「Explicit initial values kept the types under control.」
+ずんだもん「Best practices maintain readability too.」
+四国めたん「Next we'll explore the find family of methods.」
+ずんだもん「Master reduce and enjoy aggregation!」

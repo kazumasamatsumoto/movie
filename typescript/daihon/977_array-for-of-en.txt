@@ -1,0 +1,8 @@
+#977 "for...of Type Inference" Script
+
+四国めたん「for...of automatically infers the element type.」
+ずんだもん「Write for (const score of scores) { ... }.」
+四国めたん「score inherits the array's element type.」
+ずんだもん「When you don't need the index, for...of reads better.」
+四国めたん「Lean on inference to keep loops concise.」
+ずんだもん「Remember the typing of for...of!」

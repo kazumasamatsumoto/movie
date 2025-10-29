@@ -1,0 +1,10 @@
+#901 "Frontend Usage" Script
+
+四国めたん「Browsers support BigInt, so you can handle high-precision logic on the frontend.」
+ずんだもん「Older browsers may lack support, so check your Babel setup and polyfills.」
+四国めたん「Target at least ES2020 in your build for safety.」
+ずんだもん「BigInt shines when paired with WebAssembly or IndexedDB too.」
+四国めたん「Convert to strings for UI display and format with Intl.」
+ずんだもん「Use BigInt on the frontend to keep precision intact!」
+四国めたん「Keep heavy computations in workers and leave lightweight tasks on the main thread.」
+ずんだもん「Master the browser-side techniques!」

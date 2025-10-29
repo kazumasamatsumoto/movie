@@ -1,0 +1,8 @@
+#980 "forEach Types" Script
+
+四国めたん「Array.forEach passes the element, index, and array into its callback.」
+ずんだもん「The signature is (value: T, index: number, array: T[]) => void.」
+四国めたん「The return value is ignored, so keep that in mind.」
+ずんだもん「Inference covers the types, but you can annotate them.」
+四国めたん「Understand the typing to design the callback correctly.」
+ずんだもん「Lock in the basics!」

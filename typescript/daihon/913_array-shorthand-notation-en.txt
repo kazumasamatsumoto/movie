@@ -1,0 +1,8 @@
+#913 "T[] Notation" Script
+
+四国めたん「The other array form is the shorthand T[] notation.」
+ずんだもん「That's the one where you append [] like number[].」
+四国めたん「It resembles JavaScript array literals, so it's easy to read.」
+ずんだもん「Nested arrays stay concise, for example number[][].」
+四国めたん「Once you're used to it, it's short and clean, which is why it's popular.」
+ずんだもん「Learn the T[] style and switch between them!」

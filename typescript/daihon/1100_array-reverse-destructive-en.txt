@@ -1,0 +1,8 @@
+#1100 "Destructive Updates" Script
+
+四国めたん「reverse is destructive, so it mutates the original array.」
+ずんだもん「If you want to reverse a copy, clone with spread first.」
+四国めたん「Write const reversed = [...values].reverse().」
+ずんだもん「That's the go-to pattern when you want to avoid side effects.」
+四国めたん「Check the blast radius before calling destructive methods.」
+ずんだもん「Make sure later logic stays unaffected!」

@@ -1,0 +1,8 @@
+#1083 "Return Value – boolean" Script
+
+四国めたん「includes always returns a boolean.」
+ずんだもん「Use it directly for existence checks.」
+四国めたん「The true/false outcome keeps decisions simple.」
+ずんだもん「Great for if statements or guard clauses.」
+四国めたん「Let the return type guide your logic.」
+ずんだもん「Such a straightforward API!」

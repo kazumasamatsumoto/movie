@@ -1,0 +1,8 @@
+#1084 "Difference from indexOf()" Script
+
+四国めたん「Let's differentiate includes from indexOf.」
+ずんだもん「indexOf returns the position or -1 when not found.」
+四国めたん「For pure existence checks, includes is clearer and handles NaN.」
+ずんだもん「Need the position? Use indexOf. Need a boolean? Use includes.」
+四国めたん「Choose the method that fits your purpose.」
+ずんだもん「That way your intent is obvious!」

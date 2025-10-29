@@ -1,0 +1,8 @@
+#1050 "Flattening Arrays" Script
+
+四国めたん「Let's flatten arrays with reduce.」
+ずんだもん「Turn [[1,2],[3,4]] into [1,2,3,4].」
+四国めたん「Use an array accumulator and concat the chunks.」
+ずんだもん「Combine with map to mimic flatMap.」
+四国めたん「Remember the reduce-based flattening pattern.」
+ずんだもん「Handy when flat isn't available!」

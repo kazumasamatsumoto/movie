@@ -1,0 +1,8 @@
+#952 "Mapping Mixed Arrays" Script
+
+四国めたん「When you map a mixed array, the return type matters.」
+ずんだもん「The callback's return type becomes the new array's type.」
+四国めたん「Use guards in the callback or follow up with filter if you need to narrow it.」
+ずんだもん「Handle the union correctly inside map.」
+四国めたん「TypeScript infers the resulting union, so design for the type you expect.」
+ずんだもん「Keep map operations type-safe!」

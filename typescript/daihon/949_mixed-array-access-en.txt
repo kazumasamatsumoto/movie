@@ -1,0 +1,8 @@
+#949 "Element Access" Script
+
+四国めたん「Accessing a mixed array element returns the union.」
+ずんだもん「tokens[0] comes back as string | number.」
+四国めたん「Use type guards to narrow it.」
+ずんだもん「typeof checks keep it safe.」
+四国めたん「Make a habit of guarding after access.」
+ずんだもん「Stay type-safe even with mixed arrays!」

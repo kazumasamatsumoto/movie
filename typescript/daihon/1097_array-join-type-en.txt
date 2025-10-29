@@ -1,0 +1,8 @@
+#1097 "join() Types" Script
+
+四国めたん「Array.prototype.join turns arrays into strings.」
+ずんだもん「The signature is join(separator?: string): string.」
+四国めたん「Regardless of element type, it returns a string.」
+ずんだもん「Without a separator, it defaults to commas.」
+四国めたん「Remember join's typing and behavior.」
+ずんだもん「Perfect for display formatting!」

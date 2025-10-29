@@ -1,0 +1,8 @@
+#990 "reduce Types" Script
+
+四国めたん「reduce folds elements into a single value with an accumulator.」
+ずんだもん「Its generic signature is <U>(callback: (acc: U, value: T, index: number, array: T[]) => U, initialValue: U) => U.」
+四国めたん「The initial value determines the accumulator type.」
+ずんだもん「Skip the initial value and the first element becomes it, so be careful.」
+四国めたん「Understand reduce's typing to aggregate correctly.」
+ずんだもん「It's powerful—use it right!」

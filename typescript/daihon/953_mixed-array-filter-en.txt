@@ -1,0 +1,8 @@
+#953 "Filtering Mixed Arrays" Script
+
+四国めたん「Use type predicates in filter to narrow element types.」
+ずんだもん「Something like (item): item is string => typeof item === \"string\".」
+四国めたん「The filtered result becomes string[], making follow-up work easier.」
+ずんだもん「Plain booleans leave the union unchanged, so watch out.」
+四国めたん「Leverage predicate filters to tame mixed arrays.」
+ずんだもん「Remember the type-safe filter pattern!」

@@ -1,0 +1,10 @@
+#881 "JSON.stringify()" Script
+
+四国めたん「Let's review how JSON.stringify behaves when you feed it BigInts.」
+ずんだもん「By default it throws a TypeError, but we avoided that by stringifying via a replacer.」
+四国めたん「Inside the replacer, check typeof v === \"bigint\".」
+ずんだもん「Prepare a matching reviver that restores the values to BigInt on the way back.」
+四国めたん「If you're passing data through a library, stringify upfront to be safe.」
+ずんだもん「Keep JSON.stringify's restrictions in mind and craft your serialization strategy!」
+四国めたん「Always test to ensure it behaves as expected.」
+ずんだもん「Remember to use the replacer and reviver as a pair!」

@@ -1,0 +1,10 @@
+#899 "Database" Script
+
+四国めたん「Let's connect database bigint columns with TypeScript's BigInt.」
+ずんだもん「Many ORMs receive PostgreSQL or MySQL BIGINT values as strings.」
+四国めたん「Provide custom converters to turn them back into BigInt.」
+ずんだもん「In Prisma or TypeORM, defining a transformer keeps it simple.」
+四国めたん「Send them through serializers to the API without losing precision.」
+ずんだもん「Leverage BigInt even when bridging the database!」
+四国めたん「Double-check the type settings during migrations.」
+ずんだもん「Protect precision in the data layer!」

@@ -1,0 +1,10 @@
+#900 "API Responses" Script
+
+四国めたん「Always stringify BigInts when returning them from an API.」
+ずんだもん「In OpenAPI, declare the string format so it's clear.」
+四国めたん「Provide client-side helpers to restore the values to BigInt.」
+ずんだもん「GraphQL feels natural when you define a custom scalar.」
+四国めたん「REST can specify pattern or format in JSON Schema.」
+ずんだもん「Protect BigInt precision through thoughtful API design!」
+四国めたん「Stick to the contract for both serialization and deserialization.」
+ずんだもん「Make sure clients and servers share the same conventions!」

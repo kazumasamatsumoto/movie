@@ -1,0 +1,9 @@
+四国めたん「Convert BigInt to number via `Number()`.」
+ずんだもん「But you lose precision past `Number.MAX_SAFE_INTEGER`.」
+四国めたん「Check the range before converting.」
+ずんだもん「Useful for UI output or API interop.」
+四国めたん「If precision fails, switch to strings.」
+ずんだもん「Understand the risks before converting!」
+四国めたん「Keep number conversions minimal.」
+ずんだもん「Defend against precision bugs!」
+

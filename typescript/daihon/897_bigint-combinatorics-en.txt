@@ -1,0 +1,10 @@
+#897 "Combinatorics" Script
+
+四国めたん「Combinations and factorials are BigInt's specialty.」
+ずんだもん「nCk and multifactorials overflow fast, so BigInt saves the day.」
+四国めたん「Try implementing a reusable nCk function in TypeScript.」
+ずんだもん「Dynamic programming or Pascal's triangle stay exact with BigInt.」
+四国めたん「You can extend it to large-scale statistical work.」
+ずんだもん「Leverage BigInt in combinatorics to keep results accurate!」
+四国めたん「Optimize the algorithm to match the workload.」
+ずんだもん「That makes math-heavy code a lot safer!」

@@ -1,0 +1,8 @@
+#1071 "Array.prototype.some()" Script
+
+四国めたん「Now let's learn Array.prototype.some.」
+ずんだもん「It returns true if any element meets the condition.」
+四国めたん「It short-circuits and returns a boolean.」
+ずんだもん「Great for existence checks or validations.」
+四国めたん「Memorize the basics of some.」
+ずんだもん「Use it to see whether any element passes the test!」

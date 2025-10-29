@@ -1,0 +1,8 @@
+#987 "filter Types" Script
+
+四国めたん「filter returns a new array containing only elements whose callback returned true.」
+ずんだもん「By default the result keeps the original type T[].」
+四国めたん「Use a type predicate to narrow it further.」
+ずんだもん「Callbacks may return boolean or a predicate.」
+四国めたん「Leverage filter's typing to narrow safely.」
+ずんだもん「Pair it with predicates for best results!」

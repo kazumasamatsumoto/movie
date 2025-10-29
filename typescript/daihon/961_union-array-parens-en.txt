@@ -1,0 +1,8 @@
+#961 "(string | number)[]" Script
+
+四国めたん「(string | number)[] represents an array whose elements are strings or numbers.」
+ずんだもん「Write the union inside parentheses before adding [].」
+四国めたん「It's the basic form of a mixed array.」
+ずんだもん「Don't forget the parentheses when you declare it.」
+四国めたん「Pair it with element-level type guards for safety.」
+ずんだもん「Make sure you use (string | number)[] correctly!」

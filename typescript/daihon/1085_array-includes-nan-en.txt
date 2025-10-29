@@ -1,0 +1,8 @@
+#1085 "Searching for NaN" Script
+
+四国めたん「includes detects NaN correctly.」
+ずんだもん「indexOf couldn’t find NaN.」
+四国めたん「includes uses SameValueZero, so NaN equals NaN.」
+ずんだもん「Handy when validating numeric data.」
+四国めたん「Remember this difference when searching for NaN.」
+ずんだもん「It's a bug-prevention tip!」

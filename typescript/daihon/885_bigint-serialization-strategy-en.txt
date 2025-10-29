@@ -1,0 +1,10 @@
+#885 "Serialization Strategy" Script
+
+四国めたん「Let's organize our strategy for serializing BigInts.」
+ずんだもん「The basic flow is stringify on send, restore to BigInt on receive.」
+四国めたん「Define the format per protocol and capture it in a schema.」
+ずんだもん「In GraphQL a String works, and in gRPC a string field fits.」
+四国めたん「For binary formats, use fixed-length buffers.」
+ずんだもん「Set the strategy and share utility functions!」
+四国めたん「Pair it with tests and documentation for peace of mind.」
+ずんだもん「Make sure the team aligns on the serialization approach!」

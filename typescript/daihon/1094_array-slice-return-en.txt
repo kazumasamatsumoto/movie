@@ -1,0 +1,8 @@
+#1094 "Return Type – T[]" Script
+
+四国めたん「slice returns T[], matching the original element type.」
+ずんだもん「You can take subarrays without worrying about types.」
+四国めたん「Even if you omit start or end, it still returns T[].」
+ずんだもん「You might get an empty array, but it's still T[].」
+四国めたん「Rely on that return type when crafting follow-up logic.」
+ずんだもん「Inference has your back!」

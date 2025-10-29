@@ -1,0 +1,8 @@
+#1099 "reverse() Types" Script
+
+四国めたん「Array.prototype.reverse flips an array in-place.」
+ずんだもん「Its signature is reverse(): T[].」
+四国めたん「It returns the same array reference and mutates it.」
+ずんだもん「Keep in mind the original order is lost.」
+四国めたん「Understand reverse's typing and behavior.」
+ずんだもん「Clone first if you need a safe copy!」

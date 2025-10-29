@@ -1,0 +1,8 @@
+#1103 "flat() Types" Script
+
+四国めたん「Array.prototype.flat flattens nested arrays.」
+ずんだもん「Its definition is flat<D extends number = 1>(depth?: D): FlatArray<T, D>[].」
+四国めたん「It uses conditional types to relate depth and element types.」
+ずんだもん「Depth defaults to 1, but you can flatten further by specifying it.」
+四国めたん「Understand the typing so you pick the right depth.」
+ずんだもん「Nested arrays become much easier to manage!」

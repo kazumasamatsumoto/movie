@@ -1,0 +1,8 @@
+#959 "Pattern Catalog" Script
+
+四国めたん「Let's catalog common mixed-array patterns.」
+ずんだもん「We saw log streams, API responses, and event queues.」
+四国めたん「Combining guards with utilities increases reuse.」
+ずんだもん「Collect the patterns and turn them into templates.」
+四国めたん「Pick what fits your domain.」
+ずんだもん「Keep mixed-array patterns within reach!」

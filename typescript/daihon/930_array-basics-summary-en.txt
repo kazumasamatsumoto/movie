@@ -1,0 +1,8 @@
+#930 "Basics Recap" Script
+
+四国めたん「Let's recap the fundamentals of array types.」
+ずんだもん「We covered the Array<T> and T[] notations, annotating empty arrays, and how inference works.」
+四国めたん「We also discussed nesting, naming rules, and best practices.」
+ずんだもん「Using array types correctly boosts readability and safety.」
+四国めたん「Next up, we'll apply them to element access and mixed types.」
+ずんだもん「Make arrays your ally in TypeScript!」

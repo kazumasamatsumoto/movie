@@ -1,0 +1,9 @@
+四国めたん「Follow best practices when comparing BigInt with other types.」
+ずんだもん「Keep precision top-of-mind; convert carefully.」
+四国めたん「Avoid implicit coercion by standardizing conversions.」
+ずんだもん「Document rules so every developer follows them.」
+四国めたん「Let lint or unit tests catch violations.」
+ずんだもん「Turn best practices into habits.」
+四国めたん「Stop precision loss before it occurs.」
+ずんだもん「Share the lessons across the team!」
+

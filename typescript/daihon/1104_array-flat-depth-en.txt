@@ -1,0 +1,8 @@
+#1104 "Depth Parameter" Script
+
+四国めたん「flat accepts a depth argument.」
+ずんだもん「flat(2) flattens two levels, for example.」
+四国めたん「Adjust depth when you deal with deeply nested arrays.」
+ずんだもん「Pass Infinity to flatten everything.」
+四国めたん「Review how the depth parameter behaves.」
+ずんだもん「Flatten just as much as you need!」

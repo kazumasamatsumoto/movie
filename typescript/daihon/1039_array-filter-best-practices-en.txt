@@ -1,0 +1,8 @@
+#1039 "Best Practices" Script
+
+四国めたん「Let's review best practices for filter.」
+ずんだもん「Use predicates to narrow, avoid side effects, and reach for NonNullable when clearing nulls.」
+四国めたん「Balance readability and performance when chaining.」
+ずんだもん「Reuse guard-ready utilities for extra safety.」
+四国めたん「Follow the practices to get the most from filter.」
+ずんだもん「Enjoy type-safe filtering!」

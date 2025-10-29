@@ -1,0 +1,8 @@
+#1060 "findIndex()" Script
+
+四国めたん「Now let's look at Array.prototype.findIndex.」
+ずんだもん「It returns the index of the first matching element.」
+四国めたん「If nothing matches, it returns -1.」
+ずんだもん「Use this when you need the index.」
+四国めたん「Remember it alongside find.」
+ずんだもん「Great for grabbing position info!」

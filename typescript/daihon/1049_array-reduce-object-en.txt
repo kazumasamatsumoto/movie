@@ -1,0 +1,8 @@
+#1049 "Building Objects" Script
+
+四国めたん「Let's build an object with reduce.」
+ずんだもん「Convert an array into a map of keys and values.」
+四国めたん「Use a Record accumulator for type safety.」
+ずんだもん「Great for aggregation or indexing.」
+四国めたん「Remember this standard object-building pattern.」
+ずんだもん「It leaves you with nicely organized data!」

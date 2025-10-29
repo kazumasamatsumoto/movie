@@ -1,0 +1,8 @@
+#1075 "Return Type – boolean" Script
+
+四国めたん「every also returns a boolean.」
+ずんだもん「True when everything passes, false if even one fails.」
+四国めたん「It short-circuits for efficiency.」
+ずんだもん「Combine it with some for readable branching.」
+四国めたん「Leverage the boolean result in your logic.」
+ずんだもん「It's perfect for boolean workflows!」

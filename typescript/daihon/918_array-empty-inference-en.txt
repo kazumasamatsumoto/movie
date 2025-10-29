@@ -1,0 +1,8 @@
+#918 "Type Inference for Empty Arrays" Script
+
+四国めたん「An empty array literal alone gets inferred as never[].」
+ずんだもん「That's why const arr = []; stops you from pushing anything.」
+四国めたん「With no elements, TypeScript picks the narrowest type: never[].」
+ずんだもん「Adding as const makes it a read-only never[].」
+四国めたん「If you plan to add items, don't forget the annotation.」
+ずんだもん「Understand how empty array inference works!」

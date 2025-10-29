@@ -1,0 +1,8 @@
+#1082 "Type Definition" Script
+
+四国めたん「You can check includes' type definition in lib.d.ts.」
+ずんだもん「It reads includes(searchElement: T, fromIndex?: number): boolean.」
+四国めたん「The return is always boolean.」
+ずんだもん「Remember the second argument shifts the starting index.」
+四国めたん「Study the definition to grasp the behavior.」
+ずんだもん「Know the finer details!」

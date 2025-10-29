@@ -1,0 +1,8 @@
+#1091 "concat() Types" Script
+
+四国めたん「Let's check Array.prototype.concat's typing.」
+ずんだもん「It merges arrays of the same element type into a new array.」
+四国めたん「The definition looks like concat(...items: ConcatArray<T>[]): T[].」
+ずんだもん「Use it to combine multiple arrays or values.」
+四国めたん「Keep concat's typing in mind.」
+ずんだもん「It never mutates the originals!」

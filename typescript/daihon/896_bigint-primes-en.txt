@@ -1,0 +1,10 @@
+#896 "Large Primes" Script
+
+四国めたん「You need BigInt for generating and checking large primes.」
+ずんだもん「Probabilistic tests like Miller–Rabin are a good fit.」
+四国めたん「BigInt lets you run modPow-based checks.」
+ずんだもん「That's useful for crypto key generation and math simulations.」
+四国めたん「Try implementing a lightweight primality test in TypeScript.」
+ずんだもん「BigInt is indispensable when primes get massive.」
+四国めたん「Balance performance and accuracy as you use it.」
+ずんだもん「Dive into the world of huge primes!」

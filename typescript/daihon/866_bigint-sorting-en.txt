@@ -1,0 +1,9 @@
+四国めたん「When sorting BigInt arrays, supply a compare function.」
+ずんだもん「Default sort treats values as strings—watch out.」
+四国めたん「Use `(a, b) => (a < b ? -1 : a > b ? 1 : 0)`.」
+ずんだもん「Even massive values order correctly.」
+四国めたん「Pre-convert mixed arrays to a single type.」
+ずんだもん「Avoid string conversions while sorting!」
+四国めたん「Compare functions keep ordering stable.」
+ずんだもん「Follow best practices for predictable sorts!」
+

@@ -1,0 +1,8 @@
+#1081 "Array.prototype.includes()" Script
+
+四国めたん「Now let's learn Array.prototype.includes.」
+ずんだもん「It checks whether a specific value exists in the array.」
+四国めたん「true when found, false otherwise.」
+ずんだもん「It even handles NaN correctly.」
+四国めたん「Use includes for concise existence checks.」
+ずんだもん「It's a core API—memorize it!」

@@ -1,0 +1,9 @@
+四国めたん「Built-in JSON can’t serialize BigInts.」
+ずんだもん「`TypeError: Do not know how to serialize a BigInt`.」
+四国めたん「Coerce to strings or numbers before stringifying.」
+ずんだもん「Decide how to represent them in your API contract.」
+四国めたん「Custom replacers or libraries help with conversions.」
+ずんだもん「Remember the limitation when designing payloads.」
+四国めたん「Handle JSON serialization intentionally.」
+ずんだもん「Know the pitfall before it bites!」
+

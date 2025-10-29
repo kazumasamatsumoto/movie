@@ -1,0 +1,8 @@
+#1073 "Usage Example" Script
+
+四国めたん「Let's apply some to validation.」
+ずんだもん「Check whether any forbidden tags are present, for instance.」
+四国めたん「Trigger an alert when the condition matches.」
+ずんだもん「Short-circuiting keeps the check efficient.」
+四国めたん「Use the example to picture the flow.」
+ずんだもん「Perfect for validation!」

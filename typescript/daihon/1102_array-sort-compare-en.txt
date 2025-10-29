@@ -1,0 +1,8 @@
+#1102 "Comparator Types" Script
+
+四国めたん「sort's comparator has the type (a: T, b: T) => number.」
+ずんだもん「Return a negative value to put a first, positive to put b first, and 0 to keep the order.」
+四国めたん「Be explicit about the numeric result.」
+ずんだもん「Know the signature to implement custom sorts safely.」
+四国めたん「Keep the comparator's type in mind.」
+ずんだもん「Stick with the standard rules!」

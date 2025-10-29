@@ -1,0 +1,9 @@
+四国めたん「Let’s compute truly large numbers with BigInt.」
+ずんだもん「Factorials or huge Fibonacci values make great demos.」
+四国めたん「50! or beyond remains representable.」
+ずんだもん「Numbers would just become Infinity.」
+四国めたん「Convert results to strings for further handling.」
+ずんだもん「Experiment and make big calculations safe!」
+四国めたん「Watch execution time while exploring.」
+ずんだもん「Feel BigInt’s raw power!」
+

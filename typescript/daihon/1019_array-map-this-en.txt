@@ -1,0 +1,8 @@
+#1019 "this Argument" Script
+
+四国めたん「map accepts a second argument to set this.」
+ずんだもん「Write map(callback, thisArg).」
+四国めたん「It's handy when the callback uses this, though arrow functions ignore it.」
+ずんだもん「Useful for binding class methods.」
+四国めたん「Learn how to work with the this argument as well.」
+ずんだもん「Pick it when the situation calls for it!」

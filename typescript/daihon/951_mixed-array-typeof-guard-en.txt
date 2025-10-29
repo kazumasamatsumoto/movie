@@ -1,0 +1,8 @@
+#951 "typeof Type Guards" Script
+
+四国めたん「typeof-based guards are common with mixed arrays.」
+ずんだもん「Write typeof value === \"string\", for instance.」
+四国めたん「They're suited to primitive checks.」
+ずんだもん「You can branch with switch (typeof value) as well.」
+四国めたん「typeof guards narrow unions safely.」
+ずんだもん「Simple and powerful!」

@@ -1,0 +1,8 @@
+#1109 "Best Practices" Script
+
+四国めたん「Let's recap overarching best practices for array methods.」
+ずんだもん「Assess the impact of mutating methods, copy when you want immutability, and keep chained code readable.」
+四国めたん「Lean on inference but add annotations when needed.」
+ずんだもん「Extract utilities to improve reuse.」
+四国めたん「Follow these practices to handle arrays safely.」
+ずんだもん「Balance readability with type safety!」

@@ -1,0 +1,8 @@
+#1047 "With Initial Value – Type U" Script
+
+四国めたん「Providing an initial value lets reduce set the accumulator type U freely.」
+ずんだもん「Perfect when you want to transform the array into something else.」
+四国めたん「Match the callback's return type and the initial value to get U as the result.」
+ずんだもん「It also handles empty arrays safely.」
+四国めたん「Use the initial-value pattern proactively.」
+ずんだもん「Enjoy flexible aggregations!」

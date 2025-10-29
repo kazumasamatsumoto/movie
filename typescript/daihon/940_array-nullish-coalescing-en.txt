@@ -1,0 +1,8 @@
+#940 "Nullish Coalescing" Script
+
+四国めたん「Optional chaining plus nullish coalescing makes fallbacks easy.」
+ずんだもん「Like const value = arr?.[0] ?? defaultValue.」
+四国めたん「You return a safe value whenever the result is undefined.」
+ずんだもん「The same pattern works with the at method.」
+四国めたん「Use nullish coalescing to provide safe defaults.」
+ずんだもん「No errors, just values!」

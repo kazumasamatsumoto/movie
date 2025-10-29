@@ -1,0 +1,8 @@
+#943 "Rest Elements" Script
+
+四国めたん「Use rest elements in destructuring to gather the remaining items.」
+ずんだもん「Write const [head, ...rest] = list.」
+四国めたん「The rest shares the original array's element type.」
+ずんだもん「Tuple rests get even more precise.」
+四国めたん「Leverage rest elements to simplify array handling.」
+ずんだもん「It's a handy syntax—remember it!」

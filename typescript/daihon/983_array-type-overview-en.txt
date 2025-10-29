@@ -1,0 +1,8 @@
+#983 "Array Types" Script
+
+四国めたん「We learned that arrays can be written as T[] or Array<T>.」
+ずんだもん「Loops keep the element type inferred, so it's safe.」
+四国めたん「Generic functions that take arrays often accept T[].」
+ずんだもん「Once you grasp array types, your loops stay type-safe.」
+四国めたん「Hold onto the basics as we move forward.」
+ずんだもん「Deepen your understanding of array types!」

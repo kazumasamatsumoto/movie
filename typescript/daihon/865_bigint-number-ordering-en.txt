@@ -1,0 +1,9 @@
+四国めたん="In ordering comparisons, BigInt and number can mix."
+ずんだもん="`10n < 20` works; JS coerces the number."
+四国めたん="But watch precision near `MAX_SAFE_INTEGER`."
+ずんだもん="Keep consistent types for clarity."
+四国めたん="Mixing is possible, yet rules should govern it."
+ずんだもん="Convert via `toBigInt` or `Number` first."
+四国めたん="Handle mixed comparisons cautiously."
+ずんだもん="Align types before comparing!"
+

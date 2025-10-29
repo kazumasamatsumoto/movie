@@ -1,0 +1,8 @@
+#964 "Element Type of (string | number)[]" Script
+
+四国めたん「Pulling an element from (string | number)[] gives you string | number.」
+ずんだもん「You'll need a guard when you access it.」
+四国めたん「map or filter still return unions.」
+ずんだもん「typeof checks are the go-to before manipulating values.」
+四国めたん「Keep the union element type in mind so you handle it safely.」
+ずんだもん「It's a pattern built for mixed data!」

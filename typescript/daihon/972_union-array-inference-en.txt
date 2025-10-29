@@ -1,0 +1,8 @@
+#972 "Type Inference" Script
+
+四国めたん「TypeScript still infers types when arrays meet unions.」
+ずんだもん「For example, [\"ok\", 200] becomes (string | number)[].」
+四国めたん「It also infers string[] | number[] when appropriate.」
+ずんだもん「Add annotations if the result differs from your intent.」
+四国めたん「Check the inference as you design.」
+ずんだもん「Balance inference with annotations!」

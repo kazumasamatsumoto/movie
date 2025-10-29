@@ -1,0 +1,10 @@
+#893 "ID Generation" Script
+
+四国めたん「BigInt is handy for generating distributed or sortable IDs.」
+ずんだもん「Snowflake-style timestamp + node ID + sequence is the classic.」
+四国めたん「Bit shifts let you assemble structured IDs.」
+ずんだもん「TypeScript can implement it easily with BigInt bit operations.」
+四国めたん「Even huge values keep their precision.」
+ずんだもん「Use BigInt for ID generation to avoid collisions!」
+四国めたん「Design the sequence management across nodes alongside it.」
+ずんだもん「It's a reliable partner for distributed systems!」

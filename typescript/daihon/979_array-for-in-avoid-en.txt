@@ -1,0 +1,8 @@
+#979 "Avoid for...in" Script
+
+四国めたん「Skip for...in when dealing with arrays.」
+ずんだもん「It's for property enumeration and doesn't guarantee order.」
+四国めたん「It iterates keys (as strings) rather than elements.」
+ずんだもん「Use for, for...of, or forEach instead.」
+四国めたん「Flag it in reviews if you see it in array code.」
+ずんだもん「Remember: for...in is for objects!」

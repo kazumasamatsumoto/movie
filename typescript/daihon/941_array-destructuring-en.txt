@@ -1,0 +1,8 @@
+#941 "Destructuring" Script
+
+四国めたん「Use destructuring to pull elements out of arrays.」
+ずんだもん「Write const [first, second] = values.」
+四国めたん「Skip unwanted items by leaving gaps between commas.」
+ずんだもん「Rest patterns collect the remainder in one variable.」
+四国めたん「Destructuring stays readable and plays nicely with inference.」
+ずんだもん「Use it freely in array handling!」

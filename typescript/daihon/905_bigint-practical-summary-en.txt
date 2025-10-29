@@ -1,0 +1,10 @@
+#905 "Practical Recap" Script
+
+四国めたん「Let's wrap up how we put BigInt to work.」
+ずんだもん「We used it across cryptography, IDs, finance, databases, and even the frontend.」
+四国めたん「Serialization and conversions were key to preserving precision.」
+ずんだもん「A pattern catalog keeps adoption costs low.」
+四国めたん「Understand the constraints and choose the right libraries and algorithms.」
+ずんだもん「Now we can handle massive integers with ease!」
+四国めたん「We'll keep type safety in mind in the next chapter too.」
+ずんだもん「BigInt in real-world work—totally covered!」

@@ -1,0 +1,10 @@
+#891 "Cryptography" Script
+
+四国めたん「BigInt is indispensable for integer-heavy public-key cryptography.」
+ずんだもん「RSA's modular exponentiation is the classic example.」
+四国めたん「With modPow in TypeScript you can model those cryptographic routines.」
+ずんだもん「Even when using libraries, verify they handle BigInt types.」
+四国めたん「The larger the key size, the more BigInt helps.」
+ずんだもん「Use BigInt to keep cryptographic calculations safe!」
+四国めたん「It prevents unexpected rounding and stays exact.」
+ずんだもん「BigInt thrives in security work!」

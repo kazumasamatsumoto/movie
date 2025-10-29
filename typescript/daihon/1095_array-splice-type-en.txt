@@ -1,0 +1,8 @@
+#1095 "splice() Types" Script
+
+四国めたん「Array.prototype.splice is a mutating method.」
+ずんだもん「The signature is splice(start: number, deleteCount?: number, ...items: T[]): T[].」
+四国めたん「It returns the removed elements as T[] and mutates the array.」
+ずんだもん「Be mindful when others rely on the original array.」
+四国めたん「Understand splice's typing and behavior before using it.」
+ずんだもん「Reach for it when you need destructive updates!」

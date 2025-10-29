@@ -1,0 +1,8 @@
+#923 "Initialization Patterns" Script
+
+四国めたん「There are many ways to initialize arrays beyond literals.」
+ずんだもん「Array.from and fill help when creating fresh arrays.」
+四国めたん「Combine them with annotations to make the initial values explicit.」
+ずんだもん「Spreading copies an array while keeping the same type.」
+四国めたん「Understand each approach so the type stays as intended.」
+ずんだもん「Memorize the patterns and work with arrays efficiently!」

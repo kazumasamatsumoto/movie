@@ -1,0 +1,8 @@
+#1041 "Array.prototype.reduce()" Script
+
+四国めたん「Now let's learn Array.prototype.reduce.」
+ずんだもん「It folds an array into a single value.」
+四国めたん「Use it for sums, object building, and more.」
+ずんだもん「Understanding the callback and initial value is crucial.」
+四国めたん「We'll grasp the overview before tackling the types.」
+ずんだもん「It's powerful, so let's study it carefully!」

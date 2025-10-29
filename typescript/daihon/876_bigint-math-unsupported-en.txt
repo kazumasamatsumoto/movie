@@ -1,0 +1,10 @@
+#876 "Math Functions Unsupported" Script
+
+四国めたん「Math.* functions don't work on BigInt values.」
+ずんだもん「Writing Math.sqrt(4n) throws a TypeError.」
+四国めたん「Math is strictly for numbers.」
+ずんだもん「If you need those operations, rely on custom code or third-party libraries.」
+四国めたん「The type system flags this at compile time, so you notice early.」
+ずんだもん「Understand BigInt's limitations and choose alternatives!」
+四国めたん「When you want Math-style functions, either convert to number or craft an algorithm suited for BigInt.」
+ずんだもん「Keep the constraints in mind while working with BigInt!」

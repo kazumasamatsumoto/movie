@@ -1,0 +1,8 @@
+#933 "Out-of-Range Access" Script
+
+四国めたん「Indexing beyond the array returns undefined.」
+ずんだもん「TypeScript's type might suggest the element, but runtime hands you undefined.」
+四国めたん「Skipping bounds checks can lead to runtime bugs.」
+ずんだもん「Check length or rely on the at method.」
+四国めたん「Take precautions before you access.」
+ずんだもん「Watch for out-of-range access!」

@@ -1,0 +1,8 @@
+#1105 "flatMap() Types" Script
+
+四国めたん「Array.prototype.flatMap combines map and flat.」
+ずんだもん「The signature is flatMap<U, This = undefined>(callback: (value: T, index: number, array: T[]) => U | ReadonlyArray<U>, thisArg?: This): U[].」
+四国めたん「When the callback returns arrays, it flattens one level.」
+ずんだもん「It mirrors map followed by flat(1), but in a single call.」
+四国めたん「Understand flatMap's typing to use it effectively.」
+ずんだもん「Express complex transformations succinctly!」

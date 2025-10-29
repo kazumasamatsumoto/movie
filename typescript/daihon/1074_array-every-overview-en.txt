@@ -1,0 +1,8 @@
+#1074 "Array.prototype.every()" Script
+
+四国めたん「Next up is Array.prototype.every.」
+ずんだもん「It returns true only when every element meets the condition.」
+四国めたん「It stops as soon as it hits false.」
+ずんだもん「Great for all-element checks.」
+四国めたん「Remember it as the counterpart to some.」
+ずんだもん「Verify that every condition holds!」

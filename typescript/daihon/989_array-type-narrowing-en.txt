@@ -1,0 +1,8 @@
+#989 "Type Narrowing" Script
+
+四国めたん「Type guards and filter help narrow element types.」
+ずんだもん「They're great for pulling specific members out of a union array.」
+四国めたん「if or switch with typeof also narrows.」
+ずんだもん「Understand narrowing so downstream code stays safe.」
+四国めたん「Leverage TypeScript's control-flow analysis.」
+ずんだもん「Use narrowing to keep your code type-safe!」

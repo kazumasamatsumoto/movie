@@ -1,0 +1,8 @@
+#1110 "Array Methods Recap" Script
+
+四国めたん「Let's wrap up the array methods we've covered.」
+ずんだもん「We tackled map/filter/reduce/find/some/every/includes plus helpers like concat and slice.」
+四国めたん「It was vital to note the definitions, return types, mutability, and inference behavior.」
+ずんだもん「Follow the best practices to write safe, readable array logic.」
+四国めたん「Keep combining TypeScript's types with these tools and enjoy array programming.」
+ずんだもん「You've got array methods down!」

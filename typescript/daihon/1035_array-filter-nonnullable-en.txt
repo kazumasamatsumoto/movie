@@ -1,0 +1,8 @@
+#1035 "NonNullable Type" Script
+
+四国めたん「The NonNullable type makes null/undefined removal explicit.」
+ずんだもん「NonNullable<T> strips null and undefined from T.」
+四国めたん「Combine it with a predicate filter for a cleanly narrowed type.」
+ずんだもん「Utility types like this are worth memorizing.」
+四国めたん「Review how to use NonNullable.」
+ずんだもん「It clarifies your intent in code!」

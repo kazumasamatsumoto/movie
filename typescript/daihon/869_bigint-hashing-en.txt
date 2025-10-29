@@ -1,0 +1,8 @@
+四国めたん「When hashing BigInt, convert to strings or buffers.」
+ずんだもん「Maps and sets accept BigInt keys directly.」
+四国めたん「A shared BigInt value is treated as equal by Map.」
+ずんだもん「For cryptographic hashes, convert to bytes first.」
+四国めたん「Define consistent formats for identifiers.」
+ずんだもん「Design hash strategies that respect BigInt!」
+四国めたん「Uniform formatting keeps downstream systems happy.」
+ずんだもん「Hashing with BigInt deserves careful planning!」

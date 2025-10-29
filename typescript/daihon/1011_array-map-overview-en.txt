@@ -1,0 +1,8 @@
+#1011 "Array.prototype.map()" Script
+
+四国めたん「Today let's learn about Array.prototype.map!」
+ずんだもん「It transforms each element and returns a fresh array.」
+四国めたん「The original array stays untouched, and the new array has the same length.」
+ずんだもん「Perfect for data conversion or shaping values for the UI.」
+四国めたん「Understand how map works so you can write type-safe transformations.」
+ずんだもん「Start by nailing the overview!」

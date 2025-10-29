@@ -1,0 +1,10 @@
+#880 "Converting to and from Floating Point" Script
+
+四国めたん「Watch the precision when converting to and from floating-point numbers.」
+ずんだもん「When you turn a number into a BigInt, check that it's an integer.」
+四国めたん「Converting BigInt back to number rounds once you exceed the safe range.」
+ずんだもん「To keep fractional digits, choose a scale and stick with fixed-point.」
+四国めたん「Share conversion helpers so you cut down on mistakes.」
+ずんだもん「Design the bridge between floating point and BigInt with care!」
+四国めたん「Confirm the precision requirements before performing conversions.」
+ずんだもん「Stay aware of the gap between BigInt and floats!」

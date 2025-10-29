@@ -1,0 +1,8 @@
+#932 "Types Returned by Access" Script
+
+四国めたん「Indexing into an array returns the element type.」
+ずんだもん「numbers[0] gives you a number.」
+四国めたん「If a const declaration narrows it to a literal, that literal type comes back.」
+ずんだもん「With an as const array, prop[0] can be a concrete value.」
+四国めたん「Understand the inference so the return type matches what you expect.」
+ずんだもん「Keep the access type in mind!」

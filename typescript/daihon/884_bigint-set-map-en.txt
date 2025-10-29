@@ -1,0 +1,10 @@
+#884 "Set/Map" Script
+
+四国めたん「BigInt values work as Set and Map keys as-is.」
+ずんだもん「Matching BigInt values are treated as the same key.」
+四国めたん「Define a Map with something like new Map([[1n, \"a\"]]).」
+ずんだもん「Remember to convert them when you serialize to JSON.」
+四国めたん「Explicit bigint annotations make Set/Map usage easier to read.」
+ずんだもん「You can safely manage huge ID collections that way.」
+四国めたん「Keys compare with ===, so equal values match.」
+ずんだもん「Use BigInt effectively with Set and Map!」

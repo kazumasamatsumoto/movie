@@ -1,0 +1,9 @@
+四国めたん「Compare BigInts for equality with `===`.」
+ずんだもん「Same operator as `number`.」
+四国めたん「It returns true only if type and value match.」
+ずんだもん「Two separately created BigInts with the same value still compare equal.」
+四国めたん「But comparisons with numbers evaluate to false.」
+ずんだもん「Make strict equality your habit!」
+四国めたん「Favor `===` to safeguard precision.」
+ずんだもん「Let `===` be your default with BigInt!」
+

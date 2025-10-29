@@ -1,0 +1,8 @@
+#1034 "Removing null/undefined" Script
+
+四国めたん「filter excels at removing null or undefined.」
+ずんだもん「Use value != null or Boolean to narrow it down.」
+四国めたん「NonNullable makes the intent explicit.」
+ずんだもん「It's a staple of data cleansing.」
+四国めたん「Learn the pattern for stripping nullish values.」
+ずんだもん「Keep your arrays safe!」

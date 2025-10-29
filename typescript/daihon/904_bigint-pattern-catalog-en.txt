@@ -1,0 +1,10 @@
+#904 "Pattern Catalog" Script
+
+四国めたん「Let's catalog the common BigInt usage patterns.」
+ずんだもん「Distributed IDs, fixed-point math, cryptographic modular arithmetic, and serialization tactics are the staples.」
+四国めたん「Bundle each pattern into a utility module.」
+ずんだもん「Shape them into templates that projects can reuse.」
+四国めたん「Documenting the catalog cuts down on onboarding costs.」
+ずんだもん「Keep these BigInt patterns ready to go!」
+四国めたん「Pick and combine patterns according to the requirements.」
+ずんだもん「Your design speed jumps up!」

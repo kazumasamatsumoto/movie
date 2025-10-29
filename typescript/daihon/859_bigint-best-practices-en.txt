@@ -1,0 +1,9 @@
+四国めたん「Let’s compile best practices for BigInt operations.」
+ずんだもん「Keep types aligned; convert explicitly when needed.」
+四国めたん「Clarify units and ranges before and after math.」
+ずんだもん「Plan out JSON and string conversions ahead of time.」
+四国めたん「Benchmark high-digit computations.」
+ずんだもん「Follow the practices for safe BigInt math!」
+四国めたん「Document and test to enforce them.」
+ずんだもん「Keep the team aligned on BigInt usage!」
+

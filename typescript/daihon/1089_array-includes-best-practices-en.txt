@@ -1,0 +1,8 @@
+#1089 "Best Practices" Script
+
+四国めたん「Let's recap best practices for includes.」
+ずんだもん「Store the boolean in a well-named variable, use it when checking for NaN, and switch to indexOf if you need positions.」
+四国めたん「For large arrays, consider converting to a Set.」
+ずんだもん「Balance readability with performance.」
+四国めたん「Follow the practices for safe existence checks.」
+ずんだもん「Write code that communicates intent!」

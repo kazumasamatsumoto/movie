@@ -1,0 +1,8 @@
+#1046 "No Initial Value – Type T" Script
+
+四国めたん「When you omit the initial value, reduce uses the first element.」
+ずんだもん「So the result type becomes the element type T.」
+四国めたん「An empty array triggers a TypeError, so beware.」
+ずんだもん「If empties are possible, always provide an initial value.」
+四国めたん「Know the behavior before using reduce without one.」
+ずんだもん「Remember the default!」

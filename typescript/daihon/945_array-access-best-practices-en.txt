@@ -1,0 +1,8 @@
+#945 "Best Practices" Script
+
+四国めたん「Let's lock in best practices for element access.」
+ずんだもん「Bounds checks, optional chaining, nullish coalescing, and using at were key.」
+四国めたん「If push or pop changes length, re-check each time.」
+ずんだもん「Reusable safe accessor functions are another good strategy.」
+四国めたん「During review, make sure no unsafe access slipped in.」
+ずんだもん「Follow the best practices for robust array handling!」

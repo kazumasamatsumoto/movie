@@ -1,0 +1,8 @@
+#981 "forEach() Callback Signature" Script
+
+四国めたん「The forEach callback type is (value: T, index: number, array: T[]) => void.」
+ずんだもん「Generic T stands for the element type.」
+四国めたん「Read the definition and you'll see all three arguments fully typed.」
+ずんだもん「Because the return value is ignored, even returning a Promise won't be awaited.」
+四国めたん「Know the signature so the callback's responsibility stays clear.」
+ずんだもん「Understand the callback type!」

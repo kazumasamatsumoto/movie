@@ -1,0 +1,8 @@
+#1057 "Return Type – T | undefined" Script
+
+四国めたん「find returns T | undefined.」
+ずんだもん「Because the element might not exist.」
+四国めたん「Check for undefined before using the result.」
+ずんだもん「Optional chaining and nullish coalescing pair well here.」
+四国めたん「Know the return type to handle it safely.」
+ずんだもん「Never forget about undefined!」

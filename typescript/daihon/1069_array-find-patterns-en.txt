@@ -1,0 +1,8 @@
+#1069 "Pattern Catalog" Script
+
+四国めたん「Let's catalog the key patterns for the find family.」
+ずんだもん「Use find for single items, findIndex for positions, findLast for reverse searches, and findLastIndex for reverse indexes.」
+四国めたん「Packaging conditions into helper functions improves reuse.」
+ずんだもん「Template the patterns to speed up implementation.」
+四国めたん「Choose the pattern that fits your search needs.」
+ずんだもん「Switch between them smoothly!」

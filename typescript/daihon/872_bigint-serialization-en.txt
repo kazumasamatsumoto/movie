@@ -1,0 +1,9 @@
+四国めたん「Define a strategy to serialize BigInt.」
+ずんだもん「Strings are the simplest format.」
+四国めたん「Use objects if you need metadata like sign and digits.」
+ずんだもん「Binary-friendly systems can store byte arrays.」
+四国めたん「Normalize conversions on both client and server.」
+ずんだもん「Keep security in mind—avoid injection risks.」
+四国めたん「Document the format for future maintainers.」
+ずんだもん「Consistent serialization keeps systems aligned!」
+

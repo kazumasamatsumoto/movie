@@ -1,0 +1,8 @@
+#1063 "findLastIndex()" Script
+
+四国めたん「findLastIndex returns the index of the last matching element.」
+ずんだもん「If nothing matches, it's -1, and it searches from the end.」
+四国めたん「Perfect for reverse lookups.」
+ずんだもん「Check runtime support before using it.」
+四国めたん「Know the variations in the find family.」
+ずんだもん「Enjoy flexible searching!」

@@ -1,0 +1,8 @@
+#1066 "Practical Example (1)" Script
+
+四国めたん「Let's find a user by ID in a user list.」
+ずんだもん「Use find to grab the matching user.」
+四国めたん「Include a fallback for when the result is undefined.」
+ずんだもん「Optional chaining and nullish coalescing shine here.」
+四国めたん「Check find's behavior through the example.」
+ずんだもん「Ready for real-world search tasks!」

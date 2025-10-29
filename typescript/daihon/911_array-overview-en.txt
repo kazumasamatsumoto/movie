@@ -1,0 +1,10 @@
+#911 "What Are Array Types?" Script
+
+四国めたん「Let's dive into array types in TypeScript!」
+ずんだもん「They capture the same arrays we use in JavaScript, but now with the type system.」
+四国めたん「Specify the element type to enable per-item checking.」
+ずんだもん「You declare them as number[] or Array<string>, right?」
+四国めたん「Array types boost IntelliSense and method safety.」
+ずんだもん「Master type-safe array operations!」
+四国めたん「We'll start by reviewing the basic syntax.」
+ずんだもん「Fewer bugs thanks to array types!」

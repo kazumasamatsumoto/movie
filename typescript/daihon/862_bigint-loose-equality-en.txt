@@ -1,0 +1,9 @@
+四国めたん「`==` can compare BigInts and numbers.」
+ずんだもん「`10n == 10` yields true.」
+四国めたん「Because JavaScript coerces before checking.」
+ずんだもん「But it’s safer to prefer `===`.」
+四国めたん「Reserve `==` for compatibility and avoid it otherwise.」
+ずんだもん「Let lint rules block it.」
+四国めたん「Treat loose equality with caution.」
+ずんだもん「Be explicit whenever you mix types!」
+

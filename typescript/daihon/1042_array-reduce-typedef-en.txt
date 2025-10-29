@@ -1,0 +1,8 @@
+#1042 "Type Definition" Script
+
+四国めたん「reduce has several overloads in lib.d.ts.」
+ずんだもん「The generics change depending on whether you supply an initial value.」
+四国めたん「With one it reads <U>(callback: (acc: U, value: T, index: number, array: T[]) => U, initialValue: U): U.」
+ずんだもん「Reading the definition shows how the accumulator type is chosen.」
+四国めたん「Check the lib to understand the behavior.」
+ずんだもん「Let the type definition deepen your grasp!」

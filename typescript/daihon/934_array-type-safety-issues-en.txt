@@ -1,0 +1,8 @@
+#934 "Type Safety Issues" Script
+
+四国めたん「Array access can create mismatches between types and runtime values.」
+ずんだもん「The type says number but you actually get undefined.」
+四国めたん「Use optional chaining or bounds checks to stay safe.」
+ずんだもん「Even with strictNullChecks, array access is an exception, so beware.」
+四国めたん「Memorize guard patterns that preserve type safety.」
+ずんだもん「Handle array access with care!」

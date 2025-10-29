@@ -1,0 +1,8 @@
+#994 "Best Practices" Script
+
+四国めたん「Let's recap best practices for array loops.」
+ずんだもん「Use for...of to leverage element types, abstract work with filter/map/reduce, and avoid for...in.」
+四国めたん「Extract logic into reusable functions.」
+ずんだもん「Don't forget bounds checks and guards.」
+四国めたん「Follow the practices to keep loops readable and safe.」
+ずんだもん「Balance types and implementation!」

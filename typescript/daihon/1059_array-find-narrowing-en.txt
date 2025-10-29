@@ -1,0 +1,8 @@
+#1059 "Type Narrowing" Script
+
+四国めたん「Type predicates narrow find's return type.」
+ずんだもん「Searching string | number for strings yields string | undefined.」
+四国めたん「No extra type checks are needed afterward.」
+ずんだもん「A real asset with union arrays.」
+四国めたん「See the narrowing effect and make it yours.」
+ずんだもん「Safely grab exactly one item!」

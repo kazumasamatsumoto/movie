@@ -1,0 +1,8 @@
+#1092 "Combining Arrays" Script
+
+四国めたん「Let's combine arrays with concat.」
+ずんだもん「Join multiple arrays or tack on scalar values.」
+四国めたん「The originals stay untouched; you get a new array.」
+ずんだもん「Great when you want immutability.」
+四国めたん「Check the example to see how it feels.」
+ずんだもん「Chaining stays readable too!」

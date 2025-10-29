@@ -1,0 +1,8 @@
+#1067 "Practical Example (2)" Script
+
+四国めたん「Let's locate the latest error in a log.」
+ずんだもん「Use findLast to search from the end.」
+四国めたん「Filter by error level and format the message.」
+ずんだもん「With runtime support, it's very concise.」
+四国めたん「Remember this as a findLast use case.」
+ずんだもん「You'll spot recent errors fast!」

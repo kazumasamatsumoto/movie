@@ -1,0 +1,8 @@
+#969 "Practical Example (2)" Script
+
+四国めたん「Here's another example: an API that returns either strings or numbers.」
+ずんだもん「The client detects which one and routes the logic.」
+四国めたん「Type guards lead you to the correct branch.」
+ずんだもん「Decide how to handle failures, such as throwing an error.」
+四国めたん「It's a classic frontend pattern for array unions.」
+ずんだもん「You’ll see it a lot in the wild!」

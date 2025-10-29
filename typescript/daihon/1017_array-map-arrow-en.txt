@@ -1,0 +1,8 @@
+#1017 "Arrow Functions" Script
+
+四国めたん「Arrow functions make map callbacks concise.」
+ずんだもん「Write value => value * 2, for example.」
+四国めたん「When you don't need this, arrow functions are the default choice.」
+ずんだもん「Use a block and return for more complex logic.」
+四国めたん「Craft readable callbacks with arrow functions.」
+ずんだもん「The brevity is addictive!」

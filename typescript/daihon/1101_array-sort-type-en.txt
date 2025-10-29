@@ -1,0 +1,8 @@
+#1101 "sort() Types" Script
+
+四国めたん「Let's pin down Array.prototype.sort's typing.」
+ずんだもん「The signature is sort(compareFn?: (a: T, b: T) => number): this.」
+四国めたん「It mutates the array and returns the same reference.」
+ずんだもん「Without a comparator it falls back to string ordering, so watch out.」
+四国めたん「Understand sort's typing and use it wisely.」
+ずんだもん「Provide comparators for custom ordering!」

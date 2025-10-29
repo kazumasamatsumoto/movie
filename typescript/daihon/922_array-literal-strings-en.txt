@@ -1,0 +1,8 @@
+#922 "The Type of [\"a\", \"b\"]" Script
+
+四国めたん「Arrays like [\"a\", \"b\"] get inferred as string[].」
+ずんだもん「Even with const, the type stays string[].」
+四国めたん「Use as const when you want readonly [\"a\", \"b\"].」
+ずんだもん「That's handy for enumerating tags or categories.」
+四国めたん「Switch between literal types and plain string[] depending on your needs.」
+ずんだもん「Understand the inference and obtain the type you intend!」

@@ -1,0 +1,8 @@
+#1016 "number[] to string[]" Script
+
+四国めたん「map lets you turn number[] into string[] with ease.」
+ずんだもん「Just call toString or use template literals.」
+四国めたん「Returning strings means the result becomes string[].」
+ずんだもん「Great for stringifying IDs or prepping display data.」
+四国めたん「Walk through a concrete example to feel it.」
+ずんだもん「It's a staple conversion trick!」

@@ -1,0 +1,8 @@
+#960 "Mixed Arrays Recap" Script
+
+四国めたん「Let's recap the key points of mixed arrays.」
+ずんだもん「Declare with unions, narrow with type guards, and refine with filter or map.」
+四国めたん「We also reviewed when to pick tuples and how to reuse patterns.」
+ずんだもん「Now you have the techniques to handle mixed data safely.」
+四国めたん「Next we'll dig deeper into arrays versus unions.」
+ずんだもん「Make mixed arrays your ally!」

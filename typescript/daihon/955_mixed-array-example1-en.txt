@@ -1,0 +1,8 @@
+#955 "Practical Example (1)" Script
+
+四国めたん「Let's analyze logs stored in a mixed array.」
+ずんだもん「The message is a string and the timestamp is a number.」
+四国めたん「We'll filter out the strings and sum just the numbers.」
+ずんだもん「Type guards keep everything safe.」
+四国めたん「Use the example to get a feel for union array handling.」
+ずんだもん「It's a pattern you see in real code!」

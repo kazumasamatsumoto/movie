@@ -1,0 +1,8 @@
+#973 "Best Practices" Script
+
+四国めたん「Let's pin down best practices for combining arrays with unions.」
+ずんだもん「Clarify intent with type aliases, share guards, and review inferred types.」
+四国めたん「Cover edge cases in tests.」
+ずんだもん「Comments help reviewers understand your intent.」
+四国めたん「Follow these practices to handle mixed data safely.」
+ずんだもん「Leverage the type system to the fullest!」

@@ -1,0 +1,8 @@
+#991 "Accumulator Type" Script
+
+四国めたん「reduce's accumulator type is dictated by the initial value.」
+ずんだもん「Pass a number and the accumulator is a number.」
+四国めたん「Generic U represents that accumulator.」
+ずんだもん「Omit the initial value and it's inferred from the elements—handle with care.」
+四国めたん「Design reduce with the accumulator type in mind.」
+ずんだもん「Explicit types keep it safe!」

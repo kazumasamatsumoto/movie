@@ -1,0 +1,8 @@
+#1062 "findLast()" Script
+
+四国めたん「Let's cover findLast, added in ES2023.」
+ずんだもん「It returns the last element that matches a condition.」
+四国めたん「If none qualifies, it returns undefined.」
+ずんだもん「Great for reverse-order searches.」
+四国めたん「Verify your runtime supports it before using.」
+ずんだもん「Master the new APIs too!」

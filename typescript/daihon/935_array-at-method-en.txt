@@ -1,0 +1,8 @@
+#935 "The at Method" Script
+
+四国めたん「Use the array at method for safer element access.」
+ずんだもん「Write arr.at(0).」
+四国めたん「Out-of-range indexes return undefined, and negative indexes work too.」
+ずんだもん「TypeScript types it as T | undefined, making guards easy to write.」
+四国めたん「It's available in runtimes from ES2022 onward.」
+ずんだもん「Remember the at method for safe access!」

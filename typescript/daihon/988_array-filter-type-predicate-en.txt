@@ -1,0 +1,8 @@
+#988 "filter() Type Predicates" Script
+
+四国めたん「Pass a type predicate to filter to narrow the resulting array.」
+ずんだもん「For example: (item): item is string => typeof item === \"string\".」
+四国めたん「It's a staple technique for array operations.」
+ずんだもん「Share predicate helpers for reuse across the codebase.」
+四国めたん「Lean on filter predicates proactively.」
+ずんだもん「They make union arrays much easier to manage!」

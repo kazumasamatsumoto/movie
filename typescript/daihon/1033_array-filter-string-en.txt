@@ -1,0 +1,8 @@
+#1033 "(string | number)[] to string[]" Script
+
+四国めたん「Let's narrow (string | number)[] down to string[].」
+ずんだもん「Use a predicate filter to grab only the strings.」
+四国めたん「Write typeof value === \"string\" and the result becomes string[].」
+ずんだもん「After that you can safely run string-only logic.」
+四国めたん「Remember the pattern and apply it to other unions.」
+ずんだもん「Extract strings safely!」

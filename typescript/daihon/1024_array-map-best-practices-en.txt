@@ -1,0 +1,8 @@
+#1024 "Best Practices" Script
+
+四国めたん「Let's highlight best practices when using map.」
+ずんだもん「Avoid side effects, mind the return type, and remove undefined with filter.」
+四国めたん「Keep chains readable, and name intermediate results if needed.」
+ずんだもん「Extract the transformation into functions to make testing easier.」
+四国めたん「Follow the practices to use map safely.」
+ずんだもん「Write clean transformation code!」

@@ -1,0 +1,8 @@
+#916 "Declaring Array Types" Script
+
+四国めたん「Add type annotations when declaring variables to define array types.」
+ずんだもん「Write something like const users: string[] = [].」
+四国めたん「It works the same with let or const.」
+ずんだもん「You can annotate object properties with array types as well.」
+四国めたん「Interfaces and type aliases make them easy to reuse.」
+ずんだもん「Nail the array declarations and raise your type safety!」

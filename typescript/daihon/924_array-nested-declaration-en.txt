@@ -1,0 +1,8 @@
+#924 "Declaring Nested Arrays" Script
+
+四国めたん「Use nested types to declare arrays of arrays.」
+ずんだもん「number[][] or Array<Array<number>>.」
+四国めたん「The type makes it clear that each element is itself an array.」
+ずんだもん「The same pattern works for two dimensions or more.」
+四国めたん「Understanding nesting lets you handle multidimensional data safely.」
+ずんだもん「Remember how to declare nested arrays!」

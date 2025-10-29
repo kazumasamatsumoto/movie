@@ -1,0 +1,8 @@
+#954 "Filtering with Type Predicates" Script
+
+四国めたん「Filtering with predicate functions narrows the type cleanly.」
+ずんだもん「Define helpers like isString or isError.」
+四国めたん「That extracts duplicated type checks from array operations.」
+ずんだもん「It's handy when the same union appears in multiple places.」
+四国めたん「Use predicates to boost readability and reuse.」
+ずんだもん「Bring predicate filtering into your toolkit!」

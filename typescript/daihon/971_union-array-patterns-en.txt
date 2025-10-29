@@ -1,0 +1,8 @@
+#971 "Patterns" Script
+
+四国めたん「Let's catalog common combinations of arrays and unions.」
+ずんだもん「Mixed-element arrays, exclusive arrays, and array-or-single unions show up often.」
+四国めたん「Prepare guards and utilities tailored to each.」
+ずんだもん「With patterns ready, new cases become quick to handle.」
+四国めたん「Template what your domain needs.」
+ずんだもん「Keep building your union-array pattern library!」

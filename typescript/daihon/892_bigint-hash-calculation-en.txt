@@ -1,0 +1,10 @@
+#892 "Hash Calculation" Script
+
+四国めたん「BigInt sometimes shows up as an intermediate value in hash calculations.」
+ずんだもん「SHA family hashes stay binary, but Merkle tree nodes may go through BigInt conversions.」
+四国めたん「It helps with safe accumulation when you're doing bitwise operations.」
+ずんだもん「In TypeScript you can write hash = (hash * prime + charCode) % mod with BigInt.」
+四国めたん「You need BigInt when the modulus is enormous.」
+ずんだもん「Lean on BigInt to reduce collisions in hash computations!」
+四国めたん「Don't forget to stringify the result for storage.」
+ずんだもん「Keep the precision even for massive data sets!」

@@ -1,0 +1,8 @@
+#1064 "Choosing the Right Method" Script
+
+四国めたん「Let's distinguish between find, findIndex, findLast, and findLastIndex.」
+ずんだもん「Grab the value with find/findLast, or the index with findIndex/findLastIndex.」
+四国めたん「Pick based on whether you search forward or backward.」
+ずんだもん「Remember the return when nothing is found.」
+四国めたん「Select the method that fits your goal.」
+ずんだもん「Match the search to your needs!」

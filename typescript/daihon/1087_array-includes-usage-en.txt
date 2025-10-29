@@ -1,0 +1,8 @@
+#1087 "Usage Example" Script
+
+四国めたん「Let's use includes for a permission check.」
+ずんだもん「See if the user's roles include \"admin\".」
+四国めたん「It yields a boolean for straightforward branching.」
+ずんだもん「Perfect for role-based access control.」
+四国めたん「Use the example to picture real scenarios.」
+ずんだもん「You'll reach for it every day!」

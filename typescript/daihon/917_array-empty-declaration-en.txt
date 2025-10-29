@@ -1,0 +1,8 @@
+#917 "Declaring Empty Arrays" Script
+
+四国めたん「Add type annotations when declaring empty arrays.」
+ずんだもん「Write const logs: string[] = []; for example.」
+四国めたん「Without the type they might turn into any[].」
+ずんだもん「We want the type checks to kick in when we push later.」
+四国めたん「Typing empty arrays helps both readability and safety.」
+ずんだもん「Decide the type up front, then add elements!」

@@ -1,0 +1,8 @@
+#1030 "Type Predicate – (value: T) => value is U" Script
+
+四国めたん「filter also has a type-predicate signature.」
+ずんだもん「Return (value: T) => value is U and the result becomes U[].」
+四国めたん「Great for pulling specific types out of a union array.」
+ずんだもん「Learning predicates expands what filter can do.」
+四国めたん「We'll look at concrete usage next.」
+ずんだもん「Start by memorizing the signature!」

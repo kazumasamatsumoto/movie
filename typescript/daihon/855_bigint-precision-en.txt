@@ -1,0 +1,9 @@
+四国めたん「BigInt operations stay perfectly precise.」
+ずんだもん「No floating-point rounding errors.」
+四国めたん「But remember it can’t handle decimals.」
+ずんだもん「Compute with BigInt, convert to number only if necessary.」
+四国めたん「Keep the entire pipeline integer-only for quality.」
+ずんだもん「Pick BigInt when precision reigns.」
+四国めたん「Rest easy knowing your arithmetic is exact.」
+ずんだもん「Let BigInt guard your precision!」
+

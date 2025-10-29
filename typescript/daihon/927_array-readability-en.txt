@@ -1,0 +1,8 @@
+#927 "Readability" Script
+
+四国めたん「Your choice of array notation has a big impact on readability.」
+ずんだもん「Some teams favor T[] to keep the code short.」
+四国めたん「When nesting gets deep, others prefer Array<T> because the brackets clarify the structure.」
+ずんだもん「Discuss it in review and settle on what everyone understands best.」
+四国めたん「The more complex the type, the more readability matters.」
+ずんだもん「Choose your notation with clarity in mind!」

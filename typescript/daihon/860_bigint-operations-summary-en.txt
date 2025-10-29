@@ -1,0 +1,8 @@
+四国めたん「Let’s recap BigInt arithmetic.」
+ずんだもん「Addition, subtraction, multiplication, division, modulus—each stays precise.」
+四国めたん「Exponentiation and bitwise operations expand your toolkit.」
+ずんだもん「Keep types aligned or convert explicitly.」
+四国めたん「Remember to benchmark heavy usage.」
+ずんだもん「Armed with these operations, you’re ready for more.」
+四国めたん「Now let’s explore comparisons and equality.」
+ずんだもん「Onward to the next stage!」

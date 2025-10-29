@@ -1,0 +1,8 @@
+#1015 "Return Types – Type Conversion" Script
+
+四国めたん「map's return type follows the callback's return type.」
+ずんだもん「Return strings to get string[], or objects for an array of objects.」
+四国めたん「It offers a lot of freedom for type conversion.」
+ずんだもん「If you return the wrong type, annotations catch it.」
+四国めたん「Keep the return type in mind when writing conversion logic.」
+ずんだもん「Have fun transforming types!」

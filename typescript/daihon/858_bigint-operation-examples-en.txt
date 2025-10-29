@@ -1,0 +1,9 @@
+四国めたん「Here’s a combined BigInt operation example.」
+ずんだもん「Total sales and compute average, perhaps?」
+四国めたん「Yes—use addition, subtraction, and modulus together.」
+ずんだもん「Observe how TypeScript infers `bigint` end-to-end.」
+四国めたん「Use the example to learn the workflow.」
+ずんだもん「Apply it to your own code!」
+四国めたん「Understand the flow to unlock reuse.」
+ずんだもん「Get hands-on with BigInt arithmetic!」
+

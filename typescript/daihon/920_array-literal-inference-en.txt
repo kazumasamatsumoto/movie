@@ -1,0 +1,8 @@
+#920 "Inferring Array Literals" Script
+
+四国めたん「Array literals with elements get their types inferred from those elements.」
+ずんだもん「[1, 2, 3] becomes number[], and [\"a\", \"b\"] becomes string[].」
+四国めたん「Mixed elements produce a union of the widest common type.」
+ずんだもん「Add as const to get literal-like tuple behavior.」
+四国めたん「Knowing the inference rules keeps unexpected any values away.」
+ずんだもん「Make array literal inference work for you!」

@@ -1,0 +1,8 @@
+#968 "Practical Example (1)" Script
+
+四国めたん「Let's see a case where settings arrive as string[] | number[].」
+ずんだもん「You might receive a list of strings or numbers.」
+四国めたん「Guard to detect which one and process accordingly.」
+ずんだもん「Extract shared logic into reusable functions.」
+四国めたん「Experience array-union handling through the example.」
+ずんだもん「It keeps flexible configuration APIs safe!」

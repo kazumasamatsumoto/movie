@@ -1,0 +1,8 @@
+#939 "Optional Chaining" Script
+
+四国めたん「Optional chaining boosts safety when accessing arrays.」
+ずんだもん「Write arr?.[index].」
+四国めたん「It's handy when the array itself might be undefined.」
+ずんだもん「The result becomes element type | undefined, which pairs nicely with nullish coalescing.」
+四国めたん「Use optional chaining to navigate nested arrays safely.」
+ずんだもん「Short and reassuring!」

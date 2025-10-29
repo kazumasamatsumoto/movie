@@ -1,0 +1,8 @@
+#1098 "Return Type – string" Script
+
+四国めたん「join always returns a string.」
+ずんだもん「Even if elements are numbers, the result is text.」
+四国めたん「That makes it ideal for formatting.」
+ずんだもん「Build the logic expecting a string output.」
+四国めたん「Keep the return type in mind as you use it.」
+ずんだもん「It's intuitive and convenient!」

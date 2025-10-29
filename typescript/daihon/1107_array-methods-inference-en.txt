@@ -1,0 +1,8 @@
+#1107 "Type Inference" Script
+
+四国めたん「concat, slice, and the flat family all benefit from inference.」
+ずんだもん「Like map, the return array type is decided automatically.」
+四国めたん「flatMap infers from the callback's return type.」
+ずんだもん「Add annotations only if the inferred type isn't what you expect.」
+四国めたん「Leverage inference to keep the code concise.」
+ずんだもん「Make the most of TypeScript's strengths!」

@@ -1,0 +1,8 @@
+#1108 "Chaining" Script
+
+四国めたん「Array methods become powerful when you chain them.」
+ずんだもん「Think slice to grab a range, map to shape it, and join to render it.」
+四国めたん「Watch each return type to build type-safe pipelines.」
+ずんだもん「Insert line breaks or variables to keep it readable.」
+四国めたん「Use chaining to express complex logic clearly.」
+ずんだもん「Your array-processing expressiveness will soar!」

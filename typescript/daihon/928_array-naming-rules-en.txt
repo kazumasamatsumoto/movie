@@ -1,0 +1,8 @@
+#928 "Naming Rules" Script
+
+四国めたん「Use plural forms or suffixes like List when naming array variables.」
+ずんだもん「Names such as users, taskList, or items do that.」
+四国めたん「Show that it's a collection not just through types but also through naming.」
+ずんだもん「For enumerations, some teams keep const arrays in uppercase.」
+四国めたん「Establishing naming rules smooths out code reviews.」
+ずんだもん「Give names that are kind to the reader!」

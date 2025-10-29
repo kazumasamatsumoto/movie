@@ -1,0 +1,10 @@
+#903 "Practical Example (2)" Script
+
+四国めたん「Another example: fixed-point currency math tied to the database.」
+ずんだもん「We convert amounts to BigInt on the server, read strings from the DB, and turn them back into BigInt.」
+四国めたん「Process fees and balance updates with BigInt.」
+ずんだもん「Finally return strings through the API to preserve precision.」
+四国めたん「Brand the monetary types in TypeScript for extra safety.」
+ずんだもん「See how BigInt carries over to financial workflows!」
+四国めたん「Pair the conversion helpers with the types—that's the pattern.」
+ずんだもん「Lock in the precision-preserving workflow!」

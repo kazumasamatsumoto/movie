@@ -1,0 +1,8 @@
+#1048 "Summation – number[] to number" Script
+
+四国めたん「Summing values is the classic reduce use case.」
+ずんだもん「Fold number[] and the total appears effortlessly.」
+四国めたん「Pass 0 as the initial value and add with acc + cur.」
+ずんだもん「The zero ensures empty arrays return 0 too.」
+四国めたん「Lock in the summation pattern.」
+ずんだもん「It's the most basic example!」

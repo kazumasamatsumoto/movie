@@ -1,0 +1,8 @@
+#1093 "slice() Types" Script
+
+四国めたん「Now let's check Array.prototype.slice.」
+ずんだもん「It extracts a portion of the array.」
+四国めたん「The signature is slice(start?: number, end?: number): T[].」
+ずんだもん「It leaves the original untouched and returns the same element type.」
+四国めたん「Keep slice basics in mind.」
+ずんだもん「Great for immutable slicing!」

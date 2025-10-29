@@ -1,0 +1,8 @@
+#915 "Choosing a Notation" Script
+
+四国めたん「Pick between Array<T> and T[] according to your project's style guide.」
+ずんだもん「In JSX-heavy React code I often see Array<T>, while backend code leans toward T[].」
+四国めたん「Some teams enforce it through linter settings.」
+ずんだもん「Decide the best choice per context to keep things readable.」
+四国めたん「If both styles show up, align them during review.」
+ずんだもん「Set clear rules and tidy up your type expressions!」

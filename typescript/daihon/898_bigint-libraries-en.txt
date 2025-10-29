@@ -1,0 +1,10 @@
+#898 "Libraries" Script
+
+四国めたん「Let's introduce libraries that support BigInt.」
+ずんだもん「There are options like bigint-isqrt, bigint-crypto-utils, and ethers.js's BigNumber compatibility.」
+四国めたん「Pick the library that fits each use case.」
+ずんだもん「Check whether the TypeScript typings are in good shape.」
+四国めたん「You'll find choices for cryptography, math, fixed-point, and more.」
+ずんだもん「Use libraries to speed up your BigInt development!」
+四国めたん「Review the dependencies so they don't grow unchecked.」
+ずんだもん「Adopt them where they make sense!」

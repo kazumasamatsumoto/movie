@@ -1,0 +1,10 @@
+#902 "Practical Example (1)" Script
+
+四国めたん「As a practical case, let's combine distributed IDs with API responses.」
+ずんだもん「The server creates a BigInt ID, stringifies it in JSON, and the client restores it.」
+四国めたん「TypeScript types keep everything safe across that flow.」
+ずんだもん「A BigInt transport utility in the middle makes the implementation easier.」
+四国めたん「This pattern round-trips the ID without losing precision.」
+ずんだもん「Feel the power of BigInt in real projects!」
+四国めたん「Align the API contract with the type definitions—that's the trick.」
+ずんだもん「Then backend and frontend stay in sync!」

@@ -1,0 +1,8 @@
+#985 "map() Return Types" Script
+
+四国めたん「map always returns a new array whose element type matches the callback's return type.」
+ずんだもん「Mapping number[] to booleans produces boolean[].」
+四国めたん「Inference handles it, so design with the return type in mind.」
+ずんだもん「Returning Promises simply yields an array of Promises—it won't await them.」
+四国めたん「Know the return type so you can chain safely.」
+ずんだもん「Keep your result array type in focus!」

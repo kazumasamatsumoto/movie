@@ -1,0 +1,9 @@
+四国めたん「BigInt supports shift operators like `<<` and `>>`.」
+ずんだもん「Perfect for constructing IDs via bitpacking.」
+四国めたん「Right—signed right shift `>>` works, but `>>>` is disallowed.」
+ずんだもん「`>>>` is for numbers only—watch out.」
+四国めたん「BigInt handles large shift counts accurately.」
+ずんだもん「Use shifts to control bit layouts!」
+四国めたん「Remember, bigger widths cost more.」
+ずんだもん「Embrace BigInt for flexible bit operations!」
+

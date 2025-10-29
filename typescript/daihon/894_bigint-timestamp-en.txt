@@ -1,0 +1,10 @@
+#894 "Timestamps" Script
+
+四国めたん「Handle nanosecond or picosecond timestamps safely with BigInt.」
+ずんだもん「Date.now() only gives milliseconds, but process.hrtime.bigint() returns nanoseconds.」
+四国めたん「It's useful for measuring deltas and ordering logs.」
+ずんだもん「Storing them as BigInt avoids overflow even during long uptimes.」
+四国めたん「Wrap the unit conversions in helper functions to keep the code readable.」
+ずんだもん「Bring BigInt into your timestamp handling to boost precision!」
+四国めたん「Your logs and metrics stay more consistent.」
+ずんだもん「Make it the foundation for high-precision time management!」

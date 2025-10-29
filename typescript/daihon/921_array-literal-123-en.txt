@@ -1,0 +1,8 @@
+#921 "The Type of [1, 2, 3]" Script
+
+四国めたん「Concretely, [1, 2, 3] gets inferred as number[].」
+ずんだもん「Because every element is a number.」
+四国めたん「Declaring it with const blocks reassignment but keeps the type as number[].」
+ずんだもん「Add as const to turn it into readonly [1, 2, 3].」
+四国めたん「For a mutable array, let inference do its work or add an annotation.」
+ずんだもん「Know the inference result and choose accordingly!」

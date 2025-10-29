@@ -1,0 +1,8 @@
+#967 "Type Guards for Array Unions" Script
+
+四国めたん「Use guards when handling unions like string[] | number[].」
+ずんだもん「Combine Array.isArray() with element checks.」
+四国めたん「User-defined predicates that decide string[] or number[] are handy.」
+ずんだもん「Once guarded, branches get precise types.」
+四国めたん「Guard your array unions for safety.」
+ずんだもん「Provide reusable helper functions!」

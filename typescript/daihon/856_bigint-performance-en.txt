@@ -1,0 +1,9 @@
+四国めたん「BigInts are slower and heavier than numbers.」
+ずんだもん「Cost scales with number of digits.」
+四国めたん「Benchmark to spot bottlenecks.」
+ずんだもん「Use BigInt only where needed; stick with number elsewhere.」
+四国めたん「Optimize hot paths by reducing operations.」
+ずんだもん「Introduce BigInt with performance in mind!」
+四国めたん「Balance type safety and speed.」
+ずんだもん「Measure, tune, and adopt wisely!」
+

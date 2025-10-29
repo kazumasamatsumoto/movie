@@ -1,0 +1,8 @@
+#982 "Index Types" Script
+
+四国めたん「Array indexes are of type number.」
+ずんだもん「That covers loop counters and array keys.」
+四国めたん「When used as object keys they stringify, but the type stays number.」
+ずんだもん「You can also describe it with Record<number, T>.」
+四国めたん「Understand index types to guide your array work.」
+ずんだもん「Basic, yet important!」

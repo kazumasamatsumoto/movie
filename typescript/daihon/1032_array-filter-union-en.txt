@@ -1,0 +1,8 @@
+#1032 "Filtering Union Arrays" Script
+
+四国めたん「filter really shines with union arrays.」
+ずんだもん「Type predicates let you isolate just strings or just numbers.」
+四国めたん「It's a go-to technique for handling union elements safely.」
+ずんだもん「Start by filtering (string | number)[].」
+四国めたん「Memorize the union-filter patterns.」
+ずんだもん「Even complex data becomes manageable!」

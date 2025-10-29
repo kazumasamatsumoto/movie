@@ -1,0 +1,8 @@
+#937 "Safe Access Patterns" Script
+
+四国めたん「There are several patterns for accessing arrays safely.」
+ずんだもん「Check length, use the at method, or reach for optional chaining.」
+四国めたん「Guard clauses that handle undefined are important too.」
+ずんだもん「These patterns keep runtime errors away.」
+四国めたん「Bundle them into utility functions for reuse.」
+ずんだもん「Make safe access a habit!」

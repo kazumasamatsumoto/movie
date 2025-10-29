@@ -1,0 +1,8 @@
+#947 "Declaring Union Arrays" Script
+
+四国めたん「Wrap the union in parentheses when declaring mixed arrays.」
+ずんだもん「Like (string | number)[].」
+四国めたん「Array<string | number> means the same thing.」
+ずんだもん「Skip the parentheses and you get number[] | string[], so watch out.」
+四国めたん「State the intended type clearly at declaration.」
+ずんだもん「Remember how to write union arrays!」

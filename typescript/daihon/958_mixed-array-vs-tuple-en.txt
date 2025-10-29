@@ -1,0 +1,8 @@
+#958 "Union Arrays vs Tuples" Script
+
+四国めたん「Let's contrast mixed arrays with tuples.」
+ずんだもん「Union arrays have flexible lengths, while tuples fix types per position.」
+四国めたん「When constraints are tight, reach for tuples.」
+ずんだもん「If you need to grow or shrink freely, union arrays fit better.」
+四国めたん「Pick whichever suits the use case.」
+ずんだもん「Choose the optimal structure!」

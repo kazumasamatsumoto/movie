@@ -1,0 +1,8 @@
+#1077 "Choosing between some and every" Script
+
+四国めたん「Let's decide when to use some or every.」
+ずんだもん「Use some to see if any element passes, and every to ensure all of them do.」
+四国めたん「Both return booleans and short-circuit.」
+ずんだもん「Watch readability when writing negative conditions.」
+四国めたん「Pick the method that fits your goal.」
+ずんだもん「Use each one for its intended role!」

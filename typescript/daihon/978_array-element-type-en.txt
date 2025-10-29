@@ -1,0 +1,8 @@
+#978 "Element Types" Script
+
+四国めたん「An element type is the type of values inside an array.」
+ずんだもん「For number[], the element type is number.」
+四国めたん「In generics, T[] has T as its element type.」
+ずんだもん「Turn it into a type alias for reuse.」
+四国めたん「Design your function types with the element type in mind.」
+ずんだもん「It's the foundation of array operations!」

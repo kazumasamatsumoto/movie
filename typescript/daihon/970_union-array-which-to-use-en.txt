@@ -1,0 +1,8 @@
+#970 "Which One Should You Use?" Script
+
+四国めたん「Choose between (string | number)[] and string[] | number[] based on your requirements.」
+ずんだもん「Pick the former if elements mix, the latter if the entire array switches.」
+四国めたん「Match it to your API contract and data model.」
+ずんだもん「Also consider future evolution and simpler handling.」
+四国めたん「Document the decision via comments or type aliases.」
+ずんだもん「State the intent clearly and choose wisely!」

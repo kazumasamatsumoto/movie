@@ -1,0 +1,8 @@
+#1028 "filter(callback: (value: T) => boolean): T[]" Script
+
+四国めたん「The basic signature is filter(callback: (value: T) => boolean): T[].」
+ずんだもん「Return true to keep the element, false to drop it.」
+四国めたん「It's a straightforward boolean-based filter.」
+ずんだもん「You can also receive index and array if you need them.」
+四国めたん「Start by picturing this simple form.」
+ずんだもん「Clean and easy to handle!」

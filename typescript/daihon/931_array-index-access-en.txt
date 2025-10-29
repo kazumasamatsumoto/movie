@@ -1,0 +1,8 @@
+#931 "Index Access" Script
+
+四国めたん「Access array elements by their index.」
+ずんだもん「Like writing scores[0].」
+四国めたん「Indexes start at 0 and must be integers.」
+ずんだもん「If the index doesn't exist, you get undefined.」
+四国めたん「The element type comes back, but remember undefined is possible.」
+ずんだもん「Lock down the basics of index access!」

@@ -1,0 +1,8 @@
+#984 "map Types" Script
+
+四国めたん「Array.map returns an array whose type matches the callback's return type.」
+ずんだもん「It's easy to convert number[] into string[], for instance.」
+四国めたん「The generic signature is <U>(callback: (value: T, index: number, array: T[]) => U) => U[].」
+ずんだもん「Mind the callback's return to get the type you want.」
+四国めたん「Understand map's typing for safe transformations.」
+ずんだもん「It's the basis of transform logic!」

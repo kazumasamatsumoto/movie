@@ -1,0 +1,9 @@
+四国めたん「Mixing BigInt and number operations triggers TypeError.」
+ずんだもん「Expressions like `1n + 1` throw.」
+四国めたん「Unify the types or convert with `Number()`/`BigInt()`.」
+ずんだもん「TypeScript flags it at compile time.」
+四国めたん「No implicit conversion keeps precision intentions clear.」
+ずんだもん「Let the error guard your safety!」
+四国めたん「Make it a team rule and avoid mishaps.」
+ずんだもん「Respect the boundary between BigInt and number!」
+

@@ -1,0 +1,8 @@
+#993 "Type Safety" Script
+
+四国めたん「Keep type safety in mind even inside loops.」
+ずんだもん「Narrow element types and guard against undefined.」
+四国めたん「Use control-flow analysis to write safe logic.」
+ずんだもん「Watch the return types when dealing with Promises or async code.」
+四国めたん「Type safety helps suppress bugs.」
+ずんだもん「Write loops with safety first!」

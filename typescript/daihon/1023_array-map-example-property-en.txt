@@ -1,0 +1,8 @@
+#1023 "Practical Example (2) – Property Extraction" Script
+
+四国めたん「map also excels at pulling out single properties.」
+ずんだもん「Like extracting just the id from an array of objects.」
+四国めたん「Inference automatically sets the return type.」
+ずんだもん「Great when you want a lighter array of specific fields.」
+四国めたん「Use the example to get a feel for it.」
+ずんだもん「map’s range of uses keeps expanding!」

@@ -1,0 +1,8 @@
+#1020 "undefined Doesn’t Disappear" Script
+
+四国めたん「map returning undefined doesn’t drop elements.」
+ずんだもん「It always produces an array with the original length.」
+四国めたん「Use filter when you want to remove empty items.」
+ずんだもん「If map returns undefined, those undefined values stay in the array.」
+四国めたん「Understand the behavior and choose accordingly.」
+ずんだもん「Watch out for unintended undefineds!」

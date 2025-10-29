@@ -1,0 +1,8 @@
+#919 "When Annotations Are Necessary" Script
+
+四国めたん「Empty or complex arrays often require explicit annotations.」
+ずんだもん「If you leave it to inference you might end up with any[] or never[].」
+四国めたん「Annotate placeholders like API responses to lock in the type early.」
+ずんだもん「It also signals your intent to readers.」
+四国めたん「Even when optional, annotations can serve as documentation.」
+ずんだもん「Judge when you need them and keep arrays safe!」

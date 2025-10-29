@@ -1,0 +1,8 @@
+#963 "Difference Between the Two Notations" Script
+
+四国めたん「Let's summarize the difference between (string | number)[] and string[] | number[].」
+ずんだもん「The first mixes elements; the second is mutually exclusive.」
+四国めたん「Both are unions, just at different levels.」
+ずんだもん「Decide which one matches your intent before coding.」
+四国めたん「Choose based on the data shape and API design.」
+ずんだもん「Understand the distinction and cut down on mistakes!」

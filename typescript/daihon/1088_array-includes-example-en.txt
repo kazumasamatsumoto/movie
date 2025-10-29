@@ -1,0 +1,8 @@
+#1088 "Practical Example" Script
+
+四国めたん「Let's implement a banned-word check.」
+ずんだもん「Split the input text and see if any words appear in the banned list.」
+四国めたん「Combine some with includes for a concise solution.」
+ずんだもん「Great for validating user submissions.」
+四国めたん「Use the example to assemble your own existence checks.」
+ずんだもん「Keep your content safe!」

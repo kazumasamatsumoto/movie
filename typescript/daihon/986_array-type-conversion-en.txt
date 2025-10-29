@@ -1,0 +1,8 @@
+#986 "Type Conversion" Script
+
+四国めたん「Use map or filter to convert array types.」
+ずんだもん「You can change string[] to number[] or narrow a union array.」
+四国めたん「Set the callback return type correctly to stay safe.」
+ずんだもん「Sometimes reduce converts the data into a different structure.」
+四国めたん「Design conversions with the type goal in mind.」
+ずんだもん「Lock down the basics of type-changing operations!」

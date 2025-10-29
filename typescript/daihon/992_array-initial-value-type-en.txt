@@ -1,0 +1,8 @@
+#992 "Initial Value Type" Script
+
+四国めたん「The initial value type for reduce is the accumulator type itself.」
+ずんだもん「Add an object as the initial value and the accumulator becomes an object.」
+四国めたん「Skipping the initial value lets the array elements dictate the type, which may not match your intent.」
+ずんだもん「Specify the initial value explicitly to stay safe.」
+四国めたん「Understand the initial type to master reduce.」
+ずんだもん「Avoid unintended inference!」

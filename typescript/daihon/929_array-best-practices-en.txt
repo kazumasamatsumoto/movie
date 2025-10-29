@@ -1,0 +1,8 @@
+#929 "Best Practices" Script
+
+四国めたん「Let's lock in best practices for array types.」
+ずんだもん「Annotate empty arrays, spell out unions for mixed elements, and use plural names.」
+四国めたん「Decide when to rely on inference and when to annotate explicitly.」
+ずんだもん「Keep an eye on method chains so the element type stays intact.」
+四国めたん「Build a review culture that checks whether array types fit.」
+ずんだもん「Follow the best practices and keep array operations safe!」

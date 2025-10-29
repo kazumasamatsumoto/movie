@@ -1,0 +1,8 @@
+#1026 "Array.prototype.filter()" Script
+
+四国めたん「Next let's explore Array.prototype.filter.」
+ずんだもん「It keeps only the elements that match a condition.」
+四国めたん「The original array stays untouched while the truthy elements form a new array.」
+ずんだもん「It's the fundamental filtering method, so learn it well.」
+四国めたん「We'll cover the overview and then dive into types.」
+ずんだもん「Filter elements safely with filter!」

@@ -1,0 +1,10 @@
+#875 "Comparison Summary" Script
+
+四国めたん「Let's review the key points of BigInt comparisons.」
+ずんだもん「We compare both type and value with ===, judge order with < and >, and convert numbers before handling them.」
+四国めたん「We also implemented sorting and max retrieval with comparison functions.」
+ずんだもん「Stringifying was crucial for JSON and hash usage too.」
+四国めたん「Stick to best practices and comparing huge integers stays safe.」
+ずんだもん「Next let's explore BigInt's limitations and workarounds!」
+四国めたん「Master the basics of comparison and move on to applications.」
+ずんだもん「With this, BigInt comparisons are totally covered!」

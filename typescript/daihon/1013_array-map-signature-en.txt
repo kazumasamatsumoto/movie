@@ -1,0 +1,8 @@
+#1013 "map<U>(callback: (value: T) => U): U[]" Script
+
+四国めたん「map's signature is map<U>(callback: (value: T, index: number, array: T[]) => U): U[].」
+ずんだもん「Generic U matches the callback's return type.」
+四国めたん「That lets you transform element types freely.」
+ずんだもん「You get three arguments: value, index, and array.」
+四国めたん「Know the signature so you can define callbacks properly.」
+ずんだもん「Make full use of the type info!」

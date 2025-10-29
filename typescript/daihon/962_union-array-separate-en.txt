@@ -1,0 +1,8 @@
+#962 "string[] | number[]" Script
+
+四国めたん「string[] | number[] means the array is either all strings or all numbers.」
+ずんだもん「That's different from (string | number)[].」
+四国めたん「The elements don't mix; the entire array switches types.」
+ずんだもん「You'll need type guards on the array itself.」
+四国めたん「Understand the distinction so you express the intended shape.」
+ずんだもん「Lock in the meaning of string[] | number[]!」

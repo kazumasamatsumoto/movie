@@ -1,0 +1,8 @@
+#957 "Best Practices" Script
+
+四国めたん「Let's recap the best practices for mixed arrays.」
+ずんだもん「Declare the union explicitly, prepare type guards, and narrow with filter or map.」
+四国めたん「Extract common checks into reusable functions.」
+ずんだもん「Sometimes it's better to switch to tuples or object arrays.」
+四国めたん「Balance readability with the risks of mixing types.」
+ずんだもん「Follow the best practices for safe mixed arrays!」

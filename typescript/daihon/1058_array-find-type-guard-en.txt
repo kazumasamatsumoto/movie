@@ -1,0 +1,8 @@
+#1058 "Type Predicates" Script
+
+四国めたん「find also supports type-predicate signatures.」
+ずんだもん「Return (value: T) => value is U to get U | undefined.」
+四国めたん「Perfect for locating a specific type within a union.」
+ずんだもん「Just like filter, keep predicates in your toolkit.」
+四国めたん「Use them to control find's return type.」
+ずんだもん「It makes narrowing even safer!」

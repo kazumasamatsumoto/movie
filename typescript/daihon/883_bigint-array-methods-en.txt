@@ -1,0 +1,10 @@
+#883 "Array Methods" Script
+
+四国めたん「You can use Array methods like map and reduce on BigInt arrays without any issues.」
+ずんだもん「Just watch out for number-only helpers such as Math.max.」
+四国めたん「You'll need to write custom logic in reduce.」
+ずんだもん「filter and find work as usual, which is handy.」
+四国めたん「Type inference keeps the values as BigInt, so it's safe.」
+ずんだもん「Master BigInt collections with Array methods!」
+四国めたん「Stay mindful of types when chaining Array operations.」
+ずんだもん「Remember they won't implicitly convert to number!」

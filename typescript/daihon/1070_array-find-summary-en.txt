@@ -1,0 +1,8 @@
+#1070 "find Family Recap" Script
+
+四国めたん「Let's recap the find family.」
+ずんだもん「find returns T | undefined, findIndex returns a number, findLast variants search from the end, and predicates help narrow types.」
+四国めたん「We also checked how to choose between them and the runtime support.」
+ずんだもん「Handle undefined and -1 carefully.」
+四国めたん「Next we'll explore the some/every methods.」
+ずんだもん「Master the find family for smart searches!」

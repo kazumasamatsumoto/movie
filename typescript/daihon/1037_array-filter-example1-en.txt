@@ -1,0 +1,8 @@
+#1037 "Practical Example (1)" Script
+
+四国めたん「Let's extract only active users.」
+ずんだもん「Filter the array to keep entries where active === true.」
+四国めたん「Then map the result into view-ready data.」
+ずんだもん「The chain stays nice and readable.」
+四国めたん「Use the example to build your own filtering logic.」
+ずんだもん「It's production-ready as-is!」

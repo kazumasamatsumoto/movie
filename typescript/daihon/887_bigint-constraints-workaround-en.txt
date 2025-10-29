@@ -1,0 +1,10 @@
+#887 "Workarounds for Constraints" Script
+
+四国めたん「Let's collect techniques for avoiding BigInt's limitations.」
+ずんだもん「When Math functions aren't available we implement our own, JSON means stringifying, and performance calls for algorithm tweaks.」
+四国めたん「Consider pairing with a decimal library when needed.」
+ずんだもん「If you need fractions, adopt a fixed-point strategy.」
+四国めたん「Shared conversion and serialization helpers keep the constraints from tripping you up.」
+ずんだもん「Memorize the workarounds and use BigInt with confidence!」
+四国めたん「Document the limitations and their workarounds.」
+ずんだもん「Solve the problems before they bite you!」

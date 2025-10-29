@@ -1,0 +1,8 @@
+#1079 "Best Practices" Script
+
+四国めたん「Let's recap best practices for some/every.」
+ずんだもん「They return booleans, so feed them straight into conditions and keep negations readable.」
+四国めたん「Store the result in a well-named variable to boost clarity.」
+ずんだもん「Be mindful of heavy work inside the callback.」
+四国めたん「Follow the practices to write safe checks.」
+ずんだもん「Simplicity is key!」

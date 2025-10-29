@@ -1,0 +1,8 @@
+#1065 "find() vs filter()[0]" Script
+
+四国めたん「Know the difference between find() and filter()[0].」
+ずんだもん「find stops as soon as it locates the first match.」
+四国めたん「filter()[0] scans the entire array and then takes the first result, which is less efficient.」
+ずんだもん「Both return T | undefined, but filter()[0] has more overhead.」
+四国めたん「When you want a single element, choose find.」
+ずんだもん「Pick with performance and clarity in mind!」

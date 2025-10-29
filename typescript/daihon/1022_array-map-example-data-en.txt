@@ -1,0 +1,8 @@
+#1022 "Practical Example (1) – Data Conversion" Script
+
+四国めたん「Let's look at a real data conversion with map.」
+ずんだもん「Say we reshape raw API data for the view.」
+四国めたん「Convert numbers to strings or attach extra info as objects.」
+ずんだもん「map centralizes the formatting logic.」
+四国めたん「Use the example as inspiration for your own maps.」
+ずんだもん「Your conversion code stays easy to read!」

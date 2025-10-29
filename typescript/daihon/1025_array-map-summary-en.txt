@@ -1,0 +1,8 @@
+#1025 "map Recap" Script
+
+四国めたん「Let's recap the key map takeaways.」
+ずんだもん「Callbacks change the type, it returns a new array, and the length stays the same.」
+四国めたん「We also looked at inference, annotations, and combining with predicates.」
+ずんだもん「Chaining and examples showed common use cases.」
+四国めたん「Next up is a deep dive into filter.」
+ずんだもん「Master map and enjoy transforming data!」

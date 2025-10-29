@@ -1,0 +1,10 @@
+#878 "Math.pow() and Exponentiation" Script
+
+四国めたん「Math.pow doesn't support BigInt either.」
+ずんだもん「Instead, just use the ** operator.」
+四国めたん「Make sure the exponent is also a BigInt.」
+ずんだもん「Remember that negative or fractional exponents are invalid.」
+四国めたん「Large powers are expensive, so consider optimizations like exponentiation by squaring.」
+ずんだもん「Know the operators and helper functions that replace Math.pow!」
+四国めたん「Pick the approach that fits your algorithm.」
+ずんだもん「Use BigInt exponentiation to work around the constraints!」

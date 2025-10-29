@@ -1,0 +1,8 @@
+#914 "Differences Between Notations" Script
+
+四国めたん「Array<T> and T[] mean the same thing, but they feel different to write.」
+ずんだもん「Depending on how you mix in generics, one may read better than the other.」
+四国めたん「Array<T> is explicit when juggling type parameters, while T[] stays shorter for simple cases.」
+ずんだもん「I heard T[] is safer inside JSX.」
+四国めたん「Strictly speaking, Array<T> is just less likely to collide with JSX tags.」
+ずんだもん「Understand the differences and pick what's best for the situation!」

@@ -1,0 +1,8 @@
+#975 "Grand Recap" Script
+
+四国めたん「Let's recap the differences and proper use of array unions.」
+ずんだもん「(string | number)[] mixes elements, while string[] | number[] is exclusive.」
+四国めたん「We also reviewed type guards and best practices.」
+ずんだもん「Design the type that matches your intent and you'll stay safe.」
+四国めたん「Next up: array loops and type inference.」
+ずんだもん「Consider union arrays mastered!」

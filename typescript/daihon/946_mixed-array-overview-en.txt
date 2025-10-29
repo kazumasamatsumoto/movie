@@ -1,0 +1,8 @@
+#946 "What Are Mixed-Type Arrays?" Script
+
+四国めたん「Mixed-type arrays hold elements of different types together.」
+ずんだもん「In TypeScript we express that with unions.」
+四国めたん「Write something like (string | number)[].」
+ずんだもん「Sometimes a tuple fits better, so evaluate the situation.」
+四国めたん「Understand the characteristics before you use mixed arrays.」
+ずんだもん「Start with the big picture!」

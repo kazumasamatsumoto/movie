@@ -1,0 +1,10 @@
+#889 "Best Practices" Script
+
+四国めたん「Let's outline best practices that account for BigInt's constraints.」
+ずんだもん「We gather conversion, serialization, and math helpers into shared utilities.」
+四国めたん「Centralize the code that bumps into those limitations.」
+ずんだもん「If you want Math-like behavior, wrap it in dedicated functions.」
+四国めたん「Measure performance and memory, and mix in numbers when the situation calls for it.」
+ずんだもん「Follow the best practices and the constraints stop being scary.」
+四国めたん「Document and test every mitigation.」
+ずんだもん「Use them as your operating guide for BigInt!」

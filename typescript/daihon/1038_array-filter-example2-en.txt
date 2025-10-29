@@ -1,0 +1,8 @@
+#1038 "Practical Example (2)" Script
+
+四国めたん「Now let's pull out only error logs.」
+ずんだもん「Keep entries where status is 500 or higher.」
+四国めたん「After filtering, map them into formatted messages.」
+ずんだもん「It's great for building notification payloads.」
+四国めたん「Remember this as another filter pattern.」
+ずんだもん「Perfect for log analysis!」

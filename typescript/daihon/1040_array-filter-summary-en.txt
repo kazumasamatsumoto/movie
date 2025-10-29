@@ -1,0 +1,8 @@
+#1040 "filter Recap" Script
+
+四国めたん「Let's sum up filter.」
+ずんだもん「It narrows with booleans or predicates, returns T[], or U[] when using a predicate.」
+四国めたん「Great for stripping nulls or splitting union arrays.」
+ずんだもん「Follow the best practices for safe filtering.」
+四国めたん「Next we'll dive into reduce.」
+ずんだもん「Master filter and tidy your data!」

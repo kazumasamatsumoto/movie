@@ -1,0 +1,8 @@
+#1054 "Best Practices" Script
+
+四国めたん「Let's summarize reduce best practices.」
+ずんだもん「Always set an initial value, keep the accumulator type clear, and make the callback pure.」
+四国めたん「If the logic gets unwieldy, consider mixing in other methods.」
+ずんだもん「Extract utilities so they're easier to test.」
+四国めたん「Follow the practices to write safe reduce calls.」
+ずんだもん「Prioritize readability and type safety!」

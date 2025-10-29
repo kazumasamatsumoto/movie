@@ -1,0 +1,8 @@
+#938 "Checking for Existence" Script
+
+四国めたん「Check that an element exists before you access it.」
+ずんだもん「Write if (index < arr.length) { ... }.」
+四国めたん「You can also use find or some to confirm presence.」
+ずんだもん「Guards narrow the type as you access.」
+四国めたん「Memorize these checks and stop runtime errors.」
+ずんだもん「Access safely first!」

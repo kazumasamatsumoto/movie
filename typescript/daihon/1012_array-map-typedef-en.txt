@@ -1,0 +1,8 @@
+#1012 "Type Definition" Script
+
+四国めたん「TypeScript's lib.d.ts defines map in detail.」
+ずんだもん「In the array generics you’ll see map<U>(callback: ...) => U[].」
+四国めたん「The callback's return type dictates the new array's type.」
+ずんだもん「Knowing the definition explains IntelliSense suggestions.」
+四国めたん「Peek into the lib files to understand the behavior.」
+ずんだもん「Make the type definition your ally!」

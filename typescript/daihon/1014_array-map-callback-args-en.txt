@@ -1,0 +1,8 @@
+#1014 "Callback Arguments" Script
+
+四国めたん「map callbacks receive three arguments: value, index, and array.」
+ずんだもん「Only grab the ones you need.」
+四国めたん「Feel free to omit unused parameters.」
+ずんだもん「Take index as the second argument when required.」
+四国めたん「Their types match the definitions in lib.d.ts.」
+ずんだもん「Make good use of the callback arguments!」

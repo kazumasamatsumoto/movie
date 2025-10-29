@@ -1,0 +1,8 @@
+#956 "Practical Example (2)" Script
+
+四国めたん「Here's another case: an API response mixing success and error results.」
+ずんだもん「So we have a union array of Success and Error.」
+四国めたん「Use guards to pull out the successes and log the errors.」
+ずんだもん「A predicate helper makes the flow clearer.」
+四国めたん「Follow the example to handle mixed data safely.」
+ずんだもん「It's a pattern that's useful in production!」

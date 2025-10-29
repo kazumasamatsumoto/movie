@@ -1,0 +1,8 @@
+#942 "Inference with Destructuring" Script
+
+四国めたん「TypeScript infers element types even with destructuring.」
+ずんだもん「In const [id, name] = user, both variables get the right types.」
+四国めたん「If the array is a tuple, it narrows to literal types.」
+ずんだもん「For union arrays, the element union flows straight through.」
+四国めたん「Inference often lets you skip annotations.」
+ずんだもん「Get to know how destructuring inference works!」

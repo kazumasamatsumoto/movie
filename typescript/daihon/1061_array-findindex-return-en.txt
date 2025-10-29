@@ -1,0 +1,8 @@
+#1061 "findIndex() Return Value" Script
+
+四国めたん「findIndex returns a number, or -1 when nothing matches.」
+ずんだもん「Forget the -1 check and you'll ship bugs.」
+四国めたん「Always verify before using the index.」
+ずんだもん「A nullish-coalescing fallback works too.」
+四国めたん「Remember how to handle the result.」
+ずんだもん「Use indexes safely!」

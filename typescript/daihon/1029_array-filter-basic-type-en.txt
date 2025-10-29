@@ -1,0 +1,8 @@
+#1029 "Basic Type" Script
+
+四国めたん「filter returns an array with the same element type T.」
+ずんだもん「Filter a number[] and you still get number[].」
+四国めたん「Elements don’t change type unless you use a predicate.」
+ずんだもん「Knowing the base behavior keeps it predictable.」
+四国めたん「Once the basics are clear, move on to type predicates.」
+ずんだもん「Fundamentals first!」

@@ -1,0 +1,10 @@
+#882 "JSON Representation Methods" Script
+
+四国めたん「Let's choose how to represent BigInt values in JSON.」
+ずんだもん「The common patterns are plain strings, numeric strings with units, or an object wrapper.」
+四国めたん「For example: \"123\", {\"value\":\"123\"}, or {\"value\":\"123\",\"unit\":\"wei\"}.」
+ずんだもん「Pick a format the receiver can easily restore.」
+四国めたん「Document the schema and spell out the format explicitly.」
+ずんだもん「Standardize the JSON representation so BigInts travel safely!」
+四国めたん「Make sure your test cases cover it as well.」
+ずんだもん「Agree on the representation before you implement it!」

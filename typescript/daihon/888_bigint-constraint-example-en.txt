@@ -1,0 +1,10 @@
+#888 "Constraint Examples" Script
+
+四国めたん「Let's look at real cases where BigInt limitations pop up.」
+ずんだもん「Think JSON.stringify failures, Math.max not working, or missing decimal calculations.」
+四国めたん「We'll pair each case with its workaround.」
+ずんだもん「Knowing the issues that show up in real code makes planning fixes easier.」
+四国めたん「Recreate the constraints in tests and include the mitigation code.」
+ずんだもん「Share these examples so the team can adopt BigInt smoothly!」
+四国めたん「Prepare modularized solutions ahead of time.」
+ずんだもん「Leverage BigInt with full awareness of its limits!」

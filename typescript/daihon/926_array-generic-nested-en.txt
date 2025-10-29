@@ -1,0 +1,8 @@
+#926 "Array<Array<number>>" Script
+
+四国めたん「Array<Array<number>> is the generic form of a two-dimensional array.」
+ずんだもん「It means the same thing as number[][], just wrapped in <>.」
+四国めたん「In codebases heavy on generics, it keeps the style consistent.」
+ずんだもん「It also clarifies the structure when you inspect the type tree.」
+四国めたん「Both notations represent the same type, so choose the one you prefer.」
+ずんだもん「Get comfortable reading Array<Array<number>> too!」

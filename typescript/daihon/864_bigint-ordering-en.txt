@@ -1,0 +1,9 @@
+四国めたん「Use `<`, `>`, `<=`, `>=` for BigInt ordering.」
+ずんだもん「It feels just like comparing numbers.」
+四国めたん「Ensure both sides are BigInt.」
+ずんだもん「Huge differences stay accurate.」
+四国めたん「Range checks remain straightforward.」
+ずんだもん「Build control flow with BigInt comparisons.」
+四国めたん「Every comparison is exact.」
+ずんだもん「Set thresholds with confidence!」
+

@@ -1,0 +1,8 @@
+#1056 "Array.prototype.find()" Script
+
+四国めたん「Now let's study Array.prototype.find.」
+ずんだもん「It returns the first element that matches a condition.」
+四国めたん「If none is found, it returns undefined.」
+ずんだもん「It's the base search method, so learn it well.」
+四国めたん「We'll cover the overview before diving into types.」
+ずんだもん「Great for locating elements quickly!」

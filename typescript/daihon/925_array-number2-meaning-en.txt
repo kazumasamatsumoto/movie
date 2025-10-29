@@ -1,0 +1,8 @@
+#925 "What number[][] Means" Script
+
+四国めたん「number[][] means “an array of number[]”.」
+ずんだもん「So each element is itself a number[].」
+四国めたん「Unfold the double brackets and the meaning becomes clear.」
+ずんだもん「Use it when you want something like a two-dimensional array.」
+四国めたん「Understand number[][] to type multidimensional data correctly.」
+ずんだもん「Keep the element structure in mind!」

@@ -1,0 +1,8 @@
+#1090 "includes Recap" Script
+
+四国めたん「Let's summarize includes.」
+ずんだもん「It returns booleans for existence checks, finds NaN, and doesn't narrow types.」
+四国めたん「We also noted the differences from indexOf and the best practices.」
+ずんだもん「Next we'll explore other array methods.」
+四国めたん「Master includes for concise presence checks.」
+ずんだもん「Your array fundamentals are solid!」

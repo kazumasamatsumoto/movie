@@ -1,0 +1,8 @@
+#1044 "Accumulator Type" Script
+
+四国めたん「The accumulator type in reduce is set by the initial value.」
+ずんだもん「Pass a Record and the accumulator becomes a Record.」
+四国めたん「The callback must return the same type as well.」
+ずんだもん「Design with the accumulator type in mind.」
+四国めたん「Consistency is the secret to a successful reduce.」
+ずんだもん「Stick with type-safe accumulators!」

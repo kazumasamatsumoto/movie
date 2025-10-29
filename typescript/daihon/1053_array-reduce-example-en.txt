@@ -1,0 +1,8 @@
+#1053 "Practical Example" Script
+
+四国めたん「Let's aggregate purchase history with reduce.」
+ずんだもん「Compute the total amount and per-category counts in one pass.」
+四国めたん「Use a composite object as the accumulator.」
+ずんだもん「reduce collects everything in a single loop.」
+四国めたん「Use the example to craft complex aggregations.」
+ずんだもん「Leverage types for safe summaries!」

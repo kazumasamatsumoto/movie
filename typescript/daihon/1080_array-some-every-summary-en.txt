@@ -1,0 +1,8 @@
+#1080 "some/every Recap" Script
+
+四国めたん「Let's summarize some and every.」
+ずんだもん「some returns true if any element passes, every returns true if all pass, and both yield booleans.」
+四国めたん「We also looked at short-circuiting and predicate-based narrowing.」
+ずんだもん「Follow the best practices for concise checks.」
+四国めたん「Next we'll inspect includes in detail.」
+ずんだもん「Master some/every to sharpen your logic!」

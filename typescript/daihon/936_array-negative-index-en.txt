@@ -1,0 +1,8 @@
+#936 "Negative Indexes" Script
+
+四国めたん「The at method also handles negative indexes.」
+ずんだもん「arr.at(-1) fetches the last element.」
+四国めたん「We used to write arr[arr.length - 1].」
+ずんだもん「Readability improves, so use it proactively.」
+四国めたん「The type is T | undefined, keeping things safe.」
+ずんだもん「Negative indexes tidy up your code!」

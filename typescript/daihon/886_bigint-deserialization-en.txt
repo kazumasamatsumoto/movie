@@ -1,0 +1,10 @@
+#886 "Deserialization" Script
+
+四国めたん「Let's firm up the deserialization flow that turns strings back into BigInts.」
+ずんだもん「Using Number() would lose precision, so always call BigInt().」
+四国めたん「Validate the input and reject unexpected formats.」
+ずんだもん「Handle the conversion in JSON.parse's reviver or a DTO constructor.」
+四国めたん「Set up error handling for exceptional cases.」
+ずんだもん「Keep BigInt safe during deserialization!」
+四国めたん「Centralize the restoration logic to avoid duplication.」
+ずんだもん「Clarify the receiver's responsibilities!」

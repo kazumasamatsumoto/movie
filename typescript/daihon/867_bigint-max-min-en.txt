@@ -1,0 +1,9 @@
+四国めたん「Find BigInt extrema via `reduce`.」
+ずんだもん「`Math.max` doesn’t support BigInt.」
+四国めたん「Implement custom comparison logic instead.」
+ずんだもん「Remember to handle empty arrays and initial values.」
+四国めたん「Create reusable helpers for max/min.」
+ずんだもん「Safely find maxima or minima at any scale.」
+四国めたん「Reuse compare functions to keep code concise.」
+ずんだもん「Compute extrema meticulously!」
+

@@ -1,0 +1,8 @@
+#995 "Loop Recap" Script
+
+四国めたん「Let's sum up the key points of array loops.」
+ずんだもん「We covered the typing of for, for...of, forEach, and map/filter/reduce.」
+四国めたん「Type guards and nullish coalescing kept things safe.」
+ずんだもん「Choose the best loop for each scenario.」
+四国めたん「We'll keep inference in mind in the next chapter too.」
+ずんだもん「You've nailed array loops now!」

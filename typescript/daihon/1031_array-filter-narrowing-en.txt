@@ -1,0 +1,8 @@
+#1031 "Type Narrowing" Script
+
+四国めたん「Type predicates let filter narrow the resulting array.」
+ずんだもん「You can handle the filtered array directly—very convenient.」
+四国めたん「Downstream code no longer needs casts.」
+ずんだもん「Type safety improves, so use it proactively.」
+四国めたん「Check the narrowing effect in action.」
+ずんだもん「Union arrays become much easier to handle!」

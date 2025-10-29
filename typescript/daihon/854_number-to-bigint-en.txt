@@ -1,0 +1,9 @@
+四国めたん「Convert numbers to BigInt via `BigInt()`.」
+ずんだもん「Non-integers cause exceptions.」
+四国めたん「Validate with `Number.isInteger` first.」
+ずんだもん「Build utilities to convert number arrays.」
+四国めたん「Secure precision before calculations.」
+ずんだもん「Make explicit BigInt conversion a habit!」
+四国めたん「Switch early if overflow is possible.」
+ずんだもん「Convert correctly to protect accuracy!」
+

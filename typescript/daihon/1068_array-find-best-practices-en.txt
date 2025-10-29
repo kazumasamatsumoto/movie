@@ -1,0 +1,8 @@
+#1068 "Best Practices" Script
+
+四国めたん「Let's summarize best practices for the find family.」
+ずんだもん「Handle possible undefined results, factor conditions into helpers, and check runtime support for findLast.」
+四国めたん「Use find for single matches and filter for multiples.」
+ずんだもん「Always confirm existence before using the result.」
+四国めたん「Follow the practices to build robust search logic.」
+ずんだもん「Aim for safe, readable code!」

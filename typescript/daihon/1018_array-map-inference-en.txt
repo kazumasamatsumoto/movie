@@ -1,0 +1,8 @@
+#1018 "Type Inference" Script
+
+四国めたん「map infers the callback's return type automatically.」
+ずんだもん「Even without annotations it picks string[] or number[].」
+四国めたん「Inference also works with unions or complex objects.」
+ずんだもん「Add annotations only when the result differs from what you expect.」
+四国めたん「Rely on inference and assist it when needed.」
+ずんだもん「Your development speed climbs!」

@@ -1,0 +1,8 @@
+#1086 "No Type Narrowing" Script
+
+四国めたん「includes doesn't narrow types.」
+ずんだもん「Even if (string | number)[] includes \"value\", the element type stays the same.」
+四国めたん「The result is a boolean; the array type is unchanged.」
+ずんだもん「Use filter or guards when you need narrowing.」
+四国めたん「Understand the type system and pick the right method.」
+ずんだもん「Reserve includes for boolean checks!」

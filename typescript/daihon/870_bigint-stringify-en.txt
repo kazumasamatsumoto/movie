@@ -1,0 +1,9 @@
+四国めたん「Convert BigInt to strings with `toString` or template literals.」
+ずんだもん「Great for logging or display.」
+四国めたん「Specify the radix when necessary.」
+ずんだもん「Remember: JSON stringify ignores BigInt keys and values.」
+四国めたん「Provide custom serializers if you must output them.」
+ずんだもん「`toString` is the safest way to preserve the number.」
+四国めたん「Keep formatting decisions consistent across the app.」
+ずんだもん「Turn BigInt into strings deliberately!」
+

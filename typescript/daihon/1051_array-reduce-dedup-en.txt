@@ -1,0 +1,8 @@
+#1051 "Deduplication" Script
+
+四国めたん「You can even deduplicate arrays with reduce.」
+ずんだもん「Set works too, but reduce gives you procedural control.」
+四国めたん「Use an array or Set accumulator and check for existing values.」
+ずんだもん「Useful when you need to drop duplicates mid-transformation.」
+四国めたん「Keep the deduplication pattern in mind.」
+ずんだもん「Choose the tool that fits the use case!」

@@ -1,0 +1,10 @@
+#895 "Financial Calculations" Script
+
+四国めたん「Fixed-point arithmetic with BigInt works great for money.」
+ずんだもん「Store currency in its smallest unit and the rounding errors disappear.」
+四国めたん「For yen that's one yen, for dollars it's cents or whatever the smallest tick is.」
+ずんだもん「Keep VAT and fee computations precise with BigInt.」
+四国めたん「Only insert the decimal point when formatting output.」
+ずんだもん「That raises the safety of financial systems!」
+四国めたん「Even huge values like compound interest stay accurate.」
+ずんだもん「Bring BigInt into your monetary math and cut down on bugs!」

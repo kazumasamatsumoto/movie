@@ -1,0 +1,10 @@
+#877 "BigInt Version of Math.sqrt()" Script
+
+四国めたん「For BigInt square roots, either implement them yourself or pull in a library.」
+ずんだもん「You need an algorithm that returns the integer square root.」
+四国めたん「Binary search or Newton's method both work.」
+ずんだもん「In TypeScript you can write a BigInt-specific function without generics.」
+四国めたん「It's useful to have a variant that also returns the remainder.」
+ずんだもん「Learn techniques that cover for Math.sqrt's limitations!」
+四国めたん「You can obtain square roots while preserving precision.」
+ずんだもん「Support number theory calculations with a BigInt-friendly sqrt!」

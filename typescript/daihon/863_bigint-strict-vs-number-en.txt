@@ -1,0 +1,9 @@
+四国めたん「`bigint === number` always evaluates to false.」
+ずんだもん「Because the types differ.」
+四国めたん「Even identical values don’t match.」
+ずんだもん「Strict comparison checks types for safety.」
+四国めたん「Make `===` your routine to avoid confusion.」
+ずんだもん「Share the rule across the team.」
+四国めたん「If you must compare, convert explicitly first.」
+ずんだもん「`===` keeps type mix-ups away!」
+

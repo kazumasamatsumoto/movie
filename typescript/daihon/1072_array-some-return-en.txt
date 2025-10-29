@@ -1,0 +1,8 @@
+#1072 "Return Type – boolean" Script
+
+四国めたん「some always returns a boolean.」
+ずんだもん「Only true or false, so it's easy to work with.」
+四国めたん「Remember that it short-circuits.」
+ずんだもん「As soon as a match is found, it returns true and exits.」
+四国めたん「Keep the return type in mind when building logic.」
+ずんだもん「Pairs nicely with if statements!」

@@ -1,0 +1,8 @@
+#976 "for Loop" Script
+
+四国めたん「The classic for loop is the baseline for iterating arrays.」
+ずんだもん「We write for (let i = 0; i < arr.length; i++) { ... }.」
+四国めたん「It's handy when you need index-level control.」
+ずんだもん「In TypeScript, i is a number and arr[i] has the element type.」
+四国めたん「Know when you need the fine-grained control of for.」
+ずんだもん「Refresh the fundamentals!」

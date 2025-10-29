@@ -1,0 +1,8 @@
+#966 "Array.isArray()" Script
+
+四国めたん「Array.isArray() tells you whether a value is an array.」
+ずんだもん「It shines when unions mix arrays with single values.」
+四国めたん「For types like string[] | string, branch with isArray.」
+ずんだもん「After confirming it's an array, keep checking the element types.」
+四国めたん「Use Array.isArray() as part of your guards.」
+ずんだもん「Master this basic pattern!」

@@ -1,0 +1,8 @@
+#1036 "Chaining" Script
+
+四国めたん「filter often chains with map or reduce.」
+ずんだもん「Think filter first, then map for formatting.」
+四国めたん「Watch the intermediate types as they evolve.」
+ずんだもん「Add line breaks to keep the pipeline readable.」
+四国めたん「Assemble type-safe pipelines with filter up front.」
+ずんだもん「Having filter at the start feels reassuring!」

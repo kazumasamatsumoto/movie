@@ -1,0 +1,9 @@
+四国めたん「Compare BigInt arrays element by element.」
+ずんだもん「JSON string comparison can lose precision.」
+四国めたん「Check lengths and use `===` per entry.」
+ずんだもん「Sorted arrays let you validate order too.」
+四国めたん「Implement reusable deep-equal logic.」
+ずんだもん「Match arrays reliably with BigInt comparisons!」
+四国めたん「This focuses on regular arrays, not TypedArrays.」
+ずんだもん「Use procedural checks to stay accurate!」
+

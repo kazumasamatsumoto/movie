@@ -1,0 +1,8 @@
+#1106 "flatMap() vs map().flat()" Script
+
+四国めたん「flatMap delivers the same behavior as map().flat(1) in one step.」
+ずんだもん「You skip the manual map-then-flat sequence.」
+四国めたん「It helps with readability and can save work.」
+ずんだもん「Like flat, flatMap returns a new array—it doesn't mutate.」
+四国めたん「Know when to choose flatMap or map().flat().」
+ずんだもん「Keep the code tidy!」

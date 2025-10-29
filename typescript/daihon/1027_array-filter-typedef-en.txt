@@ -1,0 +1,8 @@
+#1027 "Type Definition" Script
+
+四国めたん「You can inspect filter's type definition in lib.d.ts as well.」
+ずんだもん「It reads filter(callback: (value: T, index: number, array: T[]) => unknown, thisArg?: any): T[].」
+四国めたん「The resulting array keeps the original element type T.」
+ずんだもん「There's also an overload for type predicates.」
+四国めたん「Know the definition to understand the behavior.」
+ずんだもん「Those lib files make great textbooks!」

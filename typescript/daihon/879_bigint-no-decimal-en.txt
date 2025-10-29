@@ -1,0 +1,10 @@
+#879 "No Decimals Allowed" Script
+
+四国めたん「BigInt handles only integers, so decimals are off the table.」
+ずんだもん「A literal like 1.5n even throws an error.」
+四国めたん「Division results get truncated as well.」
+ずんだもん「When you need decimals, use numbers or a decimal library.」
+四国めたん「You can also manage integer and fractional parts in separate BigInts.」
+ずんだもん「Design your types carefully for calculations that produce fractions!」
+四国めたん「Know the limitations and pick the right type.」
+ずんだもん「BigInt is a weapon specialized for integers!」

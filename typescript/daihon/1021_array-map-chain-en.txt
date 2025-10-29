@@ -1,0 +1,8 @@
+#1021 "Chaining" Script
+
+四国めたん「map often chains with filter or reduce.」
+ずんだもん「Transform then filter, or format then sum.」
+四国めたん「Chaining improves readability.」
+ずんだもん「Just stay aware of how the types evolve along the way.」
+四国めたん「Connect the types as you build the pipeline.」
+ずんだもん「It feels great to write it like a data flow!」
