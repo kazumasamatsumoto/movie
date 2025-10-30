@@ -1,5 +1,5 @@
 
-四国めたん「TypeScript v5.9のconstでboolean型について学びましょう！」
+四国めたん「constでboolean型について学びましょう！」
 ずんだもん「constでboolean型って何？」
 四国めたん「constキーワードでboolean型の定数を宣言する方法です」
 ずんだもん「どんな特徴があるの？」

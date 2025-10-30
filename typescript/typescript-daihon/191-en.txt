@@ -1,8 +1,0 @@
-四国めたん「Let's learn about using the number type in Angular forms with TypeScript v5.9!」
-ずんだもん「What does number type in Angular forms mean?」
-四国めたん「It's the approach for handling numeric values inside Angular forms.」
-ずんだもん「How do we implement it?」
-四国めたん「Declare FormControl or FormGroup fields as number types.」
-
-四国めたん「Absolutely—it's vital for form type safety.」
-ずんだもん「Angular forms are the best!」

@@ -1,7 +1,0 @@
-四国めたん「Let's review numeric best practices in TypeScript v5.9!」
-ずんだもん「What are numeric best practices?」
-四国めたん「They're recommended guidelines and precautions for handling numbers.」
-ずんだもん「What do they cover?」
-四国めたん「Type safety, avoiding precision pitfalls, proper validation, and more.」
-
-四国めたん「Absolutely—it leads to stable applications.」

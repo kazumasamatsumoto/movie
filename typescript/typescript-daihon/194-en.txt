@@ -1,7 +1,0 @@
-四国めたん「Let's learn about the @IsNumber() decorator in TypeScript v5.9!」
-ずんだもん「What is the @IsNumber() decorator?」
-四国めたん「It's a decorator that validates numeric properties.」
-ずんだもん「How do we use it?」
-四国めたん「Annotate the property with `@IsNumber()`.」
-
-四国めたん「Absolutely—it improves API type safety.」

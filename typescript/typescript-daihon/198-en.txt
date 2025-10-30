@@ -1,7 +1,0 @@
-四国めたん「Let's learn about the pitfalls of mixing strings with numbers in TypeScript v5.9!」
-ずんだもん「What does mixing strings with numbers mean?」
-四国めたん「It's the mistake of treating numeric values as strings or vice versa.」
-ずんだもん「What's the risk?」
-四国めたん「Type mismatches and unexpected behavior.」
-
-四国めたん「Absolutely—maintaining type safety prevents bugs.」

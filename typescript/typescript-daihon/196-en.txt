@@ -1,7 +1,0 @@
-四国めたん「Let's learn about common mistakes when comparing floating-point numbers in TypeScript v5.9!」
-ずんだもん「What mistake do people make?」
-四国めたん「They compare floating-point values directly with `===`.」
-ずんだもん「What's the risk?」
-四国めたん「Precision issues may produce unexpected results.」
-
-四国めたん「Absolutely—accurate comparisons depend on avoiding that mistake.」

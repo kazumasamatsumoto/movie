@@ -1,8 +1,0 @@
-四国めたん「Let's learn about using the number type in Nest.js DTOs with TypeScript v5.9!」
-ずんだもん「What does number type in Nest.js DTOs mean?」
-四国めたん「It's how we declare number fields in Nest.js data transfer objects.」
-ずんだもん「How do we implement it?」
-四国めたん「Combine class-validator with class-transformer decorators.」
-
-四国めたん「Absolutely—it keeps API contracts type-safe.」
-ずんだもん「Nest.js DTOs are the best!」

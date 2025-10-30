@@ -1,5 +1,5 @@
 
-四国めたん「TypeScript v5.9の@IsBoolean()デコレータについて学びましょう！」
+四国めたん「@IsBoolean()デコレータについて学びましょう！」
 ずんだもん「@IsBoolean()って何？」
 四国めたん「class-validatorのデコレータで、boolean型を検証します」
 ずんだもん「どう使うの？」

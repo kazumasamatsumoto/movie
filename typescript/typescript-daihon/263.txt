@@ -1,5 +1,5 @@
 
-四国めたん「TypeScript v5.9のtruthyチェックについて学びましょう！」
+四国めたん「truthyチェックについて学びましょう！」
 ずんだもん「truthyって何？」
 四国めたん「JavaScriptでtrueと評価される値のことです」
 ずんだもん「どんな値がtruthy？」

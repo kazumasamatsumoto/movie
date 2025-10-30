@@ -1,5 +1,5 @@
 
-四国めたん「TypeScript v5.9のArray.isArray()について学びましょう！」
+四国めたん「Array.isArray()について学びましょう！」
 ずんだもん「Array.isArray()って何？」
 四国めたん「値が配列かどうかを判定する組み込みメソッドです」
 ずんだもん「typeofじゃダメなの？」

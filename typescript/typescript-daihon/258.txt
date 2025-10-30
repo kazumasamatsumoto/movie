@@ -1,5 +1,5 @@
 
-四国めたん「TypeScript v5.9のtypeofが返す値について学びましょう！」
+四国めたん「typeofが返す値について学びましょう！」
 ずんだもん「typeofはどんな文字列を返すの？」
 四国めたん「string、number、boolean、object、function、undefined、symbolです」
 ずんだもん「objectって広すぎない？」

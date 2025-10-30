@@ -1,5 +1,5 @@
 
-四国めたん「TypeScript v5.9のNest.jsのDTOとbooleanについて学びましょう！」
+四国めたん「Nest.jsのDTOとbooleanについて学びましょう！」
 ずんだもん「Nest.jsでbooleanはどう扱うの？」
 四国めたん「DTOクラスでboolean型を定義し、バリデーションを行います」
 ずんだもん「どう記述するの？」

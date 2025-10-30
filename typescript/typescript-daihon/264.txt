@@ -1,5 +1,5 @@
 
-四国めたん「TypeScript v5.9のfalsyチェックについて学びましょう！」
+四国めたん「falsyチェックについて学びましょう！」
 ずんだもん「falsyって何？」
 四国めたん「JavaScriptでfalseと評価される値のことです」
 ずんだもん「どんな値がfalsy？」

@@ -1,5 +1,5 @@
 
-四国めたん「TypeScript v5.9のAngularテンプレートでのbooleanについて学びましょう！」
+四国めたん「Angularテンプレートでのbooleanについて学びましょう！」
 ずんだもん「Angularのテンプレートでbooleanはどう使うの？」
 四国めたん「*ngIfや[disabled]などのディレクティブで使用します」
 ずんだもん「どう記述するの？」
