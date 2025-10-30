@@ -1,7 +1,0 @@
-四国めたん「Let's learn about the true literal type in TypeScript 」
-ずんだもん「What is the true literal type?」
-四国めたん「It's a strict type that permits only the value true.」
-ずんだもん「How does it differ from boolean?」
-四国めたん「boolean accepts both true and false, whereas the true literal type allows only true.」
-
-四国めたん「Absolutely—it enables tighter type control.」

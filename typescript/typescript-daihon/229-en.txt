@@ -1,7 +1,0 @@
-四国めたん「Let's understand how AND interacts with types in TypeScript 」
-ずんだもん「What does the relationship between AND and types mean?」
-四国めたん「The combination of left and right operand types determines the result type.」
-ずんだもん「How does that play out?」
-四国めたん「TypeScript examines both sides to decide the final inferred type.」
-
-四国めたん「Absolutely—it deepens your understanding of type-safe logic.」

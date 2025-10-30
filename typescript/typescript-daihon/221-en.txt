@@ -1,7 +1,0 @@
-四国めたん「Let's see examples of the false literal type in TypeScript 」
-ずんだもん「What are some false literal type use cases?」
-四国めたん「Think of immutable disabled states or off flags.」
-ずんだもん「Where would we apply it?」
-四国めたん「Whenever you need to represent a disabled state that should never flip to true.」
-
-四国めたん「Absolutely—it enforces type safety for inactive states.」

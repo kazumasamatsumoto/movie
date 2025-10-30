@@ -1,7 +1,0 @@
-四国めたん「Let's declare the true literal type in TypeScript 」
-ずんだもん「How do we declare the true literal type?」
-四国めたん「Specify the type as true, like `let flag: true`.」
-ずんだもん「Any distinctive traits?」
-四国めたん「Only true can be assigned—false is rejected.」
-
-四国めたん「Absolutely—it boosts type safety for constants.」

@@ -1,7 +1,0 @@
-四国めたん「Let's learn why we should favor === in TypeScript 」
-ずんだもん「Why should we prefer ===?」
-四国めたん「It avoids surprises from type coercion and keeps intent clear.」
-ずんだもん「What specific benefits do we get?」
-四国めたん「Better type safety, fewer bugs, and easier code reviews.」
-ずんだもん「Can ESLint enforce that?」
-四国めたん「Yes—the eqeqeq rule ensures `===` usage.」

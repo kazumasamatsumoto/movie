@@ -1,7 +1,0 @@
-四国めたん「Let's learn about strict comparison with === in TypeScript 」
-ずんだもん「What does strict comparison mean?」
-四国めたん「It checks that both the value and the type are identical.」
-ずんだもん「How does it behave in practice?」
-四国めたん「No type coercion—only exact matches return true.」
-ずんだもん「That keeps things type-safe!」
-四国めたん「It pairs perfectly with TypeScript's type system and is the recommended approach.」

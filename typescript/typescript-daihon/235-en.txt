@@ -1,7 +1,0 @@
-四国めたん「Let's look at type inference with NOT in TypeScript 」
-ずんだもん「What is type inference for NOT?」
-四国めたん「It describes how the `!` operator always yields a boolean result.」
-ずんだもん「How is that inferred?」
-四国めたん「Regardless of the operand, `!` returns a boolean value.」
-
-四国めたん「Absolutely—it clarifies type safety for negations.」

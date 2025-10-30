@@ -1,7 +1,0 @@
-四国めたん「Let's declare the false literal type in TypeScript 」
-ずんだもん「How do we declare the false literal type?」
-四国めたん「Specify the type as false, like `let flag: false`.」
-ずんだもん「Any distinctive traits?」
-四国めたん「Only false can be assigned—true is rejected.」
-
-四国めたん「Absolutely—it keeps constant values type-safe.」

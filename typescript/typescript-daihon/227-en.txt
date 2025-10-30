@@ -1,7 +1,0 @@
-四国めたん「Let's study type inference with AND in TypeScript 」
-ずんだもん「What is type inference with AND?」
-四国めたん「It's how the `&&` operator influences the inferred type.」
-ずんだもん「How does the inference work?」
-四国めたん「If the left side is false, the result is false; if it's true, the result takes the right-hand type.」
-
-四国めたん「Absolutely—it strengthens type safety in conditions.」

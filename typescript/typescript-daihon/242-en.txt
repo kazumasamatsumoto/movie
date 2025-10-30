@@ -1,7 +1,0 @@
-四国めたん「Let's examine type coercion with the == operator in TypeScript 」
-ずんだもん「What is type coercion?」
-四国めたん「It's the automatic conversion that `==` performs before comparing values.」
-ずんだもん「What kinds of conversions happen?」
-四国めたん「Strings become numbers, booleans become numbers, and then the comparison occurs.」
-ずんだもん「That sounds like it could yield surprises!」
-四国めたん「Exactly—that's why TypeScript code should prefer `===`.」
