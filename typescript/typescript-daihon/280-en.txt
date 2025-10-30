@@ -1,4 +1,4 @@
-四国めたん「Let's run a mastery check on comparisons and type guards in TypeScript v5.9!」
+四国めたん「Let's run a mastery check on comparisons and type guards in TypeScript 」
 ずんだもん「I want to review everything we've covered!」
 四国めたん「Focus on using `===`, applying type guards, understanding truthy/falsy, and practicing in Angular or Nest.js.」
 ずんだもん「What are the key takeaways?」

@@ -1,7 +1,0 @@
-四国めたん「Let's learn how to use booleans in if statements with TypeScript v5.9!」
-ずんだもん「What does it mean to use booleans in an if statement?」
-四国めたん「It means plugging a boolean variable into the condition of an if block.」
-ずんだもん「How do we do that?」
-四国めたん「Write `if (flag) { ... }` and let the flag drive the branch.」
-
-四国めたん「Absolutely—conditional rendering depends on it.」

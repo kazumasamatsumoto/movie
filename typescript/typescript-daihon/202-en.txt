@@ -1,7 +1,0 @@
-四国めたん「Let's learn how to declare boolean types in TypeScript v5.9!」
-ずんだもん「How do we declare a boolean?」
-四国めたん「Use a type annotation like `let flag: boolean`.」
-ずんだもん「What values can we assign?」
-四国めたん「true, false, or the result of a boolean expression.」
-ずんだもん「Can we use this in Angular development too?」
-四国めたん「Absolutely—it's perfect for component properties.」

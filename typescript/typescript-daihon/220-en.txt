@@ -1,4 +1,4 @@
-四国めたん「Let's declare the false literal type in TypeScript v5.9!」
+四国めたん「Let's declare the false literal type in TypeScript 」
 ずんだもん「How do we declare the false literal type?」
 四国めたん「Specify the type as false, like `let flag: false`.」
 ずんだもん「Any distinctive traits?」

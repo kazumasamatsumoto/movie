@@ -1,4 +1,4 @@
-四国めたん「Let's learn about numeric comparisons in TypeScript v5.9!」
+四国めたん「Let's learn about numeric comparisons in TypeScript 」
 ずんだもん「What should we watch for?」
 四国めたん「Floating-point precision issues can bite you.」
 ずんだもん「Can you give an example?」

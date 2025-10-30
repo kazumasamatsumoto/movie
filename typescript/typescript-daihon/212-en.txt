@@ -1,7 +1,0 @@
-四国めたん「Let's learn about default values for booleans in TypeScript v5.9!」
-ずんだもん「What is a boolean default value?」
-四国めたん「It's how you assign an initial value to a boolean variable.」
-ずんだもん「How do we set it?」
-四国めたん「Declare it like `let flag: boolean = true`.」
-
-四国めたん「Absolutely—it defines initial component state.」

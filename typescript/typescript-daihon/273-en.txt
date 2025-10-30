@@ -1,4 +1,4 @@
-四国めたん「Let's learn about the [disabled] attribute in TypeScript v5.9!」
+四国めたん「Let's learn about the [disabled] attribute in TypeScript 」
 ずんだもん「How do we use [disabled]?」
 四国めたん「Bind a boolean value to enable or disable buttons and form controls.」
 ずんだもん「How do we write it in Angular?」

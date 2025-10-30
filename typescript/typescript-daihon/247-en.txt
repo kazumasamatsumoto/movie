@@ -1,4 +1,4 @@
-四国めたん「Let's check which types the greater-than operator accepts in TypeScript v5.9!」
+四国めたん「Let's check which types the greater-than operator accepts in TypeScript 」
 ずんだもん「Which types can we compare?」
 四国めたん「Numbers, strings, Dates, and more.」
 ずんだもん「So strings can be compared too?」

@@ -1,4 +1,4 @@
-四国めたん「Let's learn about the less-than operator in TypeScript v5.9!」
+四国めたん「Let's learn about the less-than operator in TypeScript 」
 ずんだもん「How do we use the less-than operator?」
 四国めたん「It checks whether the left operand is smaller than the right operand.」
 ずんだもん「So it's the inverse of greater-than?」

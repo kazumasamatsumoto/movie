@@ -1,4 +1,4 @@
-四国めたん「Let's learn about using OR for default values in TypeScript v5.9!」
+四国めたん「Let's learn about using OR for default values in TypeScript 」
 ずんだもん「What does OR with default values mean?」
 四国めたん「It's the pattern of assigning a fallback with the `||` operator.」
 ずんだもん「How do we use it?」

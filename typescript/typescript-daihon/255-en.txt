@@ -1,4 +1,4 @@
-四国めたん「Let's summarize comparison operations in TypeScript v5.9!」
+四国めたん「Let's summarize comparison operations in TypeScript 」
 ずんだもん「What are the key points?」
 四国めたん「Prefer `===`, understand how types behave, and handle special cases carefully.」
 ずんだもん「Any best practices?」

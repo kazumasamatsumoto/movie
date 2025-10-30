@@ -1,4 +1,4 @@
-四国めたん「Let’s explore the `symbol` type in TypeScript v5.9!」
+四国めたん「Let’s explore the `symbol` type in TypeScript 」
 ずんだもん「How is a symbol different from a string key?」
 四国めたん「It’s a primitive for generating unique identifiers—two symbols with the same description are still distinct.」
 ずんだもん「So we can create property keys that never collide.」

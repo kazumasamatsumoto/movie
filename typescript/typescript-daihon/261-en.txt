@@ -1,4 +1,4 @@
-四国めたん「Let's learn about Array.isArray() in TypeScript v5.9!」
+四国めたん「Let's learn about Array.isArray() in TypeScript 」
 ずんだもん「What is Array.isArray()?」
 四国めたん「It's a built-in method that checks whether a value is an array.」
 ずんだもん「Can't we use typeof?」

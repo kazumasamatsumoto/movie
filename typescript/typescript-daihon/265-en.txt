@@ -1,4 +1,4 @@
-四国めたん「Let's list the falsy values in TypeScript v5.9!」
+四国めたん「Let's list the falsy values in TypeScript 」
 ずんだもん「How many falsy values exist?」
 四国めたん「JavaScript has six falsy values.」
 ずんだもん「Can you name them?」

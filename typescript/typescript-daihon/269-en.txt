@@ -1,4 +1,4 @@
-四国めたん「Let's review best practices for type guards in TypeScript v5.9!」
+四国めたん「Let's review best practices for type guards in TypeScript 」
 ずんだもん「What are the key tips?」
 四国めたん「Leverage type predicate functions, return early, and perform explicit checks.」
 ずんだもん「Why rely on type predicates?」

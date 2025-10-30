@@ -1,4 +1,4 @@
-四国めたん「Let's learn about the `unknown` type in TypeScript v5.9!」
+四国めたん「Let's learn about the `unknown` type in TypeScript 」
 ずんだもん「People call it a type-safe `any`—when do we reach for it?」
 四国めたん「`unknown` is the top type, so anything assigns to it, but unlike `any` you get an error if you touch properties outright.」
 ずんだもん「So arithmetic or method calls are off the table?」

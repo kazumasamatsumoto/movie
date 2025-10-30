@@ -1,4 +1,4 @@
-四国めたん「Let's learn about falsy checks in TypeScript v5.9!」
+四国めたん「Let's learn about falsy checks in TypeScript 」
 ずんだもん「What does falsy mean?」
 四国めたん「It refers to values that JavaScript evaluates as false.」
 ずんだもん「Which values are falsy?」

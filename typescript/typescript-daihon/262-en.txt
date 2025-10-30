@@ -1,4 +1,4 @@
-四国めたん「Let's learn how to check for null and undefined in TypeScript v5.9!」
+四国めたん「Let's learn how to check for null and undefined in TypeScript 」
 ずんだもん「How do we perform the check?」
 四国めたん「Use === for strict checks, or use `!= null` to cover both values.」
 ずんだもん「`!= null` sounds handy!」

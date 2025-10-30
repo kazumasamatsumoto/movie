@@ -1,4 +1,4 @@
-四国めたん「Let's learn the precedence of logical operators in TypeScript v5.9!」
+四国めたん「Let's learn the precedence of logical operators in TypeScript 」
 ずんだもん「What is operator precedence?」
 四国めたん「It's the order in which logical operators are evaluated.」
 ずんだもん「What's the order?」

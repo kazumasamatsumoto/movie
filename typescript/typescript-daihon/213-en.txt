@@ -1,7 +1,0 @@
-四国めたん「Let's learn best practices for initializing booleans in TypeScript v5.9!」
-ずんだもん「What are initialization best practices?」
-四国めたん「They're recommendations for initializing boolean variables properly.」
-ずんだもん「What practices should we apply?」
-四国めたん「Set default values, leverage type inference, and use const when appropriate.」
-
-四国めたん「Absolutely—it keeps the codebase maintainable.」

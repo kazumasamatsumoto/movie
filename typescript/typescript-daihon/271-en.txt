@@ -1,4 +1,4 @@
-四国めたん「Let's learn how booleans work in Angular templates with TypeScript v5.9!」
+四国めたん「Let's learn how booleans work in Angular templates with TypeScript 」
 ずんだもん「How do we use booleans in Angular templates?」
 四国めたん「Bind them to directives like *ngIf or [disabled].」
 ずんだもん「How do we write it?」

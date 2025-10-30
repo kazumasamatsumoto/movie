@@ -1,4 +1,4 @@
-四国めたん「Let's learn how boolean works with Nest.js DTOs in TypeScript v5.9!」
+四国めたん「Let's learn how boolean works with Nest.js DTOs in TypeScript 」
 ずんだもん「How do we handle booleans in Nest.js?」
 四国めたん「Declare boolean fields in DTO classes and validate them.」
 ずんだもん「How do we write that?」

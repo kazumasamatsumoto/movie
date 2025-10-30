@@ -1,4 +1,4 @@
-四国めたん「Let's learn about type predicate functions in TypeScript v5.9!」
+四国めたん「Let's learn about type predicate functions in TypeScript 」
 ずんだもん「What is a type predicate function?」
 四国めたん「It's a type guard whose return type looks like `x is Type`.」
 ずんだもん「What benefits does it bring?」

@@ -1,4 +1,4 @@
-四国めたん「Let's understand how AND interacts with types in TypeScript v5.9!」
+四国めたん「Let's understand how AND interacts with types in TypeScript 」
 ずんだもん「What does the relationship between AND and types mean?」
 四国めたん「The combination of left and right operand types determines the result type.」
 ずんだもん「How does that play out?」

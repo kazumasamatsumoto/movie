@@ -1,7 +1,0 @@
-四国めたん「Let's learn about type inference for booleans in TypeScript v5.9!」
-ずんだもん「What does boolean inference mean?」
-四国めたん「It's when TypeScript infers the boolean type without an explicit annotation.」
-ずんだもん「How do we leverage it?」
-四国めたん「Write `let flag = true` and omit the type annotation.」
-
-四国めたん「Absolutely—it keeps the code concise.」

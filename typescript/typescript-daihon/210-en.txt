@@ -1,7 +1,0 @@
-四国めたん「Let's learn about boolean arrays in TypeScript v5.9!」
-ずんだもん「What is a boolean array?」
-四国めたん「It's an array whose elements are boolean values.」
-ずんだもん「How do we declare one?」
-四国めたん「Use a type annotation like `let flags: boolean[]`.」
-
-四国めたん「Absolutely—great for tracking multiple flag states.」

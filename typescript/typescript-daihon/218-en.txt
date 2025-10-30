@@ -1,4 +1,4 @@
-四国めたん「Let's see examples of the true literal type in TypeScript v5.9!」
+四国めたん「Let's see examples of the true literal type in TypeScript 」
 ずんだもん「What are some true literal type use cases?」
 四国めたん「Think of constant flags or configuration values that must remain true.」
 ずんだもん「Where do we apply it?」

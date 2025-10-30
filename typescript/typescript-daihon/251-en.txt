@@ -1,4 +1,4 @@
-四国めたん「Let's learn how strings are compared in TypeScript v5.9!」
+四国めたん「Let's learn how strings are compared in TypeScript 」
 ずんだもん「How are strings compared?」
 四国めたん「They use lexicographic order.」
 ずんだもん「What does that mean exactly?」

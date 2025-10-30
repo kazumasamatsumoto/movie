@@ -1,4 +1,4 @@
-四国めたん「Let's learn about type guards in TypeScript v5.9!」
+四国めたん「Let's learn about type guards in TypeScript 」
 ずんだもん「What is a type guard?」
 四国めたん「It's a runtime check that narrows the type of a value.」
 ずんだもん「Where do we use it?」

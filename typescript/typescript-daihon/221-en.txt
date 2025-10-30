@@ -1,4 +1,4 @@
-四国めたん「Let's see examples of the false literal type in TypeScript v5.9!」
+四国めたん「Let's see examples of the false literal type in TypeScript 」
 ずんだもん「What are some false literal type use cases?」
 四国めたん「Think of immutable disabled states or off flags.」
 ずんだもん「Where would we apply it?」

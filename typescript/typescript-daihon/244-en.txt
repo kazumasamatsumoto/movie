@@ -1,4 +1,4 @@
-四国めたん「Let's learn why we should favor === in TypeScript v5.9!」
+四国めたん「Let's learn why we should favor === in TypeScript 」
 ずんだもん「Why should we prefer ===?」
 四国めたん「It avoids surprises from type coercion and keeps intent clear.」
 ずんだもん「What specific benefits do we get?」

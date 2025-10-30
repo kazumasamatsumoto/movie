@@ -1,4 +1,4 @@
-四国めたん「Let's examine type coercion with the == operator in TypeScript v5.9!」
+四国めたん「Let's examine type coercion with the == operator in TypeScript 」
 ずんだもん「What is type coercion?」
 四国めたん「It's the automatic conversion that `==` performs before comparing values.」
 ずんだもん「What kinds of conversions happen?」

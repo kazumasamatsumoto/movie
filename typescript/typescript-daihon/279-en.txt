@@ -1,4 +1,4 @@
-四国めたん「Let's summarize best practices for booleans and comparisons in TypeScript v5.9!」
+四国めたん「Let's summarize best practices for booleans and comparisons in TypeScript 」
 ずんだもん「Give me the highlights!」
 四国めたん「Use `===`, apply type guards, and enable strictNullChecks.」
 ずんだもん「Anything else to remember?」

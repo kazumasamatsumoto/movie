@@ -1,7 +1,0 @@
-四国めたん「Let's learn how to use booleans with the ternary operator in TypeScript v5.9!」
-ずんだもん「What does using booleans with the ternary operator mean?」
-四国めたん「You use a boolean condition to choose between two values.」
-ずんだもん「How is it written?」
-四国めたん「`flag ? value1 : value2`—the boolean decides which value is returned.」
-
-四国めたん「Absolutely—it's perfect for conditional assignments.」

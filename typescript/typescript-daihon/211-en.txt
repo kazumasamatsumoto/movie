@@ -1,7 +1,0 @@
-四国めたん「Let's learn about boolean literal types in TypeScript v5.9!」
-ずんだもん「What is a boolean literal type?」
-四国めたん「It's a type that allows only a specific boolean value, true or false.」
-ずんだもん「How do we use it?」
-四国めたん「Declare something like `let flag: true` to lock the value.」
-
-四国めたん「Absolutely—it enables stricter type control.」

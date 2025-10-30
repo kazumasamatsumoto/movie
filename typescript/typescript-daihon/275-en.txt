@@ -1,4 +1,4 @@
-四国めたん「Let's dive into the @IsBoolean() decorator in TypeScript v5.9!」
+四国めたん「Let's dive into the @IsBoolean() decorator in TypeScript 」
 ずんだもん「What is @IsBoolean()?」
 四国めたん「A class-validator decorator that ensures the value is boolean.」
 ずんだもん「How do we use it?」

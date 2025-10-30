@@ -1,4 +1,4 @@
-四国めたん「Let's learn about double negation in TypeScript v5.9!」
+四国めたん「Let's learn about double negation in TypeScript 」
 ずんだもん「What is double negation?」
 四国めたん「Using the `!!` operator to convert a value to boolean.」
 ずんだもん「How do we use it?」

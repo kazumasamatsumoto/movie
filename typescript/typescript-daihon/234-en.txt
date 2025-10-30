@@ -1,4 +1,4 @@
-四国めたん「Let's learn about logical NOT in TypeScript v5.9!」
+四国めたん「Let's learn about logical NOT in TypeScript 」
 ずんだもん「What is logical NOT?」
 四国めたん「The `!` operator flips a boolean value.」
 ずんだもん「How do we use it?」

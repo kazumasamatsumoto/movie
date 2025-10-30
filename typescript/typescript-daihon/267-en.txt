@@ -1,4 +1,4 @@
-四国めたん「Let's learn about explicit boolean conversion in TypeScript v5.9!」
+四国めたん「Let's learn about explicit boolean conversion in TypeScript 」
 ずんだもん「How do we convert values to boolean?」
 四国めたん「Use the Boolean() function, the !! operator, or the ternary operator.」
 ずんだもん「What does !! do?」

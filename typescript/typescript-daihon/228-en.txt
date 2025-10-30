@@ -1,4 +1,4 @@
-四国めたん「Let's learn about short-circuit evaluation with AND in TypeScript v5.9!」
+四国めたん「Let's learn about short-circuit evaluation with AND in TypeScript 」
 ずんだもん「What is short-circuit evaluation for AND?」
 四国めたん「If the left operand is false, the right operand is never evaluated.」
 ずんだもん「What are the benefits?」

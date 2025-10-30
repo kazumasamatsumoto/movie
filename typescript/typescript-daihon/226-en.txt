@@ -1,4 +1,4 @@
-四国めたん「Let's learn about logical AND in TypeScript v5.9!」
+四国めたん「Let's learn about logical AND in TypeScript 」
 ずんだもん「What is logical AND?」
 四国めたん「The `&&` operator returns true only when both operands are true.」
 ずんだもん「How do we use it?」

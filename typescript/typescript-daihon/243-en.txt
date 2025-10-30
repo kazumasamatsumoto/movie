@@ -1,4 +1,4 @@
-四国めたん「Let's learn about strict comparison with === in TypeScript v5.9!」
+四国めたん「Let's learn about strict comparison with === in TypeScript 」
 ずんだもん「What does strict comparison mean?」
 四国めたん「It checks that both the value and the type are identical.」
 ずんだもん「How does it behave in practice?」

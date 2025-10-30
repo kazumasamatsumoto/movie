@@ -1,4 +1,4 @@
-四国めたん「Let's learn about the typeof type guard in TypeScript v5.9!」
+四国めたん「Let's learn about the typeof type guard in TypeScript 」
 ずんだもん「What is the typeof type guard?」
 四国めたん「It uses the typeof operator to inspect a value and narrow its type.」
 ずんだもん「Which types can it detect?」

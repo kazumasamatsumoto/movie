@@ -1,7 +1,0 @@
-四国めたん「Let's learn how to use booleans in while loops with TypeScript v5.9!」
-ずんだもん「What does it mean to use booleans in a while loop?」
-四国めたん「It's when a boolean variable controls the loop's continuation condition.」
-ずんだもん「How is that written?」
-四国めたん「Write `while (flag) { ... }` so the loop runs while the flag is true.」
-
-四国めたん「Absolutely—it enables data-driven looping logic.」

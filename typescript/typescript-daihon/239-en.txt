@@ -1,4 +1,4 @@
-四国めたん「Let's learn how to combine logical operators in TypeScript v5.9!」
+四国めたん「Let's learn how to combine logical operators in TypeScript 」
 ずんだもん「What does combining logical operators mean?」
 四国めたん「It means mixing multiple logical operators in a single expression.」
 ずんだもん「How do we combine them safely?」

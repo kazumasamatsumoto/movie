@@ -1,4 +1,4 @@
-四国めたん「Let's compare literal types with the boolean type in TypeScript v5.9!」
+四国めたん「Let's compare literal types with the boolean type in TypeScript 」
 ずんだもん「What's the difference between literal types and boolean?」
 四国めたん「boolean accepts both true and false, while a literal type allows only a specific value.」
 ずんだもん「How does that affect us?」

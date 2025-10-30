@@ -1,4 +1,4 @@
-四国めたん「Let's learn about the true literal type in TypeScript v5.9!」
+四国めたん「Let's learn about the true literal type in TypeScript 」
 ずんだもん「What is the true literal type?」
 四国めたん「It's a strict type that permits only the value true.」
 ずんだもん「How does it differ from boolean?」

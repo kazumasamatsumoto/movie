@@ -1,4 +1,4 @@
-四国めたん「Let's study type inference with OR in TypeScript v5.9!」
+四国めたん「Let's study type inference with OR in TypeScript 」
 ずんだもん「What is type inference with OR?」
 四国めたん「It's how the `||` operator determines the result type.」
 ずんだもん「How does the inference work?」

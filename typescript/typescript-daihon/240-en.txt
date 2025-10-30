@@ -1,4 +1,4 @@
-四国めたん「Let's summarize logical operations in TypeScript v5.9!」
+四国めたん「Let's summarize logical operations in TypeScript 」
 ずんだもん「What does a logical operations summary include?」
 四国めたん「It covers AND, OR, NOT, type inference, short-circuit evaluation, precedence, and more.」
 
