@@ -1,0 +1,7 @@
+ずんだもん「TypeScript書いてるとさ、`ReadonlyArray`でpush禁止に泣く新人って絶対あるよね？」
+四国めたん「わかります。読み取り専用にした途端 push したくなるんですよね」
+ずんだもん「しかもそのまま`ReadonlyArray`でpush禁止に泣く新人状態になって、チーム全員が固まるんだよ！」
+四国めたん「そこでTypeScriptの`Readonly`と`Mutable`の切替を使えば、`Readonly`で守って必要な箇所だけ`Mutable`化できます」
+ずんだもん「いや待って、それやると`ReadonlyArray`でpush禁止に泣く新人第2ラウンドが始まるやつ！」
+四国めたん「共感した方は“readonly封印”ってコメントで教えてください！」
+ずんだもん「あなたのTypeScriptあるあるも募集中だよ！」

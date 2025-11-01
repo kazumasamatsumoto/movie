@@ -1,0 +1,7 @@
+ずんだもん「`moduleResolution`は`bundler`派？`node`派？」
+四国めたん「`moduleResolution`は`moduleResolution`は`bundler`派でもプロジェクトによって答えが違いますね」
+ずんだもん「ぼくはフロントは`moduleResolution`は`bundler`派派だけど、ライブラリは`node`派の方が安心なんだよね」
+四国めたん「`moduleResolution`は`bundler`派は最新ツールとの相性が良く、`node`派は従来構成との互換性が魅力です」
+ずんだもん「現場だと設定差分で補完が暴れて、tsconfigの分割メンテが始まるんだよ！」
+四国めたん「みなさんはどうしていますか？コメントで“moduleResolution選択”って教えてください！」
+ずんだもん「理由も添えてくれたら嬉しいな！」

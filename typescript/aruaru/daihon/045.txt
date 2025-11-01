@@ -1,0 +1,7 @@
+ずんだもん「TypeScript書いてるとさ、`eslint --max-warnings 0`でCIが止まる恐怖って絶対あるよね？」
+四国めたん「わかります。Lintを厳しくするとCIが赤く染まりますよね」
+ずんだもん「しかもそのまま`eslint --max-warnings 0`でCIが止まる恐怖状態になって、チーム全員が固まるんだよ！」
+四国めたん「そこでTypeScriptのLintと型チェックの住み分けを使えば、`eslint --max-warnings 0`と`tsc --noEmit`を役割分担させましょう」
+ずんだもん「いや待って、それやると`eslint --max-warnings 0`でCIが止まる恐怖第2ラウンドが始まるやつ！」
+四国めたん「共感した方は“Lint警察”ってコメントで教えてください！」
+ずんだもん「あなたのTypeScriptあるあるも募集中だよ！」
