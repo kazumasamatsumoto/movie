@@ -1,8 +1,0 @@
-# #296 「Progress Component - Progress Bar」台本
-
-ずんだもん「What are the tips for creating a Progress Component?」
-四国めたん「Receive the progress rate via an Input, tie the label and aria-valuenow together, and pass it to the screen reader.」
-ずんだもん「I also want to support indeterminate loading.」
-四国めたん「Prepare an indeterminate mode and animate the bar back and forth with CSS.」
-ずんだもん「How do we adjust the color and height?」
-四国めたん「Use design token variables to keep the sizes consistent and prepare for theme switching.」

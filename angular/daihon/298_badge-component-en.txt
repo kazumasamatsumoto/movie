@@ -1,8 +1,0 @@
-# #298 「Badge Component - バッジ」台本
-
-ずんだもん「What features does a Badge Component need?」
-四国めたん「Switch colors with a variant Input, and when it's a numeric badge handle the max value and rounding logic via Inputs.」
-ずんだもん「Can it work together with icons?」
-四国めたん「Allow projected child elements with ng-content and pin the position with CSS for flexibility.」
-ずんだもん「How do we address accessibility?」
-四国めたん「Use aria-label to announce the notification count, and set aria-hidden when it's purely decorative.」

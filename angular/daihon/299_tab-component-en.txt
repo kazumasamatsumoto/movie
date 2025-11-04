@@ -1,8 +1,0 @@
-# #299 「Tab Component - タブシステム」台本
-
-ずんだもん「What should we focus on when building a Tab Component from scratch?」
-四国めたん「Separate the tab list from the tab panels, and implement roles and ARIA attributes according to the WAI-ARIA spec.」
-ずんだもん「How do we design the keyboard interactions?」
-四国めたん「Move focus with the Left/Right arrows or Home/End, and confirm selection with Enter or Space.」
-ずんだもん「What about loading asynchronous content?」
-四国めたん「Manage state with a signal when switching tabs and prepare a lazy-loading mechanism if needed.」

@@ -13,7 +13,19 @@ DirectiveはAngularがDOMを再利用可能に拡張するための仕組みで�
 - ElementRef/Renderer2を使ったDOM操作
 - Attribute/Structural/Component Directiveの分類
 
-## 📺 画面表示用コード（動画用）
+## Overview
+Directives are Angular's mechanism for extending the DOM in a reusable way, allowing you to inject behavior and display logic without rewriting templates.
+
+## Learning Objectives
+* Understand the basic role and types of Directives
+* Understand the differences from Components
+* Learn safe approaches when extending the DOM
+
+## Technical Points
+* Definition using the `@Directive` decorator
+* DOM manipulation using ElementRef/Renderer2
+* Classification into Attribute/Structural/Component Directives
+
 ```typescript
 @Directive({ selector: '[appAccent]' })
 export class AccentDirective implements OnInit {

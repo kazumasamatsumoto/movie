@@ -13,7 +13,6 @@ AngularのDirectiveはコンポーネント・構造・属性の3種類に分類
 - Structural Directiveは`ViewContainerRef`/`TemplateRef`を扱う
 - Attribute Directiveは`ElementRef`/`Renderer2`で見た目を調整する
 
-## 📺 画面表示用コード（動画用）
 ```typescript
 @Component({ selector: 'app-card', template: `<ng-content></ng-content>` })
 export class CardComponent {}
