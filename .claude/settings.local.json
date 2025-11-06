@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for i in {431..500})",
+      "Bash(python:*)",
+      "Bash(for i in {401..410})",
+      "Bash(do [ -f \"angular/document/$i\"_*.md ])"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
