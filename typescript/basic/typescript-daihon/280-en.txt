@@ -1,7 +1,0 @@
-四国めたん「Let's run a mastery check on comparisons and type guards in TypeScript 」
-ずんだもん「I want to review everything we've covered!」
-四国めたん「Focus on using `===`, applying type guards, understanding truthy/falsy, and practicing in Angular or Nest.js.」
-ずんだもん「What are the key takeaways?」
-四国めたん「Maintain type safety, perform explicit checks, and pick the right guard for the job.」
-ずんだもん「Am I ready for real-world use?」
-四国めたん「Definitely—you can now compare and narrow types safely.」

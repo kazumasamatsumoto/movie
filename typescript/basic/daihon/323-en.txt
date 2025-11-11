@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn debugging methods for strictNullChecks!」
+Zundamon「First, we read error messages carefully!」
+Shikoku Metan「That's right. Check the error Type 'string | null' is not assignable.」
+Zundamon「We fix it with type guards, right?」
+Shikoku Metan「Exactly. Add null checks to narrow down the type.」
+Zundamon「We can do only type checking with tsc --noEmit!」
+Shikoku Metan「Yes. You can check only type errors without compiling.」
+Zundamon「We read errors and fix them appropriately!」

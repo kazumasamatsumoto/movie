@@ -1,0 +1,8 @@
+Shikoku Metan「Let's summarize undefinedable types!」
+Zundamon「With T | undefined, we can create types that allow undefined!」
+Shikoku Metan「Yes. Optional properties automatically become undefinedable.」
+Zundamon「There are several safe access methods, right?」
+Shikoku Metan「Exactly. We can use Optional Chaining and the Nullish Coalescing operator.」
+Zundamon「How do we use them in practical patterns?」
+Shikoku Metan「Yes. It's useful to combine with default values, like options?.port ?? 8080.」
+Zundamon「By mastering undefinedable types, we can write robust code!」

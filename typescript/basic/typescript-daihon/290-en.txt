@@ -1,9 +1,0 @@
-四国めたん「Let's learn the difference between `null` and `false`!」
-ずんだもん「How are `null` and `false` different?」
-四国めたん「`null` signals the absence of a value, while `false` is the boolean false. Their types and meanings differ。」
-ずんだもん「Aren't they both falsy?」
-四国めたん「They are both falsy, but strict equality `===` distinguishes them. They also behave differently with Nullish Coalescing。」
-ずんだもん「I see! So their types are different!」
-四国めたん「`strictNullChecks` guarantees type safety—`boolean` can't accept `null`。」
-ずんだもん「It's awesome that the type system keeps them clearly separated!」
-

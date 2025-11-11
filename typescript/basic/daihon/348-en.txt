@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn how to use Optional Chaining!」
+Zundamon「We can safely access properties with ?.!」
+Shikoku Metan「Yes. Like user.name?.toUpperCase(), it's safe even when undefined.」
+Zundamon「Can we use it for method calls too?」
+Shikoku Metan「Exactly. With callback?.(), we can safely call functions even when undefined.」
+Zundamon「Can we do nested access too?」
+Shikoku Metan「Yes. We can use it for deep hierarchies like user?.address?.city.」
+Zundamon「Let's write concise code with Optional Chaining!」

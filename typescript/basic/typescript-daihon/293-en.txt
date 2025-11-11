@@ -1,9 +1,0 @@
-四国めたん「Let's learn how `null` appears in JSON!」
-ずんだもん「How is `null` handled in JSON?」
-四国めたん「In JSON, `null` is represented directly as `null`. Unlike `undefined`, it's officially supported。」
-ずんだもん「What's different compared with `undefined`?」
-四国めたん「`undefined` gets omitted from JSON, but `null` stays as `null`. That's important when exchanging data via APIs。」
-ずんだもん「I see! So `null` is JSON-friendly!」
-四国めたん「When defining TypeScript types with JSON in mind, you often use unions like `string | null`。」
-ずんだもん「It's awesome to handle API data in a type-safe way!」
-

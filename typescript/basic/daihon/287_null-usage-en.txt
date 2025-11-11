@@ -1,0 +1,8 @@
+#287 "When to use null" Script
+
+四国めたん「Today let's learn about when to use null!」
+ずんだもん「null is used to express an explicit empty value.」
+四国めたん「It's useful in function return values to indicate "not found".」
+ずんだもん「On the other hand, undefined is used for optional values.」
+四国めたん「The difference in JSON compatibility is also an important point.」
+ずんだもん「Use them appropriately to make your intentions clear!」

@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about functions with no return value!」
+Zundamon「What's the difference between void and undefined types?」
+Shikoku Metan「Yes. void type doesn't use return values, undefined type explicitly returns undefined.」
+Zundamon「void functions implicitly return undefined!」
+Shikoku Metan「Exactly. When there's no return statement, undefined is automatically returned.」
+Zundamon「Do find functions return User | undefined?」
+Shikoku Metan「Yes. A design that returns undefined when not found is commonly used.」
+Zundamon「It's important to make intent clear by specifying return types!」

@@ -1,7 +1,0 @@
-四国めたん「Let's understand the type system behind null!」
-ずんだもん「What kind of type is null?」
-四国めたん「It's a primitive type whose only value is null—sometimes called the null literal type.」
-ずんだもん「What does typeof null return?」
-四国めたん「JavaScript returns 'object', but TypeScript treats it as null.」
-ずんだもん「So the type system handles it correctly!」
-四国めたん「With strictNullChecks on, null stands apart from other types, improving safety.」

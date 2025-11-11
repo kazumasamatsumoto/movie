@@ -1,0 +1,32 @@
+# #326 「nullable型とは - T | null」
+
+四国めたん「nullable型について学びましょう!」
+ずんだもん「nullable型はnullを許可する型なんだね!」
+四国めたん「はい。T | null の形式で、値がnullの可能性を表現します。」
+ずんだもん「関数の戻り値で、見つからない場合にnullを返すのに便利だよね?」
+四国めたん「その通りです。User | null のように使うことで、存在しない可能性を明示できます。」
+ずんだもん「プロパティでもnullable型を使えるんだね!」
+四国めたん「はい。オプショナルなサービスや設定値を表現するのに最適です。」
+ずんだもん「null許容型で、より正確な型定義ができるのだ!」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+/** Example 1: nullable型の基本 */
+type Nullable<T> = T | null;
+let name: Nullable<string> = null;
+let age: number | null = 25;
+
+/** Example 2: 関数の戻り値 */
+function findUser(id: number): User | null {
+  return users.find(u => u.id === id) ?? null;
+}
+
+/** Example 3: プロパティ */
+interface Config {
+  cache: CacheService | null;
+  logger: Logger | null;
+}
+```

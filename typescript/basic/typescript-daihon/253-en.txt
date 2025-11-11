@@ -1,7 +1,0 @@
-四国めたん「Let's learn how booleans compare in TypeScript 」
-ずんだもん「How do we compare booleans?」
-四国めたん「Use `===` for strict comparisons.」
-ずんだもん「What about their numeric conversions?」
-四国めたん「true becomes 1 and false becomes 0 with `==`, but `===` treats them as different types.」
-ずんだもん「Can you show an example?」
-四国めたん「`true === 1` is false, while `true == 1` is true.」

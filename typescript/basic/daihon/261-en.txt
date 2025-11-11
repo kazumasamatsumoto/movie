@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about Array.isArray()!」
+Zundamon「It's a method to check if something is an array!」
+Shikoku Metan「Yes. Since typeof returns object for arrays too, we need this method.」
+Zundamon「Can we use it with types like string[] | string?」
+Shikoku Metan「Exactly. For arrays use join(), for strings use toUpperCase().」
+Zundamon「Do null and empty objects return false properly?」
+Shikoku Metan「Yes. Only arrays return true, so we can make accurate checks.」
+Zundamon「It's convenient for writing array-specific processing safely!」

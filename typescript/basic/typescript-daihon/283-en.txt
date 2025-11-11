@@ -1,7 +1,0 @@
-四国めたん「Let's learn how to assign null!」
-ずんだもん「How do we assign null?」
-四国めたん「Assign the null literal to a variable declared with a union type. strictNullChecks keeps it safe.」
-ずんだもん「Does it error if the type doesn't match?」
-四国めたん「Exactly—only `string | null` can receive null; number cannot.」
-ずんだもん「Great—the type checker keeps us safe!」
-四国めたん「You can switch between null and string freely within the union.」

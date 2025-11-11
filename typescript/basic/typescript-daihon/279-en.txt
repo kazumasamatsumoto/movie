@@ -1,7 +1,0 @@
-四国めたん「Let's summarize best practices for booleans and comparisons in TypeScript 」
-ずんだもん「Give me the highlights!」
-四国めたん「Use `===`, apply type guards, and enable strictNullChecks.」
-ずんだもん「Anything else to remember?」
-四国めたん「Configure ESLint, add explicit annotations when needed, and avoid mixing strings with booleans.」
-ずんだもん「How about Angular?」
-四国めたん「Ensure TypeScript's checks flow through the template as well.」

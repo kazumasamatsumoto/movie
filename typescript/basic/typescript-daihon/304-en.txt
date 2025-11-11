@@ -1,9 +1,0 @@
-四国めたん「Let's learn how to check for `undefined`!」
-ずんだもん「How do you check whether something is `undefined`?」
-四国めたん「You can use strict equality `===`, type guards, Nullish Coalescing, and more.」
-ずんだもん「Which approach is recommended?」
-四国めたん「Strict equality `=== undefined` is explicit. Narrowing with a type guard keeps later code safe.」
-ずんだもん「Got it! Type guards make it safe!」
-四国めたん「Optional chaining `?.` and the Nullish Coalescing operator `??` are helpful too.」
-ずんだもん「Compile-time type checks are the best!」
-

@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about non-existent array elements!」
+Zundamon「What happens when we access outside array bounds?」
+Shikoku Metan「Yes. JavaScript returns undefined.」
+Zundamon「arr[10] is undefined when array length is 3!」
+Shikoku Metan「Exactly. We can make it type-safe with noUncheckedIndexedAccess.」
+Zundamon「How does the type change when this option is enabled?」
+Shikoku Metan「Yes. The type of arr[0] becomes number | undefined.」
+Zundamon「Checking for undefined before using makes access safe!」

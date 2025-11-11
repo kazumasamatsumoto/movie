@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn the migration procedure to strictNullChecks!」
+Zundamon「First, we enable strictNullChecks!」
+Shikoku Metan「That's right. Set strictNullChecks to true in tsconfig.json.」
+Zundamon「Next, we explicitly specify null allowance in type definitions, right?」
+Shikoku Metan「Exactly. Specify it explicitly like string | null.」
+Zundamon「Finally, we implement null checks!」
+Shikoku Metan「Yes. Make it safe using type guards and optional chaining.」
+Zundamon「We migrate gradually to create type-safe code!」

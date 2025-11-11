@@ -1,0 +1,8 @@
+Shikoku Metan「Let's handle boolean in Nest.js DTOs!」
+Zundamon「DTO is Data Transfer Object, used for data exchange!」
+Shikoku Metan「That's right. We can perform type checking using class-validator.」
+Zundamon「The @IsBoolean() decorator validates boolean types, right?」
+Shikoku Metan「Exactly. It can return an error when invalid values are sent.」
+Zundamon「It's convenient for managing flags like isActive or isAdmin!」
+Shikoku Metan「In the Controller, we receive the DTO using @Body().」
+Zundamon「It's an important mechanism for creating type-safe APIs!」

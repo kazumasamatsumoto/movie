@@ -1,9 +1,0 @@
-四国めたん「Let's learn the behavior with `strictNullChecks` enabled!」
-ずんだもん「How does it change things?」
-四国めたん「You must explicitly include `null` or `undefined` in a type, which greatly improves safety.」
-ずんだもん「How do I write that?」
-四国めたん「Use unions like `string | null` or `string | undefined`, and guard before accessing values.」
-ずんだもん「Got it! The type system enforces it!」
-四国めたん「The compiler catches unchecked null access, so runtime crashes disappear.」
-ずんだもん「Type-safe development is the best!」
-

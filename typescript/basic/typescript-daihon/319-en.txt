@@ -1,9 +1,0 @@
-四国めたん「Let's learn how to roll out `strictNullChecks` gradually!」
-ずんだもん「How do we adopt it in a large project?」
-四国めたん「Enable it file by file. You can use `@ts-check` comments or directory-level configs.」
-ずんだもん「What's the concrete process?」
-四国めたん「Start with a subset of files, fix the type errors, then expand the coverage.」
-ずんだもん「I see! We can migrate step by step!」
-四国めたん「Track the error count as you go and plan the rollout as a team.」
-ずんだもん「Gradually reaching type safety is the best!」
-

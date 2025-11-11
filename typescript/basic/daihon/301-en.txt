@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about non-existent properties!」
+Zundamon「What happens when we access undefined properties?」
+Shikoku Metan「Yes. TypeScript gives a compile error.」
+Zundamon「user.age errors when age isn't defined!」
+Shikoku Metan「Exactly. We can safely access with optional chaining.」
+Zundamon「Using ?. returns undefined?」
+Shikoku Metan「Yes. We can chain like user?.profile?.age.」
+Zundamon「Writing age?: number in type definitions makes it safe to handle!」

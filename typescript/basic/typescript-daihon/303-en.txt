@@ -1,9 +1,0 @@
-四国めたん「Let's learn how `undefined` fits into the type system!」
-ずんだもん「What kind of type is `undefined`?」
-四国めたん「It's the primitive `undefined` type whose only value is `undefined`.」
-ずんだもん「What does `typeof undefined` return?」
-四国めたん「It returns `'undefined'`, unlike `null`, which misreports its type.」
-ずんだもん「I see! The type system can represent it correctly!」
-四国めたん「With `strictNullChecks` enabled, `undefined` stays distinct from other types, boosting safety.」
-ずんだもん「Compile-time type checks are the best!」
-

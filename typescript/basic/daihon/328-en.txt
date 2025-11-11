@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about assigning values to nullable types!」
+Zundamon「We can assign both regular values and null!」
+Shikoku Metan「Yes. To a string | null type, you can assign either a string or null.」
+Zundamon「Objects can be made nullable too, right?」
+Shikoku Metan「Exactly. To User | null, you can assign either a User object or null.」
+Zundamon「Arrays can be nullable too!」
+Shikoku Metan「Yes. With string[] | null, you can make the entire array nullable.」
+Zundamon「With nullable types, we can flexibly handle the presence or absence of values!」

@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about undefined declaration!」
+Zundamon「How do we declare it?」
+Shikoku Metan「Yes. We can declare with undefined type or Union types.」
+Zundamon「name?: string is an optional property!」
+Shikoku Metan「Exactly. It's optional and means the same as string | undefined.」
+Zundamon「Can we use it for function parameters?」
+Shikoku Metan「Yes. Function parameters can also be made optional.」
+Zundamon「Setting default values with ?? operator is convenient!」

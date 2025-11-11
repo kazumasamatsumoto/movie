@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about strictNullChecks support for legacy code!」
+Zundamon「Non-Null Assertion ! can be used as a temporary measure!」
+Shikoku Metan「That's right. Use it when you can guarantee it's not null/undefined.」
+Zundamon「Type assertion as is also convenient as a temporary measure, right?」
+Shikoku Metan「Exactly. However, add TODO comments to fix it later.」
+Zundamon「Functions with any type should also be fixed gradually!」
+Shikoku Metan「Yes. Leave TODOs in legacy parts, and write new code strictly.」
+Zundamon「While using temporary workarounds, we improve gradually!」

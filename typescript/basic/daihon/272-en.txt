@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about the *ngIf directive!」
+Zundamon「We can toggle element visibility based on conditions!」
+Shikoku Metan「That's right. Elements are displayed only when the boolean value is true.」
+Zundamon「With the else clause, we can also set what to display when the condition is false, right?」
+Shikoku Metan「Exactly. Combined with ng-template, it allows flexible control.」
+Zundamon「Since DOM elements themselves are added or removed, it's good for performance too!」
+Shikoku Metan「Unlike CSS display:none, the important point is that elements are completely removed.」
+Zundamon「There are many practical scenarios like UI switching based on login status!」

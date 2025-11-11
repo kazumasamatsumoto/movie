@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about optional parameter types!」
+Zundamon「When we add ?, it becomes string | undefined!」
+Shikoku Metan「Yes. Optional parameters automatically include undefined.」
+Zundamon「What's the difference from default parameters?」
+Shikoku Metan「With default parameters, the type is pure string without undefined.」
+Zundamon「Can we use optional for object types too?」
+Shikoku Metan「Yes. We can make the entire object optional, like options?: { verbose: boolean }.」
+Zundamon「Let's create flexible functions with optional parameters!」

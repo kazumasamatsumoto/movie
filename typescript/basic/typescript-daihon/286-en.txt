@@ -1,7 +1,0 @@
-四国めたん「Let's learn the difference between null and undefined!」
-ずんだもん「How do null and undefined differ?」
-四国めたん「Null is an explicit empty value, while undefined means 'not set'. They convey different intent.」
-ずんだもん「How do we pick one?」
-四国めたん「Use null for intentional emptiness; use undefined for optional properties or missing returns. strictNullChecks enforces the distinction.」
-ずんだもん「Understood—the meaning differs.」
-四国めたん「typeof helps too: null yields 'object'; undefined yields 'undefined'.」

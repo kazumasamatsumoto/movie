@@ -1,9 +1,0 @@
-四国めたん「Let's learn about the `typeof` operator and `undefined`!」
-ずんだもん「What does `typeof undefined` return?」
-四国めたん「It returns `'undefined'`. Unlike `null`, it reports the right type.」
-ずんだもん「Can I check with `typeof`?」
-四国めたん「Yes—`typeof value === 'undefined'` works, and it's safe even in the global scope.」
-ずんだもん「I see! We can use it for type checks!」
-四国めたん「Because `undefined` means “not defined,” the `typeof` check won't throw even for undeclared variables.」
-ずんだもん「Runtime-safe checks are the best!」
-

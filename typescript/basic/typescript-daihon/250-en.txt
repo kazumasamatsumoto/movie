@@ -1,7 +1,0 @@
-四国めたん「Let's learn about the less-than-or-equal operator in TypeScript 」
-ずんだもん「How do we use the <= operator?」
-四国めたん「It checks whether the left operand is less than or equal to the right operand.」
-ずんだもん「Does equality return true as well?」
-四国めたん「Yes—`5 <= 5` evaluates to true.」
-ずんだもん「So it's great for upper boundary checks?」
-四国めたん「Exactly—use it whenever you need to enforce maximum values.」

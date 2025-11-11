@@ -1,9 +1,0 @@
-四国めたん「Let's learn why you should enable `strictNullChecks`!」
-ずんだもん「Why should we turn it on?」
-四国めたん「It prevents null-pointer exceptions—the source of many runtime errors—so code quality rises.」
-ずんだもん「Any other benefits?」
-四国めたん「Type inference sharpens, editor IntelliSense improves, and bugs surface earlier.」
-ずんだもん「I see! It even boosts developer productivity!」
-四国めたん「Angular and Nest.js officially recommend it; strong typing is essential today.」
-ずんだもん「Writing production-grade code feels amazing!」
-

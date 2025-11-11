@@ -1,0 +1,8 @@
+Shikoku Metan「Let's look at practical examples of using null!」
+Zundamon「The findUser function returns null when a user is not found!」
+Shikoku Metan「That's right. We use the ?? operator to convert undefined to null.」
+Zundamon「The CacheService class uses null for cache management!」
+Shikoku Metan「Exactly. We represent initial state or invalid state with null.」
+Zundamon「API responses also use data: T | null!」
+Shikoku Metan「Yes. On success, we return data; on failure, we return null and an error message.」
+Zundamon「We can also use it in Angular services to manage currentUser!」

@@ -1,7 +1,0 @@
-四国めたん「Let's practice when to use null versus undefined!」
-ずんだもん「I’m unsure which to choose.」
-四国めたん「Null conveys intentional emptiness; undefined covers optional or missing values. APIs and DBs usually favor null.」
-ずんだもん「Any concrete rules?」
-四国めたん「Use null when data is absent on purpose; undefined when a property is missing. Keep JSON compatibility in mind.」
-ずんだもん「That clarifies the intent!」
-四国めたん「Angular often initializes services with null and uses undefined for optional params.」

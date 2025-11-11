@@ -1,0 +1,8 @@
+四国めたん「strictNullChecksでundefined代入エラーについて学びましょう!」
+ずんだもん「string型にundefinedを代入するとエラーになるんだね!」
+四国めたん「はい。strictNullChecks有効時、undefinedも明示的に許可が必要です。」
+ずんだもん「修正方法1はUnion型で string | undefined と書くんだよね?」
+四国めたん「その通りです。型にundefinedを含めることで代入が可能になります。」
+ずんだもん「修正方法2のオプショナルも便利そうだね!」
+四国めたん「はい。プロパティや引数に?を付けると string | undefined になります。」
+ずんだもん「型でundefinedを明示的に扱う方が安全なのだ!」

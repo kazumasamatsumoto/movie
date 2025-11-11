@@ -1,9 +1,0 @@
-四国めたん「Let's learn how to access properties that don't exist!」
-ずんだもん「What happens if I read a property that isn't there?」
-四国めたん「JavaScript returns `undefined`, but TypeScript flags it as a type error.」
-ずんだもん「The type system stops it!」
-四国めたん「Yes, optional chaining `?.` lets you access it safely; if it doesn't exist you just get `undefined`.」
-ずんだもん「That makes sense! It prevents runtime errors!」
-四国めたん「Type safety helps guarantee which properties exist, so debugging gets easier.」
-ずんだもん「Compile-time checks are the best!」
-

@@ -1,0 +1,8 @@
+#289 "Nullish coalescing operator - ??" Script
+
+四国めたん「Today let's learn about the nullish coalescing operator!」
+ずんだもん「The ?? operator returns the default value only when null or undefined.」
+四国めたん「Unlike the || operator, 0 and empty strings are treated as valid values.」
+ずんだもん「The key difference is how falsy values are handled.」
+四国めたん「The ??= assignment operator is also useful.」
+ずんだもん「Combine it with optional chaining to write safe code!」

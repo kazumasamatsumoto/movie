@@ -1,9 +1,0 @@
-四国めたん「Let's learn how to check for null!」
-ずんだもん「How do you check for null?」
-四国めたん「We have several options: the strict equality operator `===`, type guards, optional chaining, and more。」
-ずんだもん「Which approach is recommended?」
-四国めたん「Using strict equality `=== null` is explicit. Narrowing with a type guard keeps the code type-safe afterward。」
-ずんだもん「Got it! Type guards keep things safe!」
-四国めたん「Optional chaining `?.` and the Nullish Coalescing operator `??` are handy too。」
-ずんだもん「Compile-time type checking is the best!」
-

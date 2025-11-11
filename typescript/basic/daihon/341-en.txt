@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about undefinedable types!」
+Zundamon「With T | undefined, we can create types that allow undefined!」
+Shikoku Metan「Yes. We can explicitly express cases where values don't exist.」
+Zundamon「What's the relationship with optional properties?」
+Shikoku Metan「Exactly. property?: T means the same as property: T | undefined.」
+Zundamon「Can we use it for function arguments too?」
+Shikoku Metan「Yes. By performing undefined checks, we can handle values safely.」
+Zundamon「With undefinedable types, we can explicitly handle the absence of values!」

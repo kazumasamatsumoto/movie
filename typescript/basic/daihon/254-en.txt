@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about null and undefined comparison!」
+Zundamon「These two are similar but different, right?」
+Shikoku Metan「Yes. They're considered equal with ==, but different with ===.」
+Zundamon「Does null == undefined return true?」
+Shikoku Metan「Exactly. However, null === undefined returns false.」
+Zundamon「We should use === when we want strict comparison!」
+Shikoku Metan「Yes. Using type predicate functions makes it even more type-safe.」
+Zundamon「Explicitly checking with isNull or isUndefined functions is better!」

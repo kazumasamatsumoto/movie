@@ -1,0 +1,8 @@
+#288 "Null checking" Script
+
+四国めたん「Today let's learn about null checking methods!」
+ずんだもん「You can safely check with the strict equality operator.」
+四国めたん「Using type guards, TypeScript will narrow the type for you.」
+ずんだもん「Optional chaining lets you safely access deep properties.」
+四国めたん「The Nullish Coalescing operator can set default values.」
+ずんだもん「Combine these techniques to write robust code!」

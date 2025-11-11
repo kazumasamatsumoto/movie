@@ -1,7 +1,0 @@
-四国めたん「Let's learn how strings are compared in TypeScript 」
-ずんだもん「How are strings compared?」
-四国めたん「They use lexicographic order.」
-ずんだもん「What does that mean exactly?」
-四国めたん「Characters are compared by their code points—`'a' < 'b'` evaluates to true.」
-ずんだもん「What about uppercase and lowercase?」
-四国めたん「Uppercase letters have smaller codes, so `'A' < 'a'` is true.」

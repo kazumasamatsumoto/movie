@@ -1,9 +1,0 @@
-四国めたん「Let's learn about undefined-assignment errors under `strictNullChecks`!」
-ずんだもん「Does assigning `undefined` cause an error?」
-四国めたん「Yes—ordinary types can't take `undefined`. Use a union or an optional.」
-ずんだもん「How do I fix it?」
-四国めたん「Add `| undefined` to the type or mark it optional with `?`; the latter is concise.」
-ずんだもん「I see! Optional syntax is handy!」
-四国めたん「Optional parameters are common in functions too, which keeps things type-safe.」
-ずんだもん「Compile-time checks are the best!」
-

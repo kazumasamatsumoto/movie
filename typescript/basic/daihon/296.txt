@@ -1,0 +1,8 @@
+四国めたん「undefined型について学びましょう!」
+ずんだもん「undefinedってどういう時に使うの?」
+四国めたん「はい。値が未定義であることを表現する型です。」
+ずんだもん「オプショナルプロパティと関係がある?」
+四国めたん「その通りです。name?:stringはstring | undefinedと同じ意味です。」
+ずんだもん「strictNullChecksが有効だとエラーになるの?」
+四国めたん「はい。number型にundefinedは代入できません。」
+ずんだもん「Union型で明示的にundefinedを扱うのが安全なのだ!」

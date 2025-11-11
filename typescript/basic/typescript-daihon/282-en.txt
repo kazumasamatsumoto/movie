@@ -1,7 +1,0 @@
-四国めたん「Let's learn how to declare null in TypeScript!」
-ずんだもん「How do we declare null?」
-四国めたん「Either declare a variable as the null type or use a union with other types.」
-ずんだもん「What does it look like in code?」
-四国めたん「Write `let value: null = null` or `let name: string | null`. strictNullChecks is important.」
-ずんだもん「So we annotate the type explicitly!」
-四国めたん「Yes, and literals are inferred as the null literal type, improving safety.」

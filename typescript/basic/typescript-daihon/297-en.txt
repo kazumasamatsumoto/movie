@@ -1,9 +1,0 @@
-四国めたん「Let's learn how to declare `undefined`!」
-ずんだもん「How do you declare `undefined`?」
-四国めたん「You can declare it with the `undefined` type itself, or use it through union types and optional properties。」
-ずんだもん「How do you write that concretely?」
-四国めたん「For example, `let value: undefined` or `let name?: string`. The `?` is shorthand for `string | undefined`。」
-ずんだもん「Got it! Optionals look super handy!」
-四国めたん「You can also use it in function parameters. `strictNullChecks` keeps everything type-safe。」
-ずんだもん「Compile-time checking is the best!」
-

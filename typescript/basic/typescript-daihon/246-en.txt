@@ -1,7 +1,0 @@
-四国めたん「Let's learn about the greater-than operator in TypeScript 」
-ずんだもん「How do we use the greater-than operator?」
-四国めたん「It checks whether the left operand is greater than the right operand.」
-ずんだもん「Does it work beyond numbers?」
-四国めたん「Yes—you can compare strings and Date objects as well.」
-ずんだもん「Can I see an example?」
-四国めたん「`10 > 5` is true, while `5 > 10` is false.」

@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about null assignment errors with strictNullChecks!」
+Zundamon「Assigning null to a string type causes an error!」
+Shikoku Metan「That's right. With strictNullChecks enabled, null must be explicitly allowed.」
+Zundamon「The first fix method is using a Union type like string | null, right?」
+Shikoku Metan「Exactly. Including null in the type allows the assignment.」
+Zundamon「Non-Null Assertion can also be used, but it's not recommended?」
+Shikoku Metan「Yes. It bypasses type checking, creating runtime error risks.」
+Zundamon「Explicitly handling null with Union types is more type-safe!」

@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about falsy checks!」
+Zundamon「It's a way to check if a value doesn't exist!」
+Shikoku Metan「Yes. Using ! to evaluate a value checks if it's falsy.」
+Zundamon「What kinds of values are falsy?」
+Shikoku Metan「Exactly. There are six: false, 0, empty string, null, undefined, and NaN.」
+Zundamon「All of these become false!」
+Shikoku Metan「Yes. Checking with Boolean() returns false for all of them.」
+Zundamon「It's useful for error handling!」

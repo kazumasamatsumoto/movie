@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn how to declare undefinedable types!」
+Zundamon「The basic declaration is type | undefined!」
+Shikoku Metan「Yes. We can directly specify T | undefined for variables.」
+Zundamon「Can we reuse it with type aliases?」
+Shikoku Metan「Exactly. We can create a common pattern with generic types like Undefinedable<T>.」
+Zundamon「We can use it in interfaces too!」
+Shikoku Metan「Yes. We can specify T | undefined as a property type.」
+Zundamon「By declaring undefinedable types, we can create flexible type definitions!」

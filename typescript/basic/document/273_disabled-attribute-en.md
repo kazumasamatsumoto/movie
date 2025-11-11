@@ -1,0 +1,35 @@
+# #273 "[disabled] Attribute"
+
+Shikoku Metan: "Let's learn about the [disabled] attribute!"
+Zundamon: "We can disable buttons and inputs with property binding!"
+Shikoku Metan: "That's right. We can control dynamically based on boolean property values."
+Zundamon: "During submission, it's good to disable the button with [disabled]="isSubmitting", right?"
+Shikoku Metan: "Exactly. It prevents users from double-submitting."
+Zundamon: "We can also express non-editable states with [disabled]="!isEditable"!"
+Shikoku Metan: "By using square brackets [], it links with TypeScript properties."
+Zundamon: "It's even more practical when combined with form validation!"
+
+---
+
+## 📺 Code for Display
+
+```typescript
+// [disabled] attribute
+
+@Component({
+  selector: 'app-form',
+  template: `
+    <button [disabled]="isSubmitting">Submit</button>
+    <input [disabled]="!isEditable" />
+  `
+})
+export class FormComponent {
+  isSubmitting: boolean = false;
+  isEditable: boolean = true;
+
+  submit(): void {
+    this.isSubmitting = true;
+    // API call processing
+  }
+}
+```

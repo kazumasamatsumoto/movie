@@ -1,9 +1,0 @@
-四国めたん「Let's learn about `strictNullChecks`!」
-ずんだもん「What is `strictNullChecks`?」
-四国めたん「It's a compiler option that enforces strict checks for `null` and `undefined`.」
-ずんだもん「What changes when it's enabled?」
-四国めたん「You can no longer assign `null` or `undefined` to ordinary types; you have to use explicit unions.」
-ずんだもん「Got it! That boosts type safety!」
-四国めたん「It prevents most null-pointer errors and is recommended in TypeScript v5.9.」
-ずんだもん「Compile-time null checks are the best!」
-

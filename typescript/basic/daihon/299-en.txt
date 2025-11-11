@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about uninitialized variables!」
+Zundamon「Variables that are only declared without a value?」
+Shikoku Metan「Yes. In that case, the variable's value is undefined.」
+Zundamon「console.log shows undefined!」
+Shikoku Metan「Exactly. In strict mode, initialization may be required.」
+Zundamon「Do we explicitly set undefined to prevent errors?」
+Shikoku Metan「Yes. Declare with Union types and check appropriately.」
+Zundamon「It's safe to check with !== undefined before using!」

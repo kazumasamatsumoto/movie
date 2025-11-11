@@ -1,7 +1,0 @@
-四国めたん「Let's learn about the instanceof type guard in TypeScript 」
-ずんだもん「What is instanceof?」
-四国めたん「It checks whether an object is an instance of a specific class.」
-ずんだもん「How do we use it?」
-四国めたん「`value instanceof Date` verifies that value is a Date.」
-ずんだもん「So it's a class-based type guard?」
-四国めたん「Exactly—it relies on the prototype chain.」

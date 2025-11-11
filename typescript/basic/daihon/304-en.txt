@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about undefined checks!」
+Zundamon「How do we check if something is undefined?」
+Shikoku Metan「Yes. We can use strict equality === as a type guard.」
+Zundamon「We check with value === undefined!」
+Shikoku Metan「Exactly. The Nullish Coalescing operator is also convenient.」
+Zundamon「What does the ?? operator do?」
+Shikoku Metan「Yes. It uses the default value only when undefined/null.」
+Zundamon「Combining with optional chaining ?. makes it safe to handle!」

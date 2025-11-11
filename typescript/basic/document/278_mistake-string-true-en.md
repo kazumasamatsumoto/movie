@@ -1,0 +1,35 @@
+# #278 "Mistake (3) - String 'true'"
+
+Shikoku Metan: "Let's learn about handling the string 'true'!"
+Zundamon: "Even if we get the string 'true' from an API, it's different from a boolean!"
+Shikoku Metan: "That's right. value === true compares a string with a boolean, so it's false."
+Zundamon: "if (value) becomes true, but this is unintended behavior, right?"
+Shikoku Metan: "Exactly. Since strings are truthy, even 'false' becomes true."
+Zundamon: "We explicitly convert with const boolValue = value === 'true'!"
+Shikoku Metan: "Yes. This makes it work correctly as a boolean."
+Zundamon: "It's important to always convert API string values before using them!"
+
+---
+
+## 📺 Code for Display
+
+```typescript
+// ❌ Wrong: Handling string "true"
+const value = "true";  // Retrieved from API
+if (value === true) {  // false
+  console.log('Not executed');
+}
+
+// ❌ Treating as truthy (unintended behavior)
+if (value) {  // true (strings are truthy)
+  console.log('Executed');
+}
+```
+
+```typescript
+// ✅ Correct: Explicit conversion
+const boolValue = value === "true";
+if (boolValue === true) {  // Works correctly
+  console.log('Executed');
+}
+```

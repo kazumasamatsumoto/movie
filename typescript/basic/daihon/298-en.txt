@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about undefined assignment!」
+Zundamon「What values can we assign?」
+Shikoku Metan「Yes. We can assign undefined or normal values to Union type variables.」
+Zundamon「string | undefined can hold either one!」
+Shikoku Metan「Exactly. We can handle values flexibly.」
+Zundamon「What about errors with strictNullChecks?」
+Shikoku Metan「undefined cannot be assigned to number type, so Union types are needed.」
+Zundamon「Optional properties can also be omitted!」

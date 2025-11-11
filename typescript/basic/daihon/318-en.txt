@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about improved type safety with strictNullChecks!」
+Zundamon「With type guards for null checks, we can narrow down to string type!」
+Shikoku Metan「That's right. After excluding null in an if statement, it's treated as a string type.」
+Zundamon「Control flow analysis automatically narrows the type by TypeScript, right?」
+Shikoku Metan「Exactly. After return or throw, the type is narrowed to non-null.」
+Zundamon「Optional chaining ?. is also convenient to use!」
+Shikoku Metan「Yes. user?.name safely handles null or undefined.」
+Zundamon「With type guards and control flow analysis, we can write null-safe code!」

@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about why you should enable strictNullChecks!」
+Zundamon「What benefits does it have?」
+Shikoku Metan「Yes. It can prevent null pointer exceptions beforehand.」
+Zundamon「Since null checks are enforced, runtime errors decrease!」
+Shikoku Metan「Exactly. Editor completion is also improved, enhancing the development experience.」
+Zundamon「After a null check, the type is narrowed and completion works?」
+Shikoku Metan「Yes. It also leads to early bug detection, allowing you to write more robust code.」
+Zundamon「Dangerous calls like process(null) become compile errors!」

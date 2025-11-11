@@ -1,0 +1,8 @@
+四国めたん「typeof undefinedについて学びましょう!」
+ずんだもん「typeof演算子でundefinedを調べるとどうなる?」
+四国めたん「はい。文字列"undefined"が返されます。」
+ずんだもん「typeof null は"object"なのに違うんだね!」
+四国めたん「その通りです。typeof演算子でチェックもできます。」
+ずんだもん「typeof value === "undefined"で確認するの?」
+四国めたん「はい。未宣言の変数でもエラーにならず安全です。」
+ずんだもん「直接===だとReferenceErrorになるけど、typeofなら大丈夫なのだ!」

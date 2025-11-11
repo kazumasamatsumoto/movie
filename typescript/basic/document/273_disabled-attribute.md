@@ -1,0 +1,35 @@
+# #273 「[disabled]属性」
+
+四国めたん「[disabled]属性について学びましょう!」
+ずんだもん「プロパティバインディングでボタンやinputの無効化ができるんだね!」
+四国めたん「はい。booleanプロパティの値に応じて動的に制御できます。」
+ずんだもん「送信中は[disabled]="isSubmitting"でボタンを無効化すると良いよね?」
+四国めたん「その通りです。ユーザーの二重送信を防止できます。」
+ずんだもん「編集不可の状態も[disabled]="!isEditable"で表現できるね!」
+四国めたん「角括弧[]を使うことで、TypeScriptのプロパティと連動します。」
+ずんだもん「フォームのバリデーションと組み合わせるとより実用的なのだ!」
+
+---
+
+## 📺 画面表示用コード
+
+```typescript
+// [disabled]属性
+
+@Component({
+  selector: 'app-form',
+  template: `
+    <button [disabled]="isSubmitting">送信</button>
+    <input [disabled]="!isEditable" />
+  `
+})
+export class FormComponent {
+  isSubmitting: boolean = false;
+  isEditable: boolean = true;
+
+  submit(): void {
+    this.isSubmitting = true;
+    // API呼び出し処理
+  }
+}
+```

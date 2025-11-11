@@ -1,7 +1,0 @@
-四国めたん「Let's learn about explicit boolean conversion in TypeScript 」
-ずんだもん「How do we convert values to boolean?」
-四国めたん「Use the Boolean() function, the !! operator, or the ternary operator.」
-ずんだもん「What does !! do?」
-四国めたん「It negates twice to coerce the value into true or false.」
-ずんだもん「Which approach should we choose?」
-四国めたん「Boolean() is explicit and readable, but !! is frequently used as well.」

@@ -1,7 +1,0 @@
-四国めたん「Let's list the falsy values in TypeScript 」
-ずんだもん「How many falsy values exist?」
-四国めたん「JavaScript has six falsy values.」
-ずんだもん「Can you name them?」
-四国めたん「false, 0, the empty string '', null, undefined, and NaN.」
-ずんだもん「So memorizing these is enough?」
-四国めたん「Yes—everything else is truthy.」

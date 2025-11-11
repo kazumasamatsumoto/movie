@@ -1,7 +1,0 @@
-四国めたん「Let's dive into the @IsBoolean() decorator in TypeScript 」
-ずんだもん「What is @IsBoolean()?」
-四国めたん「A class-validator decorator that ensures the value is boolean.」
-ずんだもん「How do we use it?」
-四国めたん「Annotate DTO properties with `@IsBoolean()`.」
-ずんだもん「Does it reject the string 'true'?」
-四国めたん「Yes—it accepts only genuine boolean values.」

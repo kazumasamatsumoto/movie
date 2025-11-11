@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about strictNullChecks support for third-party libraries!」
+Zundamon「We create type definition files!」
+Shikoku Metan「That's right. Create type definitions in types/legacy-lib.d.ts.」
+Zundamon「We can also use skipLibCheck, right?」
+Shikoku Metan「Exactly. Use skipLibCheck as a temporary measure.」
+Zundamon「There's also a method to handle it with type assertions!」
+Shikoku Metan「Yes. Use as to explicitly specify the string | null type.」
+Zundamon「We properly manage the type definitions of libraries!」

@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about number comparison!」
+Zundamon「Integer comparison is easy, right!」
+Shikoku Metan「Yes. However, we need to be careful with floating-point numbers.」
+Zundamon「I've heard that 0.1 + 0.2 === 0.3 returns false!」
+Shikoku Metan「That's correct. Errors occur due to floating-point precision issues.」
+Zundamon「How do we solve this?」
+Shikoku Metan「We create a comparison function using epsilon (tolerance).」
+Zundamon「Calculate the difference with Math.abs and allow tiny errors!」

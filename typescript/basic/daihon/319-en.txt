@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about gradual introduction methods for strictNullChecks!」
+Zundamon「Using @ts-check per file allows partial enablement!」
+Shikoku Metan「That's right. Even large projects can adapt gradually.」
+Zundamon「There's also a method to specify files in tsconfig.json, right?」
+Shikoku Metan「Exactly. The files property can limit target files.」
+Zundamon「Checking error counts with tsc --noEmit is good!」
+Shikoku Metan「Yes. List all errors and prioritize them for fixing.」
+Zundamon「By introducing gradually, we can minimize risks!」

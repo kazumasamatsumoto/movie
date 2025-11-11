@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about the differences between null and 0!」
+Zundamon「They both feel like nothing, but are they different?」
+Shikoku Metan「Yes. null is null type, 0 is number type - they have different types.」
+Zundamon「null === 0 becomes false!」
+Shikoku Metan「Exactly. They also behave differently with Nullish Coalescing.」
+Zundamon「0 doesn't get replaced by the ?? operator because it's a valid number?」
+Shikoku Metan「Yes. 0 is a valid value, so null ?? 10 is 10, but 0 ?? 10 is 0.」
+Zundamon「Use Union types explicitly to maintain type safety!」

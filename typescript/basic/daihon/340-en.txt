@@ -1,0 +1,8 @@
+Shikoku Metan「Let's summarize nullable types!」
+Zundamon「With Nullable<T> type, we can create types that allow null!」
+Shikoku Metan「Yes. Using T | null, we can explicitly express the absence of a value.」
+Zundamon「There are several safe access methods, right?」
+Shikoku Metan「Exactly. We can use Optional Chaining and null checks with the strict equality operator.」
+Zundamon「In practical patterns, we combine it with filter!」
+Shikoku Metan「Yes. We can exclude null with the isNotNull function and create safe arrays.」
+Zundamon「By mastering nullable types, we can write robust code!」

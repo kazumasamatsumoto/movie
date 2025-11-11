@@ -1,7 +1,0 @@
-四国めたん「Let's learn about numeric comparisons in TypeScript 」
-ずんだもん「What should we watch for?」
-四国めたん「Floating-point precision issues can bite you.」
-ずんだもん「Can you give an example?」
-四国めたん「`0.1 + 0.2 === 0.3` evaluates to false.」
-ずんだもん「Why false?」
-四国めたん「Floating-point rounding errors—use an epsilon tolerance when comparing.」

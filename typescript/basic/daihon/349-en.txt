@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn undefinedable best practices!」
+Zundamon「We actively use optional properties!」
+Shikoku Metan「Yes. We make non-essential values optional, like port?: number.」
+Zundamon「How do we set default values?」
+Shikoku Metan「Using the Nullish Coalescing operator ??, like config.port ?? 8080.」
+Zundamon「Do we combine it with Optional Chaining?」
+Shikoku Metan「Exactly. We can chain like data?.process()?.value ?? defaultValue.」
+Zundamon「Let's write readable code with best practices!」

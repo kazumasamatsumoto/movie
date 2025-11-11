@@ -1,0 +1,37 @@
+# #277 "Mistake (2) - Confusion with Truthy"
+
+Shikoku Metan: "Let's learn about problems caused by confusion with truthy values!"
+Zundamon: "With if (count), 0 is also falsy, which causes problems!"
+Shikoku Metan: "That's right. Even though 0 is a valid value for number type, it gets treated as false."
+Zundamon: "With count !== null && count !== undefined, 0 is processed correctly, right?"
+Shikoku Metan: "Exactly. Let's make our intentions clear with explicit checks."
+Zundamon: "There's also the count != null notation, but that's exceptional!"
+Shikoku Metan: "Yes. Use it only when checking for both null and undefined."
+Zundamon: "When 0 or empty strings are valid values, always check explicitly!"
+
+---
+
+## 📺 Code for Display
+
+```typescript
+// ❌ Wrong: Confusion with truthy
+function process(count: number | null) {
+  if (count) {  // 0 is also falsy, problematic
+    console.log(count);
+  }
+}
+```
+
+```typescript
+// ✅ Correct: Explicit check
+function processCorrect(count: number | null) {
+  if (count !== null && count !== undefined) {
+    console.log(count);  // 0 is processed correctly
+  }
+}
+
+// Or
+if (count != null) {
+  console.log(count);
+}
+```

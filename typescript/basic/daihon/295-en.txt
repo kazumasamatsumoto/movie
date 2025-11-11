@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn the null type summary!」
+Zundamon「We're organizing what we've learned so far!」
+Shikoku Metan「Yes. First, explicitly handle null with Union types.」
+Zundamon「Check with !== null before using it!」
+Shikoku Metan「Exactly. You can also set default values with Nullish Coalescing ??.」
+Zundamon「It's convenient when combined with optional chaining ?.!」
+Shikoku Metan「Yes. It's also commonly used in practical Repository patterns.」
+Zundamon「Handle null type-safely to prevent bugs!」

@@ -1,7 +1,0 @@
-四国めたん「Let's check which types the greater-than operator accepts in TypeScript 」
-ずんだもん「Which types can we compare?」
-四国めたん「Numbers, strings, Dates, and more.」
-ずんだもん「So strings can be compared too?」
-四国めたん「Yes—lexicographically. `'b' > 'a'` evaluates to true.」
-ずんだもん「What about Date objects?」
-四国めたん「They compare by their millisecond timestamp.」

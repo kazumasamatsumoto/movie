@@ -1,9 +1,0 @@
-四国めたん「Let's learn how `undefined` appears in JSON!」
-ずんだもん「How does JSON handle `undefined`?」
-四国めたん「JSON doesn't support `undefined`; it's omitted when you serialize.」
-ずんだもん「How is that different from `null`?」
-四国めたん「`null` stays in the JSON, but `undefined` disappears entirely—a crucial difference for APIs.」
-ずんだもん「I see! `undefined` isn't JSON-friendly!」
-四国めたん「Optional properties that hold `undefined` simply vanish during serialization.」
-ずんだもん「We have to be careful when working with APIs!」
-

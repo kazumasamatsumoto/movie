@@ -1,0 +1,8 @@
+#286 "Differences between null and undefined" Script
+
+四国めたん「Today let's learn about the differences between null and undefined!」
+ずんだもん「Both represent the absence of a value, but their meanings differ.」
+四国めたん「null is an explicit empty value, undefined is an uninitialized state.」
+ずんだもん「The typeof operator also gives different results for each.」
+四国めたん「Understanding when to use optional properties versus null is important.」
+ずんだもん「With the Nullish Coalescing operator, both are treated the same!」

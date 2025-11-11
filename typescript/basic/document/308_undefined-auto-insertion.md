@@ -1,0 +1,35 @@
+# #308 「undefinedの自動挿入」
+
+四国めたん「undefinedの自動挿入について学びましょう!」
+ずんだもん「オプショナルパラメータを省略すると、自動的にundefinedになるんだね!」
+四国めたん「はい。関数に引数を渡さない場合、その値はundefinedとして扱われます。」
+ずんだもん「return文がない関数も、暗黙的にundefinedを返すんだよね?」
+四国めたん「その通りです。明示的なreturnがなければundefinedが返されます。」
+ずんだもん「オプショナルプロパティも省略時は自動的にundefinedだね!」
+四国めたん「TypeScriptはundefinedを自動挿入する場面が多いので、理解が重要です。」
+ずんだもん「Null合体演算子??でデフォルト値を設定すると安全なのだ!」
+
+---
+
+
+```typescript
+/** Example 1: オプショナルパラメータ */
+function greet(name?: string) {
+  console.log(name ?? "Guest"); // nameはundefined可能
+}
+greet(); // name = undefined
+
+/** Example 2: 暗黙的なreturn */
+function noReturn() {
+  // return文がない
+}
+const result = noReturn(); // undefined
+
+/** Example 3: オプショナルプロパティ */
+interface User {
+  name: string;
+  age?: number;  // 省略時はundefined
+}
+const user: User = { name: "Alice" };
+// user.age は undefined
+```

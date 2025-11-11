@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about type guards for nullable types!」
+Zundamon「We can check for null with type guard functions!」
+Shikoku Metan「Yes. With the isNotNull function, we can guarantee at the type level that a value is not null.」
+Zundamon「The syntax 'value is T' is important, right?」
+Shikoku Metan「Exactly. This allows TypeScript to automatically narrow down the type.」
+Zundamon「We can combine it with array filter!」
+Shikoku Metan「Yes. We can safely create an array excluding null from an array containing null.」
+Zundamon「With type guards, we can write type-safe code!」

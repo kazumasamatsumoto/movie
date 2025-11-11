@@ -1,7 +1,0 @@
-四国めたん「Let's learn how booleans work in Angular templates with TypeScript 」
-ずんだもん「How do we use booleans in Angular templates?」
-四国めたん「Bind them to directives like *ngIf or [disabled].」
-ずんだもん「How do we write it?」
-四国めたん「Bind the component's boolean property directly in the template.」
-ずんだもん「Is it type-safe?」
-四国めたん「Absolutely—TypeScript's type checking still applies.」

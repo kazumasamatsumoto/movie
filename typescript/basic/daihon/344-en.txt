@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about the types of optional properties!」
+Zundamon「property?: T is the same as T | undefined!」
+Shikoku Metan「Yes. Both express the same type.」
+Zundamon「Do we need to check when accessing?」
+Shikoku Metan「Exactly. We perform an undefined check before using it safely.」
+Zundamon「We can use Optional Chaining too!」
+Shikoku Metan「Yes. With the ?. operator, we can safely access even when it's undefined.」
+Zundamon「By understanding optional property types, we can access them safely!」

@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about typeof undefined!」
+Zundamon「What happens when we check undefined with typeof operator?」
+Shikoku Metan「Yes. It returns the string "undefined".」
+Zundamon「Different from typeof null which is "object"!」
+Shikoku Metan「Exactly. We can also check with typeof operator.」
+Zundamon「We check with typeof value === "undefined"?」
+Shikoku Metan「Yes. It's safe even for undeclared variables without errors.」
+Zundamon「Direct === causes ReferenceError, but typeof is safe!」

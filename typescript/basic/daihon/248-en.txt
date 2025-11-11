@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about the less than operator!」
+Zundamon「So with <, we can check if the left side is less than the right side!」
+Shikoku Metan「Yes. It works opposite to the greater than operator.」
+Zundamon「5 < 10 is true, but 10 < 5 becomes false, right?」
+Shikoku Metan「Exactly. It also returns false when values are equal.」
+Zundamon「Can we create type-safe comparison functions?」
+Shikoku Metan「Of course. Functions like isLess improve code readability.」
+Zundamon「It's commonly used for score range checks, so let's master it!」

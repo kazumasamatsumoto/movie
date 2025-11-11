@@ -1,7 +1,0 @@
-四国めたん「Let's learn about type predicate functions in TypeScript 」
-ずんだもん「What is a type predicate function?」
-四国めたん「It's a type guard whose return type looks like `x is Type`.」
-ずんだもん「What benefits does it bring?」
-四国めたん「It informs the compiler about the narrowed type, enabling safer code.」
-ずんだもん「Can you show an example?」
-四国めたん「Define `function isString(x): x is string` and use it in conditions.」

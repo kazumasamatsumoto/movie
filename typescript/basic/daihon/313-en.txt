@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about the behavior when strictNullChecks is enabled!」
+Zundamon「What happens when it's enabled?」
+Shikoku Metan「Yes. To assign null or undefined, you need to explicitly specify it with a Union type.」
+Zundamon「You get an error unless you write it like string | null!」
+Shikoku Metan「Exactly. Null checks become mandatory, allowing you to write safe code.」
+Zundamon「When you do a null check with an if statement, the type is narrowed?」
+Shikoku Metan「Yes. Through Type Narrowing, after the check it's treated as a non-null type.」
+Zundamon「Optional properties become number | undefined!」

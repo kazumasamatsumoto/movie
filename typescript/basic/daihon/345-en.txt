@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about optional parameters!」
+Zundamon「We add a ? after the parameter name!」
+Shikoku Metan「Yes. That makes the parameter optional.」
+Zundamon「Can we omit it when calling?」
+Shikoku Metan「Exactly. When omitted, the parameter value becomes undefined.」
+Zundamon「We can combine it with default values too!」
+Shikoku Metan「Yes. When you set a default value, the specified value is used when omitted.」
+Zundamon「With optional parameters, we can create flexible functions!」

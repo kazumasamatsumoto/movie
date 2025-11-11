@@ -1,9 +1,0 @@
-四国めたん「Let's learn how to deal with legacy code!」
-ずんだもん「How should we handle old code?」
-四国めたん「Use non-null assertions or type assertions as a temporary measure, then refactor progressively.」
-ずんだもん「What techniques are available?」
-四国めたん「The `!` operator skips null checks, and `as` casts the type—but only as stopgaps.」
-ずんだもん「Got it! We still fix the root cause later!」
-四国めたん「Leave TODOs and rewrite to type-safe code on a schedule to pay down tech debt.」
-ずんだもん「Improving things step by step feels great!」
-

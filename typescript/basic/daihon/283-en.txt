@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about assigning null!」
+Zundamon「A variable of type string | null can be assigned both null and strings!」
+Shikoku Metan「That's right. Both name = "Alice" and name = null; are fine.」
+Zundamon「When strictNullChecks is enabled, restrictions become stricter!」
+Shikoku Metan「Exactly. Assigning null to a number type causes an error.」
+Zundamon「We need to explicitly declare it as number | null!」
+Shikoku Metan「Yes. It's also commonly used in function parameters and object properties.」
+Zundamon「We can clear user information with User | null!」

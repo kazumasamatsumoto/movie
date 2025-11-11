@@ -1,9 +1,0 @@
-四国めたん「Let's learn about null-assignment errors under `strictNullChecks`!」
-ずんだもん「Does assigning `null` trigger an error?」
-四国めたん「Yes—regular types can't accept `null`. You need a union type.」
-ずんだもん「How do I fix it?」
-四国めたん「Add `| null` to the type or use a non-null assertion `!`; the former is preferred.」
-ずんだもん「I get it! You allow it explicitly in the type!」
-四国めたん「That keeps the possibility of `null` visible and improves safety.」
-ずんだもん「Compile-time checks are the best!」
-

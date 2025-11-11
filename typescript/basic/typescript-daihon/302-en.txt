@@ -1,9 +1,0 @@
-四国めたん「Let's learn about accessing missing array elements!」
-ずんだもん「What happens if I go past the end of an array?」
-四国めたん「JavaScript returns `undefined`, but in TypeScript the indexed access type becomes `T | undefined`.」
-ずんだもん「Does the type system help us handle that safely?」
-四国めたん「`array[index]` evaluates to `T | undefined`, so you need to check it explicitly.」
-ずんだもん「Got it! That prevents runtime errors!」
-四国めたん「The `noUncheckedIndexedAccess` option makes the checks even stricter.」
-ずんだもん「Type-safe arrays are the best!」
-

@@ -1,0 +1,8 @@
+四国めたん「nullの型について詳しく学びましょう!」
+ずんだもん「let value: null = null;で純粋なnull型を定義できるんだね!」
+四国めたん「はい。type NullType = nullのように型エイリアスも作れます。」
+ずんだもん「typeof nullは"object"になるのが面白いのだ!」
+四国めたん「それはJavaScriptの古い仕様ですね。注意が必要です。」
+ずんだもん「strictNullChecksをtrueにすると、型安全性が向上するんだね!」
+四国めたん「はい。string型にnullを代入するとエラーになります。」
+ずんだもん「NonNullable<T>でnullを除外できるのだ!」

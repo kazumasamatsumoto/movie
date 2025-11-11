@@ -1,7 +1,0 @@
-四国めたん「Let's learn about Array.isArray() in TypeScript 」
-ずんだもん「What is Array.isArray()?」
-四国めたん「It's a built-in method that checks whether a value is an array.」
-ずんだもん「Can't we use typeof?」
-四国めたん「typeof returns 'object' for arrays, so it can't distinguish them.」
-ずんだもん「How do we use it?」
-四国めたん「Call Array.isArray(value) and it returns a boolean.」

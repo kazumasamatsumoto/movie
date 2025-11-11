@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about nullable function return values!」
+Zundamon「We can make function return values nullable types!」
+Shikoku Metan「Yes. By returning User | null, we can express not-found cases with null.」
+Zundamon「Do we need to check for null on the caller side?」
+Shikoku Metan「Exactly. With if (user !== null), we write the processing for non-null cases.」
+Zundamon「We can use Nullish Coalescing too!」
+Shikoku Metan「Yes. With the ?? operator, we can write concise default handling for null cases.」
+Zundamon「With nullable return values, we can design safe functions!」

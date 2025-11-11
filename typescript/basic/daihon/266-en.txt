@@ -1,0 +1,8 @@
+Shikoku Metan「Let's learn about truthy values!」
+Zundamon「So in JavaScript, there are values that are treated as true even though they're not actually true!」
+Shikoku Metan「That's right. Numbers like 1, non-empty strings, arrays, and objects are truthy.」
+Zundamon「0 and empty strings are false, but the string '0' becomes true?」
+Shikoku Metan「Exactly. If it contains a string, it's judged as truthy.」
+Zundamon「It's surprising that empty arrays [] and empty objects {} are also truthy!」
+Shikoku Metan「It's commonly used when checking the existence of values in conditional branches, so let's remember it.」
+Zundamon「Using the Boolean() function, we can convert any value to true or false!」
