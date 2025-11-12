@@ -1,9 +1,0 @@
-四国めたん「Let's incorporate `never` into DTO validation.」
-ずんだもん「How does that help validation?」
-四国めたん「Describe validation results as a discriminated union and handle every error variant.」
-ずんだもん「How do we build it?」
-四国めたん「Use `class-validator` with a type-safe validation pipe defined in TypeScript.」
-ずんだもん「That makes input checking type-safe!」
-四国めたん「It pairs perfectly with Nest.js DTO patterns in real apps.」
-ずんだもん「API quality gets a huge boost!」
-

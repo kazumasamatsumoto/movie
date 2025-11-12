@@ -1,9 +1,0 @@
-四国めたん「Let's design response types with `never`.」
-ずんだもん「How should we shape response types?」
-四国めたん「Represent success, error, loading, and more as a discriminated union.」
-ずんだもん「How do we use that?」
-四国めたん「Share the same type definitions across front end and back end for exhaustive handling.」
-ずんだもん「So API responses stay consistent!」
-四国めたん「It plays nicely with Angular HttpClient and RxJS as well.」
-ずんだもん「Type-safe API calls for the win!」
-

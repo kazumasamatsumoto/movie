@@ -1,9 +1,0 @@
-四国めたん「Let's summarize type filtering with `never`.」
-ずんだもん「What’s the big idea?」
-四国めたん「`never` vanishes in unions and marks contradictions, letting us reshape types precisely.」
-ずんだもん「How do we apply it?」
-四国めたん「Use conditional types, utility helpers, and distributed unions to keep only what you need.」
-ずんだもん「So our type algebra stays consistent!」
-四国めたん「These rules underpin filtering, narrowing, and schema design in TypeScript v5.9.」
-ずんだもん「Type-level programming just leveled up!」
-

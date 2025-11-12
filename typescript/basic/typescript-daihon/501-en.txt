@@ -1,9 +1,0 @@
-四国めたん「Let's learn about exhaustiveness checking!」
-ずんだもん「What does that mean?」
-四国めたん「It confirms you handled every case—and the type system can enforce it.」
-ずんだもん「How do we verify it?」
-四国めたん「By involving `never`; if you miss a branch you get a type error.」
-ずんだもん「Nice! Types prevent omissions!」
-四国めたん「It’s vital for union types and `switch` statements, and still powerful in TypeScript v5.9.」
-ずんだもん「Great for stopping bugs!」
-

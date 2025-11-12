@@ -1,9 +1,0 @@
-四国めたん「Let's relate `never` to type inference.」
-ずんだもん「How does inference handle it?」
-四国めたん「Through control-flow analysis—if no possibilities remain, the compiler infers `never`.」
-ずんだもん「What does that mean in practice?」
-四国めたん「When every variant is ruled out, the remainder collapses to `never`.」
-ずんだもん「So the compiler figures it out for us!」
-四国めたん「Combine this with type guards for extremely precise inference in TypeScript v5.9.」
-ずんだもん「Guards plus inference are unstoppable!」
-

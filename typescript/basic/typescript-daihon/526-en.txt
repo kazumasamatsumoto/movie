@@ -1,9 +1,0 @@
-四国めたん「Let's combine conditional types with `never`.」
-ずんだもん「How do conditional types use it?」
-四国めたん「By returning `never` for branches we want to discard, which then vanish from the union.」
-ずんだもん「So we can filter types cleanly!」
-四国めたん「Exactly—`never` removes unwanted cases while the rest remain.」
-ずんだもん「That’s incredibly powerful!」
-四国めたん「It’s one of TypeScript’s most expressive features in v5.9.」
-ずんだもん「Utility types suddenly feel obvious!」
-

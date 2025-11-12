@@ -1,9 +1,0 @@
-四国めたん「Let's look at type-filter utilities in action.」
-ずんだもん「Which utilities rely on this idea?」
-四国めたん「`Exclude`, `Extract`, `NonNullable`, and your own helpers harness conditional types.」
-ずんだもん「How do they work internally?」
-四国めたん「They test each union member, outputting `never` for the ones to drop.」
-ずんだもん「So `never` is the filter's trash bin!」
-四国めたん「Exactly—if every branch is removed, the result collapses to `never`.」
-ずんだもん「Filtering types feels natural now!」
-

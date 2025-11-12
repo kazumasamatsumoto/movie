@@ -1,9 +1,0 @@
-四国めたん「Let's use `never` inside Nest.js exception filters.」
-ずんだもん「How does that help?」
-四国めたん「By modelling every exception type and catching unhandled ones via `never`.」
-ずんだもん「How do we build it?」
-四国めたん「Define exceptions as a discriminated union and cover them all in `catch`.」
-ずんだもん「That stops missing handlers!」
-四国めたん「Type-safe exception handling raises the quality of error responses.」
-ずんだもん「Reliability improves across microservices!」
-

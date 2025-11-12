@@ -1,9 +1,0 @@
-四国めたん「Let's capture Angular/Nest.js best practices.」
-ずんだもん「What are the key guidelines?」
-四国めたん「Lean on discriminated unions, enforce exhaustiveness, and share type definitions.」
-ずんだもん「Can you give specifics?」
-四国めたん「Express every state in types, catch missed cases with `never`, and standardize helper functions.」
-ずんだもん「So the whole team stays aligned!」
-四国めたん「Type-driven development speeds delivery and catches bugs early.」
-ずんだもん「We'll keep type safety front and center!」
-

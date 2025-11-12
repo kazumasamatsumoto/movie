@@ -1,9 +1,0 @@
-四国めたん「Let's design great error functions.」
-ずんだもん「How should I design them?」
-四国めたん「Give them clear names, detailed messages, and the right error type.」
-ずんだもん「Any name examples?」
-四国めたん「`fail`, `throwError`, `assertNever`—names that state their purpose.」
-ずんだもん「So the intent is obvious!」
-四国めたん「Include contextual data, too—it’s a recommended TypeScript v5.9 pattern.」
-ずんだもん「Good design really helps!」
-

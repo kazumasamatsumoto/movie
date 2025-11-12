@@ -1,9 +1,0 @@
-四国めたん「Let's create an exhaustive-check function.」
-ずんだもん「What kind of function is that?」
-四国めたん「A helper dedicated to exhaustiveness; it accepts `never` and throws.」
-ずんだもん「How do I define it?」
-四国めたん「`function assertNever(value: never): never`—if it runs, you get a runtime error too.」
-ずんだもん「So both compile time and runtime guard us!」
-四国めたん「You can reuse it everywhere, and it’s a recommended TypeScript v5.9 pattern.」
-ずんだもん「A standard helper indeed!」
-

@@ -1,9 +1,0 @@
-四国めたん「Let's correct misunderstandings about reachable code.」
-ずんだもん「What mistakes happen?」
-四国めたん「Writing code after a `never`, or assuming every case is handled when it isn’t.」
-ずんだもん「How does that occur?」
-四国めたん「Often the type guard doesn’t narrow enough before the exhaustiveness check.」
-ずんだもん「So we can’t just blindly trust the compiler!」
-四国めたん「Read the error carefully and understand the control flow.」
-ずんだもん「I’ll be mindful while debugging!」
-

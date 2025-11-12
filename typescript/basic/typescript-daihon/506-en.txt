@@ -1,9 +1,0 @@
-四国めたん「Let's do exhaustiveness with `if`/`else`.」
-ずんだもん「What does that involve?」
-四国めたん「The compiler checks that every union case is covered, even without `switch`.」
-ずんだもん「How do I code it?」
-四国めたん「Use `never` to flag missing cases—if `exhaustiveCheck` receives a value, you missed one.」
-ずんだもん「So the compiler catches it early!」
-四国めたん「It boosts safety and makes refactoring less scary.」
-ずんだもん「New cases trigger type errors right away!」
-

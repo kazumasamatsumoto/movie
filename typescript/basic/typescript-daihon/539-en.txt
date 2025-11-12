@@ -1,9 +1,0 @@
-四国めたん「Let's check exhaustiveness in middleware.」
-ずんだもん「How would middleware use it?」
-四国めたん「Define request or action types as discriminated unions and ensure every case is processed.」
-ずんだもん「How is it implemented?」
-四国めたん「Branch in the middleware and let `never` reveal missing cases.」
-ずんだもん「So no request slips through!」
-四国めたん「It works in Express and Nest alike—great for API quality.」
-ずんだもん「Maintenance just got simpler!」
-

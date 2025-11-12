@@ -1,9 +1,0 @@
-四国めたん「Let's discuss annotations for infinite loops.」
-ずんだもん「Do I have to annotate them?」
-四国めたん「Inference will mark them `never`, but writing it out makes the intent explicit.」
-ずんだもん「When should I?」
-四国めたん「Use explicit types for public APIs; rely on inference for internals.」
-ずんだもん「So pick based on context!」
-四国めたん「It also highlights that the loop never ends—recommended in TypeScript v5.9.」
-ずんだもん「Great as documentation too!」
-

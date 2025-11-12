@@ -1,9 +1,0 @@
-四国めたん「Let's connect type guards with exhaustiveness.」
-ずんだもん「How do type guards relate?」
-四国めたん「Guards narrow the type so the remainder becomes `never`, proving you covered everything.」
-ずんだもん「How do I write it concretely?」
-四国めたん「Use `typeof`, `instanceof`, or custom guards to narrow, then finish with a `never` check.」
-ずんだもん「So type guards are the backbone of exhaustiveness!」
-四国めたん「Control-flow analysis tracks the types automatically.」
-ずんだもん「Guards plus inference are a powerful combo!」
-

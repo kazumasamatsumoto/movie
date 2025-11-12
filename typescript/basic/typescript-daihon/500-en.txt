@@ -1,9 +1,0 @@
-四国めたん「Let's wrap up infinite loops and the `never` type.」
-ずんだもん「Give me the highlights!」
-四国めたん「A `while (true)` that never exits has type `never`, and powers servers and event loops.」
-ずんだもん「How do I use it safely?」
-四国めたん「Yield the CPU, implement error handling, and support shutdown signals.」
-ずんだもん「So resource management is crucial!」
-四国めたん「Inference marks it `never`, but explicit annotations help; it’s common in servers and workers—unchanged in TypeScript v5.9.」
-ずんだもん「Now I know how to use infinite loops correctly!」
-

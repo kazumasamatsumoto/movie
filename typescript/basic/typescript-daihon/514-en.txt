@@ -1,9 +1,0 @@
-四国めたん「Let's do the same in a `switch`'s `default`.」
-ずんだもん「How do we check `default`?」
-四国めたん「Once every case is handled, the `default` branch’s type is `never`.」
-ずんだもん「What code enforces that?」
-四国めたん「Call your `exhaustiveCheck` helper in `default`; it enforces `never`.」
-ずんだもん「So `switch` becomes type-safe too!」
-四国めたん「Add a new case and the compiler yells immediately.」
-ずんだもん「Handling large enums just got safer!」
-

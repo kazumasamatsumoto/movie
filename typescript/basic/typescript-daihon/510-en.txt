@@ -1,9 +1,0 @@
-四国めたん「Let's explore exhaustiveness in Nest.js.」
-ずんだもん「How do we use it there?」
-四国めたん「Ensure DTOs and event handlers cover every case with type safety.」
-ずんだもん「What's an example?」
-四国めたん「In event-driven architectures, handle every event type exhaustively.」
-ずんだもん「That stays safe even as events grow!」
-四国めたん「It keeps microservice communications type-safe—a great fit for enterprise TypeScript.」
-ずんだもん「Ideal for big systems!」
-

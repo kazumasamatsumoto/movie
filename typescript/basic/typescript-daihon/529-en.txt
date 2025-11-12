@@ -1,9 +1,0 @@
-四国めたん「Let's see how `never` helps detect contradictions.」
-ずんだもん「Contradictions at the type level?」
-四国めたん「Yes—if constraints exclude every possibility, the compiler infers `never`.」
-ずんだもん「So it flags impossible combinations?」
-四国めたん「Right—you can trap them with helper types or conditional logic.」
-ずんだもん「That keeps models consistent!」
-四国めたん「It’s invaluable for validation and schema precision in TypeScript v5.9.」
-ずんだもん「I love that the compiler points out impossibilities!」
-

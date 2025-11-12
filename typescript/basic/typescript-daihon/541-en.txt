@@ -1,9 +1,0 @@
-四国めたん「Let's practice type-safe error handling!」
-ずんだもん「How do we handle errors safely with types?」
-四国めたん「Model successes and failures with `Result`/`Either`-style unions so errors become values.」
-ずんだもん「How do we implement that?」
-四国めたん「Represent success and error with a discriminated union and use `never` for exhaustiveness checks.」
-ずんだもん「So we control errors with types instead of exceptions!」
-四国めたん「It borrows from functional programming to keep failures predictable.」
-ずんだもん「Fewer bugs and better maintainability!」
-

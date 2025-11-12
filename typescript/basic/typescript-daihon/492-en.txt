@@ -1,9 +1,0 @@
-四国めたん「Let's inspect the `while (true)` pattern.」
-ずんだもん「How do we use `while (true)`?」
-四国めたん「It builds an infinite loop—the condition is always true so it never ends.」
-ずんだもん「Does it really never stop?」
-四国めたん「Not unless you `break` or `return`; without that, it’s `never`.」
-ずんだもん「So it spins forever!」
-四国めたん「In practice you wait for events or poll resources—TypeScript v5.9 recognizes it.」
-ずんだもん「Classic system programming!」
-

@@ -1,9 +1,0 @@
-四国めたん「Let's apply exhaustiveness to `switch`.」
-ずんだもん「How do we check a `switch`?」
-四国めたん「Use `never` in the `default` branch; if you covered everything, the type error goes away.」
-ずんだもん「What does the code look like?」
-四国めたん「`const exhaustive: never = value;`—it only type-checks when the branch is unreachable.」
-ずんだもん「So reaching it means we missed a case!」
-四国めたん「When you add new cases you get alerted automatically—still works great in TypeScript v5.9.」
-ずんだもん「Maintenance just got easier!」
-

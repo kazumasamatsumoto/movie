@@ -1,9 +1,0 @@
-四国めたん「Let's wrap up exhaustiveness.」
-ずんだもん「What did we learn?」
-四国めたん「Using `never` for exhaustive checks, narrowing with type guards, and practical patterns.」
-ずんだもん「What’s the payoff?」
-四国めたん「Higher type safety, safer refactors, and early bug detection.」
-ずんだもん「So it’s a must-have TypeScript technique!」
-四国めたん「Harness the type system and runtime errors nearly vanish.」
-ずんだもん「I'll apply it everywhere from now on!」
-

@@ -1,9 +1,0 @@
-四国めたん「Let's see how exhaustiveness aids compiler optimization.」
-ずんだもん「Does it really optimize things?」
-四国めたん「Yes—the compiler can drop unreachable code and generate leaner output.」
-ずんだもん「What optimizations happen?」
-四国めたん「Dead-code elimination, better branch prediction, even inlining.」
-ずんだもん「So we get safety and performance!」
-四国めたん「Control-flow analysis also trims runtime checks.」
-ずんだもん「It even speeds up TypeScript v5.9’s checking!」
-

@@ -1,9 +1,0 @@
-四国めたん「Let's learn about type-level programming with `never`.」
-ずんだもん「What is type-level programming?」
-四国めたん「It’s computing with types at compile time instead of at runtime.」
-ずんだもん「Where does `never` fit in?」
-四国めたん「It underpins conditional branching, filtering, and pattern matching on the type level.」
-ずんだもん「I see! We can compute inside the type system!」
-四国めたん「Because the system is Turing-complete, we can express sophisticated transforms with zero runtime cost.」
-ずんだもん「Type safety without runtime overhead is amazing!」
-

@@ -1,9 +1,0 @@
-四国めたん「Let's relate exhaustiveness to static analysis.」
-ずんだもん「How are they connected?」
-四国めたん「TypeScript’s type system is a static analyzer that validates code before it runs.」
-ずんだもん「What does it verify?」
-四国めたん「Exhaustiveness, unreachable code, type errors—all statically.」
-ずんだもん「So we catch bugs without executing anything!」
-四国めたん「Control- and data-flow analysis give it high precision.」
-ずんだもん「Perfect for CI/CD quality gates!」
-
