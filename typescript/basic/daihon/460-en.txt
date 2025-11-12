@@ -1,0 +1,5 @@
+Shikoku Metan「Let's finish with a master check of void patterns.」
+Zundamon「Remember fundamentals like log or save.」
+Shikoku Metan「Recall generics such as Callback<T> and the Angular/Nest examples.」
+Zundamon「So we review every void scenario we've covered.」
+Shikoku Metan「Side effects, generics, and frameworks all get a final check.」

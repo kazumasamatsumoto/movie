@@ -1,0 +1,5 @@
+四国めたん「サーバープロセスはnever関数の代表です。」
+ずんだもん「startHttpServerはrequestを受け続けてた!」
+四国めたん「runTcpServerやworkerProcessも例に挙がっていました。」
+ずんだもん「待機時にはsleepでCPUを開放する配慮があるね。」
+四国めたん「サーバー系ループは終了条件が無いのでneverが適しています。」

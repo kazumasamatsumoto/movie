@@ -1,9 +1,0 @@
-四国めたん「Let's confirm that nothing can be assigned to `never`.」
-ずんだもん「Truly nothing?」
-四国めたん「Right—every assignment fails. `never` represents the empty set.」
-ずんだもん「Then what good is it?」
-四国めたん「For narrowing and representing unreachable situations—not as a value.」
-ずんだもん「So it’s a type-level concept!」
-四国めたん「It’s the bottom of the type lattice—critical even in TypeScript v5.9.」
-ずんだもん「A foundation of the type system!」
-

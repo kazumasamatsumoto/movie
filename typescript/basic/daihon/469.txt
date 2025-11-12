@@ -1,0 +1,5 @@
+四国めたん「neverには何も代入できないことを確認しましょう。」
+ずんだもん「value: never には0もundefinedも入れられなかった!」
+四国めたん「ただしneverを返す関数の結果だけは代入できます。」
+ずんだもん「fail()の戻り値をconst result: neverに入れる例があったね。」
+四国めたん「exhaustiveチェックではnever変数で到達不可能を表します。」

@@ -1,0 +1,5 @@
+Shikoku Metan「Understand never alongside the Error type.」
+Zundamon「fail(message) always threw an Error.」
+Shikoku Metan「Throw TypeError or RangeError to clarify the cause.」
+Zundamon「validate() created an Error and logged its stack.」
+Shikoku Metan「Choosing the right error type makes debugging easier.」

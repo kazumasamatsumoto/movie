@@ -1,9 +1,0 @@
-四国めたん「Let's learn about `void` arrow functions!」
-ずんだもん「How do arrow functions use `void`?」
-四国めたん「Specify `: void` just like any function; it's a concise syntax.」
-ずんだもん「Is the writing style different?」
-四国めたん「Place `: void` before `=>`, and with expression bodies ensure nothing is returned.」
-ずんだもん「How should I write them?」
-四国めたん「Use a block body or craft an expression that produces no value—the rule stays the same in TypeScript v5.9.」
-ずんだもん「Arrow functions stay type-safe too!」
-

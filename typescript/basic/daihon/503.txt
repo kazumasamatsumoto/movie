@@ -1,0 +1,8 @@
+四国めたん「網羅性関数そのものも作っておこう。」
+ずんだもん「assertNever(value: never)はUnexpected valueを投げてたね。」
+四国めたん「Shape型のgetArea()でdefault: return assertNever(shape); が決め手。」
+ずんだもん「circleやsquareを追加したら自動で未実装がわかるのだ。」
+四国めたん「メッセージを差し替えたいときはexhaustiveCheck()を用意できる。」
+ずんだもん「JSON.stringify(value)で情報量を増やしてくれてたよ。」
+四国めたん「ユーティリティ化するとどのUnionでも同じ書き味。」
+ずんだもん「早めに土台を作れば後のリファクタが楽ちん。」

@@ -1,0 +1,8 @@
+Shikoku Metan「Else branches can host exhaustiveness hints.」
+Zundamon「getLabel() returned every State via if-else.」
+Shikoku Metan「Dropping const check: never = state; inside the final else exposes gaps.」
+Zundamon「Extending State with timeout instantly triggered a compile error.」
+Shikoku Metan「A sloppy else that swallows everything is dangerous.」
+Zundamon「We also reviewed the correct switch-based implementation.」
+Shikoku Metan「Explicit branches beat vague fall-through paths.」
+Zundamon「Pair them with never checks to keep label helpers safe.」

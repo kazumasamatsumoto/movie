@@ -1,0 +1,8 @@
+Shikoku Metan「Void functions can still throw exceptions.」
+Zundamon「So assert throws new Error when the condition fails.」
+Shikoku Metan「Exactly; even side-effect functions should signal errors via throws.」
+Zundamon「validateAge shows multiple if checks to keep the logic readable!」
+Shikoku Metan「Whenever a value crosses the boundary we throw immediately.」
+Zundamon「throwError returns never, so a void function can call it safely?」
+Shikoku Metan「Right—never is assignable to void, so process can delegate to it.」
+Zundamon「I'll understand throw semantics to keep void functions safe!」

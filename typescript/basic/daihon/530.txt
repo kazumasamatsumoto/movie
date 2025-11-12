@@ -1,0 +1,8 @@
+四国めたん「Key RemappingはMapped Typesをさらに柔軟にしてくれるよ。」
+ずんだもん「Getters<T>はキー名からgetName/getAgeを生成してたね。」
+四国めたん「template literal型とCapitalizeでAPIを自動生成できる。」
+ずんだもん「OmitByType<T, U>では値の型がUならキーをneverにして削除してた。」
+四国めたん「booleanだけ落として{name, age}を残すのが分かりやすい例。」
+ずんだもん「RemovePrefix<T, '_'>はキー名がプレフィックスで始まるかで除外してた。」
+四国めたん「_idや_internalを消してnameだけ残るクリーンな型だよ。」
+ずんだもん「Key Remappingとneverの合わせ技で柔軟な型操作を楽しもう。」

@@ -1,0 +1,8 @@
+四国めたん「Promise<void>はthen()を連鎖させて処理できます。」
+ずんだもん「saveData().then(...).then(...) のコードがあったね。」
+四国めたん「はい。エラーはcatchでまとめて扱えます。」
+ずんだもん「async/awaitで書き直すと読みやすい?」
+四国めたん「process関数のようにawaitを並べれば直列になります。」
+ずんだもん「initialize().then(...).then(...); もPromise<void>型なんだね。」
+四国めたん「連鎖結果全体がPromise<void>になります。」
+ずんだもん「状況に応じてthen連鎖とawaitを使い分けるのだ!」

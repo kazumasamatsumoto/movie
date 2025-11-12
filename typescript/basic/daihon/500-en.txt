@@ -1,0 +1,5 @@
+Shikoku Metan「Let's summarize infinite loop tips.」
+Zundamon「eventLoop covers the basics.」
+Shikoku Metan「Add delays to free CPU.」
+Zundamon「safeLoop reminded us to handle errors.」
+Shikoku Metan「Follow these to keep loops stable.」

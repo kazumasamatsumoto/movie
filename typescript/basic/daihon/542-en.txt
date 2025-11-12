@@ -1,0 +1,8 @@
+Shikoku Metan「Never helps keep DTO validation exhaustive.」
+Zundamon「ValidationResult<T> split success and failure via valid.」
+Shikoku Metan「handleValidation() checks both branches then hits check: never = result;.」
+Zundamon「transformDto() accepted only create/update DTO types.」
+Shikoku Metan「Adding a new type would break at const check: never = type;.」
+Zundamon「ValidationRule listed required, email, and minLength.」
+Shikoku Metan「applyRule() handles each case before check: never = rule;.」
+Zundamon「Let never guard your validation logic.」

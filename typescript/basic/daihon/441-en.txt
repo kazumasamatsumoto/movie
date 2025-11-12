@@ -1,0 +1,8 @@
+Shikoku Metan「Angular event handlers are classic void functions.」
+Zundamon「onClick(): void handled button clicks.」
+Shikoku Metan「Form submissions and input events follow the same pattern.」
+Zundamon「We bind (click) in the template to those methods, right?」
+Shikoku Metan「Exactly; since no value is returned, void fits perfectly.」
+Zundamon「All logic stays inside the component class.」
+Shikoku Metan「Side effects simply update the UI.」
+Zundamon「I'll keep Angular handlers void and tidy!」

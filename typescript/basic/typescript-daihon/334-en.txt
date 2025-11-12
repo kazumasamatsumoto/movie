@@ -1,9 +1,0 @@
-四国めたん「Let's learn about types where the whole array is nullable!」
-ずんだもん「What does it mean when the array itself can be `null`?」
-四国めたん「A union like `T[] | null` says the array might be missing entirely.」
-ずんだもん「How do we choose between that and an empty array?」
-四国めたん「Use `null` when no data exists, and `[]` when it's present but empty—the meanings differ.」
-ずんだもん「I see! `null` and an empty array aren't the same!」
-四国めたん「Always check for `null` before operating, and optional chaining can help.」
-ずんだもん「Making `null` explicit in the type is the best!」
-

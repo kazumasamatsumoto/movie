@@ -1,0 +1,36 @@
+# #419 "Promise<void> Use Cases"
+
+Shikoku Metan: "Let's look at common Promise<void> patterns."
+Zundamon: "saveData only saves and logs completion."
+Shikoku Metan: "Right, initialize waits for config, DB, and server setup."
+Zundamon: "cleanup closes resources and finishes too!"
+Shikoku Metan: "Whenever you only need to signal completion, Promise<void> is ideal."
+Zundamon: "These examples make me confident using it."
+Shikoku Metan: "Async side-effect flows fit perfectly here."
+
+---
+
+## 📺 Code for Display
+
+```typescript
+/** Example 1: Saving data */
+async function saveData(data: Data): Promise<void> {
+  await database.save(data);
+  await logActivity("Data saved");
+}
+
+/** Example 2: Initialization */
+async function initialize(): Promise<void> {
+  await loadConfig();
+  await connectDatabase();
+  await startServer();
+  console.log("Initialized");
+}
+
+/** Example 3: Cleanup */
+async function cleanup(): Promise<void> {
+  await closeConnections();
+  await flushLogs();
+  console.log("Cleanup complete");
+}
+```

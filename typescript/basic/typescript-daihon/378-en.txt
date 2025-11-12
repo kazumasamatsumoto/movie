@@ -1,9 +1,0 @@
-四国めたん「Let's learn about assigning to `void` variables!」
-ずんだもん「What can you assign to a `void` variable?」
-四国めたん「Only `undefined`; with `strictNullChecks`, even `null` is rejected.」
-ずんだもん「No other values?」
-四国めたん「Numbers or strings won't compile—`void` accepts only `undefined`.」
-ずんだもん「I see! That's strict!」
-四国めたん「That's why it's rarely a variable type; it's mainly for return types.」
-ずんだもん「So the use-case is limited!」
-

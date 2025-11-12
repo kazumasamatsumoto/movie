@@ -1,0 +1,5 @@
+Shikoku Metan「Test void functions by inspecting side effects.」
+Zundamon「We mocked logging and checked call counts.」
+Shikoku Metan「Await Promise<void> before assertions.」
+Zundamon「Use expect(() => fn()).toThrow for error cases?」
+Shikoku Metan「Exactly—assert side effects or exceptions instead of return values.」

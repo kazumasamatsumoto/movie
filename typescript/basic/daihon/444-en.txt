@@ -1,0 +1,8 @@
+Shikoku Metan「Subject<void> or fromEvent can emit void signals.」
+Zundamon「We triggered click$.next() to fire the event.」
+Shikoku Metan「fromEvent mapped to undefined creates an Observable<void>.」
+Zundamon「finalize(() => ...) handled cleanup too.」
+Shikoku Metan「Observable<void> excels at signaling side effects only.」
+Zundamon「No payload keeps the types simple.」
+Shikoku Metan「Use it for completion or loading indicators.」
+Zundamon「I'll represent signals with void streams!」

@@ -1,0 +1,8 @@
+四国めたん「default節は網羅性チェックの最後の砦だよ。」
+ずんだもん「Directionのmove()はnorth/south/east/westをswitchで返してたね。」
+四国めたん「defaultでconst check: never = dir; を投げれば未知の値を弾ける。」
+ずんだもん「centerを追加した例ではdefaultに落ちて編集中に気付けたのだ。」
+四国めたん「exhaustiveCheck()を作ってdefaultで呼ぶのも定番。」
+ずんだもん「switchごとに同じ関数を使えば記述がそろって安心だね。」
+四国めたん「defaultを捨てるより監視役として活用しよう。」
+ずんだもん「neverのおかげで方向追加も怖くなくなるよ。」

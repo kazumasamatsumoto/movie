@@ -1,0 +1,8 @@
+四国めたん「非同期処理でもvoidを使う場面があります。」
+ずんだもん「saveDataはPromise<void>を返してたね。」
+四国めたん「はい。完了したことだけ伝えたいときに使います。」
+ずんだもん「async function initialize() みたいに型推論でもPromise<void>になる?」
+四国めたん「returnが無ければ自動でPromise<void>になります。」
+ずんだもん「mainでもPromise<void>を返してログを出してた!」
+四国めたん「副作用主体のasync関数ではPromise<void>が適しています。」
+ずんだもん「非同期でもvoidの考え方を適用するのだ!」

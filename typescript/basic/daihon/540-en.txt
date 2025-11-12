@@ -1,0 +1,8 @@
+Shikoku Metan「Never guards API designs against missing branches.」
+Zundamon「ApiResponse<T> covered success, error, and loading in handleResponse().」
+Shikoku Metan「Adding a new status makes const check: never = res; complain.」
+Zundamon「Endpoint unions captured GET, POST, and DELETE specifics.」
+Shikoku Metan「request() handles each method before hitting check: never = endpoint;.」
+Zundamon「GqlOperation switched between query, mutation, and subscription.」
+Shikoku Metan「executeGql() ends with check: never = op; for safety.」
+Zundamon「Locking down types keeps API layers resilient.」

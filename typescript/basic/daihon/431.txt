@@ -1,0 +1,8 @@
+四国めたん「ジェネリクスでもvoid型を使えます。」
+ずんだもん「Callback<T> = (value: T) => void みたいな定義があったね。」
+四国めたん「はい。Tにnumberを渡せばnumberを受け取る副作用関数になります。」
+ずんだもん「Promise<T>でもvoidを型引数にできるの?」
+四国めたん「saveData(): Promise<void> のように書けます。」
+ずんだもん「Handler<User> = (data: User) => void もよく使うよね。」
+四国めたん「ジェネリクスでvoidを扱うと副作用ハンドラを再利用しやすいです。」
+ずんだもん「汎用的なvoidハンドラを設計するのだ!」

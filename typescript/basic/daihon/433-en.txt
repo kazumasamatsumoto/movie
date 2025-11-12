@@ -1,0 +1,8 @@
+Shikoku Metan「Callback<void> expresses pure side-effect callbacks.」
+Zundamon「onComplete was just () => console.log.」
+Shikoku Metan「EventHandler<T = void> keeps handlers type-safe.」
+Zundamon「Async callbacks fit AsyncCallback<T> that returns Promise<void>?」
+Shikoku Metan「Exactly—saveCallback shows that pattern.」
+Zundamon「We can mix synchronous and async void callbacks as needed.」
+Shikoku Metan「It's perfect for simple side-effect APIs.」
+Zundamon「I'll keep the Callback<void> idiom handy!」

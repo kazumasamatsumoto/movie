@@ -1,0 +1,8 @@
+Shikoku Metan「Classes often expose void methods.」
+Zundamon「Counter.increment only mutates state.」
+Shikoku Metan「reset is also side-effect only.」
+Zundamon「Component.initialize/destroy simply log lifecycle steps?」
+Shikoku Metan「Exactly—pure lifecycle hooks.」
+Zundamon「EventEmitter.emit logs the event name as well!」
+Shikoku Metan「Annotate these methods with void to clarify responsibilities.」
+Zundamon「I'll mark state-changing methods with void!」

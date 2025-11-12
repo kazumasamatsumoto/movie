@@ -1,0 +1,8 @@
+Shikoku Metan「Pick precise HTTP statuses for void responses.」
+Zundamon「204 No Content was recommended.」
+Shikoku Metan「For async work, 202 Accepted fits.」
+Zundamon「update still returned 200 OK with an empty body.」
+Shikoku Metan「Choose the status that matches the behavior.」
+Zundamon「Combined with void returns, APIs stay predictable.」
+Shikoku Metan「It reinforces the contract with clients.」
+Zundamon「I'll master status design for void responses!」

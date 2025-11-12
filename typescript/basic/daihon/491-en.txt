@@ -1,0 +1,5 @@
+Shikoku Metan「never also annotates infinite loop functions.」
+Zundamon「runForever() kept calling processTask.」
+Shikoku Metan「startServer waits for requests forever.」
+Zundamon「eventLoop handles events endlessly.」
+Shikoku Metan「Use never whenever control never returns.」

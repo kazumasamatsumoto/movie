@@ -1,0 +1,6 @@
+Shikoku Metan「never functions must never return control.」
+Zundamon「fail threw, loop ran forever.」
+Shikoku Metan「If you log and return, the compiler downgrades it to void.」
+Zundamon「invalid() showed that mistake.」
+Shikoku Metan「Types flag violations immediately.」
+Zundamon「So never functions should only throw or loop!」

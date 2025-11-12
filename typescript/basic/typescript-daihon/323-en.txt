@@ -1,9 +1,0 @@
-四国めたん「Let's learn how to debug with `strictNullChecks`!」
-ずんだもん「What should I do when I hit a type error?」
-四国めたん「Read the message, inspect the type definitions, and rely on control-flow analysis.」
-ずんだもん「Which debugging techniques help?」
-四国めたん「Use type guards, hover in the editor to inspect types, and experiment in the TypeScript Playground.」
-ずんだもん「Got it! I'll lean on the tools!」
-四国めたん「Run `tsc --noEmit` for type-only checks and plug it into CI/CD.」
-ずんだもん「Efficient debugging is the best!」
-

@@ -1,0 +1,4 @@
+Shikoku Metan「never helps keep error flows type-safe.」
+Zundamon「exhaustiveCheck turned omissions into compile errors.」
+Shikoku Metan「assertNever follows the same idea.」
+Zundamon「I will systematize my error design with never!」

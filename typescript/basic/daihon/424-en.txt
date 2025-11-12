@@ -1,0 +1,8 @@
+Shikoku Metan「Error handling matters even for Promise<void>.」
+Zundamon「We wrapped saveData and notify in try-catch.」
+Shikoku Metan「Yes, you can also use the catch() method.」
+Zundamon「The finally example ensured cleanup always runs!」
+Shikoku Metan「withCleanup performs cleanup after processData no matter what.」
+Zundamon「Designing for both success and failure is critical.」
+Shikoku Metan「Async side effects need careful error handling.」
+Zundamon「I'll never skip error planning even with void promises!」

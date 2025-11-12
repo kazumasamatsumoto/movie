@@ -1,0 +1,8 @@
+Shikoku Metan「Let's organize how return statements work in void functions.」
+Zundamon「validate uses conditional return; for early exits, right?」
+Shikoku Metan「Yes, returning without a value is perfectly safe.」
+Zundamon「But return "string"; would be an error?」
+Shikoku Metan「Correct—Type 'string' is not assignable to type 'void'.」
+Zundamon「So only undefined is acceptable?」
+Shikoku Metan「Exactly; allowed shows both return undefined; and bare return; are valid.」
+Zundamon「I'll follow those rules whenever I write void functions!」

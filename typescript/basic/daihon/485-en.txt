@@ -1,0 +1,5 @@
+Shikoku Metan「Instrument never functions for debugging.」
+Zundamon「fail logged context and console.trace.」
+Shikoku Metan「assertNever printed extra info when DEBUG was true.」
+Zundamon「We even paused with debugger before throwing.」
+Shikoku Metan「Leave clues because execution stops there.」

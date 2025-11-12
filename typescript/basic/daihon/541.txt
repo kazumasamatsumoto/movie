@@ -1,0 +1,8 @@
+四国めたん「ResultやEitherでエラーを型安全に扱おう。」
+ずんだもん「Result<T, E>はokフラグで成功と失敗を分けてたね。」
+四国めたん「divide()はゼロ割なら{ ok: false }、それ以外は値を返してた。」
+ずんだもん「handleResult()でresult.okを二段階でチェックしてconst check: neverを置くのだ。」
+四国めたん「Either<L, R>ではtype: 'left' | 'right'でJSONパースの結果を表してた。」
+ずんだもん「parseJson()は成功ならright、失敗ならleftにErrorを入れてたよ。」
+四国めたん「AppErrorのhandleError()もvalidation/network/businessを全部網羅してた。」
+ずんだもん「unknownなエラーはneverチェックで即座に検知できるね。」

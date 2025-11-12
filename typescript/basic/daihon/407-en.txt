@@ -1,0 +1,8 @@
+Shikoku Metan「Functions returning undefined produce that value explicitly.」
+Zundamon「getOptionalValue returns either 42 or undefined.」
+Shikoku Metan「Right, so callers must check for undefined.」
+Zundamon「The difference from void is whether the value is used?」
+Shikoku Metan「Exactly—void is for side effects, undefined is data.」
+Zundamon「undefFunc even returns undefined explicitly.」
+Shikoku Metan「While voidFunc simply logs and stops.」
+Zundamon「I'll choose return types based on that distinction!」

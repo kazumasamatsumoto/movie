@@ -1,0 +1,8 @@
+Shikoku Metan「Use Promise.all() to run Promise<void> in parallel.」
+Zundamon「processAll awaited three saveUser calls at once.」
+Shikoku Metan「Yes, it waits for all of them.」
+Zundamon「initialize ran loadConfig and connectDatabase in parallel too!」
+Shikoku Metan「It shortens heavy startup work.」
+Zundamon「If a task fails inside Promise.all, do we catch it?」
+Shikoku Metan「Wrap the await in try-catch like processWithError.」
+Zundamon「I'll execute side effects efficiently with parallelism!」

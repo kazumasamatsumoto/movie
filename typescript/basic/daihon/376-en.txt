@@ -1,0 +1,8 @@
+Shikoku Metan「Let's differentiate void from undefined.」
+Zundamon「void means "ignore the return", while undefined is an actual value, right?」
+Shikoku Metan「Exactly; result1 from logMessage is void to show there's nothing to use.」
+Zundamon「findItem returns Item | undefined, so callers must check the result?」
+Shikoku Metan「Yes, that function's return value carries data or undefined.」
+Zundamon「So the Logger vs Finder types illustrate the separation of roles.」
+Shikoku Metan「Use void for side effects and unions with undefined for optional data.」
+Zundamon「I'll keep the distinction clear in my head!」

@@ -1,0 +1,8 @@
+Shikoku Metan「Event handlers are classic void functions.」
+Zundamon「The button?.addEventListener example just logs the click position.」
+Shikoku Metan「Right, it prints coordinates and returns nothing.」
+Zundamon「Can we define EventHandler = (event: Event) => void as a reusable type?」
+Shikoku Metan「Absolutely; it's handy when calling preventDefault.」
+Zundamon「React's handleClick should also declare (e: React.MouseEvent): void.」
+Shikoku Metan「Yes, then JSX onClick can consume it directly.」
+Zundamon「I'll keep void handlers consistent across frameworks!」

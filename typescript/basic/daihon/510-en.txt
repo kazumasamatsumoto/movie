@@ -1,0 +1,8 @@
+Shikoku Metan「Practical example two dives into event-driven apps.」
+Zundamon「DomainEvent offered UserCreated, UserUpdated, and UserDeleted.」
+Shikoku Metan「EventHandler.handle() branched with if-else and ended in exhaustiveCheck(event).」
+Zundamon「Even with separate methods we still remembered the never guard.」
+Shikoku Metan「The API response union switched on the status field.」
+Zundamon「process() returned data for success and threw on error.」
+Shikoku Metan「const check: never = res; exposes new status additions immediately.」
+Zundamon「Real-world unions feel sturdier once never protects them.」

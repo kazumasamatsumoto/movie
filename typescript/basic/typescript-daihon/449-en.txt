@@ -1,9 +1,0 @@
-四国めたん「Let's connect `void` to HTTP responses.」
-ずんだもん「What response do we send with `void`?」
-四国めたん「Typically `204 No Content`—an empty body.」
-ずんだもん「What about other status codes?」
-四国めたん「`202 Accepted` or `200 OK` also work—set them explicitly with `@HttpCode()`.」
-ずんだもん「I get it! Choose what suits the scenario!」
-四国めたん「Clients just confirm success; the approach is unchanged in TypeScript v5.9.」
-ずんだもん「Nice and simple responses!」
-

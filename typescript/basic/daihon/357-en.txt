@@ -1,0 +1,8 @@
+Shikoku Metan「Let's examine practical ?? patterns.」
+Zundamon「We can configure host and port from environment variables?」
+Shikoku Metan「Yes, env.HOST ?? 'localhost' keeps the code concise.」
+Zundamon「Does it pair well with Optional Chaining?」
+Shikoku Metan「Absolutely. user?.address?.city ?? 'Unknown' fills gaps cleanly.」
+Zundamon「Can we also default function arguments like age?」
+Shikoku Metan「Sure, age ?? 0 only substitutes when the value is nullish.」
+Zundamon「I'll standardize settings with reusable ?? patterns!」

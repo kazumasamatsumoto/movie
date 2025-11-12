@@ -1,9 +1,0 @@
-四国めたん「Let's wrap up the comparison between `void` and `undefined`.」
-ずんだもん「Summarize the difference for me!」
-四国めたん「`void` signals “ignore the return,” while `undefined` signals “return the value `undefined`.” Different concepts.」
-ずんだもん「How do I apply that?」
-四国めたん「Use `void` for side-effect functions and `undefined` for values. At runtime both are `undefined`.」
-ずんだもん「Makes sense! Types express the intent!」
-四国めたん「The type system clarifies your design even though the compiled JavaScript is the same—an important distinction in TypeScript v5.9.」
-ずんだもん「It's great that types convey intent!」
-

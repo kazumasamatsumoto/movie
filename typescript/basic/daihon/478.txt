@@ -1,0 +1,5 @@
+四国めたん「neverとError型の関係も押さえましょう。」
+ずんだもん「fail(message)は常にErrorを投げていたね。」
+四国めたん「TypeErrorやRangeErrorを投げることで原因を明示できます。」
+ずんだもん「validate関数ではErrorを作ってstackをログに出していた!」
+四国めたん「適切なエラー型でneverを返すとデバッグが楽になります。」

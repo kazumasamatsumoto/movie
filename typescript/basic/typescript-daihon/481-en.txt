@@ -1,9 +1,0 @@
-四国めたん「Let's look at practical uses of `never`.」
-ずんだもん「How is it used in real projects?」
-四国めたん「Validation, assertions, and error handlers make heavy use of it.」
-ずんだもん「What kind of code is that?」
-四国めたん「Input checks, precondition guards, detecting unreachable branches.」
-ずんだもん「So it’s super practical!」
-四国めたん「Libraries and frameworks rely on it—it’s a standard TypeScript v5.9 pattern.」
-ずんだもん「It shows up all over the place!」
-

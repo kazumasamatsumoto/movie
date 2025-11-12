@@ -1,0 +1,8 @@
+四国めたん「Intersection型は複数の要件を全部満たす型だよ。」
+ずんだもん「{ name } & { age } で両方のプロパティを持つ人になるのだ。」
+四国めたん「逆にstring & numberみたいに両立できないとneverになる。」
+ずんだもん「テキストxをstringとnumberで同時に満たせないからね。」
+四国めたん「neverとのIntersectionはいつもneverになると覚えておこう。」
+ずんだもん「object & neverやany & neverも全部消えてた。」
+四国めたん「User & { role: 'admin' }のようにUnionをさらに絞る用途も便利。」
+ずんだもん「存在しないroleをIntersectするとneverで矛盾を示してくれるんだ。」

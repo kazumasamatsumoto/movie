@@ -1,0 +1,8 @@
+Shikoku Metan「Debug never-related errors step by step.」
+Zundamon「Step 1 is to read the compiler message.」
+Shikoku Metan「If Action = 'create' | 'update' | 'delete' and you only handle 'create', you still have 'update' | 'delete'.」
+Zundamon「Step 2 hovers action in VSCode to see the remaining union.」
+Shikoku Metan「Handle update/delete, then drop const check: never = action;.」
+Zundamon「Step 3 uses a debugNever() helper for runtime logging.」
+Shikoku Metan「It prints 'Unhandled case in process: ...' before throwing.」
+Zundamon「Follow the error → inspect remaining cases → helper pattern.」

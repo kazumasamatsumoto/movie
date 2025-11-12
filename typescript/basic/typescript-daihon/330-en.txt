@@ -1,9 +1,0 @@
-四国めたん「Let's learn how to check nullable types!」
-ずんだもん「How do I check them?」
-四国めたん「Use strict equality `===`, type guards, Nullish Coalescing, and more.」
-ずんだもん「Which method is recommended?」
-四国めたん「Type guards are safest—they narrow the type for the code that follows.」
-ずんだもん「I see! The type does the guaranteeing!」
-四国めたん「Combine them with optional chaining `?.` for even safer access; TypeScript v5.9 improves the inference.」
-ずんだもん「Compile-time checks are the best!」
-

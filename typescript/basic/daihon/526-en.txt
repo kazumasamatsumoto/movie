@@ -1,0 +1,8 @@
+Shikoku Metan「Conditional types behave like type-level if statements.」
+Zundamon「IsString<T> returns true for strings and false otherwise.」
+Shikoku Metan「Filter<T> lets only string members through and turns the rest into never.」
+Zundamon「So string | number | boolean shrank to string.」
+Shikoku Metan「FunctionKeys<T> pulled out only the method names.」
+Zundamon「We ended up with just getName().」
+Shikoku Metan「Conditional types let us sculpt union members freely.」
+Zundamon「Pair them with never to smartly select types.」

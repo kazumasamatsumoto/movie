@@ -1,9 +1,0 @@
-四国めたん「Let's implement a `never` function.」
-ずんだもん「What must it contain?」
-四国めたん「A `throw` or an infinite loop—anything that prevents normal completion.」
-ずんだもん「So `return` is off-limits?」
-四国めたん「Exactly—returning a value is an error; control must never return.」
-ずんだもん「That’s strict!」
-四国めたん「The type system verifies that impossibility in TypeScript v5.9.」
-ずんだもん「Types keep it safe!」
-

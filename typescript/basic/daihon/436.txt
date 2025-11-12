@@ -1,0 +1,6 @@
+四国めたん「Utility Typesでもvoidを扱えます。」
+ずんだもん「ReturnType<typeof log> がvoidになる例があったね。」
+四国めたん「はい。Parametersと組み合わせて可変長引数のvoid関数も作れます。」
+ずんだもん「Record<string, () => void> でイベントマップを作ってた!」
+四国めたん「Utility Typesで型変換を自動化できるので便利です。」
+ずんだもん「voidを中心にしたUtilityレシピを覚えるのだ!」

@@ -1,0 +1,8 @@
+四国めたん「void関数でのreturn文の書き方を整理しましょう。」
+ずんだもん「validateのように条件によってreturn;するのが基本だね。」
+四国めたん「はい。値を返さない早期リターンなら安全です。」
+ずんだもん「でもreturn "string"; はエラーになるんだ?」
+四国めたん「はい、Type 'string' is not assignable to type 'void' と怒られます。」
+ずんだもん「undefinedだけはOKってこと?」
+四国めたん「その通り。allowed関数のようにreturn undefined; か単なるreturn; を使います。」
+ずんだもん「return文のルールを守ってvoidを使いこなすのだ!」

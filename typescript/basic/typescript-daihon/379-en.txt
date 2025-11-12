@@ -1,9 +1,0 @@
-四国めたん「Let's learn the meaning of the `void` type!」
-ずんだもん「What does `void` communicate?」
-四国めたん「That the return value isn't used—the function exists for side effects.」
-ずんだもん「What benefit does that bring?」
-四国めたん「It clarifies intent and prevents accidental use of the return, boosting safety.」
-ずんだもん「I see! It shares the design intent!」
-四国めたん「It's key in callback type definitions, assuring callers not to expect a value.」
-ずんだもん「The type spells out every role!」
-

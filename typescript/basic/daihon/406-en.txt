@@ -1,0 +1,8 @@
+Shikoku Metan「Even void functions return undefined at runtime.」
+Zundamon「Printing log('Hello') showed undefined!」
+Shikoku Metan「Right, but the type system still treats it as void.」
+Zundamon「So const value: void = log('Test') works?」
+Shikoku Metan「Yes, but assigning it to string does not.」
+Zundamon「In JavaScript the transpiled function f1(): void also returns undefined.」
+Shikoku Metan「Exactly—function f1() {} behaves the same.」
+Zundamon「I'll separate runtime behavior from type-level intent!」

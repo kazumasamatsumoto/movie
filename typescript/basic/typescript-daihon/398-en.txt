@@ -1,9 +1,0 @@
-四国めたん「Let's learn about `void` in function overloads!」
-ずんだもん「How do overloads handle `void`?」
-四国めたん「You can write overload signatures that return `void` for certain argument combos.」
-ずんだもん「How do you write that?」
-四国めたん「Declare those overloads with `void` and implement the logic in the shared definition.」
-ずんだもん「I see! The return type changes with the arguments!」
-四国めたん「That keeps the function flexible yet safe—an effective TypeScript v5.9 pattern.」
-ずんだもん「Advanced type definitions are possible!」
-

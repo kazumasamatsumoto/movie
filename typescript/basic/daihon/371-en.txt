@@ -1,0 +1,8 @@
+Shikoku Metan「Use the void type when a function's return value does not matter.」
+Zundamon「Declaring function logMessage(msg: string): void signals it's just logging!」
+Shikoku Metan「Right, you can omit return entirely and focus on side effects.」
+Zundamon「How is that different from a function returning undefined?」
+Shikoku Metan「void means 'nothing is returned', while undefined means 'the undefined value is returned.'」
+Zundamon「Should event listener callbacks also use void?」
+Shikoku Metan「Yes, () => void clearly states the callback only performs side effects.」
+Zundamon「I'll rely on void whenever I want to highlight that no result is needed!」

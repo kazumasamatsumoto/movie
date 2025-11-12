@@ -1,0 +1,8 @@
+Shikoku Metan「Angular's (click) bindings also rely on void methods.」
+Zundamon「handleClick(): void is the standard form.」
+Shikoku Metan「$event gives access to MouseEvent if needed.」
+Zundamon「We can pass arguments like delete(user.id) too.」
+Shikoku Metan「Yes, since no value is returned, void is appropriate.」
+Zundamon「Templates stay readable when handlers share this pattern.」
+Shikoku Metan「Keep side-effect logic inside the component class.」
+Zundamon「I'll keep my (click) handlers void!」

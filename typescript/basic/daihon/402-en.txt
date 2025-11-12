@@ -1,0 +1,8 @@
+Shikoku Metan「void declares that we don't care about the return value.」
+Zundamon「updateUI, which just calls render, is a good example.」
+Shikoku Metan「Right—it makes it explicit that nothing is consumed.」
+Zundamon「Using the result anyway triggers an error?」
+Shikoku Metan「Yes, assigning process() to a string fails.」
+Zundamon「Callback = (data: string) => void also captures that behavior.」
+Shikoku Metan「It signals a pure side-effect callback.」
+Zundamon「I'll describe value-agnostic functions with void!」

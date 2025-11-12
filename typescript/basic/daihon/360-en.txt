@@ -1,0 +1,8 @@
+Shikoku Metan「Let's wrap up the nullish type chapter.」
+Zundamon「We define it with type Nullish<T> = T | null | undefined, right?」
+Shikoku Metan「Yes, perfect for values like getValue() that might be absent.」
+Zundamon「When using them, I combine user?.name ?? 'Guest'?」
+Shikoku Metan「Exactly; mixing ??, ?. and != null keeps operations safe.」
+Zundamon「Even config objects such as env?.HOST ?? 'localhost' benefit?」
+Shikoku Metan「They do, and response?.data ?? [] gracefully handles missing arrays.」
+Zundamon「Understanding nullish types lets us write trustworthy code!」

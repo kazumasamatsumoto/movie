@@ -1,0 +1,8 @@
+四国めたん「finallyは成功・失敗に関わらず実行されます。」
+ずんだもん「saveData().finally(() => Cleanup) のように書けたね。」
+四国めたん「はい。async/awaitでもtry-catch-finallyで同じことができます。」
+ずんだもん「ロード中の表示を制御する例もあった!」
+四国めたん「loadDataではshowLoading→fetch→hideLoadingを必ず実行します。」
+ずんだもん「finallyを使うと片付け処理を確実に走らせられるんだね。」
+四国めたん「Promise<void>でも重要な保険になります。」
+ずんだもん「必ず実行したい処理はfinallyに入れるのだ!」

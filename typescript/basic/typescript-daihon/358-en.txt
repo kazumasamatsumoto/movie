@@ -1,9 +1,0 @@
-四国めたん「Let's learn about the optional chaining operator!」
-ずんだもん「What does `?.` do?」
-四国めたん「If the left side is `null` or `undefined`, it returns `undefined`, so you can access members safely.」
-ずんだもん「How do you use it?」
-四国めたん「Write `obj?.prop`, `obj?.method()`, or `arr?.[index]` to avoid errors.」
-ずんだもん「I see! No manual null check needed!」
-四国めたん「You can chain it through nested structures, and it's a staple feature in TypeScript v5.9.」
-ずんだもん「Safe access is the best!」
-

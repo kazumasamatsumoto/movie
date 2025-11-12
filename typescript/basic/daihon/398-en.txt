@@ -1,0 +1,8 @@
+Shikoku Metan「Overloads can assign different return types per signature.」
+Zundamon「process returns string for strings and void for numbers.」
+Shikoku Metan「Right, the implementation returns string | void.」
+Zundamon「log shows multiple parameter patterns that all return void?」
+Shikoku Metan「Yes, when we only print messages that's enough.」
+Zundamon「The forEach overload example merely toggles the start argument.」
+Shikoku Metan「Both overloads still return void, keeping usage simple.」
+Zundamon「I'll design overloads with void strategically!」

@@ -1,0 +1,8 @@
+Shikoku Metan「Use Result or Either to keep errors type-safe.」
+Zundamon「Result<T, E> splits success and failure with an ok flag.」
+Shikoku Metan「divide() returns { ok: false } on zero division, otherwise the value.」
+Zundamon「handleResult() checks result.ok twice and falls back to const check: never.」
+Shikoku Metan「Either<L, R> labels JSON parsing results as left or right.」
+Zundamon「parseJson() returns right on success or left with an Error.」
+Shikoku Metan「AppError's handleError() covered validation, network, and business cases.」
+Zundamon「Unknown errors hit the never guard immediately.」

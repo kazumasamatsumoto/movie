@@ -1,0 +1,5 @@
+Shikoku Metan「Functions that throw should return never.」
+Zundamon「fail(message) demonstrates that pattern.」
+Shikoku Metan「assert(condition) also narrows types because failures are never.」
+Zundamon「divide() called throwError when dividing by zero.」
+Shikoku Metan「Express error behavior via types to help consumers.」

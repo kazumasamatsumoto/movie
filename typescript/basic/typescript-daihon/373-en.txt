@@ -1,9 +1,0 @@
-四国めたん「Let's learn how to declare the `void` type!」
-ずんだもん「How do you declare it?」
-四国めたん「Add `: void` to the function signature—even arrow functions use the same syntax.」
-ずんだもん「Do I always have to write it?」
-四国めたん「No, type inference defaults to `void`, but writing it makes the intent explicit.」
-ずんだもん「I see! You can omit it too!」
-四国めたん「It's used in function types as well, which is crucial for callback definitions.」
-ずんだもん「Lots of ways to write it!」
-

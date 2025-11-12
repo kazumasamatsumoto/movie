@@ -1,0 +1,8 @@
+四国めたん「Angularのガードにもneverで網羅性を持ち込めるよ。」
+ずんだもん「GuardResultはboolean | UrlTree | neverでリターン型を明示してたね。」
+四国めたん「AuthStateを判定するcanActivate()では3状態を全部さばいてた。」
+ずんだもん「最後にconst check: never = state; を置いて追加状態を検知するのだ。」
+四国めたん「RedirectResultみたいなUnionでallow/redirectを管理すると型安全。」
+ずんだもん「checkAccess()はadminだけallow: true、それ以外はリダイレクトを返してた。」
+四国めたん「neverを使えばルーティングの分岐漏れを防げる。」
+ずんだもん「複雑なガードこそ型で守ろう。」

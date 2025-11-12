@@ -1,0 +1,8 @@
+Shikoku Metan「Only undefined may be assigned to a void variable.」
+Zundamon「We saw value: void = undefined earlier.」
+Shikoku Metan「Right, strictNullChecks even forbids null.」
+Zundamon「An undefined-typed variable accepts nothing else?」
+Shikoku Metan「Exactly.」
+Zundamon「In practice we often store the return of void functions instead?」
+Shikoku Metan「Calling doSomething(): void produces undefined, so the assignment lines up.」
+Zundamon「I'll follow those rules to dodge type errors!」

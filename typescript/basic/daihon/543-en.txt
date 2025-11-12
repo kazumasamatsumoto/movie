@@ -1,0 +1,8 @@
+Shikoku Metan「Response unions need never to avoid missing states.」
+Zundamon「ApiResponse<T> covered success, error, and loading in handleResponse().」
+Shikoku Metan「PagedResponse<T> expressed data presence via hasData.」
+Zundamon「reason was empty or error, with a final check: never = res;.」
+Shikoku Metan「HttpResponse<T> split behavior by HTTP status.」
+Zundamon「Codes >=400 threw errors, everything else returned data or null.」
+Shikoku Metan「Strong response types keep clients safe.」
+Zundamon「Never keeps watch over every branch.」

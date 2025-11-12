@@ -1,9 +1,0 @@
-四国めたん「Let's analyze functions that contain `throw`.」
-ずんだもん「Does a `throw` automatically mean `never`?」
-四国めたん「Only if every path ends in `throw`; conditional paths can yield `void` instead.」
-ずんだもん「So what’s the difference?」
-四国めたん「If all branches throw, it’s `never`; if any branch returns, it isn’t.」
-ずんだもん「So only guaranteed exceptions count!」
-四国めたん「Type inference evaluates the control flow precisely—even in TypeScript v5.9.」
-ずんだもん「The analysis is smart!」
-

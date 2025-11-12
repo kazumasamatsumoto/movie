@@ -1,0 +1,6 @@
+Shikoku Metan「never behaves uniquely in unions and intersections.」
+Zundamon「string | never simplifying to string shows that.」
+Shikoku Metan「Whereas string & never collapses to never.」
+Zundamon「We also built exhaustiveCheck(value: never) for switch statements.」
+Shikoku Metan「It caught missing Color cases.」
+Zundamon「I will leverage these traits for safer types!」

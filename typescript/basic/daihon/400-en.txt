@@ -1,0 +1,8 @@
+Shikoku Metan「Let's wrap up the void function topics.」
+Zundamon「Side-effect helpers like log or handler are the foundation.」
+Shikoku Metan「Yes, they make it obvious no return is needed.」
+Zundamon「Class methods can use void to express responsibilities too.」
+Shikoku Metan「Logger.log is a good template.」
+Zundamon「Promise<void> and Callback types also appeared a lot.」
+Shikoku Metan「saveData and Callback = (result: string) => void are key examples.」
+Zundamon「I'll apply this summary when designing void functions!」

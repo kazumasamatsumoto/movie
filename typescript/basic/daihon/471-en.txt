@@ -1,0 +1,8 @@
+Shikoku Metan「never sits at the very bottom of the type hierarchy.」
+Zundamon「fail() could be assigned to string or number.」
+Shikoku Metan「But nothing can be assigned back into never.」
+Zundamon「Union types like string | never collapse to string?」
+Shikoku Metan「Exactly—never disappears there.」
+Zundamon「Knowing this makes type behavior predictable.」
+Shikoku Metan「Remember never means “no value at all.”」
+Zundamon「I will watch where never lives in the hierarchy!」

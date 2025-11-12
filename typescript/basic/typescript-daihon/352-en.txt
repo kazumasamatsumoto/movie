@@ -1,9 +1,0 @@
-四国めたん「Let's learn how to declare nullish types!」
-ずんだもん「How do you declare one?」
-四国めたん「Use the union `T | null | undefined`; a type alias makes it reusable.」
-ずんだもん「Is that different from an optional type?」
-四国めたん「Yes—optional types are only `T | undefined`; nullish types explicitly include `null` too.」
-ずんだもん「I see! It allows a wider range!」
-四国めたん「That's critical when working with external data, and `strictNullChecks` keeps it safe.」
-ずんだもん「Declaring it explicitly is the best!」
-

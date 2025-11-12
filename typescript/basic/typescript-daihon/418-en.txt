@@ -1,9 +1,0 @@
-四国めたん「Let's learn about `return` statements in `Promise<void>` functions.」
-ずんだもん「Do we write `return` in such functions?」
-四国めたん「You either omit it or write `return;`; there’s nothing to return.」
-ずんだもん「What about `return undefined`?」
-四国めたん「Allowed but unnecessary—stick to `return;` or leave it out.」
-ずんだもん「I see! Keep it simple!」
-四国めたん「You can still use `return;` for early exits—the pattern stays the same in TypeScript v5.9.」
-ずんだもん「So it just signals completion!」
-

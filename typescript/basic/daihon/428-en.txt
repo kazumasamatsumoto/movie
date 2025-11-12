@@ -1,0 +1,8 @@
+Shikoku Metan「Here are practical Promise<void> scenarios.」
+Zundamon「updateProfile just calls fetch and logs completion.」
+Shikoku Metan「Right—no value is returned.」
+Zundamon「processBatch loops through items and awaits processItem.」
+Shikoku Metan「A very common production pattern.」
+Zundamon「initializeApp awaited loadConfig, startServices, and more.」
+Shikoku Metan「Promise<void> suits startup side effects nicely.」
+Zundamon「I'll model real workloads using these examples!」

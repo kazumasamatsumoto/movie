@@ -1,9 +1,0 @@
-四国めたん「Let's wrap up nullish types!」
-ずんだもん「Give me the key points!」
-四国めたん「`T | null | undefined` models missing values by accepting both `null` and `undefined`.」
-ずんだもん「How should we handle them?」
-四国めたん「Use `??` for defaults, `?.` for safe access, and `!= null` for quick checks.」
-ずんだもん「I see! There are dedicated operators!」
-四国めたん「Prefer `??` over `||`; it's crucial for API and database work, and a core TypeScript v5.9 pattern.」
-ずんだもん「Nullish types make type-safe development a joy!」
-

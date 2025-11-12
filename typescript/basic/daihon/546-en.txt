@@ -1,0 +1,8 @@
+Shikoku Metan「Mixing up void and never is dangerous.」
+Zundamon「logMessage() returns normally and its result is void.」
+Shikoku Metan「throwError() never returns, so its type must be never.」
+Zundamon「Declaring process() as void but always throwing hides intent.」
+Shikoku Metan「processCorrect() declares never so the compiler understands.」
+Zundamon「void values are compatible with undefined; never isn't compatible with anything.」
+Shikoku Metan「const d: never = undefined; rightfully fails.」
+Zundamon「Use never for functions that never come back.」

@@ -1,0 +1,8 @@
+Shikoku Metan「Let's tame unions via type narrowing.」
+Zundamon「handle() inspected Response.status for 200/404/500.」
+Shikoku Metan「Writing const check: never = res; proves the union is fully narrowed.」
+Zundamon「process() used typeof to branch across string, number, and boolean.」
+Shikoku Metan「Sequential conditions let the compiler infer what remains.」
+Zundamon「An in guard lets us peel object unions step by step too.」
+Shikoku Metan「narrowLog() split on data vs. error keys cleanly.」
+Zundamon「Careful narrowing reinforces exhaustive checks.」

@@ -1,0 +1,8 @@
+Shikoku Metan「Default type parameters keep generics concise.」
+Zundamon「Callback<T = void> lets us omit the type argument.」
+Shikoku Metan「Exactly; voidCallback works without specifying T.」
+Zundamon「But we can still pass number for numberCallback?」
+Shikoku Metan「Yes, override the default whenever needed.」
+Zundamon「Handler<TData = void, TResult = void> even showed multiple defaults.」
+Shikoku Metan「Defaults make our APIs flexible yet terse.」
+Zundamon「I'll leverage them to simplify declarations!」

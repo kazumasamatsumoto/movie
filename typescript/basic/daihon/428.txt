@@ -1,0 +1,8 @@
+四国めたん「Promise<void>の現場的な例を見てみましょう。」
+ずんだもん「updateProfileはfetchしてログを出すだけだった。」
+四国めたん「はい。結果を返さないAPI呼び出しです。」
+ずんだもん「processBatchはfor-ofで順番にprocessItemをawaitしてたね。」
+四国めたん「実務でもよくあるパターンです。」
+ずんだもん「initializeAppはloadConfigやstartServicesを順番にawaitしてた!」
+四国めたん「アプリ起動時の副作用にもPromise<void>が役立ちます。」
+ずんだもん「現実のユースケースを参考に設計するのだ!」

@@ -1,9 +1,0 @@
-四国めたん「Let's learn `strictNullChecks` best practices!」
-ずんだもん「What's the ideal way to use it?」
-四国めたん「Keep it enabled, avoid non-null assertions, and rely on explicit types and type guards.」
-ずんだもん「Any other tips?」
-四国めたん「Prefer `undefined` over `null`, use optional properties, and lean on Nullish Coalescing.」
-ずんだもん「I see! Consistency matters!」
-四国めたん「Set team-wide coding standards and configure ESLint rules to enforce them.」
-ずんだもん「Keeping the whole project type-safe is the best!」
-

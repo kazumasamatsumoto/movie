@@ -1,9 +1,0 @@
-四国めたん「Let's learn the syntax of the non-null assertion operator!」
-ずんだもん「How do you write it?」
-四国めたん「Place `!` right after the expression—`value!`.」
-ずんだもん「Where can it go?」
-四国めたん「After variables, property accesses, or function calls; it's a postfix operator.」
-ずんだもん「Got it! It trails the value!」
-四国めたん「You can chain it, but readability drops; TypeScript v5.9 uses the same syntax.」
-ずんだもん「Nice and simple!」
-

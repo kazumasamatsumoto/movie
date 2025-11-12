@@ -1,0 +1,8 @@
+四国めたん「DTOバリデーションでもneverが活躍するよ。」
+ずんだもん「ValidationResult<T>はvalidフラグで成功/失敗を分けてたね。」
+四国めたん「handleValidation()でvalidと!validを両方チェックしてcheck: never = result; を置く。」
+ずんだもん「DtoTypeをcreate/updateに限定してtransformDto()で型安全に変換してたのだ。」
+四国めたん「typeが増えたらconst check: never = type; が教えてくれる。」
+ずんだもん「ValidationRuleもrequired/email/minLengthのUnionだったよ。」
+四国めたん「applyRule()で条件ごとに処理し、最後はcheck: never = rule; で締める。」
+ずんだもん「バリデーションの抜け漏れをneverで防ごう。」

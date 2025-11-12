@@ -1,0 +1,8 @@
+四国めたん「レスポンス型でもneverで状態漏れを防ごう。」
+ずんだもん「ApiResponse<T>はsuccess/error/loadingの3状態でhandleResponse()が全部処理してた。」
+四国めたん「PagedResponse<T>はhasDataフラグでデータ有無を表してたね。」
+ずんだもん「reasonがemptyかerrorのどちらかで、最後にcheck: never = res; を置くのだ。」
+四国めたん「HttpResponse<T>ではHTTPステータスごとに返り値を分けてた。」
+ずんだもん「status>=400の場合だけエラーを投げて、それ以外はデータやnullを返してたよ。」
+四国めたん「レスポンス型を固めるとAPIクライアントの実装も安全になる。」
+ずんだもん「どのケースもneverが監視してくれるね。」

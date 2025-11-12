@@ -1,9 +1,0 @@
-四国めたん「Let's learn practical use cases for `void`!」
-ずんだもん「Where do we use it?」
-四国めたん「Event handlers, callbacks, middleware, and other side-effect functions.」
-ずんだもん「How exactly?」
-四国めたん「Whenever no return value is expected—declare that intent in the type.」
-ずんだもん「Got it! It's practical!」
-四国めたん「You'll see it with `Promise<void>`, `array.forEach`, React's `useEffect`, and more—standard in TypeScript v5.9.」
-ずんだもん「It's everywhere!」
-

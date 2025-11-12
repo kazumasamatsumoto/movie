@@ -1,0 +1,8 @@
+Shikoku Metan「Mapped Types can convert every method to void.」
+Zundamon「VoidMethods<Service> forced all returns to void for mocking.」
+Shikoku Metan「Exactly; handy for test doubles.」
+Zundamon「ToHandlers<T> turned properties into (value: T[K]) => void handlers.」
+Shikoku Metan「Great for assigning handlers per property.」
+Zundamon「So Mapped Types let us automate void conversions.」
+Shikoku Metan「Combine them with generics for flexible transformations.」
+Zundamon「I'll leverage void-focused mapped types!」

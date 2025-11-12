@@ -1,0 +1,8 @@
+四国めたん「voidとneverを混同すると危険だよ。」
+ずんだもん「logMessage()みたいなvoid関数は正常終了してundefinedを返すのだ。」
+四国めたん「throwError()のように絶対戻らない処理はnever型にする必要がある。」
+ずんだもん「process()をvoidで宣言して中でthrowすると設計の意図が伝わらないね。」
+四国めたん「processCorrect()みたいにneverで宣言すればコンパイラも理解してくれる。」
+ずんだもん「戻り値の代入ではvoidはundefined互換だけどneverは何とも互換じゃない。」
+四国めたん「const d: never = undefined; はエラーになるから注意。」
+ずんだもん「戻らない関数は必ずneverで書こう。」

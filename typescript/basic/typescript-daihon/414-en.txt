@@ -1,9 +1,0 @@
-四国めたん「Let's see what happens to `void` and `undefined` after compilation.」
-ずんだもん「What does the compiler output?」
-四国めたん「The type info disappears, and both become the same JavaScript—the distinction vanishes.」
-ずんだもん「So the types are gone?」
-四国めたん「Exactly. TypeScript's types exist only at compile time; nothing remains at runtime.」
-ずんだもん「I get it! They’re a development-time feature!」
-四国めたん「That’s the TypeScript philosophy, unchanged in v5.9.」
-ずんだもん「We harvest type safety during development!」
-

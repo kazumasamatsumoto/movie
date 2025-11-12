@@ -1,9 +1,0 @@
-四国めたん「Let's learn alternatives to the non-null assertion!」
-ずんだもん「What can I use instead of `!`?」
-四国めたん「Type guards, optional chaining, and Nullish Coalescing keep things type-safe.」
-ずんだもん「How do I write those?」
-四国めたん「Check with `if`, use `?.` for safe access, and `??` for defaults so runtime errors disappear.」
-ずんだもん「I see! Plenty of safe techniques!」
-四国めたん「Reusable type-guard functions help too—these are standard patterns in TypeScript v5.9.」
-ずんだもん「Writing type-safe code is the best!」
-

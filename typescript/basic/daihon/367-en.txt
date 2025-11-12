@@ -1,0 +1,8 @@
+Shikoku Metan「Writing ! too early makes us skip null checks.」
+Zundamon「processUser calling findUser(id)! would crash when the ID is missing.」
+Shikoku Metan「Exactly—if it returns null, property access throws immediately.」
+Zundamon「So the correct flow is to test for null first?」
+Shikoku Metan「Yes, guard it with if (user === null) return; or similar early exits.」
+Zundamon「Optional Chaining also fetches the name safely?」
+Shikoku Metan「user?.name ?? 'Unknown' reads it without risking a crash.」
+Zundamon「I won't rely on ! to hide missing checks!」

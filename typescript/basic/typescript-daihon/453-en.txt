@@ -1,9 +1,0 @@
-四国めたん「Let's correct mistakes around returns in `void` functions.」
-ずんだもん「What goes wrong there?」
-四国めたん「People try to return a value; anything but `undefined` triggers an error.」
-ずんだもん「Why does that happen?」
-四国めたん「You might be tempted to return data mid-function, but `void` forbids it.」
-ずんだもん「So the type sets the rule!」
-四国めたん「If you need a value, change the return type; TypeScript v5.9 keeps the check in place.」
-ずんだもん「Design the type correctly—got it!」
-

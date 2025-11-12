@@ -1,0 +1,5 @@
+Shikoku Metan「Review never best practices.」
+Zundamon「Provide explicit helpers like throwError or assertNever.」
+Shikoku Metan「Custom errors convey context.」
+Zundamon「Exhaustive checks round out the set.」
+Shikoku Metan「Together they form a solid error strategy.」

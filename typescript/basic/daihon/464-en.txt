@@ -1,0 +1,5 @@
+Shikoku Metan「Functions containing infinite loops are never.」
+Zundamon「runForever printed continuously.」
+Shikoku Metan「startServer is another endless loop.」
+Zundamon「eventLoop keeps fetching events forever.」
+Shikoku Metan「Annotate them with never to show control never returns.」

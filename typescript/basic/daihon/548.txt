@@ -1,0 +1,8 @@
+四国めたん「never周りの型エラーは段階的にデバッグしよう。」
+ずんだもん「手順1では型エラーのメッセージを確認するんだったね。」
+四国めたん「Action = 'create' | 'update' | 'delete'でcreateしか書かないと『update』と『delete』が残る。」
+ずんだもん「step2ではVSCodeでactionをホバーして残りのUnionを調べてた。」
+四国めたん「update/deleteを処理した後にconst check: never = action; を置けば解決。」
+ずんだもん「step3ではdebugNever()ヘルパーでランタイムに情報を出してたよ。」
+四国めたん「Unhandled case in process: 'update' みたいなログが出せるのが便利。」
+ずんだもん「焦らずエラー→残り確認→ヘルパー活用の順で直そう。」

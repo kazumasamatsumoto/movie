@@ -1,0 +1,8 @@
+Shikoku Metan「The type of an await expression depends on the Promise payload.」
+Zundamon「Awaiting saveData yields void.」
+Shikoku Metan「Right, assigning it to result: void is safe but unused.」
+Zundamon「Awaiting Promise.resolve(42) gives a number instead?」
+Shikoku Metan「Exactly—the type matches the resolved value.」
+Zundamon「Trying to treat a void await result as string fails.」
+Shikoku Metan「Because its type is void, it can't be assigned to another type.」
+Zundamon「I'll keep await types in mind to avoid mistakes!」

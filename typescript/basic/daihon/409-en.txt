@@ -1,0 +1,8 @@
+Shikoku Metan「void and undefined are largely assignment-compatible.」
+Zundamon「let v: void = undefined; was valid.」
+Shikoku Metan「Yes, and the other direction is often fine too.」
+Zundamon「Function returns show the difference though?」
+Shikoku Metan「returnsVoid may return undefined, while returnsUndefined is stricter.」
+Zundamon「Assigning () => undefined to () => void works?」
+Shikoku Metan「It does, but the opposite may fail.」
+Zundamon「I'll follow the compatibility rules carefully!」

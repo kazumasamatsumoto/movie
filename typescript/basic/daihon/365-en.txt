@@ -1,0 +1,8 @@
+Shikoku Metan「Let's collect safe alternatives to the ! operator.」
+Zundamon「The classic type guard is the first option, right?」
+Shikoku Metan「Exactly—wrapping code with if (element !== null) ensures presence.」
+Zundamon「Optional Chaining writes it even shorter?」
+Shikoku Metan「Yes, expressions like user?.name ?? 'Unknown' handle nullish values cleanly.」
+Zundamon「Can we also build helper type guards for filtering?」
+Shikoku Metan「Define isNotNull to sweep null values out of arrays safely.」
+Zundamon「I'll lean on these alternatives before reaching for !.」

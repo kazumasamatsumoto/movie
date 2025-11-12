@@ -1,0 +1,5 @@
+Shikoku Metan「Use stack traces inside never functions.」
+Zundamon「fail logged error.stack.」
+Shikoku Metan「Custom errors can call captureStackTrace.」
+Zundamon「We printed the stack inside a catch block too.」
+Shikoku Metan「Leaving breadcrumbs speeds up debugging.」

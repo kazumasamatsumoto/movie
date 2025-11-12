@@ -1,0 +1,8 @@
+Shikoku Metan「Never helps Angular guards stay exhaustive.」
+Zundamon「GuardResult spelled out boolean | UrlTree | never.」
+Shikoku Metan「Our canActivate() handled authenticated, guest, and expired states.」
+Zundamon「A final const check: never = state; catches new states.」
+Shikoku Metan「RedirectResult keeps allow/redirect data in a discriminated union.」
+Zundamon「checkAccess() only allows admins, others get a redirect.」
+Shikoku Metan「Never prevents routing branches from falling through.」
+Zundamon「Let types shield complex guards.」

@@ -1,0 +1,6 @@
+Shikoku Metan「Trying to consume void returns is a common mistake.」
+Zundamon「I once assigned log() to a string and got an error!」
+Shikoku Metan「Expressions like update() + 1 are invalid too.」
+Zundamon「So the fix is to call the function for its side effect only?」
+Shikoku Metan「Exactly—just invoke process(); and ignore the result.」
+Zundamon「Whenever I see void, I will not touch the return value!」

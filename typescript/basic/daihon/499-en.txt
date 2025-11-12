@@ -1,0 +1,5 @@
+Shikoku Metan「Follow best practices when writing infinite loops.」
+Zundamon「serverLoop() logged startup.」
+Shikoku Metan「safeLoop() wrapped work in try-catch with delays.」
+Zundamon「gracefulLoop() exited when a signal flipped the flag.」
+Shikoku Metan「Handle errors and graceful shutdowns.」

@@ -1,0 +1,5 @@
+Shikoku Metan「Finally, let's review assertNever functions.」
+Zundamon「They always throw for unexpected cases.」
+Shikoku Metan「handleStatus and getColor used them for exhaustiveness.」
+Zundamon「Adding new Color values surfaces compile errors.」
+Shikoku Metan「Keep assertNever as a final safety net.」

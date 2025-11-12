@@ -1,0 +1,6 @@
+Shikoku Metan「Let's wrap up by contrasting void and never.」
+Zundamon「voidFunc() runs and then continues.」
+Shikoku Metan「neverFunc() throws, so nothing afterward executes.」
+Zundamon「process() calling void still hits console.log.」
+Shikoku Metan「Calling never leaves the rest unreachable.」
+Zundamon「Choose the type based on whether control returns!」

@@ -1,9 +1,0 @@
-四国めたん「Let's summarize the basics of `void`!」
-ずんだもん「Give me the key points!」
-四国めたん「It's the return type for functions without values and highlights side-effectful work.」
-ずんだもん「How should I use it?」
-四国めたん「Skip the return or write only `return;`; its meaning differs from `undefined`.」
-ずんだもん「I see! It shows we ignore the return!」
-四国めたん「You'll see it in `Promise<void>`, handlers, and callbacks; inference works, but be explicit for important functions.」
-ずんだもん「`void` makes each function's role clear!」
-

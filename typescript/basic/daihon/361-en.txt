@@ -1,0 +1,8 @@
+Shikoku Metan「Let's look at the Non-null Assertion operator (!) and how it suppresses null checks.」
+Zundamon「So I just append ! like document.getElementById('app')!?」
+Shikoku Metan「Exactly; when the element is guaranteed to exist we can treat it as an HTMLElement.」
+Zundamon「Can I apply it to a User | null return value too?」
+Shikoku Metan「Sure—writing getUser()! lets you access properties as a User.」
+Zundamon「Does it work for a string | undefined variable called value?」
+Shikoku Metan「Yes, value!.length removes undefined and narrows to string.」
+Zundamon「I'll use Non-null Assertions only when I'm confident about the value!」

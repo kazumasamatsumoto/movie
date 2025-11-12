@@ -1,9 +1,0 @@
-四国めたん「Let's learn practical patterns for optional chaining!」
-ずんだもん「Where do we use it?」
-四国めたん「Whenever a value might be missing—property access, function calls, array operations.」
-ずんだもん「How do we write it?」
-四国めたん「Pair it with `??` to assign defaults succinctly.」
-ずんだもん「I see! That's a practical pattern!」
-四国めたん「It's standard for API responses, form data, and event handlers in TypeScript v5.9.」
-ずんだもん「Writing concise, readable code is the best!」
-

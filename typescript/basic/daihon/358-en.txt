@@ -1,0 +1,8 @@
+Shikoku Metan「Let's revisit the Optional Chaining operator ?.」
+Zundamon「user?.name won't crash even if user is null, right?」
+Shikoku Metan「Correct, property access becomes safe and short.」
+Zundamon「Can we use it for method calls?」
+Shikoku Metan「obj?.method?.() calls only when both the object and method exist.」
+Zundamon「Does it work for arrays and deeply nested fields?」
+Shikoku Metan「array?.[0] and user?.contacts?.[0]?.phone handle those cases nicely.」
+Zundamon「Optional Chaining frees us from endless undefined checks!」

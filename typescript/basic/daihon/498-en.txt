@@ -1,0 +1,4 @@
+Shikoku Metan「Infinite loops can hog resources.」
+Zundamon「badLoop() burned CPU.」
+Shikoku Metan「goodLoop() and asyncLoop() inserted waits.」
+Zundamon「Always consider resource impact.」

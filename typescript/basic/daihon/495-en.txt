@@ -1,0 +1,5 @@
+Shikoku Metan「Event loops exemplify never functions.」
+Zundamon「eventLoop() waited for events and dispatched them.」
+Shikoku Metan「mainLoop batched events via pollEvents().」
+Zundamon「priorityLoop handled highest-priority tasks first.」
+Shikoku Metan「Tailor the loop to your design needs.」

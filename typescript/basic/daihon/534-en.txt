@@ -1,0 +1,8 @@
+Shikoku Metan「Never plays tightly with inference.」
+Zundamon「In process(), once we handle string or number the leftover value becomes never.」
+Shikoku Metan「Type guards on Shape let the opposite branch infer automatically.」
+Zundamon「Handle circle first and the else block knows it's square.」
+Shikoku Metan「Conditional helpers like InferReturnType<T> pull return types from functions.」
+Zundamon「Functions infer cleanly; non-functions fall back to never.」
+Shikoku Metan「Inference plus never produces great IDE hints.」
+Zundamon「Let types narrate your intent.」

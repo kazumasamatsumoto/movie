@@ -1,0 +1,8 @@
+Shikoku Metan「An intersection requires every constraint to hold.」
+Zundamon「{ name } & { age } gives a person with both fields.」
+Shikoku Metan「string & number collapses to never because they can't coexist.」
+Zundamon「A field typed as both string and number is impossible.」
+Shikoku Metan「Anything intersected with never produces never.」
+Zundamon「object & never or even any & never all disappear.」
+Shikoku Metan「Intersecting unions like User & { role: 'admin' } narrows them.」
+Zundamon「If we demand role: 'guest' we get never, revealing contradictions.」

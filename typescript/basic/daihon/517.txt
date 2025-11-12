@@ -1,0 +1,8 @@
+四国めたん「neverを使えば型安全性がグッと上がるよ。」
+ずんだもん「State/Eventのtransition()は条件付きで状態遷移してたね。」
+四国めたん「Unhandledイベントは現状stateを返すから、さらに検知したければneverを噛ませてもいい。」
+ずんだもん「AppEventのhandle()はclick/keypress/scrollを全部if-elseで処理してたのだ。」
+四国めたん「elseでconst check: never = event; を置くとイベント追加時に型が警告してくれる。」
+ずんだもん「Routeのnavigate()も/home,/about,/contactを全部書いていたよ。」
+四国めたん「ルートが増えた瞬間にneverが異常を知らせてくれる仕組み。」
+ずんだもん「こうやって型安全なステートやルーティングを守ろう。」

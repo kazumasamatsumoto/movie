@@ -1,0 +1,8 @@
+Shikoku Metan「Void appears constantly in callbacks.」
+Zundamon「Defining Callback = (data: string) => void keeps signatures tidy.」
+Shikoku Metan「processAsync invokes callback('Done') when the work finishes.」
+Zundamon「forEach callbacks don't return values either, right?」
+Shikoku Metan「Exactly; logging is a pure side effect.」
+Zundamon「Event listeners usually look like (e: Event): void => { ... }?」
+Shikoku Metan「Yes, they're designed purely for side effects.」
+Zundamon「I'll shape my callback types with void in mind!」

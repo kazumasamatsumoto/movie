@@ -1,0 +1,8 @@
+Shikoku Metan「Spamming ! makes the code's intent disappear.」
+Zundamon「Chains like response.data!.users!.find(...)! look terrifying.」
+Shikoku Metan「Exactly—if any link is null you'll blow up instantly.」
+Zundamon「Adding type guards would help readability and safety?」
+Shikoku Metan「Yes, check that users exists and verify profile?.name before using it.」
+Zundamon「Can lint rules forbid the operator as well?」
+Shikoku Metan「Set @typescript-eslint/no-non-null-assertion to error to discourage overuse.」
+Zundamon「I'll build an environment where ! appears only when justified!」

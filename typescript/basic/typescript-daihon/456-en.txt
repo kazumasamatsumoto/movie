@@ -1,9 +1,0 @@
-四国めたん「Let's refactor `void` functions.」
-ずんだもん「How do we do that?」
-四国めたん「Separate side effects and keep functions small—follow single responsibility.」
-ずんだもん「What steps should I take?」
-四国めたん「Split large routines into several focused `void` functions to improve readability.」
-ずんだもん「So simplicity wins!」
-四国めたん「That also makes them easier to test—a recommended pattern in TypeScript v5.9.」
-ずんだもん「It really boosts maintainability!」
-

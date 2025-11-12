@@ -1,9 +1,0 @@
-四国めたん「Let's learn about `throw` in `void` functions!」
-ずんだもん「Can you use `throw` inside a `void` function?」
-四国めたん「Yes—`throw` doesn't affect the return type; it produces `never`, which is compatible with `void`.」
-ずんだもん「What's `never`?」
-四国めたん「A type for code that never continues; `throw` ends the function, so no value comes back.」
-ずんだもん「I see! Exceptions get special treatment!」
-四国めたん「It's common in validation and assertions, and behaves the same in TypeScript v5.9.」
-ずんだもん「Great for error handling!」
-

@@ -1,0 +1,8 @@
+四国めたん「条件付き型でUnionをフィルタリングしよう。」
+ずんだもん「StringsOnly<T>はstringだけ残して他はneverにしてたね。」
+四国めたん「『a』 | 『b』 | 123 | true | 『c』から文字列だけが残った。」
+ずんだもん「FunctionsOnly<T>なら関数シグネチャだけが生き残るのだ。」
+四国めたん「引数や戻り値が違っても関数型ならちゃんとUnionに残る。」
+ずんだもん「NonNullableはnull/undefinedをneverにする実践的なフィルタ。」
+四国めたん「string | null | number | undefinedがstring | numberに整理できた。」
+ずんだもん「フィルタを組み合わせて型のゴミを一気に除こう。」

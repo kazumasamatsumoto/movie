@@ -1,0 +1,8 @@
+Shikoku Metan「Generics can incorporate void types as well.」
+Zundamon「We defined Callback<T> = (value: T) => void earlier.」
+Shikoku Metan「Passing number yields a side-effect handler for numbers.」
+Zundamon「Can Promise<T> also use void?」
+Shikoku Metan「Yes, declare saveData(): Promise<void>.」
+Zundamon「Handler<User> = (data: User) => void is another staple.」
+Shikoku Metan「Generics plus void make reusable side-effect handlers.」
+Zundamon「I'll design flexible void handlers!」

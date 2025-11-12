@@ -1,0 +1,8 @@
+Shikoku Metan「Conditional types can branch on whether a type is void.」
+Zundamon「IsVoid<void> was true while IsVoid<number> was false.」
+Shikoku Metan「Right, ResultType<T> switches shapes based on the return type.」
+Zundamon「AsyncResult<T> chose Promise<void> or Promise<{ data: T }>.」
+Shikoku Metan「fetch1 illustrated the void branch.」
+Zundamon「So we can automate void-specific behavior.」
+Shikoku Metan「Even complex APIs stay type-safe.」
+Zundamon「I'll leverage void-aware conditional types!」

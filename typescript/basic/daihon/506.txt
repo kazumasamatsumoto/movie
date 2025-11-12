@@ -1,0 +1,8 @@
+四国めたん「switchだけじゃなくif-elseでも網羅性を作れるよ。」
+ずんだもん「まずはStatus型とexhaustiveCheck()を定義してたね。」
+四国めたん「handleStatus()でpending/success/errorをif-elseでさばいてた。」
+ずんだもん「最後にelse return exhaustiveCheck(status); でneverを受けるの。」
+四国めたん「条件を1個でも忘れるとそこへ落ちて型エラーになる。」
+ずんだもん「Statusにtimeoutを足したバージョンではまさに怒られてた。」
+四国めたん「ifチェーンでも追加ケースを検知できるのがポイント。」
+ずんだもん「Unionを増やすたびにexhaustiveCheckでテスト代わりだね。」

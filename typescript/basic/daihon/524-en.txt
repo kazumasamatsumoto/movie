@@ -1,0 +1,8 @@
+Shikoku Metan「Never's behavior shows up in intersections too.」
+Zundamon「string & never always reduces to never.」
+Shikoku Metan「The same holds for number, boolean, or even unknown.」
+Zundamon「Contradiction types like { type: 'A' } & { type: 'B' } collapse to never.」
+Shikoku Metan「Compatible combos such as { type: 'A' } & { value: number } stay intact.」
+Zundamon「Extract keeps only matching members, so the rest become never.」
+Shikoku Metan「Pulling just number from a union leaves plain number.」
+Zundamon「Think of never as a certificate proving a contradiction.」

@@ -1,0 +1,5 @@
+四国めたん「never関数を呼ぶ処理の外側ではバウンダリも用意しましょう。」
+ずんだもん「safeExecuteがthrowをcatchしてfallbackを返してたね。」
+四国めたん「非同期版のsafeAsyncも紹介しました。」
+ずんだもん「ReactのErrorBoundaryもcomponentDidCatchでログを出すんだ!」
+四国めたん「バウンダリで例外を閉じ込めればアプリ全体が落ちにくくなります。」

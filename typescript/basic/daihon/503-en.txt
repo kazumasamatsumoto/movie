@@ -1,0 +1,8 @@
+Shikoku Metan「Let's craft a dedicated exhaustive helper.」
+Zundamon「assertNever(value: never) threw an 'Unexpected value' error.」
+Shikoku Metan「In getArea() we simply return assertNever(shape) in default.」
+Zundamon「Adding circles or squares later highlights the missing logic.」
+Shikoku Metan「exhaustiveCheck() lets us swap in custom messages.」
+Zundamon「JSON.stringify(value) boosts the debugging detail.」
+Shikoku Metan「Once it's a utility, every union reads the same.」
+Zundamon「Build the foundation early to ease future refactors.」

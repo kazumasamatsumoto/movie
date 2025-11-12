@@ -1,0 +1,7 @@
+Shikoku Metan「The never type marks code paths that never return.」
+Zundamon「Functions that throw errors are the classic example.」
+Shikoku Metan「Infinite loops also evaluate to never.」
+Zundamon「So the difference from void is whether control continues?」
+Shikoku Metan「Exactly—void execution resumes, never does not.」
+Zundamon「Nice to signal hazardous code via types.」
+Shikoku Metan「Use never to state that a path is unreachable.」

@@ -1,0 +1,5 @@
+Shikoku Metan「Custom errors clarify what a never function signals.」
+Zundamon「We threw ValidationError and NotFoundError.」
+Shikoku Metan「Attach field names or IDs for debugging.」
+Zundamon「Perfect for validation helpers returning never!」
+Shikoku Metan「Treat error design as part of the type system.」

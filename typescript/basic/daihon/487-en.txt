@@ -1,0 +1,5 @@
+Shikoku Metan「Memorize common never patterns.」
+Zundamon「Exhaustive checks, assertions, and notImplemented were the big three.」
+Shikoku Metan「Each ends execution without returning.」
+Zundamon「Templates make reuse easy.」
+Shikoku Metan「Customize them to your project.」

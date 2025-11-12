@@ -1,0 +1,8 @@
+Shikoku Metan「Let's review a real-world generic void example.」
+Zundamon「We built an EventEmitter<T> class.」
+Shikoku Metan「on registers listeners and emit notifies them.」
+Zundamon「The string emitter sent "Hello".」
+Shikoku Metan「Leaving T unspecified yields a void emitter.」
+Zundamon「Generics let us handle events with any data type.」
+Shikoku Metan「Void events simply call emit().」
+Zundamon「I'll master practical void generics!」

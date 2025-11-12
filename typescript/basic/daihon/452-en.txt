@@ -1,0 +1,6 @@
+Shikoku Metan「Another mistake is confusing void with undefined.」
+Zundamon「getValue(): void returning undefined felt strange.」
+Shikoku Metan「If you need to return the value undefined, type it as Item | undefined.」
+Zundamon「So void equals side effects, undefined equals optional data.」
+Shikoku Metan「Distinguish them to keep callers safe.」
+Zundamon「I will never mix them up again!」

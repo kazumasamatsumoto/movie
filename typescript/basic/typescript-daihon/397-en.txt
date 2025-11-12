@@ -1,9 +1,0 @@
-四国めたん「Let's learn about `void` methods in interfaces!」
-ずんだもん「How do interfaces define `void`?」
-四国めたん「Specify `: void` in the method signature so implementations obey the contract.」
-ずんだもん「What kinds of methods use it?」
-四国めたん「Lifecycle hooks, event handlers, callbacks—anything that doesn't need a return value.」
-ずんだもん「I see! It's part of interface design!」
-四国めたん「Implementations must also return `void`, and TypeScript v5.9 enforces that.」
-ずんだもん「It's a type-safe way to design!」
-

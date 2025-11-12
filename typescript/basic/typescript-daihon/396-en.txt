@@ -1,9 +1,0 @@
-四国めたん「Let's learn about `void` in class methods!」
-ずんだもん「How does `void` work for class methods?」
-四国めたん「Use it for methods that mutate state without returning a value.」
-ずんだもん「Which methods, for example?」
-四国めたん「Setters, initialization, teardown, event handlers—anything driven by side effects.」
-ずんだもん「I see! They're about state changes!」
-四国めたん「It applies to `public` and `private` alike, just as in TypeScript v5.9.」
-ずんだもん「Crucial for class design!」
-

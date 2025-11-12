@@ -1,0 +1,5 @@
+Shikoku Metan「Variables of type never accept no assignments.」
+Zundamon「neverValue = 1; was invalid.」
+Shikoku Metan「Conditional types use never to remove null or undefined.」
+Zundamon「NonNullable and Exclude demonstrated that.」
+Shikoku Metan「Use never to prune union members.」

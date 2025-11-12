@@ -1,0 +1,8 @@
+四国めたん「strictNullChecksの有無でvoidとundefinedの扱いが変わります。」
+ずんだもん「trueならvoidValueにnullを入れられないんだね。」
+四国めたん「はい。undefinedのみ許可されます。」
+ずんだもん「strictNullChecks: false だとnullも入っちゃうの?」
+四国めたん「入りますが非推奨です。」
+ずんだもん「f1(): void と f2(): undefined の違いも押さえておく!」
+四国めたん「voidは戻り値を気にせず、undefined型はundefinedを返す関数です。」
+ずんだもん「設定ごとの挙動を理解するのだ!」

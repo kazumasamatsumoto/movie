@@ -1,9 +1,0 @@
-四国めたん「Let's wrap up generics and the `void` type.」
-ずんだもん「What should I remember about `void` in generics?」
-四国めたん「You can use `void` as a type parameter to build reusable signatures for functions with no return value.」
-ずんだもん「How do I apply that?」
-四国めたん「In `Callback<T>`, `Promise<void>`, default type parameters, and more—with type inference lending a hand.」
-ずんだもん「Flexible type definitions, nice!」
-四国めたん「Combine it with conditional types, mapped types, and utility types; callbacks stay flexible. It’s vital in TypeScript v5.9.」
-ずんだもん「Generics keep everything type-safe—love it!」
-

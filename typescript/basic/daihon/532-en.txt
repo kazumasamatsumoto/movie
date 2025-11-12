@@ -1,0 +1,8 @@
+Shikoku Metan「Let's catalog common type-operation patterns.」
+Zundamon「Filter<T, Condition> keeps only members that satisfy the condition.」
+Shikoku Metan「It pulled just the strings out of 'a' | 'b' | 1 | 2.」
+Zundamon「MapToArray<T> turns every property into an array.」
+Shikoku Metan「name became string[] and age became number[].」
+Zundamon「Match<T> branched into String, Number, Boolean, or Unknown labels.」
+Shikoku Metan「That feels like pattern matching at the type level.」
+Zundamon「Mix these patterns to boost your expressiveness.」

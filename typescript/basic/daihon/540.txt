@@ -1,0 +1,8 @@
+四国めたん「API設計でもneverでレスポンス漏れを防げるよ。」
+ずんだもん「ApiResponse<T>はsuccess/error/loadingの3種類をhandleResponse()で網羅してた。」
+四国めたん「statusを追加するとconst check: never = res; が怒ってくれる。」
+ずんだもん「Endpoint型もmethodごとに必要なフィールドを持ってたね。」
+四国めたん「request()でGET/POST/DELETEを全部処理してからcheck: never = endpoint; を置いてた。」
+ずんだもん「GraphQLのGqlOperationもquery/mutation/subscriptionを切り替えてた。」
+四国めたん「executeGql()の最後にもcheck: never = op; を仕込んでいる。」
+ずんだもん「API層こそ型を固めると変更に強くなるのだ。」

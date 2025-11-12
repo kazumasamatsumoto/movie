@@ -1,0 +1,8 @@
+四国めたん「await式の型はPromiseの中身に依存します。」
+ずんだもん「saveDataをawaitするとvoidになるんだね。」
+四国めたん「はい。result: void に代入しても何も使いません。」
+ずんだもん「Promise.resolve(42)をawaitするとnumberになる?」
+四国めたん「その通り。voidとTで挙動が違います。」
+ずんだもん「resultをstringに代入しようとするとエラーが出るんだ。」
+四国めたん「型がvoidなので別の型へ代入できません。」
+ずんだもん「await式の型を理解して安全に扱うのだ!」

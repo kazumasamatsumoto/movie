@@ -1,9 +1,0 @@
-四国めたん「Let's learn how Angular uses `Observable<void>`.」
-ずんだもん「How does `void` work with observables?」
-四国めたん「`Observable<void>` models a stream that emits no values—just completion.」
-ずんだもん「When would I use that?」
-四国めたん「For signaling completed actions, event notifications, task endings.」
-ずんだもん「So it’s about notifications, not data!」
-四国めたん「`Subject<void>` and operators like `tap()` use it too—a key pattern in TypeScript v5.9.」
-ずんだもん「Perfect for reactive programming!」
-

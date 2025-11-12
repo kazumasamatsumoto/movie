@@ -1,0 +1,5 @@
+Shikoku Metan「Name and structure error functions carefully.」
+Zundamon「throwValidationError(field, reason) was very clear!」
+Shikoku Metan「assertPositive forwarded context to the caller.」
+Zundamon「createError(type, message) boosted reusability.」
+Shikoku Metan「Well-designed never functions improve maintainability.」

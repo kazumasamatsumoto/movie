@@ -1,0 +1,6 @@
+Shikoku Metan「We declare never mostly on function returns.」
+Zundamon「throwError(message): never is the template.」
+Shikoku Metan「Variables typed as never rarely appear and reject assignments.」
+Zundamon「Do throw-only functions infer never automatically?」
+Shikoku Metan「Yes, fail() becomes never because it never returns.」
+Zundamon「I'll balance explicit declarations with inference!」

@@ -1,9 +1,0 @@
-四国めたん「Let's learn how to migrate to `strictNullChecks`!」
-ずんだもん「How do we carry out the migration?」
-四国めたん「Start by locating the errors and prioritizing them, then fix core features step by step.」
-ずんだもん「What's the concrete procedure?」
-四国めたん「Add missing type definitions, implement null checks, update tests, and lean on automation tools.」
-ずんだもん「I see! It's a planned effort!」
-四国めたん「TypeScript ESLint rules help too—coordinate the rollout across the whole team.」
-ずんだもん「Achieving type safety together feels awesome!」
-

@@ -1,0 +1,8 @@
+Shikoku Metan「Never protects route guards from missing cases.」
+Zundamon「canAccess() covered public, protected, and admin states.」
+Shikoku Metan「Unknown states hit const check: never = state;.」
+Zundamon「GuardCheck captured role vs permission checks as a union.」
+Shikoku Metan「validateGuard() rejects anything outside those options.」
+Zundamon「The functional authGuard handled none, user, and admin.」
+Shikoku Metan「A final check: never = requiredAuth; keeps it exhaustive.」
+Zundamon「Even growing guard logic stays safe.」

@@ -1,9 +1,0 @@
-四国めたん「Let's make error handling type-safe.」
-ずんだもん「How does `never` make it safer?」
-四国めたん「By typing error functions as `never`, you guarantee the code after them never runs.」
-ずんだもん「What does that look like?」
-四国めたん「After a `never` function the compiler knows the code is unreachable, so dead code disappears.」
-ずんだもん「Nice! That prevents hidden bugs!」
-四国めたん「Combine it with custom errors for even more clarity—a recommended TypeScript v5.9 technique.」
-ずんだもん「Types really can guarantee safety!」
-

@@ -1,0 +1,8 @@
+四国めたん「次はswitch文で網羅性を確かめよう。」
+ずんだもん「handleAction()はcreate/update/deleteを全部回してたね。」
+四国めたん「defaultでconst exhaustive: never = action; を置けば安心。」
+ずんだもん「共通のassertNever()を作って再利用できるのが便利。」
+四国めたん「process()みたいに複数のswitchでも同じ関数を呼べる。」
+ずんだもん「Status型でsuccessを書き忘れたらassertNever(status)が怒るの。」
+四国めたん「Unionを増やした瞬間に未処理が発覚するね。」
+ずんだもん「switchを書くときはdefaultを監視役にしよう。」

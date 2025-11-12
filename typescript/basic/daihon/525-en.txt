@@ -1,0 +1,8 @@
+Shikoku Metan「Conditional types distribute over unions.」
+Zundamon「That's why ToArray<string | number> becomes string[] | number[].」
+Shikoku Metan「Exclude performs the same member-by-member filtering.」
+Zundamon「Only 'b' and 'c' survive after removing 'a'.」
+Shikoku Metan「Wrap T in a tuple, like NoDistribute, to stop distribution.」
+Zundamon「Then you keep (string | number)[] as a single chunk.」
+Shikoku Metan「Controlling distribution leads to precise type algebra.」
+Zundamon「Use it wisely once you grasp how never behaves.」

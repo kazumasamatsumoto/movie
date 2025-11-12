@@ -1,0 +1,8 @@
+Shikoku Metan「Let's verify exhaustiveness with switch statements.」
+Zundamon「handleAction() covered create, update, and delete.」
+Shikoku Metan「Dropping const exhaustive: never = action; in default keeps us safe.」
+Zundamon「A shared assertNever() helper is handy.」
+Shikoku Metan「process() or any other switch can reuse the same guard.」
+Zundamon「When the Status union forgets 'success', assertNever(status) complains.」
+Shikoku Metan「You instantly notice when the union grows.」
+Zundamon「Let the default branch act as the watchdog.」

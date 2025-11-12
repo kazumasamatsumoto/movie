@@ -1,0 +1,5 @@
+Shikoku Metan「When refactoring void functions, split responsibilities.」
+Zundamon「We separated calculate and display.」
+Shikoku Metan「Chaining small void helpers improves testability.」
+Zundamon「Also confirm we never rely on return values internally.」
+Shikoku Metan「Well-named void helpers boost readability.」

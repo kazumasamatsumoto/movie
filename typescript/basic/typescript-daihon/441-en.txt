@@ -1,9 +1,0 @@
-四国めたん「Let's learn how Angular uses the `void` type in event handlers.」
-ずんだもん「How does Angular use `void`?」
-四国めたん「Component event-handler methods return `void`; they don’t need a value.」
-ずんだもん「How do I declare that?」
-四国めたん「Give the method a `void` return type—it’s what templates call.」
-ずんだもん「Got it! That’s the UI event pattern!」
-四国めたん「Clicks, input, submit—lots of events use it. The pattern stays the same in TypeScript v5.9.」
-ずんだもん「So it’s a core Angular idiom!」
-

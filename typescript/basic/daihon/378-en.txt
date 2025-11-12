@@ -1,0 +1,8 @@
+Shikoku Metan「Let's check which values assign to a void variable.」
+Zundamon「Only undefined fits into value: void, right?」
+Shikoku Metan「That's right; null or numbers immediately cause type errors.」
+Zundamon「The sample even commented the invalid assignments for clarity.」
+Shikoku Metan「Be extra careful under strictNullChecks.」
+Zundamon「If a function returns void, does assigning its result yield undefined?」
+Shikoku Metan「Yes, calling doSomething(): void and storing it in const result: void is consistent.」
+Zundamon「Understanding these assignment rules prevents surprising errors!」

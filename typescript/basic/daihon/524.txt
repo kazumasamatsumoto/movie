@@ -1,0 +1,8 @@
+四国めたん「UnionだけじゃなくIntersectionでもneverの性質が活きるよ。」
+ずんだもん「string & neverは必ずneverになる定番パターン。」
+四国めたん「numberやboolean、unknownでも同じで矛盾を示せる。」
+ずんだもん「型が同時にAとBになれないContradictionもneverだったね。」
+四国めたん「逆に矛盾しない { type: 'A' } & { value: number } はそのまま残る。」
+ずんだもん「Extract型は欲しい部分だけ残すからneverが自然に消えるのだ。」
+四国めたん「Unionからnumberだけ抜くと残りはnumberでスッキリ。」
+ずんだもん「neverは矛盾の証明書って覚えておこう。」

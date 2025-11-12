@@ -1,0 +1,5 @@
+Shikoku Metan「Never functions cannot contain reachable return statements.」
+Zundamon「A return after fail() is pointless.」
+Shikoku Metan「invalid() reached return; and triggered an error.」
+Zundamon「abort() remains valid by throwing at the end.」
+Shikoku Metan「If control can return even once, the function is not never.」

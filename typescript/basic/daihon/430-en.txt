@@ -1,0 +1,8 @@
+Shikoku Metan「Let's wrap up the Promise<void> chapter.」
+Zundamon「Functions like saveData perform side effects and signal completion.」
+Shikoku Metan「Yes, await lets us express sequential flows.」
+Zundamon「processAll used Promise.all for parallel execution!」
+Shikoku Metan「It's great for waiting on multiple tasks.」
+Zundamon「I feel confident designing async void functions now.」
+Shikoku Metan「Remember side effects, await, and concurrency as the core pillars.」
+Zundamon「I'll master Promise<void> with this summary!」

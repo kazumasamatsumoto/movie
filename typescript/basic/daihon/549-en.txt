@@ -1,0 +1,8 @@
+Shikoku Metan「Let's recap never-focused best practices.」
+Zundamon「utils/exhaustive.ts centralizes exhaustiveCheck() and assertNever().」
+Shikoku Metan「Shared helpers keep every layer consistent.」
+Zundamon「Result<T, E> and DomainEvent always include discriminants.」
+Shikoku Metan「Default branches call exhaustiveCheck(event, 'handleEvent').」
+Zundamon「Services returning Result let controllers branch cleanly.」
+Shikoku Metan「UserController.getUser() ends with exhaustiveCheck(result) as a last resort.」
+Zundamon「Share these helpers across the team.」

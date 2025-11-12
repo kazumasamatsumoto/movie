@@ -1,0 +1,8 @@
+四国めたん「never回の締めに網羅性の総まとめをしよう。」
+ずんだもん「Statusのhandle()はpending/success/errorをifで全部返してたね。」
+四国めたん「return exhaustiveCheck(status); を置いておけば追加時に失敗する。」
+ずんだもん「Result型のprocess()もokフラグでvalueかerrorを選んでたのだ。」
+四国めたん「EventHandlerはswitchでclickとkeypressを処理してdefaultでexhaustiveCheck(event)。」
+ずんだもん「この3パターンを覚えれば大体のUnionに応用できるよ。」
+四国めたん「never型を味方につけて仕様変更にも強くなろう。」
+ずんだもん「今日から網羅性チェックの伝道師なのだ。」

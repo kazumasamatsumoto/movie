@@ -1,0 +1,6 @@
+Shikoku Metan「Let's wrap up void plus generics.」
+Zundamon「Callback<User> builds side-effect handlers with type parameters.」
+Shikoku Metan「Handler<T = void> adds helpful defaults.」
+Zundamon「EventEmitter<T = void> is another great template.」
+Shikoku Metan「Combining void with generics boosts extensibility.」
+Zundamon「I'll design reusable APIs using this summary!」

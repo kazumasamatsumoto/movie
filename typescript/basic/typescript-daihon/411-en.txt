@@ -1,9 +1,0 @@
-四国めたん「Let's learn how to work with functions that return `undefined`.」
-ずんだもん「Can I use an `undefined` return value?」
-四国めたん「Yes—treat it as data. Check it and branch accordingly.」
-ずんだもん「How do I do that?」
-四国めたん「Compare with `!== undefined` to form a type guard, or lean on optional chaining.」
-ずんだもん「I see! So you really use it as a value!」
-四国めたん「You’ll see it constantly as `T | undefined`; it’s still a practical pattern in TypeScript v5.9.」
-ずんだもん「Perfect for search results and similar cases!」
-

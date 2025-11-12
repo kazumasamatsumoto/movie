@@ -1,0 +1,6 @@
+Shikoku Metan「TypeScript infers never when a function only throws.」
+Zundamon「fail(message) was inferred automatically.」
+Shikoku Metan「Use explicit annotations like abort(message): never when clarity helps.」
+Zundamon「In exhaustive conditionals, the remaining code becomes never?」
+Shikoku Metan「Exactly, it's marked unreachable.」
+Zundamon「I'll balance inference and annotations!」

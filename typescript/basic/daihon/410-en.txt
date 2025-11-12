@@ -1,0 +1,7 @@
+Shikoku Metan「Never consume a void return value.」
+Zundamon「Assigning log('Hello') to string causes an error.」
+Shikoku Metan「Yes, but storing it in voidValue: void is fine.」
+Zundamon「The runtime still yields undefined though—does type checking stop misuse?」
+Shikoku Metan「process() returns undefined, yet its type is void so it can't be assigned elsewhere.」
+Zundamon「I'll respect void and ignore the return!」
+Shikoku Metan「Exactly—focus on the side effects.」

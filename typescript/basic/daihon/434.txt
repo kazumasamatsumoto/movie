@@ -1,0 +1,8 @@
+四国めたん「条件付き型を使うとvoidかどうかで型を切り替えられます。」
+ずんだもん「IsVoid<void> は true、IsVoid<number> は falseだったね。」
+四国めたん「はい。戻り値型に応じてResultType<T>を変えることもできます。」
+ずんだもん「AsyncResult<T> ではTがvoidかどうかでPromise<void>かPromise<{data:T}>になる?」
+四国めたん「その通り。fetch1の例で確認しました。」
+ずんだもん「条件付き型でvoid対応を自動化できるんだね。」
+四国めたん「複雑なAPIでも型安全を維持できます。」
+ずんだもん「void向けの分岐を活用するのだ!」

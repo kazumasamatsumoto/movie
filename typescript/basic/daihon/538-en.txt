@@ -1,0 +1,8 @@
+Shikoku Metan「Never shines inside Nest.js exception filters.」
+Zundamon「AppException was a discriminated union and catch() handled every type.」
+Shikoku Metan「After validation, unauthorized, and notfound we still add const check: never = exception;.」
+Zundamon「HttpError listed 400 through 500 and getErrorMessage() covered them all.」
+Shikoku Metan「Passing an unknown status fails at compile time.」
+Zundamon「DomainException mapped domains to specific HTTP errors.」
+Shikoku Metan「check: never = ex; exposes unknown domains immediately.」
+Zundamon「No more gaps in exception handling.」

@@ -1,0 +1,8 @@
+Shikoku Metan「value != null is a handy nullish check!」
+Zundamon「It detects both null and undefined at once?」
+Shikoku Metan「Yes, inside the block the type becomes non-nullish.」
+Zundamon「That's far shorter than writing two strict comparisons!」
+Shikoku Metan「And TypeScript narrows the type to string or number immediately.」
+Zundamon「So after data != null I can safely do arithmetic?」
+Shikoku Metan「Exactly; doubled = data * 2 no longer raises errors.」
+Zundamon「I'll rely on concise nullish checks to protect my logic!」

@@ -1,9 +1,0 @@
-四国めたん「Let's learn about type guards for nullable types!」
-ずんだもん「How do type guards help?」
-四国めたん「Define functions with the `is` operator to exclude `null`, so following code sees the narrowed type.」
-ずんだもん「What does that look like?」
-四国めたん「Write predicates such as `value is T`; control-flow analysis then narrows the type automatically.」
-ずんだもん「I see! The type guarantees it!」
-四国めたん「They're powerful alongside array `filter`, and TypeScript v5.9 made inference even better.」
-ずんだもん「Processing data safely with type guards is the best!」
-

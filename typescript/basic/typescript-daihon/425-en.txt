@@ -1,9 +1,0 @@
-四国めたん「Let's learn about `finally()` on `Promise<void>`.」
-ずんだもん「How do I use `finally()`?」
-四国めたん「Put work there that must run whether the promise succeeds or fails—perfect for cleanup.」
-ずんだもん「When would I use it?」
-四国めたん「Closing connections, releasing locks, hiding loading indicators—anything that must always happen.」
-ずんだもん「I see! It guarantees the cleanup!」
-四国めたん「`async`/`await` also has `finally` blocks, unchanged in TypeScript v5.9.」
-ずんだもん「Great for managing resources!」
-

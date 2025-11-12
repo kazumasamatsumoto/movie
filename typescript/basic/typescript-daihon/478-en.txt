@@ -1,9 +1,0 @@
-四国めたん「Let's review the `Error` type.」
-ずんだもん「How do we use `Error`?」
-四国めたん「Create the standard JavaScript `Error` and throw it.」
-ずんだもん「How do I write that?」
-四国めたん「`throw new Error(message);`—you also get a stack trace.」
-ずんだもん「That’s great for debugging!」
-四国めたん「Use subclasses like `Error`, `TypeError`, `RangeError`; nothing changes in TypeScript v5.9.」
-ずんだもん「Pick the right error type!」
-

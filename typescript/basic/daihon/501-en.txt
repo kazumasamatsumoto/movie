@@ -1,0 +1,8 @@
+Shikoku Metan「Time to review the basics of exhaustive checking.」
+Zundamon「It means covering every literal like the Status union.」
+Shikoku Metan「A default branch that treats a never status exposes gaps fast.」
+Zundamon「incomplete() forgot the 'error' case and TypeScript yelled.」
+Shikoku Metan「Writing const exhaustive: never = status; keeps the type system on patrol.」
+Zundamon「Color unions can throw via assertNever() when something is missing.」
+Shikoku Metan「Crashing builds the moment we add colors feels safe.」
+Zundamon「Let exhaustive checks brace us for spec changes.」

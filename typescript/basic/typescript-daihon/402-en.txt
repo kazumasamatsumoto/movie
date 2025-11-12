@@ -1,9 +1,0 @@
-四国めたん「Let's unpack what `void` means when we say “the value doesn't matter.”」
-ずんだもん「What does the `void` type represent?」
-四国めたん「It signals that a function doesn't return a value—or that you shouldn't use anything it returns. The value itself carries no meaning.」
-ずんだもん「Where do we use it?」
-四国めたん「In side-effect functions, event handlers, and callbacks—the work they perform matters, not their return value.」
-ずんだもん「I see! Only the side effect counts!」
-四国めたん「If you try to use the return value, the compiler complains. That's still true in TypeScript v5.9.」
-ずんだもん「Types can enforce the intent—that's awesome!」
-

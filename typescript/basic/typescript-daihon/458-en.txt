@@ -1,9 +1,0 @@
-四国めたん「Let's document `void` functions properly.」
-ずんだもん「How should I write their docs?」
-四国めたん「Use JSDoc to describe the side effects—what they change and how to call them.」
-ずんだもん「What tags do I use?」
-四国めたん「`@param`, `@returns void`, `@throws`, plus details about the side effects.」
-ずんだもん「Makes sense—communicate the intent!」
-四国めたん「Include usage examples too; it’s a recommended practice in TypeScript v5.9.」
-ずんだもん「Clear docs make all the difference!」
-

@@ -1,0 +1,8 @@
+Shikoku Metan「Type-level programming shows TypeScript's real power.」
+Zundamon「Our If type flipped between True and False branches.」
+Shikoku Metan「Reverse<T> recursively expanded arrays to invert them.」
+Zundamon「It turned [1,2,3,4] into [4,3,2,1] purely at the type level.」
+Shikoku Metan「FilterNever<T> strips never entries to keep arrays clean.」
+Zundamon「Only string and number survived, so the type became readable.」
+Shikoku Metan「Combine these patterns to tackle advanced algebra.」
+Zundamon「Push logic into types and stop bugs before runtime.」

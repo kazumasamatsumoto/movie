@@ -1,0 +1,8 @@
+Shikoku Metan「void comes with a few edge cases.」
+Zundamon「I was surprised that a Callback = () => void can still return 42.」
+Shikoku Metan「Callbacks ignore their return values.」
+Zundamon「But function log(): void rejects return 42?」
+Shikoku Metan「Correct—declared void functions are strict.」
+Zundamon「forEach callbacks may return x * 2 but the value is dropped.」
+Shikoku Metan「Know these quirks to avoid accidental code.」
+Zundamon「I'll understand void's edge behavior!」

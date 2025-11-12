@@ -1,0 +1,8 @@
+四国めたん「Union型全般でも漏れを作りたくないよね。」
+ずんだもん「Valueのprocess()はtypeofで全部の型をさばいてた。」
+四国めたん「最後にconst exhaustive: never = valueと書けば網羅性が保証される。」
+ずんだもん「AnimalのUnionはinstanceofでCatとDogを切り分けてたのだ。」
+四国めたん「違う型ガードでもassertNever(animal)で締めておけば安心。」
+ずんだもん「Directionのリテラル型もifチェーンで全部書いてたね。」
+四国めたん「北南東西を全部処理した後にassertNever(direction)で見張る。」
+ずんだもん「Union型ならどんなガードでも最後のneverチェックを忘れない。」

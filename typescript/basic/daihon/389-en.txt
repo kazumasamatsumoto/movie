@@ -1,0 +1,8 @@
+Shikoku Metan「Sometimes we still write explicit return; in void functions.」
+Zundamon「processData returns early after a null check.」
+Shikoku Metan「Yes, it prevents unnecessary work.」
+Zundamon「notify exits when notifications are disabled, too.」
+Shikoku Metan「Right, it short-circuits based on conditions.」
+Zundamon「I must remember that return 'value'; causes an error in invalid.」
+Shikoku Metan「Never return a value from a void function.」
+Zundamon「I'll choose the correct return style!」

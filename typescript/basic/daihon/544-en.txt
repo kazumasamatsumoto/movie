@@ -1,0 +1,8 @@
+Shikoku Metan「Let's line up real-world patterns that lean on never.」
+Zundamon「userReducer handled LOAD, UPDATE, and DELETE actions.」
+Shikoku Metan「Unknown action types hit const check: never = action.」
+Zundamon「HTTP interceptors covered add-auth, retry, and log scenarios.」
+Shikoku Metan「Adding an InterceptorAction case forces a compile error.」
+Zundamon「ServiceResult<T> flipped on a success flag.」
+Shikoku Metan「executeService() returns data or throws, then reaches check: never.」
+Zundamon「Bring never into production services.」

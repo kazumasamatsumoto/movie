@@ -1,0 +1,8 @@
+Shikoku Metan「Void clarifies the intent of object methods.」
+Zundamon「logger.log written with method syntax is easy to read.」
+Shikoku Metan「error follows the same side-effect pattern.」
+Zundamon「Can arrow-style properties also use void?」
+Shikoku Metan「Yes, utils.log demonstrates that.」
+Zundamon「Defining log and warn in a Logger type makes reuse simple!」
+Shikoku Metan「Document the method responsibilities for the whole team.」
+Zundamon「Void methods keep side effects isolated!」

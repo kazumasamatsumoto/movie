@@ -1,0 +1,8 @@
+Shikoku Metan「Default clauses become the last line of exhaustiveness.」
+Zundamon「move() switched over north, south, east, west.」
+Shikoku Metan「Throwing const check: never = dir; in default rejects unknown inputs.」
+Zundamon「Adding center immediately surfaced as it fell into default.」
+Shikoku Metan「Building an exhaustiveCheck() helper is a classic move.」
+Zundamon「Sharing that helper across switches keeps things consistent.」
+Shikoku Metan「Treat default as a watchdog rather than trash can.」
+Zundamon「Never makes new directions far less scary.」

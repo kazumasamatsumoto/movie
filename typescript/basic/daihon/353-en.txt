@@ -1,0 +1,8 @@
+Shikoku Metan「Let's review practical uses of nullish types.」
+Zundamon「API responses often return data or null/undefined, right?」
+Shikoku Metan「Yes, modeling them as T | null | undefined forces callers to check safely.」
+Zundamon「Database calls can return undefined from a catch block?」
+Shikoku Metan「Exactly. Returning undefined on errors lets callers tell failures apart.」
+Zundamon「Form inputs like email or phone can also be nullish when blank?」
+Shikoku Metan「Right, string | null | undefined accurately reflects optional entries.」
+Zundamon「I'll align my types with real-world data states!」

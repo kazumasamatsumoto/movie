@@ -1,0 +1,5 @@
+Shikoku Metan「Here's the wrap-up for never and exceptions.」
+Zundamon「fail(message) is the staple throwing function.」
+Shikoku Metan「Pair it with assertNever for exhaustiveness.」
+Zundamon「We also saw custom errors handled via try-catch.」
+Shikoku Metan「Review these patterns to master never-based errors.」

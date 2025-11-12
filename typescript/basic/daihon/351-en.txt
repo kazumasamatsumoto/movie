@@ -1,0 +1,8 @@
+Shikoku Metan「Let's represent missing values with the nullish type (T | null | undefined)!」
+Zundamon「That means the same type accepts both null and undefined, right?」
+Shikoku Metan「Yes, and we can reuse it via a type alias like type Nullish<T> = T | null | undefined.」
+Zundamon「Would it help for fields such as a user's email that might be unset?」
+Shikoku Metan「Exactly; it clearly models optional fields like email or age? that may be intentionally blank.」
+Zundamon「Is it also handy for the return value of data-fetching functions?」
+Shikoku Metan「Right. Returning User | null | undefined shows not-found cases and invalid IDs.」
+Zundamon「I'll model uncertain values safely with the nullish type!」

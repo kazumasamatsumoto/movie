@@ -1,0 +1,8 @@
+Shikoku Metan「Arrow functions can also be annotated with void.」
+Zundamon「const log = (msg: string): void => {...} is the simplest example.」
+Shikoku Metan「Right, it clarifies that no result is used.」
+Zundamon「Can we assign them to a VoidFunction = (x: number) => void alias?」
+Shikoku Metan「Yes, the double function demonstrates that.」
+Zundamon「You can even add : void on anonymous forEach arrows.」
+Shikoku Metan「It improves readability for side-effect-only callbacks.」
+Zundamon「I won't forget void on arrow functions!」

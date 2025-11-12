@@ -1,0 +1,8 @@
+四国めたん「never回の総仕上げに型演算を振り返ろう。」
+ずんだもん「Law1〜4でUnion/Intersection/Exclude/Extractの基本を押さえたね。」
+四国めたん「string | never = string、string & never = neverは鉄板ルール。」
+ずんだもん「実践ヘルパーとしてNonNullableやFunctionKeys、PickByTypeも便利だった。」
+四国めたん「複合的な型演算ではDeepPartialでネストも柔らかくできる。」
+ずんだもん「Result<T, E>みたいな判別Unionはエラーハンドリングに大活躍だよ。」
+四国めたん「これらを組み合わせると堅牢な型システムを作れる。」
+ずんだもん「neverの性質を理解して型演算を味方につけよう。」

@@ -1,0 +1,8 @@
+Shikoku Metan「Let's narrow unions with type guards.」
+Zundamon「area() on Shape inspected kind to compute each area.」
+Shikoku Metan「Listing circle, square, rectangle plus const check: never = shape seals it.」
+Zundamon「A custom isCircle() guard boosts readability.」
+Shikoku Metan「process() narrows to radius as soon as isCircle(shape) passes.」
+Zundamon「The remaining shapes can route to other logic for maintenance.」
+Shikoku Metan「Consistent guards also make exhaustive checks easier.」
+Zundamon「Even growing unions feel safer this way.」

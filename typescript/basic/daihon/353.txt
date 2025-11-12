@@ -1,0 +1,8 @@
+四国めたん「nullish型の実用例を確認しましょう!」
+ずんだもん「APIレスポンスのdataはnullやundefinedになることがあるよね?」
+四国めたん「はい。T | null | undefinedにして安全に判定できます。」
+ずんだもん「データベース呼び出しも、例外でundefinedを返せるの?」
+四国めたん「そうです。try-catchでundefinedを返せば呼び出し側で区別できます。」
+ずんだもん「フォーム入力のemailやphoneも未入力ならnullish?」
+四国めたん「ええ。string | null | undefinedにすれば状態を正しく表現できます。」
+ずんだもん「現実のデータに合わせてnullish型を活用するのだ!」

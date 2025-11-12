@@ -1,0 +1,8 @@
+Shikoku Metan「Practical example one covers a numeric reducer.」
+Zundamon「The Action union had increment, decrement, and reset.」
+Shikoku Metan「The reducer used if chains and ended with const check: never = action;.」
+Zundamon「Any new action instantly surfaces as a compile error.」
+Shikoku Metan「When we add multiply, the reducer complains because it's unhandled.」
+Zundamon「Payload-carrying types still cooperate with never checks.」
+Shikoku Metan「That setup lets us grow the action list safely.」
+Zundamon「Never keeps unions sturdy even in production reducers.」

@@ -1,9 +1,0 @@
-四国めたん「Let's learn what a `void` function actually returns.」
-ずんだもん「What does a `void` function return at runtime?」
-四国めたん「It returns `undefined` at runtime, but the type system treats it as `void`.」
-ずんだもん「Isn't that inconsistent?」
-四国めたん「No—it's a difference between the type level and runtime. Types capture intent, runtime delivers behavior.」
-ずんだもん「I get it—different layers!」
-四国めたん「In JavaScript, functions without a return yield `undefined`, and TypeScript v5.9 behaves the same.」
-ずんだもん「So we separate the type world from runtime behavior!」
-

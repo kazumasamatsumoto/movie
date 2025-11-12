@@ -1,0 +1,6 @@
+Shikoku Metan「never explicitly states that execution never continues.」
+Zundamon「The fail function threw an error to stop everything.」
+Shikoku Metan「Server main loops that run forever are never too.」
+Zundamon「Can we use it to ensure switch statements are exhaustive?」
+Shikoku Metan「Yes, calling fail("Unreachable") signals that the rest is impossible.」
+Zundamon「So never helps both type checking and runtime flow.」

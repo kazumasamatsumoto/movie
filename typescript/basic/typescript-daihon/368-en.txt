@@ -1,9 +1,0 @@
-四国めたん「Let's learn about overusing the non-null assertion!」
-ずんだもん「What counts as overuse?」
-四国めたん「Sprinkling `!` everywhere just to silence errors—that destroys type safety.」
-ずんだもん「Why do people do that?」
-四国めたん「It's tempting as a quick fix, but it only hides the underlying issue.」
-ずんだもん「What should we do instead?」
-四国めたん「Revisit the types, add proper guards, and let ESLint limit `!` usage.」
-ずんだもん「Facing the type system head-on is important!」
-

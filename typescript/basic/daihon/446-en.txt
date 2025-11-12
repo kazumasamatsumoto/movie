@@ -1,0 +1,8 @@
+Shikoku Metan「Promise<void> is common inside Nest.js controllers.」
+Zundamon「UsersController.delete returned Promise<void> with @HttpCode(204).」
+Shikoku Metan「POST or PUT endpoints do the same when they only cause side effects.」
+Zundamon「So we communicate outcome via HTTP status while leaving the body empty?」
+Shikoku Metan「Exactly—classic REST style.」
+Zundamon「Void responses make API intent clear.」
+Shikoku Metan「Use Promise<void> consistently for side-effect endpoints.」
+Zundamon「I'll enforce void-oriented Nest controllers!」

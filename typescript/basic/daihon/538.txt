@@ -1,0 +1,8 @@
+四国めたん「Nest.jsの例外フィルタでもneverが大活躍だよ。」
+ずんだもん「AppExceptionを判別Unionにしてcatch()で全部処理してたね。」
+四国めたん「validation/unauthorized/notfoundをifでハンドリングしてconst check: never = exception; を置く。」
+ずんだもん「HttpErrorも400〜500を列挙してgetErrorMessage()で網羅してた。」
+四国めたん「型に含まれないステータスを入れると即エラーになる。」
+ずんだもん「DomainExceptionでもdomainごとにBadRequestやUnprocessableを返してたよ。」
+四国めたん「最後のcheck: never = ex; で未知ドメインを検知する仕掛け。」
+ずんだもん「例外処理の抜け漏れがなくなるのは安心だね。」

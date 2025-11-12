@@ -1,0 +1,5 @@
+Shikoku Metan「TypeScript infers never or void based on loop exit.」
+Zundamon「loop1() never breaks, so it's never.」
+Shikoku Metan「loop2() can break and becomes void.」
+Zundamon「loop3() returns when forever is false, so it's void as well.」
+Shikoku Metan「Add annotations when inference doesn't match your intent.」

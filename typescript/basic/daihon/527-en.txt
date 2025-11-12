@@ -1,0 +1,8 @@
+Shikoku Metan「Let's filter unions with conditional types.」
+Zundamon「StringsOnly<T> keeps string members and turns the rest into never.」
+Shikoku Metan「So 'a' | 'b' | 123 | true | 'c' leaves only the letters.」
+Zundamon「FunctionsOnly<T> preserves only function signatures.」
+Shikoku Metan「Different parameters still survive as long as they're functions.」
+Zundamon「NonNullable removes null or undefined in real-world unions.」
+Shikoku Metan「string | null | number | undefined shrank to string | number.」
+Zundamon「Chain these filters to sweep away type clutter.」

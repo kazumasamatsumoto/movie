@@ -1,0 +1,8 @@
+Shikoku Metan「Never checks fail if you place them too early.」
+Zundamon「bad() only handled strings, then tried const check: never = value.」
+Shikoku Metan「Numbers remained, so assigning them to never is invalid.」
+Zundamon「good() handled string and number before reaching the never check.」
+Shikoku Metan「Only when every union member is covered does never make sense.」
+Zundamon「Returning check clarifies the code path is unreachable.」
+Shikoku Metan「Mind the order of your branches.」
+Zundamon「Never should be the final gatekeeper.」

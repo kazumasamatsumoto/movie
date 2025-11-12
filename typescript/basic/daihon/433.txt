@@ -1,0 +1,8 @@
+四国めたん「Callback<void>は副作用だけのコールバック型です。」
+ずんだもん「onCompleteの例では() => console.logだったね。」
+四国めたん「はい。EventHandler<T = void> と組み合わせれば型安全になります。」
+ずんだもん「非同期コールバックはPromise<void>を返すAsyncCallback<T>で表せる?」
+四国めたん「その通り。saveCallbackが実例です。」
+ずんだもん「用途に応じて同期void/非同期voidを使い分けられるんだね。」
+四国めたん「シンプルな副作用APIを表現するのに最適です。」
+ずんだもん「Callback<void>パターンを覚えるのだ!」

@@ -1,9 +1,0 @@
-四国めたん「Let's study edge cases of the `void` type.」
-ずんだもん「Are there any special cases?」
-四国めたん「If a callback's return type is `void`, you can return a value without a type error.」
-ずんだもん「Wait, isn't that dangerous?」
-四国めたん「It's intentional—the contract says the caller ignores the result, so any value is thrown away.」
-ずんだもん「I see! It's for flexibility!」
-四国めたん「Regular function declarations still error if they return something—TypeScript v5.9 behaves the same.」
-ずんだもん「So callbacks are the special ones!」
-

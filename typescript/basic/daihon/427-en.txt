@@ -1,0 +1,8 @@
+Shikoku Metan「Understand what Promise.all() actually returns.」
+Zundamon「In saveAll, results was void[] and ignored.」
+Shikoku Metan「Right, each Promise<void> resolves to undefined.」
+Zundamon「Promise.allSettled() lets us inspect successes and failures?」
+Shikoku Metan「Yes, we logged only the rejected entries.」
+Zundamon「Promise.race() gave us a timeout pattern!」
+Shikoku Metan「longTask competes with delay to raise a timeout error.」
+Zundamon「I'll mix these Promise helpers wisely!」

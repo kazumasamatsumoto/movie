@@ -1,0 +1,8 @@
+四国めたん「async関数の戻り値は必ずPromise型になります。」
+ずんだもん「process(): Promise<void> が正しい書き方だったね。」
+四国めたん「はい。async function process(): void はエラーです。」
+ずんだもん「型推論に任せてasync function load() {} と書くのもアリ?」
+四国めたん「returnが無ければPromise<void>と推論されます。」
+ずんだもん「void型を意識しつつPromiseで包む必要があるんだね。」
+四国めたん「async関数では常にPromise<void>を意識しましょう。」
+ずんだもん「正しい宣言でasync void関数を書き上げるのだ!」

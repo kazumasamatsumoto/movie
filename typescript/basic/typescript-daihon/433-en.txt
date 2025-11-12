@@ -1,9 +1,0 @@
-四国めたん「Let's learn the `Callback<void>` pattern.」
-ずんだもん「How do we use `Callback<void>`?」
-四国めたん「It's the type for callbacks that don't return anything—perfect for event listeners and handlers.」
-ずんだもん「How do we define it?」
-四国めたん「`type Callback<T> = (data: T) => void`; you can even pass `void` as `T`.」
-ずんだもん「I see! A truly general pattern!」
-四国めたん「React, Vue, Node.js, and many frameworks rely on it—still standard in TypeScript v5.9.」
-ずんだもん「Super practical!」
-

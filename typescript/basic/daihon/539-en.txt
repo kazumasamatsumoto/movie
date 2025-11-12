@@ -1,0 +1,8 @@
+Shikoku Metan「Never keeps Nest middleware exhaustive.」
+Zundamon「We processed json, form, and multipart request types.」
+Shikoku Metan「Unknown types hit const check: never = contentType;.」
+Zundamon「authenticate() handled bearer, basic, and apikey methods.」
+Shikoku Metan「logRequest() walked debug, info, warn, and error levels.」
+Zundamon「Even with if chains never still guards us.」
+Shikoku Metan「Middleware benefits hugely from type guards.」
+Zundamon「Build failures remind us when to add branches.」

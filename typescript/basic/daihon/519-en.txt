@@ -1,0 +1,8 @@
+Shikoku Metan「Let's tour common exhaustiveness patterns.」
+Zundamon「The reducer pattern switched over CounterAction.」
+Shikoku Metan「default: return exhaustiveCheck(action); flags new actions.」
+Zundamon「The command pattern branched on kind to call save/load/delete.」
+Shikoku Metan「The state pattern mapped status to display labels.」
+Zundamon「exhaustiveCheck(state) guards connection states against drift.」
+Shikoku Metan「Memorize these patterns to reuse them elsewhere.」
+Zundamon「They're practical templates for union design.」

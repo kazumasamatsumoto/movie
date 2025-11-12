@@ -1,0 +1,8 @@
+Shikoku Metan「Discriminated unions branch on kind or type fields.」
+Zundamon「Shape.getArea() computed the area per kind.」
+Shikoku Metan「A default assertNever(shape) keeps new figures safe.」
+Zundamon「Redux-style Action unions rely on type inside the reducer.」
+Shikoku Metan「increment, decrement, and set all lead to assertNever(action) afterward.」
+Zundamon「The Event handler logged click and keypress events.」
+Shikoku Metan「As soon as we add a type, handleEvent() turns red.」
+Zundamon「Discriminated unions are a powerhouse for missing-branch detection.」

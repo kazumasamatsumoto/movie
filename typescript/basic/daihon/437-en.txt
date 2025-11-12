@@ -1,0 +1,6 @@
+Shikoku Metan「Type inference often yields void.」
+Zundamon「execute(() => console.log()) returned void automatically.」
+Shikoku Metan「Async functions without returns infer Promise<void>.」
+Zundamon「When needed we can specify execute<void>(() => ...), right?」
+Shikoku Metan「Exactly.」
+Zundamon「I'll balance inference and explicit types!」

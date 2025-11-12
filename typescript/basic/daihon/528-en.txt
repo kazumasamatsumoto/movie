@@ -1,0 +1,8 @@
+Shikoku Metan「Did you know Exclude<T, never> changes nothing?」
+Zundamon「Removing never leaves T untouched.」
+Shikoku Metan「Passing string or number returns the same union.」
+Zundamon「Regular Exclude calls do shrink unions, so the contrast stands out.」
+Shikoku Metan「Helpers like RemoveNever<T> get optimized away because never isn't real data.」
+Zundamon「string | number | never already equals string | number.」
+Shikoku Metan「So meaningless never members don't affect the result.」
+Zundamon「Mentally skip them when reading type algebra.」

@@ -1,9 +1,0 @@
-四国めたん「Let's learn about nullish types!」
-ずんだもん「What is a nullish type?」
-四国めたん「It's a union `T | null | undefined` that permits both kinds of missing values.」
-ずんだもん「When do we use it?」
-四国めたん「API responses, database values, and optional parameters—all the places a value might be absent.」
-ずんだもん「I see! It covers both cases!」
-四国めたん「It pairs nicely with Nullish Coalescing and optional chaining, and it's common in TypeScript v5.9.」
-ずんだもん「Handling absence flexibly is the best!」
-

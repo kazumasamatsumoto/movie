@@ -1,9 +1,0 @@
-四国めたん「Let's design APIs that use `void`.」
-ずんだもん「How does `void` fit into API design?」
-四国めたん「Use `Promise<void>` for operations with no response body—classic REST.」
-ずんだもん「Which operations need that?」
-四国めたん「DELETE, some POST/PUT calls, notification endpoints—they return `204 No Content`.」
-ずんだもん「So they only acknowledge success!」
-四国めたん「Clients expect no data back; it’s still recommended in TypeScript v5.9.」
-ずんだもん「That’s RESTful 101!」
-

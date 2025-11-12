@@ -1,9 +1,0 @@
-四国めたん「Let's learn how to perform a nullish check!」
-ずんだもん「How do you check for both `null` and `undefined`?」
-四国めたん「Use `!= null` to cover both at once; it's the same as `!== null && !== undefined`.」
-ずんだもん「Isn't `==` supposed to be avoided?」
-四国めたん「For nullish checks, the loose comparison is intentional—it matches only `null` or `undefined`.」
-ずんだもん「I see! It's a special case!」
-四国めたん「It doubles as a type guard, so control-flow analysis narrows the type.」
-ずんだもん「Checking concisely is the best!」
-

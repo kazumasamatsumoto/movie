@@ -1,0 +1,8 @@
+四国めたん「網羅性チェックのベストプラクティスを並べてみよう。」
+ずんだもん「まずはassertNever()とexhaustiveCheck()を共通化することだね。」
+四国めたん「Result型のunwrap()はsuccessならvalue、失敗ならerrorを投げてた。」
+ずんだもん「elseでexhaustiveCheck(result)を呼べば新しいvariantにも即対応。」
+四国めたん「Actionのexecute()はswitch文でsave/load/deleteを呼び分けてたよ。」
+ずんだもん「defaultでexhaustiveCheck(action)を返す統一パターンが綺麗。」
+四国めたん「ヘルパーを育てればどのUnionでも同じ構造にできる。」
+ずんだもん「チーム全体でベストプラクティスを共有しよう。」

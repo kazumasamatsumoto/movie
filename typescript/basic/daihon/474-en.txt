@@ -1,0 +1,6 @@
+Shikoku Metan「never shines in exhaustive checks and error flows.」
+Zundamon「exhaustiveCheck(value: never) is super handy!」
+Shikoku Metan「Switch statements error out when a case is missing.」
+Zundamon「assertNonNull throws so unhandled branches are never.」
+Shikoku Metan「This guards runtime and compile-time behavior.」
+Zundamon「I will memorize these practical patterns!」

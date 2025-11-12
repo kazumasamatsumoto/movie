@@ -1,0 +1,8 @@
+Shikoku Metan「forEach returns void and expects void callbacks.」
+Zundamon「Assigning result = items.forEach(...) gives undefined.」
+Shikoku Metan「Correct; the signature explicitly returns void.」
+Zundamon「The callback's return value is ignored entirely?」
+Shikoku Metan「Yes—logging side effects is the norm.」
+Zundamon「So the key difference from map is whether a new array is returned.」
+Shikoku Metan「map yields data, forEach yields only side effects.」
+Zundamon「I'll choose based on whether I need results or not!」

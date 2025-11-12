@@ -1,0 +1,8 @@
+Shikoku Metan「Let's recap the essentials of void.」
+Zundamon「Functions like log represent the typical side-effect pattern.」
+Shikoku Metan「Right—they finish work without producing values.」
+Zundamon「Remember that Promise<void> applies to async flows too!」
+Shikoku Metan「saveData only signals completion in that case.」
+Zundamon「And Callback = (data: string) => void defines handler types cleanly.」
+Shikoku Metan「Side-effect-specific aliases boost readability.」
+Zundamon「Master the basics to wield void confidently!」

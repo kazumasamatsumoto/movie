@@ -1,9 +1,0 @@
-四国めたん「Let's learn how `void` works with mapped types.」
-ずんだもん「What do mapped types do with `void`?」
-四国めたん「They can convert every property—say, turning all methods into `void`.」
-ずんだもん「How do I write that?」
-四国めたん「Use `[K in keyof T]: void` to map each property to `void`.」
-ずんだもん「Oh! It transforms everything at once!」
-四国めたん「Great for event handler contracts or mock objects; it’s still handy in TypeScript v5.9.」
-ずんだもん「That makes type transformations easy!」
-

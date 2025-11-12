@@ -1,0 +1,8 @@
+四国めたん「ルートガードでもneverが漏れを防いでくれるよ。」
+ずんだもん「RouteStateを分岐するcanAccess()はpublic/protected/adminを全部チェックしてた。」
+四国めたん「未知の状態はconst check: never = state; で検出する仕組みだね。」
+ずんだもん「GuardCheckではroleとpermissionの2種類をUnionで表現してた。」
+四国めたん「validateGuard()はどちらの条件も満たさないとneverに落ちる。」
+ずんだもん「CanActivateFn版authGuardでもrequiredAuthを網羅してたよ。」
+四国めたん「none/user/adminを処理したあとにcheck: never = requiredAuth; を置いてる。」
+ずんだもん「ガードロジックが増えてもneverが見張ってくれるのだ。」

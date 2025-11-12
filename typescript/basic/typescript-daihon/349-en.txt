@@ -1,9 +1,0 @@
-四国めたん「Let's learn best practices for undefinedable types!」
-ずんだもん「What's the best way to use them?」
-四国めたん「Use `?` for optional properties and reserve explicit `| undefined` for special cases, and leverage defaults.」
-ずんだもん「Anything else to note?」
-四国めたん「Avoid non-null assertions, rely on optional chaining, and narrow with type guards.」
-ずんだもん「I see! Safety comes first!」
-四国めたん「Consistent coding conventions matter—ESLint can enforce them.」
-ずんだもん「Keeping the team type-safe is the best!」
-

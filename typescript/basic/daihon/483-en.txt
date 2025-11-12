@@ -1,0 +1,5 @@
+Shikoku Metan「Handle never functions with try-catch when needed.」
+Zundamon「riskyOperation() always threw.」
+Shikoku Metan「Use instanceof for custom errors.」
+Zundamon「We can check against Error as well?」
+Shikoku Metan「Yes, narrow the type inside catch.」

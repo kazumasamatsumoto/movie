@@ -1,9 +1,0 @@
-四国めたん「Let's look at functions whose return type is `undefined`.」
-ずんだもん「Why would you return `undefined` explicitly?」
-四国めたん「To show that you intentionally return the value `undefined`—you plan to treat it as data.」
-ずんだもん「How is that different from `void`?」
-四国めたん「`void` says “ignore the return,” while `undefined` says “return the value `undefined`.” Different meanings.」
-ずんだもん「I see! So you use it as a value!」
-四国めたん「Most of the time you use it as part of `T | undefined`; using it alone is rare.」
-ずんだもん「So unions are the standard pattern!」
-

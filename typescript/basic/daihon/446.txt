@@ -1,0 +1,8 @@
+四国めたん「Nest.jsのコントローラでもPromise<void>がよく使われます。」
+ずんだもん「UsersController.deleteは@HttpCode(204)で戻り値なしだったね。」
+四国めたん「POSTやPUTでも副作用だけならPromise<void>にします。」
+ずんだもん「HTTPステータスで結果を伝えて、ボディは空にするんだ?」
+四国めたん「はい。RESTのベストプラクティスです。」
+ずんだもん「void戻り値でAPI設計が明確になるね。」
+四国めたん「副作用を伴うエンドポイントはPromise<void>で統一しましょう。」
+ずんだもん「Nest.jsコントローラもvoid設計を徹底するのだ!」

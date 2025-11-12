@@ -1,9 +1,0 @@
-四国めたん「Let's learn about the return value of `console.log`!」
-ずんだもん「Does `console.log` return anything?」
-四国めたん「Its type is `void`; it returns `undefined`, but you're not meant to use it.」
-ずんだもん「Why is it typed as `void`?」
-四国めたん「Logging is pure side effect, so the type tells you there's no meaningful result.」
-ずんだもん「I see! The return isn't for us!」
-四国めたん「Other console methods follow the same definition in TypeScript v5.9.」
-ずんだもん「A textbook side-effect function!」
-

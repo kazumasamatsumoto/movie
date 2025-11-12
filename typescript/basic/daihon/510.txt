@@ -1,0 +1,8 @@
+四国めたん「実践例その2はイベント駆動アプリだよ。」
+ずんだもん「DomainEventにはUserCreated/Updated/Deletedがあったね。」
+四国めたん「EventHandler.handle()はif-elseで分岐してexhaustiveCheck(event)で締めてた。」
+ずんだもん「メソッドを分けても最後にneverチェックを忘れなかったのだ。」
+四国めたん「APIレスポンスのUnionもstatusでsuccess/errorを切り替えてた。」
+ずんだもん「process()でsuccessならdataを返し、errorならthrowしてたね。」
+四国めたん「const check: never = res; を置けば新しいstatus追加にすぐ気付ける。」
+ずんだもん「実務的なUnionもneverで守って信頼性アップだ。」

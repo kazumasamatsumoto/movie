@@ -1,0 +1,8 @@
+四国めたん「判別Unionならkindやtypeで分岐できるよ。」
+ずんだもん「ShapeのgetArea()はkindごとに面積を出してたね。」
+四国めたん「defaultでassertNever(shape)を書けば新しい図形も怖くない。」
+ずんだもん「ReduxのActionもtypeを見てreducerが網羅してたのだ。」
+四国めたん「increment/decrement/setを全部処理して最後にassertNever(action)。」
+ずんだもん「Eventハンドラもclickとkeypressをログしてたよ。」
+四国めたん「typeを追加した瞬間にhandleEvent()が赤くなるのが狙い。」
+ずんだもん「判別Unionはスイッチ漏れ検出の最強パターンだね。」

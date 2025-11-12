@@ -1,0 +1,8 @@
+四国めたん「Unionにneverを混ぜると自動的に消えるんだ。」
+ずんだもん「string | neverがstringだけになるやつだね。」
+四国めたん「NonNullable<T>もnull/undefinedをneverに変えてクリーンにしてた。」
+ずんだもん「boolean | null | undefinedでも結果はbooleanだけ残るのだ。」
+四国めたん「同じUnionにneverを何度足しても最終結果は変わらない。」
+ずんだもん「Complex型がstring | number | booleanにまとまってたね。」
+四国めたん「こういう性質を知っておくと型演算の結果を読みやすい。」
+ずんだもん「不要なneverは自然に消えると覚えておこう。」

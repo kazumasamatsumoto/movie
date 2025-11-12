@@ -1,0 +1,8 @@
+Shikoku Metan「Variables typed as undefined accept only undefined.」
+Zundamon「Right, we assigned undefined to value: undefined in the sample.」
+Shikoku Metan「Null or numbers trigger errors.」
+Zundamon「A union like string | undefined lets us toggle between data and undefined?」
+Shikoku Metan「Exactly, that's what the data variable shows.」
+Zundamon「Functions such as getValue(): string | undefined are common too.」
+Shikoku Metan「They highlight when a value might be missing.」
+Zundamon「I'll master undefined-typed variables!」

@@ -1,0 +1,8 @@
+Shikoku Metan「Never checks can serve as optimization hints.」
+Zundamon「isEven() covered every Digit via switch.」
+Shikoku Metan「Putting const check: never = n; in default marks code as unreachable.」
+Zundamon「getScore() removed dead paths even with simple if chains.」
+Shikoku Metan「Bool.not() flipped true/false then threw, encouraging inlining.」
+Zundamon「Treating the rest as never eliminates redundant returns.」
+Shikoku Metan「Telling the compiler 'we never get here' can speed things up.」
+Zundamon「It's nice when type safety and optimization align.」

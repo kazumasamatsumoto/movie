@@ -1,0 +1,6 @@
+Shikoku Metan「Let's recap the essentials of never.」
+Zundamon「Only throwers or infinite loops qualify.」
+Shikoku Metan「Use it for functions like fail() that never return.」
+Zundamon「And remember exhaustiveCheck.」
+Shikoku Metan「Master the basics to handle advanced cases.」
+Zundamon「I won't fear never anymore!」

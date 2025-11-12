@@ -1,0 +1,5 @@
+Shikoku Metan「Review the core void best practices.」
+Zundamon「Declare types explicitly like logMessage or saveData.」
+Shikoku Metan「Separate side effects from pure calculations.」
+Zundamon「processUser demonstrated chaining small void steps.」
+Shikoku Metan「Keep void functions short and intentional.」

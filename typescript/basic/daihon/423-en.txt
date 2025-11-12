@@ -1,0 +1,8 @@
+Shikoku Metan「You can chain Promise<void> with then().」
+Zundamon「saveData().then(...).then(...) demonstrated that.」
+Shikoku Metan「Yes, catch consolidates error handling.」
+Zundamon「Is it clearer when rewritten with async/await?」
+Shikoku Metan「Exactly—process shows the sequential await style.」
+Zundamon「Even initialize().then(...).then(...) still has type Promise<void>.」
+Shikoku Metan「The entire chain evaluates to Promise<void>.」
+Zundamon「I'll choose between chaining and await based on readability!」

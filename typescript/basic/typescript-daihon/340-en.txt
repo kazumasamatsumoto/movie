@@ -1,9 +1,0 @@
-四国めたん「Let's wrap up nullable types!」
-ずんだもん「What's the key takeaway?」
-四国めたん「`T | null` lets you accept `null`, and `strictNullChecks` keeps that safe.」
-ずんだもん「How should we use it?」
-四国めたん「Access values with optional chaining and `??`, then narrow them with type guards.」
-ずんだもん「I see! The type system manages it precisely!」
-四国めたん「They're essential for databases, APIs, and search results—core features even in TypeScript v5.9.」
-ずんだもん「Nullable types make type-safe development a joy!」
-

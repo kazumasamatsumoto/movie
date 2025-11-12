@@ -1,0 +1,8 @@
+四国めたん「戻り値がundefinedの関数は値としてundefinedを返します。」
+ずんだもん「getOptionalValueは42かundefinedを返すんだね。」
+四国めたん「はい。呼び出し側はundefinedチェックが必要です。」
+ずんだもん「void関数との違いは値を使うかどうか?」
+四国めたん「その通り。voidは用途が副作用ですが、undefinedは値そのものです。」
+ずんだもん「undefFuncはreturn undefined; と明示するんだ。」
+四国めたん「voidFuncはconsole.logだけして終わります。」
+ずんだもん「区別して戻り値型を選ぶのだ!」

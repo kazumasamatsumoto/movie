@@ -1,9 +1,0 @@
-四国めたん「Let's learn best practices for the non-null assertion!」
-ずんだもん「What's the best way to use it?」
-四国めたん「Avoid it whenever possible—use type guards, optional chaining, and `??` first.」
-ずんだもん「What if we absolutely must?」
-四国めたん「Only when the value truly exists but TypeScript can't see it, and leave a comment explaining why.」
-ずんだもん「I see! It's a final resort!」
-四国めたん「Configure ESLint to warn and review such cases carefully; TypeScript v5.9 urges caution.」
-ずんだもん「We'll keep type safety first!」
-

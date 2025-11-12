@@ -1,0 +1,8 @@
+Shikoku Metan「Let's collect never-driven best practices.」
+Zundamon「Shared helpers like exhaustiveCheck() and assertNever() belong in utils.」
+Shikoku Metan「Always give discriminated unions a type or kind flag.」
+Zundamon「handleEvent() switched on event.type and defaulted to exhaustiveCheck.」
+Shikoku Metan「Returning Result<T, E> from services lets controllers branch safely.」
+Zundamon「UserService returned success true/false, and UserController threw exceptions accordingly.」
+Shikoku Metan「Use never helpers at every layer to catch leaks fast.」
+Zundamon「Make type-safe error handling the norm.」

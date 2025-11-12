@@ -1,0 +1,4 @@
+Shikoku Metan「Document void functions to clarify intent.」
+Zundamon「We included @returns void and side-effect descriptions.」
+Shikoku Metan「Add @throws and @example to guide users.」
+Zundamon「Since no value is returned, the comments explain the effects.」

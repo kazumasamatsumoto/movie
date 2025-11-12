@@ -1,9 +1,0 @@
-四国めたん「Let's learn what happens if you try to use the return value of a `void` function.」
-ずんだもん「Can I use the return value of a `void` function?」
-四国めたん「The type system says no—assigning a `void` value to another type fails.」
-ずんだもん「But at runtime it works, right?」
-四国めたん「Runtime gives you `undefined`, but TypeScript blocks you so the design intent stays intact.」
-ずんだもん「I get it! Types protect us!」
-四国めたん「That's the whole point of the `void` type, and it's unchanged in TypeScript v5.9.」
-ずんだもん「It's great that types enforce the intent safely!」
-

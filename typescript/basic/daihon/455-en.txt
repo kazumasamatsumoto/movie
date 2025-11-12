@@ -1,0 +1,5 @@
+Shikoku Metan「Instrumentation helps monitor void functions.」
+Zundamon「timer logged before/after to measure duration.」
+Shikoku Metan「try-catch captured failures as well.」
+Zundamon「So we trace via logs/metrics instead of return values.」
+Shikoku Metan「Exactly; keep observability around side effects.」

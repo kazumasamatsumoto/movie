@@ -1,9 +1,0 @@
-四国めたん「Let's run several `Promise<void>` tasks in parallel.」
-ずんだもん「Can I execute multiple `Promise<void>` at once?」
-四国めたん「Sure—use `Promise.all()` to await all of them together.」
-ずんだもん「How do I write that?」
-四国めたん「Pass an array of `Promise<void>` into `Promise.all()`; they run concurrently.」
-ずんだもん「Nice! That speeds things up!」
-四国めたん「It’s perfect when order doesn’t matter—a recommended pattern in TypeScript v5.9.」
-ずんだもん「Efficient and tidy!」
-

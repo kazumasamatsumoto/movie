@@ -1,0 +1,6 @@
+Shikoku Metan「Utility types can help when working with void.」
+Zundamon「ReturnType<typeof log> evaluated to void.」
+Shikoku Metan「Combine it with Parameters to define variadic void functions.」
+Zundamon「We also built an EventMap using Record<string, () => void>.」
+Shikoku Metan「Utility types automate these conversions nicely.」
+Zundamon「I'll memorize these void-centric utilities!」

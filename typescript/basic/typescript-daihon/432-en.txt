@@ -1,9 +1,0 @@
-四国めたん「Let's look at default type parameters and `void`.」
-ずんだもん「Can I set `void` as the default?」
-四国めたん「Yes—declare a type parameter like `T = void` so it defaults to `void` when omitted.」
-ずんだもん「How do I write that?」
-四国めたん「Exactly as `T = void`; it’s handy when the default behavior expects no return value.」
-ずんだもん「Nice! I can leave it out!」
-四国めたん「It's common in callback signatures and still practical in TypeScript v5.9.」
-ずんだもん「That keeps the type definition flexible!」
-

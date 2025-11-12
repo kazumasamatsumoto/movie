@@ -1,9 +1,0 @@
-四国めたん「Let's learn about functions that return `void`!」
-ずんだもん「How do you write a `void` function?」
-四国めたん「Skip the `return`, or use `return;` without a value—returning `undefined` is also allowed.」
-ずんだもん「Are values forbidden?」
-四国めたん「If the declared return type is `void`, returning a value is an error—except for `undefined`.」
-ずんだもん「I see! Basically nothing comes back!」
-四国めたん「Type inference handles it too; functions without a return are inferred as `void`.」
-ずんだもん「That's nice and simple!」
-

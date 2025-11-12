@@ -1,0 +1,5 @@
+Shikoku Metan「Explicit while(true) loops often return never.」
+Zundamon「loop() kept calling doWork().」
+Shikoku Metan「poll() polled the queue repeatedly.」
+Zundamon「monitor() watched status with delays.」
+Shikoku Metan「Insert sleeps/awaits to free the CPU.」

@@ -1,9 +1,0 @@
-四国めたん「Let's talk about inferring `never`.」
-ずんだもん「Does TypeScript infer it automatically?」
-四国めたん「Yes—functions that only `throw` or loop forever are inferred as `never`.」
-ずんだもん「So I don’t need to annotate them?」
-四国めたん「Inference is fine, but writing it out makes your intent clearer.」
-ずんだもん「So either works depending on the context!」
-四国めたん「For public APIs we recommend being explicit, though TypeScript v5.9 will still infer it.」
-ずんだもん「Use whichever suits the situation!」
-

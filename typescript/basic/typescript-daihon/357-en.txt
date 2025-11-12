@@ -1,9 +1,0 @@
-四国めたん「Let's learn practical patterns for Nullish Coalescing!」
-ずんだもん「Where do we use it?」
-四国めたん「For default settings, API responses, and other optional values—it's useful everywhere.」
-ずんだもん「How do we write it?」
-四国めたん「Combine it with optional chaining to safely reach deep values.」
-ずんだもん「I see! That's a practical pattern!」
-四国めたん「Use it for parameters, properties, even array elements—it's a standard TypeScript v5.9 approach.」
-ずんだもん「Writing concise, safe code is the best!」
-

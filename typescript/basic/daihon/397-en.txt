@@ -1,0 +1,8 @@
+Shikoku Metan「Interfaces also describe void methods.」
+Zundamon「Lifecycle.init/destroy are textbook examples.」
+Shikoku Metan「Component implements them faithfully.」
+Zundamon「Event interfaces are mostly void too?」
+Shikoku Metan「handleClick and handleKeyPress don't return anything.」
+Zundamon「So the contract explicitly allows side effects only.」
+Shikoku Metan「Exactly—declaring void in the interface keeps everyone safe.」
+Zundamon「I'll spell out contracts with void methods!」

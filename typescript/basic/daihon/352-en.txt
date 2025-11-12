@@ -1,0 +1,8 @@
+Shikoku Metan「Let's cover the declaration patterns for nullish types!」
+Zundamon「I just add | null | undefined to string or number, right?」
+Shikoku Metan「Yes, you can attach it directly to fields like name or count.」
+Zundamon「What if writing it every time feels verbose?」
+Shikoku Metan「Define a reusable type Nullish<T> so you don't repeat yourself.」
+Zundamon「Can I use Nullish<number[]> for arrays as well?」
+Shikoku Metan「Of course, and it's perfect for API responses like data or error fields.」
+Zundamon「I'll declare nullish shapes whenever a value isn't guaranteed!」

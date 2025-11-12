@@ -1,0 +1,8 @@
+四国めたん「neverを活かす実践パターンを並べてみよう。」
+ずんだもん「NgRxのuserReducerはLOAD/UPDATE/DELETEを全部ifで処理してたね。」
+四国めたん「未知のaction.typeはconst check: never = action; で検知。」
+ずんだもん「HTTP Interceptorでもadd-auth/retry/logの3種類を網羅してたのだ。」
+四国めたん「InterceptorActionが増えたらcompileが止めてくれる。」
+ずんだもん「ServiceResult<T>もsuccessフラグで戻り値を分けてた。」
+四国めたん「executeService()はsuccessならdata、失敗なら例外を投げ、最後はcheck: never。」
+ずんだもん「実サービスでもneverを使いこなそう。」

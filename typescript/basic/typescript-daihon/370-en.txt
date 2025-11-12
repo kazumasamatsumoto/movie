@@ -1,9 +1,0 @@
-四国めたん「Let's do a non-null assertion master check!」
-ずんだもん「Summarize the key points!」
-四国めたん「The `!` operator strips `null` and `undefined` from the type with no runtime check, so the risk is yours.」
-ずんだもん「How should we use it?」
-四国めたん「Generally you don't—lean on guards, `?.`, and `??`, and only add `!` with a comment when unavoidable.」
-ずんだもん「I see! It's truly the final option!」
-四国めたん「Overuse erodes type safety, so restrict it with ESLint and code reviews—TypeScript v5.9 stresses caution.」
-ずんだもん「I'll prioritize type-safe development!」
-

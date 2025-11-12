@@ -1,9 +1,0 @@
-四国めたん「Let's talk about the type produced by `await`.」
-ずんだもん「What type do I get from `await Promise<void>`?」
-四国めたん「You get `void`; the promise is unwrapped.」
-ずんだもん「Can I use that value?」
-四国めたん「Since it’s `void`, there’s nothing to use—you just waited for completion.」
-ずんだもん「Got it! Waiting is all it does!」
-四国めたん「If it were `Promise<T>`, `await` would yield `T`; with `Promise<void>` you get `void`.」
-ずんだもん「So `await` strips the promise wrapper!」
-

@@ -1,0 +1,8 @@
+四国めたん「最後はneverのマスター確認だよ。」
+ずんだもん「Law1〜4でUnion/Intersection/Exclude/Extractの基本法則を再確認したね。」
+四国めたん「neverReturn()を呼ぶとunreachable: neverにしか代入できないのもポイント。」
+ずんだもん「Statusのhandle()はpending/success/errorをすべて処理してexhaustiveCheck(status)に渡してた。」
+四国めたん「Result<T, E>やApiResponse<T>のUnionもエラー処理の定番だね。」
+ずんだもん「unwrap()で最後にconst check: never = result; を置けばミスに気付ける。」
+四国めたん「マスターパターンを覚えればnever設計は怖くない。」
+ずんだもん「仕様変更が来ても型が守ってくれるのだ。」

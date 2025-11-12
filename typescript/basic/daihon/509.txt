@@ -1,0 +1,8 @@
+四国めたん「実践例その1は数値reducerの網羅性だよ。」
+ずんだもん「Actionはincrement/decrement/resetの3種類だったね。」
+四国めたん「reducer()でifチェーンを書いてconst check: never = action;で締めてた。」
+ずんだもん「新しいアクションを追加したときに即エラーになる設計だ。」
+四国めたん「multiplyを足した例だとreducerが未対応だから型が怒る。」
+ずんだもん「payload付きの型でもneverチェックは問題なく動くよ。」
+四国めたん「この仕組みなら安全にアクションを増やしていけるね。」
+ずんだもん「Unionの現場投入でもneverが守ってくれるのだ。」

@@ -1,9 +1,0 @@
-四国めたん「Let's look at real generics + `void` examples.」
-ずんだもん「Where do we see them in the wild?」
-四国めたん「React event handlers, Express middleware—frameworks rely on them a lot.」
-ずんだもん「What kind of code is that?」
-四国めたん「Type-safe event systems, async processing, callback orchestration—the list goes on.」
-ずんだもん「So it’s really practical!」
-四国めたん「Library type definitions depend on it too—it’s a textbook TypeScript v5.9 pattern.」
-ずんだもん「It shows up everywhere!」
-

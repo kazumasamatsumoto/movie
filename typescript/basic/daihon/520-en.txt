@@ -1,0 +1,8 @@
+Shikoku Metan「Let's wrap the never series with an exhaustiveness recap.」
+Zundamon「handle() covered pending, success, and error.」
+Shikoku Metan「Dropping return exhaustiveCheck(status); makes future additions fail fast.」
+Zundamon「process() on Result chose the value or threw the error via the ok flag.」
+Shikoku Metan「EventHandler switched over click and keypress, then defaulted to exhaustiveCheck(event).」
+Zundamon「Master these three patterns and most unions feel familiar.」
+Shikoku Metan「With never on our side we're ready for spec changes.」
+Zundamon「Time to evangelize exhaustiveness checks!」

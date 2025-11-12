@@ -1,0 +1,8 @@
+Shikoku Metan「Functions that return undefined can be consumed as values.」
+Zundamon「findUser returns User | undefined, right?」
+Shikoku Metan「Yes, capture the result and inspect it.」
+Zundamon「If user !== undefined we can treat it as User?」
+Shikoku Metan「Exactly; the branch safely exposes its properties.」
+Zundamon「Optional Chaining plus ?? looks handy too!」
+Shikoku Metan「Expressions like name = findUser(2)?.name ?? 'Unknown' stay compact.」
+Zundamon「I'll master working with undefined return values!」

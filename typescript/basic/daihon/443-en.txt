@@ -1,0 +1,8 @@
+Shikoku Metan「Observable<void> is common in RxJS.」
+Zundamon「We built saveComplete$ using Subject<void>.」
+Shikoku Metan「Subscribers perform side effects only.」
+Zundamon「tap(() => ...) inserts logging nicely.」
+Shikoku Metan「Pipe void callbacks wherever you need hooks.」
+Zundamon「Observable<void> works great for completion events.」
+Shikoku Metan「Use void whenever payloads aren't needed.」
+Zundamon「I'll tidy my RxJS side effects with Observable<void>!」

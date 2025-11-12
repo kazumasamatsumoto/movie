@@ -1,0 +1,8 @@
+Shikoku Metan「Never unlocks all kinds of transformations.」
+Zundamon「Without<T, U> removes specific members from a union.」
+Shikoku Metan「string | number | boolean shrank to just number.」
+Zundamon「PickByType<T, ValueType> keeps object properties that match a type.」
+Shikoku Metan「name and email survived because they were strings.」
+Zundamon「DeepOmit<T, K> recursively stripped every _id.」
+Shikoku Metan「Recursive mapping leaves deeply nested data clean.」
+Zundamon「Use these transforms to shape API responses.」

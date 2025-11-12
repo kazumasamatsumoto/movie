@@ -1,0 +1,8 @@
+四国めたん「Promise.all()でPromise<void>を並行実行できます。」
+ずんだもん「processAllはsaveUserを3つ同時に待ってたね。」
+四国めたん「はい。全て終わるまでawaitします。」
+ずんだもん「initializeもloadConfigやconnectDatabaseを並行で走らせてる!」
+四国めたん「重い初期化を短縮できます。」
+ずんだもん「Promise.allの中でエラーが起きたらcatchで拾うの?」
+四国めたん「processWithErrorのようにtry-catchでまとめて処理します。」
+ずんだもん「並行実行で効率よく副作用をこなすのだ!」

@@ -1,9 +1,0 @@
-四国めたん「Let's learn what the non-null assertion means!」
-ずんだもん「What does `!` actually do?」
-四国めたん「It removes `null` and `undefined` from the type, so `T | null | undefined` becomes `T`.」
-ずんだもん「Does it do anything at runtime?」
-四国めたん「No, it's a compile-time assertion only—no runtime code is generated.」
-ずんだもん「I see! It's purely about types!」
-四国めたん「The developer takes responsibility; if the value is null you'll get a runtime error.」
-ずんだもん「So you personally guarantee the safety!」
-

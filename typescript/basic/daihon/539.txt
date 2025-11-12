@@ -1,0 +1,8 @@
+四国めたん「Nestミドルウェアでもneverで分岐漏れを防げるよ。」
+ずんだもん「RequestTypeを判定してjson/form/multipartを全部処理してたね。」
+四国めたん「contentTypeが未知ならconst check: never = contentType; で警告。」
+ずんだもん「認証ミドルウェアのauthenticate()もbearer/basic/apikeyを網羅してた。」
+四国めたん「LogLevelのlogRequest()もdebug/info/warn/errorを順番に呼んでたよ。」
+ずんだもん「switchじゃなくifチェーンでもneverを置けば安心だね。」
+四国めたん「ミドルウェア層こそ型ガードで安全性を高めよう。」
+ずんだもん「分岐追加をビルドが教えてくれるのは心強い。」

@@ -1,0 +1,8 @@
+Shikoku Metan「Let's focus on the Nullish Coalescing operator ??.」
+Zundamon「It only replaces null or undefined with defaults, right?」
+Shikoku Metan「Yes, expressions like null ?? 'default' or undefined ?? 'default' are the basics.」
+Zundamon「So function arguments can fall back to 'Guest' with name ?? 'Guest'?」
+Shikoku Metan「Exactly. It's very readable in greet-like helpers.」
+Zundamon「Configuration objects can use port ?? 8080 as well?」
+Shikoku Metan「Right, and it works even on nested options?.timeout ?? 3000.」
+Zundamon「I'll use ?? to fill in values only when they're truly nullish!」

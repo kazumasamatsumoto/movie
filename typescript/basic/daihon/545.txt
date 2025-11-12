@@ -1,0 +1,8 @@
+四国めたん「neverを活かすベストプラクティスを整理しよう。」
+ずんだもん「共通ヘルパーexhaustiveCheck()やassertNever()はutilsにまとめると便利。」
+四国めたん「Result<T, E>やDomainEventのように判別プロパティを必ず持たせるのがコツ。」
+ずんだもん「handleEvent()はswitchで全部のtypeを処理してdefaultでexhaustiveCheckを呼んでた。」
+四国めたん「サービス層でResultを返せばコントローラー側で分岐しやすい。」
+ずんだもん「UserServiceがok: true/falseを返して、UserControllerが結果に応じて例外を投げてたもんね。」
+四国めたん「どの層でもneverヘルパーを使って漏れを即検出しよう。」
+ずんだもん「型安全なエラー処理が当たり前になるんだ。」

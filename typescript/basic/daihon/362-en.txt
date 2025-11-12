@@ -1,0 +1,8 @@
+Shikoku Metan「Let's review the syntax patterns of the ! operator.」
+Zundamon「It starts with expressions like value!.length, right?」
+Shikoku Metan「Yes, if the type is string | null, the ! narrows it to string.」
+Zundamon「Can we attach it to properties too?」
+Shikoku Metan「Sure, but only when we're sure user.name exists, such as user.name!.toUpperCase().」
+Zundamon「What about functions or chained calls?」
+Shikoku Metan「The same syntax applies to document.getElementById("app")! or array.find(... )!.」
+Zundamon「I'll remember the syntax and the safety implications together!」

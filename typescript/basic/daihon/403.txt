@@ -1,0 +1,8 @@
+四国めたん「undefinedは実際にundefinedという値を返す可能性を示します。」
+ずんだもん「findUserは見つからないとundefinedになるんだね。」
+四国めたん「はい。呼び出し側でundefinedかどうかチェックします。」
+ずんだもん「Config.timeout? みたいなオプショナルもundefinedを返す場合がある?」
+四国めたん「その通り。プロパティが無ければundefinedです。」
+ずんだもん「voidと違って、値として扱えるんだね。」
+四国めたん「edgeケースでもundefinedを明示することで安全になります。」
+ずんだもん「未定義の値を扱うときはundefined型を選ぶのだ!」

@@ -1,0 +1,8 @@
+Shikoku Metan「If we ever use !, we should follow best practices.」
+Zundamon「First rule is to prefer type guards, right?」
+Shikoku Metan「Correct—verify element !== null before touching the DOM.」
+Zundamon「We should also lean on Optional Chaining?」
+Shikoku Metan「Yes, weave patterns like user?.name ?? 'Unknown' into the code.」
+Zundamon「And when ! is unavoidable we annotate why?」
+Shikoku Metan「Exactly; explaining that the root element always exists reassures readers.」
+Zundamon「I'll establish guidelines so ! stays minimal!」

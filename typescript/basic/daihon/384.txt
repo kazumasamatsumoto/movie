@@ -1,0 +1,8 @@
+四国めたん「非同期処理でもvoidを使う場面があります。」
+ずんだもん「async function saveData(...): Promise<void> がその例だね。」
+四国めたん「はい。保存が終わったことだけを伝えたいときに使います。」
+ずんだもん「async function initialize() みたいに推論でPromise<void>になるのも便利。」
+四国めたん「その通り。returnが無ければPromise<void>として扱われます。」
+ずんだもん「processAllではPromise.allをawaitして完了メッセージを出してる!」
+四国めたん「複数処理をまとめて走らせるときも、戻り値が不要ならPromise<void>が最適です。」
+ずんだもん「非同期副作用でもvoidを意識するのだ!」

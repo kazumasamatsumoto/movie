@@ -1,0 +1,8 @@
+Shikoku Metan「RxJS operators like tap/finalize accept void callbacks.」
+Zundamon「We stacked tap(() => ...) for logging.」
+Shikoku Metan「finalize(() => cleanup()) defines teardown logic.」
+Zundamon「Observable.forEach callbacks are void as well?」
+Shikoku Metan「Yes, their return values are ignored.」
+Zundamon「Void callbacks highlight where side effects occur.」
+Shikoku Metan「Keep void semantics clear even in RxJS.」
+Zundamon「I'll memorize these operator patterns!」

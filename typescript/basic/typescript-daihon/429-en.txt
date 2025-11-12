@@ -1,9 +1,0 @@
-四国めたん「Let's discuss best practices for `Promise<void>`.」
-ずんだもん「What's the best way to use it?」
-四国めたん「Write `Promise<void>` explicitly and prefer `async`/`await`—it’s easier to read than `then()`.」
-ずんだもん「Anything else to watch for?」
-四国めたん「Always handle errors, run cleanup in `finally()`, and leverage parallel execution when appropriate.」
-ずんだもん「So safety and efficiency both matter!」
-四国めたん「And never forget to return the promise—still a core rule in TypeScript v5.9.」
-ずんだもん「That keeps the types honest!」
-

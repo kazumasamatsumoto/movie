@@ -1,0 +1,8 @@
+Shikoku Metan「Never helps boost type safety.」
+Zundamon「transition() guarded states with specific events.」
+Shikoku Metan「Unhandled events fall through for now, but we could plug never checks later.」
+Zundamon「handle() covered click, keypress, and scroll.」
+Shikoku Metan「An else branch with const check: never = event; catches new event types.」
+Zundamon「navigate() listed /home, /about, /contact explicitly.」
+Shikoku Metan「As soon as we add a route, the never guard complains.」
+Zundamon「That's how we keep state machines and routing safe.」

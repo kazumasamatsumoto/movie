@@ -1,0 +1,8 @@
+Shikoku Metan「Never pairs nicely with static analysis.」
+Zundamon「validate() only allowed GET/POST and stopped others via const check: never.」
+Shikoku Metan「Uncovered HTTP methods stand out during reviews.」
+Zundamon「process() checked for null, then analysis knew toUpperCase() was safe.」
+Shikoku Metan「greet() switched output once age was present.」
+Zundamon「Trustworthy control-flow analysis needs precise narrowing.」
+Shikoku Metan「Helpers that return never signal tools to flag gaps.」
+Zundamon「Let types and analysis double-team your safety net.」

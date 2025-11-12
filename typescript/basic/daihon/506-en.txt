@@ -1,0 +1,8 @@
+Shikoku Metan「Exhaustiveness works in if-else chains too.」
+Zundamon「We defined the Status union and an exhaustiveCheck() helper first.」
+Shikoku Metan「handleStatus() walks pending, success, and error with if statements.」
+Zundamon「The final else returns exhaustiveCheck(status) to accept never.」
+Shikoku Metan「Missing any condition drops into that branch and fails compilation.」
+Zundamon「The extended Status with 'timeout' immediately triggered an error.」
+Shikoku Metan「Even pure if chains can detect new union members.」
+Zundamon「Every union bump turns exhaustiveCheck into a safety net.」

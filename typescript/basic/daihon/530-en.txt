@@ -1,0 +1,8 @@
+Shikoku Metan「Key remapping makes mapped types even more flexible.」
+Zundamon「Getters<T> turned properties into getName/getAge style methods.」
+Shikoku Metan「Template literal types plus Capitalize can auto-build APIs.」
+Zundamon「OmitByType<T, U> drops keys whose values match U.」
+Shikoku Metan「Removing boolean leaves only name and age.」
+Zundamon「RemovePrefix<T, '_'> deletes keys starting with a prefix.」
+Shikoku Metan「_id and _internal vanished, leaving just name.」
+Zundamon「Combine key remapping with never for powerful type transforms.」

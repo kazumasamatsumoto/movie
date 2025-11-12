@@ -1,9 +1,0 @@
-四国めたん「Let's learn about optional properties!」
-ずんだもん「How do you write an optional property?」
-四国めたん「Add `?` after the name: `prop?: T`.」
-ずんだもん「What does that mean?」
-四国めたん「The property can be omitted, and its type becomes `T | undefined`; object literals may skip it.」
-ずんだもん「Got it! It's not required!」
-四国めたん「It's common in interfaces and type aliases—fundamental in TypeScript v5.9.」
-ずんだもん「Flexible type definitions are the best!」
-

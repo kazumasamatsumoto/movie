@@ -1,9 +1,0 @@
-四国めたん「Let's avoid confusing `void` with `undefined`.」
-ずんだもん「How do people mix them up?」
-四国めたん「By assuming they’re the same. They represent different ideas.」
-ずんだもん「What's the difference again?」
-四国めたん「`void` communicates “ignore the return,” while `undefined` means “use the value `undefined`.”」
-ずんだもん「Got it! Different goals!」
-四国めたん「Return types are a common source of confusion—keep them straight in TypeScript v5.9.」
-ずんだもん「Clear intent matters!」
-

@@ -1,0 +1,5 @@
+Shikoku Metan「Functions that throw should return never.」
+Zundamon「Like throwError(message).」
+Shikoku Metan「assert-style helpers also become never on failure.」
+Zundamon「divide() called throwError when dividing by zero.」
+Shikoku Metan「Declaring never makes callers aware that execution stops.」

@@ -1,9 +1,0 @@
-四国めたん「Let's learn about chaining `Promise<void>`.」
-ずんだもん「Can I chain `Promise<void>` calls?」
-四国めたん「Yes—chain them with `then()` to wait for each step in sequence.」
-ずんだもん「How do I write that?」
-四国めたん「Each `then()` returns another `Promise<void>`, so the chain continues.」
-ずんだもん「I see! They link together!」
-四国めたん「That said, `async`/`await` stays more readable, and TypeScript v5.9 still recommends it.」
-ずんだもん「So `await` is the preferred style!」
-

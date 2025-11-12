@@ -1,9 +1,0 @@
-四国めたん「Let's study functions that throw exceptions.」
-ずんだもん「Are they `never`?」
-四国めたん「Yes—if a function only has a `throw`, its type is `never`; it never ends normally.」
-ずんだもん「How do I declare one?」
-四国めたん「`function name(): never { throw ... }`—it always throws.」
-ずんだもん「So it’s an error-only function!」
-四国めたん「Use it for assertions or error helpers—it’s common in TypeScript v5.9.」
-ずんだもん「Great for type-safe error handling!」
-

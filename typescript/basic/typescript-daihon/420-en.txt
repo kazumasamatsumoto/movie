@@ -1,9 +1,0 @@
-四国めたん「Let's learn about calling `then()` on `Promise<void>`.」
-ずんだもん「How do I use `then()` with `Promise<void>`?」
-四国めたん「Pass a callback with no parameters—the promise yields no value.」
-ずんだもん「So I don't receive anything?」
-四国めたん「Exactly. With `void` there’s no value—just a completion notification.」
-ずんだもん「Makes sense! It's only about being done!」
-四国めたん「`async`/`await` is usually clearer, and TypeScript v5.9 still recommends `await`.」
-ずんだもん「`await` really is easier to read!」
-

@@ -1,0 +1,8 @@
+四国めたん「never運用のベストプラクティスをおさらいしよう。」
+ずんだもん「utils/exhaustive.tsにexhaustiveCheck()とassertNever()をまとめてたね。」
+四国めたん「共通ヘルパーを用意すればどの層でも表記が揃うの。」
+ずんだもん「Result<T, E>やDomainEventには必ず判別プロパティを持たせていた。」
+四国めたん「switchやifチェーンのdefaultでexhaustiveCheck(event, 'handleEvent')を呼ぶのが定番。」
+ずんだもん「サービス層ではResultを返してコントローラー側で分岐させてたよ。」
+四国めたん「UserController.getUser()の最後でもexhaustiveCheck(result)が番をしてる。」
+ずんだもん「チーム全体で同じヘルパーとパターンを共有しよう。」

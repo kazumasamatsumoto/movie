@@ -1,0 +1,8 @@
+四国めたん「undefined型の変数にもundefinedしか代入できません。」
+ずんだもん「value: undefined に undefined を入れる例があったね。」
+四国めたん「はい。nullや数値はエラーになります。」
+ずんだもん「string | undefined のユニオンなら値とundefinedを切り替えられる?」
+四国めたん「その通り。data変数で表現できます。」
+ずんだもん「getValue(): string | undefined みたいな関数もよく見るね。」
+四国めたん「undefinedで値が無いことを明示できます。」
+ずんだもん「undefined型の扱い方を覚えるのだ!」

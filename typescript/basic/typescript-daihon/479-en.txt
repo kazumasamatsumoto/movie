@@ -1,9 +1,0 @@
-四国めたん「Let's learn about custom errors.」
-ずんだもん「Can I create my own?」
-四国めたん「Yes—extend `Error` to build custom types for type-safe handling.」
-ずんだもん「How do I define one?」
-四国めたん「Create a class that extends `Error`; add properties or methods as needed.」
-ずんだもん「So I can carry extra info!」
-四国めたん「It clarifies error categories—a recommended approach in TypeScript v5.9.」
-ずんだもん「Error handling becomes type-safe!」
-

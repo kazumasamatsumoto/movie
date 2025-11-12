@@ -1,0 +1,8 @@
+Shikoku Metan「Time for the never master check.」
+Zundamon「Laws 1-4 review union, intersection, and Exclude/Extract basics.」
+Shikoku Metan「neverReturn() can only assign to a never variable.」
+Zundamon「handle() on Status covers pending, success, and error before calling exhaustiveCheck.」
+Shikoku Metan「Result<T, E> and ApiResponse<T> unions drive safe error handling.」
+Zundamon「unwrap() ends with const check: never = result; to catch mistakes.」
+Shikoku Metan「Master these patterns and never design gets easy.」
+Zundamon「Even spec changes stay under control.」

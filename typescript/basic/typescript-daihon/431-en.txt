@@ -1,9 +1,0 @@
-四国めたん「Let's learn how `void` works with generics.」
-ずんだもん「Can I use `void` inside generics?」
-四国めたん「Absolutely—pass `void` as a type parameter to represent callbacks that shouldn't return a value.」
-ずんだもん「When do we need that?」
-四国めたん「When you model callbacks, event handlers, or async workflows whose return type is generic.」
-ずんだもん「I see! That makes the type definition flexible!」
-四国めたん「`Promise<void>` is just one generic example; it remains an important pattern in TypeScript v5.9.」
-ずんだもん「So we can write reusable generics!」
-

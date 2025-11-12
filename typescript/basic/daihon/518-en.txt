@@ -1,0 +1,8 @@
+Shikoku Metan「Let's list exhaustiveness best practices.」
+Zundamon「Start by centralizing assertNever() and exhaustiveCheck().」
+Shikoku Metan「unwrap() on Result returned value for success and threw on failures.」
+Zundamon「Calling exhaustiveCheck(result) covers any new variant.」
+Shikoku Metan「execute() dispatched save/load/delete via switch.」
+Zundamon「The default branch returning exhaustiveCheck(action) keeps style consistent.」
+Shikoku Metan「Shared helpers let every union follow the same structure.」
+Zundamon「Spread those habits across the team.」

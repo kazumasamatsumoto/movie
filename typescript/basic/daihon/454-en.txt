@@ -1,0 +1,5 @@
+Shikoku Metan「Even void functions deserve thoughtful debug logs.」
+Zundamon「processData logged inputs and early exits.」
+Shikoku Metan「update printed info per branch to trace flow.」
+Zundamon「Logging doesn't change that we ignore returns?」
+Shikoku Metan「Correct—we only surface side-effect progress.」

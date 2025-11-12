@@ -1,9 +1,0 @@
-四国めたん「Let's learn about explicit returns in `void` functions!」
-ずんだもん「How do you use `return` there?」
-四国めたん「Write `return;` with no value for early exits and branching.」
-ずんだもん「Returning a value causes an error?」
-四国めたん「Exactly—anything except `undefined` breaks the `void` contract.」
-ずんだもん「I see! It's about control flow!」
-四国めたん「Use it to stop the function midway; TypeScript v5.9 behaves the same.」
-ずんだもん「It's perfect for aborting work!」
-

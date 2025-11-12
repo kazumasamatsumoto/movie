@@ -1,0 +1,8 @@
+Shikoku Metan「We also want zero gaps across general union types.」
+Zundamon「process() on Value handled every typeof branch.」
+Shikoku Metan「Finishing with const exhaustive: never = value ensures coverage.」
+Zundamon「Animal unions split Cat and Dog via instanceof.」
+Shikoku Metan「Different guards still end with assertNever(animal).」
+Zundamon「Direction literals got an if-chain with every compass point.」
+Shikoku Metan「After handling north, south, east, west we call assertNever(direction).」
+Zundamon「No matter the guard style, end union flows with a never check.」

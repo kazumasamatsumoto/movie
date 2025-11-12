@@ -1,0 +1,6 @@
+Shikoku Metan「Returning a value from a void function causes errors.」
+Zundamon「process returning false was the example.」
+Shikoku Metan「If you need a value, change the return type.」
+Zundamon「Otherwise just use plain return; for early exit.」
+Shikoku Metan「Void functions must never return data.」
+Zundamon「I will choose the right return style!」

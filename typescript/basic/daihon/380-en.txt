@@ -1,0 +1,8 @@
+Shikoku Metan「Using void lets us separate responsibilities at the design level.」
+Zundamon「We can contrast pure functions like add with side-effect ones.」
+Shikoku Metan「Exactly—pure functions return numbers, while side-effect functions declare void.」
+Zundamon「logResult merely prints a result, so void fits perfectly.」
+Shikoku Metan「Yes, the absence of a return value tells readers it's display-only.」
+Zundamon「In the DataService interface, getData returns data but saveData/deleteData use void!」
+Shikoku Metan「That separation clarifies that retrieval yields values whereas mutations are side effects.」
+Zundamon「I'll treat void as part of my design vocabulary!」

@@ -1,0 +1,8 @@
+Shikoku Metan「Mapped types let us transform properties in bulk.」
+Zundamon「Readonly<T> and Partial<T> are the poster children.」
+Shikoku Metan「With never we can drop methods via RemoveMethods<T>.」
+Zundamon「getName() turned into never so only data fields remained.」
+Shikoku Metan「Key remapping enables OmitMethods<T> to delete keys entirely.」
+Zundamon「We mapped function keys to never and removed them with the as clause.」
+Shikoku Metan「That's how we carve out pure data shapes.」
+Zundamon「Treat never as the property delete switch.」

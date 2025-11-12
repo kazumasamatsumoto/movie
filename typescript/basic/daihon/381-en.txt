@@ -1,0 +1,8 @@
+Shikoku Metan「The void type is often inferred from a function body.」
+Zundamon「Does function log1(msg: string) get void automatically?」
+Shikoku Metan「Yes, without a return statement the compiler infers void.」
+Zundamon「Still, adding : void helps communicate intent for some APIs, right?」
+Shikoku Metan「Exactly—log2 shows how an annotation reassures readers of a public API.」
+Zundamon「Will an arrow like (e: Event) => { ... } also become => void automatically?」
+Shikoku Metan「It does; handler becomes (Event) => void as long as it returns nothing.」
+Zundamon「I'll balance inference and explicit types when using void!」

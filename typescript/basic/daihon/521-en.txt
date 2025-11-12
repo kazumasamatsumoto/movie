@@ -1,0 +1,8 @@
+Shikoku Metan「Whenever you add never to a union it vanishes.」
+Zundamon「That's why string | never simplifies to string.」
+Shikoku Metan「NonNullable<T> turns null or undefined into never and strips them away.」
+Zundamon「Even boolean | null | undefined collapses to just boolean.」
+Shikoku Metan「Adding never multiple times still yields the same union.」
+Zundamon「The Complex example shrank to string | number | boolean.」
+Shikoku Metan「Knowing this makes type-level arithmetic easier to read.」
+Zundamon「Remember: useless never members disappear by design.」

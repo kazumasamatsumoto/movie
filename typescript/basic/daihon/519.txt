@@ -1,0 +1,8 @@
+四国めたん「網羅性チェックの代表パターンを見ていこう。」
+ずんだもん「まずはReducerパターンでCounterActionをswitchしてたね。」
+四国めたん「default: return exhaustiveCheck(action); で新アクションを検知できる。」
+ずんだもん「Commandパターンではkindを見てsave/load/deleteの関数を呼んでたのだ。」
+四国めたん「Stateパターンはstatusで表示ラベルを切り替えていたよ。」
+ずんだもん「exhaustiveCheck(state)が接続状態の抜け漏れを防いでくれる。」
+四国めたん「パターンを覚えておけば他のドメインにも転用しやすい。」
+ずんだもん「Unionを設計するときのテンプレとして役立つね。」

@@ -1,0 +1,5 @@
+Shikoku Metan「Real systems often rely on infinite loops.」
+Zundamon「We saw WebSocket servers and queue processors.」
+Shikoku Metan「watchFiles kept detecting file changes.」
+Zundamon「Insert delay() to control polling intervals.」
+Shikoku Metan「Follow these examples to avoid runaway loops.」

@@ -1,0 +1,6 @@
+Shikoku Metan「never delivers type-safe error flows.」
+Zundamon「processData threw when data was null.」
+Shikoku Metan「Combine it with custom errors for more detail.」
+Zundamon「ensure() removed null safely.」
+Shikoku Metan「Handle failures and narrow types at the same time.」
+Zundamon「I will practice type-safe error design with never!」

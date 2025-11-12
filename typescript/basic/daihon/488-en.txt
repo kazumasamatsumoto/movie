@@ -1,0 +1,5 @@
+Shikoku Metan「Wrap never-throwing functions with error boundaries.」
+Zundamon「safeExecute caught throw and returned a fallback.」
+Shikoku Metan「safeAsync did the same for async code.」
+Zundamon「React's ErrorBoundary logged via componentDidCatch.」
+Shikoku Metan「Boundaries keep the app resilient.」

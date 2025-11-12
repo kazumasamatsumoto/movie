@@ -1,0 +1,8 @@
+四国めたん「voidでも実行時はundefinedが返ります。」
+ずんだもん「log("Hello") の結果をconsole.logするとundefinedだった!」
+四国めたん「はい。ただし型システムではvoidとして扱います。」
+ずんだもん「const value: void = log("Test") のように受け取れるの?」
+四国めたん「できますが、stringには代入できません。」
+ずんだもん「JavaScriptではfunction f1(): void もトランスパイル後は同じなんだね。」
+四国めたん「はい。function f1() {} がundefinedを返します。」
+ずんだもん「実行時と型レベルを区別して理解するのだ!」

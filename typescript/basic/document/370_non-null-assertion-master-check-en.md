@@ -1,0 +1,31 @@
+# #370 "Master Check"
+
+Shikoku Metan: "Time for a master check on Non-null Assertions."
+Zundamon: "So we revisit basics like document.getElementById(\"app\")!?"
+Shikoku Metan: "Yes, it treats the result as an HTMLElement but remains dangerous when null."
+Zundamon: "We also recall the preferred alternatives?"
+Shikoku Metan: "Exactly—patterns like element !== null and user?.name ?? 'Unknown' keep code safe."
+Zundamon: "Do we list the anti-patterns too?"
+Shikoku Metan: "Definitely; avoid optimistic calls such as findUser(id)! or response.data!.items!."
+Zundamon: "With this checklist I'll master when to trust !."
+
+---
+
+## 📺 Code for Display
+
+```typescript
+/** Example 1: Basic Non-null Assertion */
+const element = document.getElementById("app")!;
+// Treated as HTMLElement (ignores null)
+
+/** Example 2: Recommended alternatives */
+const element = document.getElementById("app");
+if (element !== null) {
+  element.innerHTML = "Hello";
+}
+const name = user?.name ?? "Unknown";
+
+/** Example 3: Cases to avoid */
+const user = findUser(id)!;  // Risky
+const data = response.data!.items!;  // Overuse
+```

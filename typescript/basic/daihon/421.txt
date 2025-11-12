@@ -1,0 +1,8 @@
+四国めたん「awaitでPromise<void>の完了を待ちましょう。」
+ずんだもん「processではsaveDataとlogActivityを順番にawaitしてたね。」
+四国めたん「はい。各処理が終わるまで先に進みません。」
+ずんだもん「await式の型はvoidだから代入しても使わないんだ?」
+四国めたん「その通り。result: void = await initialize(); のように扱います。」
+ずんだもん「step1→step2→step3のように順番実行したいときに便利!」
+四国めたん「awaitを挟めば読みやすい直列フローが書けます。」
+ずんだもん「async処理を直感的に書くためにawaitを活用するのだ!」

@@ -1,9 +1,0 @@
-四国めたん「Let's learn about the `void` type!」
-ずんだもん「What is the `void` type?」
-四国めたん「It's the return type for functions that don't return a value—it makes that explicit.」
-ずんだもん「Is that different from `undefined`?」
-四国めたん「Yes: `void` means the return value is ignored, while `undefined` means you actually return that value.」
-ずんだもん「I see! It signals no return value!」
-四国めたん「Use it for side-effect functions—it remains important in TypeScript v5.9.」
-ずんだもん「It makes a function's role clear!」
-

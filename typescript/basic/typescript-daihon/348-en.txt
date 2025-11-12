@@ -1,9 +1,0 @@
-四国めたん「Let's learn how optional chaining helps with undefinedable types!」
-ずんだもん「How do we use optional chaining?」
-四国めたん「The `?.` operator lets you access properties or methods safely, yielding `undefined` when the base is `undefined`.」
-ずんだもん「Where does it work?」
-四国めたん「On property access, method calls, and array indexing—even in nested structures.」
-ずんだもん「I see! Safe access everywhere!」
-四国めたん「Combine it with Nullish Coalescing for a powerful pattern—it's recommended in TypeScript v5.9.」
-ずんだもん「Writing concise, safe code is the best!」
-

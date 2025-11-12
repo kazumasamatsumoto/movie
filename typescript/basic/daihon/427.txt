@@ -1,0 +1,8 @@
+四国めたん「Promise.all()の戻り値も理解しておきましょう。」
+ずんだもん「saveAllのresultsはvoid[] で実際には使ってなかったね。」
+四国めたん「はい。全てundefinedなので配列を無視します。」
+ずんだもん「Promise.allSettled()なら成功/失敗を確認できる?」
+四国めたん「resultsを見てrejectedだけログする例がありました。」
+ずんだもん「Promise.race()でタイムアウトを実装するテクもあった!」
+四国めたん「longTaskとdelayを競わせて先に終わった方を採用します。」
+ずんだもん「便利なPromiseユーティリティを使い分けるのだ!」

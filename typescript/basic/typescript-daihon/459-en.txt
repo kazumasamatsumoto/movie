@@ -1,9 +1,0 @@
-四国めたん「Let's review `void` best practices.」
-ずんだもん「What should I keep in mind?」
-四国めたん「Write `void` explicitly, minimize side effects, and keep functions small.」
-ずんだもん「Anything else?」
-四国めたん「Separate pure functions from side-effectful ones, keep them testable, and document them well.」
-ずんだもん「So design discipline matters!」
-四国めたん「Async functions should return `Promise<void>`, and consistent team conventions are vital in TypeScript v5.9.」
-ずんだもん「We’ll keep everyone aligned!」
-
