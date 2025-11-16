@@ -4,7 +4,12 @@
       "Bash(for i in {431..500})",
       "Bash(python:*)",
       "Bash(for i in {401..410})",
-      "Bash(do [ -f \"angular/document/$i\"_*.md ])"
+      "Bash(do [ -f \"angular/document/$i\"_*.md ])",
+      "Bash(mkdir:*)",
+      "Bash(for:*)",
+      "Bash(do [ -f \"$file\" ])",
+      "Bash(git mv:*)",
+      "Bash(done)"
     ],
     "deny": [],
     "ask": []
