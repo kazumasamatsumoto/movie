@@ -1,0 +1,7 @@
+ずんだもん「`type guard`と`assertion function`、使い分けてる？」
+四国めたん「v5.9では両方の機能が安定していて、型の絞り込みがより強力になりました」
+ずんだもん「ぼくは`type guard`で真偽値を返すのが好きだけど、`assertion function`で例外を投げる方が安全な場面もあるんだよね」
+四国めたん「`type guard`は`is`で型を絞り込み、`assertion function`は`asserts`で型をアサートします」
+ずんだもん「現場だとnullチェックに`assertion function`を使うとコードがスッキリするんだよ！」
+四国めたん「みなさんはどう使い分けていますか？」
+ずんだもん「使い分けの基準をコメントで教えて！」

@@ -1,0 +1,7 @@
+ずんだもん「`useUnknownInCatchVariables`ONにしてる？」
+四国めたん「v5.9では`useUnknownInCatchVariables`がstrictモードに含まれ、catch句の変数が`unknown`型になります」
+ずんだもん「ぼくはこのオプション有効にして、エラーハンドリングを型安全にするのが好きなんだよね」
+四国めたん「`useUnknownInCatchVariables`を有効にすると、catch句の変数が`any`から`unknown`になり、型ガードが必須になります」
+ずんだもん「エラー処理で`instanceof Error`チェックが習慣化されて、予期しない値のスローにも対応できるようになったんだよ！」
+四国めたん「みなさんはこのオプションを有効にしていますか？」
+ずんだもん「エラーハンドリングのパターンをコメントで共有してね！」

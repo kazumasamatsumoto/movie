@@ -9,7 +9,14 @@
       "Bash(for:*)",
       "Bash(do [ -f \"$file\" ])",
       "Bash(git mv:*)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(chmod:*)",
+      "Bash(/tmp/create_remaining_files.sh:*)",
+      "Bash(do if [[ ! -f \"/Users/kazu/coding/movie-zunda/typescript/viewer-question/daihon/$i.txt\" ]])",
+      "Bash(then echo \"Missing daihon/$i.txt\")",
+      "Bash(fi)",
+      "Bash(do if [[ ! -f \"/Users/kazu/coding/movie-zunda/typescript/viewer-question/document/$i.md\" ]])",
+      "Bash(then echo \"Missing document/$i.md\")"
     ],
     "deny": [],
     "ask": []

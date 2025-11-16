@@ -1,0 +1,7 @@
+ずんだもん「`exactOptionalPropertyTypes`有効にしてる？」
+四国めたん「v5.9では`exactOptionalPropertyTypes`がstrictモードに含まれ、`undefined`の明示的な扱いが厳密になりました」
+ずんだもん「ぼくはこのオプション有効にして、オプショナルと`undefined`の違いを明確にするのが好きなんだよね」
+四国めたん「`exactOptionalPropertyTypes`を有効にすると、`{ key?: string }`に`{ key: undefined }`を代入できなくなり、より厳密な型チェックが可能です」
+ずんだもん「APIレスポンスの型定義で、存在しないフィールドと明示的な`undefined`を区別できて助かったんだよ！」
+四国めたん「みなさんはこのオプションを有効にしていますか？」
+ずんだもん「使ってみた感想をコメントで教えてね！」
