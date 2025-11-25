@@ -1,0 +1,10 @@
+# #408 「Zone.js依存 vs Zoneless構成 あなたはどっち派？」台本
+
+ずんだもん「Zone.jsを切り離してZonelessにする勇気ある？それともZoneのオート検知に甘える？」
+四国めたん「Angular v17では`provideExperimentalZonelessChangeDetection`が登場し、Signals主体ならZonelessでも開発できるようになりました。」
+ずんだもん「Zone.jsを残す利点は？」
+四国めたん「既存コードや外部ライブラリがZoneを前提にしているので互換性を気にしなくて済みます。change detectionも自動です。」
+ずんだもん「でもZoneがあるとデバッグ時のスタックが深いし、SSRやWeb Workerで余計なコストが発生するんだよね…。」
+四国めたん「`provideExperimentalZonelessChangeDetection()`を有効にし、Signalsや`rxEffects`で明示的に更新すれば、自分でレンダリングタイミングを制御できます。パフォーマンスが読みやすくなります。」
+ずんだもん「ZonelessにしたらDevToolsのプロファイルがすっきりして原因追跡が捗ったよ。」
+四国めたん「互換が必要ならZone継続、Signals全面採用ならZonelessに挑戦。あなたはどっち派？」

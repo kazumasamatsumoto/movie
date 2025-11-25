@@ -1,0 +1,10 @@
+# #407 「ChangeDetection Default vs OnPush あなたはどっち派？」台本
+
+ずんだもん「ChangeDetection、デフォルト任せ？それとも迷わずOnPush派？」
+四国めたん「検知戦略はパフォーマンスとDXのバランスがポイントです。」
+ずんだもん「Default派の言い分は？」
+四国めたん「Zone.jsが自動で検知を走らせてくれるので、`setTimeout`やDOMイベントを深く意識せずに開発できます。学習コストが低いです。」
+ずんだもん「でもコンポーネントが大量になると不要なチェックでCPUを使っちゃうんだよね…。」
+四国めたん「`ChangeDetectionStrategy.OnPush`にするとInputsやイベント、Observable完了時のみ検知が走るので、無駄なレンダリングを抑えられます。Signalsとの相性も◎。」
+ずんだもん「`OnPush`にしたらfpsグラフが安定したよ。」
+四国めたん「プロトタイプはDefault、本番はOnPush＋ルールで運用。あなたのチームはどっち派？」

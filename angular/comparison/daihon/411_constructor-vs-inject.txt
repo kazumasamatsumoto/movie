@@ -1,0 +1,10 @@
+# #411 「constructor注入 vs inject()関数 あなたはどっち派？」台本
+
+ずんだもん「サービス注入ってconstructor派？それとも関数`inject()`で書くのが好み？」
+四国めたん「Angular v14で`inject()`が登場し、DIの書き味が分岐しました。」
+ずんだもん「constructor派のメリットは？」
+四国めたん「依存がクラスのシグネチャで明示され、テストダブルの差し替えが直感的。長年のスタンダードです。」
+ずんだもん「でもStandalone関数や`provideEffects`内で使えないし、フィールドを追加するたびにconstructorが伸びる…。」
+四国めたん「`const router = inject(Router);`のようにトップレベルで呼び出せるので、Standalone関数や`signal`初期化でもDIが使えます。ツリーシェイキングも有利です。」
+ずんだもん「`readonly repo = inject(RepoService);`と書くとプロパティ宣言で完結するのが気持ちいい！」
+四国めたん「クラス中心ならconstructor、Signal中心ならinject。あなたはどっち派？」

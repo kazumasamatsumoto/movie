@@ -1,0 +1,10 @@
+# #402 「Standalone Components vs NgModule設計 あなたはどっち派？」台本
+
+ずんだもん「新規画面ってStandalone Componentで作る？それとも従来どおりNgModuleに束ねた方が安心かな？」
+四国めたん「Angular v20は完全Standalone対応なので、設計思想次第でどちらも選べます。」
+ずんだもん「まずNgModule派のメリットは？」
+四国めたん「共有PipeやDirectiveを1か所で宣言・エクスポートでき、大規模プロジェクトで依存管理が明示的です。ライブラリもまだNgModule前提が多いですね。」
+ずんだもん「でもimports/exportsの書き忘れでビルドエラーになる事故は相変わらずだよ…。」
+四国めたん「Standaloneなら各Componentで`imports`を完結でき、`provideHttpClient`など機能ベースDIもローカル化できます。Lazy Routeも`loadComponent`だけで済みます。」
+ずんだもん「CLIで`ng g component hero --standalone`すると依存がその場で閉じるのが気持ちいいね。」
+四国めたん「共有部はModule、画面単位はStandaloneとハイブリッドにするのが移行も安全です。あなたはどっち派？」

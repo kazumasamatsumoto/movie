@@ -1,0 +1,10 @@
+# #412 「HttpClientModule vs provideHttpClient あなたはどっち派？」台本
+
+ずんだもん「HTTP設定、まだ`HttpClientModule`をNgModuleでインポート？`provideHttpClient`で機能別に組み立ててる？」
+四国めたん「v15以降はStandalone向けに`provideHttpClient`が登場し、設定方法が2通りになりました。」
+ずんだもん「HttpClientModule派のメリットは？」
+四国めたん「NgModuleに1回importするだけでアプリ全体にHTTPが提供され、既存ドキュメントも豊富です。レガシー構成と親和性が高いです。」
+ずんだもん「でも`HttpClientModule`を複数Moduleでimportすると重複しやすいし、オプションの組み合わせを注入するのが手間で…。」
+四国めたん「`bootstrapApplication`で`provideHttpClient(withFetch(), withInterceptors([...]))`のように機能をチェーンでき、必要な場所だけで設定できます。」
+ずんだもん「SSRだけ`withFetch()`、ブラウザだけ`withXsrfConfiguration()`みたいに分けられるの最高！」
+四国めたん「NgModule構成ならHttpClientModule、新規StandaloneならprovideHttpClient。あなたはどっち派？」

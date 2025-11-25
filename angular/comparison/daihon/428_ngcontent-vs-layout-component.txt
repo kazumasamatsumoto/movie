@@ -1,0 +1,10 @@
+# #428 「ng-contentレイアウト vs Standalone Layoutコンポーネント あなたはどっち派？」台本
+
+ずんだもん「レイアウト、`ng-content`でスロットを切る？それとも専用レイアウトコンポーネントを作る？」
+四国めたん「Angular もReact同様にslot構成が可能で、プロダクトによって書き味が変わります。」
+ずんだもん「ng-content派のメリットは？」
+四国めたん「柔軟に子要素を挿入でき、既存DOMをそのまま包み込めます。コンテンツ数が変わるページに向きます。」
+ずんだもん「でも`<ng-content select>`が増えるとDOM構造が読みにくいし、Slotを跨いだ依存が追いづらい…。」
+四国めたん「`<app-dashboard-layout>`のようにPropsで明示的にセクションを渡すと、依存が型で表現されてレビューしやすいです。Standalone + Inputsで完結します。」
+ずんだもん「`@Input() header!: TemplateRef`って明示しておくと、Slot漏れがすぐ分かる！」
+四国めたん「柔軟性重視ならng-content、型安全重視ならLayoutコンポーネント。あなたはどっち派？」

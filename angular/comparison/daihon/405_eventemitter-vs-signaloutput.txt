@@ -1,0 +1,10 @@
+# #405 「@Output EventEmitter vs SignalOutput あなたはどっち派？」台本
+
+ずんだもん「@OutputってまだEventEmitter派？SignalOutputに切り替えるメリットって大きいかな？」
+四国めたん「Angular v17+はSignalベース出力が入り、親子通信の書き味が変わりました。」
+ずんだもん「まずEventEmitter派の強みは？」
+四国めたん「従来のAPIでチーム全員が慣れており、`emit()`で同期/非同期を制御できます。既存ライブラリとも互換です。」
+ずんだもん「でも`EventEmitter`は実態がSubjectなので、unsubscribe忘れや`emit`の型安全性が気になるんだよね…。」
+四国めたん「`SignalOutput`は`result = output<number>();`のように宣言し、`result.emit(値)`でシグナルとして伝播します。Signalsと同じリアクティブグラフに乗るのでテストが楽です。」
+ずんだもん「親側も`(result)`ではなく`result` Signalを購読するだけで状態合成できるのが嬉しい！」
+四国めたん「互換が必要な箇所はEventEmitter、Signalベースでまとめたい画面はSignalOutput。あなたはどっち派？」

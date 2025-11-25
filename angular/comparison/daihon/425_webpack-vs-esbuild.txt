@@ -1,0 +1,10 @@
+# #425 「Webpackビルダー vs Esbuild/Viteビルダー あなたはどっち派？」台本
+
+ずんだもん「ビルドシステム、伝統のWebpackベースを使い続ける？それともEsbuild/Viteにスイッチ？」
+四国めたん「Angular v17でEsbuild＋Vite Dev Serverが導入され、`ng serve`挙動も選べます。」
+ずんだもん「Webpack派のメリットは？」
+四国めたん「プラグイン・ローダー資産が豊富で、細かいカスタムも可能。レガシープロジェクトで安定しています。」
+ずんだもん「でも再ビルドが遅く、HMRも限定的…。」
+四国めたん「Esbuildが高速にトランスパイルし、Vite Dev ServerでHMRがサクサク。プロダクションビルドも`ng build --builder esbuild`で高速化できます。」
+ずんだもん「Esbuildにしたら`ng test`も`ng serve`も爆速になって開発が止まらない！」
+四国めたん「カスタム優先ならWebpack、速度優先ならEsbuild/Vite。あなたはどっち派？」
