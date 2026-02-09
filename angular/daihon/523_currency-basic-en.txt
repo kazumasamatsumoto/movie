@@ -1,6 +1,0 @@
-# #523 「CurrencyPipe の基本」台本
-
-ずんだもん「How do we use CurrencyPipe?」
-四国めたん「Write `{{ price | currency:'JPY' }}` to format a number as Japanese yen.」
-ずんだもん「Does it handle decimals automatically?」
-四国めたん「Yes-two decimals by default, customizable via parameters.」

@@ -1,6 +1,0 @@
-# #700 「Reactive Forms の基本パターン」台本
-
-ずんだもん「Can we summarize common Reactive Forms patterns?」
-四国めたん「Generate forms with FormBuilder and react to valueChanges for side effects.」
-ずんだもん「We often mix FormGroup and FormArray.」
-四国めたん「Yes-and centralize DTO shaping or API calls in services.」

@@ -1,6 +1,0 @@
-# #674 「FormGroup.getRawValue() メソッド」台本
-
-ずんだもん「I need values from disabled controls too.」
-四国めたん「Call `getRawValue()` to include disabled controls in the returned object.」
-ずんだもん「So that's the difference from value.」
-四国めたん「Exactly-use getRawValue when you need everything for submission.」

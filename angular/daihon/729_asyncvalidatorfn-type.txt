@@ -1,8 +1,0 @@
-# #729 「AsyncValidatorFn 型」台本
-
-ずんだもん「AsyncValidatorFnの型も知りたい。」
-四国めたん「(control) => Observable<ValidationErrors | null> またはPromise<...>を返す型です。」
-ずんだもん「Observable推奨なんだね。」
-四国めたん「RxJSオペレーターと組み合わせやすいのでObservableがよく使われます。」
-ずんだもん「エラー処理も組み込みやすいよ。」
-四国めたん「catchErrorでnullを返せば検証を継続できます。」

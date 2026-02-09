@@ -1,6 +1,0 @@
-# #466 「ドロップゾーンの実装」台本
-
-ずんだもん「How do we implement a drop zone?」
-四国めたん「Toggle the appearance with `@HostBinding('class.is-over')`, and read the data in the drop event.」
-ずんだもん「Do we use HTML5 DataTransfer?」
-四国めたん「Yes-fetch what the drag side set with setData.」

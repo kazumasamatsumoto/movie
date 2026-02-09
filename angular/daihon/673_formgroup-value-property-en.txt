@@ -1,6 +1,0 @@
-# #673 「FormGroup.value プロパティ」台本
-
-ずんだもん「How is the type of FormGroup.value determined?」
-四国めたん「Angular infers it recursively from each child control.」
-ずんだもん「Using nonNullable removes the nulls.」
-四国めたん「Right-and in strictTemplates environments, aligning type declarations avoids errors.」

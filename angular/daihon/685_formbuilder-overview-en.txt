@@ -1,6 +1,0 @@
-# #685 「FormBuilder - フォーム構築」台本
-
-ずんだもん「Writing new FormControls and FormGroups every time is tiring.」
-四国めたん「FormBuilder shortens the syntax for defining the same structures.」
-ずんだもん「So that array shorthand bundles initial value and validators.」
-四国めたん「Exactly-it keeps declarations concise.」

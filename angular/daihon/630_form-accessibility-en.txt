@@ -1,6 +1,0 @@
-# #630 「フォームのアクセシビリティ」台本
-
-ずんだもん「How do we keep forms accessible?」
-四国めたん「Associate labels with inputs, provide descriptive error messages, manage focus order, and announce validation states.」
-ずんだもん「So screen-reader users get the same experience.」
-四国めたん「Exactly—follow WCAG guidelines and test with assistive tools.」

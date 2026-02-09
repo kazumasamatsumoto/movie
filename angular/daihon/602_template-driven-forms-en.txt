@@ -1,8 +1,0 @@
-# #602 「Template-driven Forms - テンプレート駆動」台本
-
-ずんだもん「What does a template-driven form look like in code?」
-四国めたん「You build the form directly in the template with ngModel and validation attributes.」
-ずんだもん「Since it's HTML-centric, collaborating with designers should be easy.」
-四国めたん「Right—it fits small forms or screens with only a few inputs.」
-ずんだもん「The low learning curve is a big help.」
-四国めたん「Start here, and move to reactive forms when you need more control.」

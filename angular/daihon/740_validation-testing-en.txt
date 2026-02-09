@@ -1,6 +1,0 @@
-# #740 「バリデーションのテスト」台本
-
-ずんだもん「How do we test validators confidently?」
-四国めたん「Call the function directly and assert that it returns the expected ValidationErrors.」
-ずんだもん「For async validators we use fakeAsync and tick.」
-四国めたん「Yes-and mock API calls with HttpTestingController so tests stay reliable.」

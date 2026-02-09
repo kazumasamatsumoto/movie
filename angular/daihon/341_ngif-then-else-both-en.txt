@@ -1,7 +1,0 @@
-# #341 「then/else 両方の指定」台本
-
-ずんだもん「Any tips for writing both then and else templates?」
-四国めたん「Prepare `<ng-template #success>` and `<ng-template #fallback>` so each role is clear.」
-ずんだもん「How do we handle shared parts?」
-四国めたん「Extract them with `ng-container` or turn them into child Components to avoid duplication.」
-ずんだもん「Staying organized keeps everything readable.」

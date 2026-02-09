@@ -1,6 +1,0 @@
-# #672 「FormGroup の値取得」台本
-
-ずんだもん「How do we read a FormGroup's values?」
-四国めたん「`this.formGroup.value` returns an object shaped like your definition.」
-ずんだもん「But properties can be null, right?」
-四国めたん「Yes-any nullable FormControl inside may yield null in the object.」

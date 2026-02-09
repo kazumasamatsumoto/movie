@@ -1,6 +1,0 @@
-# #477 「ScrollSpy Directive - スクロール監視」台本
-
-ずんだもん「What is a ScrollSpy directive?」
-四国めたん「It watches the scroll position, identifies the current section, and highlights the navigation.」
-ずんだもん「IntersectionObserver should fit nicely.」
-四国めたん「Yes-monitor sections and update the active ID.」

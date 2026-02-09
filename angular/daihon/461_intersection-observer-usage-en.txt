@@ -1,6 +1,0 @@
-# #461 「Intersection Observer の活用」台本
-
-ずんだもん「How do we leverage Intersection Observer?」
-四国めたん「It invokes a callback when an element enters the viewport, making it perfect for LazyLoad or InfiniteScroll.」
-ずんだもん「Are we safe on browser support?」
-四国めたん「Modern browsers support it; add a polyfill for older ones.」

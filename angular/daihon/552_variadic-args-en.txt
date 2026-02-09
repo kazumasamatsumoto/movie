@@ -1,6 +1,0 @@
-# #552 「可変長引数の実装」台本
-
-ずんだもん「How do we implement a pipe that accepts a variable number of arguments?」
-四国めたん「Use a rest parameter like `transform(value: T, ...args: string[])`.」
-ずんだもん「We should handle the args array carefully.」
-四国めたん「Right-either assign meaning by position or accept an options object.」

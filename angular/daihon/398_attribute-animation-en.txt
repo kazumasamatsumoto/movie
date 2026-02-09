@@ -1,7 +1,0 @@
-# #398 「アニメーションとの組み合わせ」台本
-
-ずんだもん「How do we combine Attribute Directives with animations?」
-四国めたん「Toggle classes with Renderer2 to trigger CSS animations, or call the Angular Animation API directly.」
-ずんだもん「Could we pair it with IntersectionObserver too?」
-四国めたん「Sure—wrap scroll-triggered effects in a directive and reuse them everywhere.」
-ずんだもん「That really widens our animation toolkit.」

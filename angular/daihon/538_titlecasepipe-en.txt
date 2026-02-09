@@ -1,6 +1,0 @@
-# #538 「TitleCasePipe - タイトルケース」台本
-
-ずんだもん「What does TitleCasePipe do?」
-四国めたん「It capitalizes the first letter of each word according to locale rules.」
-ずんだもん「Makes headings look polished.」
-四国めたん「Exactly-perfect for titles and labels.」

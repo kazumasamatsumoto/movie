@@ -1,6 +1,0 @@
-# #569 「配列の並び替え」台本
-
-ずんだもん「What should we watch when implementing a sort pipe?」
-四国めたん「Copy the array with `[...array]` before calling sort so you don't mutate the original.」
-ずんだもん「How do we pass the sort criteria?」
-四国めたん「Accept a key or compare function through the pipe arguments.」

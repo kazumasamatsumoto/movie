@@ -1,8 +1,0 @@
-# #610 「ngSubmit イベント」台本
-
-ずんだもん「How do we handle form submission in Angular?」
-四国めたん「Listen to the ngSubmit event on the form and bind it to a handler in the component.」
-ずんだもん「So we don't rely on the native submit event directly.」
-四国めたん「ngSubmit works with both template-driven and reactive forms and plays nicely with validation.」
-ずんだもん「It keeps the template declarative too.」
-四国めたん「Exactly—hook into the event and delegate business logic to the component.」

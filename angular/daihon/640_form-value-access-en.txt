@@ -1,8 +1,0 @@
-# #640 「form.value でデータ取得」台本
-
-ずんだもん「How do we read all form values at once?」
-四国めたん「Access the NgForm's value property to get the current values as an object.」
-ずんだもん「Does it include ngModelGroup nesting?」
-四国めたん「Yes—the structure reflects your group hierarchy.」
-ずんだもん「We could reuse it as the DTO for API calls.」
-四国めたん「Exactly—massage it as needed and send it to the backend.」

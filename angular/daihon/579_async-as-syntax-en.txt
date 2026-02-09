@@ -1,6 +1,0 @@
-# #579 「as 構文での値取得」台本
-
-ずんだもん「What does the `as` syntax do?」
-四国めたん「`*ngIf="observable$ | async as value"` stores the result in `value` so you can reuse it within the template.」
-ずんだもん「Very convenient.」
-四国めたん「Yes-it avoids repeating the pipe call.」

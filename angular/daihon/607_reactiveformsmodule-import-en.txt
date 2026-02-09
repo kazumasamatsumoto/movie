@@ -1,8 +1,0 @@
-# #607 「ReactiveFormsModule のインポート」台本
-
-ずんだもん「What do we import for reactive forms?」
-四国めたん「Bring in ReactiveFormsModule to enable directives like formGroup and formControlName.」
-ずんだもん「FormBuilder comes from the same package, right?」
-四国めたん「It does—the services live there too.」
-ずんだもん「Is the setup similar for standalone components and modules?」
-四国めたん「Yes—just add ReactiveFormsModule to the imports array.」

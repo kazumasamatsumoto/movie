@@ -1,6 +1,0 @@
-# #525 「通貨表示の例」台本
-
-ずんだもん「Can you show some currency display examples?」
-四国めたん「`{{ price | currency:'JPY':'symbol' }}` shows the yen symbol, while `'symbol-narrow'` displays a shorter variant.」
-ずんだもん「Makes it easy to match design requirements.」
-四国めたん「Yes-tweak the parameters to fit your UI.」

@@ -1,6 +1,0 @@
-# #686 「FormBuilder のインポート」台本
-
-ずんだもん「What do we import to use FormBuilder?」
-四国めたん「Import FormBuilder from `@angular/forms`.」
-ずんだもん「ReactiveFormsModule is still required.」
-四国めたん「Yes-add it to your module or standalone component imports.」

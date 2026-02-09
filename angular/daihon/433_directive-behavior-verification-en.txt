@@ -1,6 +1,0 @@
-# #433 「Directive の動作確認」台本
-
-ずんだもん「What should we verify in the tests?」
-四国めたん「State changes, event registration, Renderer2 calls-any side effects you expect.」
-ずんだもん「So behavior matters more than snapshots.」
-四国めたん「Exactly-confirm DOM diffs and ARIA attributes too.」

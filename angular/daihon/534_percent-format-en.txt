@@ -1,6 +1,0 @@
-# #534 「PercentPipe のフォーマット」台本
-
-ずんだもん「Can we customize percent formatting further?」
-四国めたん「Yes-adjust digits info, supply locale, or even combine with other pipes for custom suffixes.」
-ずんだもん「Localization is built-in?」
-四国めたん「Exactly-Angular uses the current locale to decide separators and spacing.」

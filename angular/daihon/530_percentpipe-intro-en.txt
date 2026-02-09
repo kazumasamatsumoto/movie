@@ -1,6 +1,0 @@
-# #530 「PercentPipe - パーセント表示」台本
-
-ずんだもん「What does PercentPipe do?」
-四国めたん「It converts numbers to percentage strings, applying locale-aware formatting.」
-ずんだもん「Handy for progress indicators.」
-四国めたん「Exactly-no manual math or string concatenation needed.」

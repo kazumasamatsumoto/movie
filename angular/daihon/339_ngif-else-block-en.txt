@@ -1,7 +1,0 @@
-# #339 「else ブロックの使用」台本
-
-ずんだもん「What should we watch out for when using else blocks?」
-四国めたん「Define `<ng-template #fallback>` with a template reference variable; you cannot place it inside the element.」
-ずんだもん「How do we share it across multiple elements?」
-四国めたん「Wrap it in `ng-container` or extract it into another file so you can reuse it.」
-ずんだもん「Writing clean conditionals keeps the template readable.」

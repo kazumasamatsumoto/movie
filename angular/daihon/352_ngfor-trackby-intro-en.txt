@@ -1,7 +1,0 @@
-# #352 「trackBy - パフォーマンス最適化」台本
-
-ずんだもん「What role does trackBy play?」
-四国めたん「It returns an identifier so Angular can reuse existing DOM nodes.」
-ずんだもん「Does it help more as the list grows?」
-四国めたん「Definitely. It lowers diff costs and keeps scrolling light.」
-ずんだもん「A key to performance indeed.」

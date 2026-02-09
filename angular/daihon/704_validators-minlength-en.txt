@@ -1,6 +1,0 @@
-# #704 「Validators.minLength() - 最小文字数」台本
-
-ずんだもん「How do we enforce a minimum length?」
-四国めたん「Apply `Validators.minLength(length)`-it errors when the string is shorter.」
-ずんだもん「The error object includes actualLength.」
-四国めたん「Yes-display how many characters are still required to help users.」

@@ -1,7 +1,0 @@
-# #338 「*ngIf="condition; else template"」台本
-
-ずんだもん「Show me how to specify an else template with *ngIf!」
-四国めたん「Declare it like `*ngIf="condition; else loading"` and prepare `<ng-template #loading>`.」
-ずんだもん「So the alternate template shows only when the condition is false?」
-四国めたん「Exactly. Give the template a descriptive name to keep things readable.」
-ずんだもん「It's a lifesaver for loading UIs or error displays.」

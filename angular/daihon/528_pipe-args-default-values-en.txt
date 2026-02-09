@@ -1,6 +1,0 @@
-# #528 「引数のデフォルト値」台本
-
-ずんだもん「How do we provide default values for pipe arguments?」
-四国めたん「Inside transform, set fallback values when args are undefined-for example `suffix = suffix ?? '...'`.」
-ずんだもん「So templates can omit them safely.」
-四国めたん「Exactly-keep the API user-friendly.」

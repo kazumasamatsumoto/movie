@@ -1,6 +1,0 @@
-# #529 「引数のバリデーション」台本
-
-ずんだもん「How do we validate pipe arguments?」
-四国めたん「Check them inside transform and throw an error or fallback when they don't meet expectations.」
-ずんだもん「That keeps misuse visible.」
-四国めたん「Yes-fail fast so issues surface during development.」

@@ -1,6 +1,0 @@
-# #437 「Directive のドキュメント作成」台本
-
-ずんだもん「How should we document the directives we build?」
-四国めたん「Summarize the purpose, usage, Inputs/Outputs, examples, and constraints in Markdown.」
-ずんだもん「Would pairing it with Storybook help?」
-四国めたん「Definitely-visual previews make adoption easier.」

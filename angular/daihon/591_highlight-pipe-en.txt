@@ -1,6 +1,0 @@
-# #591 「Highlight Pipe - テキストハイライト」台本
-
-ずんだもん「What does a Highlight pipe do?」
-四国めたん「It wraps matching keywords in highlight tags so search results stand out.」
-ずんだもん「That helps users spot what they need.」
-四国めたん「Yes-centralize the logic in a pipe to keep views tidy.」

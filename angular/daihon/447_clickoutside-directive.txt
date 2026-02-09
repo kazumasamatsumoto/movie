@@ -1,6 +1,0 @@
-# #447 「ClickOutside Directive - 外部クリック検知」台本
-
-ずんだもん「ClickOutsideディレクティブって何をするの？」
-四国めたん「ホスト外のクリックを検知してモーダルを閉じるなどの処理を行うディレクティブです。」
-ずんだもん「イベントはdocumentに付けるんだね？」
-四国めたん「HostListenerで`document:click`を監視します。」

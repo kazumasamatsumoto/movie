@@ -1,6 +1,0 @@
-# #494 「Repeat Directive - 繰り返し」台本
-
-ずんだもん「What does a Repeat directive do?」
-四国めたん「It repeats the template a specified number of times-use it like `*appRepeat="5"`.」
-ずんだもん「Simpler than ngFor when you just need a fixed count.」
-四国めたん「Yes, and you can provide the index through the context.」

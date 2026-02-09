@@ -1,6 +1,0 @@
-# #666 「FormControl.setValue() メソッド」台本
-
-ずんだもん「What happens when we call setValue?」
-四国めたん「The FormControl updates its value and state immediately and revalidates.」
-ずんだもん「What if we want to avoid firing events?」
-四国めたん「Pass `{ emitEvent: false }` so valueChanges and related streams stay silent.」

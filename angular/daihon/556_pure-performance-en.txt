@@ -1,6 +1,0 @@
-# #556 「パフォーマンスが高い」台本
-
-ずんだもん「Why are pure pipes good for performance?」
-四国めたん「Because they don't run on every change detection cycle, even heavy logic keeps the load down.」
-ずんだもん「Should pipes always be pure?」
-四国めたん「In most cases, yes.」

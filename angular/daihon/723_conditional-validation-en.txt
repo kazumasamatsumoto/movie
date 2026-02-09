@@ -1,6 +1,0 @@
-# #723 「条件付きバリデーション」台本
-
-ずんだもん「How do we make a field required only under certain conditions?」
-四国めたん「Switch between setValidators and clearValidators based on the condition.」
-ずんだもん「And call updateValueAndValidity afterward.」
-四国めたん「Exactly-recalculate once you change the validator set.」

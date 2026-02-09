@@ -1,6 +1,0 @@
-# #629 「フォーム開発のベストプラクティス」台本
-
-ずんだもん「What are the best practices for form development?」
-四国めたん「Plan validation rules, keep logic testable, provide clear feedback, and watch accessibility from the start.」
-ずんだもん「And choose the right form approach per screen.」
-四国めたん「Exactly—document decisions so the team stays consistent.」

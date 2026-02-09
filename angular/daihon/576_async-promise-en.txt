@@ -1,6 +1,0 @@
-# #576 「Promise の処理」台本
-
-ずんだもん「Can AsyncPipe handle Promises too?」
-四国めたん「Yes-`{{ promise | async }}` displays the resolved value when the Promise settles.」
-ずんだもん「So it's handy for single-shot async calls.」
-四国めたん「Exactly-perfect for one-time API responses.」

@@ -1,6 +1,0 @@
-# #711 「Validators.compose() - 組み合わせ」台本
-
-ずんだもん「How can we bundle multiple validators together?」
-四国めたん「Use Validators.compose to merge them into a single ValidatorFn.」
-ずんだもん「Then we can reuse the combined rule.」
-四国めたん「Exactly-store it in a shared directory for convenience.」

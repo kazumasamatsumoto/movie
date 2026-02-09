@@ -1,6 +1,0 @@
-# #669 「FormGroup - コントロールのグループ」台本
-
-ずんだもん「I want to manage multiple inputs together.」
-四国めたん「FormGroup lets you treat a set of controls as a single object.」
-ずんだもん「Does the value become an object?」
-四国めたん「Yes-you read the values in the same structure as the keys you define.」

@@ -1,8 +1,0 @@
-# #637 「テンプレート参照変数 #form」台本
-
-ずんだもん「How do we use the template reference variable #form?」
-四国めたん「Declare `<form #form="ngForm">` to reference the NgForm instance inside the template.」
-ずんだもん「Then we can access state and values.」
-四国めたん「Exactly—use `form.valid` or `form.value` directly in the template.」
-ずんだもん「Can we pass it to the component?」
-四国めたん「Yes—forward it as an event argument whenever you need custom logic.」

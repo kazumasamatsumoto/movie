@@ -1,6 +1,0 @@
-# #560 「パフォーマンスへの影響」台本
-
-ずんだもん「How do impure pipes affect performance?」
-四国めたん「Because they run on every detection cycle, heavy work leads to dropped frames or slow rendering.」
-ずんだもん「So we must choose carefully.」
-四国めたん「Yes-prefer pure pipes or move logic into the component when possible.」

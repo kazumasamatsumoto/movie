@@ -1,6 +1,0 @@
-# #507 「テンプレート変数の渡し方」台本
-
-ずんだもん「How do we use `let` variables in the template?」
-四国めたん「Define the context like `{ $implicit: value, index: i }`, then reference it with `let item` or `let i = index`.」
-ずんだもん「Naming matters.」
-四国めたん「Right-pick keys that reveal their roles.」

@@ -1,6 +1,0 @@
-# #549 「Pipe のパラメータ」台本
-
-ずんだもん「How do pipes handle parameters?」
-四国めたん「They can accept arrays or objects, but remember that pure pipes re-run only when the reference changes.」
-ずんだもん「So immutable data works best.」
-四国めたん「Exactly-change detection notices new references, not internal mutations.」

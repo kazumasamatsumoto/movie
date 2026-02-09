@@ -1,6 +1,0 @@
-# #452 「検索ボックスでの活用」台本
-
-ずんだもん「What benefits do we get by debouncing a search box?」
-四国めたん「We avoid hitting the API on every keystroke and run the search after a short pause, reducing traffic.」
-ずんだもん「That improves the user experience too.」
-四国めたん「Exactly-the results feel more stable.」

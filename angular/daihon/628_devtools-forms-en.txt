@@ -1,6 +1,0 @@
-# #628 「Angular DevTools でのフォーム確認」台本
-
-ずんだもん「How can Angular DevTools help with forms?」
-四国めたん「It shows the form tree, validation states, and control values so you can diagnose issues quickly.」
-ずんだもん「So we can spot invalid controls without logging.」
-四国めたん「Exactly—use it to trace state changes while interacting with the UI.」

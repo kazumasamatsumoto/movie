@@ -1,7 +1,0 @@
-# #335 「*ngIf - 条件付き表示」台本
-
-ずんだもん「When do we typically use *ngIf?」
-四国めたん「It's a conditional display Directive that adds or removes elements based on a boolean.」
-ずんだもん「Is this the go-to for simple visibility control?」
-四国めたん「Yes. Instead of hiding with CSS, it toggles the DOM itself, which is better for accessibility.」
-ずんだもん「So it's the entry point to Angular's control flow.」

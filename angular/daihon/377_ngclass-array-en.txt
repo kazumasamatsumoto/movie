@@ -1,7 +1,0 @@
-# #377 「配列でのクラス指定」台本
-
-ずんだもん「What's the benefit of specifying classes with an array?」
-四国めたん「You can pass multiple classes as a list and add or remove them based on state.」
-ずんだもん「Can we toggle items conditionally?」
-四国めたん「Yes—write something like `[ngClass]="[baseClass, isActive ? 'is-active' : '']"`.」
-ずんだもん「Keeps the template nice and readable.」

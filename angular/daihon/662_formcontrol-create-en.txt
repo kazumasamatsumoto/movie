@@ -1,6 +1,0 @@
-# #662 「FormControl の作成」台本
-
-ずんだもん「How do we construct a FormControl?」
-四国めたん「Call `new FormControl(initialValue, validators, asyncValidators)`.」
-ずんだもん「So we can attach validation right away.」
-四国めたん「Yes-pass synchronous and asynchronous validators as arrays.」

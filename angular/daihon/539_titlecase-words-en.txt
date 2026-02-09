@@ -1,6 +1,0 @@
-# #539 「単語の先頭を大文字に」台本
-
-ずんだもん「What's the effect of title casing words?」
-四国めたん「It capitalizes the first letter of each word, giving the text a polished emphasis.」
-ずんだもん「Do we need to watch for symbols and hyphens?」
-四国めたん「Yes-complex words may need a custom pipe for nuanced rules.」

@@ -1,6 +1,0 @@
-# #504 「読み込み中の表示切り替え」台本
-
-ずんだもん「How do we toggle the loading view?」
-四国めたん「When `loading` is true render the skeleton template, and when false render the normal template by switching ViewContainers.」
-ずんだもん「Do we pass the skeleton through an Input?」
-四国めたん「Yes-accept an `else` template so the intent stays clear.」

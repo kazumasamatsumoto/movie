@@ -1,6 +1,0 @@
-# #717 「バリデーターの再利用」台本
-
-ずんだもん「I want to reuse the same validation across forms.」
-四国めたん「Group shared validators into functions or utility folders and import them where needed.」
-ずんだもん「Bundling them with compose sounds nice too.」
-四国めたん「Yes-prebuild combinations so you can apply them with a single call.」

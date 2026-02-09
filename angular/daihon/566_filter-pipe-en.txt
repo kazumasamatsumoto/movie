@@ -1,6 +1,0 @@
-# #566 「Filter Pipe - フィルタリング」台本
-
-ずんだもん「Is a Filter pipe useful?」
-四国めたん「It can filter arrays based on a condition, but remember a pure pipe reruns only when the array reference changes.」
-ずんだもん「So it's good for search?」
-四国めたん「Yes-either keep arrays immutable or mark the pipe impure.」

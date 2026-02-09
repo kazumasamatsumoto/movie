@@ -1,6 +1,0 @@
-# #535 「Pipe の安全性」台本
-
-ずんだもん「Any safety concerns with pipes?」
-四国めたん「Keep them pure and side-effect free-avoid mutating inputs or relying on global state.」
-ずんだもん「So they stay predictable.」
-四国めたん「Exactly-deterministic outputs make templates easier to reason about.」

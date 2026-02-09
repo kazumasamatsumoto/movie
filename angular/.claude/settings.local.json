@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(/c/Users/Admin/AppData/Local/Microsoft/WindowsApps/python.exe generate_assets.py)",
+      "Bash(/usr/bin/python3:*)",
+      "Bash(ng generate component:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

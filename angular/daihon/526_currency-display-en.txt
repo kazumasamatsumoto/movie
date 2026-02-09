@@ -1,6 +1,0 @@
-# #526 「通貨表示の細かな調整」台本
-
-ずんだもん「How do we fine-tune currency display?」
-四国めたん「Use the display and digitsInfo arguments-`currency:'USD':'code':'1.0-0'` shows the code with no decimals, for example.」
-ずんだもん「Digits info lets us control precision.」
-四国めたん「Exactly-define minimum and maximum integer or fraction digits as needed.」

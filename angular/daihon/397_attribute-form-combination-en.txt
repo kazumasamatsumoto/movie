@@ -1,7 +1,0 @@
-# #397 「フォーム制御との組み合わせ」台本
-
-ずんだもん「What happens when we combine forms with Attribute Directives?」
-四国めたん「We can encapsulate validation indicators or input assist features directly in the directive.」
-ずんだもん「Do they work well with Reactive Forms too?」
-四国めたん「Absolutely—observe FormControl state and add classes or feedback as needed.」
-ずんだもん「That really elevates the user experience.」

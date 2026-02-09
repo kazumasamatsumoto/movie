@@ -1,6 +1,0 @@
-# #695 「formArrayName ディレクティブ」台本
-
-ずんだもん「How do we interact with FormArrays in the template?」
-四国めたん「Set `formArrayName="key"` on the parent, then pass indexes to formControlName or formGroupName inside.」
-ずんだもん「Looping with *ngFor is the standard approach.」
-四国めたん「Right-bind the index `i` to formControlName so the array stays in sync.」

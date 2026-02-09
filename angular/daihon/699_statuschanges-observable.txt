@@ -1,8 +1,0 @@
-# #699 「statusChanges Observable」台本
-
-ずんだもん「statusChangesって何がわかるの？」
-四国めたん「VALID/INVALID/PENDING/DISABLEDなどの状態変化を通知します。」
-ずんだもん「非同期バリデーションの進捗をチェックできそう。」
-四国めたん「はい。PENDINGを検知してローディング表示を出せます。」
-ずんだもん「フォーム全体でも購読できる？」
-四国めたん「FormGroupでもstatusChangesを購読できます。」

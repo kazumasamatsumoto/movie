@@ -1,6 +1,0 @@
-# #623 「Disabled State - 無効化」台本
-
-ずんだもん「How do we interpret the disabled state?」
-四国めたん「Disabled controls are excluded from validation and form values—they're effectively inactive.」
-ずんだもん「We can toggle it dynamically?」
-四国めたん「Yes—call `control.disable()` or `control.enable()` depending on the business rules.」

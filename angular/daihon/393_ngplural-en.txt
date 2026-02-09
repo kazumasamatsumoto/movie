@@ -1,7 +1,0 @@
-# #393 「ngPlural - 複数形制御」台本
-
-ずんだもん「I've heard of ngPlural—what does it do?」
-四国めたん「It switches templates based on quantity, which is perfect for localization.」
-ずんだもん「Do we define plural categories?」
-四国めたん「Yes. Use `ngPluralCase` for zero, one, many, and so on.」
-ずんだもん「A must-have for internationalization.」

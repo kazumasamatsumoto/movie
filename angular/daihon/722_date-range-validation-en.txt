@@ -1,6 +1,0 @@
-# #722 「日付範囲検証」台本
-
-ずんだもん「How do we validate a start and end date range?」
-四国めたん「Keep start and end in a FormGroup and ensure start <= end in the validator.」
-ずんだもん「Should we manage dates as Date objects?」
-四国めたん「You can store strings, but convert to Date for reliable comparisons.」

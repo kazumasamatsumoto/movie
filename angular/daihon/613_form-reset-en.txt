@@ -1,8 +1,0 @@
-# #613 「フォームのリセット」台本
-
-ずんだもん「How do we reset a form?」
-四国めたん「Call `form.resetForm()` for template-driven or `form.reset()` for reactive forms to clear values and states.」
-ずんだもん「Should we reset on successful submission?」
-四国めたん「If it makes sense—clear the form or repopulate it with default values.」
-ずんだもん「And we can reset individual controls too.」
-四国めたん「Exactly—choose the granularity that fits the UX.」

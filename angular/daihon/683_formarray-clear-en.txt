@@ -1,6 +1,0 @@
-# #683 「FormArray.clear() - 全削除」台本
-
-ずんだもん「How do we wipe all elements at once?」
-四国めたん「Call clear() to remove every control in the array.」
-ずんだもん「Much easier than looping removeAt.」
-四国めたん「Yes-just remember the array becomes empty, so add a default item afterward if needed.」

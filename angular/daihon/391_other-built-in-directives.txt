@@ -1,7 +1,0 @@
-# #391 「その他の組み込み Directive」台本
-
-ずんだもん「Attribute系の組み込みディレクティブって他に何があるの？」
-四国めたん「ngNonBindable、ngPlural、ngTemplateOutlet、ngComponentOutletなど多彩です。」
-ずんだもん「用途に合わせて使い分けるんだね。」
-四国めたん「仕組みを知るとテンプレート表現の幅が広がります。」
-ずんだもん「まとめて押さえておきたいよ。」

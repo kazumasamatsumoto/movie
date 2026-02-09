@@ -1,8 +1,0 @@
-# #634 「ngModel とフォーム登録」台本
-
-ずんだもん「What does it mean for ngModel to register with the form?」
-四国めたん「NgForm stores the control by its name so you can access it through form.controls.」
-ずんだもん「So we can read state flags and values from there.」
-四国めたん「Exactly—registration exposes the control to the form API.」
-ずんだもん「What if we want to keep it out of the form?」
-四国めたん「Set `ngModelOptions` to `{ standalone: true }` to exclude it.」

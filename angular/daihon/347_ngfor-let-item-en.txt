@@ -1,7 +1,0 @@
-# #347 「*ngFor="let item of items"」台本
-
-ずんだもん「How should we read `let item of items` again?」
-四国めたん「It takes each element from `items` and lets you use it as `item`.」
-ずんだもん「In the template we just reference it like `{{ item.name }}`, right?」
-四国めたん「Exactly. Descriptive property names help everyone understand quickly.」
-ずんだもん「Naming sense matters after all!」

@@ -1,6 +1,0 @@
-# #470 「リサイズハンドルの実装」台本
-
-ずんだもん「How do we create resize handles?」
-四国めたん「Generate the handle elements in the directive, start dragging on pointerdown, and update size on mousemove.」
-ずんだもん「Can we support multiple directions?」
-四国めたん「Yes-provide the handle types like right, bottom, or corner via Inputs.」

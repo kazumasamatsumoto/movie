@@ -1,6 +1,0 @@
-# #491 「Unless Directive - 反転条件」台本
-
-ずんだもん「What does an Unless directive do?」
-四国めたん「It renders the template only when the condition is false-the inverse of `*ngIf`.」
-ずんだもん「Got it, a flipped condition.」
-四国めたん「Yes-it reads cleaner than writing `if (!condition)` everywhere.」

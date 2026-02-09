@@ -1,7 +1,0 @@
-# #390 「ngModelChange イベント」台本
-
-ずんだもん「What is the ngModelChange event?」
-四国めたん「It fires whenever ngModel updates its value, so you can react to input changes.」
-ずんだもん「The new value comes through $event, right?」
-四国めたん「Exactly. If you need debounce, convert it into an Observable and process it there.」
-ずんだもん「So much control over the details.」

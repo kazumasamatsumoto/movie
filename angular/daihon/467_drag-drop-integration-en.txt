@@ -1,6 +1,0 @@
-# #467 「ドラッグ&ドロップの連携」台本
-
-ずんだもん「How do we connect drag and drop directives?」
-四国めたん「Let the drag directive hold the payload and have the drop directive receive it via EventEmitter or a shared service.」
-ずんだもん「We need a tidy architecture.」
-四国めたん「Exactly-keep state management in a service to stay organized.」

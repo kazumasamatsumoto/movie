@@ -1,6 +1,0 @@
-# #541 「カスタム Pipe の作成」台本
-
-ずんだもん「What can a custom pipe do?」
-四国めたん「It lets you add your own transformation logic beyond the built-in pipes-generate a scaffold with `ng generate pipe` and implement transform.」
-ずんだもん「Great for repeated formatting.」
-四国めたん「Yes-wrap it in a pipe for easy reuse.」

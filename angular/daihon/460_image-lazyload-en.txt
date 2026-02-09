@@ -1,6 +1,0 @@
-# #460 「画像の遅延ロード」台本
-
-ずんだもん「How do we lazy-load images?」
-四国めたん「`loading='lazy'` exists, but a directive can set the src only after IntersectionObserver says it's visible.」
-ずんだもん「Can we swap in a placeholder image too?」
-四国めたん「Yes-control it through bindings.」

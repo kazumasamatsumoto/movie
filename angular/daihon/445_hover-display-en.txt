@@ -1,6 +1,0 @@
-# #445 「ホバー時の表示」台本
-
-ずんだもん「How do we show the tooltip on hover?」
-四国めたん「Create the tooltip element on `mouseenter` and remove it on `mouseleave`; support focus events as well.」
-ずんだもん「Renderer2 keeps the DOM operations safe.」
-四国めたん「Yes-and many implementations append it to `body` like a portal.」

@@ -1,6 +1,0 @@
-# #622 「Pending State - 検証中」台本
-
-ずんだもん「What does the pending state mean?」
-四国めたん「A control is pending while async validators or operations are still running.」
-ずんだもん「So we can show a spinner during that time.」
-四国めたん「Exactly—indicate that validation is still in progress.」

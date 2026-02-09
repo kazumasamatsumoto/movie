@@ -1,6 +1,0 @@
-# #733 「非同期バリデーターのデバウンス」台本
-
-ずんだもん「API calls on every keystroke are expensive.」
-四国めたん「Inside the async validator, use debounceTime and distinctUntilChanged to reduce frequency.」
-ずんだもん「switchMap ensures only the latest input is validated.」
-四国めたん「Exactly-cancel stale requests so old results don't override new ones.」

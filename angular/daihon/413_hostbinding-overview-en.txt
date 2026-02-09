@@ -1,6 +1,0 @@
-# #413 「HostBinding - プロパティバインド」台本
-
-ずんだもん「What does HostBinding do?」
-四国めたん「It binds the directive's properties to the host element's properties or attributes.」
-ずんだもん「So it's the same idea as writing [style] on a component.」
-四国めたん「Right-`@HostBinding` gives you a concise way to express it.」

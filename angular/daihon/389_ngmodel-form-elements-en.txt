@@ -1,7 +1,0 @@
-# #389 「フォーム要素との連携」台本
-
-ずんだもん「Which form elements can we use with ngModel?」
-四国めたん「It works with inputs, selects, textareas—most form controls.」
-ずんだもん「How do we handle typing?」
-四国めたん「Use `ngModelOptions` such as `standalone` or `name` to fine-tune how the control participates.」
-ずんだもん「Template-driven forms really are flexible.」

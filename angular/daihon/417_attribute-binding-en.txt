@@ -1,6 +1,0 @@
-# #417 「attribute バインディング」台本
-
-ずんだもん「How do we bind attributes?」
-四国めたん「Use the `attr.` prefix-`@HostBinding('attr.aria-expanded')` is perfect for accessibility attributes.」
-ずんだもん「That's handy for managing ARIA states.」
-四国めたん「Exactly-Directives can standardize ARIA and data attributes.」

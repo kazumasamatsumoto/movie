@@ -1,6 +1,0 @@
-# #520 「非純粋 Pipe の注意点」台本
-
-ずんだもん「What should we know about impure pipes?」
-四国めたん「They run on every change detection tick, so they can impact performance quickly.」
-ずんだもん「When should we use them?」
-四国めたん「Only when the pipe depends on mutable data or external state-otherwise stay pure.」

@@ -1,6 +1,0 @@
-# #567 「配列のフィルター処理」台本
-
-ずんだもん「How do we implement an array filter pipe?」
-四国めたん「Call `array.filter(predicate)` inside transform and accept the predicate as an argument.」
-ずんだもん「What if the array mutates in place?」
-四国めたん「A pure pipe won't rerun, so change the reference or adopt an impure strategy.」

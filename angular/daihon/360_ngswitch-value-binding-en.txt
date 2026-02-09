@@ -1,7 +1,0 @@
-# #360 「[ngSwitch] での値指定」台本
-
-ずんだもん「What kind of value should we pass to [ngSwitch]?」
-四国めたん「You can pass any expression, but enums or constants make it easier to read.」
-ずんだもん「Can we feed it with a Signal value?」
-四国めたん「Of course. Invoke the Signal and switch cases according to the state.」
-ずんだもん「Providing type-safe values is the key.」

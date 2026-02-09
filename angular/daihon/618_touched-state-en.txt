@@ -1,6 +1,0 @@
-# #618 「Touched State - フォーカス済み」台本
-
-ずんだもん「What does touched mean for a control?」
-四国めたん「Touched becomes true when the user focuses and then blurs the control.」
-ずんだもん「So we can delay error messages until it's touched.」
-四国めたん「Exactly—combine touched with invalid to show validation only after interaction.」

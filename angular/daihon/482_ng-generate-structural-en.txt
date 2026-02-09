@@ -1,6 +1,0 @@
-# #482 「ng generate directive --structural」台本
-
-ずんだもん「What's the CLI command to scaffold a structural directive?」
-四国めたん「Run `ng g directive directives/unless --standalone --structural`-the template and view container injections come prewired.」
-ずんだもん「That's convenient!」
-四国めたん「Yes, and keeping it standalone means you only need to add it to imports.」

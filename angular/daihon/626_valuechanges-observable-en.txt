@@ -1,6 +1,0 @@
-# #626 「valueChanges Observable」台本
-
-ずんだもん「What about valueChanges?」
-四国めたん「It emits whenever the control's value updates, giving you a stream of inputs to react to.」
-ずんだもん「Perfect for autosave or live previews.」
-四国めたん「Yes—pipe the stream through debounce or distinctUntilChanged as needed.」

@@ -1,6 +1,0 @@
-# #555 「参照の変更のみで再実行」台本
-
-ずんだもん「When does a pure pipe rerun?」
-四国めたん「For primitives it reruns when the value changes; for objects and arrays only when the reference changes.」
-ずんだもん「That pairs well with immutable data.」
-四国めたん「Yes-it makes change detection efficient.」

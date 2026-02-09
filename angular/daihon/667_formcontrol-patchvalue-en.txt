@@ -1,6 +1,0 @@
-# #667 「FormControl.patchValue() メソッド」台本
-
-ずんだもん「Can we use patchValue on a FormControl too?」
-四国めたん「Yes-it behaves like setValue here, though partial updates shine more with FormGroup.」
-ずんだもん「Good to know if we plan to migrate to FormGroup later.」
-四国めたん「Exactly-keeping the API consistent makes refactoring painless.」

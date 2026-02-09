@@ -1,7 +1,0 @@
-# #375 「[ngClass] の基本構文」台本
-
-ずんだもん「What's the basic syntax for [ngClass]?」
-四国めたん「Write `[ngClass]="expression"` and let the expression decide the class names.」
-ずんだもん「Can it take strings, arrays, or objects?」
-四国めたん「Yes—the type you supply determines how classes are applied.」
-ずんだもん「That flexibility is the best part.」

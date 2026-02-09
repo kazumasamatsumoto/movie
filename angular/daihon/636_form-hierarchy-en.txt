@@ -1,8 +1,0 @@
-# #636 「フォームの階層構造」台本
-
-ずんだもん「Should we think about hierarchy even in template-driven forms?」
-四国めたん「Yes—stack ngModelGroup elements to build the nested structure you need.」
-ずんだもん「The state propagates through the hierarchy too?」
-四国めたん「It does—the parent group's validity reflects its children.」
-ずんだもん「Thinking in trees makes design easier.」
-四国めたん「Align the form hierarchy with your wireframes and data model.」

@@ -1,6 +1,0 @@
-# #405 「app- プレフィックス」台本
-
-ずんだもん「How do we use the `app-` prefix?」
-四国めたん「It's the Angular CLI's default prefix and helps avoid selector collisions.」
-ずんだもん「Can the team decide on a different one?」
-四国めたん「Of course-set a shared prefix and update it in the CLI configuration.」

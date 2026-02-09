@@ -1,6 +1,0 @@
-# #689 「fb.group() メソッド」台本
-
-ずんだもん「I hear fb.group makes FormGroup definitions easy.」
-四国めたん「Use object literals with the array shorthand to define groups clearly.」
-ずんだもん「Can we nest groups as well?」
-四国めたん「Of course-nest objects to describe the hierarchy.」

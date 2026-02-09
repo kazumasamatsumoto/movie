@@ -1,6 +1,0 @@
-# #487 「createEmbeddedView() メソッド」台本
-
-ずんだもん「createEmbeddedViewってどう使うの？」
-四国めたん「`this.viewContainer.createEmbeddedView(this.template, context)`という形でテンプレートからビューを生成します。」
-ずんだもん「Contextはテンプレートに流すデータ？」
-四国めたん「その通り。`$implicit`などを設定できます。」

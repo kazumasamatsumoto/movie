@@ -1,6 +1,0 @@
-# #720 「FormGroup レベルの検証」台本
-
-ずんだもん「How do we validate the consistency of the entire form?」
-四国めたん「Attach validators to the FormGroup so the whole group is evaluated.」
-ずんだもん「We register results with setErrors, right?」
-四国めたん「Yes-return null or call setErrors(null) when you want to clear them.」

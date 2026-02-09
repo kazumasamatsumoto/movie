@@ -1,6 +1,0 @@
-# #718 「パラメータ付きバリデーター」台本
-
-ずんだもん「How do we pass thresholds to a validator?」
-四国めたん「Create a factory function that accepts the parameters and returns a ValidatorFn.」
-ずんだもん「Then we can configure minimum values or banned words easily.」
-四国めたん「Exactly-and include the parameter in the ValidationErrors for better messages.」

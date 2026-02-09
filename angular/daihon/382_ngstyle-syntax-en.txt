@@ -1,7 +1,0 @@
-# #382 「[ngStyle] の基本構文」台本
-
-ずんだもん「What's the basic syntax for [ngStyle]?」
-四国めたん「Pass an object like `[ngStyle]="{ property: value }"`.」
-ずんだもん「Can we feed it any kind of value?」
-四国めたん「Strings, numbers, expression results—anything Angular can evaluate.」
-ずんだもん「Simple and easy to read.」

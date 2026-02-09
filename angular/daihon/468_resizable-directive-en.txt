@@ -1,6 +1,0 @@
-# #468 「Resizable Directive - リサイズ」台本
-
-ずんだもん「What features does a Resizable directive offer?」
-四国めたん「It adds handles so you can drag to change the element's width or height.」
-ずんだもん「UI libraries use that a lot.」
-四国めたん「Yes-set min and max sizes as well.」

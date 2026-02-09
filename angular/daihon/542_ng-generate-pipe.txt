@@ -1,6 +1,0 @@
-# #542 「ng generate pipe コマンド」台本
-
-ずんだもん「Pipeを作るCLIコマンドは？」
-四国めたん「`ng g pipe pipes/truncate --standalone`のように実行します。」
-ずんだもん「standaloneにするとどうなる？」
-四国めたん「NgModuleに登録しなくても使えるので便利です。」

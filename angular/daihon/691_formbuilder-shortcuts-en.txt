@@ -1,6 +1,0 @@
-# #691 「FormBuilder の省略記法」台本
-
-ずんだもん「Can we review the array shorthand versus object syntax?」
-四国めたん「`[initialValue, validators, asyncValidators]` keeps declarations brief, but balance it with readability.」
-ずんだもん「When should we favor fb.control instead?」
-四国めたん「Use objects when rules are complex, and the array shorthand when the setup is simple.」

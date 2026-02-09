@@ -1,6 +1,0 @@
-# #410 「キーボードイベントの監視」台本
-
-ずんだもん「Can we listen for keyboard events too?」
-四国めたん「Catch `keydown` or `keyup` with HostListener to implement shortcuts.」
-ずんだもん「That should boost accessibility as well.」
-四国めたん「Yes-centralize the behavior while the element is focused.」

@@ -1,6 +1,0 @@
-# #703 「Validators.requiredTrue - 真値必須」台本
-
-ずんだもん「How do we ensure a checkbox is checked?」
-四国めたん「Validators.requiredTrue passes only when the value is true.」
-ずんだもん「Perfect for mandatory consent boxes.」
-四国めたん「Exactly-use it before allowing submission.」

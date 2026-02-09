@@ -1,6 +1,0 @@
-# #681 「FormArray.removeAt() - 要素削除」台本
-
-ずんだもん「How do we remove an unnecessary input row?」
-四国めたん「Call `removeAt(index)` to delete the control at that position.」
-ずんだもん「Does the array collapse afterwards?」
-四国めたん「Yes-the indexes shift and the template bindings adjust automatically.」

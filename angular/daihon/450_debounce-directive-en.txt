@@ -1,6 +1,0 @@
-# #450 「Debounce Directive - デバウンス」台本
-
-ずんだもん「What's the use case for an input debounce directive?」
-四国めたん「Delay input events so API calls or searches don't fire too often.」
-ずんだもん「It must pair nicely with RxJS.」
-四国めたん「Yes-wire it with a Subject and debounceTime to implement it cleanly.」

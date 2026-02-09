@@ -1,6 +1,0 @@
-# #515 「引数付き Pipe の使用」台本
-
-ずんだもん「What's an example of using pipe arguments?」
-四国めたん「`{{ price | currency:'JPY':'symbol-narrow' }}` passes the currency code and display style.」
-ずんだもん「Makes the template expressive.」
-四国めたん「Exactly-configure formatting inline.」

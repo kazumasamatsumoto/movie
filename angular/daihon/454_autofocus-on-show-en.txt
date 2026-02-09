@@ -1,6 +1,0 @@
-# #454 「表示時の自動フォーカス」台本
-
-ずんだもん「How do we apply focus when the element shows up?」
-四国めたん「Call `nativeElement.focus()` in ngAfterViewInit or ngOnInit.」
-ずんだもん「We need to be careful with SSR, right?」
-四国めたん「Yes-only invoke it when running in the browser.」

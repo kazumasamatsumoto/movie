@@ -1,7 +1,0 @@
-# #376 「文字列でのクラス指定」台本
-
-ずんだもん「What happens when we pass a string to ngClass?」
-四国めたん「It applies a single class name or a space-separated list exactly as given.」
-ずんだもん「Can we combine it with the existing class attribute?」
-四国めたん「Sure—Angular merges them for you.」
-ずんだもん「For simple toggles this is all we need.」

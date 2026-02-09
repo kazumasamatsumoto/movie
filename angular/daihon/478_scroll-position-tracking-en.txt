@@ -1,6 +1,0 @@
-# #478 「スクロール位置の追跡」台本
-
-ずんだもん「How do we implement position tracking?」
-四国めたん「Register the sections and update the active one as they enter the viewport. Provide a scroll-event fallback if needed.」
-ずんだもん「We should throttle it too.」
-四国めたん「Yes-keep performance in mind.」

@@ -1,6 +1,0 @@
-# #699 「statusChanges Observable」台本
-
-ずんだもん「What does statusChanges tell us?」
-四国めたん「It notifies transitions between VALID, INVALID, PENDING, and DISABLED states.」
-ずんだもん「Great for tracking async validation progress.」
-四国めたん「Exactly-detect PENDING to show loading indicators.」

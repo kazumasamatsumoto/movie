@@ -1,6 +1,0 @@
-# #482 「ng generate directive --structural」台本
-
-ずんだもん「構造ディレクティブをCLIで作るコマンドは？」
-四国めたん「`ng g directive directives/unless --standalone --structural`を使うとテンプレートとビューコンテナを注入する雛形が生成されます。」
-ずんだもん「便利だね！」
-四国めたん「スタンドアロンにしておくとimportsだけで利用できます。」

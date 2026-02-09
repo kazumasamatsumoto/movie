@@ -1,7 +1,0 @@
-# #331 「Structural Directive - What Is It?」台本
-
-ずんだもん「What role does a Structural Directive play?」
-四国めたん「It controls the template structure by adding or removing elements.」
-ずんだもん「So it actually changes the DOM tree itself?」
-四国めたん「Exactly. It lets you rearrange layouts dynamically for show-and-hide logic or loops.」
-ずんだもん「And the appeal is being able to extract reusable control logic!」

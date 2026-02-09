@@ -1,6 +1,0 @@
-# #561 「Pure vs Impure の使い分け」台本
-
-ずんだもん「How should we choose between pure and impure pipes?」
-四国めたん「Stick with pure pipes by default and switch to impure only when you must react to mutable data or external state.」
-ずんだもん「So impure pipes carry risk.」
-四国めたん「Exactly-consider the performance cost before opting in.」

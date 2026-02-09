@@ -1,6 +1,0 @@
-# #407 「@HostListener デコレータ」台本
-
-ずんだもん「Show me how to write @HostListener!」
-四国めたん「Specify the event name and arguments like `@HostListener('click', ['$event'])`.」
-ずんだもん「Can we observe multiple events too?」
-四国めたん「Sure-decorate each method with the event you want to handle.」

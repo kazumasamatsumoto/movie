@@ -1,6 +1,0 @@
-# #577 「null 値の扱い」台本
-
-ずんだもん「How does AsyncPipe handle null values?」
-四国めたん「If the Observable emits null, the template sees null and renders nothing.」
-ずんだもん「Should we still guard against null?」
-四国めたん「Yes-combine it with `*ngIf` for safer templates.」

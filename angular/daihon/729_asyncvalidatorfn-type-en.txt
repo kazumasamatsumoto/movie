@@ -1,6 +1,0 @@
-# #729 「AsyncValidatorFn 型」台本
-
-ずんだもん「What's the type signature of AsyncValidatorFn?」
-四国めたん「It returns an `Observable<ValidationErrors | null>` or a `Promise<...>` for a given control.」
-ずんだもん「Observable is preferred, right?」
-四国めたん「Yes-it's easier to compose with RxJS operators.」

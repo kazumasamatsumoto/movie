@@ -1,7 +1,0 @@
-# #342 「*ngIf="value as alias"」台本
-
-ずんだもん「What do we use the *ngIf 'value as' syntax for?」
-四国めたん「When the condition is true, you can reuse the evaluated value as an alias inside the template.」
-ずんだもん「Does it feel like using let?」
-四国めたん「Exactly. `*ngIf="user$ | async as user"` lets you reference the `user` variable.」
-ずんだもん「It's perfect for null guards.」

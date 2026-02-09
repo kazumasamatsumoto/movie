@@ -1,6 +1,0 @@
-# #455 「条件付きフォーカス」台本
-
-ずんだもん「How do we make the focus conditional?」
-四国めたん「Receive a flag through an Input and only focus when it's true.」
-ずんだもん「That also helps with form validation.」
-四国めたん「Exactly-redirect focus when an error occurs.」

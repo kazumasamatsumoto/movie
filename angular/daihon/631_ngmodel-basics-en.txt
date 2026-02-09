@@ -1,6 +1,0 @@
-# #631 「ngModel の基本」台本
-
-ずんだもん「What does ngModel do at the simplest level?」
-四国めたん「It binds the input value to a component property and keeps them in sync.」
-ずんだもん「So it's the foundation of template-driven forms.」
-四国めたん「Exactly—two-way binding is shorthand for the underlying property and event bindings.」

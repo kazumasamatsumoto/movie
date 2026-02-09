@@ -1,8 +1,0 @@
-# #611 「送信ボタンの設計」台本
-
-ずんだもん「Any tips for designing the submit button?」
-四国めたん「Use a button with type="submit" so the form handles submission and accessibility automatically.」
-ずんだもん「Should we disable it when the form is invalid?」
-四国めたん「Yes—bind `[disabled]="form.invalid"` to prevent accidental submissions.」
-ずんだもん「Add a loading state too?」
-四国めたん「Exactly—show feedback while the request is in flight.」

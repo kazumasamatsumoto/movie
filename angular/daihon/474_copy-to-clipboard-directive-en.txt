@@ -1,6 +1,0 @@
-# #474 「CopyToClipboard Directive - クリップボード」台本
-
-ずんだもん「What does a CopyToClipboard directive do?」
-四国めたん「It copies text to the clipboard on click and emits a completion notice.」
-ずんだもん「So we use the Navigator.clipboard API.」
-四国めたん「Yes-and provide a fallback just in case.」

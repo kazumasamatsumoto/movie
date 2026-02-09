@@ -1,6 +1,0 @@
-# #404 「selector の命名規則」台本
-
-ずんだもん「How should we name our selectors?」
-四国めたん「For attribute directives, make it explicit with a prefix and role like `[appHighlight]`.」
-ずんだもん「Good naming prevents collisions too.」
-四国めたん「Exactly-set team-wide rules to keep maintenance easy.」

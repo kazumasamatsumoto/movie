@@ -1,6 +1,0 @@
-# #443 「動的な色指定」台本
-
-ずんだもん「I want to change the highlight color dynamically!」
-四国めたん「Receive the color code through an Input and pass it from the template like `[appHighlight]="color"`.」
-ずんだもん「Then the component can adapt it per state.」
-四国めたん「Exactly-and keep a reasonable default ready.」

@@ -1,8 +1,0 @@
-# #606 「FormsModule のインポート」台本
-
-ずんだもん「What do we need to prepare for template-driven forms?」
-四国めたん「Import FormsModule and add it to the imports array of your component or module.」
-ずんだもん「For a standalone component, listing it in imports is enough?」
-四国めたん「Yes—and if you collect it in a shared module, multiple screens can reuse it easily.」
-ずんだもん「Forgetting the import causes errors, so we need to watch for that.」
-四国めたん「Create a checklist so reviewers confirm it every time.」

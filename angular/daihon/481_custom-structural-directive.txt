@@ -1,6 +1,0 @@
-# #481 「カスタム Structural Directive の作成」台本
-
-ずんだもん「構造ディレクティブを自作するにはどうするの？」
-四国めたん「TemplateRefとViewContainerRefを注入して、テンプレートの生成・破棄を制御するのが基本です。」
-ずんだもん「Sugarな*構文も使えるんだよね？」
-四国めたん「`selector: '[appUnless]'`のように属性セレクタを定義すれば`*appUnless`が使えます。」

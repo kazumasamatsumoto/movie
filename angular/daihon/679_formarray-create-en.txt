@@ -1,6 +1,0 @@
-# #679 「FormArray の作成」台本
-
-ずんだもん「How do we create a FormArray?」
-四国めたん「Instantiate it with `new FormArray([control1, control2], validators)`.」
-ずんだもん「So the value type becomes an array.」
-四国めたん「Yes-a FormControl<string> yields a `(string | null)[]` value by default.」

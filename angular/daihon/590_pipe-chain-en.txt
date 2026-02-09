@@ -1,6 +1,0 @@
-# #590 「Pipe チェーン - 複数パイプの連結」台本
-
-ずんだもん「Can we chain pipes together?」
-四国めたん「Yes-`{{ value | date:'yyyy-MM-dd' | uppercase }}` applies each pipe in sequence.」
-ずんだもん「Order matters, right?」
-四国めたん「Absolutely-the transformation order defines the final output.」

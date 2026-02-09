@@ -1,6 +1,0 @@
-# #457 「スクロール位置の監視」台本
-
-ずんだもん「How do we detect the scroll position?」
-四国めたん「Measure the host's scrollTop/scrollHeight or watch the bottom with IntersectionObserver.」
-ずんだもん「We should consider screen size too.」
-四国めたん「Right-make sure it works well in responsive layouts.」

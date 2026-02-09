@@ -1,6 +1,0 @@
-# #490 「ビューの削除」台本
-
-ずんだもん「How do we remove a view individually?」
-四国めたん「Call `remove(index)` to drop a specific view-handy when the directive manages multiple entries.」
-ずんだもん「Explicit removal keeps things clean.」
-四国めたん「Yes, and there's no need to call destroy manually.」

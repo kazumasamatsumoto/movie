@@ -1,6 +1,0 @@
-# #668 「FormControl.reset() メソッド」台本
-
-ずんだもん「How do we clear an input?」
-四国めたん「Call reset to return the control's value and state to their initial settings.」
-ずんだもん「What if we want to reapply a new default?」
-四国めたん「Pass the desired value to reset and it will initialize with that value.」

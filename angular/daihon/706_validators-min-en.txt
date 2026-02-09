@@ -1,6 +1,0 @@
-# #706 「Validators.min() - 最小値」台本
-
-ずんだもん「How do we enforce a minimum numeric value?」
-四国めたん「Use `Validators.min(minValue)` so values below the threshold yield an error.」
-ずんだもん「Pair it with number-type controls.」
-四国めたん「Exactly-and set `type="number"` or inputmode attributes for better UX.」

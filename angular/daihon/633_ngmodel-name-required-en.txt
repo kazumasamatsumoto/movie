@@ -1,8 +1,0 @@
-# #633 「name 属性の必須性」台本
-
-ずんだもん「Is the name attribute required when using ngModel?」
-四国めたん「If you want the control registered with the form it is—without name, NgForm can't track it.」
-ずんだもん「Then validation and value access would fail.」
-四国めたん「Right—give each control a unique name.」
-ずんだもん「We have to avoid duplicates within the component.」
-四国めたん「Set naming rules alongside your ID conventions.」

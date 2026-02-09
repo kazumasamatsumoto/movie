@@ -1,6 +1,0 @@
-# #402 「ng generate directive コマンド」台本
-
-ずんだもん「CLIでDirectiveを作るコマンドは？」
-四国めたん「`ng g directive directives/hover --standalone`のように実行します。」
-ずんだもん「スタンドアロンならimportsで読み込むだけだね。」
-四国めたん「specファイルも自動生成されるのでテストの足場が整います。」

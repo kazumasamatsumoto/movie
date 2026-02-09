@@ -1,7 +1,0 @@
-# #363 「複数 case の処理」台本
-
-ずんだもん「What if we want the same content for several values?」
-四国めたん「Point `*ngSwitchCase="'draft'"` and `*ngSwitchCase="'pending'"` to the same template reference to reuse it.」
-ずんだもん「How do we declare that template reference?」
-四国めたん「Prepare `<ng-template #review>...</ng-template>` and invoke it inside the `ngSwitch`.」
-ずんだもん「No more duplication—so much cleaner!」

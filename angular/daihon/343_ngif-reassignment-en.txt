@@ -1,7 +1,0 @@
-# #343 「値の再代入と使用」台本
-
-ずんだもん「How do we work with values received through an alias?」
-四国めたん「Reference them directly—no re-evaluation needed—like `user.name`.」
-ずんだもん「We cannot reassign it, right?」
-四国めたん「Right. Templates are read-only, so keep the logic inside the component.」
-ずんだもん「Only evaluating an Observable once is great.」

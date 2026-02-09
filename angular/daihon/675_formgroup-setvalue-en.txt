@@ -1,6 +1,0 @@
-# #675 「FormGroup.setValue() - 全項目設定」台本
-
-ずんだもん「setValue on a FormGroup requires every key, right?」
-四国めたん「Yes-missing keys throw an error.」
-ずんだもん「Can we control notifications too?」
-四国めたん「Use options like `emitEvent` or `onlySelf`, just like with FormControl.」

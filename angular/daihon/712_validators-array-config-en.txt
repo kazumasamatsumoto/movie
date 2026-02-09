@@ -1,6 +1,0 @@
-# #712 「バリデーターの配列指定」台本
-
-ずんだもん「How do we list validators on a FormControl?」
-四国めたん「Pass them as an array in the second argument-they run in order.」
-ずんだもん「FormBuilder accepts the same syntax.」
-四国めたん「Yes-when the shorthand feels unclear, pass the array explicitly.」

@@ -1,8 +1,0 @@
-# #679 「FormArray の作成」台本
-
-ずんだもん「FormArrayはどうやって作るの？」
-四国めたん「new FormArray([control1, control2], validators)の形で生成します。」
-ずんだもん「値の型は配列になるんだね。」
-四国めたん「はい。FormControl<string>ならvalueは(string | null)[]になります。」
-ずんだもん「型安全にしたいなぁ。」
-四国めたん「FormArray<FormControl<string>>のようにジェネリクスを指定しましょう。」

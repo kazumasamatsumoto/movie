@@ -1,8 +1,0 @@
-# #608 「フォームの基本構造」台本
-
-ずんだもん「What's the minimal structure of a form?」
-四国めたん「Place controls inside a form tag, add a submit button, and connect the submission event.」
-ずんだもん「We manage errors and hints inside that structure too.」
-四国めたん「Exactly—centralize feedback and helper text there.」
-ずんだもん「So designing the layout first helps implementation.」
-四国めたん「Yes—create the markup skeleton before wiring the logic.」

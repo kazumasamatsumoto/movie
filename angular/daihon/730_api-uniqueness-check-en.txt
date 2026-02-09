@@ -1,6 +1,0 @@
-# #730 「API でのユニーク性チェック」台本
-
-ずんだもん「How do we check username uniqueness on the server?」
-四国めたん「Call the API from an async validator and decide validity from the response.」
-ずんだもん「We should plan for slow responses.」
-四国めたん「Show loading while the status is PENDING and throttle requests with debounceTime.」

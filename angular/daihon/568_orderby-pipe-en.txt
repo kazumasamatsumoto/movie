@@ -1,6 +1,0 @@
-# #568 「OrderBy Pipe - ソート」台本
-
-ずんだもん「Does an OrderBy pipe handle sorting?」
-四国めたん「Yes-it sorts an array by a given key. Keep it pure by returning a new array instead of mutating the original.」
-ずんだもん「Passing a compare function would be handy.」
-四国めたん「Exactly-accept it as an argument for flexibility.」

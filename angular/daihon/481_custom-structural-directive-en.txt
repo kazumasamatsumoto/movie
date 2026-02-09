@@ -1,6 +1,0 @@
-# #481 「カスタム Structural Directive の作成」台本
-
-ずんだもん「How do we build a structural directive from scratch?」
-四国めたん「Inject TemplateRef and ViewContainerRef, then control when the template is created or destroyed.」
-ずんだもん「We can still use the sugar * syntax, right?」
-四国めたん「Yes-define an attribute selector like `selector: '[appUnless]'` and you'll be able to write `*appUnless`.」

@@ -1,6 +1,0 @@
-# #440 「カスタム Directive の設計原則」台本
-
-ずんだもん「Can you summarize the design principles?」
-四国めたん「Clarify responsibilities, stay platform-agnostic, offer extensible APIs, ensure testability, and maintain documentation.」
-ずんだもん「Following that makes a directive rock-solid!」
-四国めたん「Yes-share it across the team to keep quality high.」

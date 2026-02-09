@@ -1,6 +1,0 @@
-# #500 「Defer Directive - 遅延表示」台本
-
-ずんだもん「What do we use a Defer directive for?」
-四国めたん「It waits for a condition or event before rendering the template, letting you delay heavy content.」
-ずんだもん「Feels similar to `@defer`.」
-四国めたん「Exactly-control it with your own conditions.」

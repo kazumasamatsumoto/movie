@@ -1,6 +1,0 @@
-# #488 「ビューの生成」台本
-
-ずんだもん「When should we create views?」
-四国めたん「Call createEmbeddedView only when the condition is met so the template renders on demand.」
-ずんだもん「Do we keep a reference afterward?」
-四国めたん「Yes-store it if you plan to reuse the view.」

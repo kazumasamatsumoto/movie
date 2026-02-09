@@ -1,7 +1,0 @@
-# #370 「従来構文との違い」台本
-
-ずんだもん「Can we recap the differences between the new and old syntaxes?」
-四国めたん「The new syntax makes control blocks explicit and strengthens static analysis and optimizations.」
-ずんだもん「What about compatibility?」
-四国めたん「The classic `*` syntax still works, so you can migrate gradually.」
-ずんだもん「So we can pick what fits the project best.」

@@ -1,0 +1,209 @@
+# #101 「ngOnInitでのAPI呼び出し基礎」台本
+
+## 1. 問題提起
+
+ずんだもん「ヒーローの一覧画面を作りたいのだ！画面を開いたらAPIでデータを取ってきて表示したいんだけど...」
+
+四国めたん「いいですね。こういう画面ですか？（完成イメージを表示）」
+
+ずんだもん「そうそう！でもAPIはどこで呼び出せばいいのかな？」
+
+四国めたん「constructorに書いてませんか？」
+
+ずんだもん「うっ...書いちゃってた。やっぱダメなんだ？」
+
+## 2. Angularの起動フローを理解する
+
+四国めたん「まずAngularアプリが表示されるまでの流れを見てみましょう。（フロー図を表示）」
+
+```
+main.ts
+ ↓ bootstrapApplication() - Angularアプリ起動
+ ↓
+AppComponent作成
+ ↓
+constructor実行 - インスタンス生成
+ ↓
+@Inputバインディング - 親から値を受け取る
+ ↓
+ngOnInit実行 ★ここでAPI呼び出し
+ ↓
+テンプレート描画
+ ↓
+ブラウザに表示
+```
+
+ずんだもん「なるほど、constructorの後にngOnInitがあるんだね。」
+
+## 3. ライフサイクルフックとは
+
+四国めたん「Angularにはライフサイクルフックという仕組みがあります。コンポーネントの各段階で特定のメソッドが呼ばれるんです。」
+
+ずんだもん「各段階？」
+
+四国めたん「はい。主なものはこれです：（表を表示）」
+
+```
+┌─────────────────┬──────────────┬────────────────┐
+│ フック           │ タイミング      │ 用途            │
+├─────────────────┼──────────────┼────────────────┤
+│ constructor     │ 一番最初        │ DIのみ          │
+│ ngOnInit        │ 初期化完了時    │ API呼び出し     │
+│ ngAfterViewInit │ ビュー描画後    │ DOM操作         │
+│ ngOnDestroy     │ 破棄前          │ クリーンアップ  │
+└─────────────────┴──────────────┴────────────────┘
+```
+
+ずんだもん「constructorが一番最初なのに、なんでそこでAPI呼んじゃダメなの？」
+
+## 4. なぜconstructorではダメか
+
+四国めたん「constructorはTypeScriptの機能で、Angularの管理外なんです。」
+
+ずんだもん「どういうこと？」
+
+四国めたん「constructor実行時はまだ準備が整っていません：」
+
+```
+constructor実行時の問題：
+❌ @Inputがまだ設定されていない
+❌ テンプレートの準備ができていない
+❌ コンポーネントの状態が不完全
+```
+
+ずんだもん「じゃあngOnInitは？」
+
+## 5. なぜngOnInitがベストか
+
+四国めたん「ngOnInit実行時はこうなっています：」
+
+```
+ngOnInit実行時：
+✅ @Inputのバインディング完了
+✅ コンポーネントの状態が整っている
+✅ 1回だけ実行される保証
+✅ Angularが管理するライフサイクル内
+```
+
+ずんだもん「なるほど！準備が整ったタイミングだからAPI呼び出しに最適なんだね！」
+
+四国めたん「その通りです。では実際のコードを見てみましょう。」
+
+## 6. 実装を見る
+
+四国めたん「こちらが完成コードです。（VS Codeでファイル全体を表示）」
+
+```typescript
+export class HeroListComponent implements OnInit {
+  private readonly heroService = inject(HeroService);
+  private readonly destroyRef = inject(DestroyRef);
+
+  heroes = signal<Hero[]>([]);
+  loading = signal(false);
+
+  ngOnInit(): void {  // ← ★ここに注目
+    this.loading.set(true);
+    this.heroService.getHeroes()
+      .pipe(takeUntilDestroyed(this.destroyRef))
+      .subscribe({
+        next: (data) => {
+          this.heroes.set(data);
+          this.loading.set(false);
+        }
+      });
+  }
+}
+```
+
+ずんだもん「ngOnInit()のところでAPI呼んでるんだね！」
+
+四国めたん「そうです。OnInitインターフェースをimplementsして、ngOnInitメソッドを実装します。」
+
+## 7. loading状態の管理
+
+ずんだもん「loading.set(true)って何？」
+
+四国めたん「API呼び出し中は『読み込み中...』を表示したいですよね。Signalで状態を管理します。」
+
+```typescript
+loading = signal(false);  // 初期値はfalse
+
+ngOnInit(): void {
+  this.loading.set(true);   // API呼び出し前にtrue
+  this.heroService.getHeroes()
+    .subscribe({
+      next: (data) => {
+        this.heroes.set(data);
+        this.loading.set(false);  // 完了後にfalse
+      }
+    });
+}
+```
+
+ずんだもん「テンプレートではどう使うの？」
+
+四国めたん「@ifで切り替えます：」
+
+```html
+@if (loading()) {
+  <p>読み込み中...</p>
+} @else {
+  <ul>
+    @for (hero of heroes(); track hero.id) {
+      <li>{{ hero.name }}</li>
+    }
+  </ul>
+}
+```
+
+## 8. メモリリーク対策
+
+ずんだもん「subscribe()ってメモリリークするって聞いたけど...」
+
+四国めたん「いい質問です！takeUntilDestroyed()を使えば自動で購読解除されます。」
+
+```typescript
+.pipe(takeUntilDestroyed(this.destroyRef))
+.subscribe({ ... })
+```
+
+ずんだもん「コンポーネントが破棄されたら自動で解除されるってこと？」
+
+四国めたん「その通り。destroyRefはinject(DestroyRef)で取得します。」
+
+## 9. 実際に動かしてみる
+
+四国めたん「では実際に動かしてみましょう。（ブラウザを開く）」
+
+ずんだもん「おお！最初『読み込み中...』が出て...」
+
+四国めたん「1秒後にヒーロー一覧が表示されましたね。」
+
+```
+読み込み中...
+↓ (1秒待機)
+・ずんだもん
+・四国めたん
+・春日部つむぎ
+・雨晴はう
+・波音リツ
+```
+
+ずんだもん「ちゃんと動いてる！」
+
+## 10. まとめ
+
+四国めたん「今日のポイントをまとめます：」
+
+```
+✅ API呼び出しはngOnInitで行う
+✅ constructorは使わない（準備が整っていない）
+✅ Signalでloading状態を管理する
+✅ takeUntilDestroyed()でメモリリーク対策
+```
+
+ずんだもん「ngOnInitを使う理由がよくわかったのだ！Angularのライフサイクルって大事なんだね。」
+
+四国めたん「その通りです。次はRoute Resolverを学ぶと、画面遷移前にデータを取得できるようになりますよ。」
+
+ずんだもん「やってみる！」

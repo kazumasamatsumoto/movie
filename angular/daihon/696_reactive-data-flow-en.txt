@@ -1,6 +1,0 @@
-# #696 「Reactive Forms のデータフロー」台本
-
-ずんだもん「How does data flow in Reactive Forms?」
-四国めたん「FormControls in the component act as the source and stay in two-way sync with the template.」
-ずんだもん「We can monitor changes via valueChanges and statusChanges.」
-四国めたん「Exactly-those Observables let you plug in reactive side effects.」

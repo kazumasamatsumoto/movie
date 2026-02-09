@@ -1,6 +1,0 @@
-# #497 「Range Directive - 範囲指定」台本
-
-ずんだもん「What is a Range directive?」
-四国めたん「It takes a start and end value, iterates over the numeric range, and creates the template for each value.」
-ずんだもん「Could we use syntax like `*appRange="let n of from:1 to:5"`?」
-四国めたん「Yes-design the API with objects or a pipe-like structure.」

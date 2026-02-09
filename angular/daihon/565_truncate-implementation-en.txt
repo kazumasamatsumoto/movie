@@ -1,6 +1,0 @@
-# #565 「指定文字数で省略」台本
-
-ずんだもん「What are the implementation points for TruncatePipe?」
-四国めたん「Check the string length in transform, and if it exceeds the limit return `substring(0, limit)` plus the suffix.」
-ずんだもん「Let length and suffix be arguments.」
-四国めたん「Exactly-make them configurable.」

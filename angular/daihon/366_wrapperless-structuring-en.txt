@@ -1,7 +1,0 @@
-# #366 「ラッパー要素なしの構造化」台本
-
-ずんだもん「How do we organize structure without adding wrapper elements?」
-四国めたん「Use `ng-container` or `ng-template` so the directive leaves no trace in the DOM.」
-ずんだもん「That prevents layout breaks, right?」
-四国めたん「Yes. Since CSS stays untouched, it meshes well with existing styles.」
-ずんだもん「Clean markup makes me happy!」

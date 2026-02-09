@@ -1,6 +1,0 @@
-# #585 「デバッグ用途」台本
-
-ずんだもん「Where do we use JsonPipe in practice?」
-四国めたん「Use it for debugging or verification-remove it in production or guard it with `ngIf`.」
-ずんだもん「Large data might be expensive.」
-四国めたん「Exactly-treat it as a debugging aid only.」

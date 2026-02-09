@@ -1,6 +1,0 @@
-# #422 「Directive のカスタマイズ」台本
-
-ずんだもん「How do we make a custom Directive flexible?」
-四国めたん「Accept parameters through Inputs so options can tweak the behavior and boost reusability.」
-ずんだもん「Where do we keep default values?」
-四国めたん「Initialize the property or fill it in during ngOnInit.」

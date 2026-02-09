@@ -1,7 +1,0 @@
-# #383 「オブジェクトでのスタイル指定」台本
-
-ずんだもん「Why is it handy to specify styles with an object?」
-四国めたん「You can manage multiple properties in a dictionary of keys and values.」
-ずんだもん「What if we return null conditionally?」
-四国めたん「Then the style is skipped—Falsy values remove it, which is super convenient.」
-ずんだもん「State management gets so much easier.」

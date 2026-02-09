@@ -1,7 +1,0 @@
-# #349 「index - インデックス取得」台本
-
-ずんだもん「How do we pull out the index variable?」
-四国めたん「Write `let i = index` to get a zero-based index.」
-ずんだもん「Perfect for styling odd rows.」
-四国めたん「Exactly—`[class.is-odd]="i % 2 === 1"` makes it clear.」
-ずんだもん「It also helps when showing row numbers.」

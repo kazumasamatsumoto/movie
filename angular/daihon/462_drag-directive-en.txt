@@ -1,6 +1,0 @@
-# #462 「Drag Directive - ドラッグ」台本
-
-ずんだもん「How do we build a draggable directive?」
-四国めたん「Start dragging on mousedown, update position on mousemove, and finish on mouseup-all wrapped in the directive.」
-ずんだもん「We should support touch too.」
-四国めたん「Use Pointer Events to unify the input.」

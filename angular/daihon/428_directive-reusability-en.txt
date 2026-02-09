@@ -1,6 +1,0 @@
-# #428 「Directive の再利用性」台本
-
-ずんだもん「How do we boost a directive's reusability?」
-四国めたん「Expose configuration and state via Inputs/Outputs, and keep side effects to a minimum.」
-ずんだもん「Fewer dependencies make it easier to reuse too.」
-四国めたん「Exactly-don't over-abstract, but keep its purpose crystal clear.」

@@ -1,6 +1,0 @@
-# #710 「複数バリデーターの適用」台本
-
-ずんだもん「How do we check multiple conditions at once?」
-四国めたん「Provide multiple functions in the validators array-each result appears in the errors object.」
-ずんだもん「Any advice on displaying errors?」
-四国めたん「Prioritize the most important message and show it first.」

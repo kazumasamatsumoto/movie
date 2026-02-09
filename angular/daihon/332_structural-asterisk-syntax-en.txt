@@ -1,7 +1,0 @@
-# #332 「* 構文の意味」台本
-
-ずんだもん「What does the asterisk in templates actually do?」
-四国めたん「It's syntactic sugar that Angular expands into `<ng-template>` for Structural Directives.」
-ずんだもん「So internally it's converted into a template tag?」
-四国めたん「Exactly. Manually expanding `*ngIf` makes the mechanism clear.」
-ずんだもん「For readability we usually keep using the asterisk, right.」

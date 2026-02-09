@@ -1,6 +1,0 @@
-# #419 「インタラクティブな実装」台本
-
-ずんだもん「What kinds of interactive behavior can we build?」
-四国めたん「Classic patterns like hover animations, click toggles, and focus highlights.」
-ずんだもん「Wrapping them in a directive keeps them reusable.」
-四国めたん「Yes-treat them as seeds for a UI library.」

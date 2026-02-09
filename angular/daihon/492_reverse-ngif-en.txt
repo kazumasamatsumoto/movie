@@ -1,6 +1,0 @@
-# #492 「*ngIf の逆の動作」台本
-
-ずんだもん「How do we implement the reverse of *ngIf?」
-四国めたん「Accept the condition via Input-when it's true call clear, when it's false call createEmbeddedView.」
-ずんだもん「So we're just negating the condition.」
-四国めたん「Exactly.」

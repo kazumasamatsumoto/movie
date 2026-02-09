@@ -1,6 +1,0 @@
-# #485 「テンプレートの参照」台本
-
-ずんだもん「How should we treat the template?」
-四国めたん「TemplateRef represents the template attached to the directive, so create views from it whenever needed.」
-ずんだもん「So it's the same idea as ng-template.」
-四国めたん「Yes-structural directives expand ng-template under the hood.」

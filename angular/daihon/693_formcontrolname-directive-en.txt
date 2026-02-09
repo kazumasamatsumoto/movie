@@ -1,6 +1,0 @@
-# #693 「formControlName ディレクティブ」台本
-
-ずんだもん「How do we link each input to its FormControl?」
-四国めたん「Set `formControlName="key"` to sync with the matching control in the FormGroup.」
-ずんだもん「The key must match what we defined.」
-四国めたん「Yes-mismatches cause template binding errors.」

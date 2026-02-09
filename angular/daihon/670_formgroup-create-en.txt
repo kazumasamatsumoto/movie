@@ -1,6 +1,0 @@
-# #670 「FormGroup の作成」台本
-
-ずんだもん「How do we initialize a FormGroup?」
-四国めたん「Instantiate it with `new FormGroup({ key: control })` passing a map of child controls.」
-ずんだもん「Can we nest groups?」
-四国めたん「Absolutely-declare nested FormGroups to match your data shape.」

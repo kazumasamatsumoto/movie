@@ -1,8 +1,0 @@
-# #714 「ValidatorFn 型」台本
-
-ずんだもん「ValidatorFnってどんなシグネチャなの？」
-四国めたん「AbstractControlを受け取ってValidationErrorsかnullを返す関数型です。」
-ずんだもん「controlの型はどう扱えばいい？」
-四国めたん「valueはanyなので型アサーションや型ガードを用意しましょう。」
-ずんだもん「composeなどもこの型を前提にしているんだね。」
-四国めたん「カスタムバリデーターはすべてValidatorFn互換で作ると便利です。」

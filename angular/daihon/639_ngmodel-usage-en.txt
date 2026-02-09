@@ -1,8 +1,0 @@
-# #639 「NgModel の活用」台本
-
-ずんだもん「What features does NgModel itself offer?」
-四国めたん「It holds the control's value, state flags, and errors, so you can drive UI logic.」
-ずんだもん「We can access it through a template reference variable?」
-四国めたん「Yes—declare something like `#nameCtrl="ngModel"`.」
-ずんだもん「Then style or show errors based on its properties.」
-四国めたん「Exactly—use NgModel to build a reactive UI even in template-driven forms.」

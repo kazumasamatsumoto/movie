@@ -1,6 +1,0 @@
-# #427 「カスタムイベントの発行」台本
-
-ずんだもん「What kind of custom events should we emit?」
-四国めたん「Things unique to the directive-click counts, drag states, whatever the consumer needs.」
-ずんだもん「Any naming tips?」
-四国めたん「Pick descriptive names like `(appDragMoved)` so the intent is immediately clear.」

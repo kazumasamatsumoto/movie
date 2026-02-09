@@ -1,6 +1,0 @@
-# #665 「FormControl.value プロパティ」台本
-
-ずんだもん「The value property type sometimes confuses me.」
-四国めたん「Enable the `nonNullable` option to forbid null values.」
-ずんだもん「That makes it safe to use in the template.」
-四国めたん「Just remember-never mutate the value directly, always call setValue or patchValue.」

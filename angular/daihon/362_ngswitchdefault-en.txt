@@ -1,7 +1,0 @@
-# #362 「*ngSwitchDefault - デフォルト」台本
-
-ずんだもん「How do we declare the default case?」
-四国めたん「Add a single `*ngSwitchDefault`, and it shows up whenever no case matches.」
-ずんだもん「Sounds perfect for error messages.」
-四国めたん「Exactly. Use it as a fallback to let users know the state was unexpected.」
-ずんだもん「Like putting a safety net in place!」

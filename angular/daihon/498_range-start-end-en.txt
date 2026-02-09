@@ -1,6 +1,0 @@
-# #498 「開始・終了の指定」台本
-
-ずんだもん「How do we pass the start and end values?」
-四国めたん「Define multiple Inputs like `@Input() appRangeFrom = 0; @Input() appRangeTo = 0;` so it's clear.」
-ずんだもん「Adding a step would be nice too.」
-四国めたん「Yes-support a `step` Input as well.」

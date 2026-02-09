@@ -1,6 +1,0 @@
-# #684 「FormArray の反復処理」台本
-
-ずんだもん「Any tips for iterating over a FormArray?」
-四国めたん「In the template, loop over `controls` with *ngFor and pass the index to formControlName.」
-ずんだもん「We still need to handle it in code.」
-四国めたん「Right-map controls or value to build DTOs, or use forEach for custom checks.」

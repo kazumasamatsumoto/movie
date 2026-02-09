@@ -1,6 +1,0 @@
-# #731 「ユーザー名重複チェック」台本
-
-ずんだもん「How do we prevent duplicate usernames during registration?」
-四国めたん「Call an async validator that queries the backend and return an error when it finds a match.」
-ずんだもん「But hitting the API on every keystroke is heavy.」
-四国めたん「Throttle requests with debounceTime and distinctUntilChanged.」

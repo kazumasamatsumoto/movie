@@ -1,6 +1,0 @@
-# #545 「PipeTransform インターフェース」台本
-
-ずんだもん「What is PipeTransform?」
-四国めたん「It's the interface every pipe implements, requiring a `transform(value: unknown, ...args: unknown[]): unknown` method.」
-ずんだもん「Can we add generics?」
-四国めたん「Yes-narrow the types to match your inputs and outputs.」

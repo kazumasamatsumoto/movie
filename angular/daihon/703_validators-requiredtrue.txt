@@ -1,8 +1,0 @@
-# #703 「Validators.requiredTrue - 真値必須」台本
-
-ずんだもん「チェックボックスがオンになっていることを確認したい。」
-四国めたん「Validators.requiredTrueはtrueの場合のみ有効になります。」
-ずんだもん「オプションの同意チェックに使えるね。」
-四国めたん「フォーム送信前に必須同意を確認するケースで便利です。」
-ずんだもん「エラーメッセージはrequiredTrueを見るんだ。」
-四国めたん「control.errors?.requiredTrueをチェックしましょう。」

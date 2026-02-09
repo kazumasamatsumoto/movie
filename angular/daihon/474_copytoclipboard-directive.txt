@@ -1,6 +1,0 @@
-# #474 「CopyToClipboard Directive - クリップボード」台本
-
-ずんだもん「CopyToClipboardディレクティブって何？」
-四国めたん「クリックでテキストをクリップボードにコピーし、完了通知を出すディレクティブです。」
-ずんだもん「Navigator.clipboard APIを使うんだね。」
-四国めたん「フォールバックも検討します。」

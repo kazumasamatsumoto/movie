@@ -1,7 +1,0 @@
-# #395 「ngComponentOutlet - 動的コンポーネント」台本
-
-ずんだもん「In what situations do we use ngComponentOutlet?」
-四国めたん「It lets you render a component class dynamically, perfect for plugin-like architectures.」
-ずんだもん「Can we pass along the DI context?」
-四国めたん「Yes—use `ngComponentOutletInjector` to replace dependencies as needed.」
-ずんだもん「That makes swapping UIs incredibly flexible.」

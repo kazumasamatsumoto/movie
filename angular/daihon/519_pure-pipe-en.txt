@@ -1,6 +1,0 @@
-# #519 「純粋 Pipe の仕組み」台本
-
-ずんだもん「How do pure pipes work?」
-四国めたん「Angular caches the last input and output, re-running the pipe only when the inputs change by reference.」
-ずんだもん「So immutable data fits best.」
-四国めたん「Exactly-emitting new references triggers recalculation.」

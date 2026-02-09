@@ -1,6 +1,0 @@
-# #617 「Dirty State - 変更あり」台本
-
-ずんだもん「What about the dirty state?」
-四国めたん「Dirty becomes true once the control's value differs from its initial value.」
-ずんだもん「We can use it to show unsaved changes?」
-四国めたん「Exactly—warn users before navigating away or highlight modified fields.」

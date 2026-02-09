@@ -1,6 +1,0 @@
-# #438 「使用例の記載」台本
-
-ずんだもん「Any tips for writing usage examples in the docs?」
-四国めたん「Include template snippets, Input patterns, and event handler samples so readers can use them immediately.」
-ずんだもん「Keep the code short and sweet.」
-四国めたん「Right-structure it for easy copy-paste.」

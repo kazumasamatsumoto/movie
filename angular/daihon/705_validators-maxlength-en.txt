@@ -1,6 +1,0 @@
-# #705 「Validators.maxLength() - 最大文字数」台本
-
-ずんだもん「How do we enforce a maximum length?」
-四国めたん「Use `Validators.maxLength(length)`-it errors when the string exceeds that limit.」
-ずんだもん「Combine it with the HTML maxlength attribute.」
-四国めたん「Yes-control input at the element level and provide validation feedback.」

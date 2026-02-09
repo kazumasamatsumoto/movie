@@ -1,6 +1,0 @@
-# #702 「Validators.required - 必須」台本
-
-ずんだもん「How do we enforce required input?」
-四国めたん「Use Validators.required-it flags empty strings and null values.」
-ずんだもん「Even whitespace triggers an error.」
-四国めたん「Right-trim the value before setting it if necessary.」

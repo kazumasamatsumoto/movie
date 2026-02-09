@@ -1,0 +1,22 @@
+<div class="app-container">
+  <h1>Angular Basics - #101 ngOnInit API呼び出し</h1>
+
+  <div class="toggle-buttons">
+    <button
+      [class.active]="!showBadExample()"
+      (click)="showBadExample.set(false)">
+      ✅ 正解（ngOnInit）
+    </button>
+    <button
+      [class.active]="showBadExample()"
+      (click)="showBadExample.set(true)">
+      ❌ 失敗例（constructor）
+    </button>
+  </div>
+
+  @if (showBadExample()) {
+    <app-hero-list-bad></app-hero-list-bad>
+  } @else {
+    <app-hero-list></app-hero-list>
+  }
+</div>

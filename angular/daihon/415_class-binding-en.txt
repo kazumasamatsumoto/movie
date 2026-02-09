@@ -1,6 +1,0 @@
-# #415 「class バインディング」台本
-
-ずんだもん「How do we toggle classes with HostBinding?」
-四国めたん「Bind to names with a prefix like `@HostBinding('class.is-open')`.」
-ずんだもん「Can we bind multiple classes?」
-四国めたん「Yes-declare a HostBinding per class you want to control.」

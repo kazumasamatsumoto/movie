@@ -1,6 +1,0 @@
-# #571 「AsyncPipe - 非同期パイプ」台本
-
-ずんだもん「What does AsyncPipe do?」
-四国めたん「It subscribes to an Observable or Promise in the template, shows the latest value, and even unsubscribes automatically.」
-ずんだもん「So it simplifies async display.」
-四国めたん「Exactly-safer than manual subscribe calls.」

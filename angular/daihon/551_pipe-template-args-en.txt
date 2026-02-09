@@ -1,6 +1,0 @@
-# #551 「{{ value | myPipe:arg1:arg2 }}」台本
-
-ずんだもん「What's the template syntax for passing extra pipe arguments?」
-四国めたん「Write `{{ value | myPipe:arg1:arg2 }}` and separate each argument with a colon.」
-ずんだもん「How many can we pass?」
-四国めたん「As many as your transform signature accepts.」

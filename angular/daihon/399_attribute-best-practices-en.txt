@@ -1,7 +1,0 @@
-# #399 「Attribute Directive のベストプラクティス」台本
-
-ずんだもん「What best practices should we follow for Attribute Directives?」
-四国めたん「Keep responsibilities small, manipulate the DOM safely with Renderer2, and manage side effects in lifecycle hooks.」
-ずんだもん「How do we test them?」
-四国めたん「Use a host component and assert the expected classes or attributes.」
-ずんだもん「That makes it much easier to guarantee quality.」

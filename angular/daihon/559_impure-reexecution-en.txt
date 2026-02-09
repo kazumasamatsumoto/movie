@@ -1,6 +1,0 @@
-# #559 「毎回の変更検知で再実行」台本
-
-ずんだもん「When does an impure pipe rerun?」
-四国めたん「On every change detection cycle-user events, timers, anything that triggers detection.」
-ずんだもん「That sounds costly.」
-四国めたん「It is, so keep the logic lightweight or choose another approach.」

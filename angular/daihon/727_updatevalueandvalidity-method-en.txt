@@ -1,6 +1,0 @@
-# #727 「updateValueAndValidity() メソッド」台本
-
-ずんだもん「What is updateValueAndValidity for?」
-四国めたん「It recalculates the control's state after you change values or validators.」
-ずんだもん「We can pass options too, right?」
-四国めたん「Yes-`emitEvent: false` suppresses valueChanges and statusChanges emissions.」

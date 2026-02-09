@@ -1,8 +1,0 @@
-# #603 「Reactive Forms - リアクティブフォーム」台本
-
-ずんだもん「How do we write a reactive form?」
-四国めたん「Compose FormGroup and FormControl instances in TypeScript and bind them to the template.」
-ずんだもん「Keeping the logic in TypeScript is a big plus.」
-四国めたん「Exactly—you can move validation and state management into services easily.」
-ずんだもん「It also seems test-friendly.」
-四国めたん「It is—the standard choice for large, complex forms.」

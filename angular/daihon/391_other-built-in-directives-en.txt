@@ -1,7 +1,0 @@
-# #391 「その他の組み込み Directive」台本
-
-ずんだもん「What other built-in Attribute Directives do we have?」
-四国めたん「Plenty—ngNonBindable, ngPlural, ngTemplateOutlet, ngComponentOutlet, and more.」
-ずんだもん「So we pick the one that matches the use case.」
-四国めたん「Exactly. Knowing how they work broadens what you can express in templates.」
-ずんだもん「Let's master them as a set.」

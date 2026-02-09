@@ -1,6 +1,0 @@
-# #503 「LoadingIf Directive - ローディング制御」台本
-
-ずんだもん「What is a LoadingIf directive?」
-四国めたん「It's a structural directive that displays a skeleton while loading and the real template once finished.」
-ずんだもん「Sounds great for UX.」
-四国めたん「Yes-expose the state through the context for convenience.」

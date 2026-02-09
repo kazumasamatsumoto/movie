@@ -1,6 +1,0 @@
-# #403 「Directive クラスの基本構造」台本
-
-ずんだもん「What does a Directive class look like structurally?」
-四国めたん「You declare metadata like the selector inside `@Directive`, then implement DI and lifecycle hooks on the class.」
-ずんだもん「So we can use OnInit and friends too?」
-四国めたん「Definitely-the same hooks a component has are available here.」

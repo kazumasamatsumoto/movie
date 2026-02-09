@@ -1,7 +1,0 @@
-# #398 「アニメーションとの組み合わせ」台本
-
-ずんだもん「Attribute Directiveとアニメーションを組み合わせるには？」
-四国めたん「Renderer2でクラスを切り替えてCSSアニメーションを走らせたり、Angular Animation APIを呼び出せます。」
-ずんだもん「IntersectionObserverと合わせるのもアリ？」
-四国めたん「スクロール連動エフェクトをDirectiveにまとめると使い回ししやすいです。」
-ずんだもん「演出の幅が広がるね。」

@@ -1,6 +1,0 @@
-# #589 「*ngFor=\"let item of object | keyvalue\"」台本
-
-ずんだもん「テンプレートでどう書くの？」
-四国めたん「`<div *ngFor=\"let entry of object | keyvalue\">{{ entry.key }}: {{ entry.value }}</div>`のように使います。」
-ずんだもん「キーと値が簡単に扱えるんだね。」
-四国めたん「オブジェクトをテンプレートでループできます。」

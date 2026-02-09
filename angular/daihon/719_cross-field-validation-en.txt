@@ -1,6 +1,0 @@
-# #719 「クロスフィールドバリデーション」台本
-
-ずんだもん「How do we compare two inputs for validation?」
-四国めたん「Create a FormGroup-level validator that looks at the parent control.」
-ずんだもん「So we use control.parent to navigate.」
-四国めたん「Yes-and within subgroups you can call get to access child controls.」

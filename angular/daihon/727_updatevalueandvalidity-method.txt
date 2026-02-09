@@ -1,8 +1,0 @@
-# #727 「updateValueAndValidity() メソッド」台本
-
-ずんだもん「updateValueAndValidityは何のためにあるの？」
-四国めたん「値やバリデーターを変更したあとに状態を再計算するためのメソッドです。」
-ずんだもん「オプションも渡せるんだね。」
-四国めたん「emitEvent:falseでvalueChangesやstatusChangesを抑制できます。」
-ずんだもん「onlySelfは親グループへ伝播しない設定か。」
-四国めたん「部分的に再評価したいときに使います。」

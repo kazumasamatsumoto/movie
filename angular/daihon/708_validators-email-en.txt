@@ -1,6 +1,0 @@
-# #708 「Validators.email - メールアドレス」台本
-
-ずんだもん「How do we validate an email format?」
-四国めたん「Use Validators.email for a lightweight email pattern check.」
-ずんだもん「Combine it with `type="email"`.」
-四国めたん「Yes-leveraging both input hints and validation yields the best UX.」

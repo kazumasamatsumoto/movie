@@ -1,6 +1,0 @@
-# #486 「ビューコンテナの操作」台本
-
-ずんだもん「What operations does the view container support?」
-四国めたん「Add views with `createEmbeddedView`, adjust positions with `insert`, and remove them with `clear` or `remove`.」
-ずんだもん「So we can work by index too.」
-四国めたん「Yes-managing multiple views is fully supported.」

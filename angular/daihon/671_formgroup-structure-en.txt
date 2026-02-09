@@ -1,6 +1,0 @@
-# #671 「FormGroup の構造定義」台本
-
-ずんだもん「What should we watch when defining the structure?」
-四国めたん「Decide upfront what object shape you want to work with in code.」
-ずんだもん「Aligning it with the domain model sounds smart.」
-四国めたん「Exactly-matching the API DTO reduces conversion work.」

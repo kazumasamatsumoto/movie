@@ -1,7 +1,0 @@
-# #357 「多次元配列の表示」台本
-
-ずんだもん「How do we loop when we need to render a multidimensional array?」
-四国めたん「Use an outer `*ngFor` for rows and an inner one for columns—that's the basic structure.」
-ずんだもん「What about track keys?」
-四国めたん「Provide stable keys for both rows and columns, and combine them in trackBy to minimize re-renders.」
-ずんだもん「Sounds perfect for tables and grids.」

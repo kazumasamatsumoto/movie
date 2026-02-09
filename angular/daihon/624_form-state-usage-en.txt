@@ -1,6 +1,0 @@
-# #624 「フォーム状態の活用」台本
-
-ずんだもん「How do we put these form states to use?」
-四国めたん「Combine pristine, dirty, touched, and invalid to decide when to show messages, enable buttons, or highlight fields.」
-ずんだもん「So we tailor the UX to actual user actions.」
-四国めたん「Exactly—state-aware UI avoids overwhelming users with early warnings.」

@@ -1,6 +1,0 @@
-# #548 「戻り値の型定義」台本
-
-ずんだもん「How do we specify the return type?」
-四国めたん「Annotate transform-for example `transform(value: string): string`-so editors and callers know what to expect.」
-ずんだもん「So we avoid `any`.」
-四国めたん「Exactly-typing clarifies the pipe's contract.」

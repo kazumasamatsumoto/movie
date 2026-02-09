@@ -1,6 +1,0 @@
-# #509 「カスタム Structural Directive のテスト」台本
-
-ずんだもん「How do we test a structural directive?」
-四国めたん「Use a host component, render it with TestBed, and assert the ViewContainer output and context.」
-ずんだもん「Can we test observers or async logic too?」
-四国めたん「Yes-verify that the template switches as expected in the TestBed.」

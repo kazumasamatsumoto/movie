@@ -1,6 +1,0 @@
-# #627 「フォームのデバッグ」台本
-
-ずんだもん「Any tips for debugging forms?」
-四国めたん「Inspect controls via template references, log valueChanges/statusChanges, and display JSON snapshots with JsonPipe.」
-ずんだもん「Can we hook into DevTools too?」
-四国めたん「Yes—Angular DevTools visualizes form structures and states in real time.」

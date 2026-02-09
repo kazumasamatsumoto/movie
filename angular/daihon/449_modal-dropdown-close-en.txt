@@ -1,6 +1,0 @@
-# #449 「モーダル・ドロップダウンの閉じる処理」台本
-
-ずんだもん「Is ClickOutside perfect for closing modals?」
-四国めたん「Yes-detect the exit click and fire an Output event to trigger the close logic.」
-ずんだもん「Dropdowns can reuse the same approach.」
-四国めたん「Exactly-mix in focus-out handling when it helps.」

@@ -1,7 +1,0 @@
-# #394 「ngTemplateOutlet - テンプレート挿入」台本
-
-ずんだもん「How do we use ngTemplateOutlet?」
-四国めたん「It inserts a referenced template dynamically, letting you swap reusable views.」
-ずんだもん「So we can inject custom templates from outside a component.」
-四国めたん「Exactly—great for tables, cards, and other customizable layouts.」
-ずんだもん「That promises super flexible UIs.」

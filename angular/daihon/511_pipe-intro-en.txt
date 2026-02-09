@@ -1,6 +1,0 @@
-# #511 「Pipe とは？データ変換」台本
-
-ずんだもん「What does a pipe do?」
-四国めたん「It formats or transforms values right in the template, using syntax like `value | pipeName`.」
-ずんだもん「So it changes only the view.」
-四国めたん「Yes-it standardizes presentation without mutating the data itself.」

@@ -1,6 +1,0 @@
-# #408 「クリックイベントの監視」台本
-
-ずんだもん「How do we listen for click events?」
-四国めたん「Declare `@HostListener('click')` on a method to react to button presses and the like.」
-ずんだもん「Can we call preventDefault there too?」
-四国めたん「Yes-accept `$event` and control it as needed.」
